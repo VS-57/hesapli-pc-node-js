@@ -12,6 +12,10 @@ async function scrapeProduct(page, url) {
     const product = await page.evaluate(() => {
       const urunBasligiEleman = document.querySelector("h1.product_title");
       const urunFiyatiEleman = document.querySelector("p.price");
+      const imageElement = document.querySelector(
+        ".woocommerce-product-gallery__image img"
+      ); // Corrected selector for image
+
       const urunAciklamasiEleman = document.querySelector(
         "div.woocommerce-product-details__short-description"
       );
@@ -23,10 +27,13 @@ async function scrapeProduct(page, url) {
         ? urunBasligiEleman.textContent.trim()
         : "N/A";
 
+      const image = imageElement ? imageElement.src : null;
+
       let urunFiyati = "N/A";
       if (urunFiyatiEleman) {
         const fiyat = urunFiyatiEleman.textContent.trim();
         urunFiyati = fiyat.split("Şu andaki fiyat")[1] || "N/A";
+        urunFiyati = parseFloat(urunFiyati.replace(/[^\d,]/g, "").replace(",", ".")) || 0; 
       }
 
       let urunAciklamasi = "N/A";
@@ -37,7 +44,7 @@ async function scrapeProduct(page, url) {
           let rowObject = {};
           if (tds.length >= 2) {
             rowObject = {
-              "CPU": tds[1].innerText,
+              "": tds[1].innerText,
             };
           }
           return rowObject;
@@ -50,6 +57,7 @@ async function scrapeProduct(page, url) {
         title: urunBasligi,
         price: urunFiyati,
         description: urunAciklamasi,
+        image: image,
       };
     });
 
@@ -95,7 +103,7 @@ async function clickFibofiltersButton(page) {
     const linesToRemove = []; // Silinmesi gereken satırları buraya ekleyin
     const products = [];
 
-    for (const productUrl of productLinks.slice(0,1)) {
+    for (const productUrl of productLinks.slice(0, 1)) {
       const product = await scrapeProduct(page, productUrl);
 
       if (product) {
@@ -106,12 +114,13 @@ async function clickFibofiltersButton(page) {
         const filteredLines = lines.filter(
           (line) => !linesToRemove.includes(line.trim()) && line.trim()
         );
-        const removedLines = filteredLines.slice(1,filteredLines.length);
+        const removedLines = filteredLines.slice(1, filteredLines.length);
 
         products.push({
           link: productUrl,
           name: product.title,
           price: product.price,
+          image: product.image,
           specs: {
             CPU: removedLines[0] || "N/A",
             Motherboard: removedLines[1] || "N/A",
