@@ -94,7 +94,7 @@ async function fetchAllProducts(totalPages) {
  * /api/game-garaj:
  *   get:
  *     summary: Get all products from Game Garaj
- *     description: Fetches a list of products from Game Garaj across multiple pages.  
+ *     description: Fetches a list of products from Game Garaj across multiple pages.
  *     responses:
  *       200:
  *         description: A list of products
