@@ -103,7 +103,7 @@ async function clickFibofiltersButton(page) {
     const linesToRemove = []; // Silinmesi gereken satırları buraya ekleyin
     const products = [];
 
-    for (const productUrl of productLinks.slice(0, 1)) {
+    for (const productUrl of productLinks) {
       const product = await scrapeProduct(page, productUrl);
 
       if (product) {
