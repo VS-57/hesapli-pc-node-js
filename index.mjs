@@ -21,5 +21,5 @@ app.use("/api/vatan", vatanRouter);
 setupSwagger(app);
 
 app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}`);
+  console.log(`Server is running on http://localhost:${port}/api-docs`);
 });
