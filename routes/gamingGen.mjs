@@ -33,7 +33,8 @@ async function scrapeProduct(page, url) {
       if (urunFiyatiEleman) {
         const fiyat = urunFiyatiEleman.textContent.trim();
         urunFiyati = fiyat.split("Şu andaki fiyat")[1] || "N/A";
-        urunFiyati = parseFloat(urunFiyati.replace(/[^\d,]/g, "").replace(",", ".")) || 0; 
+        urunFiyati =
+          parseFloat(urunFiyati.replace(/[^\d,]/g, "").replace(",", ".")) || 0;
       }
 
       let urunAciklamasi = "N/A";
@@ -89,7 +90,7 @@ async function clickFibofiltersButton(page) {
   );
   console.log(`Found ${buttons.length} buttons`);
 
-  if (/* buttons.length > 0 */ false) {
+  if (buttons.length > 0) {
     for (const button of buttons) {
       console.log("Clicking button");
       await button.click();
