@@ -1,42 +1,70 @@
-import express from 'express';
-import fetch from 'node-fetch';
-import { JSDOM } from 'jsdom';
+import express from "express";
+import fetch from "node-fetch";
+import { JSDOM } from "jsdom";
 
 const router = express.Router();
 
 async function fetchPageData(page) {
-    const response = await fetch(`https://www.itopya.com/HazirSistemler?pg=${page}`);
-    const text = await response.text();
-    const dom = new JSDOM(text);
-    return dom.window.document;
+  const response = await fetch(
+    `https://www.itopya.com/HazirSistemler?pg=${page}`
+  );
+  const text = await response.text();
+  const dom = new JSDOM(text);
+  return dom.window.document;
 }
 
 function parseProducts(doc) {
-    const productElements = doc.querySelectorAll('.product');
-    return Array.from(productElements).map(product => {
-        const brandImage = product.querySelector('.brand img').getAttribute('data-src');
-        const productImage = product.querySelector('.product-header .image img').getAttribute('data-src');
-        const title = product.querySelector('.title').textContent.trim();
-        const link = product.querySelector('.title').getAttribute('href');
-        const price = product.querySelector('.price strong').textContent.trim();
-        const specs = Array.from(product.querySelectorAll('.product-body ul li')).map(li => ({
-            specIcon: li.querySelector('img').getAttribute('src'),
-            specText: li.querySelector('p').textContent.trim()
-        }));
-        return { brandImage, productImage, title, link, price, specs };
-    });
+  const productElements = doc.querySelectorAll(".product");
+  return Array.from(productElements).map((product) => {
+    const productImage = product
+      .querySelector(".brand img")
+      .getAttribute("data-src");
+    const image = product
+      .querySelector(".product-header .image img")
+      .getAttribute("data-src");
+    const name = product.querySelector(".title").textContent.trim();
+    const link =
+      "https://www.itopya.com" +
+      product.querySelector(".title").getAttribute("href");
+    const priceText = product
+      .querySelector(".price strong")
+      .textContent.trim()
+      .replace(/\s+/g, " ");
+    const price =
+      parseFloat(priceText.replace(/[^\d,]/g, "").replace(",", ".")) || 0;
+
+    const specsArray = Array.from(
+      product.querySelectorAll(".product-body ul li")
+    ).map((li) => ({
+      specIcon: li.querySelector("img").getAttribute("src"),
+      specText: li.querySelector("p").textContent.trim(),
+    }));
+
+    const specs = {
+      CPU: specsArray.find((spec) => spec.specText.includes("İşlemci"))
+        .specText,
+      Motherboard: specsArray.find((spec) => spec.specText.includes("Anakart"))
+        .specText,
+      GPU: specsArray.find((spec) => spec.specText.includes("Ekran Kartı"))
+        .specText,
+      Ram: specsArray.find((spec) => spec.specText.includes("RAM")).specText,
+      Storage: specsArray.find((spec) => spec.specText.includes("SSD"))
+        .specText,
+    };
+
+    return { name, price, image, link, specs };
+  });
 }
 
 async function fetchAllProducts(totalPages) {
-    let allProducts = [];
-    for (let page = 1; page <= totalPages; page++) {
-        const doc = await fetchPageData(page);
-        const products = parseProducts(doc);
-        allProducts = allProducts.concat(products);
-    }
-    return allProducts;
+  let allProducts = [];
+  for (let page = 1; page <= totalPages; page++) {
+    const doc = await fetchPageData(page);
+    const products = parseProducts(doc);
+    allProducts = allProducts.concat(products);
+  }
+  return allProducts;
 }
-
 
 /**
  * @swagger
@@ -73,14 +101,14 @@ async function fetchAllProducts(totalPages) {
  *                         specText:
  *                           type: string
  */
-router.get('/', async (req, res) => {
-    try {
-        const totalPages = 24;
-        const products = await fetchAllProducts(totalPages);
-        res.json(products);
-    } catch (error) {
-        res.status(500).json({ error: error.message });
-    }
+router.get("/", async (req, res) => {
+  try {
+    const totalPages = 1;
+    const products = await fetchAllProducts(totalPages);
+    res.json(products);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
 });
 
 export default router;

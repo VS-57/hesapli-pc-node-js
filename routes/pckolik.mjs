@@ -11,17 +11,45 @@ async function fetchAndScrapeProductData(url) {
   const doc = dom.window.document;
   const products = [];
   const productCards = doc.querySelectorAll(".product-card.pc");
+
   productCards.forEach((card) => {
     const nameElement = card.querySelector(".name");
     const priceElement = card.querySelector(".price-new span");
     const featuresList = card.querySelectorAll("ul li span");
+    const imageElement = card.querySelector(".img-crop img");
+    const linkElement = card.querySelector(".img-crop");
+
     const name = nameElement ? nameElement.textContent.trim() : "N/A";
-    const price = priceElement ? priceElement.textContent.trim() : "N/A";
+    const priceText = priceElement
+      ? priceElement.textContent.trim().replace(/\s+/g, " ")
+      : "0";
+    const price =
+      parseFloat(priceText.replace(/[^\d,]/g, "").replace(",", ".")) || 0;
+
+    const image = imageElement
+      ? "https://pckolik.com/" + imageElement.getAttribute("src")
+      : "N/A";
+    const link = linkElement
+      ? "https://pckolik.com" + linkElement.getAttribute("href")
+      : "N/A";
+
+    // Array.from(featuresList) ile features'ı al ve ilk üç elemanı 'specs' olarak düzenle
     const features = Array.from(featuresList).map((feature) =>
       feature.textContent.trim()
     );
-    products.push({ name, price, features });
+
+    const specs = {
+      CPU: features[0] || "N/A",
+      Motherboard: features[1] || "N/A",
+      GPU: features[2] || "N/A",
+      Ram: features[3] || "N/A",
+      Case: features[4] || "N/A",
+      Storage: features[5] || "N/A",
+    };
+
+    products.push({ name, price, image, link, specs });
   });
+
   return products;
 }
 
@@ -53,10 +81,23 @@ async function scrapeMultiplePages(urls) {
  *                     type: string
  *                   price:
  *                     type: string
- *                   features:
- *                     type: array
- *                     items:
- *                       type: string
+ *                   specs:
+ *                     type: object
+ *                     properties:
+ *                       CPU:
+ *                         type: string
+ *                       GPU:
+ *                         type: string
+ *                       motherboard:
+ *                         type: string
+ *                       ram:
+ *                         type: string
+ *                   img:
+ *                     type: string
+ *                     description: URL of the product image
+ *                   productLink:
+ *                     type: string
+ *                     description: URL of the product page
  */
 router.get("/", async (req, res) => {
   const baseUrl = "https://pckolik.com/tr/pc/hazir-sistemler";
