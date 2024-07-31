@@ -81,6 +81,12 @@ async function scrapeMultiplePages(urls) {
  *                     type: string
  *                   price:
  *                     type: string
+ *                   img:
+ *                     type: string
+ *                     description: URL of the product image
+ *                   link:
+ *                     type: string
+ *                     description: URL of the product page
  *                   specs:
  *                     type: object
  *                     properties:
@@ -92,12 +98,7 @@ async function scrapeMultiplePages(urls) {
  *                         type: string
  *                       ram:
  *                         type: string
- *                   img:
- *                     type: string
- *                     description: URL of the product image
- *                   productLink:
- *                     type: string
- *                     description: URL of the product page
+ *                  
  */
 router.get("/", async (req, res) => {
   const baseUrl = "https://pckolik.com/tr/pc/hazir-sistemler";

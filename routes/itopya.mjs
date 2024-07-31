@@ -81,8 +81,6 @@ async function fetchAllProducts(totalPages) {
  *               items:
  *                 type: object
  *                 properties:
- *                   brandImage:
- *                     type: string
  *                   productImage:
  *                     type: string
  *                   title:
