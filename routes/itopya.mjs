@@ -101,7 +101,7 @@ async function fetchAllProducts(totalPages) {
  */
 router.get("/", async (req, res) => {
   try {
-    const totalPages = 1;
+    const totalPages = 24;
     const products = await fetchAllProducts(totalPages);
     res.json(products);
   } catch (error) {
