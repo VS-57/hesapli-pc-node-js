@@ -99,7 +99,7 @@
   <script>
     async function getProducts() {
       try {
-        const response = await fetch("http://localhost:3000/api/getAll", {
+        const response = await fetch("https://hesaplipc.up.railway.app/api/getAll", {
           method: "GET",
           headers: {
             "Content-Type": "application/json",
@@ -113,37 +113,27 @@
       }
     }
 
-    document
-      .getElementById("filterInput")
-      .addEventListener("keyup", function () {
+    document.getElementById("filterInput").addEventListener("keyup", function () {
+      filterProducts();
+    });
+
+    document.getElementById("startPrice").addEventListener("input", function () {
+      filterProducts();
+    });
+
+    document.getElementById("endPrice").addEventListener("input", function () {
+      filterProducts();
+    });
+
+    document.getElementById("sortOrder").addEventListener("change", function () {
+      filterProducts();
+    });
+
+    document.querySelectorAll(".form-check-input").forEach(function (checkbox) {
+      checkbox.addEventListener("change", function () {
         filterProducts();
       });
-
-    document
-      .getElementById("startPrice")
-      .addEventListener("input", function () {
-        filterProducts();
-      });
-
-    document
-      .getElementById("endPrice")
-      .addEventListener("input", function () {
-        filterProducts();
-      });
-
-    document
-      .getElementById("sortOrder")
-      .addEventListener("change", function () {
-        filterProducts();
-      });
-
-    document
-      .querySelectorAll(".form-check-input")
-      .forEach(function (checkbox) {
-        checkbox.addEventListener("change", function () {
-          filterProducts();
-        });
-      });
+    });
 
     document.addEventListener("DOMContentLoaded", async function () {
       const products = await getProducts();
@@ -152,52 +142,31 @@
     });
 
     async function filterProducts() {
-      const filterValue = document
-        .getElementById("filterInput")
-        .value.toLowerCase();
-      const startPrice =
-        Number(document.getElementById("startPrice").value) || 0;
-      const endPrice =
-        Number(document.getElementById("endPrice").value) || Infinity;
-      const selectedCPUs = Array.from(
-        document.querySelectorAll(".form-check-input:checked")
-      )
-        .filter(
-          (checkbox) =>
-            checkbox.id.includes("Intel") || checkbox.id.includes("AMD")
-        )
+      const filterValue = document.getElementById("filterInput").value.toLowerCase();
+      const startPrice = Number(document.getElementById("startPrice").value) || 0;
+      const endPrice = Number(document.getElementById("endPrice").value) || Infinity;
+      const selectedCPUs = Array.from(document.querySelectorAll(".form-check-input:checked"))
+        .filter((checkbox) => checkbox.id.includes("Intel") || checkbox.id.includes("AMD"))
         .map((checkbox) => checkbox.value.toLowerCase());
 
-      const selectedGPUs = Array.from(
-        document.querySelectorAll(".form-check-input:checked")
-      )
-        .filter(
-          (checkbox) =>
-            checkbox.id.includes("RTX") || checkbox.id.includes("RX")
-        )
+      const selectedGPUs = Array.from(document.querySelectorAll(".form-check-input:checked"))
+        .filter((checkbox) => checkbox.id.includes("RTX") || checkbox.id.includes("RX"))
         .map((checkbox) => checkbox.value.toLowerCase());
       const sortOrder = document.getElementById("sortOrder").value;
 
       const products = await getProducts();
       let filteredProducts = products.filter(function (product) {
-        const matchesFilter = product.name
-          .toLowerCase()
-          .includes(filterValue);
-        const matchesPrice =
-          product.price >= startPrice && product.price <= endPrice;
+        const matchesFilter = product.name.toLowerCase().includes(filterValue);
+        const matchesPrice = product.price >= startPrice && product.price <= endPrice;
 
         let matchesCPU = true;
         if (selectedCPUs.length > 0) {
-          matchesCPU = selectedCPUs.some((cpu) =>
-            product.specs.CPU?.toLowerCase().includes(cpu)
-          );
+          matchesCPU = selectedCPUs.some((cpu) => product.specs.CPU?.toLowerCase().includes(cpu));
         }
 
         let matchesGPU = true;
         if (selectedGPUs.length > 0) {
-          matchesGPU = selectedGPUs.some((gpu) =>
-            product.specs.GPU?.toLowerCase().includes(gpu)
-          );
+          matchesGPU = selectedGPUs.some((gpu) => product.specs.GPU?.toLowerCase().includes(gpu));
         }
 
         return matchesFilter && matchesPrice && matchesCPU && matchesGPU;
@@ -210,8 +179,7 @@
       }
 
       renderProducts(filteredProducts);
-      document.getElementById("productCount").textContent =
-        filteredProducts.length;
+      document.getElementById("productCount").textContent = filteredProducts.length;
     }
 
     function renderProducts(products) {
@@ -223,6 +191,7 @@
           style: "currency",
           currency: "TRY",
         }).format(product.price ?? 0);
+
 
         const productCard = `
             <div class="col-md-4 product-item">
