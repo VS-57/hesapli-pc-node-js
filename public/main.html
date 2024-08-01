@@ -1,273 +1,241 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ürün Listesi</title>
-    <link
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      rel="stylesheet"
-    />
-    <style>
-      .product-card {
-        margin-bottom: 30px;
-      }
-      .product-image {
-        height: 200px;
-        object-fit: contain;
-      }
-      .card-body {
-        font-size: 0.9rem;
-      }
-      .filter-sidebar {
-        border-right: 1px solid #ddd;
-        padding-right: 20px;
-      }
-      .filter-sidebar h5 {
-        margin-top: 20px;
-      }
-    </style>
-  </head>
-  <body>
-    <div style="margin: 10px">
-      <h1 class="text-center mb-5">Ürün Listesi</h1>
-      <div class="row">
-        <div class="col-md-3 filter-sidebar" style="margin-left: 15px">
-          <h5>Filtreler</h5>
-          <div class="form-group">
-            <label for="startPrice">Başlangıç Fiyatı</label>
-            <input
-              type="number"
-              id="startPrice"
-              class="form-control"
-              placeholder="0"
-            />
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ürün Listesi</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet" />
+  <style>
+    .product-card {
+      margin-bottom: 30px;
+    }
+
+    .product-image {
+      height: 200px;
+      object-fit: contain;
+    }
+
+    .card-body {
+      font-size: 0.9rem;
+    }
+
+    .filter-sidebar {
+      border-right: 1px solid #ddd;
+      padding-right: 20px;
+    }
+
+    .filter-sidebar h5 {
+      margin-top: 20px;
+    }
+  </style>
+</head>
+
+<body>
+  <div style="margin: 10px">
+    <h1 class="text-center mb-5">Ürün Listesi</h1>
+    <div class="row">
+      <div class="col-md-3 filter-sidebar" style="margin-left: 15px">
+        <h5>Filtreler</h5>
+        <div class="form-group">
+          <label for="startPrice">Başlangıç Fiyatı</label>
+          <input type="number" id="startPrice" class="form-control" placeholder="0" />
+        </div>
+        <div class="form-group">
+          <label for="endPrice">Bitiş Fiyatı</label>
+          <input type="number" id="endPrice" class="form-control" placeholder="35000" />
+        </div>
+        <div class="form-group">
+          <label>İşlemci Markası</label><br />
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="Intel" id="Intel" />
+            <label class="form-check-label" for="Intel">Intel</label>
           </div>
-          <div class="form-group">
-            <label for="endPrice">Bitiş Fiyatı</label>
-            <input
-              type="number"
-              id="endPrice"
-              class="form-control"
-              placeholder="35000"
-            />
-          </div>
-          <div class="form-group">
-            <label>İşlemci Markası</label><br />
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value="Intel"
-                id="Intel"
-              />
-              <label class="form-check-label" for="Intel">Intel</label>
-            </div>
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value="AMD"
-                id="AMD"
-              />
-              <label class="form-check-label" for="AMD">AMD</label>
-            </div>
-          </div>
-          <div class="form-group">
-            <label>Ekran Kartı Markası</label><br />
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value="RTX"
-                id="RTX"
-              />
-              <label class="form-check-label" for="RTX">NVIDIA</label>
-            </div>
-            <div class="form-check">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value="RX"
-                id="RX"
-              />
-              <label class="form-check-label" for="RX">AMD</label>
-            </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="AMD" id="AMD" />
+            <label class="form-check-label" for="AMD">AMD</label>
           </div>
         </div>
-        <div class="col-md-8">
-          <div class="row mb-4">
-            <div class="col-md-4">
-              <input
-                type="text"
-                id="filterInput"
-                class="form-control"
-                placeholder="Ürün adında ara..."
-              />
-            </div>
-            <div class="col-md-3">
-              <select id="sortOrder" class="form-control">
-                <option value="default">Sırala</option>
-                <option value="lowToHigh">Fiyat: Düşükten Yükseğe</option>
-                <option value="highToLow">Fiyat: Yüksekten Düşüğe</option>
-              </select>
-            </div>
-            <div style="margin-top: 3px">
-              <p style="display: inline; margin: 0 15px">Ürün Sayısı</p>
-              <p id="productCount" style="display: inline; margin: 0 10px">0</p>
-            </div>
+        <div class="form-group">
+          <label>Ekran Kartı Markası</label><br />
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="RTX" id="RTX" />
+            <label class="form-check-label" for="RTX">NVIDIA</label>
           </div>
-
-          <div class="row" id="productList">
-            <!-- Ürün Kartları burada görüntülenecek -->
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="RX" id="RX" />
+            <label class="form-check-label" for="RX">AMD</label>
           </div>
         </div>
       </div>
+      <div class="col-md-8">
+        <div class="row mb-4">
+          <div class="col-md-4">
+            <input type="text" id="filterInput" class="form-control" placeholder="Ürün adında ara..." />
+          </div>
+          <div class="col-md-3">
+            <select id="sortOrder" class="form-control">
+              <option value="default">Sırala</option>
+              <option value="lowToHigh">Fiyat: Düşükten Yükseğe</option>
+              <option value="highToLow">Fiyat: Yüksekten Düşüğe</option>
+            </select>
+          </div>
+          <div style="margin-top: 3px">
+            <p style="display: inline; margin: 0 15px">Ürün Sayısı</p>
+            <p id="productCount" style="display: inline; margin: 0 10px">0</p>
+          </div>
+        </div>
+
+        <div class="row" id="productList">
+          <!-- Ürün Kartları burada görüntülenecek -->
+        </div>
+      </div>
     </div>
+  </div>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script>
-      async function getProducts() {
-        try {
-          const response = await fetch("http://localhost:3000/api/getAll", {
-            method: "GET",
-            headers: {
-              "Content-Type": "application/json",
-            },
-          });
-          const data = await response.json();
-          return data;
-        } catch (error) {
-          console.error("Error:", error);
-          return [];
-        }
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script>
+    async function getProducts() {
+      try {
+        const response = await fetch("http://localhost:3000/api/getAll", {
+          method: "GET",
+          headers: {
+            "Content-Type": "application/json",
+          },
+        });
+        const data = await response.json();
+        return data;
+      } catch (error) {
+        console.error("Error:", error);
+        return [];
       }
+    }
 
-      document
-        .getElementById("filterInput")
-        .addEventListener("keyup", function () {
-          filterProducts();
-        });
-
-      document
-        .getElementById("startPrice")
-        .addEventListener("input", function () {
-          filterProducts();
-        });
-
-      document
-        .getElementById("endPrice")
-        .addEventListener("input", function () {
-          filterProducts();
-        });
-
-      document
-        .getElementById("sortOrder")
-        .addEventListener("change", function () {
-          filterProducts();
-        });
-
-      document
-        .querySelectorAll(".form-check-input")
-        .forEach(function (checkbox) {
-          checkbox.addEventListener("change", function () {
-            filterProducts();
-          });
-        });
-
-      document.addEventListener("DOMContentLoaded", async function () {
-        const products = await getProducts();
-        renderProducts(products);
-        document.getElementById("productCount").textContent = products.length;
+    document
+      .getElementById("filterInput")
+      .addEventListener("keyup", function () {
+        filterProducts();
       });
 
-      async function filterProducts() {
-        const filterValue = document
-          .getElementById("filterInput")
-          .value.toLowerCase();
-        const startPrice =
-          Number(document.getElementById("startPrice").value) || 0;
-        const endPrice =
-          Number(document.getElementById("endPrice").value) || Infinity;
-        const selectedCPUs = Array.from(
-          document.querySelectorAll(".form-check-input:checked")
-        )
-          .filter(
-            (checkbox) =>
-              checkbox.id.includes("Intel") || checkbox.id.includes("AMD")
-          )
-          .map((checkbox) => checkbox.value.toLowerCase());
+    document
+      .getElementById("startPrice")
+      .addEventListener("input", function () {
+        filterProducts();
+      });
 
-        const selectedGPUs = Array.from(
-          document.querySelectorAll(".form-check-input:checked")
-        )
-          .filter(
-            (checkbox) =>
-              checkbox.id.includes("RTX") || checkbox.id.includes("RX")
-          )
-          .map((checkbox) => checkbox.value.toLowerCase());
-        const sortOrder = document.getElementById("sortOrder").value;
+    document
+      .getElementById("endPrice")
+      .addEventListener("input", function () {
+        filterProducts();
+      });
 
-        const products = await getProducts();
-        let filteredProducts = products.filter(function (product) {
-          const matchesFilter = product.name
-            .toLowerCase()
-            .includes(filterValue);
-          const matchesPrice =
-            product.price >= startPrice && product.price <= endPrice;
+    document
+      .getElementById("sortOrder")
+      .addEventListener("change", function () {
+        filterProducts();
+      });
 
-          let matchesCPU = true;
-          if (selectedCPUs.length > 0) {
-            matchesCPU = selectedCPUs.some((cpu) =>
-              product.specs.CPU?.toLowerCase().includes(cpu)
-            );
-          }
-
-          let matchesGPU = true;
-          if (selectedGPUs.length > 0) {
-            matchesGPU = selectedGPUs.some((gpu) =>
-              product.specs.GPU?.toLowerCase().includes(gpu)
-            );
-          }
-
-          return matchesFilter && matchesPrice && matchesCPU && matchesGPU;
+    document
+      .querySelectorAll(".form-check-input")
+      .forEach(function (checkbox) {
+        checkbox.addEventListener("change", function () {
+          filterProducts();
         });
+      });
 
-        if (sortOrder === "lowToHigh") {
-          filteredProducts.sort((a, b) => a.price - b.price);
-        } else if (sortOrder === "highToLow") {
-          filteredProducts.sort((a, b) => b.price - a.price);
+    document.addEventListener("DOMContentLoaded", async function () {
+      const products = await getProducts();
+      renderProducts(products);
+      document.getElementById("productCount").textContent = products.length;
+    });
+
+    async function filterProducts() {
+      const filterValue = document
+        .getElementById("filterInput")
+        .value.toLowerCase();
+      const startPrice =
+        Number(document.getElementById("startPrice").value) || 0;
+      const endPrice =
+        Number(document.getElementById("endPrice").value) || Infinity;
+      const selectedCPUs = Array.from(
+        document.querySelectorAll(".form-check-input:checked")
+      )
+        .filter(
+          (checkbox) =>
+            checkbox.id.includes("Intel") || checkbox.id.includes("AMD")
+        )
+        .map((checkbox) => checkbox.value.toLowerCase());
+
+      const selectedGPUs = Array.from(
+        document.querySelectorAll(".form-check-input:checked")
+      )
+        .filter(
+          (checkbox) =>
+            checkbox.id.includes("RTX") || checkbox.id.includes("RX")
+        )
+        .map((checkbox) => checkbox.value.toLowerCase());
+      const sortOrder = document.getElementById("sortOrder").value;
+
+      const products = await getProducts();
+      let filteredProducts = products.filter(function (product) {
+        const matchesFilter = product.name
+          .toLowerCase()
+          .includes(filterValue);
+        const matchesPrice =
+          product.price >= startPrice && product.price <= endPrice;
+
+        let matchesCPU = true;
+        if (selectedCPUs.length > 0) {
+          matchesCPU = selectedCPUs.some((cpu) =>
+            product.specs.CPU?.toLowerCase().includes(cpu)
+          );
         }
 
-        renderProducts(filteredProducts);
-        document.getElementById("productCount").textContent =
-          filteredProducts.length;
+        let matchesGPU = true;
+        if (selectedGPUs.length > 0) {
+          matchesGPU = selectedGPUs.some((gpu) =>
+            product.specs.GPU?.toLowerCase().includes(gpu)
+          );
+        }
+
+        return matchesFilter && matchesPrice && matchesCPU && matchesGPU;
+      });
+
+      if (sortOrder === "lowToHigh") {
+        filteredProducts.sort((a, b) => a.price - b.price);
+      } else if (sortOrder === "highToLow") {
+        filteredProducts.sort((a, b) => b.price - a.price);
       }
 
-      function renderProducts(products) {
-        const productList = document.getElementById("productList");
-        productList.innerHTML = "";
+      renderProducts(filteredProducts);
+      document.getElementById("productCount").textContent =
+        filteredProducts.length;
+    }
 
-        products.forEach(function (product) {
-          const formattedPrice = new Intl.NumberFormat("tr-TR", {
-            style: "currency",
-            currency: "TRY",
-          }).format(product.price ?? 0);
+    function renderProducts(products) {
+      const productList = document.getElementById("productList");
+      productList.innerHTML = "";
 
-          const productCard = `
+      products.forEach(function (product) {
+        const formattedPrice = new Intl.NumberFormat("tr-TR", {
+          style: "currency",
+          currency: "TRY",
+        }).format(product.price ?? 0);
+
+        const productCard = `
             <div class="col-md-4 product-item">
                 <div class="card product-card">
                     <img src="${product.image}" class="card-img-top product-image" alt="${product.name}" onerror="this.onerror=null;this.src='https://previews.123rf.com/images/blankstock/blankstock1812/blankstock181201188/113234166-no-or-stop-sign-computer-line-icon-pc-component-sign-monitor-with-case-symbol-caution-prohibited-ban.jpg';">
                     <div class="card-body">
                         <h5 class="card-title">${product.name}</h5>
                         <ul class="list-unstyled">
-                            <li><strong>CPU:</strong> ${product.specs.CPU}</li>
-                            <li><strong>GPU:</strong> ${product.specs.GPU}</li>
-                            <li><strong>Motherboard:</strong> ${product.specs.Motherboard}</li>
-                            <li><strong>RAM:</strong> ${product.specs.RAM}</li>
-                            <li><strong>Storage:</strong> ${product.specs.Storage}</li>
+                            <li><strong>CPU:</strong> ${product.specs.CPU ?? ""}</li>
+                            <li><strong>GPU:</strong> ${product.specs.GPU ?? ""}</li>
+                            <li><strong>Motherboard:</strong> ${product.specs.Motherboard ?? ""}</li>
+                            <li><strong>RAM:</strong> ${product.specs.RAM ?? ""}</li>
+                            <li><strong>Storage:</strong> ${product.specs.Storage ?? ""}</li>
                         </ul>
                         <p class="card-text"><strong>Fiyat: ${formattedPrice}</strong></p>
                         <a href="${product.link}" class="btn btn-primary">Detayları Gör</a>
@@ -275,9 +243,10 @@
                 </div>
             </div>
           `;
-          productList.insertAdjacentHTML("beforeend", productCard);
-        });
-      }
-    </script>
-  </body>
+        productList.insertAdjacentHTML("beforeend", productCard);
+      });
+    }
+  </script>
+</body>
+
 </html>
