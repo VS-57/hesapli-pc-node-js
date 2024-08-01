@@ -176,8 +176,10 @@
         const filterValue = document
           .getElementById("filterInput")
           .value.toLowerCase();
-        const startPrice = Number(document.getElementById("startPrice").value);
-        const endPrice = Number(document.getElementById("endPrice").value);
+        const startPrice =
+          Number(document.getElementById("startPrice").value) || 0;
+        const endPrice =
+          Number(document.getElementById("endPrice").value) || Infinity;
         const selectedCPUs = Array.from(
           document.querySelectorAll(".form-check-input:checked")
         )
@@ -185,7 +187,8 @@
             (checkbox) =>
               checkbox.id.includes("Intel") || checkbox.id.includes("AMD")
           )
-          .map((checkbox) => checkbox.value);
+          .map((checkbox) => checkbox.value.toLowerCase());
+
         const selectedGPUs = Array.from(
           document.querySelectorAll(".form-check-input:checked")
         )
@@ -193,28 +196,27 @@
             (checkbox) =>
               checkbox.id.includes("NVIDIA") || checkbox.id.includes("AMD_GPU")
           )
-          .map((checkbox) => checkbox.value);
+          .map((checkbox) => checkbox.value.toLowerCase());
 
         const products = await getProducts();
         const filteredProducts = products.filter(function (product) {
           const matchesFilter = product.name
             .toLowerCase()
             .includes(filterValue);
-
           const matchesPrice =
             product.price >= startPrice && product.price <= endPrice;
 
           let matchesCPU = true;
           if (selectedCPUs.length > 0) {
             matchesCPU = selectedCPUs.some((cpu) =>
-              product.specs.CPU.includes(cpu)
+              product.specs.CPU?.toLowerCase().includes(cpu)
             );
           }
 
           let matchesGPU = true;
           if (selectedGPUs.length > 0) {
             matchesGPU = selectedGPUs.some((gpu) =>
-              product.specs.GPU.includes(gpu)
+              product.specs.GPU.toLowerCase().includes(gpu)
             );
           }
 
