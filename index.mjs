@@ -1,4 +1,7 @@
 import express from "express";
+import cors from "cors";
+import path from "path";
+import { fileURLToPath } from "url"; // URL modülünü içe aktarın
 import gameGarajRouter from "./routes/gameGaraj.mjs";
 import gamingGenRouter from "./routes/gamingGen.mjs";
 import itopyaRouter from "./routes/itopya.mjs";
@@ -10,7 +13,28 @@ import setupSwagger from "./swagger/swagger.mjs";
 const app = express();
 const port = 3000;
 
+// __filename ve __dirname değişkenlerini tanımlayın
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+
+/* const corsOptions = {
+  origin: ['http://example.com', 'http://anotherdomain.com'], // İzin verilen origin'ler
+  optionsSuccessStatus: 200
+};
+
+app.use(cors(corsOptions)); */
+
+app.use(cors());
+
 app.use(express.json());
+
+// Statik dosyaları sunmak için middleware ekleyin
+app.use(express.static(path.join(__dirname, 'public')));
+
+// Anasayfaya gelen isteklerde main.html dosyasını gönder
+app.get('/', (req, res) => {
+  res.sendFile(path.join(__dirname, 'public', 'main.html'));
+});
 
 app.use("/api/game-garaj", gameGarajRouter);
 app.use("/api/gaming-gen", gamingGenRouter);

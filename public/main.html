@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ürün Listesi</title>
+    <link
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <style>
+      .product-card {
+        margin-bottom: 30px;
+      }
+      .product-image {
+        height: 200px;
+        object-fit: contain;
+      }
+      .card-body {
+        font-size: 0.9rem;
+      }
+      .filter-sidebar {
+        border-right: 1px solid #ddd;
+        padding-right: 20px;
+      }
+      .filter-sidebar h5 {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <div style="margin: 10px">
+      <h1 class="text-center mb-5">Ürün Listesi</h1>
+      <div class="row">
+        <div class="col-md-3 filter-sidebar">
+          <h5>Filtreler</h5>
+          <div class="form-group">
+            <label for="priceRange">Fiyat Aralığı</label>
+            <select id="priceRange" class="form-control">
+              <option value="all">Tümü</option>
+              <option value="0-50000">0 - 50,000₺</option>
+              <option value="50000-100000">50,000₺ - 100,000₺</option>
+              <option value="100000-150000">100,000₺ - 150,000₺</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label>İşlemci</label><br />
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value="Intel"
+                id="Intel"
+              />
+              <label class="form-check-label" for="Intel">Intel</label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value="AMD"
+                id="AMD"
+              />
+              <label class="form-check-label" for="AMD">AMD</label>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-9">
+          <div class="row mb-4">
+            <div class="col-md-6">
+              <input
+                type="text"
+                id="filterInput"
+                class="form-control"
+                placeholder="Ürün adında ara..."
+              />
+            </div>
+          </div>
+          <div class="row" id="productList">
+            <!-- Ürün Kartları burada görüntülenecek -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script>
+      async function getProducts() {
+        try {
+          const response = await fetch("http://localhost:3000/api/getAll", {
+            method: "GET",
+            headers: {
+              "Content-Type": "application/json",
+            },
+          });
+          const data = await response.json();
+          return data;
+        } catch (error) {
+          console.error("Error:", error);
+          return [];
+        }
+      }
+
+      document
+        .getElementById("filterInput")
+        .addEventListener("keyup", function () {
+          filterProducts();
+        });
+
+      document
+        .getElementById("priceRange")
+        .addEventListener("change", function () {
+          filterProducts();
+        });
+
+      document
+        .querySelectorAll(".form-check-input")
+        .forEach(function (checkbox) {
+          checkbox.addEventListener("change", function () {
+            filterProducts();
+          });
+        });
+
+      document.addEventListener("DOMContentLoaded", async function () {
+        const products = await getProducts();
+        renderProducts(products);
+      });
+
+      async function filterProducts() {
+        const filterValue = document
+          .getElementById("filterInput")
+          .value.toLowerCase();
+        const priceRange = document.getElementById("priceRange").value;
+        const selectedCPUs = Array.from(
+          document.querySelectorAll(".form-check-input:checked")
+        ).map((checkbox) => checkbox.value);
+
+        const products = await getProducts();
+        const filteredProducts = products.filter(function (product) {
+          const matchesFilter = product.name.toLowerCase().includes(filterValue);
+
+          let matchesPrice = true;
+          if (priceRange !== "all") {
+            const [minPrice, maxPrice] = priceRange.split("-").map(Number);
+            matchesPrice = product.price >= minPrice && product.price <= maxPrice;
+          }
+
+          let matchesCPU = true;
+          if (selectedCPUs.length > 0) {
+            matchesCPU = selectedCPUs.some((cpu) =>
+              product.specs.CPU.includes(cpu)
+            );
+          }
+
+          return matchesFilter && matchesPrice && matchesCPU;
+        });
+
+        renderProducts(filteredProducts);
+      }
+
+      function renderProducts(products) {
+        const productList = document.getElementById("productList");
+        productList.innerHTML = "";
+
+        products.forEach(function (product) {
+          const productCard = `
+            <div class="col-md-4 product-item">
+                <div class="card product-card">
+                    <img src="${product.image}" class="card-img-top product-image" alt="${product.name}">
+                    <div class="card-body">
+                        <h5 class="card-title">${product.name}</h5>
+                        <ul class="list-unstyled">
+                            <li><strong>CPU:</strong> ${product.specs.CPU}</li>
+                            <li><strong>GPU:</strong> ${product.specs.GPU}</li>
+                            <li><strong>Motherboard:</strong> ${product.specs.Motherboard}</li>
+                            <li><strong>RAM:</strong> ${product.specs.RAM}</li>
+                            <li><strong>Storage:</strong> ${product.specs.Storage}</li>
+                        </ul>
+                        <p class="card-text"><strong>Fiyat: ₺${product.price}</strong></p>
+                        <a href="${product.link}" class="btn btn-primary">Detayları Gör</a>
+                    </div>
+                </div>
+            </div>
+          `;
+          productList.insertAdjacentHTML("beforeend", productCard);
+        });
+      }
+
+    </script>
+  </body>
+</html>
