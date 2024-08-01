@@ -79,19 +79,19 @@
               <input
                 class="form-check-input"
                 type="checkbox"
-                value="NVIDIA"
-                id="NVIDIA"
+                value="RTX"
+                id="RTX"
               />
-              <label class="form-check-label" for="NVIDIA">NVIDIA</label>
+              <label class="form-check-label" for="RTX">NVIDIA</label>
             </div>
             <div class="form-check">
               <input
                 class="form-check-input"
                 type="checkbox"
-                value="AMD GPU"
-                id="AMD_GPU"
+                value="RX"
+                id="RX"
               />
-              <label class="form-check-label" for="AMD_GPU">AMD</label>
+              <label class="form-check-label" for="RX">AMD</label>
             </div>
           </div>
         </div>
@@ -194,7 +194,7 @@
         )
           .filter(
             (checkbox) =>
-              checkbox.id.includes("NVIDIA") || checkbox.id.includes("AMD_GPU")
+              checkbox.id.includes("RTX") || checkbox.id.includes("RX")
           )
           .map((checkbox) => checkbox.value.toLowerCase());
 
@@ -216,7 +216,7 @@
           let matchesGPU = true;
           if (selectedGPUs.length > 0) {
             matchesGPU = selectedGPUs.some((gpu) =>
-              product.specs.GPU.toLowerCase().includes(gpu)
+              product.specs.GPU?.toLowerCase().includes(gpu)
             );
           }
 
@@ -233,6 +233,11 @@
         productList.innerHTML = "";
 
         products.forEach(function (product) {
+          const formattedPrice = new Intl.NumberFormat("tr-TR", {
+            style: "currency",
+            currency: "TRY",
+          }).format(product.price ?? 0);
+
           const productCard = `
             <div class="col-md-4 product-item">
                 <div class="card product-card">
@@ -246,7 +251,7 @@
                             <li><strong>RAM:</strong> ${product.specs.RAM}</li>
                             <li><strong>Storage:</strong> ${product.specs.Storage}</li>
                         </ul>
-                        <p class="card-text"><strong>Fiyat: ₺${product.price}</strong></p>
+                        <p class="card-text"><strong>Fiyat: ₺${formattedPrice}</strong></p>
                         <a href="${product.link}" class="btn btn-primary">Detayları Gör</a>
                     </div>
                 </div>
