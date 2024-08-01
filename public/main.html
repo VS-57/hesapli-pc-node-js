@@ -130,6 +130,10 @@
               <p style="display: inline; margin: 0 15px">Ürün Sayısı</p>
               <p id="productCount" style="display: inline; margin: 0 10px">0</p>
             </div>
+            <div style="margin-top: 3px">
+              <p style="display: inline; margin: 0 15px">Stoktakileri göster</p>
+              <input type="checkbox" id="showInStock" style="margin: 0 10px" checked />
+            </div>
           </div>
 
           <div class="row" id="productList">
@@ -194,9 +198,15 @@
           });
         });
 
+      document
+        .getElementById("showInStock")
+        .addEventListener("change", function () {
+          filterProducts();
+        });
+
       document.addEventListener("DOMContentLoaded", async function () {
         const products = await getProducts();
-        renderProducts(products);
+        filterProducts();
         document.getElementById("productCount").textContent = products.length;
       });
 
@@ -229,6 +239,8 @@
           .map((checkbox) => checkbox.value.toLowerCase());
         const sortOrder = document.getElementById("sortOrder").value;
 
+        const showInStock = document.getElementById("showInStock").checked;
+
         const products = await getProducts();
         let filteredProducts = products.filter(function (product) {
           const matchesFilter = product.name
@@ -251,7 +263,12 @@
             );
           }
 
-          return matchesFilter && matchesPrice && matchesCPU && matchesGPU;
+          let matchesStock = true;
+          if (showInStock) {
+            matchesStock = product.price !== null && product.price !== undefined && product.price !== 0;
+          }
+
+          return matchesFilter && matchesPrice && matchesCPU && matchesGPU && matchesStock;
         });
 
         if (sortOrder === "lowToHigh") {
