@@ -114,6 +114,19 @@
             </div>
           </div>
           <div class="form-group">
+            <label>Ekran Kartı Modeli</label><br />
+            <input
+              type="text"
+              style="margin-bottom: 5px"
+              id="gpuSearch"
+              class="form-control"
+              placeholder="Ekran kartı ara..."
+            />
+            <div id="gpuModelFilters" class="scrollable-filters">
+              <!-- İşlemci modelleri dinamik olarak burada eklenecek -->
+            </div>
+          </div>
+          <div class="form-group">
             <label>İşlemci Modeli</label><br />
             <input
               type="text"
@@ -283,11 +296,22 @@
         { name: "Core i9-14900K", value: "14900K" },
       ];
 
+      const gpus = [
+        { name: "RTX 4080", value: "4080" },
+        { name: "RTX 4070", value: "4070" },
+        { name: "RTX 4060", value: "4060" },
+      ];
+
       document.addEventListener("DOMContentLoaded", function () {
         populateProcessorModelFilters();
+        populateGpuModelFilters();
+
         document
           .getElementById("processorSearch")
           .addEventListener("input", filterProcessorModels);
+        document
+          .getElementById("gpuSearch")
+          .addEventListener("input", filterGpuModels);
       });
 
       function populateProcessorModelFilters() {
@@ -296,6 +320,31 @@
         );
         processorModelFilters.innerHTML = ""; // Temizle
         processors.forEach((processor) => {
+          const div = document.createElement("div");
+          div.className = "form-check";
+          const input = document.createElement("input");
+          input.className = "form-check-input";
+          input.type = "checkbox";
+          input.value = processor.value;
+          input.id = processor.value;
+          input.addEventListener("change", filterProducts);
+
+          const label = document.createElement("label");
+          label.className = "form-check-label";
+          label.htmlFor = processor.value;
+          label.textContent = processor.name;
+
+          div.appendChild(input);
+          div.appendChild(label);
+          processorModelFilters.appendChild(div);
+        });
+      }
+
+      function populateGpuModelFilters() {
+        const processorModelFilters =
+          document.getElementById("gpuModelFilters");
+        processorModelFilters.innerHTML = ""; // Temizle
+        gpus.forEach((processor) => {
           const div = document.createElement("div");
           div.className = "form-check";
           const input = document.createElement("input");
@@ -345,6 +394,38 @@
           div.appendChild(input);
           div.appendChild(label);
           processorModelFilters.appendChild(div);
+        });
+      }
+
+      function filterGpuModels() {
+        const searchTerm = document
+          .getElementById("gpuSearch")
+          .value.toLowerCase();
+        const filteredGpus = gpus.filter((gpu) =>
+          gpu.name.toLowerCase().includes(searchTerm)
+        );
+        const gpuModelFilters = document.getElementById(
+          "gpuModelFilters"
+        );
+        gpuModelFilters.innerHTML = ""; // Temizle
+        filteredGpus.forEach((gpu) => {
+          const div = document.createElement("div");
+          div.className = "form-check";
+          const input = document.createElement("input");
+          input.className = "form-check-input";
+          input.type = "checkbox";
+          input.value = gpu.value;
+          input.id = gpu.value;
+          input.addEventListener("change", filterProducts);
+
+          const label = document.createElement("label");
+          label.className = "form-check-label";
+          label.htmlFor = gpu.value;
+          label.textContent = gpu.name;
+
+          div.appendChild(input);
+          div.appendChild(label);
+          gpuModelFilters.appendChild(div);
         });
       }
 
@@ -479,6 +560,7 @@
           }
 
           let matchesModel = true;
+          console.log(selectedModels)
           if (selectedModels.length > 0) {
             matchesModel = selectedModels.some((model) =>
               product.specs.CPU?.toLowerCase().includes(model)
