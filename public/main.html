@@ -97,13 +97,20 @@
         </div>
         <div class="col-md-8">
           <div class="row mb-4">
-            <div class="col-md-6">
+            <div class="col-md-3">
               <input
                 type="text"
                 id="filterInput"
                 class="form-control"
                 placeholder="Ürün adında ara..."
               />
+            </div>
+            <div class="col-md-3">
+              <select id="sortOrder" class="form-control">
+                <option value="default">Sırala</option>
+                <option value="lowToHigh">Fiyat: Düşükten Yükseğe</option>
+                <option value="highToLow">Fiyat: Yüksekten Düşüğe</option>
+              </select>
             </div>
             <div style="margin-top: 3px">
               <p style="display: inline; margin: 0 15px">Ürün Sayısı</p>
@@ -157,6 +164,12 @@
         });
 
       document
+        .getElementById("sortOrder")
+        .addEventListener("change", function () {
+          filterProducts();
+        });
+
+      document
         .querySelectorAll(".form-check-input")
         .forEach(function (checkbox) {
           checkbox.addEventListener("change", function () {
@@ -195,9 +208,10 @@
               checkbox.id.includes("RTX") || checkbox.id.includes("RX")
           )
           .map((checkbox) => checkbox.value.toLowerCase());
+        const sortOrder = document.getElementById("sortOrder").value;
 
         const products = await getProducts();
-        const filteredProducts = products.filter(function (product) {
+        let filteredProducts = products.filter(function (product) {
           const matchesFilter = product.name
             .toLowerCase()
             .includes(filterValue);
@@ -220,6 +234,12 @@
 
           return matchesFilter && matchesPrice && matchesCPU && matchesGPU;
         });
+
+        if (sortOrder === "lowToHigh") {
+          filteredProducts.sort((a, b) => a.price - b.price);
+        } else if (sortOrder === "highToLow") {
+          filteredProducts.sort((a, b) => b.price - a.price);
+        }
 
         renderProducts(filteredProducts);
         document.getElementById("productCount").textContent =
