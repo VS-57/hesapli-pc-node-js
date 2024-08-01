@@ -35,13 +35,22 @@
         <div class="col-md-3 filter-sidebar">
           <h5>Filtreler</h5>
           <div class="form-group">
-            <label for="priceRange">Fiyat Aralığı</label>
-            <select id="priceRange" class="form-control">
-              <option value="all">Tümü</option>
-              <option value="0-50000">0 - 50,000₺</option>
-              <option value="50000-100000">50,000₺ - 100,000₺</option>
-              <option value="100000-150000">100,000₺ - 150,000₺</option>
-            </select>
+            <label for="startPrice">Başlangıç Fiyatı</label>
+            <input
+              type="number"
+              id="startPrice"
+              class="form-control"
+              placeholder="0"
+            />
+          </div>
+          <div class="form-group">
+            <label for="endPrice">Bitiş Fiyatı</label>
+            <input
+              type="number"
+              id="endPrice"
+              class="form-control"
+              placeholder="50000"
+            />
           </div>
           <div class="form-group">
             <label>İşlemci</label><br />
@@ -64,6 +73,27 @@
               <label class="form-check-label" for="AMD">AMD</label>
             </div>
           </div>
+          <div class="form-group">
+            <label>Ekran Kartı</label><br />
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value="NVIDIA"
+                id="NVIDIA"
+              />
+              <label class="form-check-label" for="NVIDIA">NVIDIA</label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value="AMD GPU"
+                id="AMD_GPU"
+              />
+              <label class="form-check-label" for="AMD_GPU">AMD</label>
+            </div>
+          </div>
         </div>
         <div class="col-md-9">
           <div class="row mb-4">
@@ -75,7 +105,14 @@
                 placeholder="Ürün adında ara..."
               />
             </div>
+            <div>
+              <p style="display: inline; margin: 0 10px">Ürün Sayısı</p>
+              <p id="productCount" style="display: inline; margin: 0 10px">
+                255
+              </p>
+            </div>
           </div>
+
           <div class="row" id="productList">
             <!-- Ürün Kartları burada görüntülenecek -->
           </div>
@@ -110,8 +147,14 @@
         });
 
       document
-        .getElementById("priceRange")
-        .addEventListener("change", function () {
+        .getElementById("startPrice")
+        .addEventListener("input", function () {
+          filterProducts();
+        });
+
+      document
+        .getElementById("endPrice")
+        .addEventListener("input", function () {
           filterProducts();
         });
 
@@ -126,26 +169,40 @@
       document.addEventListener("DOMContentLoaded", async function () {
         const products = await getProducts();
         renderProducts(products);
+        document.getElementById("productCount").textContent = products.length;
       });
 
       async function filterProducts() {
         const filterValue = document
           .getElementById("filterInput")
           .value.toLowerCase();
-        const priceRange = document.getElementById("priceRange").value;
+        const startPrice = Number(document.getElementById("startPrice").value);
+        const endPrice = Number(document.getElementById("endPrice").value);
         const selectedCPUs = Array.from(
           document.querySelectorAll(".form-check-input:checked")
-        ).map((checkbox) => checkbox.value);
+        )
+          .filter(
+            (checkbox) =>
+              checkbox.id.includes("Intel") || checkbox.id.includes("AMD")
+          )
+          .map((checkbox) => checkbox.value);
+        const selectedGPUs = Array.from(
+          document.querySelectorAll(".form-check-input:checked")
+        )
+          .filter(
+            (checkbox) =>
+              checkbox.id.includes("NVIDIA") || checkbox.id.includes("AMD_GPU")
+          )
+          .map((checkbox) => checkbox.value);
 
         const products = await getProducts();
         const filteredProducts = products.filter(function (product) {
-          const matchesFilter = product.name.toLowerCase().includes(filterValue);
+          const matchesFilter = product.name
+            .toLowerCase()
+            .includes(filterValue);
 
-          let matchesPrice = true;
-          if (priceRange !== "all") {
-            const [minPrice, maxPrice] = priceRange.split("-").map(Number);
-            matchesPrice = product.price >= minPrice && product.price <= maxPrice;
-          }
+          const matchesPrice =
+            product.price >= startPrice && product.price <= endPrice;
 
           let matchesCPU = true;
           if (selectedCPUs.length > 0) {
@@ -154,10 +211,19 @@
             );
           }
 
-          return matchesFilter && matchesPrice && matchesCPU;
+          let matchesGPU = true;
+          if (selectedGPUs.length > 0) {
+            matchesGPU = selectedGPUs.some((gpu) =>
+              product.specs.GPU.includes(gpu)
+            );
+          }
+
+          return matchesFilter && matchesPrice && matchesCPU && matchesGPU;
         });
 
         renderProducts(filteredProducts);
+        document.getElementById("productCount").textContent =
+          filteredProducts.length;
       }
 
       function renderProducts(products) {
@@ -187,7 +253,6 @@
           productList.insertAdjacentHTML("beforeend", productCard);
         });
       }
-
     </script>
   </body>
 </html>
