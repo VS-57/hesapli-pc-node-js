@@ -52,14 +52,26 @@ function parseProducts(doc) {
       : [];
 
     // Teknik özellikleri başlık ve değer çiftlerine dönüştürme
-    const specs = specsList.reduce((acc, spec, index) => {
-      if (index === 0) acc["CPU"] = spec;
-      else if (index === 1) acc["Motherboard"] = spec;
-      else if (index === 2) acc["GPU"] = spec;
-      else if (index === 3) acc["RAM"] = spec;
-      else if (index === 4) acc["Storage"] = spec;
-      return acc;
-    }, {});
+    let specs;
+    if (specsList.length === 5) {
+      specs = specsList.reduce((acc, spec, index) => {
+        if (index === 0) acc["CPU"] = spec;
+        else if (index === 1) acc["Motherboard"] = spec;
+        else if (index === 2) acc["GPU"] = spec;
+        else if (index === 3) acc["RAM"] = spec;
+        else if (index === 4) acc["Storage"] = spec;
+        return acc;
+      }, {});
+    } else {
+      specs = specsList.reduce((acc, spec, index) => {
+        if (index === 0) acc["CPU"] = spec;
+        else if (index === 1) acc["Motherboard"] = spec;
+        else if (index === 2) acc["GPU"] = spec;
+        else if (index === 4) acc["RAM"] = spec;
+        else if (index === 5) acc["Storage"] = spec;
+        return acc;
+      }, {});
+    }
 
     return {
       image: imageElement ? imageElement.getAttribute("src") : null,
