@@ -11,40 +11,58 @@ async function fetchAllProducts(urls) {
     const html = await response.text();
     const dom = new JSDOM(html);
     const doc = dom.window.document;
-    const productElements = doc.querySelectorAll(".product-list.product-list--list-page .product-list-link");
-    
-    productElements.forEach((productElement) => {
-      const nameElement = productElement.querySelector(".product-list__product-name h3");
-      const priceElement = productElement.querySelector(".product-list__price");
-      const imageElement = productElement.querySelector(".product-list__image-safe img");
+    const productElements = doc.querySelectorAll(
+      ".product-list.product-list--list-page .product-list-link"
+    );
 
-      const link = url + productElement.getAttribute("href");
+    productElements.forEach((productElement) => {
+      const nameElement = productElement.querySelector(
+        ".product-list__product-name h3"
+      );
+      const priceElement = productElement.querySelector(".product-list__price");
+      const imageElement = productElement.querySelector(
+        ".product-list__image-safe img"
+      );
+
+      const link =
+        "https://www.vatanbilgisayar.com" + productElement.getAttribute("href");
       const name = nameElement ? nameElement.textContent.trim() : "No name";
 
       // Fiyatı al ve sayıya dönüştür
-      const priceText = priceElement ? priceElement.textContent.trim().replace(/\s+/g, " ") : "0";
-      const price = parseFloat(priceText.replace(/[^\d,]/g, '').replace(',', '.')) || 0;
+      const priceText = priceElement
+        ? priceElement.textContent.trim().replace(/\s+/g, " ")
+        : "0";
+      const price =
+        parseFloat(priceText.replace(/[^\d,]/g, "").replace(",", ".")) || 0;
 
-      const image = imageElement ? imageElement.getAttribute("data-src") : "No image";
+      const image = imageElement
+        ? imageElement.getAttribute("data-src")
+        : "No image";
       const specs = {};
-      
-      productElement.querySelectorAll(".productlist_spec ul li p").forEach((specElement) => {
-        const specNameElement = specElement.querySelector("#specname");
-        const specValueElement = specElement.querySelector("#specvalue");
-        const specName = specNameElement ? specNameElement.textContent.trim() : "";
-        const specValue = specValueElement ? specValueElement.textContent.trim() : "";
 
-        // Belirli anahtarlar ile eşleştirme yap
-        if (specName.includes("İşlemci Numarası")) {
-          specs["CPU"] = specValue;
-        } else if (specName.includes("Grafik İşlemci")) {
-          specs["GPU"] = specValue;
-        } else if (specName.includes("Anakart Chipseti")) {
-          specs["Motherboard"] = specValue;
-        } else if (specName.includes("Ram (Sistem Belleği)")) {
-          specs["Ram"] = specValue;
-        }
-      });
+      productElement
+        .querySelectorAll(".productlist_spec ul li p")
+        .forEach((specElement) => {
+          const specNameElement = specElement.querySelector("#specname");
+          const specValueElement = specElement.querySelector("#specvalue");
+          const specName = specNameElement
+            ? specNameElement.textContent.trim()
+            : "";
+          const specValue = specValueElement
+            ? specValueElement.textContent.trim()
+            : "";
+
+          // Belirli anahtarlar ile eşleştirme yap
+          if (specName.includes("İşlemci Numarası")) {
+            specs["CPU"] = specValue;
+          } else if (specName.includes("Grafik İşlemci")) {
+            specs["GPU"] = specValue;
+          } else if (specName.includes("Anakart Chipseti")) {
+            specs["Motherboard"] = specValue;
+          } else if (specName.includes("Ram (Sistem Belleği)")) {
+            specs["Ram"] = specValue;
+          }
+        });
 
       products.push({ name, price, image, link, specs });
     });
