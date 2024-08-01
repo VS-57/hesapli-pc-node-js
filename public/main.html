@@ -40,27 +40,37 @@
 
   <body>
     <div style="margin: 10px">
-      <h1 class="text-center mb-5">Hazır Sistemler</h1>
+      <h1 class="text-center mb-5" >Hazır Sistemler</h1>
       <div class="row">
         <div class="col-md-3 filter-sidebar" style="margin-left: 15px">
           <h5>Filtreler</h5>
-          <div class="form-group">
-            <label for="startPrice">Başlangıç Fiyatı</label>
-            <input
-              type="number"
-              id="startPrice"
-              class="form-control"
-              placeholder="0"
-            />
-          </div>
-          <div class="form-group">
-            <label for="endPrice">Bitiş Fiyatı</label>
-            <input
-              type="number"
-              id="endPrice"
-              class="form-control"
-              placeholder="35000"
-            />
+          <button
+            id="resetFilters"
+            class="btn btn-secondary"
+            style="width: 100%; background-color: #007bff"
+          >
+            Filtreleri Sıfırla
+          </button>
+
+          <div class="form-group row">
+            <div class="col">
+              <label for="startPrice">Başlangıç Fiyatı</label>
+              <input
+                type="number"
+                id="startPrice"
+                class="form-control"
+                placeholder="0"
+              />
+            </div>
+            <div class="col">
+              <label for="endPrice">Bitiş Fiyatı</label>
+              <input
+                type="number"
+                id="endPrice"
+                class="form-control"
+                placeholder="35000"
+              />
+            </div>
           </div>
           <div class="form-group">
             <label>İşlemci Markası</label><br />
@@ -369,6 +379,22 @@
         document
           .getElementById("gpuSearch")
           .addEventListener("input", filterGpuModels);
+
+        document
+          .getElementById("resetFilters")
+          .addEventListener("click", function () {
+            document.getElementById("filterInput").value = "";
+            document.getElementById("startPrice").value = "";
+            document.getElementById("endPrice").value = "";
+            document
+              .querySelectorAll(".form-check-input")
+              .forEach(function (checkbox) {
+                checkbox.checked = false;
+              });
+            document.getElementById("sortOrder").value = "default";
+            document.getElementById("showInStock").checked = true;
+            filterProducts();
+          });
       });
 
       function populateProcessorModelFilters() {
