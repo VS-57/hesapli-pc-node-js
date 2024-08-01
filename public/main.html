@@ -110,6 +110,13 @@
           </div>
           <div class="form-group">
             <label>İşlemci Modeli</label><br />
+            <input
+              type="text"
+              style="margin-bottom: 5px"
+              id="processorSearch"
+              class="form-control"
+              placeholder="İşlemci modelinde ara..."
+            />
             <div id="processorModelFilters">
               <!-- İşlemci modelleri dinamik olarak burada eklenecek -->
             </div>
@@ -258,16 +265,54 @@
         { name: "Core i7-14700", value: "14700" },
         { name: "Core i7-14700K", value: "14700K" },
         { name: "Core i9-14900", value: "14900" },
-        { name: "Core i9-14900K", value: "14900K" }
+        { name: "Core i9-14900K", value: "14900K" },
       ];
 
       document.addEventListener("DOMContentLoaded", function () {
         populateProcessorModelFilters();
+        document
+          .getElementById("processorSearch")
+          .addEventListener("input", filterProcessorModels);
       });
 
       function populateProcessorModelFilters() {
-        const processorModelFilters = document.getElementById("processorModelFilters");
+        const processorModelFilters = document.getElementById(
+          "processorModelFilters"
+        );
+        processorModelFilters.innerHTML = ""; // Temizle
         processors.forEach((processor) => {
+          const div = document.createElement("div");
+          div.className = "form-check";
+          const input = document.createElement("input");
+          input.className = "form-check-input";
+          input.type = "checkbox";
+          input.value = processor.value;
+          input.id = processor.value;
+          input.addEventListener("change", filterProducts);
+
+          const label = document.createElement("label");
+          label.className = "form-check-label";
+          label.htmlFor = processor.value;
+          label.textContent = processor.name;
+
+          div.appendChild(input);
+          div.appendChild(label);
+          processorModelFilters.appendChild(div);
+        });
+      }
+
+      function filterProcessorModels() {
+        const searchTerm = document
+          .getElementById("processorSearch")
+          .value.toLowerCase();
+        const filteredProcessors = processors.filter((processor) =>
+          processor.name.toLowerCase().includes(searchTerm)
+        );
+        const processorModelFilters = document.getElementById(
+          "processorModelFilters"
+        );
+        processorModelFilters.innerHTML = ""; // Temizle
+        filteredProcessors.forEach((processor) => {
           const div = document.createElement("div");
           div.className = "form-check";
           const input = document.createElement("input");
@@ -465,40 +510,34 @@
           }).format(product.price ?? 0);
 
           const productCard = `
-            <div class="col-md-4 product-item">
-                <div class="card product-card">
-                    <img src="${
-                      product.image
-                    }" class="card-img-top product-image" alt="${
+      <div class="col-md-4 product-item">
+          <div class="card product-card">
+              <img src="${
+                product.image
+              }" class="card-img-top product-image" alt="${
             product.name
           }" onerror="this.onerror=null;this.src='https://previews.123rf.com/images/blankstock/blankstock1812/blankstock181201188/113234166-no-or-stop-sign-computer-line-icon-pc-component-sign-monitor-with-case-symbol-caution-prohibited-ban.jpg';">
-                    <div class="card-body">
-                        <h5 class="card-title">${product.name}</h5>
-                        <ul class="list-unstyled">
-                            <li><strong>CPU:</strong> ${
-                              product.specs.CPU ?? ""
-                            }</li>
-                            <li><strong>GPU:</strong> ${
-                              product.specs.GPU ?? ""
-                            }</li>
-                            <li><strong>Motherboard:</strong> ${
-                              product.specs.Motherboard ?? ""
-                            }</li>
-                            <li><strong>RAM:</strong> ${
-                              product.specs.RAM ?? ""
-                            }</li>
-                            <li><strong>Storage:</strong> ${
-                              product.specs.Storage ?? ""
-                            }</li>
-                        </ul>
-                        <p class="card-text"><strong>Fiyat: ${formattedPrice}</strong></p>
-                        <a href="${
-                          product.link
-                        }" class="btn btn-primary">Detayları Gör</a>
-                    </div>
-                </div>
-            </div>
-          `;
+              <div class="card-body">
+                  <h5 class="card-title">${product.name}</h5>
+                  <ul class="list-unstyled">
+                      <li><strong>CPU:</strong> ${product.specs.CPU ?? ""}</li>
+                      <li><strong>GPU:</strong> ${product.specs.GPU ?? ""}</li>
+                      <li><strong>Motherboard:</strong> ${
+                        product.specs.Motherboard ?? ""
+                      }</li>
+                      <li><strong>RAM:</strong> ${product.specs.RAM ?? ""}</li>
+                      <li><strong>Storage:</strong> ${
+                        product.specs.Storage ?? ""
+                      }</li>
+                  </ul>
+                  <p class="card-text"><strong>Fiyat: ${formattedPrice}</strong></p>
+                  <a href="${
+                    product.link
+                  }" class="btn btn-primary">Detayları Gör</a>
+              </div>
+          </div>
+      </div>
+    `;
           productList.insertAdjacentHTML("beforeend", productCard);
         });
       }
