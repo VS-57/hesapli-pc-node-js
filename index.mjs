@@ -17,14 +17,14 @@ const port = 3000;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-const corsOptions = {
-  origin: ["https://ucuzasistem.up.railway.app"], // İzin verilen origin'ler
+/* const corsOptions = {
+  origin: ["https://ucuzasistem.up.railway.app", "http://localhost:3000"], // İzin verilen origin'ler
   optionsSuccessStatus: 200,
 };
 
-app.use(cors(corsOptions));
+app.use(cors(corsOptions)); */
 
-/* app.use(cors()); */
+app.use(cors());
 
 app.use(express.json());
 
