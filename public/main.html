@@ -31,9 +31,23 @@
         margin-top: 20px;
       }
 
+      .product-item {
+        position: relative;
+    }
+
       .scrollable-filters {
         max-height: 300px;
         overflow-y: auto;
+      }
+
+      .logo-container {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+      }
+
+      .store-logo {
+        max-width: 50px;
       }
     </style>
   </head>
@@ -600,40 +614,27 @@
           }).format(product.price ?? 0);
 
           const productCard = `
-        <div class="col-md-4 product-item">
-            <div class="card product-card">
-                <img src="${
-                  product.image
-                }" class="card-img-top product-image" alt="${
-            product?.name ?? ""
-          }" onerror="this.onerror=null;this.src='https://previews.123rf.com/images/blankstock/blankstock1812/blankstock181201188/113234166-no-or-stop-sign-computer-line-icon-pc-component-sign-monitor-with-case-symbol-caution-prohibited-ban.jpg';">
-                <div class="card-body">
-                    <h5 class="card-title">${product.name ?? ""}</h5>
-                    <ul class="list-unstyled">
-                        <li><strong>CPU:</strong> ${
-                          product.specs.CPU ?? ""
-                        }</li>
-                        <li><strong>GPU:</strong> ${
-                          product.specs.GPU ?? ""
-                        }</li>
-                        <li><strong>Motherboard:</strong> ${
-                          product.specs.Motherboard ?? ""
-                        }</li>
-                        <li><strong>RAM:</strong> ${
-                          product.specs.Ram ?? ""
-                        }</li>
-                        <li><strong>Storage:</strong> ${
-                          product.specs?.Storage ?? ""
-                        }</li>
-                    </ul>
-                    <p class="card-text"><strong>Fiyat: ${formattedPrice}</strong></p>
-                    <a href="${
-                      product.link
-                    }" class="btn btn-primary" style="background-color:#1c2938;border-color:#1c2938">Detayları Gör</a>
+    <div class="col-md-4 product-item">
+        <div class="card product-card">
+            <img src="${product.image}" class="card-img-top product-image" alt="${product?.name ?? ""}" onerror="this.onerror=null;this.src='https://previews.123rf.com/images/blankstock/blankstock1812/blankstock181201188/113234166-no-or-stop-sign-computer-line-icon-pc-component-sign-monitor-with-case-symbol-caution-prohibited-ban.jpg';">
+            <div class="card-body">
+                <h5 class="card-title">${product.name ?? ""}</h5>
+                <ul class="list-unstyled">
+                    <li><strong>CPU:</strong> ${product.specs.CPU ?? ""}</li>
+                    <li><strong>GPU:</strong> ${product.specs.GPU ?? ""}</li>
+                    <li><strong>Motherboard:</strong> ${product.specs.motherboard ?? ""}</li>
+                    <li><strong>RAM:</strong> ${product.specs.ram ?? ""}</li>
+                    <li><strong>Storage:</strong> ${product.specs?.Storage ?? ""}</li>
+                </ul>
+                <p class="card-text"><strong>Fiyat: ${formattedPrice}</strong></p>
+                <a href="${product.link}" class="btn btn-primary" style="background-color:#1c2938;border-color:#1c2938">Detayları Gör</a>
+                <div class="logo-container" style="margin:10px">
+                    <img src="/logos/${product.store}.png" alt="${product.store} logo" class="store-logo">
                 </div>
             </div>
         </div>
-      `;
+    </div>
+`;
           productList.insertAdjacentHTML("beforeend", productCard);
         });
       }
