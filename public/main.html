@@ -112,6 +112,10 @@
               <input class="form-check-input" type="checkbox" value="vatan" id="vatan" />
               <label class="form-check-label" for="vatan">Vatan</label>
             </div>
+            <div class="form-check" style="flex: 1 0 50%; box-sizing: border-box;">
+              <input class="form-check-input" type="checkbox" value="sinerji" id="sinerji" />
+              <label class="form-check-label" for="sinerji">Sinerji</label>
+            </div>
           </div>
         </body>
           <div class="form-group row">
@@ -497,6 +501,7 @@
               !checkbox.id.includes("gamingGen") &&
               !checkbox.id.includes("pckolik") &&
               !checkbox.id.includes("vatan") &&
+              !checkbox.id.includes("sinerji") &&
               !checkbox.id.includes("gameGaraj")
           )
           .map((checkbox) => checkbox.value.toLowerCase());
@@ -512,6 +517,7 @@
               checkbox.id.includes("gamingGen") ||
               checkbox.id.includes("gameGaraj") ||
               checkbox.id.includes("pckolik") ||
+              checkbox.id.includes("sinerji") ||
               checkbox.id.includes("vatan")
           )
           .map((checkbox) => checkbox.value.toLowerCase());
