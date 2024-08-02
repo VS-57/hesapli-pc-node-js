@@ -7,6 +7,7 @@ import gamingGenRouter from "./routes/gamingGen.mjs";
 import itopyaRouter from "./routes/itopya.mjs";
 import pckolikRouter from "./routes/pckolik.mjs";
 import vatanRouter from "./routes/vatan.mjs";
+import sinerjiRouter from "./routes/sinerji.mjs";
 import getAllRouter from "./routes/getAll.mjs";
 import setupSwagger from "./swagger/swagger.mjs";
 
@@ -41,6 +42,9 @@ app.use("/api/gaming-gen", gamingGenRouter);
 app.use("/api/itopya", itopyaRouter);
 app.use("/api/pckolik", pckolikRouter);
 app.use("/api/vatan", vatanRouter);
+app.use("/api/sinerji", sinerjiRouter);
+
+// Get All Mock Data
 app.use("/api/getAll", getAllRouter);
 
 // Swagger documentation setup
