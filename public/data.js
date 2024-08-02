@@ -177,6 +177,6 @@ const gpus = [
   { name: "Radeon RX 7900 XTX", value: "RX 7900 XTX" },
 
   // Intel ARC GPUs
-  { name: "ARC 750", value: "ARC 750" },
-  { name: "ARC 770", value: "ARC 770" },
+  { name: "Intel ARC 750", value: "ARC 750" },
+  { name: "Intel ARC 770", value: "ARC 770" },
 ];
