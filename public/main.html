@@ -664,26 +664,26 @@
           }).format(product.price ?? 0);
 
           const productCard = `
-    <div class="col-md-4 product-item">
-        <div class="card product-card">
-            <img src="${product.image}" style="margin-top:20px" class="card-img-top product-image" alt="${product?.name ?? ""}" onerror="this.onerror=null;this.src='https://previews.123rf.com/images/blankstock/blankstock1812/blankstock181201188/113234166-no-or-stop-sign-computer-line-icon-pc-component-sign-monitor-with-case-symbol-caution-prohibited-ban.jpg';">
-            <div class="card-body" style="display: flex; flex-direction: column; justify-content: space-between; flex-grow: 1;">
-                <h5 class="card-title">${product.name ?? ""}</h5>
-                <ul class="list-unstyled">
-                    <li><strong>CPU:</strong> ${product.specs.CPU ?? ""}</li>
-                    <li><strong>GPU:</strong> ${product.specs.GPU ?? ""}</li>
-                    <li><strong>Motherboard:</strong> ${product.specs.Motherboard ?? ""}</li>
-                    <li><strong>RAM:</strong> ${product.specs.Ram ?? ""}</li>
-                    <li><strong>Storage:</strong> ${product.specs?.Storage ?? ""}</li>
-                </ul>
-                <p class="card-text"><strong>Fiyat: ${formattedPrice}</strong></p>
-                <a href="${product.link}" class="btn btn-primary" style="background-color:#1c2938;border-color:#1c2938">Detayları Gör</a>
-                <div class="logo-container" style="margin:10px; margin-bottom:10%">
-                    <img src="/logos/${product.store}.png" alt="${product.store} logo" class="store-logo">
-                </div>
-            </div>
+<div class="col-md-4 product-item">
+    <div class="card product-card" style="position: relative;">
+        <img src="${product.image}" style="margin-top:20px" class="card-img-top product-image" alt="${product?.name ?? ""}" onerror="this.onerror=null;this.src='https://previews.123rf.com/images/blankstock/blankstock1812/blankstock181201188/113234166-no-or-stop-sign-computer-line-icon-pc-component-sign-monitor-with-case-symbol-caution-prohibited-ban.jpg';">
+        <div class="card-body" style="display: flex; flex-direction: column; justify-content: space-between; flex-grow: 1;">
+            <h5 class="card-title">${product.name ?? ""}</h5>
+            <ul class="list-unstyled">
+                <li><strong>CPU:</strong> ${product.specs.CPU ?? ""}</li>
+                <li><strong>GPU:</strong> ${product.specs.GPU ?? ""}</li>
+                <li><strong>Motherboard:</strong> ${product.specs.Motherboard ?? ""}</li>
+                <li><strong>RAM:</strong> ${product.specs.Ram ?? ""}</li>
+                <li><strong>Storage:</strong> ${product.specs?.Storage ?? ""}</li>
+            </ul>
+            <p class="card-text"><strong>Fiyat: ${formattedPrice}</strong></p>
+            <a href="${product.link}" class="btn btn-primary" style="background-color:#1c2938;border-color:#1c2938">Detayları Gör</a>
+        </div>
+        <div style="position: absolute; top: 10px; right: 10px;">
+            <img src="/logos/${product.store}.png" alt="${product.store} logo" class="store-logo" style="width: 50px; height: auto;">
         </div>
     </div>
+</div>
 `;
           productList.insertAdjacentHTML("beforeend", productCard);
         });
