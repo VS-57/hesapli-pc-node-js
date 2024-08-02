@@ -205,33 +205,35 @@
         </div>
         <div class="col-md-8">
           <div class="row mb-4">
-            <div class="col-md-4">
+          <!--   <div class="col-md-4">
               <input
                 type="text"
                 id="filterInput"
                 class="form-control"
                 placeholder="Ürün adında ara..."
               />
+            </div> -->
+           
+            <div style="margin-top: 9px;">
+              <p style="display: inline; margin: 0 15px"><strong>Ürün Sayısı:</strong></p>
+              <p id="productCount" style="display: inline; margin: 0 10px">0</p>
             </div>
+            <div style="margin-top: 3px; display: flex; align-items: center;">
+              <p style="display: inline; margin: 0 15px"><strong>Stoktakileri göster</strong></p>
+              <input
+                type="checkbox"
+                id="showInStock"
+                style="margin: 0 10px; width: 20px; height: 20px; vertical-align: middle;"
+                checked
+              />
+            </div>
+              
             <div class="col-md-3">
               <select id="sortOrder" class="form-control">
                 <option value="default">Sırala</option>
                 <option value="lowToHigh">Fiyat: Düşükten Yükseğe</option>
                 <option value="highToLow">Fiyat: Yüksekten Düşüğe</option>
               </select>
-            </div>
-            <div style="margin-top: 3px">
-              <p style="display: inline; margin: 0 15px">Ürün Sayısı</p>
-              <p id="productCount" style="display: inline; margin: 0 10px">0</p>
-            </div>
-            <div style="margin-top: 3px">
-              <p style="display: inline; margin: 0 15px">Stoktakileri göster</p>
-              <input
-                type="checkbox"
-                id="showInStock"
-                style="margin: 0 10px"
-                checked
-              />
             </div>
           </div>
 
