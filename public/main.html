@@ -33,7 +33,7 @@
 
       .product-item {
         position: relative;
-    }
+      }
 
       .scrollable-filters {
         max-height: 300px;
@@ -51,251 +51,526 @@
       }
 
       .header {
-      background-color: #1c2938;
-      padding: 20px;
-    }
-    .header-content {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-    }
-    .site-logo {
-      flex: 1;
-      text-align: center;
-    }
-
-    .header-title {
-      color: #f7f8f9;
-      flex: 2;
-      text-align: center;
-      margin: 10px 0;
-    }
-    .search-box {
-      flex: 3;
-      width: 100%;
-    }
-    .search-box input {
-      width: 100%;
-    }
-    @media (max-width: 768px) {
-      .site-logo, .header-title, .search-box {
-        flex: 1 0 100%;
-        text-align: center;
+        background-color: #1c2938;
+        padding: 20px;
       }
-      .header-title {
-        order: 1;
+      .header-content {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
       }
       .site-logo {
-        order: 2;
+        flex: 1;
+        text-align: center;
+      }
+
+      .header-title {
+        color: #f7f8f9;
+        flex: 1;
+        text-align: center;
+        margin: 10px 0;
       }
       .search-box {
-        order: 3;
-        margin-top: 10px;
+        flex: 3;
+        width: 100%;
       }
-    }
-    @media (max-width: 480px) {
-      .header-title {
-        display: none;
+      .search-box input {
+        width: 100%;
       }
-    }
+      @media (max-width: 768px) {
+        .site-logo,
+        .header-title,
+        .search-box {
+          flex: 1 0 100%;
+          text-align: center;
+        }
+        .header-title {
+          order: 1;
+        }
+        .site-logo {
+          order: 2;
+        }
+        .search-box {
+          order: 3;
+          margin-top: 10px;
+        }
+      }
+      @media (max-width: 480px) {
+        .header-title {
+          display: none;
+        }
+      }
     </style>
   </head>
 
-  <body style="background-color: #f7f8f9;">
-    <header class="header" style="background-color: #1c2938; padding: 20px;">
-      <div class="header-content" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap;">
-       <!--  <div class="site-logo" style="flex: 1; text-align: center;">
-          <a href="https://ucuzasistem.up.railway.app" rel="home">
-            <img class="header-image is-logo-image perfmatters-lazy entered pmloaded" alt="Ucuza Sistem" src="/main-logo.png" width="147" height="150" style="display: block; ">
-          </a>
-        </div> -->
-        <h1 class="header-title" style="color: #f7f8f9; flex: 2; text-align: center; margin: 10px 0;">Ucuza Sistem</h1>
-        <div class="search-box" style="flex: 3; width: 100%;">
+  <body style="background-color: #f7f8f9">
+    <header class="header">
+      <div class="header-content">
+        <h1 class="header-title" >Ucuza Sistem</h1>
+        <div class="search-box">
           <input
             type="text"
             id="filterInput"
             class="form-control"
             placeholder="Ürün adında ara..."
-            style="width: 100%;"
           />
         </div>
       </div>
     </header>
-    <div style="margin: 10px">
-      <div class="row" style="margin-left: 0px !important; margin-right: 0px !important;">
-        <div class="col-md-3 filter-sidebar" style="margin-left: 15px">
-          <h5>Filtreler</h5>
-          <button
-            id="resetFilters"
-            class="btn btn-secondary"
-            style="width: 100%; background-color: #1c2938"
-          >
-            Filtreleri Sıfırla
-          </button>
-
-          <div class="form-group row">
-            <div class="col">
-              <label for="startPrice">Başlangıç Fiyatı</label>
-              <input
-                type="number"
-                id="startPrice"
-                class="form-control"
-                placeholder="0"
-              />
+    <div class="container-fluid">
+      <div class="row">
+        <!-- Sidebar (filter menu) -->
+        <nav class="col-md-3 d-none d-md-block bg-light sidebar filter-sidebar">
+          <div class="filter-content">
+            <h5>Filtreler</h5>
+            <button
+              id="resetFilters"
+              class="btn btn-secondary"
+              style="width: 100%; background-color: #1c2938"
+            >
+              Filtreleri Sıfırla
+            </button>
+            <div class="form-group row">
+              <div class="col">
+                <label for="startPrice">Başlangıç Fiyatı</label>
+                <input
+                  type="number"
+                  id="startPrice"
+                  class="form-control"
+                  placeholder="0"
+                />
+              </div>
+              <div class="col">
+                <label for="endPrice">Bitiş Fiyatı</label>
+                <input
+                  type="number"
+                  id="endPrice"
+                  class="form-control"
+                  placeholder="35000"
+                />
+              </div>
             </div>
-            <div class="col">
-              <label for="endPrice">Bitiş Fiyatı</label>
-              <input
-                type="number"
-                id="endPrice"
-                class="form-control"
-                placeholder="35000"
-              />
-            </div>
-          </div>
-          <div class="form-group" style="display: flex; flex-wrap: wrap; max-width: 300px;">
-            <label style="width: 90%;">Mağaza</label><br />
-            <div class="form-check" style="flex: 1 0 50%; box-sizing: border-box;">
-              <input class="form-check-input" type="checkbox" value="itopya" id="itopya" />
-              <label class="form-check-label" for="itopya">Itopya</label>
-            </div>
-            <div class="form-check" style="flex: 1 0 50%; box-sizing: border-box;">
-              <input class="form-check-input" type="checkbox" value="gamingGen" id="gamingGen" />
-              <label class="form-check-label" for="gamingGen">GamingGen</label>
-            </div>
-            <div class="form-check" style="flex: 1 0 50%; box-sizing: border-box;">
-              <input class="form-check-input" type="checkbox" value="gameGaraj" id="gameGaraj" />
-              <label class="form-check-label" for="gameGaraj">GameGaraj</label>
-            </div>
-            <div class="form-check" style="flex: 1 0 50%; box-sizing: border-box;">
-              <input class="form-check-input" type="checkbox" value="pckolik" id="pckolik" />
-              <label class="form-check-label" for="pckolik">PcKolik</label>
-            </div>
-            <div class="form-check" style="flex: 1 0 50%; box-sizing: border-box;">
-              <input class="form-check-input" type="checkbox" value="vatan" id="vatan" />
-              <label class="form-check-label" for="vatan">Vatan</label>
-            </div>
-            <div class="form-check" style="flex: 1 0 50%; box-sizing: border-box;">
-              <input class="form-check-input" type="checkbox" value="sinerji" id="sinerji" />
-              <label class="form-check-label" for="sinerji">Sinerji</label>
-            </div>
-          </div>
-        </body>
-          <div class="form-group row">
-            <div class="form-group col">
-              <label>İşlemci Markası</label><br />
-              <div class="form-check">
+            <div
+              class="form-group"
+              style="display: flex; flex-wrap: wrap; max-width: 300px"
+            >
+              <label style="width: 90%">Mağaza</label><br />
+              <div
+                class="form-check"
+                style="flex: 1 0 50%; box-sizing: border-box"
+              >
                 <input
                   class="form-check-input"
                   type="checkbox"
-                  value="Intel"
-                  id="Intel"
+                  value="itopya"
+                  id="itopya"
                 />
-                <label class="form-check-label" for="Intel">Intel</label>
+                <label class="form-check-label" for="itopya">Itopya</label>
               </div>
-              <div class="form-check">
+              <div
+                class="form-check"
+                style="flex: 1 0 50%; box-sizing: border-box"
+              >
                 <input
                   class="form-check-input"
                   type="checkbox"
-                  value="AMD"
-                  id="AMD"
+                  value="gamingGen"
+                  id="gamingGen"
                 />
-                <label class="form-check-label" for="AMD">AMD</label>
+                <label class="form-check-label" for="gamingGen"
+                  >GamingGen</label
+                >
+              </div>
+              <div
+                class="form-check"
+                style="flex: 1 0 50%; box-sizing: border-box"
+              >
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="gameGaraj"
+                  id="gameGaraj"
+                />
+                <label class="form-check-label" for="gameGaraj"
+                  >GameGaraj</label
+                >
+              </div>
+              <div
+                class="form-check"
+                style="flex: 1 0 50%; box-sizing: border-box"
+              >
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="pckolik"
+                  id="pckolik"
+                />
+                <label class="form-check-label" for="pckolik">PcKolik</label>
+              </div>
+              <div
+                class="form-check"
+                style="flex: 1 0 50%; box-sizing: border-box"
+              >
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="vatan"
+                  id="vatan"
+                />
+                <label class="form-check-label" for="vatan">Vatan</label>
+              </div>
+              <div
+                class="form-check"
+                style="flex: 1 0 50%; box-sizing: border-box"
+              >
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="sinerji"
+                  id="sinerji"
+                />
+                <label class="form-check-label" for="sinerji">Sinerji</label>
               </div>
             </div>
-            <div class="form-group col">
-              <label>Ekran Kartı</label><br />
-              <div class="form-check">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value="RTX"
-                  id="RTX"
-                />
-                <label class="form-check-label" for="RTX">NVIDIA RTX</label>
+            <div class="form-group row">
+              <div class="form-group col">
+                <label>İşlemci Markası</label><br />
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="Intel"
+                    id="Intel"
+                  />
+                  <label class="form-check-label" for="Intel">Intel</label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="AMD"
+                    id="AMD"
+                  />
+                  <label class="form-check-label" for="AMD">AMD</label>
+                </div>
               </div>
-              <div class="form-check">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value="GTX"
-                  id="GTX"
-                />
-                <label class="form-check-label" for="GTX">NVIDIA GTX</label>
-              </div>
-              <div class="form-check">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value="RX"
-                  id="RX"
-                />
-                <label class="form-check-label" for="RX">AMD RX</label>
-              </div>
-              <div class="form-check">
-                <input
-                  class="form-check-input"
-                  type="checkbox"
-                  value="ARC"
-                  id="ARC"
-                />
-                <label class="form-check-label" for="ARC">Intel ARC</label>
+              <div class="form-group col">
+                <label>Ekran Kartı</label><br />
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="RTX"
+                    id="RTX"
+                  />
+                  <label class="form-check-label" for="RTX">NVIDIA RTX</label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="GTX"
+                    id="GTX"
+                  />
+                  <label class="form-check-label" for="GTX">NVIDIA GTX</label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="RX"
+                    id="RX"
+                  />
+                  <label class="form-check-label" for="RX">AMD RX</label>
+                </div>
+                <div class="form-check">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="ARC"
+                    id="ARC"
+                  />
+                  <label class="form-check-label" for="ARC">Intel ARC</label>
+                </div>
               </div>
             </div>
-          </div>
-          <div class="form-group">
-            <label>Ekran Kartı Modeli</label><br />
-            <input
-              type="text"
-              style="margin-bottom: 5px"
-              id="gpuSearch"
-              class="form-control"
-              placeholder="Ekran kartı ara..."
-            />
-            <div id="gpuModelFilters" class="scrollable-filters">
-              <!-- İşlemci modelleri dinamik olarak burada eklenecek -->
-            </div>
-          </div>
-          <div class="form-group">
-            <label>İşlemci Modeli</label><br />
-            <input
-              type="text"
-              style="margin-bottom: 5px"
-              id="processorSearch"
-              class="form-control"
-              placeholder="İşlemci modelinde ara..."
-            />
-            <div id="processorModelFilters" class="scrollable-filters">
-              <!-- İşlemci modelleri dinamik olarak burada eklenecek -->
-            </div>
-          </div>
-        </div>
-        <div class="col-md-8">
-          <div class="row mb-4">
-          <!--   <div class="col-md-4">
+            <div class="form-group">
+              <label>Ekran Kartı Modeli</label><br />
               <input
                 type="text"
-                id="filterInput"
+                style="margin-bottom: 5px"
+                id="gpuSearch"
                 class="form-control"
-                placeholder="Ürün adında ara..."
+                placeholder="Ekran kartı ara..."
               />
-            </div> -->
-           
-            <div style="margin-top: 9px;">
-              <p style="display: inline; margin: 0 15px"><strong>Ürün Sayısı:</strong></p>
+              <div id="gpuModelFilters" class="scrollable-filters">
+                <!-- İşlemci modelleri dinamik olarak burada eklenecek -->
+              </div>
+            </div>
+            <div class="form-group">
+              <label>İşlemci Modeli</label><br />
+              <input
+                type="text"
+                style="margin-bottom: 5px"
+                id="processorSearch"
+                class="form-control"
+                placeholder="İşlemci modelinde ara..."
+              />
+              <div id="processorModelFilters" class="scrollable-filters">
+                <!-- İşlemci modelleri dinamik olarak burada eklenecek -->
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- Mobile Sidebar -->
+        <nav class="col-md-3 d-md-none bg-light">
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#filterMenu"
+            aria-controls="filterMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+            style="margin: 10px; margin-bottom: 20px; border-color: #1c2938"
+          >
+            <span class="navbar-toggler-icon">
+              <i style="margin-top: 4px" class="fas fa-bars"></i>
+            </span>
+            Filtreler
+          </button>
+
+          <div class="collapse" id="filterMenu">
+            <div class="filter-content">
+              <button
+                id="resetFilters"
+                class="btn btn-secondary"
+                style="width: 100%; background-color: #1c2938"
+              >
+                Filtreleri Sıfırla
+              </button>
+              <div class="form-group row">
+                <div class="col">
+                  <label for="startPrice">Başlangıç Fiyatı</label>
+                  <input
+                    type="number"
+                    id="startPrice"
+                    class="form-control"
+                    placeholder="0"
+                  />
+                </div>
+                <div class="col">
+                  <label for="endPrice">Bitiş Fiyatı</label>
+                  <input
+                    type="number"
+                    id="endPrice"
+                    class="form-control"
+                    placeholder="35000"
+                  />
+                </div>
+              </div>
+              <div
+                class="form-group"
+                style="display: flex; flex-wrap: wrap; max-width: 300px"
+              >
+                <label style="width: 90%">Mağaza</label><br />
+                <div
+                  class="form-check"
+                  style="flex: 1 0 50%; box-sizing: border-box"
+                >
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="itopya"
+                    id="itopya"
+                  />
+                  <label class="form-check-label" for="itopya">Itopya</label>
+                </div>
+                <div
+                  class="form-check"
+                  style="flex: 1 0 50%; box-sizing: border-box"
+                >
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="gamingGen"
+                    id="gamingGen"
+                  />
+                  <label class="form-check-label" for="gamingGen"
+                    >GamingGen</label
+                  >
+                </div>
+                <div
+                  class="form-check"
+                  style="flex: 1 0 50%; box-sizing: border-box"
+                >
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="gameGaraj"
+                    id="gameGaraj"
+                  />
+                  <label class="form-check-label" for="gameGaraj"
+                    >GameGaraj</label
+                  >
+                </div>
+                <div
+                  class="form-check"
+                  style="flex: 1 0 50%; box-sizing: border-box"
+                >
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="pckolik"
+                    id="pckolik"
+                  />
+                  <label class="form-check-label" for="pckolik">PcKolik</label>
+                </div>
+                <div
+                  class="form-check"
+                  style="flex: 1 0 50%; box-sizing: border-box"
+                >
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="vatan"
+                    id="vatan"
+                  />
+                  <label class="form-check-label" for="vatan">Vatan</label>
+                </div>
+                <div
+                  class="form-check"
+                  style="flex: 1 0 50%; box-sizing: border-box"
+                >
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="sinerji"
+                    id="sinerji"
+                  />
+                  <label class="form-check-label" for="sinerji">Sinerji</label>
+                </div>
+              </div>
+              <div class="form-group row">
+                <div class="form-group col">
+                  <label>İşlemci Markası</label><br />
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value="Intel"
+                      id="Intel"
+                    />
+                    <label class="form-check-label" for="Intel">Intel</label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value="AMD"
+                      id="AMD"
+                    />
+                    <label class="form-check-label" for="AMD">AMD</label>
+                  </div>
+                </div>
+                <div class="form-group col">
+                  <label>Ekran Kartı</label><br />
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value="RTX"
+                      id="RTX"
+                    />
+                    <label class="form-check-label" for="RTX">NVIDIA RTX</label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value="GTX"
+                      id="GTX"
+                    />
+                    <label class="form-check-label" for="GTX">NVIDIA GTX</label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value="RX"
+                      id="RX"
+                    />
+                    <label class="form-check-label" for="RX">AMD RX</label>
+                  </div>
+                  <div class="form-check">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      value="ARC"
+                      id="ARC"
+                    />
+                    <label class="form-check-label" for="ARC">Intel ARC</label>
+                  </div>
+                </div>
+              </div>
+              <div class="form-group">
+                <label>Ekran Kartı Modeli</label><br />
+                <input
+                  type="text"
+                  style="margin-bottom: 5px"
+                  id="gpuSearch"
+                  class="form-control"
+                  placeholder="Ekran kartı ara..."
+                />
+                <div id="gpuModelFiltersMobile" class="scrollable-filters">
+                  <!-- İşlemci modelleri dinamik olarak burada eklenecek -->
+                </div>
+              </div>
+              <div class="form-group">
+                <label>İşlemci Modeli</label><br />
+                <input
+                  type="text"
+                  style="margin-bottom: 5px"
+                  id="processorSearch"
+                  class="form-control"
+                  placeholder="İşlemci modelinde ara..."
+                />
+                <div
+                  id="processorModelFiltersMobile"
+                  class="scrollable-filters"
+                >
+                  <!-- İşlemci modelleri dinamik olarak burada eklenecek -->
+                </div>
+              </div>
+            </div>
+          </div>
+        </nav>
+        <!-- Main content -->
+        <div class="col-md-9">
+          <div class="row mb-4" style="margin-top: 10px">
+            <div style="margin-top: 9px">
+              <p style="display: inline; margin: 0 15px">
+                <strong>Ürün Sayısı:</strong>
+              </p>
               <p id="productCount" style="display: inline; margin: 0 10px">0</p>
             </div>
-            <div style="margin-top: 3px; display: flex; align-items: center;">
-              <p style="display: inline; margin: 0 15px"><strong>Stoktakileri göster</strong></p>
+            <div style="margin-top: 3px; display: flex; align-items: center">
+              <p style="display: inline; margin: 0 15px">
+                <strong>Stoktakileri göster</strong>
+              </p>
               <input
                 type="checkbox"
                 id="showInStock"
-                style="margin: 0 10px; width: 20px; height: 20px; vertical-align: middle;"
+                style="
+                  margin: 0 10px;
+                  width: 20px;
+                  height: 20px;
+                  vertical-align: middle;
+                "
                 checked
               />
             </div>
-              
             <div class="col-md-3">
               <select id="sortOrder" class="form-control">
                 <option value="default">Sırala</option>
@@ -316,40 +591,39 @@
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
     <script src="data.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
     <script>
-      document.addEventListener("DOMContentLoaded", function () {
+      // Populate the filters when the page loads
+      function initFilters() {
         populateProcessorModelFilters();
         populateGpuModelFilters();
+      }
 
-        document
-          .getElementById("processorSearch")
-          .addEventListener("input", filterProcessorModels);
-        document
-          .getElementById("gpuSearch")
-          .addEventListener("input", filterGpuModels);
+      let isMobile = false;
 
-        document
-          .getElementById("resetFilters")
-          .addEventListener("click", function () {
-            document.getElementById("filterInput").value = "";
-            document.getElementById("startPrice").value = "";
-            document.getElementById("endPrice").value = "";
-            document
-              .querySelectorAll(".form-check-input")
-              .forEach(function (checkbox) {
-                checkbox.checked = false;
-              });
-            document.getElementById("sortOrder").value = "default";
-            document.getElementById("showInStock").checked = true;
-            filterProducts();
-          });
-      });
+      function checkIfMobile() {
+        isMobile = window.innerWidth <= 800;
+      }
+
+      // İlk yüklemede kontrol et
+      checkIfMobile();
+
+      // Pencere yeniden boyutlandırıldığında kontrol et
+      window.addEventListener("resize", checkIfMobile);
+
+      // Ayrıca, sayfa yüklendiğinde de kontrol edebilirsiniz
+      window.addEventListener("load", checkIfMobile);
 
       function populateProcessorModelFilters() {
-        const processorModelFilters = document.getElementById(
-          "processorModelFilters"
-        );
-        processorModelFilters.innerHTML = ""; // Temizle
+        const processorModelFilters = isMobile
+          ? document.getElementById("processorModelFiltersMobile")
+          : document.getElementById("processorModelFilters");
+
+        processorModelFilters.innerHTML = ""; // Clear existing content
         processors.forEach((processor) => {
           const div = document.createElement("div");
           div.className = "form-check";
@@ -372,27 +646,28 @@
       }
 
       function populateGpuModelFilters() {
-        const processorModelFilters =
-          document.getElementById("gpuModelFilters");
-        processorModelFilters.innerHTML = ""; // Temizle
-        gpus.forEach((processor) => {
+        const gpuModelFilters = isMobile
+          ? document.getElementById("gpuModelFiltersMobile")
+          : document.getElementById("gpuModelFilters");
+        gpuModelFilters.innerHTML = ""; // Clear existing content
+        gpus.forEach((gpu) => {
           const div = document.createElement("div");
           div.className = "form-check";
           const input = document.createElement("input");
           input.className = "form-check-input";
           input.type = "checkbox";
-          input.value = processor.value;
-          input.id = processor.value;
+          input.value = gpu.value;
+          input.id = gpu.value;
           input.addEventListener("change", filterProducts);
 
           const label = document.createElement("label");
           label.className = "form-check-label";
-          label.htmlFor = processor.value;
-          label.textContent = processor.name;
+          label.htmlFor = gpu.value;
+          label.textContent = gpu.name;
 
           div.appendChild(input);
           div.appendChild(label);
-          processorModelFilters.appendChild(div);
+          gpuModelFilters.appendChild(div);
         });
       }
 
@@ -403,10 +678,12 @@
         const filteredProcessors = processors.filter((processor) =>
           processor.name.toLowerCase().includes(searchTerm)
         );
-        const processorModelFilters = document.getElementById(
-          "processorModelFilters"
-        );
-        processorModelFilters.innerHTML = ""; // Temizle
+
+        const processorModelFilters = isMobile
+          ? document.getElementById("processorModelFiltersMobile")
+          : document.getElementById("processorModelFilters");
+
+        processorModelFilters.innerHTML = ""; // Clear existing content
         filteredProcessors.forEach((processor) => {
           const div = document.createElement("div");
           div.className = "form-check";
@@ -435,8 +712,10 @@
         const filteredGpus = gpus.filter((gpu) =>
           gpu.name.toLowerCase().includes(searchTerm)
         );
-        const gpuModelFilters = document.getElementById("gpuModelFilters");
-        gpuModelFilters.innerHTML = ""; // Temizle
+        const gpuModelFilters = isMobile
+          ? document.getElementById("gpuModelFiltersMobile")
+          : document.getElementById("gpuModelFilters");
+        gpuModelFilters.innerHTML = ""; // Clear existing content
         filteredGpus.forEach((gpu) => {
           const div = document.createElement("div");
           div.className = "form-check";
@@ -477,49 +756,51 @@
         }
       }
 
-      document
-        .getElementById("filterInput")
-        .addEventListener("keyup", function () {
-          filterProducts();
-        });
-
-      document
-        .getElementById("startPrice")
-        .addEventListener("input", function () {
-          filterProducts();
-        });
-
-      document
-        .getElementById("endPrice")
-        .addEventListener("input", function () {
-          filterProducts();
-        });
-
-      document
-        .getElementById("sortOrder")
-        .addEventListener("change", function () {
-          filterProducts();
-        });
-
-      document
-        .querySelectorAll(".form-check-input")
-        .forEach(function (checkbox) {
-          checkbox.addEventListener("change", function () {
-            filterProducts();
+      function setupEventListeners() {
+        document
+          .getElementById("filterInput")
+          .addEventListener("keyup", filterProducts);
+        document
+          .getElementById("startPrice")
+          .addEventListener("input", filterProducts);
+        document
+          .getElementById("endPrice")
+          .addEventListener("input", filterProducts);
+        document
+          .getElementById("sortOrder")
+          .addEventListener("change", filterProducts);
+        document
+          .getElementById("showInStock")
+          .addEventListener("change", filterProducts);
+        document
+          .querySelectorAll(".form-check-input")
+          .forEach(function (checkbox) {
+            checkbox.addEventListener("change", filterProducts);
           });
-        });
+        document
+          .getElementById("processorSearch")
+          .addEventListener("input", filterProcessorModels);
+        document
+          .getElementById("gpuSearch")
+          .addEventListener("input", filterGpuModels);
+        document
+          .getElementById("resetFilters")
+          .addEventListener("click", resetFilters);
+      }
 
-      document
-        .getElementById("showInStock")
-        .addEventListener("change", function () {
-          filterProducts();
-        });
-
-      document.addEventListener("DOMContentLoaded", async function () {
-        const products = await getProducts();
+      function resetFilters() {
+        document.getElementById("filterInput").value = "";
+        document.getElementById("startPrice").value = "";
+        document.getElementById("endPrice").value = "";
+        document
+          .querySelectorAll(".form-check-input")
+          .forEach(function (checkbox) {
+            checkbox.checked = false;
+          });
+        document.getElementById("sortOrder").value = "default";
+        document.getElementById("showInStock").checked = true;
         filterProducts();
-        document.getElementById("productCount").textContent = products.length;
-      });
+      }
 
       async function filterProducts() {
         const filterValue = document
@@ -588,7 +869,8 @@
 
         const products = await getProducts();
         let filteredProducts = products.filter(function (product) {
-          const matchesFilter = product.name?.toLowerCase()
+          const matchesFilter = product.name
+            ?.toLowerCase()
             .includes(filterValue);
           const matchesPrice =
             product.price >= startPrice && product.price <= endPrice;
@@ -666,21 +948,33 @@
           const productCard = `
 <div class="col-md-4 product-item">
     <div class="card product-card" style="position: relative;">
-        <img src="${product.image}" style="margin-top:20px" class="card-img-top product-image" alt="${product?.name ?? ""}" onerror="this.onerror=null;this.src='https://previews.123rf.com/images/blankstock/blankstock1812/blankstock181201188/113234166-no-or-stop-sign-computer-line-icon-pc-component-sign-monitor-with-case-symbol-caution-prohibited-ban.jpg';">
+        <img src="${
+          product.image
+        }" style="margin-top:20px" class="card-img-top product-image" alt="${
+            product?.name ?? ""
+          }" onerror="this.onerror=null;this.src='https://previews.123rf.com/images/blankstock/blankstock1812/blankstock181201188/113234166-no-or-stop-sign-computer-line-icon-pc-component-sign-monitor-with-case-symbol-caution-prohibited-ban.jpg';">
         <div class="card-body" style="display: flex; flex-direction: column; justify-content: space-between; flex-grow: 1;">
             <h5 class="card-title">${product.name ?? ""}</h5>
             <ul class="list-unstyled">
                 <li><strong>CPU:</strong> ${product.specs.CPU ?? ""}</li>
                 <li><strong>GPU:</strong> ${product.specs.GPU ?? ""}</li>
-                <li><strong>Motherboard:</strong> ${product.specs.Motherboard ?? ""}</li>
+                <li><strong>Motherboard:</strong> ${
+                  product.specs.Motherboard ?? ""
+                }</li>
                 <li><strong>RAM:</strong> ${product.specs.Ram ?? ""}</li>
-                <li><strong>Storage:</strong> ${product.specs?.Storage ?? ""}</li>
+                <li><strong>Storage:</strong> ${
+                  product.specs?.Storage ?? ""
+                }</li>
             </ul>
             <p class="card-text"><strong>Fiyat: ${formattedPrice}</strong></p>
-            <a href="${product.link}" class="btn btn-primary" style="background-color:#1c2938;border-color:#1c2938">Detayları Gör</a>
+            <a href="${
+              product.link
+            }" class="btn btn-primary" style="background-color:#1c2938;border-color:#1c2938">Detayları Gör</a>
         </div>
         <div style="position: absolute; top: 10px; right: 10px;">
-            <img src="/logos/${product.store}.png" alt="${product.store} logo" class="store-logo" style="width: 50px; height: auto;">
+            <img src="/logos/${product.store}.png" alt="${
+            product.store
+          } logo" class="store-logo" style="width: 50px; height: auto;">
         </div>
     </div>
 </div>
@@ -688,6 +982,14 @@
           productList.insertAdjacentHTML("beforeend", productCard);
         });
       }
+
+      document.addEventListener("DOMContentLoaded", async function () {
+        await initFilters();
+        setupEventListeners();
+        const products = await getProducts();
+        filterProducts();
+        document.getElementById("productCount").textContent = products.length;
+      });
     </script>
   </body>
 </html>
