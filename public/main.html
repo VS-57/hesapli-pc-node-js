@@ -72,7 +72,54 @@
               />
             </div>
           </div>
-          
+          <div class="form-group">
+            <label>Mağaza</label><br />
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value="itopya"
+                id="itopya"
+              />
+              <label class="form-check-label" for="itopya">Itopya</label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value="gamingGen"
+                id="gamingGen"
+              />
+              <label class="form-check-label" for="gamingGen">GamingGen</label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value="gameGaraj"
+                id="gameGaraj"
+              />
+              <label class="form-check-label" for="gameGaraj">GameGaraj</label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value="pckolik"
+                id="pckolik"
+              />
+              <label class="form-check-label" for="pckolik">PcKolik</label>
+            </div>
+            <div class="form-check">
+              <input
+                class="form-check-input"
+                type="checkbox"
+                value="vatan"
+                id="vatan"
+              />
+              <label class="form-check-label" for="vatan">Vatan</label>
+            </div>
+          </div>
           <div class="form-group row">
             <div class="form-group col">
               <label>İşlemci Markası</label><br />
@@ -438,13 +485,29 @@
               !checkbox.id.includes("AMD") &&
               !checkbox.id.includes("RTX") &&
               !checkbox.id.includes("GTX") &&
-              !checkbox.id.includes("RX")
+              !checkbox.id.includes("RX") &&
+              !checkbox.id.includes("itopya") &&
+              !checkbox.id.includes("gamingGen") &&
+              !checkbox.id.includes("pckolik") &&
+              !checkbox.id.includes("vatan") &&
+              !checkbox.id.includes("gameGaraj")
           )
           .map((checkbox) => checkbox.value.toLowerCase());
 
         const sortOrder = document.getElementById("sortOrder").value;
-
         const showInStock = document.getElementById("showInStock").checked;
+        const selectedStores = Array.from(
+          document.querySelectorAll(".form-check-input:checked")
+        )
+          .filter(
+            (checkbox) =>
+              checkbox.id.includes("itopya") ||
+              checkbox.id.includes("gamingGen") ||
+              checkbox.id.includes("gameGaraj") ||
+              checkbox.id.includes("pckolik") ||
+              checkbox.id.includes("vatan")
+          )
+          .map((checkbox) => checkbox.value.toLowerCase());
 
         const products = await getProducts();
         let filteredProducts = products.filter(function (product) {
@@ -485,13 +548,21 @@
               product.price !== 0;
           }
 
+          let matchesStore = true;
+          if (selectedStores.length > 0) {
+            matchesStore = selectedStores.some((store) =>
+              product.store.toLowerCase().includes(store)
+            );
+          }
+
           return (
             matchesFilter &&
             matchesPrice &&
             matchesCPU &&
             matchesGPU &&
             matchesModel &&
-            matchesStock
+            matchesStock &&
+            matchesStore
           );
         });
 
@@ -517,34 +588,40 @@
           }).format(product.price ?? 0);
 
           const productCard = `
-      <div class="col-md-4 product-item">
-          <div class="card product-card">
-              <img src="${
-                product.image
-              }" class="card-img-top product-image" alt="${
+        <div class="col-md-4 product-item">
+            <div class="card product-card">
+                <img src="${
+                  product.image
+                }" class="card-img-top product-image" alt="${
             product.name
           }" onerror="this.onerror=null;this.src='https://previews.123rf.com/images/blankstock/blankstock1812/blankstock181201188/113234166-no-or-stop-sign-computer-line-icon-pc-component-sign-monitor-with-case-symbol-caution-prohibited-ban.jpg';">
-              <div class="card-body">
-                  <h5 class="card-title">${product.name}</h5>
-                  <ul class="list-unstyled">
-                      <li><strong>CPU:</strong> ${product.specs.CPU ?? ""}</li>
-                      <li><strong>GPU:</strong> ${product.specs.GPU ?? ""}</li>
-                      <li><strong>Motherboard:</strong> ${
-                        product.specs.Motherboard ?? ""
-                      }</li>
-                      <li><strong>RAM:</strong> ${product.specs.Ram ?? ""}</li>
-                      <li><strong>Storage:</strong> ${
-                        product.specs?.Storage ?? ""
-                      }</li>
-                  </ul>
-                  <p class="card-text"><strong>Fiyat: ${formattedPrice}</strong></p>
-                  <a href="${
-                    product.link
-                  }" class="btn btn-primary">Detayları Gör</a>
-              </div>
-          </div>
-      </div>
-    `;
+                <div class="card-body">
+                    <h5 class="card-title">${product.name}</h5>
+                    <ul class="list-unstyled">
+                        <li><strong>CPU:</strong> ${
+                          product.specs.CPU ?? ""
+                        }</li>
+                        <li><strong>GPU:</strong> ${
+                          product.specs.GPU ?? ""
+                        }</li>
+                        <li><strong>Motherboard:</strong> ${
+                          product.specs.Motherboard ?? ""
+                        }</li>
+                        <li><strong>RAM:</strong> ${
+                          product.specs.Ram ?? ""
+                        }</li>
+                        <li><strong>Storage:</strong> ${
+                          product.specs?.Storage ?? ""
+                        }</li>
+                    </ul>
+                    <p class="card-text"><strong>Fiyat: ${formattedPrice}</strong></p>
+                    <a href="${
+                      product.link
+                    }" class="btn btn-primary">Detayları Gör</a>
+                </div>
+            </div>
+        </div>
+      `;
           productList.insertAdjacentHTML("beforeend", productCard);
         });
       }
