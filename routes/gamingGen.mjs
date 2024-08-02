@@ -138,7 +138,7 @@ async function clickFibofiltersButton(page) {
       const removedLines = filteredLines.slice(1, filteredLines.length);
 
       products.push({
-        link: productUrl,
+        url: productUrl,
         name: product.title,
         price: product.price,
         image: product.image,
