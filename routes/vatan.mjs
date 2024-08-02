@@ -64,7 +64,7 @@ async function fetchAllProducts(urls) {
           }
         });
 
-      products.push({ name, price, image, link, specs });
+      products.push({ name, price, image, link, specs, store: "vatan" });
     });
   });
 

@@ -163,6 +163,7 @@ async function clickFibofiltersButton(page) {
           Storage: removedLines[4] || "N/A",
           Case: removedLines[5] || "N/A",
         },
+        store: "gamingGen",
       });
     }
   }

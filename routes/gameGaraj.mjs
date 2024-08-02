@@ -115,7 +115,8 @@ function parseProducts(doc) {
       name: titleElement ? titleElement.textContent.trim() : null,
       price: priceNumber,
       link: titleElement ? titleElement.getAttribute("href") : null,
-      specs: specs, // Teknik özellikler başlık ve değer çiftlerine dönüştürüldü
+      specs: specs,
+      store: "gameGaraj" 
     };
   });
 }

@@ -65,7 +65,7 @@ async function fetchAndScrapeProductData(url) {
       Storage: features.find((x) => x.toLowerCase().includes("ssd")) || "N/A",
     };
 
-    products.push({ name, price, image, link, specs });
+    products.push({ name, price, image, link, specs, store: "pckolik" });
   });
 
   return products;

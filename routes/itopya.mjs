@@ -58,7 +58,7 @@ function parseProducts(doc) {
           .specText || "N/A",
     };
 
-    return { name, price, image, link, specs };
+    return { name, price, image, link, specs, store: "itopya" };
   });
 }
 
