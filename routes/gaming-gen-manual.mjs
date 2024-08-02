@@ -20,7 +20,7 @@ async function scrapeProduct(page, url) {
         ? descriptionElement.querySelector("table tbody")
         : null;
 
-      const title = titleElement ? titleElement.textContent.trim() : "N/A";
+      const name = titleElement ? titleElement.textContent.trim() : "N/A";
       const image = imageElement ? imageElement.src : null;
 
       let price = "N/A";
@@ -65,7 +65,7 @@ async function scrapeProduct(page, url) {
       };
 
       return {
-        title,
+        name,
         price,
         specs,
         image,
