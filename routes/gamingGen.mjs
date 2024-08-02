@@ -10,55 +10,38 @@ async function scrapeProduct(page, url) {
     await page.goto(url, { waitUntil: "networkidle2" });
 
     const product = await page.evaluate(() => {
-      const urunBasligiEleman = document.querySelector("h1.product_title");
-      const urunFiyatiEleman = document.querySelector("p.price");
-      const imageElement = document.querySelector(
-        ".woocommerce-product-gallery__image img"
-      );
+      const titleElement = document.querySelector("h1.product_title");
+      const priceElement = document.querySelector("p.price");
+      const imageElement = document.querySelector(".woocommerce-product-gallery__image img");
+      const descriptionElement = document.querySelector("div.woocommerce-product-details__short-description");
+      const descriptionTable = descriptionElement ? descriptionElement.querySelector("table tbody") : null;
 
-      const urunAciklamasiEleman = document.querySelector(
-        "div.woocommerce-product-details__short-description"
-      );
-      const urunAciklamasiTable = urunAciklamasiEleman
-        ? urunAciklamasiEleman.querySelector("table tbody")
-        : null;
-
-      const urunBasligi = urunBasligiEleman
-        ? urunBasligiEleman.textContent.trim()
-        : "N/A";
-
+      const title = titleElement ? titleElement.textContent.trim() : "N/A";
       const image = imageElement ? imageElement.src : null;
 
-      let urunFiyati = "N/A";
-      if (urunFiyatiEleman) {
-        const fiyat = urunFiyatiEleman.textContent.trim();
-        urunFiyati = fiyat.split("Şu andaki fiyat")[1] || "N/A";
-        urunFiyati =
-          parseFloat(urunFiyati.replace(/[^\d,]/g, "").replace(",", ".")) || 0;
+      let price = "N/A";
+      if (priceElement) {
+        const priceText = priceElement.textContent.trim();
+        price = priceText.split("Şu andaki fiyat")[1] || "N/A";
+        price = parseFloat(price.replace(/[^\d,]/g, "").replace(",", ".")) || 0;
       }
 
-      let urunAciklamasi = "N/A";
-      if (urunAciklamasiTable) {
-        const trs = urunAciklamasiTable.querySelectorAll("tr");
-        urunAciklamasi = Array.from(trs).map((row, index) => {
-          const tds = row.querySelectorAll("td");
-          let rowObject = {};
-          if (tds.length >= 2) {
-            rowObject = {
-              "": tds[1].innerText,
-            };
-          }
-          return rowObject;
+      let description = "N/A";
+      if (descriptionTable) {
+        const rows = descriptionTable.querySelectorAll("tr");
+        description = Array.from(rows).map((row) => {
+          const cells = row.querySelectorAll("td");
+          return cells.length >= 2 ? { "": cells[1].innerText } : {};
         });
-      } else if (urunAciklamasiEleman) {
-        urunAciklamasi = urunAciklamasiEleman.textContent.trim();
+      } else if (descriptionElement) {
+        description = descriptionElement.textContent.trim();
       }
 
       return {
-        title: urunBasligi,
-        price: urunFiyati,
-        description: urunAciklamasi,
-        image: image,
+        title,
+        price,
+        description,
+        image,
       };
     });
 
@@ -85,16 +68,29 @@ async function delay(time) {
 
 async function clickFibofiltersButton(page) {
   let buttonsFound = 0;
-  while (true) {
+  let attempts = 0;
+  const maxAttempts = 5;
+
+  while (attempts < maxAttempts) {
     try {
-      // Wait for the button to appear
-      await page.waitForSelector(
-        "button.fibofilters-button.fibofilters-show-more",
-        { timeout: 15000 }
-      );
-      const buttons = await page.$$(
-        "button.fibofilters-button.fibofilters-show-more"
-      );
+      await page.waitForSelector("button.fibofilters-button.fibofilters-show-more", { timeout: 15000 });
+
+      const placeholderImages = await page.evaluate(() => {
+        return Array.from(document.querySelectorAll("img")).filter(
+          img => img.src === "https://www.gaming.gen.tr/wp-content/uploads/woocommerce-placeholder-300x300.jpg"
+        ).length;
+      });
+
+      console.log(`Found ${placeholderImages} placeholder images`);
+
+      if (placeholderImages > 0) {
+        console.log(`Waiting for placeholder images to load... Attempt ${attempts + 1}`);
+        await delay(10000);
+        attempts++;
+        continue;
+      }
+
+      const buttons = await page.$$("button.fibofilters-button.fibofilters-show-more");
       console.log(`Found ${buttons.length} buttons`);
 
       if (buttons.length > 0) {
@@ -102,7 +98,7 @@ async function clickFibofiltersButton(page) {
           console.log("Clicking button");
           await button.click();
           buttonsFound++;
-          await delay(10000); // Wait for 10 seconds
+          await delay(10000);
         }
       } else {
         break;
@@ -110,44 +106,35 @@ async function clickFibofiltersButton(page) {
     } catch (error) {
       console.error("Error clicking buttons or no more buttons found:", error);
 
-      // Capture HTML content for debugging
       const htmlContent = await page.content();
       fs.writeFileSync("debug.html", htmlContent);
       console.log("Saved page content to debug.html for inspection.");
 
-      // Retry mechanism
       try {
-        await delay(5000); // Wait for 5 seconds before retrying
-        await page.waitForSelector(
-          "button.fibofilters-button.fibofilters-show-more",
-          { timeout: 15000 }
-        );
+        await delay(5000);
+        await page.waitForSelector("button.fibofilters-button.fibofilters-show-more", { timeout: 15000 });
       } catch (retryError) {
         console.error("Retrying failed:", retryError);
-        break; // Exit the loop if retrying fails
+        break;
       }
     }
   }
 
   console.log(`Clicked a total of ${buttonsFound} buttons`);
 
-  await delay(15000); // Wait for 15 seconds
+  await delay(15000);
   const productLinks = await checkProductLinks(page);
 
-  const linesToRemove = []; // Add lines to remove here
+  const linesToRemove = [];
   const products = [];
 
   for (const productUrl of productLinks) {
     const product = await scrapeProduct(page, productUrl);
 
     if (product) {
-      const cleanedDescription = product.description
-        .replace(/\n\s*\n/g, "\n")
-        .trim();
+      const cleanedDescription = product.description.replace(/\n\s*\n/g, "\n").trim();
       const lines = cleanedDescription.split("\n");
-      const filteredLines = lines.filter(
-        (line) => !linesToRemove.includes(line.trim()) && line.trim()
-      );
+      const filteredLines = lines.filter((line) => !linesToRemove.includes(line.trim()) && line.trim());
       const removedLines = filteredLines.slice(1, filteredLines.length);
 
       products.push({
@@ -207,9 +194,7 @@ async function checkProductLinks(page) {
 router.get("/", async (req, res) => {
   const browser = await puppeteer.launch({ headless: true });
   const page = await browser.newPage();
-  await page.goto("https://www.gaming.gen.tr/kategori/hazir-sistemler/", {
-    waitUntil: "networkidle2",
-  });
+  await page.goto("https://www.gaming.gen.tr/kategori/hazir-sistemler/", { waitUntil: "networkidle2" });
 
   console.log("Page loaded, starting button click process.");
 
