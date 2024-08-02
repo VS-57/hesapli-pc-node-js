@@ -142,7 +142,10 @@ const gpus = [
   { name: "GeForce RTX 4060 Ti", value: "RTX 4060 Ti" },
   { name: "GeForce RTX 4070", value: "RTX 4070" },
   { name: "GeForce RTX 4070 Ti", value: "RTX 4070 Ti" },
+  { name: "GeForce RTX 4070 Super", value: "RTX 4070 Super" },
+  { name: "GeForce RTX 4070 Ti Super", value: "RTX 4070 Ti Super" },
   { name: "GeForce RTX 4080", value: "RTX 4080" },
+  { name: "GeForce RTX 4080 Super", value: "RTX 4080 Super" },
   { name: "GeForce RTX 4090", value: "RTX 4090" },
 
   // AMD Radeon GPUs
