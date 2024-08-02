@@ -100,14 +100,14 @@ function parseProducts(doc) {
       if (index === 0) acc["CPU"] = spec;
       else if (index === 1) acc["Motherboard"] = spec;
       else if (index === 2) acc["GPU"] = findGPU(specsList);
-      else if (index === 3) acc["RAM"] = findRAM(specsList);
+      else if (index === 3) acc["Ram"] = findRAM(specsList);
       else if (index === 4) acc["Storage"] = findStorage(specsList);
       return acc;
     }, {});
 
     // Handling cases where specsList length is not 5
     if (specsList.length !== 5) {
-      if (!specs["RAM"]) specs["RAM"] = findRAM(specsList);
+      if (!specs["Ram"]) specs["Ram"] = findRAM(specsList);
       if (!specs["Storage"]) specs["Storage"] = findStorage(specsList);
     }
     return {
@@ -116,7 +116,7 @@ function parseProducts(doc) {
       price: priceNumber,
       link: titleElement ? titleElement.getAttribute("href") : null,
       specs: specs,
-      store: "gameGaraj" 
+      store: "gameGaraj",
     };
   });
 }

@@ -40,7 +40,7 @@
 
   <body>
     <div style="margin: 10px">
-      <h1 class="text-center mb-5" >Hazır Sistemler</h1>
+      <h1 class="text-center mb-5">Hazır Sistemler</h1>
       <div class="row">
         <div class="col-md-3 filter-sidebar" style="margin-left: 15px">
           <h5>Filtreler</h5>
@@ -706,9 +706,9 @@
                       <li><strong>Motherboard:</strong> ${
                         product.specs.Motherboard ?? ""
                       }</li>
-                      <li><strong>RAM:</strong> ${product.specs.RAM ?? ""}</li>
+                      <li><strong>RAM:</strong> ${product.specs.Ram ?? ""}</li>
                       <li><strong>Storage:</strong> ${
-                        product.specs.Storage ?? ""
+                        product.specs?.Storage ?? ""
                       }</li>
                   </ul>
                   <p class="card-text"><strong>Fiyat: ${formattedPrice}</strong></p>
