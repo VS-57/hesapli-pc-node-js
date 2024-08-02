@@ -51,28 +51,65 @@ function parseProducts(doc) {
         )
       : [];
 
-    // Teknik özellikleri başlık ve değer çiftlerine dönüştürme
-    let specs;
-    if (specsList.length === 5) {
-      specs = specsList.reduce((acc, spec, index) => {
-        if (index === 0) acc["CPU"] = spec;
-        else if (index === 1) acc["Motherboard"] = spec;
-        else if (index === 2) acc["GPU"] = spec;
-        else if (index === 3) acc["RAM"] = spec;
-        else if (index === 4) acc["Storage"] = spec;
-        return acc;
-      }, {});
-    } else {
-      specs = specsList.reduce((acc, spec, index) => {
-        if (index === 0) acc["CPU"] = spec;
-        else if (index === 1) acc["Motherboard"] = spec;
-        else if (index === 2) acc["GPU"] = spec;
-        else if (index === 4) acc["RAM"] = spec;
-        else if (index === 5) acc["Storage"] = spec;
-        return acc;
-      }, {});
-    }
+    // Function to find the GPU
+    const findGPU = (list) => {
+      return (
+        list.find(
+          (x) =>
+            x.toLowerCase().includes("rtx") ||
+            x.toLowerCase().includes("gtx") ||
+            x.toLowerCase().includes("rx")
+        ) || "N/A"
+      );
+    };
 
+    // Function to find the RAM
+    const findRAM = (list) => {
+      return (
+        list
+          .slice()
+          .reverse()
+          .find(
+            (x) =>
+              (x.toLowerCase().includes("mhz") &&
+                x.toLowerCase().includes("gb")) ||
+              x.toLowerCase().includes("ram")
+          ) || "N/A"
+      );
+    };
+
+    // Function to find the Storage
+    const findStorage = (list) => {
+      return (
+        list
+          .slice()
+          .reverse()
+          .find(
+            (x) =>
+              (x.toLowerCase().includes("ssd") ||
+                x.toLowerCase().includes("m.2") ||
+                x.toLowerCase().includes("m2") ||
+                x.toLowerCase().includes("nvme")) &&
+              (x.toLowerCase().includes("gb") || x.toLowerCase().includes("tb"))
+          ) || "N/A"
+      );
+    };
+
+    // Building the specs object based on the specsList length
+    const specs = specsList.reduce((acc, spec, index) => {
+      if (index === 0) acc["CPU"] = spec;
+      else if (index === 1) acc["Motherboard"] = spec;
+      else if (index === 2) acc["GPU"] = findGPU(specsList);
+      else if (index === 3) acc["RAM"] = findRAM(specsList);
+      else if (index === 4) acc["Storage"] = findStorage(specsList);
+      return acc;
+    }, {});
+
+    // Handling cases where specsList length is not 5
+    if (specsList.length !== 5) {
+      if (!specs["RAM"]) specs["RAM"] = findRAM(specsList);
+      if (!specs["Storage"]) specs["Storage"] = findStorage(specsList);
+    }
     return {
       image: imageElement ? imageElement.getAttribute("src") : null,
       name: titleElement ? titleElement.textContent.trim() : null,
