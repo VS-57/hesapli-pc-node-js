@@ -88,8 +88,13 @@ async function clickFibofiltersButton(page) {
   while (true) {
     try {
       // Wait for the button to appear
-      await page.waitForSelector("button.fibofilters-button.fibofilters-show-more", { timeout: 15000 });
-      const buttons = await page.$$("button.fibofilters-button.fibofilters-show-more");
+      await page.waitForSelector(
+        "button.fibofilters-button.fibofilters-show-more",
+        { timeout: 15000 }
+      );
+      const buttons = await page.$$(
+        "button.fibofilters-button.fibofilters-show-more"
+      );
       console.log(`Found ${buttons.length} buttons`);
 
       if (buttons.length > 0) {
@@ -113,7 +118,10 @@ async function clickFibofiltersButton(page) {
       // Retry mechanism
       try {
         await delay(5000); // Wait for 5 seconds before retrying
-        await page.waitForSelector("button.fibofilters-button.fibofilters-show-more", { timeout: 15000 });
+        await page.waitForSelector(
+          "button.fibofilters-button.fibofilters-show-more",
+          { timeout: 15000 }
+        );
       } catch (retryError) {
         console.error("Retrying failed:", retryError);
         break; // Exit the loop if retrying fails

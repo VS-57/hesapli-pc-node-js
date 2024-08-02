@@ -38,13 +38,31 @@ async function fetchAndScrapeProductData(url) {
       feature.textContent.trim()
     );
 
+    const tempCpu =
+      features.find(
+        (x) =>
+          x.toLowerCase().includes("ryzen") ||
+          x.toLowerCase().includes("core") ||
+          x.toLowerCase().includes("İŞLEMCİ".toLowerCase()) ||
+          x.toLowerCase().includes("ISLEMCI".toLowerCase())
+      ) || "N/A";
+
+    const tempGpu =
+      features.find(
+        (x) =>
+          x.toLowerCase().includes("rx") ||
+          x.toLowerCase().includes("gtx") ||
+          x.toLowerCase().includes("rtx") ||
+          x.toLowerCase().includes("arc")
+      ) || "N/A";
+
     const specs = {
-      CPU: features[0] || "N/A",
-      Motherboard: features[1] || "N/A",
-      GPU: features[2] || "N/A",
-      Ram: features[3] || "N/A",
-      Case: features[4] || "N/A",
-      Storage: features[5] || "N/A",
+      CPU: tempCpu,
+      Motherboard: features.find((x) => x.toLowerCase().includes("anakart")),
+      GPU: tempGpu,
+      Ram: features.find((x) => x.toLowerCase().includes("ram")),
+      Case: features.find((x) => x.toLowerCase().includes("kasa")) || "N/A",
+      Storage: features.find((x) => x.toLowerCase().includes("ssd")) || "N/A",
     };
 
     products.push({ name, price, image, link, specs });
@@ -98,7 +116,7 @@ async function scrapeMultiplePages(urls) {
  *                         type: string
  *                       ram:
  *                         type: string
- *                  
+ *
  */
 router.get("/", async (req, res) => {
   const baseUrl = "https://pckolik.com/tr/pc/hazir-sistemler";
