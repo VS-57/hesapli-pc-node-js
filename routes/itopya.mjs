@@ -41,11 +41,21 @@ function parseProducts(doc) {
     }));
 
     const specs = {
-      CPU: (specsArray.find((spec) => spec.specText.includes("İşlemci")) || {}).specText || "N/A",
-      Motherboard: (specsArray.find((spec) => spec.specText.includes("Anakart")) || {}).specText || "N/A",
-      GPU: (specsArray.find((spec) => spec.specText.includes("Ekran Kartı")) || {}).specText || "N/A",
-      Ram: (specsArray.find((spec) => spec.specText.includes("RAM")) || {}).specText || "N/A",
-      Storage: (specsArray.find((spec) => spec.specText.includes("SSD")) || {}).specText || "N/A",
+      CPU:
+        (specsArray.find((spec) => spec.specText.includes("İşlemci")) || {})
+          .specText || "N/A",
+      Motherboard:
+        (specsArray.find((spec) => spec.specText.includes("Anakart")) || {})
+          .specText || "N/A",
+      GPU:
+        (specsArray.find((spec) => spec.specText.includes("Ekran Kartı")) || {})
+          .specText || "N/A",
+      Ram:
+        (specsArray.find((spec) => spec.specText.includes("RAM")) || {})
+          .specText || "N/A",
+      Storage:
+        (specsArray.find((spec) => spec.specText.includes("SSD")) || {})
+          .specText || "N/A",
     };
 
     return { name, price, image, link, specs };
@@ -97,7 +107,7 @@ async function fetchAllProducts(totalPages) {
  */
 router.get("/", async (req, res) => {
   try {
-    const totalPages = 24;
+    const totalPages = 23;
     const products = await fetchAllProducts(totalPages);
     res.json(products);
   } catch (error) {
