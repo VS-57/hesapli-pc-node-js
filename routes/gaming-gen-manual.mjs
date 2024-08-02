@@ -69,6 +69,7 @@ async function scrapeProduct(page, url) {
         price,
         specs,
         image,
+        store: "gamingGen",
       };
     });
 

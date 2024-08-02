@@ -39,15 +39,33 @@
   </head>
 
   <body style="background-color: #f7f8f9;">
+    <header style="background-color: #1c2938; padding: 20px;">
+      <div style="display: flex; justify-content: space-between; align-items: center;">
+        <div class="site-logo" style="flex: 1;">
+          <a href="https://ucuzasistem.up.railway.app" rel="home">
+            <img class="header-image is-logo-image perfmatters-lazy entered pmloaded" alt="Ucuza Sistem" src="https://www.gaming.gen.tr/wp-content/uploads/2023/09/gaminggentr-logo.png" width="147" height="95" data-src="https://www.gaming.gen.tr/wp-content/uploads/2023/09/gaminggentr-logo.png" data-srcset="https://www.gaming.gen.tr/wp-content/uploads/2023/09/gaminggentr-logo.png 1x, https://www.gaming.gen.tr/wp-content/uploads/2023/09/gaminggentr-logo.png 2x" data-ll-status="loaded" srcset="https://www.gaming.gen.tr/wp-content/uploads/2023/09/gaminggentr-logo.png 1x, https://www.gaming.gen.tr/wp-content/uploads/2023/09/gaminggentr-logo.png 2x" style="display: block; max-width: 100%;">
+          </a>
+        </div>
+        <h1 class="text-center mb-2" style="color: #f7f8f9; flex: 2; text-align: center;">Ucuza Sistem</h1>
+        <div style="flex: 3;">
+          <input
+            type="text"
+            id="filterInput"
+            class="form-control"
+            placeholder="Ürün adında ara..."
+            style="width: 100%;"
+          />
+        </div>
+      </div>
+    </header>
     <div style="margin: 10px">
-      <h1 class="text-center mb-5">Ucuza Sistem</h1>
       <div class="row">
         <div class="col-md-3 filter-sidebar" style="margin-left: 15px">
           <h5>Filtreler</h5>
           <button
             id="resetFilters"
             class="btn btn-secondary"
-            style="width: 100%; background-color: #007bff"
+            style="width: 100%; background-color: #1c2938"
           >
             Filtreleri Sıfırla
           </button>
@@ -498,8 +516,7 @@
 
         const products = await getProducts();
         let filteredProducts = products.filter(function (product) {
-          const matchesFilter = product.name
-            .toLowerCase()
+          const matchesFilter = product.name?.toLowerCase()
             .includes(filterValue);
           const matchesPrice =
             product.price >= startPrice && product.price <= endPrice;
@@ -580,10 +597,10 @@
                 <img src="${
                   product.image
                 }" class="card-img-top product-image" alt="${
-            product.name
+            product?.name ?? ""
           }" onerror="this.onerror=null;this.src='https://previews.123rf.com/images/blankstock/blankstock1812/blankstock181201188/113234166-no-or-stop-sign-computer-line-icon-pc-component-sign-monitor-with-case-symbol-caution-prohibited-ban.jpg';">
                 <div class="card-body">
-                    <h5 class="card-title">${product.name}</h5>
+                    <h5 class="card-title">${product.name ?? ""}</h5>
                     <ul class="list-unstyled">
                         <li><strong>CPU:</strong> ${
                           product.specs.CPU ?? ""
@@ -604,7 +621,7 @@
                     <p class="card-text"><strong>Fiyat: ${formattedPrice}</strong></p>
                     <a href="${
                       product.link
-                    }" class="btn btn-primary">Detayları Gör</a>
+                    }" class="btn btn-primary" style="background-color:#1c2938;border-color:#1c2938">Detayları Gör</a>
                 </div>
             </div>
         </div>
