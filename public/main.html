@@ -971,8 +971,11 @@
 
           let matchesGPU = true;
           if (selectedGPUs.length > 0) {
+            console.log(selectedGPUs[0].replace(/\s+/g, ""));
             matchesGPU = selectedGPUs.some((gpu) =>
-              product.specs.GPU?.toLowerCase().includes(gpu)
+              product.specs.GPU?.toLowerCase()
+                .replace(/\s+/g, "")
+                .includes(gpu.replace(/\s+/g, ""))
             );
           }
 
