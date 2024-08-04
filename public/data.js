@@ -86,6 +86,7 @@ const processors = [
   { name: "Core i3-12100", value: "12100" },
   { name: "Core i3-12300", value: "12300" },
   { name: "Core i5-12400", value: "12400" },
+  { name: "Core i5-12400F", value: "12400F" },
   { name: "Core i5-12600K", value: "12600K" },
   { name: "Core i7-12700", value: "12700" },
   { name: "Core i7-12700K", value: "12700K" },
@@ -104,6 +105,7 @@ const processors = [
   // Intel 14th Gen Processors
   { name: "Core i3-14100", value: "14100" },
   { name: "Core i5-14400", value: "14400" },
+  { name: "Core i5-14400F", value: "14400F" },
   { name: "Core i5-14600K", value: "14600K" },
   { name: "Core i7-14700", value: "14700" },
   { name: "Core i7-14700K", value: "14700K" },
