@@ -72,7 +72,7 @@ async function scrapeProduct(page, url) {
       };
     });
 
-    return { url, ...product };
+    return { link: url, ...product };
   } catch (error) {
     console.error(`Error in scrapeProduct for ${url}:`, error);
     return null;
