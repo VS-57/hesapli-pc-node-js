@@ -675,16 +675,22 @@
         const searchTerm = document
           .getElementById("processorSearch")
           .value.toLowerCase();
-        const filteredProcessors = processors.filter((processor) =>
-          processor.name.toLowerCase().includes(searchTerm)
-        );
+
+        // Store the current checked states
+        const currentCheckedStates = {};
+        document
+          .querySelectorAll("#processorModelFilters .form-check-input")
+          .forEach((checkbox) => {
+            currentCheckedStates[checkbox.id] = checkbox.checked;
+          });
 
         const processorModelFilters = isMobile
           ? document.getElementById("processorModelFiltersMobile")
           : document.getElementById("processorModelFilters");
 
         processorModelFilters.innerHTML = ""; // Clear existing content
-        filteredProcessors.forEach((processor) => {
+
+        processors.forEach((processor) => {
           const div = document.createElement("div");
           div.className = "form-check";
           const input = document.createElement("input");
@@ -692,7 +698,19 @@
           input.type = "checkbox";
           input.value = processor.value;
           input.id = processor.value;
+
+          // Restore the checked state if it was checked before
+          if (currentCheckedStates[processor.value]) {
+            input.checked = true;
+          }
+
           input.addEventListener("change", filterProducts);
+
+          if (processor.name.toLowerCase().includes(searchTerm)) {
+            div.style.display = "block";
+          } else {
+            div.style.display = "none";
+          }
 
           const label = document.createElement("label");
           label.className = "form-check-label";
@@ -709,14 +727,22 @@
         const searchTerm = document
           .getElementById("gpuSearch")
           .value.toLowerCase();
-        const filteredGpus = gpus.filter((gpu) =>
-          gpu.name.toLowerCase().includes(searchTerm)
-        );
+
+        // Store the current checked states
+        const currentCheckedStates = {};
+        document
+          .querySelectorAll("#gpuModelFilters .form-check-input")
+          .forEach((checkbox) => {
+            currentCheckedStates[checkbox.id] = checkbox.checked;
+          });
+
         const gpuModelFilters = isMobile
           ? document.getElementById("gpuModelFiltersMobile")
           : document.getElementById("gpuModelFilters");
+
         gpuModelFilters.innerHTML = ""; // Clear existing content
-        filteredGpus.forEach((gpu) => {
+
+        gpus.forEach((gpu) => {
           const div = document.createElement("div");
           div.className = "form-check";
           const input = document.createElement("input");
@@ -724,7 +750,19 @@
           input.type = "checkbox";
           input.value = gpu.value;
           input.id = gpu.value;
+
+          // Restore the checked state if it was checked before
+          if (currentCheckedStates[gpu.value]) {
+            input.checked = true;
+          }
+
           input.addEventListener("change", filterProducts);
+
+          if (gpu.name.toLowerCase().includes(searchTerm)) {
+            div.style.display = "block";
+          } else {
+            div.style.display = "none";
+          }
 
           const label = document.createElement("label");
           label.className = "form-check-label";
