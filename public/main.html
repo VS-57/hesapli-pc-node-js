@@ -229,6 +229,20 @@
                 />
                 <label class="form-check-label" for="sinerji">Sinerji</label>
               </div>
+              <div
+                class="form-check"
+                style="flex: 1 0 33.33%; box-sizing: border-box"
+              >
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="inceHesap"
+                  id="inceHesap"
+                />
+                <label class="form-check-label" for="inceHesap"
+                  >İnceHesap</label
+                >
+              </div>
             </div>
 
             <div class="form-group row">
@@ -445,6 +459,20 @@
                     id="sinerji"
                   />
                   <label class="form-check-label" for="sinerji">Sinerji</label>
+                </div>
+                <div
+                  class="form-check"
+                  style="flex: 1 0 33.33%; box-sizing: border-box"
+                >
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="inceHesap"
+                    id="inceHesap"
+                  />
+                  <label class="form-check-label" for="inceHesap"
+                    >İnceHesap</label
+                  >
                 </div>
               </div>
               <div class="form-group row">
@@ -904,6 +932,7 @@
               !checkbox.id.includes("pckolik") &&
               !checkbox.id.includes("vatan") &&
               !checkbox.id.includes("sinerji") &&
+              !checkbox.id.includes("inceHesap") &&
               !checkbox.id.includes("gameGaraj")
           )
           .map((checkbox) => checkbox.value.toLowerCase());
@@ -920,6 +949,7 @@
               checkbox.id.includes("gameGaraj") ||
               checkbox.id.includes("pckolik") ||
               checkbox.id.includes("sinerji") ||
+              checkbox.id.includes("inceHesap") ||
               checkbox.id.includes("vatan")
           )
           .map((checkbox) => checkbox.value.toLowerCase());
