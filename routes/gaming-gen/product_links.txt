@@ -25,7 +25,8 @@ https://www.gaming.gen.tr/urun/309297/carnage-4060ti-amd-ryzen-5-5600-mpk-msi-ge
 https://www.gaming.gen.tr/urun/410050/carnage-4070super-amd-ryzen-7-7800x3d-tray-msi-geforce-rtx-4070-super-12g-gaming-x-slim-12gb-16gb-ram-1tb-ssd-gaming-bilgisayar-black-myth-wukong-hediyeli/
 https://www.gaming.gen.tr/urun/471379/carnage-4070tisuper-amd-ryzen-7-7800x3d-tray-msi-geforce-rtx-4070-ti-super-16g-ventus-2x-white-oc-32gb-ram-1tb-m-2-ssd-gaming-bilgisayar-black-myth-wukong-hediyeli/
 https://www.gaming.gen.tr/urun/289401/carnage-4090-amd-ryzen-9-7900x-msi-geforce-rtx-4090-ventus-3x-e-24g-oc-24gb-32gb-ram-1tb-m-2-ssd-gaming-bilgisayar/
-https://www.gaming.gen.tr/urun/420059/carnage-8600g-amd-ryzen-5-8600g-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/
+https://www.gaming.gen.tr/urun/506508/carnage-5700x3d-amd-ryzen-7-5700x3d-tray-msi-geforce-rtx-4070-ventus-2x-e-12g-oc-12gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar-black-myth-wukong-hediyeli/
+https://www.gaming.gen.tr/urun/506470/carnage-8400f-amd-ryzen-5-8400f-mpk-msi-geforce-rtx-4060-oc-ventus-2x-black-8gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/
 https://www.gaming.gen.tr/urun/410061/carnage-mag4070super-amd-ryzen-5-7500f-mpk-msi-geforce-rtx-4070-super-12g-gaming-x-slim-12gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar-black-myth-wukong-hediyeli/
 https://www.gaming.gen.tr/urun/413252/carnage-mag4070tisuper-amd-ryzen-7-7800x3d-tray-msi-geforce-rtx-4070-ti-super-16g-ventus-2x-white-oc-16gb-16gb-ram-1tb-m-2-ssd-gaming-bilgisayar-black-myth-wukong-hediyeli/
 https://www.gaming.gen.tr/urun/471245/carnage-prospect4080s-amd-ryzen-9-7950x3d-msi-geforce-rtx-4080-super-gaming-x-slim-16gb-32gb-ram-1tb-m-2-ssd-gaming-bilgisayar/
@@ -57,7 +58,7 @@ https://www.gaming.gen.tr/urun/319960/elite-4060-amd-ryzen-5-7600-tray-asus-dual
 https://www.gaming.gen.tr/urun/407569/elite-4060ti-amd-ryzen-5-7500f-mpk-asus-dual-geforce-rtx-4060-ti-oc-8gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/
 https://www.gaming.gen.tr/urun/410000/elite-4070super-amd-ryzen-5-7600-tray-asus-dual-geforce-rtx-4070-super-evo-12gb-16gb-ram-1tb-m-2-ssd-gaming-bilgisayar/
 https://www.gaming.gen.tr/urun/251285/elite-4090-amd-ryzen-9-7900x-asus-tuf-gaming-geforce-rtx-4090-oc-24gb-og-32gb-ram-1tb-m-2-ssd-gaming-bilgisayar/
-https://www.gaming.gen.tr/urun/449185/elite-5700x3d-amd-ryzen-7-5700x3d-asus-dual-geforce-rtx-4070-super-evo-12gb-16gb-ram-1tb-m-2-ssd-gaming-bilgisayar/
+https://www.gaming.gen.tr/urun/449185/elite-5700x3d-amd-ryzen-7-5700x3d-asus-dual-geforce-rtx-4070-super-evo-12gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar-black-myth-wukong-hediyeli/
 https://www.gaming.gen.tr/urun/292910/elite-6800-amd-ryzen-5-7600-tray-msi-radeon-rx-6800-gaming-z-trio-16g-16gb-16gb-ram-500gb-ssd-gaming-bilgisayar/
 https://www.gaming.gen.tr/urun/330183/elite-7500f-amd-ryzen-5-7500f-mpk-asus-tuf-gaming-geforce-rtx-4060-ti-oc-8gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/
 https://www.gaming.gen.tr/urun/329934/elite-7600-amd-ryzen-5-7600-mpk-asus-tuf-gaming-geforce-rtx-4060-ti-oc-8gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/
@@ -204,8 +205,9 @@ https://www.gaming.gen.tr/urun/339199/pardus-4060-amd-ryzen-5-7500f-mpk-msi-gefo
 https://www.gaming.gen.tr/urun/324254/pardus-4060ti-amd-ryzen-5-5500-mpk-msi-geforce-rtx-4060-ti-ventus-2x-black-8gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/
 https://www.gaming.gen.tr/urun/410078/pardus-4070super-amd-ryzen-5-7600-tray-msi-geforce-rtx-4070-super-12g-gaming-x-slim-12gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/
 https://www.gaming.gen.tr/urun/413315/pardus-4070tisuper-amd-ryzen-5-7600-tray-msi-geforce-rtx-4070-ti-super-16g-ventus-3x-oc-16gb-16gb-ram-1tb-m-2-ssd-gaming-bilgisayar/
+https://www.gaming.gen.tr/urun/506461/pardus-8400f-amd-ryzen-5-8400f-mpk-msi-geforce-rtx-4060-oc-ventus-2x-black-8gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/
 https://www.gaming.gen.tr/urun/347914/pardus-mag4060ti-amd-ryzen-5-5500-mpk-msi-geforce-rtx-4060-ti-ventus-2x-black-16gb-oc-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/
-https://www.gaming.gen.tr/urun/410071/pardus-mag4070super-amd-ryzen-5-5600-mpk-msi-geforce-rtx-4070-super-12g-gaming-x-slim-12gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar-black-myth-wukong-hediyeli/
+https://www.gaming.gen.tr/urun/410071/pardus-mag4070super-amd-ryzen-7-5700x3d-tray-msi-geforce-rtx-4070-super-12g-gaming-x-slim-12gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar-black-myth-wukong-hediyeli/
 https://www.gaming.gen.tr/urun/505747/pardus-mag4070tisuper-amd-ryzen-5-7600-tray-msi-geforce-rtx-4070-ventus-2x-e-12g-oc-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/
 https://www.gaming.gen.tr/urun/339206/pardus-pro4060ti-amd-ryzen-5-7500f-mpk-msi-geforce-rtx-4060-ti-ventus-2x-black-8gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/
 https://www.gaming.gen.tr/urun/450294/platinum-4070tisuper-ryzen-7-7800x3d-asus-rog-strix-geforce-rtx-4070-ti-super-oc-16gb-32gb-ram-1tb-m-2-ssd-gaming-bilgisayar/
@@ -239,6 +241,7 @@ https://www.gaming.gen.tr/urun/462127/sunrise-5600-amd-ryzen-5-5600-mpk-galax-ge
 https://www.gaming.gen.tr/urun/359785/sunrise-7500f-amd-ryzen-5-7500f-mpk-galax-geforce-rtx-4060-1-click-oc-2x-v2-8gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/
 https://www.gaming.gen.tr/urun/502894/sunrise-7600-amd-ryzen-5-7600-tray-galax-geforce-rtx-4070-super-1-click-oc-2x-v2-12gb-16gb-ram-1tb-m-2-ssd-gaming-bilgisayar-black-myth-wukong-hediyeli/
 https://www.gaming.gen.tr/urun/363513/sunrise-7800x3d-amd-ryzen-7-7800x3d-tray-galax-geforce-rtx-4060-1-click-oc-2x-v2-8gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/
+https://www.gaming.gen.tr/urun/506448/sunrise-8400f-amd-ryzen-5-8400f-mpk-galax-geforce-rtx-4060-1-click-oc-2x-v2-8gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/
 https://www.gaming.gen.tr/urun/416356/sunrise-fenix14400f-intel-i5-14400f-galax-geforce-rtx-4060-ti-ex-1-click-oc-8gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/
 https://www.gaming.gen.tr/urun/384381/sunrise-master14400f-intel-core-i5-14400f-galax-geforce-rtx-4060-ti-ex-1-click-oc-8gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/
 https://www.gaming.gen.tr/urun/416308/sunrise-master4060ti-amd-ryzen-5-5600-mpk-galax-geforce-rtx-4060-ti-ex-1-click-oc-8gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/
@@ -251,7 +254,7 @@ https://www.gaming.gen.tr/urun/366331/ultima-4060-amd-ryzen-5-5500-mpk-asus-dual
 https://www.gaming.gen.tr/urun/296639/ultima-4060ti-amd-ryzen-5-5600-asus-dual-geforce-rtx-4060-ti-evo-oc-8gb-16gb-ram-1tb-m-2-ssd-gaming-bilgisayar/
 https://www.gaming.gen.tr/urun/329898/ultima-4070-amd-ryzen-5-7500f-mpk-asus-dual-geforce-rtx-4070-oc-12gb-16gb-ram-1tb-m-2-ssd-gaming-bilgisayar/
 https://www.gaming.gen.tr/urun/409881/ultima-4070super-amd-ryzen-5-7600x-tray-asus-dual-geforce-rtx-4070-super-oc-white-12gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar-black-myth-wukong-hediyeli/
-https://www.gaming.gen.tr/urun/413198/ultima-4070tisuper-amd-ryzen-5-7500f-mpk-asus-dual-rtx-4070-ti-super-oc-16gb-16gb-ram-1tb-m-2-ssd-gaming-bilgisayar-black-myth-wukong-hediyeli/
+https://www.gaming.gen.tr/urun/413198/ultima-4070tisuper-amd-ryzen-5-7600-tray-asus-dual-rtx-4070-ti-super-oc-16gb-16gb-ram-1tb-m-2-ssd-gaming-bilgisayar-black-myth-wukong-hediyeli/
 https://www.gaming.gen.tr/urun/240226/ultima-4090-amd-ryzen-9-7900x-asus-tuf-gaming-geforce-rtx-4090-oc-24gb-32gb-ram-1tb-m-2-ssd-gaming-bilgisayar/
 https://www.gaming.gen.tr/urun/366452/ultima-5700x3d-amd-ryzen-7-5700x3d-asus-dual-geforce-rtx-4060-oc-8gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/
 https://www.gaming.gen.tr/urun/451188/ultima-7600xt-amd-ryzen-5-7500f-mpk-asus-dual-radeon-rx-7600-xt-oc-16gb-16gb-ram-1tb-m-2-ssd-gaming-bilgisayar/
@@ -280,6 +283,7 @@ https://www.gaming.gen.tr/urun/466170/vulcan-5600-amd-ryzen-5-5600-mpk-galax-gef
 https://www.gaming.gen.tr/urun/359837/vulcan-7500f-amd-ryzen-5-7500f-mpk-galax-geforce-rtx-4060-ti-1-click-oc-8gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/
 https://www.gaming.gen.tr/urun/502822/vulcan-7600-amd-ryzen-5-7600-tray-galax-geforce-rtx-4060-1-click-oc-2x-v2-8gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/
 https://www.gaming.gen.tr/urun/505104/vulcan-7800x3d-amd-ryzen-7-7800x3d-galax-geforce-rtx-4070-1-click-oc-2x-12gb-16gb-ram-1-tb-m-2-ssd-gaming-bilgisayar-black-myth-wukong-hediyeli/
+https://www.gaming.gen.tr/urun/506450/vulcan-8400f-amd-ryzen-5-8400f-mpk-galax-geforce-rtx-4060-ti-1-click-oc-8gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/
 https://www.gaming.gen.tr/urun/505094/vulcan-air4070-amd-ryzen-7-7800x3d-galax-geforce-rtx-4070-1-click-oc-2x-12gb-16gb-ram-1-tb-m-2-ssd-gaming-bilgisayar-black-myth-wukong-hediyeli/
 https://www.gaming.gen.tr/urun/416342/vulcan-fenix7500f-amd-ryzen-5-7500f-mpk-galax-geforce-rtx-4060-ti-ex-1-click-oc-8gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/
 https://www.gaming.gen.tr/urun/418725/vulcan-master4070-amd-ryzen-7-7800x3d-tray-galax-geforce-rtx-4070-1-click-oc-2x-12gb-16gb-ram-1tb-m-2-ssd-gaming-bilgisayar/

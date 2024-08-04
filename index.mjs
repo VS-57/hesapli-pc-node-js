@@ -56,11 +56,11 @@ app.get("/api/combined", async (req, res) => {
     const combinedResults = results.flat();
 
     const products = JSON.parse(await fs.readFile("mock.json", "utf-8"));
+    const gamingGenProducts = JSON.parse(
+      await fs.readFile("/routes/gaming-gen/products.json", "utf-8")
+    );
 
-    const updatedArr = [
-      ...combinedResults,
-      ...products.filter((x) => x.store === "gamingGen"),
-    ];
+    const updatedArr = [...combinedResults, ...gamingGenProducts];
 
     await fs.writeFile("mock.json", JSON.stringify(updatedArr, null, 2));
 

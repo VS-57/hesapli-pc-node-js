@@ -5206,7 +5206,7 @@
   },
   {
     "name": "TEKNOSEYIR-V3",
-    "price": 101182.64,
+    "price": 100950.4,
     "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2024-04-26t115732625-4c30a3.jpg",
     "link": "https://www.itopya.com/teknoseyir-v3intel-core-i7-14700kmsi-geforce-rtx-4070-ti-super-16gb32gb-ddr51tb-m2-ssdgeforce-_h25756",
     "specs": {
@@ -5318,7 +5318,7 @@
   },
   {
     "name": "ModArt-N1",
-    "price": 93844.53,
+    "price": 93612.28,
     "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2024-04-26t121120453-999f9b.jpg",
     "link": "https://www.itopya.com/modart-n1intel-core-i7-14700kfmsi-geforce-rtx-4070-super-12g-gaming-x-slim-white-12gb32gb-ddr51t_h25736",
     "specs": {
@@ -8692,7 +8692,7 @@
   },
   {
     "name": "VOK-WHITE",
-    "price": 93835.69,
+    "price": 93288.96,
     "image": "https://img-itopya.mncdn.com/cdn/250/yeni-proje-2024-03-18t100653559-680b7c.jpg",
     "link": "https://www.itopya.com/vok-whiteintel-core-i7-14700kmsi-geforce-rtx-4070-super-12g-gaming-x-slim-white-12gb32gb-ddr52tb_h23030",
     "specs": {
@@ -11137,295 +11137,36 @@
     "store": "pckolik"
   },
   {
-    "name": "AMD R3 4300G - MSI A520M-A - 500GB SSD - 8GB / 16GB RAM",
-    "price": 8512,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145958_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r3-4300g-msi-a520m-a-240gb-500gb-ssd-8gb-16gb-ram.html",
-    "specs": {
-      "CPU": "4300G",
-      "GPU": "-",
-      "Motherboard": "AMD® A520",
-      "Ram": "8 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "AMD R5 5600G - B450M-A PRO MAX II - 500GB SSD - 8GB RAM",
-    "price": 12197,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/142582-7_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5600g-b450m-a-pro-max-ii-500gb-ssd-8gb-ram.html",
-    "specs": {
-      "CPU": "5600G",
-      "GPU": "-",
-      "Motherboard": "AMD® B450",
-      "Ram": "8 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "AMD R5 5500 - RTX 4060 8G OC - A520M K - 500GB SSD - 16GB RAM",
-    "price": 23275,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145512_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rtx-4060-8g-oc-a520m-k-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "5500",
-      "GPU": "GeForce RTX 4060",
-      "Motherboard": "AMD® A520",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "INTEL I3 14100F - RTX 4060 TI OC 8G - H610M-HVS - 500GB SSD - 16GB RAM",
-    "price": 29552,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145307-1_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i5-14400f-rtx-4060-8g-h610m-r-si-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "14100F",
-      "GPU": "GeForce RTX 4060 Ti",
-      "Motherboard": "Intel® H610",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "AMD R5 5500-A520M-A PRO-MSI GT 1030-500GB M.2 SSD-16GB RAM",
-    "price": 12874,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145113-1_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-a520m-a-pro-msi-gt-1030-500gb-m-2-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "5500",
-      "GPU": "GeForce GT 1030",
-      "Motherboard": "AMD® A520",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "INTEL I5 12400F- RX 6600 8G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
-    "price": 21555,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/142905-1-2_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i5-12400f-rx-6600-8g-h610m-h-v2-500gb-ssd-16gb-ram.html",
+    "name": "INTEL I5 12400F - RTX 3050 8G OC - PRO H610M-E - 500GB SSD - 16GB RAM",
+    "price": 23551,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145081_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i5-12400f-rtx-3050-8g-oc-pro-h610m-e-500gb-ssd-16gb-rams.html",
     "specs": {
       "CPU": "12400F",
-      "GPU": "Radeon RX 6600",
+      "GPU": "GeForce RTX 3050",
       "Motherboard": "Intel® H610",
       "Ram": "16 GB"
     },
     "store": "vatan"
   },
   {
-    "name": "INTEL I3 12100F - RTX 4060-8G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
-    "price": 23781,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/142465-16_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i3-12100f-rtx-4060-8g-h610m-k-500gb-ssd-16gb-ram.html",
+    "name": "INTEL I2100F - RTX 3050 8G OC - PRO H610M-E - 500GB SSD - 16GB RAM",
+    "price": 21272,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145079-8_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i2100f-rtx-3050-8g-oc-pro-h610m-e-500gb-ssd-16gb-ram.html",
     "specs": {
       "CPU": "12100F",
-      "GPU": "GeForce RTX 4060",
+      "GPU": "GeForce RTX 3050",
       "Motherboard": "Intel® H610",
       "Ram": "16 GB"
     },
     "store": "vatan"
   },
   {
-    "name": "INTEL I3 14100F - RTX 4060 8G OC - PRO H610M-E - 500GB SSD - 16GB RAM",
-    "price": 24102,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145435-1_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i3-14100f-rtx-4060-8g-oc-pro-h610m-e-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "14100F",
-      "GPU": "GeForce RTX 4060",
-      "Motherboard": "Intel® H610",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "AMD R5 5500 - RX 6700 XT 12GB - A520M-A - 500GB SSD - 16GB RAM",
-    "price": 24896,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145159_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rx-6700-xt-12gb-a520m-a-500gb-ssd-16gb-ram1.html",
-    "specs": {
-      "CPU": "5500",
-      "GPU": "Radeon RX 6700 XT",
-      "Motherboard": "AMD® A520",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "AMD R5 5500 - RX 6700 XT 12GB - A520M-A - 500GB SSD - 16GB RAM",
-    "price": 23547,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145157-7_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rx-6700-xt-12gb-a520m-a-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "5500",
-      "GPU": "Radeon RX 6700 XT",
-      "Motherboard": "AMD® A520",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "AMD R5 5500 - RX 6600 8G - B450M-HDV R4.0 - 500GB SSD - 16GB RAM",
-    "price": 18911,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145143-7_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rx-6600-8g-b450m-hdv-r4-0-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "5500",
-      "GPU": "Radeon RX 6600",
-      "Motherboard": "AMD® B450",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "AMD R5 5500-A520M-A PRO-MSI RX 6400 4GB-500GB M.2 SSD-16GB RAM",
-    "price": 16494,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/1-95_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-a520m-a-pro-msi-rx-6400-4gb-500gb-m-2-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "5500",
-      "GPU": "Radeon RX 6400",
-      "Motherboard": "AMD® A620",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "AMD R5 5600 - RX 6800 16GB - B450M-HDV - 500GB SSD - 16GB RAM",
-    "price": 35473,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/143884-1-1_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5600-rx-6800-16gb-b450m-hdv-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "5600",
-      "GPU": "Radeon RX 6800",
-      "Motherboard": "AMD® B450",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "AMD R5 5500 - RX 6600 8GB - A520M K V2 1.0 - 500GB SSD - 16GB RAM",
-    "price": 18704,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/143252-10_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rx-6600-8gb-a520m-k-v2-1-0-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "5500",
-      "GPU": "Radeon RX 6600",
-      "Motherboard": "AMD® A620",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "INTEL I5 13400F - RTX 4060 OC 8GB - H610M-R - 500GB SSD - 16GB RAM",
-    "price": 29008,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/146464_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i5-13400f-rtx-4060-oc-8gb-h610m-r-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "13400F",
-      "GPU": "GeForce RTX 4060",
-      "Motherboard": "Intel® H610",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "AMD R5 8600G AM5 - A620M-K DDR5- 500GB SSD - 16GB RAM",
-    "price": 17880,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/146455-1_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5700g-a520m-k-500gb-ssd-16gb-ram1.html",
-    "specs": {
-      "CPU": "8600G",
-      "Motherboard": "AMD® A620",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "INTEL I3 12100F - RTX 4060 OC 8G - H610M H - 500GB SSD - 16GB RAM",
-    "price": 23657,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145508-8_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i3-12100f-rtx-4060-oc-8g-h610m-h-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "12100F",
-      "GPU": "GeForce RTX 4060",
-      "Motherboard": "Intel® H610",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "AMD R5 5500 - RTX 3060 12GB OC - A520M-A PRO - 50GB SSD - 16GB RAM",
-    "price": 20421,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145438-1_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rtx-3060-12gb-oc-a520m-a-pro-50gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "5500",
-      "GPU": "GeForce RTX 3060",
-      "Motherboard": "AMD® A520",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "INTEL I3 14100F - RTX 4060 8GB - H610M-HVS - 500GB SSD - 16 GB RAM",
-    "price": 24042,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145306-1_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i3-14100f-rtx-4060-8gb-h610m-hvs-500gb-ssd-16-gb-ram.html",
-    "specs": {
-      "CPU": "14100F",
-      "GPU": "GeForce RTX 4060",
-      "Motherboard": "Intel® H610",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "AMD R5 5500 - GTX 1650 - A520M-A - 500GB SSD - 16GB RAM",
-    "price": 16984,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145139_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-gtx-1650-a520m-a-500gb-ssd-16gb-ramas.html",
-    "specs": {
-      "CPU": "5500",
-      "GPU": "GeForce GTX 1650",
-      "Motherboard": "AMD® A520",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "INTEL I5 13400F - RTX 4060 8G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
-    "price": 28235,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/144408_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i5-13400f-rtx-4060-8g-h610m-r-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "13400F",
-      "GPU": "GeForce RTX 4060",
-      "Motherboard": "Intel® H610",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "AMD R5 5500 - RTX 4060-8G - B450M-A PRO MAX II - 500GB SSD - 16GB RAM",
-    "price": 24790,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/144174-1-2_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rtx4060-o8g-b450m-k-ii-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "5500",
-      "GPU": "GeForce RTX 4060",
-      "Motherboard": "AMD® B450",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "INTEL I3 13100F - RTX 4060 8G - PRO H610M-E DDR4 - 500GB SSD -RAM",
-    "price": 23094,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/143882-1-1_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i3-13100f-rtx-4060-8g-h610m-r-d4-500gb-ssd-ram.html",
+    "name": "INTEL I3 13100F - RTX4060-8G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
+    "price": 25749,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/144176-1-2_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i3-13100f-rtx4060-o8g-h610m-r-500gb-ssd-16gb-ram.html",
     "specs": {
       "CPU": "13100F",
       "GPU": "GeForce RTX 4060",
@@ -11435,26 +11176,103 @@
     "store": "vatan"
   },
   {
-    "name": "AMD R5 5500 - RTX 4060 8G - A520M K - 500GB SSD - 16GB RAM",
-    "price": 23059,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/143879-9_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rtx-4060-8g-a520m-k-500gb-ssd-16gb-ram.html",
+    "name": "INTEL I3 14100F - RTX 4060 8G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
+    "price": 24823,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/143885-1-1_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i3-14100f-rtx-4060-8g-h610m-r-d4-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "14100F",
+      "GPU": "GeForce RTX 4060",
+      "Motherboard": "Intel® H610",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "INTEL I3 14100F - RTX 4060 8G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
+    "price": 25046,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/143873-11_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i3-14100f-rtx-4060-oc-8g-h610m-r-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "14100F",
+      "GPU": "GeForce RTX 4060",
+      "Motherboard": "Intel® H610",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "INTEL I5 12400F-RX 6700 XT 12G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
+    "price": 26862,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/142906-5_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i5-12400f-rx-6700-12g-h610m-h-v2-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "12400F",
+      "GPU": "Radeon RX 6700 XT",
+      "Motherboard": "Intel® H610",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R5 5500 - RX 6700 XT 12G - A520M K - 500GB SSD - 16GB RAM",
+    "price": 25104,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/142904-10_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rx-6700-12g-a520m-k-500gb-ssd-16gb-ram.html",
     "specs": {
       "CPU": "5500",
-      "GPU": "GeForce RTX 4060",
+      "GPU": "Radeon RX 6700 XT",
       "Motherboard": "AMD® A520",
       "Ram": "16 GB"
     },
     "store": "vatan"
   },
   {
-    "name": "AMD R5 5500 - RTX 4060-8G - B450M-A PRO MAX II - 500GB SSD - 16GB RAM",
-    "price": 23719,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/142936-1-5_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rtx-4060-8g-b450m-k-500gb-ssd-16gb-ram-142936.html",
+    "name": "INTEL I3 12100F - RX 6600 8G -PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
+    "price": 19948,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/142221-1-4_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i3-12100f-rx-6600-8g-h610m-k-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "12100F",
+      "GPU": "Radeon RX 6600",
+      "Motherboard": "Intel® H610",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "INTEL I5 12400F - RTX 4060 OC 8GB - H610M-R - 500GB SSD - 16GB RAM",
+    "price": 25349,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/146458-7_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i5-12400f-rtx-4060-oc-8gb-h610m-r-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "12400F",
+      "GPU": "GeForce RTX 4060",
+      "Motherboard": "Intel® H610",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R5 8700G AM5 - A620M-K DDR5- 500GB SSD - 16GB RAM",
+    "price": 21360,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/146456-1_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-8700g-am5-a620m-k-ddr5-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "8600G",
+      "Motherboard": "AMD® A620",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R5 5500 - RTX 3050 OG OC - B450M-A PRO - 500GB SSD - 16GB RAM",
+    "price": 22468,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145084_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rtx-3050-og-oc-b450m-a-pro-500gb-ssd-16gb-ram.html",
     "specs": {
       "CPU": "5500",
-      "GPU": "GeForce RTX 4060",
+      "GPU": "GeForce RTX 3050",
       "Motherboard": "AMD® B450",
       "Ram": "16 GB"
     },
@@ -11771,38 +11589,77 @@
     "store": "vatan"
   },
   {
-    "name": "INTEL I5 12400F - RTX 3050 8G OC - PRO H610M-E - 500GB SSD - 16GB RAM",
-    "price": 23551,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145081_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i5-12400f-rtx-3050-8g-oc-pro-h610m-e-500gb-ssd-16gb-rams.html",
+    "name": "AMD R5 5600G - B450M-A PRO MAX II - 500GB SSD - 8GB RAM",
+    "price": 12197,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/142582-7_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5600g-b450m-a-pro-max-ii-500gb-ssd-8gb-ram.html",
     "specs": {
-      "CPU": "12400F",
-      "GPU": "GeForce RTX 3050",
+      "CPU": "5600G",
+      "GPU": "-",
+      "Motherboard": "AMD® B450",
+      "Ram": "8 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R5 5500 - RTX 4060 8G OC - A520M K - 500GB SSD - 16GB RAM",
+    "price": 23275,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145512_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rtx-4060-8g-oc-a520m-k-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "5500",
+      "GPU": "GeForce RTX 4060",
+      "Motherboard": "AMD® A520",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "INTEL I3 14100F - RTX 4060 TI OC 8G - H610M-HVS - 500GB SSD - 16GB RAM",
+    "price": 29552,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145307-1_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i5-14400f-rtx-4060-8g-h610m-r-si-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "14100F",
+      "GPU": "GeForce RTX 4060 Ti",
       "Motherboard": "Intel® H610",
       "Ram": "16 GB"
     },
     "store": "vatan"
   },
   {
-    "name": "INTEL I2100F - RTX 3050 8G OC - PRO H610M-E - 500GB SSD - 16GB RAM",
-    "price": 21272,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145079-8_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i2100f-rtx-3050-8g-oc-pro-h610m-e-500gb-ssd-16gb-ram.html",
+    "name": "AMD R5 5500-A520M-A PRO-MSI GT 1030-500GB M.2 SSD-16GB RAM",
+    "price": 12874,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145113-1_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-a520m-a-pro-msi-gt-1030-500gb-m-2-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "5500",
+      "GPU": "GeForce GT 1030",
+      "Motherboard": "AMD® A520",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "INTEL I5 12400F- RX 6600 8G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
+    "price": 21555,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/142905-1-2_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i5-12400f-rx-6600-8g-h610m-h-v2-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "12400F",
+      "GPU": "Radeon RX 6600",
+      "Motherboard": "Intel® H610",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "INTEL I3 12100F - RTX 4060-8G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
+    "price": 23781,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/142465-16_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i3-12100f-rtx-4060-8g-h610m-k-500gb-ssd-16gb-ram.html",
     "specs": {
       "CPU": "12100F",
-      "GPU": "GeForce RTX 3050",
-      "Motherboard": "Intel® H610",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "INTEL I3 13100F - RTX4060-8G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
-    "price": 25749,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/144176-1-2_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i3-13100f-rtx4060-o8g-h610m-r-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "13100F",
       "GPU": "GeForce RTX 4060",
       "Motherboard": "Intel® H610",
       "Ram": "16 GB"
@@ -11810,10 +11667,10 @@
     "store": "vatan"
   },
   {
-    "name": "INTEL I3 14100F - RTX 4060 8G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
-    "price": 24823,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/143885-1-1_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i3-14100f-rtx-4060-8g-h610m-r-d4-500gb-ssd-16gb-ram.html",
+    "name": "INTEL I3 14100F - RTX 4060 8G OC - PRO H610M-E - 500GB SSD - 16GB RAM",
+    "price": 24102,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145435-1_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i3-14100f-rtx-4060-8g-oc-pro-h610m-e-500gb-ssd-16gb-ram.html",
     "specs": {
       "CPU": "14100F",
       "GPU": "GeForce RTX 4060",
@@ -11823,36 +11680,10 @@
     "store": "vatan"
   },
   {
-    "name": "INTEL I3 14100F - RTX 4060 8G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
-    "price": 25046,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/143873-11_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i3-14100f-rtx-4060-oc-8g-h610m-r-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "14100F",
-      "GPU": "GeForce RTX 4060",
-      "Motherboard": "Intel® H610",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "INTEL I5 12400F-RX 6700 XT 12G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
-    "price": 26862,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/142906-5_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i5-12400f-rx-6700-12g-h610m-h-v2-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "12400F",
-      "GPU": "Radeon RX 6700 XT",
-      "Motherboard": "Intel® H610",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "AMD R5 5500 - RX 6700 XT 12G - A520M K - 500GB SSD - 16GB RAM",
-    "price": 25104,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/142904-10_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rx-6700-12g-a520m-k-500gb-ssd-16gb-ram.html",
+    "name": "AMD R5 5500 - RX 6700 XT 12GB - A520M-A - 500GB SSD - 16GB RAM",
+    "price": 24896,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145159_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rx-6700-xt-12gb-a520m-a-500gb-ssd-16gb-ram1.html",
     "specs": {
       "CPU": "5500",
       "GPU": "Radeon RX 6700 XT",
@@ -11862,25 +11693,77 @@
     "store": "vatan"
   },
   {
-    "name": "INTEL I3 12100F - RX 6600 8G -PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
-    "price": 19948,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/142221-1-4_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i3-12100f-rx-6600-8g-h610m-k-500gb-ssd-16gb-ram.html",
+    "name": "AMD R5 5500 - RX 6700 XT 12GB - A520M-A - 500GB SSD - 16GB RAM",
+    "price": 23547,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145157-7_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rx-6700-xt-12gb-a520m-a-500gb-ssd-16gb-ram.html",
     "specs": {
-      "CPU": "12100F",
-      "GPU": "Radeon RX 6600",
-      "Motherboard": "Intel® H610",
+      "CPU": "5500",
+      "GPU": "Radeon RX 6700 XT",
+      "Motherboard": "AMD® A520",
       "Ram": "16 GB"
     },
     "store": "vatan"
   },
   {
-    "name": "INTEL I5 12400F - RTX 4060 OC 8GB - H610M-R - 500GB SSD - 16GB RAM",
-    "price": 25349,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/146458-7_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i5-12400f-rtx-4060-oc-8gb-h610m-r-500gb-ssd-16gb-ram.html",
+    "name": "AMD R5 5500 - RX 6600 8G - B450M-HDV R4.0 - 500GB SSD - 16GB RAM",
+    "price": 18911,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145143-7_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rx-6600-8g-b450m-hdv-r4-0-500gb-ssd-16gb-ram.html",
     "specs": {
-      "CPU": "12400F",
+      "CPU": "5500",
+      "GPU": "Radeon RX 6600",
+      "Motherboard": "AMD® B450",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R5 5500-A520M-A PRO-MSI RX 6400 4GB-500GB M.2 SSD-16GB RAM",
+    "price": 16494,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/1-95_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-a520m-a-pro-msi-rx-6400-4gb-500gb-m-2-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "5500",
+      "GPU": "Radeon RX 6400",
+      "Motherboard": "AMD® A620",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R5 5600 - RX 6800 16GB - B450M-HDV - 500GB SSD - 16GB RAM",
+    "price": 35473,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/143884-1-1_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5600-rx-6800-16gb-b450m-hdv-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "5600",
+      "GPU": "Radeon RX 6800",
+      "Motherboard": "AMD® B450",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R5 5500 - RX 6600 8GB - A520M K V2 1.0 - 500GB SSD - 16GB RAM",
+    "price": 18704,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/143252-10_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rx-6600-8gb-a520m-k-v2-1-0-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "5500",
+      "GPU": "Radeon RX 6600",
+      "Motherboard": "AMD® A620",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "INTEL I5 13400F - RTX 4060 OC 8GB - H610M-R - 500GB SSD - 16GB RAM",
+    "price": 29008,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/146464_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i5-13400f-rtx-4060-oc-8gb-h610m-r-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "13400F",
       "GPU": "GeForce RTX 4060",
       "Motherboard": "Intel® H610",
       "Ram": "16 GB"
@@ -11888,10 +11771,10 @@
     "store": "vatan"
   },
   {
-    "name": "AMD R5 8700G AM5 - A620M-K DDR5- 500GB SSD - 16GB RAM",
-    "price": 21360,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/146456-1_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-8700g-am5-a620m-k-ddr5-500gb-ssd-16gb-ram.html",
+    "name": "AMD R5 8600G AM5 - A620M-K DDR5- 500GB SSD - 16GB RAM",
+    "price": 17880,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/146455-1_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5700g-a520m-k-500gb-ssd-16gb-ram1.html",
     "specs": {
       "CPU": "8600G",
       "Motherboard": "AMD® A620",
@@ -11900,13 +11783,117 @@
     "store": "vatan"
   },
   {
-    "name": "AMD R5 5500 - RTX 3050 OG OC - B450M-A PRO - 500GB SSD - 16GB RAM",
-    "price": 22468,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145084_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rtx-3050-og-oc-b450m-a-pro-500gb-ssd-16gb-ram.html",
+    "name": "INTEL I3 12100F - RTX 4060 OC 8G - H610M H - 500GB SSD - 16GB RAM",
+    "price": 23657,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145508-8_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i3-12100f-rtx-4060-oc-8g-h610m-h-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "12100F",
+      "GPU": "GeForce RTX 4060",
+      "Motherboard": "Intel® H610",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R5 5500 - RTX 3060 12GB OC - A520M-A PRO - 50GB SSD - 16GB RAM",
+    "price": 20421,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145438-1_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rtx-3060-12gb-oc-a520m-a-pro-50gb-ssd-16gb-ram.html",
     "specs": {
       "CPU": "5500",
-      "GPU": "GeForce RTX 3050",
+      "GPU": "GeForce RTX 3060",
+      "Motherboard": "AMD® A520",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "INTEL I3 14100F - RTX 4060 8GB - H610M-HVS - 500GB SSD - 16 GB RAM",
+    "price": 24042,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145306-1_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i3-14100f-rtx-4060-8gb-h610m-hvs-500gb-ssd-16-gb-ram.html",
+    "specs": {
+      "CPU": "14100F",
+      "GPU": "GeForce RTX 4060",
+      "Motherboard": "Intel® H610",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R5 5500 - GTX 1650 - A520M-A - 500GB SSD - 16GB RAM",
+    "price": 16984,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145139_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-gtx-1650-a520m-a-500gb-ssd-16gb-ramas.html",
+    "specs": {
+      "CPU": "5500",
+      "GPU": "GeForce GTX 1650",
+      "Motherboard": "AMD® A520",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "INTEL I5 13400F - RTX 4060 8G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
+    "price": 28235,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/144408_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i5-13400f-rtx-4060-8g-h610m-r-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "13400F",
+      "GPU": "GeForce RTX 4060",
+      "Motherboard": "Intel® H610",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R5 5500 - RTX 4060-8G - B450M-A PRO MAX II - 500GB SSD - 16GB RAM",
+    "price": 24790,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/144174-1-2_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rtx4060-o8g-b450m-k-ii-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "5500",
+      "GPU": "GeForce RTX 4060",
+      "Motherboard": "AMD® B450",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "INTEL I3 13100F - RTX 4060 8G - PRO H610M-E DDR4 - 500GB SSD -RAM",
+    "price": 23094,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/143882-1-1_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i3-13100f-rtx-4060-8g-h610m-r-d4-500gb-ssd-ram.html",
+    "specs": {
+      "CPU": "13100F",
+      "GPU": "GeForce RTX 4060",
+      "Motherboard": "Intel® H610",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R5 5500 - RTX 4060 8G - A520M K - 500GB SSD - 16GB RAM",
+    "price": 23059,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/143879-9_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rtx-4060-8g-a520m-k-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "5500",
+      "GPU": "GeForce RTX 4060",
+      "Motherboard": "AMD® A520",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R5 5500 - RTX 4060-8G - B450M-A PRO MAX II - 500GB SSD - 16GB RAM",
+    "price": 23719,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/142936-1-5_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rtx-4060-8g-b450m-k-500gb-ssd-16gb-ram-142936.html",
+    "specs": {
+      "CPU": "5500",
+      "GPU": "GeForce RTX 4060",
       "Motherboard": "AMD® B450",
       "Ram": "16 GB"
     },
@@ -11972,19 +11959,6 @@
       "CPU": "7500F",
       "GPU": "GeForce RTX 4060",
       "Motherboard": "AMD® A620",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "INTEL I5 12400F - RTX 4060 OC 8G - H610M-R DDR5 - 500GB SSD - 16GB RAM",
-    "price": 64218,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/146286_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i5-12400f-rtx-4060-oc-8g-h610m-r-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "12400F",
-      "GPU": "GeForce RTX 4060",
-      "Motherboard": "Intel® H610",
       "Ram": "16 GB"
     },
     "store": "vatan"
@@ -12220,6 +12194,19 @@
       "GPU": "GeForce RTX 4060 Ti",
       "Motherboard": "Intel® H610",
       "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R3 4300G - MSI A520M-A - 500GB SSD - 8GB / 16GB RAM",
+    "price": 8512,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145958_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r3-4300g-msi-a520m-a-240gb-500gb-ssd-8gb-16gb-ram.html",
+    "specs": {
+      "CPU": "4300G",
+      "GPU": "-",
+      "Motherboard": "AMD® A520",
+      "Ram": "8 GB"
     },
     "store": "vatan"
   },
@@ -12523,6 +12510,313 @@
       "Motherboard": "MSI B650 Anakart",
       "GPU": "Gainward GeForce RTX 4070 Super",
       "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Wunch Intel Core i5 12400F 16GB 512GB NVMe M.2 SSD MSI GeForce Ventus XS OC V1 4GB GTX1650 Oyun Bilgisayarı",
+    "price": 16624,
+    "image": "https://static.sinerji.gen.tr/Images/MD/P5K-p4j-frisby-fc-9320g-midi-tower-kasa-1.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-wunch-intel-core-i5-12400f-16gb-512gb-nvme-m2-ssd-msi-geforce-ventus-xs-oc-v1-4gb-gtx1650-oyun-bilgisayari-p-42644",
+    "specs": {
+      "CPU": "Intel Core i5 12400F",
+      "Motherboard": "MSI H610 Anakart",
+      "GPU": "MSI GTX 1650 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Pro V4 Intel Core i7 12700 16GB 512GB NVMe M.2 SSD İş Bilgisayarı",
+    "price": 21127,
+    "image": "https://static.sinerji.gen.tr/Images/MD/J3C-gfdgfdgfdgfddfg.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-pro-v4-intel-core-i7-12700-16gb-512gb-nvme-m2-ssd-is-bilgisayari-p-42137",
+    "specs": {
+      "CPU": "Intel Core i5 12700 "
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Rapidness Ryzen 5 5500 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X Black OC 8GB RTX4060Ti Oyun Bilgisayarı",
+    "price": 27163,
+    "image": "https://static.sinerji.gen.tr/Images/MD/AQK-nza-1024.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-rapidness-ryzen-5-5500-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-black-oc-8gb-rtx4060ti-oyun-bilgisayari-p-42118",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5500 ",
+      "Motherboard": "MSI B450 Anakart",
+      "GPU": "MSI RTX 4060Ti Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Lugias Intel Core i5 12400F 16GB 500GB NVMe M.2 SSD MSI Radeon Mech V1 2X 12GB RX6750XT Oyun Bilgisayarı",
+    "price": 25151,
+    "image": "https://static.sinerji.gen.tr/Images/MD/CMX-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-lugias-intel-core-i5-12400f-16gb-500gb-nvme-m2-ssd-msi-radeon-mech-v1-2x-12gb-rx6750xt-oyun-bilgisayari-p-42098",
+    "specs": {
+      "CPU": "Intel Core i5 12400F",
+      "Motherboard": "MSI H610 Anakart",
+      "GPU": "MSI RX6750XT Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Flex Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD ASUS GeForce ROG Strix OC 16GB RTX4070Ti Super Oyun Bilgisayarı",
+    "price": 95143,
+    "image": "https://static.sinerji.gen.tr/Images/MD/112-5l3-tuf-gaming-gt502-0.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-flex-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-asus-geforce-rog-strix-oc-16gb-rtx4070ti-super-oyun-bilgisayari-p-42090",
+    "specs": {
+      "Motherboard": "Asus X670 Anakart",
+      "GPU": "Asus RTX 4070Ti Super Ekran Kartı",
+      "Ram": "32GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Bailey Ryzen 5 8400F 16GB 512GB NVMe M.2 SSD MSI GeForce Gaming X 8GB RTX4060 Oyun Bilgisayarı",
+    "price": 29043,
+    "image": "https://static.sinerji.gen.tr/Images/MD/2ZK-nza-1024.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-bailey-ryzen-5-8400f-16gb-512gb-nvme-m2-ssd-msi-geforce-gaming-x-8gb-rtx4060-oyun-bilgisayari-p-41019",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Motherboard": "MSI A620 Anakart",
+      "GPU": "MSI RTX 4060 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Arctic Ryzen 5 7600 16GB 1TB NVMe M.2 SSD Gigabyte GeForce Gaming 12GB RTX4070Ti Oyun Bilgisayarı",
+    "price": 48999,
+    "image": "https://static.sinerji.gen.tr/Images/MD/AT9-6ht-ekran-goruntusu-2024-03-04-153030.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-arctic-ryzen-5-7600-16gb-1tb-nvme-m2-ssd-gigabyte-geforce-gaming-12gb-rtx4070ti-oyun-bilgisayari-p-40642",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600 ",
+      "Motherboard": "Gigabyte A620 Anakart",
+      "GPU": "Gigabyte RTX 4070Ti Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Kyashe Ryzen 5 7600 16GB 512GB NVMe M.2 SSD Sapphire Radeon Pulse 16GB RX7800XT Oyun Bilgisayarı",
+    "price": 34999,
+    "image": "https://static.sinerji.gen.tr/Images/MD/7TD-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-kyashe-ryzen-5-7600-16gb-512gb-nvme-m2-ssd-sapphire-radeon-pulse-16gb-rx7800xt-oyun-bilgisayari-p-40637",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600 ",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "AMD Radeon RX7800XT",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Clash Ryzen 5 5600 16GB 512GB NVMe M.2 SSD Asus GeForce EVO Dual 8GB RTX4060 Oyun Bilgisayarı",
+    "price": 27163,
+    "image": "https://static.sinerji.gen.tr/Images/MD/DQB-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-clash-ryzen-5-5600-16gb-512gb-nvme-m2-ssd-asus-geforce-evo-dual-8gb-rtx4060-oyun-bilgisayari-p-40618",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600 ",
+      "Motherboard": "Asus A520 Anakart",
+      "GPU": "Asus RTX 4060 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Envy Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim 24GB RTX4090 Oyun Bilgisayarı",
+    "price": 132199,
+    "image": "https://static.sinerji.gen.tr/Images/MD/U12-7s6-141379-1large.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-envy-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-24gb-rtx4090-oyun-bilgisayari-p-40259",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "MSI RTX 4090 Ekran Kartı",
+      "Ram": "32GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Leuts Intel Core i5 12400F 16GB 512GB NVMe M.2 SSD XFX Radeon Core Gaming 12GB RX6750XT Oyun Bilgisayarı",
+    "price": 24145,
+    "image": "https://static.sinerji.gen.tr/Images/MD/67P-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-leuts-intel-core-i5-12400f-16gb-512gb-nvme-m2-ssd-xfx-radeon-core-gaming-12gb-rx6750xt-oyun-bilgisayari-p-40241",
+    "specs": {
+      "CPU": "Intel Core i5 12400F",
+      "Motherboard": "Gigabyte H610 Anakart",
+      "GPU": "XFX Radeon RX6750XT Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Chill Ryzen 5 5600 16GB 1TB NVMe M.2 SSD ASUS GeForce TUF Gaming OC 8GB RTX4060Ti Oyun Bilgisayarı",
+    "price": 35211,
+    "image": "https://static.sinerji.gen.tr/Images/MD/A23-6ht-ekran-goruntusu-2024-03-04-153030.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-chill-ryzen-5-5600-16gb-1tb-nvme-m2-ssd-asus-geforce-tuf-gaming-oc-8gb-rtx4060ti-oyun-bilgisayari-p-40017",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600 ",
+      "Motherboard": "Asus A520 Anakart",
+      "GPU": "Asus RTX 4060Ti Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Artemis Ryzen 5 5500 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X XD OC 8GB RTX3050 Oyun Bilgisayarı",
+    "price": 20499,
+    "image": "https://static.sinerji.gen.tr/Images/MD/K6A-nza-1024.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-artemis-ryzen-5-5500-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-xd-oc-8gb-rtx3050-oyun-bilgisayari-p-39993",
+    "specs": {
+      "Motherboard": "MSI B450 Anakart",
+      "GPU": "MSI RTX 3050 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Worm Ryzen 5 8400F 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 3x BLACK OC 16GB RTX4060Ti Oyun Bilgisayarı",
+    "price": 36218,
+    "image": "https://static.sinerji.gen.tr/Images/MD/APT-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-worm-ryzen-5-8400f-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-3x-black-oc-16gb-rtx4060ti-oyun-bilgisayari-p-39953",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Motherboard": "MSI A620 Anakart",
+      "GPU": "MSI RTX 4060Ti Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Sayanora Ryzen 5 7500F 16GB 1TB NVMe M.2 SSD Gigabyte GeForce Eagle OC 12GB RTX4070Ti Oyun Bilgisayarı",
+    "price": 47070,
+    "image": "https://static.sinerji.gen.tr/Images/MD/95F-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-sayanora-ryzen-5-7500f-16gb-1tb-nvme-m2-ssd-gigabyte-geforce-eagle-oc-12gb-rtx4070ti-oyun-bilgisayari-p-39840",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Motherboard": "Gigabyte A620 Anakart",
+      "GPU": "Gigabyte RTX 4070Ti Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Assault Ryzen 5 5500 16GB 512GB NVMe M.2 SSD Palit GeForce Infinity 2 8GB RTX4060 Oyun Bilgisayarı",
+    "price": 23034,
+    "image": "https://static.sinerji.gen.tr/Images/MD/JU9-kl8-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-assault-ryzen-5-5500-16gb-512gb-nvme-m2-ssd-palit-geforce-infinity-2-8gb-rtx4060-oyun-bilgisayari-p-39555",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5500 ",
+      "Motherboard": "ASRock A520 Anakart",
+      "GPU": "Palit RTX 4060 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Dragon Intel Core i5 12400F 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X Black OC 8GB RTX4060 Oyun Bilgisayarı",
+    "price": 25037,
+    "image": "https://static.sinerji.gen.tr/Images/MD/Q8M-nza-1024.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-dragon-intel-core-i5-12400f-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-black-oc-8gb-rtx4060-oyun-bilgisayari-p-39395",
+    "specs": {
+      "CPU": "Intel Core i5 12400F",
+      "Motherboard": "MSI H610 Anakart",
+      "GPU": "MSI RTX 4060 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Zhwach Ryzen 5 8400F 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X OC 8GB RTX4060Ti Oyun Bilgisayarı",
+    "price": 31187,
+    "image": "https://static.sinerji.gen.tr/Images/MD/ZX4-nza-1024.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-zhwach-ryzen-5-8400f-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-oc-8gb-rtx4060ti-oyun-bilgisayari-p-39358",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Motherboard": "MSI A620 Anakart",
+      "GPU": "MSI RTX 4060Ti Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Goose Ryzen 5 7600 16GB 512GB NVMe M.2 SSD PowerColor Radeon RX 7900 GRE FIGTHER 16GB Oyun Bilgisayarı",
+    "price": 36999,
+    "image": "https://static.sinerji.gen.tr/Images/MD/LK6-8sx-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-goose-ryzen-5-7600-16gb-512gb-nvme-m2-ssd-powercolor-radeon-rx-7900-gre-figther-16gb-oyun-bilgisayari-p-37897",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600 ",
+      "Motherboard": "Asus A620 Anakart",
+      "GPU": "AMD Radeon RX7900GRE",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Ultimate Ryzen 5 5600X 16GB 512GB NVMe M.2 SSD Sapphire Radeon Pulse 16GB RX7800XT Oyun Bilgisayarı",
+    "price": 31046,
+    "image": "https://static.sinerji.gen.tr/Images/MD/9FL-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-ultimate-ryzen-5-5600x-16gb-512gb-nvme-m2-ssd-sapphire-radeon-pulse-16gb-rx7800xt-oyun-bilgisayari-p-37681",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600X",
+      "Motherboard": "Asus A520 Anakart",
+      "GPU": "Sapphire RX7800XT Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Guerres Intel Core i5 14600KF 32GB 1TB NVMe M.2 SSD MSI GeForce Ventus 3X OC 16GB RTX4070Ti Super Oyun Bilgisayarı",
+    "price": 78117,
+    "image": "https://static.sinerji.gen.tr/Images/MD/DBC-1mf-we.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-guerres-intel-core-i5-14600kf-32gb-1tb-nvme-m2-ssd-msi-geforce-ventus-3x-oc-16gb-rtx4070ti-super-oyun-bilgisayari-p-37594",
+    "specs": {
+      "CPU": "Intel Core i5 14600K",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "MSI RTX 4070Ti Super Ekran Kartı",
+      "Ram": "32GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Reyz Intel Core i9 14900KS 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim 24GB RTX4090 Oyun Bilgisayarı",
+    "price": 152921,
+    "image": "https://static.sinerji.gen.tr/Images/MD/HZ8-300r-airflow.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-reyz-intel-core-i9-14900ks-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-24gb-rtx4090-oyun-bilgisayari-p-36417",
+    "specs": {
+      "CPU": "Intel Core i9 14900K",
+      "Motherboard": "MSI Z790 Anakart",
+      "GPU": "MSI RTX 4090 Ekran Kartı",
+      "Ram": "32GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji AUSS Ryzen 5 5600 16GB 512GB NVMe M.2 SSD ASUS Radeon Dual OC 16GB RX7600XT Oyun Bilgisayarı",
+    "price": 27597,
+    "image": "https://static.sinerji.gen.tr/Images/MD/9G5-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-auss-ryzen-5-5600-16gb-512gb-nvme-m2-ssd-asus-radeon-dual-oc-16gb-rx7600xt-oyun-bilgisayari-p-36369",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600 ",
+      "Motherboard": "Asus A520 Anakart",
+      "GPU": "Asus RX7600XT Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Feuer Intel Core i7 14700KF 32GB 1TB NVMe M.2 SSD ASUS Radeon TUF Gaming OC 20GB RX7900XT Oyun Bilgisayarı",
+    "price": 81377,
+    "image": "https://static.sinerji.gen.tr/Images/MD/7HB-ynl-ufx-01-1.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-feuer-intel-core-i7-14700kf-32gb-1tb-nvme-m2-ssd-asus-radeon-tuf-gaming-oc-20gb-rx7900xt-oyun-bilgisayari-p-36261",
+    "specs": {
+      "CPU": "Intel Core i7 14700K",
+      "Motherboard": "Asus Z790 Anakart",
+      "GPU": "Asus RX7900XT Ekran Kartı",
+      "Ram": "32GB Ram"
     },
     "store": "sinerji"
   },
@@ -13132,313 +13426,6 @@
       "Motherboard": "MSI B650 Anakart",
       "GPU": "Asus RTX 4070 Super Ekran Kartı",
       "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Wunch Intel Core i5 12400F 16GB 512GB NVMe M.2 SSD MSI GeForce Ventus XS OC V1 4GB GTX1650 Oyun Bilgisayarı",
-    "price": 16624,
-    "image": "https://static.sinerji.gen.tr/Images/MD/P5K-p4j-frisby-fc-9320g-midi-tower-kasa-1.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-wunch-intel-core-i5-12400f-16gb-512gb-nvme-m2-ssd-msi-geforce-ventus-xs-oc-v1-4gb-gtx1650-oyun-bilgisayari-p-42644",
-    "specs": {
-      "CPU": "Intel Core i5 12400F",
-      "Motherboard": "MSI H610 Anakart",
-      "GPU": "MSI GTX 1650 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Pro V4 Intel Core i7 12700 16GB 512GB NVMe M.2 SSD İş Bilgisayarı",
-    "price": 21127,
-    "image": "https://static.sinerji.gen.tr/Images/MD/J3C-gfdgfdgfdgfddfg.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-pro-v4-intel-core-i7-12700-16gb-512gb-nvme-m2-ssd-is-bilgisayari-p-42137",
-    "specs": {
-      "CPU": "Intel Core i5 12700 "
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Rapidness Ryzen 5 5500 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X Black OC 8GB RTX4060Ti Oyun Bilgisayarı",
-    "price": 27163,
-    "image": "https://static.sinerji.gen.tr/Images/MD/AQK-nza-1024.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-rapidness-ryzen-5-5500-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-black-oc-8gb-rtx4060ti-oyun-bilgisayari-p-42118",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5500 ",
-      "Motherboard": "MSI B450 Anakart",
-      "GPU": "MSI RTX 4060Ti Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Lugias Intel Core i5 12400F 16GB 500GB NVMe M.2 SSD MSI Radeon Mech V1 2X 12GB RX6750XT Oyun Bilgisayarı",
-    "price": 25151,
-    "image": "https://static.sinerji.gen.tr/Images/MD/CMX-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-lugias-intel-core-i5-12400f-16gb-500gb-nvme-m2-ssd-msi-radeon-mech-v1-2x-12gb-rx6750xt-oyun-bilgisayari-p-42098",
-    "specs": {
-      "CPU": "Intel Core i5 12400F",
-      "Motherboard": "MSI H610 Anakart",
-      "GPU": "MSI RX6750XT Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Flex Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD ASUS GeForce ROG Strix OC 16GB RTX4070Ti Super Oyun Bilgisayarı",
-    "price": 95143,
-    "image": "https://static.sinerji.gen.tr/Images/MD/112-5l3-tuf-gaming-gt502-0.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-flex-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-asus-geforce-rog-strix-oc-16gb-rtx4070ti-super-oyun-bilgisayari-p-42090",
-    "specs": {
-      "Motherboard": "Asus X670 Anakart",
-      "GPU": "Asus RTX 4070Ti Super Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Bailey Ryzen 5 8400F 16GB 512GB NVMe M.2 SSD MSI GeForce Gaming X 8GB RTX4060 Oyun Bilgisayarı",
-    "price": 29043,
-    "image": "https://static.sinerji.gen.tr/Images/MD/2ZK-nza-1024.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-bailey-ryzen-5-8400f-16gb-512gb-nvme-m2-ssd-msi-geforce-gaming-x-8gb-rtx4060-oyun-bilgisayari-p-41019",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Motherboard": "MSI A620 Anakart",
-      "GPU": "MSI RTX 4060 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Arctic Ryzen 5 7600 16GB 1TB NVMe M.2 SSD Gigabyte GeForce Gaming 12GB RTX4070Ti Oyun Bilgisayarı",
-    "price": 48999,
-    "image": "https://static.sinerji.gen.tr/Images/MD/AT9-6ht-ekran-goruntusu-2024-03-04-153030.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-arctic-ryzen-5-7600-16gb-1tb-nvme-m2-ssd-gigabyte-geforce-gaming-12gb-rtx4070ti-oyun-bilgisayari-p-40642",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600 ",
-      "Motherboard": "Gigabyte A620 Anakart",
-      "GPU": "Gigabyte RTX 4070Ti Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Kyashe Ryzen 5 7600 16GB 512GB NVMe M.2 SSD Sapphire Radeon Pulse 16GB RX7800XT Oyun Bilgisayarı",
-    "price": 34999,
-    "image": "https://static.sinerji.gen.tr/Images/MD/7TD-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-kyashe-ryzen-5-7600-16gb-512gb-nvme-m2-ssd-sapphire-radeon-pulse-16gb-rx7800xt-oyun-bilgisayari-p-40637",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600 ",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "AMD Radeon RX7800XT",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Clash Ryzen 5 5600 16GB 512GB NVMe M.2 SSD Asus GeForce EVO Dual 8GB RTX4060 Oyun Bilgisayarı",
-    "price": 27163,
-    "image": "https://static.sinerji.gen.tr/Images/MD/DQB-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-clash-ryzen-5-5600-16gb-512gb-nvme-m2-ssd-asus-geforce-evo-dual-8gb-rtx4060-oyun-bilgisayari-p-40618",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600 ",
-      "Motherboard": "Asus A520 Anakart",
-      "GPU": "Asus RTX 4060 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Envy Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim 24GB RTX4090 Oyun Bilgisayarı",
-    "price": 132199,
-    "image": "https://static.sinerji.gen.tr/Images/MD/U12-7s6-141379-1large.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-envy-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-24gb-rtx4090-oyun-bilgisayari-p-40259",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "MSI RTX 4090 Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Leuts Intel Core i5 12400F 16GB 512GB NVMe M.2 SSD XFX Radeon Core Gaming 12GB RX6750XT Oyun Bilgisayarı",
-    "price": 24145,
-    "image": "https://static.sinerji.gen.tr/Images/MD/67P-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-leuts-intel-core-i5-12400f-16gb-512gb-nvme-m2-ssd-xfx-radeon-core-gaming-12gb-rx6750xt-oyun-bilgisayari-p-40241",
-    "specs": {
-      "CPU": "Intel Core i5 12400F",
-      "Motherboard": "Gigabyte H610 Anakart",
-      "GPU": "XFX Radeon RX6750XT Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Chill Ryzen 5 5600 16GB 1TB NVMe M.2 SSD ASUS GeForce TUF Gaming OC 8GB RTX4060Ti Oyun Bilgisayarı",
-    "price": 35211,
-    "image": "https://static.sinerji.gen.tr/Images/MD/A23-6ht-ekran-goruntusu-2024-03-04-153030.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-chill-ryzen-5-5600-16gb-1tb-nvme-m2-ssd-asus-geforce-tuf-gaming-oc-8gb-rtx4060ti-oyun-bilgisayari-p-40017",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600 ",
-      "Motherboard": "Asus A520 Anakart",
-      "GPU": "Asus RTX 4060Ti Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Artemis Ryzen 5 5500 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X XD OC 8GB RTX3050 Oyun Bilgisayarı",
-    "price": 20499,
-    "image": "https://static.sinerji.gen.tr/Images/MD/K6A-nza-1024.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-artemis-ryzen-5-5500-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-xd-oc-8gb-rtx3050-oyun-bilgisayari-p-39993",
-    "specs": {
-      "Motherboard": "MSI B450 Anakart",
-      "GPU": "MSI RTX 3050 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Worm Ryzen 5 8400F 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 3x BLACK OC 16GB RTX4060Ti Oyun Bilgisayarı",
-    "price": 36218,
-    "image": "https://static.sinerji.gen.tr/Images/MD/APT-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-worm-ryzen-5-8400f-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-3x-black-oc-16gb-rtx4060ti-oyun-bilgisayari-p-39953",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Motherboard": "MSI A620 Anakart",
-      "GPU": "MSI RTX 4060Ti Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Sayanora Ryzen 5 7500F 16GB 1TB NVMe M.2 SSD Gigabyte GeForce Eagle OC 12GB RTX4070Ti Oyun Bilgisayarı",
-    "price": 47070,
-    "image": "https://static.sinerji.gen.tr/Images/MD/95F-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-sayanora-ryzen-5-7500f-16gb-1tb-nvme-m2-ssd-gigabyte-geforce-eagle-oc-12gb-rtx4070ti-oyun-bilgisayari-p-39840",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Motherboard": "Gigabyte A620 Anakart",
-      "GPU": "Gigabyte RTX 4070Ti Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Assault Ryzen 5 5500 16GB 512GB NVMe M.2 SSD Palit GeForce Infinity 2 8GB RTX4060 Oyun Bilgisayarı",
-    "price": 23034,
-    "image": "https://static.sinerji.gen.tr/Images/MD/JU9-kl8-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-assault-ryzen-5-5500-16gb-512gb-nvme-m2-ssd-palit-geforce-infinity-2-8gb-rtx4060-oyun-bilgisayari-p-39555",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5500 ",
-      "Motherboard": "ASRock A520 Anakart",
-      "GPU": "Palit RTX 4060 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Dragon Intel Core i5 12400F 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X Black OC 8GB RTX4060 Oyun Bilgisayarı",
-    "price": 25037,
-    "image": "https://static.sinerji.gen.tr/Images/MD/Q8M-nza-1024.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-dragon-intel-core-i5-12400f-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-black-oc-8gb-rtx4060-oyun-bilgisayari-p-39395",
-    "specs": {
-      "CPU": "Intel Core i5 12400F",
-      "Motherboard": "MSI H610 Anakart",
-      "GPU": "MSI RTX 4060 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Zhwach Ryzen 5 8400F 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X OC 8GB RTX4060Ti Oyun Bilgisayarı",
-    "price": 31187,
-    "image": "https://static.sinerji.gen.tr/Images/MD/ZX4-nza-1024.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-zhwach-ryzen-5-8400f-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-oc-8gb-rtx4060ti-oyun-bilgisayari-p-39358",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Motherboard": "MSI A620 Anakart",
-      "GPU": "MSI RTX 4060Ti Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Goose Ryzen 5 7600 16GB 512GB NVMe M.2 SSD PowerColor Radeon RX 7900 GRE FIGTHER 16GB Oyun Bilgisayarı",
-    "price": 36999,
-    "image": "https://static.sinerji.gen.tr/Images/MD/LK6-8sx-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-goose-ryzen-5-7600-16gb-512gb-nvme-m2-ssd-powercolor-radeon-rx-7900-gre-figther-16gb-oyun-bilgisayari-p-37897",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600 ",
-      "Motherboard": "Asus A620 Anakart",
-      "GPU": "AMD Radeon RX7900GRE",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Ultimate Ryzen 5 5600X 16GB 512GB NVMe M.2 SSD Sapphire Radeon Pulse 16GB RX7800XT Oyun Bilgisayarı",
-    "price": 31046,
-    "image": "https://static.sinerji.gen.tr/Images/MD/9FL-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-ultimate-ryzen-5-5600x-16gb-512gb-nvme-m2-ssd-sapphire-radeon-pulse-16gb-rx7800xt-oyun-bilgisayari-p-37681",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600X",
-      "Motherboard": "Asus A520 Anakart",
-      "GPU": "Sapphire RX7800XT Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Guerres Intel Core i5 14600KF 32GB 1TB NVMe M.2 SSD MSI GeForce Ventus 3X OC 16GB RTX4070Ti Super Oyun Bilgisayarı",
-    "price": 78117,
-    "image": "https://static.sinerji.gen.tr/Images/MD/DBC-1mf-we.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-guerres-intel-core-i5-14600kf-32gb-1tb-nvme-m2-ssd-msi-geforce-ventus-3x-oc-16gb-rtx4070ti-super-oyun-bilgisayari-p-37594",
-    "specs": {
-      "CPU": "Intel Core i5 14600K",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "MSI RTX 4070Ti Super Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Reyz Intel Core i9 14900KS 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim 24GB RTX4090 Oyun Bilgisayarı",
-    "price": 152921,
-    "image": "https://static.sinerji.gen.tr/Images/MD/HZ8-300r-airflow.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-reyz-intel-core-i9-14900ks-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-24gb-rtx4090-oyun-bilgisayari-p-36417",
-    "specs": {
-      "CPU": "Intel Core i9 14900K",
-      "Motherboard": "MSI Z790 Anakart",
-      "GPU": "MSI RTX 4090 Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji AUSS Ryzen 5 5600 16GB 512GB NVMe M.2 SSD ASUS Radeon Dual OC 16GB RX7600XT Oyun Bilgisayarı",
-    "price": 27597,
-    "image": "https://static.sinerji.gen.tr/Images/MD/9G5-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-auss-ryzen-5-5600-16gb-512gb-nvme-m2-ssd-asus-radeon-dual-oc-16gb-rx7600xt-oyun-bilgisayari-p-36369",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600 ",
-      "Motherboard": "Asus A520 Anakart",
-      "GPU": "Asus RX7600XT Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Feuer Intel Core i7 14700KF 32GB 1TB NVMe M.2 SSD ASUS Radeon TUF Gaming OC 20GB RX7900XT Oyun Bilgisayarı",
-    "price": 81377,
-    "image": "https://static.sinerji.gen.tr/Images/MD/7HB-ynl-ufx-01-1.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-feuer-intel-core-i7-14700kf-32gb-1tb-nvme-m2-ssd-asus-radeon-tuf-gaming-oc-20gb-rx7900xt-oyun-bilgisayari-p-36261",
-    "specs": {
-      "CPU": "Intel Core i7 14700K",
-      "Motherboard": "Asus Z790 Anakart",
-      "GPU": "Asus RX7900XT Ekran Kartı",
-      "Ram": "32GB Ram"
     },
     "store": "sinerji"
   },
