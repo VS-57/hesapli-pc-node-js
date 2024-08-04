@@ -9,6 +9,8 @@ import itopyaRouter from "./routes/itopya.mjs";
 import pckolikRouter from "./routes/pckolik.mjs";
 import vatanRouter from "./routes/vatan.mjs";
 import sinerjiRouter from "./routes/sinerji.mjs";
+import inceHesapRouter from "./routes/inceHesap.mjs";
+
 import getAllRouter from "./routes/getAll.mjs";
 import setupSwagger from "./swagger/swagger.mjs";
 import fetch from "node-fetch";
@@ -34,6 +36,7 @@ app.use("/api/itopya", itopyaRouter);
 app.use("/api/pckolik", pckolikRouter);
 app.use("/api/vatan", vatanRouter);
 app.use("/api/sinerji", sinerjiRouter);
+app.use("/api/inceHesap", inceHesapRouter);
 app.use("/api/getAll", getAllRouter);
 
 // Yeni endpoint
@@ -45,6 +48,7 @@ app.get("/api/combined", async (req, res) => {
       "http://localhost:3000/api/pckolik",
       "http://localhost:3000/api/vatan",
       "http://localhost:3000/api/sinerji",
+      "http://localhost:3000/api/inceHesap",
       "http://localhost:3000/api/game-garaj",
     ];
 
