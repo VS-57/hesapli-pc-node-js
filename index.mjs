@@ -1,7 +1,8 @@
+// index.mjs
 import express from "express";
 import cors from "cors";
 import path from "path";
-import { fileURLToPath } from "url"; // URL modülünü içe aktarın
+import { fileURLToPath } from "url";
 import gameGarajRouter from "./routes/gameGaraj.mjs";
 import gamingGenRouter from "./routes/gamingGen.mjs";
 import itopyaRouter from "./routes/itopya.mjs";
@@ -10,29 +11,19 @@ import vatanRouter from "./routes/vatan.mjs";
 import sinerjiRouter from "./routes/sinerji.mjs";
 import getAllRouter from "./routes/getAll.mjs";
 import setupSwagger from "./swagger/swagger.mjs";
+import fetch from "node-fetch";
+import { promises as fs } from "fs"; // Importing fs.promises
 
 const app = express();
 const port = 3000;
 
-// __filename ve __dirname değişkenlerini tanımlayın
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-/* const corsOptions = {
-  origin: ["https://ucuzasistem.up.railway.app", "http://localhost:3000"], // İzin verilen origin'ler
-  optionsSuccessStatus: 200,
-};
-
-app.use(cors(corsOptions)); */
-
 app.use(cors());
-
 app.use(express.json());
-
-// Statik dosyaları sunmak için middleware ekleyin
 app.use(express.static(path.join(__dirname, "public")));
 
-// Anasayfaya gelen isteklerde main.html dosyasını gönder
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "main.html"));
 });
@@ -43,11 +34,42 @@ app.use("/api/itopya", itopyaRouter);
 app.use("/api/pckolik", pckolikRouter);
 app.use("/api/vatan", vatanRouter);
 app.use("/api/sinerji", sinerjiRouter);
-
-// Get All Mock Data
 app.use("/api/getAll", getAllRouter);
 
-// Swagger documentation setup
+// Yeni endpoint
+app.get("/api/combined", async (req, res) => {
+  try {
+    const urls = [
+      "http://localhost:3000/api/game-garaj",
+      /* 'http://localhost:3000/api/gaming-gen', */
+      "http://localhost:3000/api/itopya",
+      "http://localhost:3000/api/pckolik",
+      "http://localhost:3000/api/vatan",
+      "http://localhost:3000/api/sinerji",
+    ];
+
+    const fetchPromises = urls.map((url) =>
+      fetch(url).then((response) => response.json())
+    );
+
+    const results = await Promise.all(fetchPromises);
+    const combinedResults = results.flat();
+
+    const products = JSON.parse(await fs.readFile("mock.json", "utf-8"));
+
+    const updatedArr = [
+      ...combinedResults,
+      ...products.filter((x) => x.store === "gamingGen"),
+    ];
+
+    await fs.writeFile("mock.json", JSON.stringify(updatedArr, null, 2));
+
+    res.json(updatedArr);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
 setupSwagger(app);
 
 app.listen(port, () => {
