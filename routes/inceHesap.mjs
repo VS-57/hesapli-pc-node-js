@@ -18,7 +18,9 @@ async function fetchAllProducts(urls) {
     productElements.forEach((productElement) => {
       const linkElement = productElement.querySelector("a[itemprop='url']");
       const imageElement = productElement.querySelector("img");
-      const nameElement = productElement.querySelector("p[title]");
+      const nameElement = productElement.querySelector(
+        "p.text-lg.text-center.truncate.font-semibold[title]"
+      );
       const priceElement = productElement.querySelector(".text-orange-500");
 
       const link =
@@ -45,10 +47,10 @@ async function fetchAllProducts(urls) {
         if (specText.includes("AMD") || specText.includes("Intel")) {
           specs["CPU"] = specText;
         } else if (
-          specText?.toLowerCase().includes("RTX") ||
-          specText?.toLowerCase().includes("RX") ||
-          specText?.toLowerCase().includes("GTX") ||
-          specText?.toLowerCase().includes("Arc")
+          specText?.toLowerCase().includes("rtx") ||
+          specText?.toLowerCase().includes("rx") ||
+          specText?.toLowerCase().includes("gtx") ||
+          specText?.toLowerCase().includes("arc")
         ) {
           specs["GPU"] = specText;
         } else if (specText.includes("DDR4") || specText.includes("DDR5")) {
