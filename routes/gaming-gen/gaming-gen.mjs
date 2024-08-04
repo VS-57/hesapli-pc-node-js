@@ -1,5 +1,4 @@
 import fs from "fs/promises";
-import { features } from "process";
 import puppeteer from "puppeteer";
 
 async function scrapeProduct(page, url) {
@@ -88,7 +87,7 @@ async function scrapeProductsFromFile(filePath) {
     const urls = links.split("\n").filter(Boolean);
 
     const results = [];
-    for (const url of urls) {
+    for (const url of urls.slice) {
       const product = await scrapeProduct(page, url);
       if (product) {
         results.push(product);
@@ -96,7 +95,7 @@ async function scrapeProductsFromFile(filePath) {
     }
 
     await browser.close();
-    await fs.writeFile("products.json", JSON.stringify(results, null, 2));
+    await fs.writeFile("../../products.json", JSON.stringify(results, null, 2)); // Changed path to save two levels up
     console.log("Scraping completed. Results saved to products.json");
   } catch (error) {
     console.error("Error in scrapeProductsFromFile:", error);
