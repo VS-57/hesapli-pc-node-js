@@ -107,7 +107,7 @@
   <body style="background-color: #f7f8f9">
     <header class="header">
       <div class="header-content">
-        <h1 class="header-title" >Ucuza Sistem</h1>
+        <h1 class="header-title">Ucuza Sistem</h1>
         <div class="search-box">
           <input
             type="text"
@@ -352,19 +352,19 @@
               </button>
               <div class="form-group row">
                 <div class="col">
-                  <label for="startPrice">Başlangıç Fiyatı</label>
+                  <label for="startPriceMobile">Başlangıç Fiyatı</label>
                   <input
                     type="number"
-                    id="startPrice"
+                    id="startPriceMobile"
                     class="form-control"
                     placeholder="0"
                   />
                 </div>
                 <div class="col">
-                  <label for="endPrice">Bitiş Fiyatı</label>
+                  <label for="endPriceMobile">Bitiş Fiyatı</label>
                   <input
                     type="number"
-                    id="endPrice"
+                    id="endPriceMobile"
                     class="form-control"
                     placeholder="35000"
                   />
@@ -767,6 +767,12 @@
           .getElementById("endPrice")
           .addEventListener("input", filterProducts);
         document
+          .getElementById("startPriceMobile")
+          .addEventListener("input", filterProducts);
+        document
+          .getElementById("endPriceMobile")
+          .addEventListener("input", filterProducts);
+        document
           .getElementById("sortOrder")
           .addEventListener("change", filterProducts);
         document
@@ -792,6 +798,8 @@
         document.getElementById("filterInput").value = "";
         document.getElementById("startPrice").value = "";
         document.getElementById("endPrice").value = "";
+        document.getElementById("startPriceMobile").value = "";
+        document.getElementById("endPriceMobile").value = "";
         document
           .querySelectorAll(".form-check-input")
           .forEach(function (checkbox) {
@@ -806,10 +814,12 @@
         const filterValue = document
           .getElementById("filterInput")
           .value.toLowerCase();
-        const startPrice =
-          Number(document.getElementById("startPrice").value) || 0;
-        const endPrice =
-          Number(document.getElementById("endPrice").value) || Infinity;
+        const startPrice = isMobile
+          ? Number(document.getElementById("startPriceMobile").value) || 0
+          : Number(document.getElementById("startPrice").value) || 0;
+        const endPrice = isMobile
+          ? Number(document.getElementById("endPriceMobile").value) || Infinity
+          : Number(document.getElementById("endPrice").value) || Infinity;
         const selectedCPUs = Array.from(
           document.querySelectorAll(".form-check-input:checked")
         )
