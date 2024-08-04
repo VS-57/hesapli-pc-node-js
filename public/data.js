@@ -175,6 +175,7 @@ const gpus = [
   { name: "Radeon RX 7600", value: "RX 7600" },
   { name: "Radeon RX 7700 XT", value: "RX 7700 XT" },
   { name: "Radeon RX 7800 XT", value: "RX 7800 XT" },
+  { name: "Radeon RX 7900 GRE", value: "RX 7900 GRE" },
   { name: "Radeon RX 7900 XT", value: "RX 7900 XT" },
   { name: "Radeon RX 7900 XTX", value: "RX 7900 XTX" },
 
