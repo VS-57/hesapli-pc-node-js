@@ -40,12 +40,12 @@ app.use("/api/getAll", getAllRouter);
 app.get("/api/combined", async (req, res) => {
   try {
     const urls = [
-      "http://localhost:3000/api/game-garaj",
       /* 'http://localhost:3000/api/gaming-gen', */
       "http://localhost:3000/api/itopya",
       "http://localhost:3000/api/pckolik",
       "http://localhost:3000/api/vatan",
       "http://localhost:3000/api/sinerji",
+      "http://localhost:3000/api/game-garaj",
     ];
 
     const fetchPromises = urls.map((url) =>
