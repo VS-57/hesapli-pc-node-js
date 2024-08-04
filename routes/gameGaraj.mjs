@@ -139,53 +139,6 @@ async function fetchAllProducts(totalPages) {
   return allProducts;
 }
 
-/**
- * @swagger
- * /api/game-garaj:
- *   get:
- *     summary: Get all products from Game Garaj
- *     description: Fetches a list of products from Game Garaj across multiple pages.
- *     responses:
- *       200:
- *         description: A list of products
- *         content:
- *           application/json:
- *             schema:
- *               type: array
- *               items:
- *                 type: object
- *                 properties:
- *                   image:
- *                     type: string
- *                     example: "https://example.com/image.jpg"
- *                   name:
- *                     type: string
- *                     example: "Product Name"
- *                   price:
- *                     type: number
- *                     example: 1234.56
- *                   link:
- *                     type: string
- *                     example: "https://example.com/product"
- *                   specs:
- *                     type: array
- *                     items:
- *                       type: object
- *                       properties:
- *                         specText:
- *                           type: string
- *                           example: "Intel® Core™ i3 14100F 3.5 GHz 4.7 GHz 12MB"
- *       500:
- *         description: Error message if something goes wrong
- *         content:
- *           application/json:
- *             schema:
- *               type: object
- *               properties:
- *                 error:
- *                   type: string
- *                   example: "Failed to fetch page 1: Error message"
- */
 router.get("/", async (req, res) => {
   try {
     const totalPages = parseInt(req.query.totalPages, 10) || 8; // Dinamik sayfa sayısı

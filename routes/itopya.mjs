@@ -72,39 +72,6 @@ async function fetchAllProducts(totalPages) {
   return allProducts;
 }
 
-/**
- * @swagger
- * /api/itopya:
- *   get:
- *     summary: Get all products from Itopya
- *     responses:
- *       200:
- *         description: A list of products
- *         content:
- *           application/json:
- *             schema:
- *               type: array
- *               items:
- *                 type: object
- *                 properties:
- *                   productImage:
- *                     type: string
- *                   title:
- *                     type: string
- *                   link:
- *                     type: string
- *                   price:
- *                     type: string
- *                   specs:
- *                     type: array
- *                     items:
- *                       type: object
- *                       properties:
- *                         specIcon:
- *                           type: string
- *                         specText:
- *                           type: string
- */
 router.get("/", async (req, res) => {
   try {
     const totalPages = 23;

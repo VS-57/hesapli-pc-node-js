@@ -80,44 +80,6 @@ async function scrapeMultiplePages(urls) {
   return allProducts;
 }
 
-/**
- * @swagger
- * /api/pckolik:
- *   get:
- *     summary: Get all products from PCKolik
- *     responses:
- *       200:
- *         description: A list of products
- *         content:
- *           application/json:
- *             schema:
- *               type: array
- *               items:
- *                 type: object
- *                 properties:
- *                   name:
- *                     type: string
- *                   price:
- *                     type: string
- *                   img:
- *                     type: string
- *                     description: URL of the product image
- *                   link:
- *                     type: string
- *                     description: URL of the product page
- *                   specs:
- *                     type: object
- *                     properties:
- *                       CPU:
- *                         type: string
- *                       GPU:
- *                         type: string
- *                       motherboard:
- *                         type: string
- *                       ram:
- *                         type: string
- *
- */
 router.get("/", async (req, res) => {
   const baseUrl = "https://pckolik.com/tr/pc/hazir-sistemler";
   const urls = [`${baseUrl}`, `${baseUrl}?page=2`];

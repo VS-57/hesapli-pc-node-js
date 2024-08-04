@@ -167,30 +167,6 @@ async function checkProductLinks(page) {
   return productLinks;
 }
 
-/**
- * @swagger
- * /api/gaming-gen:
- *   get:
- *     summary: Get all products from Gaming Gen
- *     responses:
- *       200:
- *         description: A list of products
- *         content:
- *           application/json:
- *             schema:
- *               type: array
- *               items:
- *                 type: object
- *                 properties:
- *                   url:
- *                     type: string
- *                   title:
- *                     type: string
- *                   price:
- *                     type: string
- *                   description:
- *                     type: string
- */
 router.get("/", async (req, res) => {
   const browser = await puppeteer.launch({ headless: true });
   const page = await browser.newPage();

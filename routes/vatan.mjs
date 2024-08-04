@@ -81,41 +81,6 @@ function generateUrls(base, totalPages) {
   return urls;
 }
 
-/**
- * @swagger
- * /api/vatan:
- *   get:
- *     summary: Get all products from Vatan
- *     responses:
- *       200:
- *         description: A list of products
- *         content:
- *           application/json:
- *             schema:
- *               type: array
- *               items:
- *                 type: object
- *                 properties:
- *                   name:
- *                     type: string
- *                   price:
- *                     type: number
- *                   image:
- *                     type: string
- *                   link:
- *                     type: string
- *                   specs:
- *                     type: object
- *                     properties:
- *                       CPU:
- *                         type: string
- *                       GPU:
- *                         type: string
- *                       motherboard:
- *                         type: string
- *                       ram:
- *                         type: string
- */
 router.get("/", async (req, res) => {
   const baseUrl = "https://www.vatanbilgisayar.com/oem-hazir-sistemler/";
   const totalPages = 4;
