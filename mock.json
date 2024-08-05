@@ -8480,6 +8480,317 @@
     "store": "pckolik"
   },
   {
+    "name": "AMD R5 5500 - RTX 4060 8G OC - A520M-A PRO - 500GB SSD - 16GB RAM",
+    "price": 21146,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145826-rev_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rtx-4060-8g-oc-a520m-a-pro-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "5500",
+      "Motherboard": "AMD® A520",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "INTEL I5 13400F - RTX 4060 TI 8G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
+    "price": 29143,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/144414-1-1_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i5-13400f-rtx-4060-ti-8g-h610m-r-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "13400F",
+      "GPU": "GeForce RTX 4060 Ti",
+      "Motherboard": "Intel® H610",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R5 5600 - RX 6600 8GB - A520M-A PRO - 500GB SSD - 16GB RAM",
+    "price": 17359,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145615_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5600-rx-6600-8gb-a520m-a-pro-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "5600",
+      "GPU": "Radeon RX 6600",
+      "Motherboard": "AMD® A520",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "INTEL I5 12400F - RTX 4060 8C 8G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
+    "price": 24969,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/144048-10_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i5-12400f-rtx-4060-8c-8g-h610m-r-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "12400F",
+      "GPU": "GeForce RTX 4060",
+      "Motherboard": "Intel® H610",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R5 7500F - RTX 4060 8G OC - A620M H - 500GB SSD - 16GB RAM",
+    "price": 26780,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145517_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-7500f-rtx-4060-8g-oc-a620m-h-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "7500F",
+      "GPU": "GeForce RTX 4060",
+      "Motherboard": "AMD® A620",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R5 7500F - RTX4070 OC 12G - A620M-K - 500GB SSD - 16GB RAM",
+    "price": 35999,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/146481-1_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-7500f-rtx4070-oc-12g-a620m-k-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "7500F",
+      "GPU": "GeForce RTX 4070",
+      "Motherboard": "AMD® A620",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R5 5500 - RTX 4060 TI 8GB OC - A520M-A PRO - 500GB SSD - 16GB RAM",
+    "price": 26128,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145763-1-1_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rtx-4060-ti-8gb-oc-a520m-a-pro-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "5500",
+      "GPU": "GeForce RTX 4060 Ti",
+      "Motherboard": "AMD® A520",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R5 5600 - RTX 4060 8G OC - A520M HVS - 500GB SSD - 16GB RAM",
+    "price": 23438,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145790-1_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5600-rtx-4060-8g-oc-a520m-hvs-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "5600",
+      "GPU": "GeForce RTX 4060",
+      "Motherboard": "AMD® A520",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "INTEL I5 12400F - RTX 4060 TI - H610M-R - 500GB SSD - 16GB RAM",
+    "price": 27196,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/146287_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i5-12400f-rtx-4060-ti-h610m-r-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "12400F",
+      "GPU": "GeForce RTX 4060 Ti",
+      "Motherboard": "Intel® H610",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "INTEL I5 14400F - RTX 4060 8G - H610M-R-SI - 500GB SSD - 16GB RAM",
+    "price": 29207,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145308-1_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i5-14400f-rtx-4060-8g-h610m-r-si-500gb-ssd-16gb-rams.html",
+    "specs": {
+      "CPU": "14400F",
+      "GPU": "GeForce RTX 4060",
+      "Motherboard": "Intel® H610",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R5 7500F - RTX 4060 OC 8G - A620M-K - 500GB SSD - 16GB RAM",
+    "price": 30452,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/vtn-sist-368_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-7500f-rtx-4060-oc-8g-a620m-k-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "7500F",
+      "GPU": "GeForce RTX 4060",
+      "Motherboard": "AMD® A620",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "INTEL I5 12400F - RTX 4060 TI - H610M H - 500GB SSD - 16GB RAM",
+    "price": 26785,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/146284_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i5-12400f-rtx-4060-ti-h610m-h-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "12400F",
+      "GPU": "GeForce RTX 4060 Ti",
+      "Motherboard": "Intel® H610",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R5 7500F - RTX 4060 8GB OC - PRO A620M-E - 500GB SSD - 16GB RAM",
+    "price": 27917,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145443-1_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-7500f-rtx-4060-8gb-oc-pro-h610m-e-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "7500F",
+      "GPU": "GeForce RTX 4060",
+      "Motherboard": "AMD® A620",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R5 5500 - GTC 1650 4GB - A520M K - 500GB SSD - 8GB RAM",
+    "price": 14417,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/146276_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-gtc-1650-4gb-a520m-k-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "5500",
+      "GPU": "GeForce GTX 1650",
+      "Motherboard": "AMD® A520",
+      "Ram": "8 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "INTEL I3 12100F - GTX 1650 4GB - H610M H V2 - 500GB - 8GBRAM",
+    "price": 12999,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/146275_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i3-12100f-gtx-1650-4gb-h610m-h-v2-500gb-8gbram.html",
+    "specs": {
+      "CPU": "12100F",
+      "GPU": "GeForce GTX 1650",
+      "Motherboard": "Intel® B610",
+      "Ram": "8 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R5 5500 - GTX 1650 GAMING - A520M-A PRO - 500GB SSD - 16GB RAM",
+    "price": 15032,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145955_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-gtx-1650-gaming-a520m-a-pro-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "5500",
+      "GPU": "GeForce GTX 1650",
+      "Motherboard": "AMD® A520",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "INTEL I5 12400F - RTX 4060 TI 8G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
+    "price": 27857,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/144050-10_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i5-12400f-rtx-4060-ti-oc-8g-h610m-r-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "12400F",
+      "GPU": "GeForce RTX 4060 Ti",
+      "Motherboard": "Intel® H610",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R5 5500-A520M-A PRO-MSI GT 730-500GB M.2 SSD-16GB RAM",
+    "price": 12106,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145112-1_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-a520m-a-pro-msi-gt-730.html",
+    "specs": {
+      "CPU": "5500",
+      "GPU": "GeForce GT 730",
+      "Motherboard": "AMD® A520",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "INTEL I3 13100F-XFX RX 6700-H610M H V2-500GB M.2-16GB RAM",
+    "price": 17499,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/146125_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i3-13100f-xfx-rx-6700-h610m-h-v2-500gb-m-2-16gb-ram.html",
+    "specs": {
+      "CPU": "13100F",
+      "GPU": "Radeon RX 6700",
+      "Motherboard": "Intel® H610",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R5 5500 - RTX 4060 8G OC - A520M HVS - 500GB SSD - 16GB RAM",
+    "price": 22068,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145791-1_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rtx-4060-8g-oc-a520m-hvs-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "5500",
+      "GPU": "GeForce RTX 4060",
+      "Motherboard": "AMD® A520",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "INTEL I3 12100F - GTX 1650 GDDR6 - PRO H610M-E - SAMSUNG 500GB SSD - 16GB RAM",
+    "price": 15376,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145920-1-1_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i3-12100f-gtx-1650-gddr6-h610m-m2-samsung-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "12100F",
+      "GPU": "GeForce GTX 1650",
+      "Motherboard": "Intel® H610",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD RYZEN 5 5500-B450M-A PRO-ZOTAC RTX 4060 GAMING-500GB M.2 SSD-16GB RAM",
+    "price": 21776,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145078_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-ryzen-5-5500-b450m-a-pro-zotac-rtx-4060-gaming-500gb-m-2-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "5500",
+      "GPU": "GeForce RTX 4060",
+      "Motherboard": "AMD® B450",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R3 4300G - MSI A520M-A - 500GB SSD - 8GB / 16GB RAM",
+    "price": 8512,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145958_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r3-4300g-msi-a520m-a-240gb-500gb-ssd-8gb-16gb-ram.html",
+    "specs": {
+      "CPU": "4300G",
+      "GPU": "-",
+      "Motherboard": "AMD® A520",
+      "Ram": "8 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R5 5600G - B450M-A PRO MAX II - 500GB SSD - 8GB RAM",
+    "price": 12278,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/142582-7_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5600g-b450m-a-pro-max-ii-500gb-ssd-8gb-ram.html",
+    "specs": {
+      "CPU": "5600G",
+      "GPU": "-",
+      "Motherboard": "AMD® B450",
+      "Ram": "8 GB"
+    },
+    "store": "vatan"
+  },
+  {
     "name": "INTEL I3 13100F - RTX 4060 TI 8GB OC - PRO H610M-E - 500GB SSD - 16GB RAM",
     "price": 27161,
     "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145761-1-1_small.jpg",
@@ -8791,48 +9102,114 @@
     "store": "vatan"
   },
   {
-    "name": "AMD R5 5500 - RTX 4060 8G OC - A520M-A PRO - 500GB SSD - 16GB RAM",
-    "price": 21146,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145826-rev_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rtx-4060-8g-oc-a520m-a-pro-500gb-ssd-16gb-ram.html",
+    "name": "AMD R5 5500 - RTX 3050 8G OC - B450M-A PRO - 500GB SSD - 16GB RAM",
+    "price": 21469,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/1450831_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-550-rtx-3050-8g-oc-b450m-a-pro-500gb-ssd-16gb-ram.html",
     "specs": {
       "CPU": "5500",
-      "Motherboard": "AMD® A520",
+      "GPU": "GeForce RTX 3050",
+      "Motherboard": "AMD® B450",
       "Ram": "16 GB"
     },
     "store": "vatan"
   },
   {
-    "name": "INTEL I5 13400F - RTX 4060 TI 8G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
-    "price": 29143,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/144414-1-1_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i5-13400f-rtx-4060-ti-8g-h610m-r-500gb-ssd-16gb-ram.html",
+    "name": "INTEL I5 12400F - RTX 3050 8G OC - PRO H610M-E - 500GB SSD - 16GB RAM",
+    "price": 23727,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145081_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i5-12400f-rtx-3050-8g-oc-pro-h610m-e-500gb-ssd-16gb-rams.html",
     "specs": {
-      "CPU": "13400F",
-      "GPU": "GeForce RTX 4060 Ti",
+      "CPU": "12400F",
+      "GPU": "GeForce RTX 3050",
       "Motherboard": "Intel® H610",
       "Ram": "16 GB"
     },
     "store": "vatan"
   },
   {
-    "name": "AMD R5 5600 - RX 6600 8GB - A520M-A PRO - 500GB SSD - 16GB RAM",
-    "price": 17359,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145615_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5600-rx-6600-8gb-a520m-a-pro-500gb-ssd-16gb-ram.html",
+    "name": "INTEL I2100F - RTX 3050 8G OC - PRO H610M-E - 500GB SSD - 16GB RAM",
+    "price": 21432,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145079-8_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i2100f-rtx-3050-8g-oc-pro-h610m-e-500gb-ssd-16gb-ram.html",
     "specs": {
-      "CPU": "5600",
+      "CPU": "12100F",
+      "GPU": "GeForce RTX 3050",
+      "Motherboard": "Intel® H610",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "INTEL I3 14100F - RTX 4060 8G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
+    "price": 24999,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/143885-1-1_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i3-14100f-rtx-4060-8g-h610m-r-d4-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "14100F",
+      "GPU": "GeForce RTX 4060",
+      "Motherboard": "Intel® H610",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "INTEL I3 14100F - RTX 4060 8G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
+    "price": 25224,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/143873-11_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i3-14100f-rtx-4060-oc-8g-h610m-r-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "14100F",
+      "GPU": "GeForce RTX 4060",
+      "Motherboard": "Intel® H610",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "INTEL I5 12400F-RX 6700 XT 12G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
+    "price": 27054,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/142906-5_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i5-12400f-rx-6700-12g-h610m-h-v2-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "12400F",
+      "GPU": "Radeon RX 6700 XT",
+      "Motherboard": "Intel® H610",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "AMD R5 5500 - RX 6700 XT 12G - A520M K - 500GB SSD - 16GB RAM",
+    "price": 25282,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/142904-10_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rx-6700-12g-a520m-k-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "5500",
+      "GPU": "Radeon RX 6700 XT",
+      "Motherboard": "AMD® A520",
+      "Ram": "16 GB"
+    },
+    "store": "vatan"
+  },
+  {
+    "name": "INTEL I3 12100F - RX 6600 8G -PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
+    "price": 20087,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/142221-1-4_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i3-12100f-rx-6600-8g-h610m-k-500gb-ssd-16gb-ram.html",
+    "specs": {
+      "CPU": "12100F",
       "GPU": "Radeon RX 6600",
-      "Motherboard": "AMD® A520",
+      "Motherboard": "Intel® H610",
       "Ram": "16 GB"
     },
     "store": "vatan"
   },
   {
-    "name": "INTEL I5 12400F - RTX 4060 8C 8G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
-    "price": 24969,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/144048-10_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i5-12400f-rtx-4060-8c-8g-h610m-r-500gb-ssd-16gb-ram.html",
+    "name": "INTEL I5 12400F - RTX 4060 OC 8GB - H610M-R - 500GB SSD - 16GB RAM",
+    "price": 25349,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/146458-7_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/intel-i5-12400f-rtx-4060-oc-8gb-h610m-r-500gb-ssd-16gb-ram.html",
     "specs": {
       "CPU": "12400F",
       "GPU": "GeForce RTX 4060",
@@ -8842,262 +9219,27 @@
     "store": "vatan"
   },
   {
-    "name": "AMD R5 7500F - RTX 4060 8G OC - A620M H - 500GB SSD - 16GB RAM",
-    "price": 26780,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145517_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-7500f-rtx-4060-8g-oc-a620m-h-500gb-ssd-16gb-ram.html",
+    "name": "AMD R5 8700G AM5 - A620M-K DDR5- 500GB SSD - 16GB RAM",
+    "price": 21360,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/146456-1_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-8700g-am5-a620m-k-ddr5-500gb-ssd-16gb-ram.html",
     "specs": {
-      "CPU": "7500F",
-      "GPU": "GeForce RTX 4060",
+      "CPU": "8600G",
       "Motherboard": "AMD® A620",
       "Ram": "16 GB"
     },
     "store": "vatan"
   },
   {
-    "name": "AMD R5 7500F - RTX4070 OC 12G - A620M-K - 500GB SSD - 16GB RAM",
-    "price": 35999,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/146481-1_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-7500f-rtx4070-oc-12g-a620m-k-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "7500F",
-      "GPU": "GeForce RTX 4070",
-      "Motherboard": "AMD® A620",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "AMD R5 5500 - RTX 4060 TI 8GB OC - A520M-A PRO - 500GB SSD - 16GB RAM",
-    "price": 26128,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145763-1-1_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rtx-4060-ti-8gb-oc-a520m-a-pro-500gb-ssd-16gb-ram.html",
+    "name": "AMD R5 5500 - RTX 3050 OG OC - B450M-A PRO - 500GB SSD - 16GB RAM",
+    "price": 22627,
+    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145084_small.jpg",
+    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rtx-3050-og-oc-b450m-a-pro-500gb-ssd-16gb-ram.html",
     "specs": {
       "CPU": "5500",
-      "GPU": "GeForce RTX 4060 Ti",
-      "Motherboard": "AMD® A520",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "AMD R5 5600 - RTX 4060 8G OC - A520M HVS - 500GB SSD - 16GB RAM",
-    "price": 23438,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145790-1_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5600-rtx-4060-8g-oc-a520m-hvs-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "5600",
-      "GPU": "GeForce RTX 4060",
-      "Motherboard": "AMD® A520",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "INTEL I5 12400F - RTX 4060 TI - H610M-R - 500GB SSD - 16GB RAM",
-    "price": 27196,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/146287_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i5-12400f-rtx-4060-ti-h610m-r-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "12400F",
-      "GPU": "GeForce RTX 4060 Ti",
-      "Motherboard": "Intel® H610",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "INTEL I5 14400F - RTX 4060 8G - H610M-R-SI - 500GB SSD - 16GB RAM",
-    "price": 29207,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145308-1_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i5-14400f-rtx-4060-8g-h610m-r-si-500gb-ssd-16gb-rams.html",
-    "specs": {
-      "CPU": "14400F",
-      "GPU": "GeForce RTX 4060",
-      "Motherboard": "Intel® H610",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "AMD R5 7500F - RTX 4060 OC 8G - A620M-K - 500GB SSD - 16GB RAM",
-    "price": 30452,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/vtn-sist-368_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-7500f-rtx-4060-oc-8g-a620m-k-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "7500F",
-      "GPU": "GeForce RTX 4060",
-      "Motherboard": "AMD® A620",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "INTEL I5 12400F - RTX 4060 TI - H610M H - 500GB SSD - 16GB RAM",
-    "price": 26785,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/146284_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i5-12400f-rtx-4060-ti-h610m-h-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "12400F",
-      "GPU": "GeForce RTX 4060 Ti",
-      "Motherboard": "Intel® H610",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "AMD R5 7500F - RTX 4060 8GB OC - PRO A620M-E - 500GB SSD - 16GB RAM",
-    "price": 27917,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145443-1_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-7500f-rtx-4060-8gb-oc-pro-h610m-e-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "7500F",
-      "GPU": "GeForce RTX 4060",
-      "Motherboard": "AMD® A620",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "AMD R5 5500 - GTC 1650 4GB - A520M K - 500GB SSD - 8GB RAM",
-    "price": 14417,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/146276_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-gtc-1650-4gb-a520m-k-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "5500",
-      "GPU": "GeForce GTX 1650",
-      "Motherboard": "AMD® A520",
-      "Ram": "8 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "INTEL I3 12100F - GTX 1650 4GB - H610M H V2 - 500GB - 8GBRAM",
-    "price": 12999,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/146275_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i3-12100f-gtx-1650-4gb-h610m-h-v2-500gb-8gbram.html",
-    "specs": {
-      "CPU": "12100F",
-      "GPU": "GeForce GTX 1650",
-      "Motherboard": "Intel® B610",
-      "Ram": "8 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "AMD R5 5500 - GTX 1650 GAMING - A520M-A PRO - 500GB SSD - 16GB RAM",
-    "price": 15032,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145955_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-gtx-1650-gaming-a520m-a-pro-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "5500",
-      "GPU": "GeForce GTX 1650",
-      "Motherboard": "AMD® A520",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "INTEL I5 12400F - RTX 4060 TI 8G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
-    "price": 27857,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/144050-10_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i5-12400f-rtx-4060-ti-oc-8g-h610m-r-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "12400F",
-      "GPU": "GeForce RTX 4060 Ti",
-      "Motherboard": "Intel® H610",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "AMD R5 5500-A520M-A PRO-MSI GT 730-500GB M.2 SSD-16GB RAM",
-    "price": 12106,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145112-1_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-a520m-a-pro-msi-gt-730.html",
-    "specs": {
-      "CPU": "5500",
-      "GPU": "GeForce GT 730",
-      "Motherboard": "AMD® A520",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "INTEL I3 13100F-XFX RX 6700-H610M H V2-500GB M.2-16GB RAM",
-    "price": 17499,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/146125_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i3-13100f-xfx-rx-6700-h610m-h-v2-500gb-m-2-16gb-ram.html",
-    "specs": {
-      "CPU": "13100F",
-      "GPU": "Radeon RX 6700",
-      "Motherboard": "Intel® H610",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "AMD R5 5500 - RTX 4060 8G OC - A520M HVS - 500GB SSD - 16GB RAM",
-    "price": 22068,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145791-1_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rtx-4060-8g-oc-a520m-hvs-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "5500",
-      "GPU": "GeForce RTX 4060",
-      "Motherboard": "AMD® A520",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "INTEL I3 12100F - GTX 1650 GDDR6 - PRO H610M-E - SAMSUNG 500GB SSD - 16GB RAM",
-    "price": 15376,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145920-1-1_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i3-12100f-gtx-1650-gddr6-h610m-m2-samsung-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "12100F",
-      "GPU": "GeForce GTX 1650",
-      "Motherboard": "Intel® H610",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "AMD RYZEN 5 5500-B450M-A PRO-ZOTAC RTX 4060 GAMING-500GB M.2 SSD-16GB RAM",
-    "price": 21776,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145078_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-ryzen-5-5500-b450m-a-pro-zotac-rtx-4060-gaming-500gb-m-2-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "5500",
-      "GPU": "GeForce RTX 4060",
+      "GPU": "GeForce RTX 3050",
       "Motherboard": "AMD® B450",
       "Ram": "16 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "AMD R3 4300G - MSI A520M-A - 500GB SSD - 8GB / 16GB RAM",
-    "price": 8512,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145958_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r3-4300g-msi-a520m-a-240gb-500gb-ssd-8gb-16gb-ram.html",
-    "specs": {
-      "CPU": "4300G",
-      "GPU": "-",
-      "Motherboard": "AMD® A520",
-      "Ram": "8 GB"
-    },
-    "store": "vatan"
-  },
-  {
-    "name": "AMD R5 5600G - B450M-A PRO MAX II - 500GB SSD - 8GB RAM",
-    "price": 12278,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/142582-7_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5600g-b450m-a-pro-max-ii-500gb-ssd-8gb-ram.html",
-    "specs": {
-      "CPU": "5600G",
-      "GPU": "-",
-      "Motherboard": "AMD® B450",
-      "Ram": "8 GB"
     },
     "store": "vatan"
   },
@@ -9412,146 +9554,307 @@
     "store": "vatan"
   },
   {
-    "name": "AMD R5 5500 - RTX 3050 8G OC - B450M-A PRO - 500GB SSD - 16GB RAM",
-    "price": 21469,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/1450831_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-550-rtx-3050-8g-oc-b450m-a-pro-500gb-ssd-16gb-ram.html",
+    "name": "Sinerji Ryu Ryzen 5 7600 16GB 500GB NVMe M.2 SSD Gainward GeForce Ghost 12GB RTX4070 Super Oyun Bilgisayarı",
+    "price": 36271,
+    "image": "https://static.sinerji.gen.tr/Images/MD/BL6-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-ryu-ryzen-5-7600-16gb-500gb-nvme-m2-ssd-gainward-geforce-ghost-12gb-rtx4070-super-oyun-bilgisayari-p-51396",
     "specs": {
-      "CPU": "5500",
-      "GPU": "GeForce RTX 3050",
-      "Motherboard": "AMD® B450",
-      "Ram": "16 GB"
+      "CPU": "AMD Ryzen 5 7600 ",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "Gainward GeForce RTX 4070 Super",
+      "Ram": "16GB Ram"
     },
-    "store": "vatan"
+    "store": "sinerji"
   },
   {
-    "name": "INTEL I5 12400F - RTX 3050 8G OC - PRO H610M-E - 500GB SSD - 16GB RAM",
-    "price": 23727,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145081_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i5-12400f-rtx-3050-8g-oc-pro-h610m-e-500gb-ssd-16gb-rams.html",
+    "name": "Sinerji Virinom Ryzen 5 8400F 16GB 512GB NVMe M.2 SSD Palit GeForce Dual 12GB RTX4070 Super Oyun Bilgisayarı",
+    "price": 40362,
+    "image": "https://static.sinerji.gen.tr/Images/MD/5UE-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-virinom-ryzen-5-8400f-16gb-512gb-nvme-m2-ssd-palit-geforce-dual-12gb-rtx4070-super-oyun-bilgisayari-p-51395",
     "specs": {
-      "CPU": "12400F",
-      "GPU": "GeForce RTX 3050",
-      "Motherboard": "Intel® H610",
-      "Ram": "16 GB"
+      "CPU": "AMD Ryzen 5 8400F",
+      "Motherboard": "MSI A620 Anakart",
+      "GPU": "Palit RTX 4070 Super Ekran Kartı",
+      "Ram": "16GB Ram"
     },
-    "store": "vatan"
+    "store": "sinerji"
   },
   {
-    "name": "INTEL I2100F - RTX 3050 8G OC - PRO H610M-E - 500GB SSD - 16GB RAM",
-    "price": 21432,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145079-8_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i2100f-rtx-3050-8g-oc-pro-h610m-e-500gb-ssd-16gb-ram.html",
+    "name": "Sinerji Qinoks Ryzen 5 8400F 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 3X E 8GB RTX4060Ti Oyun Bilgisayarı",
+    "price": 32289,
+    "image": "https://static.sinerji.gen.tr/Images/MD/B5A-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-qinoks-ryzen-5-8400f-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-3x-e-8gb-rtx4060ti-oyun-bilgisayari-p-51381",
     "specs": {
-      "CPU": "12100F",
-      "GPU": "GeForce RTX 3050",
-      "Motherboard": "Intel® H610",
-      "Ram": "16 GB"
+      "Motherboard": "MSI A620 Anakart",
+      "GPU": "MSI RTX 4060Ti Ekran Kartı",
+      "Ram": "16GB Ram"
     },
-    "store": "vatan"
+    "store": "sinerji"
   },
   {
-    "name": "INTEL I3 14100F - RTX 4060 8G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
-    "price": 24999,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/143885-1-1_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i3-14100f-rtx-4060-8g-h610m-r-d4-500gb-ssd-16gb-ram.html",
+    "name": "Sinerji Koi Ryzen 7 7800X3D 16GB 1TB NVMe M.2 SSD Palit GeForce Dual 12GB RTX4070 Super Oyun Bilgisayarı",
+    "price": 70633,
+    "image": "https://static.sinerji.gen.tr/Images/MD/RS6-htp-110000466076709.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-koi-ryzen-7-7800x3d-16gb-1tb-nvme-m2-ssd-palit-geforce-dual-12gb-rtx4070-super-oyun-bilgisayari-p-51368",
     "specs": {
-      "CPU": "14100F",
-      "GPU": "GeForce RTX 4060",
-      "Motherboard": "Intel® H610",
-      "Ram": "16 GB"
+      "CPU": "AMD Ryzen 7 7800X",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "Palit RTX 4070 Super Ekran Kartı",
+      "Ram": "16GB Ram"
     },
-    "store": "vatan"
+    "store": "sinerji"
   },
   {
-    "name": "INTEL I3 14100F - RTX 4060 8G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
-    "price": 25224,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/143873-11_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i3-14100f-rtx-4060-oc-8g-h610m-r-500gb-ssd-16gb-ram.html",
+    "name": "Sinerji Eriana Ryzen 5 7600 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X E 12GB OC RTX4070 Oyun Bilgisayarı",
+    "price": 37278,
+    "image": "https://static.sinerji.gen.tr/Images/MD/FS4-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-eriana-ryzen-5-7600-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-e-12gb-oc-rtx4070-oyun-bilgisayari-p-51352",
     "specs": {
-      "CPU": "14100F",
-      "GPU": "GeForce RTX 4060",
-      "Motherboard": "Intel® H610",
-      "Ram": "16 GB"
+      "CPU": "AMD Ryzen 5 7600 ",
+      "Motherboard": "MSI A620 Anakart",
+      "GPU": "MSI RTX 4070 Ekran Kartı",
+      "Ram": "16GB Ram"
     },
-    "store": "vatan"
+    "store": "sinerji"
   },
   {
-    "name": "INTEL I5 12400F-RX 6700 XT 12G - PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
-    "price": 27054,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/142906-5_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i5-12400f-rx-6700-12g-h610m-h-v2-500gb-ssd-16gb-ram.html",
+    "name": "Sinerji Stonic Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Ventus 2X OC 12GB RTX4070 Super Oyun Bilgisayar",
+    "price": 63065,
+    "image": "https://static.sinerji.gen.tr/Images/MD/C6R-zz3-1024.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-stonic-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-ventus-2x-oc-12gb-rtx4070-super-oyun-bilgisayar-p-51336",
     "specs": {
-      "CPU": "12400F",
-      "GPU": "Radeon RX 6700 XT",
-      "Motherboard": "Intel® H610",
-      "Ram": "16 GB"
+      "GPU": "GeForce RTX 4070 Super Ekran Kartı",
+      "Ram": "32GB Ram"
     },
-    "store": "vatan"
+    "store": "sinerji"
   },
   {
-    "name": "AMD R5 5500 - RX 6700 XT 12G - A520M K - 500GB SSD - 16GB RAM",
-    "price": 25282,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/142904-10_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rx-6700-12g-a520m-k-500gb-ssd-16gb-ram.html",
+    "name": "Sinerji Viserion Ryzen 5 7600 16GB 512GB NVMe M.2 SSD Gainward GeForce Panther 16GB RTX4060Ti Oyun Bilgisayarı",
+    "price": 32240,
+    "image": "https://static.sinerji.gen.tr/Images/MD/ALY-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-viserion-ryzen-5-7600-16gb-512gb-nvme-m2-ssd-gainward-geforce-panther-16gb-rtx4060ti-oyun-bilgisayari-p-51324",
     "specs": {
-      "CPU": "5500",
-      "GPU": "Radeon RX 6700 XT",
-      "Motherboard": "AMD® A520",
-      "Ram": "16 GB"
+      "CPU": "AMD Ryzen 5 7600 ",
+      "Motherboard": "ASRock A620 Anakart",
+      "GPU": "Gainward RTX 4060Ti Ekran Kartı",
+      "Ram": "16GB Ram"
     },
-    "store": "vatan"
+    "store": "sinerji"
   },
   {
-    "name": "INTEL I3 12100F - RX 6600 8G -PRO H610M-E DDR4 - 500GB SSD - 16GB RAM",
-    "price": 20087,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/142221-1-4_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i3-12100f-rx-6600-8g-h610m-k-500gb-ssd-16gb-ram.html",
+    "name": "Sinerji Virtus Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim White 16GB RTX4070Ti Super Oyun Bilgisayarı",
+    "price": 83751,
+    "image": "https://static.sinerji.gen.tr/Images/MD/TQX-k97-sd1.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-virtus-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-white-16gb-rtx4070ti-super-oyun-bilgisayari-p-51263",
     "specs": {
-      "CPU": "12100F",
-      "GPU": "Radeon RX 6600",
-      "Motherboard": "Intel® H610",
-      "Ram": "16 GB"
+      "CPU": "AMD Ryzen 7 7800X",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "MSI RTX 4070 Super Ekran Kartı",
+      "Ram": "32GB Ram"
     },
-    "store": "vatan"
+    "store": "sinerji"
   },
   {
-    "name": "INTEL I5 12400F - RTX 4060 OC 8GB - H610M-R - 500GB SSD - 16GB RAM",
-    "price": 25349,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/146458-7_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/intel-i5-12400f-rtx-4060-oc-8gb-h610m-r-500gb-ssd-16gb-ram.html",
+    "name": "Sinerji Riven Ryzen 7 7800X3D 16GB 1TB NVMe M.2 SSD MSI GeForce Ventus 3X OC 12GB RTX4070 Super Oyun Bilgisayarı",
+    "price": 53479,
+    "image": "https://static.sinerji.gen.tr/Images/MD/85P-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-riven-ryzen-7-7800x3d-16gb-1tb-nvme-m2-ssd-msi-geforce-ventus-3x-oc-12gb-rtx4070-super-oyun-bilgisayari-p-51210",
     "specs": {
-      "CPU": "12400F",
-      "GPU": "GeForce RTX 4060",
-      "Motherboard": "Intel® H610",
-      "Ram": "16 GB"
+      "CPU": "AMD Ryzen 7 7800X",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "MSI RTX 4070 Super Ekran Kartı",
+      "Ram": "16GB Ram"
     },
-    "store": "vatan"
+    "store": "sinerji"
   },
   {
-    "name": "AMD R5 8700G AM5 - A620M-K DDR5- 500GB SSD - 16GB RAM",
-    "price": 21360,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/146456-1_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-8700g-am5-a620m-k-ddr5-500gb-ssd-16gb-ram.html",
-    "specs": {
-      "CPU": "8600G",
-      "Motherboard": "AMD® A620",
-      "Ram": "16 GB"
-    },
-    "store": "vatan"
+    "name": "Sinerji Quadro V1 Intel Core i7 14700KF 32GB 1TB NVMe M.2 SSD PNY Quadro 8GB T1000 Ekran Kartı İş Bilgisayarı",
+    "price": 65886,
+    "image": "https://static.sinerji.gen.tr/Images/MD/7RF-3an-corsair-icue-5000x-rgb-tempered-glass-siyah-mid-tower-kasa-63.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-quadro-v1-intel-core-i7-14700kf-32gb-1tb-nvme-m2-ssd-pny-quadro-8gb-t1000-ekran-karti-is-bilgisayari-p-51173",
+    "specs": {},
+    "store": "sinerji"
   },
   {
-    "name": "AMD R5 5500 - RTX 3050 OG OC - B450M-A PRO - 500GB SSD - 16GB RAM",
-    "price": 22627,
-    "image": "https://cdn.vatanbilgisayar.com/Upload/PRODUCT/oem/thumb/145084_small.jpg",
-    "link": "https://www.vatanbilgisayar.com/amd-r5-5500-rtx-3050-og-oc-b450m-a-pro-500gb-ssd-16gb-ram.html",
+    "name": "Sinerji Brutus Ryzen 5 8400F 16GB 512GB NVMe M.2 SSD Palit GeForce Infinity 2 8GB RTX4060 Oyun Bilgisayarı",
+    "price": 26235,
+    "image": "https://static.sinerji.gen.tr/Images/MD/HXN-p4j-frisby-fc-9320g-midi-tower-kasa-1.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-brutus-ryzen-5-8400f-16gb-512gb-nvme-m2-ssd-palit-geforce-infinity-2-8gb-rtx4060-oyun-bilgisayari-p-51118",
     "specs": {
-      "CPU": "5500",
-      "GPU": "GeForce RTX 3050",
-      "Motherboard": "AMD® B450",
-      "Ram": "16 GB"
+      "CPU": "AMD Ryzen 5 8400F",
+      "Motherboard": "MSI A620 Anakart",
+      "GPU": "Palit RTX 4060 Ekran Kartı",
+      "Ram": "16GB Ram"
     },
-    "store": "vatan"
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Lynxcerezz Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim RTX4070Ti Super Oyun Bilgisayarı",
+    "price": 91227,
+    "image": "https://static.sinerji.gen.tr/Images/MD/F68-320r.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-lynxcerezz-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-rtx4070ti-super-oyun-bilgisayari-p-51060",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "MSI RTX 4070Ti Super Ekran Kartı",
+      "Ram": "32GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Flawsless Ryzen 5 7600 16GB 512GB NVMe M.2 SSD Palit GeForce Dual 12GB RTX4070 Super Oyun Bilgisayarı",
+    "price": 41308,
+    "image": "https://static.sinerji.gen.tr/Images/MD/TCN-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-flawsless-ryzen-5-7600-16gb-512gb-nvme-m2-ssd-palit-geforce-dual-12gb-rtx4070-super-oyun-bilgisayari-p-51038",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600 ",
+      "Motherboard": "ASRock A620 Anakart",
+      "GPU": "Palit RTX 4070 Super Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Maverick Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD ASUS GeForce TUF Gaming OC 24GB RTX4090 Oyun Bilgisayarı",
+    "price": 138868,
+    "image": "https://static.sinerji.gen.tr/Images/MD/ZT4-5l3-tuf-gaming-gt502-0.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-maverick-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-asus-geforce-tuf-gaming-oc-24gb-rtx4090-oyun-bilgisayari-p-51032",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X",
+      "Motherboard": "Asus X670 Anakart",
+      "GPU": "Asus RTX 4090 Ekran Kartı",
+      "Ram": "32GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Mjolnir Ryzen 5 7600 16GB 512GB NVMe M.2 SSD XFX Radeon Core Gaming 12GB RX6750XT Oyun Bilgsayarı",
+    "price": 28210,
+    "image": "https://static.sinerji.gen.tr/Images/MD/A6Z-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-mjolnir-ryzen-5-7600-16gb-512gb-nvme-m2-ssd-xfx-radeon-core-gaming-12gb-rx6750xt-oyun-bilgsayari-p-51031",
+    "specs": {
+      "Motherboard": "ASRock A620 Anakart",
+      "GPU": "XFX Radeon RX6750XT Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Vixen Ryzen 5 7600 16GB 1TB NVMe M.2 SSD Gigabyte WindForce 3X OC 12GB RTX4070 Super Oyun Bilgisayarı",
+    "price": 45338,
+    "image": "https://static.sinerji.gen.tr/Images/MD/B22-kl8-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-vixen-ryzen-5-7600-16gb-1tb-nvme-m2-ssd-gigabyte-windforce-3x-oc-12gb-rtx4070-super-oyun-bilgisayari-p-51007",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600 ",
+      "Motherboard": "MSI A620 Anakart",
+      "GPU": "Gigabyte RTX 4070 Super Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Bjarlox Ryzen 5 5600 16GB 512GB NVMe M.2 SSD XFX Radeon Core Gaming 12GB RX6750XT Oyun Bilgisayarı",
+    "price": 24822,
+    "image": "https://static.sinerji.gen.tr/Images/MD/HAP-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-bjarlox-ryzen-5-5600-16gb-512gb-nvme-m2-ssd-xfx-radeon-core-gaming-12gb-rx6750xt-oyun-bilgisayari-p-50974",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600 ",
+      "Motherboard": "ASRock A520 Anakart",
+      "GPU": "AMD Radeon RX6750XT",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Unique Ryzen 5 5500 16GB 512GB NVMe M.2 SSD XFX Radeon Core Gaming 12GB RX6750XT Oyun Bilgisayarı",
+    "price": 23207,
+    "image": "https://static.sinerji.gen.tr/Images/MD/87Y-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-unique-ryzen-5-5500-16gb-512gb-nvme-m2-ssd-xfx-radeon-core-gaming-12gb-rx6750xt-oyun-bilgisayari-p-50973",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5500 ",
+      "Motherboard": "ASRock B450 Anakart",
+      "GPU": "XFX Radeon RX6750XT Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Glacier Ryzen 5 5600 16GB 512GB NVMe M.2 SSD Palit GeForce Infinity 2 8GB RTX4060 Oyun Bilgisayarı",
+    "price": 26840,
+    "image": "https://static.sinerji.gen.tr/Images/MD/XQZ-adsiz-1080-x-1920-piksel-778-x-1080-piksel-714-x-519-piksel-27.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-glacier-ryzen-5-5600-16gb-512gb-nvme-m2-ssd-palit-geforce-infinity-2-8gb-rtx4060-oyun-bilgisayari-p-50909",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600 ",
+      "Motherboard": "ASRock A520 Anakart",
+      "GPU": "Palit RTX 4060 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Wish Ryzen 5 5600 16GB 512GB NVMe M.2 SSD Palit GeForce JetStream 16GB RTX4060Ti Oyun Bilgisayarı",
+    "price": 28959,
+    "image": "https://static.sinerji.gen.tr/Images/MD/QXS-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-wish-ryzen-5-5600-16gb-512gb-nvme-m2-ssd-palit-geforce-jetstream-16gb-rtx4060ti-oyun-bilgisayari-p-50906",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600 ",
+      "Motherboard": "MSI A520 Anakart",
+      "GPU": "Palit RTX 4060Ti Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Midnight Ryzen 7 8700F 16GB 1TB NVMe M.2 SSD Gigabyte GeForce Gaming 12GB RTX4070Ti Oyun Bilgisayarı",
+    "price": 60542,
+    "image": "https://static.sinerji.gen.tr/Images/MD/PP5-8ea-s2.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-midnight-ryzen-7-8700f-16gb-1tb-nvme-m2-ssd-gigabyte-geforce-gaming-12gb-rtx4070ti-oyun-bilgisayari-p-50873",
+    "specs": {
+      "CPU": "AMD Ryzen 7 8700F",
+      "Motherboard": "Gigabyte A620 Anakart",
+      "GPU": "Gigabyte RTX 4070Ti Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Annual Ryzen 5 5500 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X OC 6GB RTX3050 Oyun Bilgisayarı",
+    "price": 18667,
+    "image": "https://static.sinerji.gen.tr/Images/MD/8M8-nza-1024.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-annual-ryzen-5-5500-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-oc-6gb-rtx3050-oyun-bilgisayari-p-50848",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5500 ",
+      "Motherboard": "MSI B450 Anakart",
+      "GPU": "MSI RTX 3050 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Ataahi Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD PowerColor Radeon Figther 16GB RX7900GRE Oyun Bilgisayarı",
+    "price": 49442,
+    "image": "https://static.sinerji.gen.tr/Images/MD/T3Z-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-ataahi-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-powercolor-radeon-figther-16gb-rx7900gre-oyun-bilgisayari-p-50822",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "PowerColor RX7900GRE Ekran Kartı",
+      "Ram": "32GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Prometheus Ryzen 7 7800X3D 16GB 1TB NVMe M.2 SSD Gainward GeForce Ghost 12GB RTX4070 Super Oyun Bilgisayarı",
+    "price": 48434,
+    "image": "https://static.sinerji.gen.tr/Images/MD/JYT-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-prometheus-ryzen-7-7800x3d-16gb-1tb-nvme-m2-ssd-gainward-geforce-ghost-12gb-rtx4070-super-oyun-bilgisayari-p-50813",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "Gainward GeForce RTX 4070 Super",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
   },
   {
     "name": "Sinerji Wunch Intel Core i5 12400F 16GB 512GB NVMe M.2 SSD MSI GeForce Ventus XS OC V1 4GB GTX1650 Oyun Bilgisayarı",
@@ -9857,609 +10160,6 @@
       "Motherboard": "Asus Z790 Anakart",
       "GPU": "Asus RX7900XT Ekran Kartı",
       "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Ryu Ryzen 5 7600 16GB 500GB NVMe M.2 SSD Gainward GeForce Ghost 12GB RTX4070 Super Oyun Bilgisayarı",
-    "price": 36271,
-    "image": "https://static.sinerji.gen.tr/Images/MD/BL6-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-ryu-ryzen-5-7600-16gb-500gb-nvme-m2-ssd-gainward-geforce-ghost-12gb-rtx4070-super-oyun-bilgisayari-p-51396",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600 ",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "Gainward GeForce RTX 4070 Super",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Virinom Ryzen 5 8400F 16GB 512GB NVMe M.2 SSD Palit GeForce Dual 12GB RTX4070 Super Oyun Bilgisayarı",
-    "price": 40362,
-    "image": "https://static.sinerji.gen.tr/Images/MD/5UE-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-virinom-ryzen-5-8400f-16gb-512gb-nvme-m2-ssd-palit-geforce-dual-12gb-rtx4070-super-oyun-bilgisayari-p-51395",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Motherboard": "MSI A620 Anakart",
-      "GPU": "Palit RTX 4070 Super Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Qinoks Ryzen 5 8400F 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 3X E 8GB RTX4060Ti Oyun Bilgisayarı",
-    "price": 32289,
-    "image": "https://static.sinerji.gen.tr/Images/MD/B5A-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-qinoks-ryzen-5-8400f-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-3x-e-8gb-rtx4060ti-oyun-bilgisayari-p-51381",
-    "specs": {
-      "Motherboard": "MSI A620 Anakart",
-      "GPU": "MSI RTX 4060Ti Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Koi Ryzen 7 7800X3D 16GB 1TB NVMe M.2 SSD Palit GeForce Dual 12GB RTX4070 Super Oyun Bilgisayarı",
-    "price": 70633,
-    "image": "https://static.sinerji.gen.tr/Images/MD/RS6-htp-110000466076709.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-koi-ryzen-7-7800x3d-16gb-1tb-nvme-m2-ssd-palit-geforce-dual-12gb-rtx4070-super-oyun-bilgisayari-p-51368",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "Palit RTX 4070 Super Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Eriana Ryzen 5 7600 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X E 12GB OC RTX4070 Oyun Bilgisayarı",
-    "price": 37278,
-    "image": "https://static.sinerji.gen.tr/Images/MD/FS4-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-eriana-ryzen-5-7600-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-e-12gb-oc-rtx4070-oyun-bilgisayari-p-51352",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600 ",
-      "Motherboard": "MSI A620 Anakart",
-      "GPU": "MSI RTX 4070 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Stonic Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Ventus 2X OC 12GB RTX4070 Super Oyun Bilgisayar",
-    "price": 63065,
-    "image": "https://static.sinerji.gen.tr/Images/MD/C6R-zz3-1024.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-stonic-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-ventus-2x-oc-12gb-rtx4070-super-oyun-bilgisayar-p-51336",
-    "specs": {
-      "GPU": "GeForce RTX 4070 Super Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Viserion Ryzen 5 7600 16GB 512GB NVMe M.2 SSD Gainward GeForce Panther 16GB RTX4060Ti Oyun Bilgisayarı",
-    "price": 32240,
-    "image": "https://static.sinerji.gen.tr/Images/MD/ALY-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-viserion-ryzen-5-7600-16gb-512gb-nvme-m2-ssd-gainward-geforce-panther-16gb-rtx4060ti-oyun-bilgisayari-p-51324",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600 ",
-      "Motherboard": "ASRock A620 Anakart",
-      "GPU": "Gainward RTX 4060Ti Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Virtus Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim White 16GB RTX4070Ti Super Oyun Bilgisayarı",
-    "price": 83751,
-    "image": "https://static.sinerji.gen.tr/Images/MD/TQX-k97-sd1.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-virtus-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-white-16gb-rtx4070ti-super-oyun-bilgisayari-p-51263",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "MSI RTX 4070 Super Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Riven Ryzen 7 7800X3D 16GB 1TB NVMe M.2 SSD MSI GeForce Ventus 3X OC 12GB RTX4070 Super Oyun Bilgisayarı",
-    "price": 53479,
-    "image": "https://static.sinerji.gen.tr/Images/MD/85P-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-riven-ryzen-7-7800x3d-16gb-1tb-nvme-m2-ssd-msi-geforce-ventus-3x-oc-12gb-rtx4070-super-oyun-bilgisayari-p-51210",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "MSI RTX 4070 Super Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Quadro V1 Intel Core i7 14700KF 32GB 1TB NVMe M.2 SSD PNY Quadro 8GB T1000 Ekran Kartı İş Bilgisayarı",
-    "price": 65886,
-    "image": "https://static.sinerji.gen.tr/Images/MD/7RF-3an-corsair-icue-5000x-rgb-tempered-glass-siyah-mid-tower-kasa-63.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-quadro-v1-intel-core-i7-14700kf-32gb-1tb-nvme-m2-ssd-pny-quadro-8gb-t1000-ekran-karti-is-bilgisayari-p-51173",
-    "specs": {},
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Brutus Ryzen 5 8400F 16GB 512GB NVMe M.2 SSD Palit GeForce Infinity 2 8GB RTX4060 Oyun Bilgisayarı",
-    "price": 26235,
-    "image": "https://static.sinerji.gen.tr/Images/MD/HXN-p4j-frisby-fc-9320g-midi-tower-kasa-1.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-brutus-ryzen-5-8400f-16gb-512gb-nvme-m2-ssd-palit-geforce-infinity-2-8gb-rtx4060-oyun-bilgisayari-p-51118",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Motherboard": "MSI A620 Anakart",
-      "GPU": "Palit RTX 4060 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Lynxcerezz Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim RTX4070Ti Super Oyun Bilgisayarı",
-    "price": 91227,
-    "image": "https://static.sinerji.gen.tr/Images/MD/F68-320r.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-lynxcerezz-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-rtx4070ti-super-oyun-bilgisayari-p-51060",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "MSI RTX 4070Ti Super Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Flawsless Ryzen 5 7600 16GB 512GB NVMe M.2 SSD Palit GeForce Dual 12GB RTX4070 Super Oyun Bilgisayarı",
-    "price": 41308,
-    "image": "https://static.sinerji.gen.tr/Images/MD/TCN-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-flawsless-ryzen-5-7600-16gb-512gb-nvme-m2-ssd-palit-geforce-dual-12gb-rtx4070-super-oyun-bilgisayari-p-51038",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600 ",
-      "Motherboard": "ASRock A620 Anakart",
-      "GPU": "Palit RTX 4070 Super Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Maverick Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD ASUS GeForce TUF Gaming OC 24GB RTX4090 Oyun Bilgisayarı",
-    "price": 138868,
-    "image": "https://static.sinerji.gen.tr/Images/MD/ZT4-5l3-tuf-gaming-gt502-0.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-maverick-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-asus-geforce-tuf-gaming-oc-24gb-rtx4090-oyun-bilgisayari-p-51032",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X",
-      "Motherboard": "Asus X670 Anakart",
-      "GPU": "Asus RTX 4090 Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Mjolnir Ryzen 5 7600 16GB 512GB NVMe M.2 SSD XFX Radeon Core Gaming 12GB RX6750XT Oyun Bilgsayarı",
-    "price": 28210,
-    "image": "https://static.sinerji.gen.tr/Images/MD/A6Z-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-mjolnir-ryzen-5-7600-16gb-512gb-nvme-m2-ssd-xfx-radeon-core-gaming-12gb-rx6750xt-oyun-bilgsayari-p-51031",
-    "specs": {
-      "Motherboard": "ASRock A620 Anakart",
-      "GPU": "XFX Radeon RX6750XT Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Vixen Ryzen 5 7600 16GB 1TB NVMe M.2 SSD Gigabyte WindForce 3X OC 12GB RTX4070 Super Oyun Bilgisayarı",
-    "price": 45338,
-    "image": "https://static.sinerji.gen.tr/Images/MD/B22-kl8-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-vixen-ryzen-5-7600-16gb-1tb-nvme-m2-ssd-gigabyte-windforce-3x-oc-12gb-rtx4070-super-oyun-bilgisayari-p-51007",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600 ",
-      "Motherboard": "MSI A620 Anakart",
-      "GPU": "Gigabyte RTX 4070 Super Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Bjarlox Ryzen 5 5600 16GB 512GB NVMe M.2 SSD XFX Radeon Core Gaming 12GB RX6750XT Oyun Bilgisayarı",
-    "price": 24822,
-    "image": "https://static.sinerji.gen.tr/Images/MD/HAP-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-bjarlox-ryzen-5-5600-16gb-512gb-nvme-m2-ssd-xfx-radeon-core-gaming-12gb-rx6750xt-oyun-bilgisayari-p-50974",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600 ",
-      "Motherboard": "ASRock A520 Anakart",
-      "GPU": "AMD Radeon RX6750XT",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Unique Ryzen 5 5500 16GB 512GB NVMe M.2 SSD XFX Radeon Core Gaming 12GB RX6750XT Oyun Bilgisayarı",
-    "price": 23207,
-    "image": "https://static.sinerji.gen.tr/Images/MD/87Y-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-unique-ryzen-5-5500-16gb-512gb-nvme-m2-ssd-xfx-radeon-core-gaming-12gb-rx6750xt-oyun-bilgisayari-p-50973",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5500 ",
-      "Motherboard": "ASRock B450 Anakart",
-      "GPU": "XFX Radeon RX6750XT Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Glacier Ryzen 5 5600 16GB 512GB NVMe M.2 SSD Palit GeForce Infinity 2 8GB RTX4060 Oyun Bilgisayarı",
-    "price": 26840,
-    "image": "https://static.sinerji.gen.tr/Images/MD/XQZ-adsiz-1080-x-1920-piksel-778-x-1080-piksel-714-x-519-piksel-27.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-glacier-ryzen-5-5600-16gb-512gb-nvme-m2-ssd-palit-geforce-infinity-2-8gb-rtx4060-oyun-bilgisayari-p-50909",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600 ",
-      "Motherboard": "ASRock A520 Anakart",
-      "GPU": "Palit RTX 4060 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Wish Ryzen 5 5600 16GB 512GB NVMe M.2 SSD Palit GeForce JetStream 16GB RTX4060Ti Oyun Bilgisayarı",
-    "price": 28959,
-    "image": "https://static.sinerji.gen.tr/Images/MD/QXS-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-wish-ryzen-5-5600-16gb-512gb-nvme-m2-ssd-palit-geforce-jetstream-16gb-rtx4060ti-oyun-bilgisayari-p-50906",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600 ",
-      "Motherboard": "MSI A520 Anakart",
-      "GPU": "Palit RTX 4060Ti Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Midnight Ryzen 7 8700F 16GB 1TB NVMe M.2 SSD Gigabyte GeForce Gaming 12GB RTX4070Ti Oyun Bilgisayarı",
-    "price": 60542,
-    "image": "https://static.sinerji.gen.tr/Images/MD/PP5-8ea-s2.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-midnight-ryzen-7-8700f-16gb-1tb-nvme-m2-ssd-gigabyte-geforce-gaming-12gb-rtx4070ti-oyun-bilgisayari-p-50873",
-    "specs": {
-      "CPU": "AMD Ryzen 7 8700F",
-      "Motherboard": "Gigabyte A620 Anakart",
-      "GPU": "Gigabyte RTX 4070Ti Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Annual Ryzen 5 5500 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X OC 6GB RTX3050 Oyun Bilgisayarı",
-    "price": 18667,
-    "image": "https://static.sinerji.gen.tr/Images/MD/8M8-nza-1024.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-annual-ryzen-5-5500-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-oc-6gb-rtx3050-oyun-bilgisayari-p-50848",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5500 ",
-      "Motherboard": "MSI B450 Anakart",
-      "GPU": "MSI RTX 3050 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Ataahi Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD PowerColor Radeon Figther 16GB RX7900GRE Oyun Bilgisayarı",
-    "price": 49442,
-    "image": "https://static.sinerji.gen.tr/Images/MD/T3Z-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-ataahi-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-powercolor-radeon-figther-16gb-rx7900gre-oyun-bilgisayari-p-50822",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "PowerColor RX7900GRE Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Prometheus Ryzen 7 7800X3D 16GB 1TB NVMe M.2 SSD Gainward GeForce Ghost 12GB RTX4070 Super Oyun Bilgisayarı",
-    "price": 48434,
-    "image": "https://static.sinerji.gen.tr/Images/MD/JYT-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-prometheus-ryzen-7-7800x3d-16gb-1tb-nvme-m2-ssd-gainward-geforce-ghost-12gb-rtx4070-super-oyun-bilgisayari-p-50813",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "Gainward GeForce RTX 4070 Super",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Lobo Ryzen 5 7600 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 3X E 8GB RTX4060Ti Oyun Bilgisayarı",
-    "price": 33248,
-    "image": "https://static.sinerji.gen.tr/Images/MD/UZB-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-lobo-ryzen-5-7600-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-3x-e-8gb-rtx4060ti-oyun-bilgisayari-p-51797",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600 ",
-      "Motherboard": "MSI A620 Anakart",
-      "GPU": "MSI RTX 4060Ti Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji VOK Trooper V3 Ryzen 7 7800X3D 16GB 1TB NVMe M.2 SSD MSI GeForce Ventus 2X OC 12GB RTX4070 Super Oyun Bilgisayarı",
-    "price": 49947,
-    "image": "https://static.sinerji.gen.tr/Images/MD/1BL-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-vok-trooper-v3-ryzen-7-7800x3d-16gb-1tb-nvme-m2-ssd-msi-geforce-ventus-2x-oc-12gb-rtx4070-super-oyun-bilgisayari-p-51744",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "MSI RTX 4070 Super Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Abyss Ryzen 5 5600 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 3X E 8GB RTX4060Ti Oyun Bilgisayarı",
-    "price": 28888,
-    "image": "https://static.sinerji.gen.tr/Images/MD/GJR-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-abyss-ryzen-5-5600-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-3x-e-8gb-rtx4060ti-oyun-bilgisayari-p-51630",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600 ",
-      "Motherboard": "MSI B450 Anakart",
-      "GPU": "MSI RTX 4060Ti Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Breaker Intel Core i5 12400F 16GB 512GB NVMe M.2 SSD Palit GeForce Infinity 2 8GB RTX4060 Oyun Bilgisayarı",
-    "price": 22165,
-    "image": "https://static.sinerji.gen.tr/Images/MD/KLG-p4j-frisby-fc-9320g-midi-tower-kasa-1.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-breaker-intel-core-i5-12400f-16gb-512gb-nvme-m2-ssd-palit-geforce-infinity-2-8gb-rtx4060-oyun-bilgisayari-p-51603",
-    "specs": {
-      "CPU": "Intel Core i5 12400F",
-      "Motherboard": "MSI H610 Anakart",
-      "GPU": "Palit RTX 4060 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Pro V13 Intel i5 12400 8GB 512GB NVMe M.2 SSD İş Bilgisayarı",
-    "price": 10578,
-    "image": "https://static.sinerji.gen.tr/Images/MD/5ZM-6nt-613791.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-pro-v13-intel-i5-12400-8gb-512gb-nvme-m2-ssd-is-bilgisayari-p-51588",
-    "specs": {
-      "CPU": "Intel Core i5 12400 "
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Enion Intel Core i7 14700K 32GB 1TB NVMe M.2 SSD MSI GeForce Ventus 3X OC RTX4070 Super Oyun Bilgisayarı",
-    "price": 66393,
-    "image": "https://static.sinerji.gen.tr/Images/MD/D3J-6ht-ekran-goruntusu-2024-03-04-153030.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-enion-intel-core-i7-14700k-32gb-1tb-nvme-m2-ssd-msi-geforce-ventus-3x-oc-rtx4070-super-oyun-bilgisayari-p-51576",
-    "specs": {
-      "CPU": "Intel Core i7 14700K",
-      "Motherboard": "MSI Z790 Anakart",
-      "GPU": "MSI RTX 4070 Super Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Raum Intel Core i7 14700K 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Trio 16GB RTX4080 Super Oyun Bilgisayarı",
-    "price": 96295,
-    "image": "https://static.sinerji.gen.tr/Images/MD/1MJ-tu9-mb520b12-image.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-raum-intel-core-i7-14700k-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-trio-16gb-rtx4080-super-oyun-bilgisayari-p-51574",
-    "specs": {
-      "CPU": "Intel Core i7 14700K",
-      "Motherboard": "MSI Z790 Anakart",
-      "GPU": "MSI RTX 4080 Super Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Jamadar Ryzen 5 8400F 16GB 1TB NVMe M.2 SSD MSI GeForce Ventus 2X E 12GB OC RTX4070 Oyun Bilgisayarı",
-    "price": 43086,
-    "image": "https://static.sinerji.gen.tr/Images/MD/4B4-zz3-1024.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-jamadar-ryzen-5-8400f-16gb-1tb-nvme-m2-ssd-msi-geforce-ventus-2x-e-12gb-oc-rtx4070-oyun-bilgisayari-p-51573",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "MSI RTX 4070 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Gloria Intel Core i5 13400F 16GB 1TB NVMe M.2 SSD MSI GeForce Ventus 2X E 12GB OC RTX4070 Oyun Bilgisayarı",
-    "price": 39857,
-    "image": "https://static.sinerji.gen.tr/Images/MD/MEX-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-gloria-intel-core-i5-13400f-16gb-1tb-nvme-m2-ssd-msi-geforce-ventus-2x-e-12gb-oc-rtx4070-oyun-bilgisayari-p-51570",
-    "specs": {
-      "CPU": "Intel Core i5 13400F",
-      "Motherboard": "MSI H610 Anakart",
-      "GPU": "MSI RTX 4070 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Pro V10 Intel Core i5 12400 32GB 1TB NVMe M.2 SSD İş Bilgisayarı",
-    "price": 13601,
-    "image": "https://static.sinerji.gen.tr/Images/MD/CSU-6nt-613791.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-pro-v10-intel-core-i5-12400-32gb-1tb-nvme-m2-ssd-is-bilgisayari-p-51552",
-    "specs": {
-      "CPU": "Intel Core i5 12400 "
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Pro V9 Intel Core i7 14700K 32GB 1TB NVMe M.2 SSD İş Bilgisayarı",
-    "price": 33298,
-    "image": "https://static.sinerji.gen.tr/Images/MD/EAH-ns3-1024-5.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-pro-v9-intel-core-i7-14700k-32gb-1tb-nvme-m2-ssd-is-bilgisayari-p-51550",
-    "specs": {
-      "CPU": "Intel Core i7 14700K"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Pro V7 Intel Core i7 13700K 32GB 1TB NVMe M.2 SSD İş Bilgisayarı",
-    "price": 30271,
-    "image": "https://static.sinerji.gen.tr/Images/MD/YLY-k6c-screenshot5.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-pro-v7-intel-core-i7-13700k-32gb-1tb-nvme-m2-ssd-is-bilgisayari-p-51546",
-    "specs": {
-      "CPU": "Intel Core i7 13700K"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Back-Connect Intel Core i5 14600K 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X Black OC 8GB RTX4060Ti Oyun Bilgisayarı",
-    "price": 55497,
-    "image": "https://static.sinerji.gen.tr/Images/MD/27T-tu9-mb520b12-image.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-back-connect-intel-core-i5-14600k-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-black-oc-8gb-rtx4060ti-oyun-bilgisayari-p-51542",
-    "specs": {
-      "CPU": "Intel Core i5 14600K",
-      "Motherboard": "MSI B760 Anakart",
-      "GPU": "MSI RTX 4060Ti Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Whisper Ryzen 5 8400F 16GB 1TB NVMe M.2 SSD MSI GeForce Ventus 2X OC RTX4070 Super Oyun Bilgisayarı",
-    "price": 49443,
-    "image": "https://static.sinerji.gen.tr/Images/MD/1PS-ael-61ezdy5vs-lacsl1001.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-whisper-ryzen-5-8400f-16gb-1tb-nvme-m2-ssd-msi-geforce-ventus-2x-oc-rtx4070-super-oyun-bilgisayari-p-51539",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "MSI RTX 4070 Super Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Mirage Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD ASUS GeForce TUF Gaming OC 24GB RTX4090 Oyun Bilgisayarı",
-    "price": 138239,
-    "image": "https://static.sinerji.gen.tr/Images/MD/PFR-ge2-ekran-goruntusu-2024-05-08-140126.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-mirage-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-asus-geforce-tuf-gaming-oc-24gb-rtx4090-oyun-bilgisayari-p-51536",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X",
-      "Motherboard": "Asus B650 Anakart",
-      "GPU": "Asus RTX 4090 Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Shard Intel Core i9 14900KF 32GB 1TB NVMe M.2 SSD MSI GeForce Ventus 3X OC 24GB RTX4090 Oyun Bilgisayarı",
-    "price": 156402,
-    "image": "https://static.sinerji.gen.tr/Images/MD/EL6-3an-corsair-icue-5000x-rgb-tempered-glass-siyah-mid-tower-kasa-63.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-shard-intel-core-i9-14900kf-32gb-1tb-nvme-m2-ssd-msi-geforce-ventus-3x-oc-24gb-rtx4090-oyun-bilgisayari-p-51534",
-    "specs": {
-      "CPU": "Intel Core i9 14900K",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "MSI RTX 4090 Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Cleaver Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim 24GB RTX4090 Oyun Bilgisayarı",
-    "price": 151357,
-    "image": "https://static.sinerji.gen.tr/Images/MD/SR1-ge2-ekran-goruntusu-2024-05-08-140126.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-cleaver-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-24gb-rtx4090-oyun-bilgisayari-p-51532",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X",
-      "Motherboard": "MSI X670 Anakart",
-      "GPU": "MSI RTX 4090 Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Caribbean Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD ASUS GeForce TUF Gaming OC 16GB RTX4070Ti Super Oyun Bilgisayarı",
-    "price": 110995,
-    "image": "https://static.sinerji.gen.tr/Images/MD/XJY-z55-6500dairflowblackhero01aa.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-caribbean-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-asus-geforce-tuf-gaming-oc-16gb-rtx4070ti-super-oyun-bilgisayari-p-51531",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X",
-      "Motherboard": "Asus X670 Anakart",
-      "GPU": "Asus RTX 4070Ti Super Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Zote Ryzen 5 8400F 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 3X E 8GB RTX4060Ti Oyun Bilgsayarı",
-    "price": 38343,
-    "image": "https://static.sinerji.gen.tr/Images/MD/LH8-k6c-screenshot5.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-zote-ryzen-5-8400f-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-3x-e-8gb-rtx4060ti-oyun-bilgsayari-p-51492",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "MSI RTX 4060Ti Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Rigel Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim 24GB RTX4090 Oyun Bilgisayarı",
-    "price": 141909,
-    "image": "https://static.sinerji.gen.tr/Images/MD/5B2-73q-11-146-348-01-2.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-rigel-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-24gb-rtx4090-oyun-bilgisayari-p-51471",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X",
-      "Motherboard": "MSI X670 Anakart",
-      "GPU": "MSI RTX 4090 Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Sirius Ryzen 7 7800X3D 64GB 2TB NVMe M.2 SSD ASUS GeForce ROG Strix White OC 24GB RTX4090 Oyun Bilgisayarı",
-    "price": 171538,
-    "image": "https://static.sinerji.gen.tr/Images/MD/7E4-h83-61eb5534e35ce8af07f25ff28197862b1600.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-sirius-ryzen-7-7800x3d-64gb-2tb-nvme-m2-ssd-asus-geforce-rog-strix-white-oc-24gb-rtx4090-oyun-bilgisayari-p-51468",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X",
-      "Motherboard": "Asus X670 Anakart",
-      "GPU": "Asus RTX 4090 Ekran Kartı",
-      "Ram": "64GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Duke Ryzen 5 5700X 16GB 512GB NVMe M.2 SSD Palit GeForce Infinity 2 8GB RTX4060 Oyun Bilgisayarı",
-    "price": 26354,
-    "image": "https://static.sinerji.gen.tr/Images/MD/EFQ-kl8-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-duke-ryzen-5-5700x-16gb-512gb-nvme-m2-ssd-palit-geforce-infinity-2-8gb-rtx4060-oyun-bilgisayari-p-51435",
-    "specs": {
-      "CPU": "AMD Ryzen 7 5700X",
-      "Motherboard": "MSI A520 Anakart",
-      "GPU": "Palit RTX 4060 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Animus Ryzen 7 8700F 32GB 1TB NVMe M.2 SSD MSI GeForce Ventus 2X OC 12GB RTX4070 Super Oyun Bilgisayarı",
-    "price": 52709,
-    "image": "https://static.sinerji.gen.tr/Images/MD/S25-qas-e3.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-animus-ryzen-7-8700f-32gb-1tb-nvme-m2-ssd-msi-geforce-ventus-2x-oc-12gb-rtx4070-super-oyun-bilgisayari-p-51431",
-    "specs": {
-      "CPU": "AMD Ryzen 7 8700F",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "MSI RTX 4070 Super Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Baurus Ryzen 5 8400F 16GB 500GB NVMe M.2 SSD MSI GeForce Gaming X Slim White 12GB RTX4070 Super Oyun Bilgisayarı",
-    "price": 50452,
-    "image": "https://static.sinerji.gen.tr/Images/MD/5T8-qas-e3.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-baurus-ryzen-5-8400f-16gb-500gb-nvme-m2-ssd-msi-geforce-gaming-x-slim-white-12gb-rtx4070-super-oyun-bilgisayari-p-51400",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "Asus RTX 4070 Super Ekran Kartı",
-      "Ram": "16GB Ram"
     },
     "store": "sinerji"
   },
@@ -10773,485 +10473,304 @@
     "store": "sinerji"
   },
   {
-    "name": "Nihilstein Elite",
-    "price": 53999,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/nihilstein-elite-hazir-sistem-fiyati-42332/",
+    "name": "Sinerji Lobo Ryzen 5 7600 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 3X E 8GB RTX4060Ti Oyun Bilgisayarı",
+    "price": 33248,
+    "image": "https://static.sinerji.gen.tr/Images/MD/UZB-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-lobo-ryzen-5-7600-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-3x-e-8gb-rtx4060ti-oyun-bilgisayari-p-51797",
     "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Ram": "16 GB DDR5",
-      "GPU": "MSI RTX 4070 Ti 12 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
+      "CPU": "AMD Ryzen 5 7600 ",
+      "Motherboard": "MSI A620 Anakart",
+      "GPU": "MSI RTX 4060Ti Ekran Kartı",
+      "Ram": "16GB Ram"
     },
-    "store": "inceHesap"
+    "store": "sinerji"
   },
   {
-    "name": "Procyon 4060",
-    "price": 26999,
-    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
-    "link": "https://www.incehesap.com/procyon-hazir-sistem-fiyati-35558/",
+    "name": "Sinerji VOK Trooper V3 Ryzen 7 7800X3D 16GB 1TB NVMe M.2 SSD MSI GeForce Ventus 2X OC 12GB RTX4070 Super Oyun Bilgisayarı",
+    "price": 49947,
+    "image": "https://static.sinerji.gen.tr/Images/MD/1BL-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-vok-trooper-v3-ryzen-7-7800x3d-16gb-1tb-nvme-m2-ssd-msi-geforce-ventus-2x-oc-12gb-rtx4070-super-oyun-bilgisayari-p-51744",
     "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Colorful RTX 4060 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
+      "CPU": "AMD Ryzen 7 7800X",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "MSI RTX 4070 Super Ekran Kartı",
+      "Ram": "16GB Ram"
     },
-    "store": "inceHesap"
+    "store": "sinerji"
   },
   {
-    "name": "Eternal PBM",
-    "price": 81229,
-    "image": "https://www.incehesap.com/resim/urun/202406/66791aae8604c3.62493700_npioefjqgmhkl_200.webp",
-    "link": "https://www.incehesap.com/eternal-pbm-hazir-sistem-fiyati-62756/",
+    "name": "Sinerji Abyss Ryzen 5 5600 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 3X E 8GB RTX4060Ti Oyun Bilgisayarı",
+    "price": 28888,
+    "image": "https://static.sinerji.gen.tr/Images/MD/GJR-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-abyss-ryzen-5-5600-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-3x-e-8gb-rtx4060ti-oyun-bilgisayari-p-51630",
     "specs": {
-      "CPU": "AMD Ryzen 7 7800X3D",
-      "Ram": "32 GB DDR5",
-      "GPU": "MSI RTX 4080 Super 16 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
+      "CPU": "AMD Ryzen 5 5600 ",
+      "Motherboard": "MSI B450 Anakart",
+      "GPU": "MSI RTX 4060Ti Ekran Kartı",
+      "Ram": "16GB Ram"
     },
-    "store": "inceHesap"
+    "store": "sinerji"
   },
   {
-    "name": "Metaverse PBM",
-    "price": 44999,
-    "image": "https://www.incehesap.com/resim/urun/202401/65ba46129ca239.86740278_himfglkjponeq_200.webp",
-    "link": "https://www.incehesap.com/metaverse-pbm-hazir-sistem-fiyati-63188/",
+    "name": "Sinerji Breaker Intel Core i5 12400F 16GB 512GB NVMe M.2 SSD Palit GeForce Infinity 2 8GB RTX4060 Oyun Bilgisayarı",
+    "price": 22165,
+    "image": "https://static.sinerji.gen.tr/Images/MD/KLG-p4j-frisby-fc-9320g-midi-tower-kasa-1.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-breaker-intel-core-i5-12400f-16gb-512gb-nvme-m2-ssd-palit-geforce-infinity-2-8gb-rtx4060-oyun-bilgisayari-p-51603",
     "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Ram": "16 GB DDR5",
-      "GPU": "MSI RTX 4070 Super 12 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
+      "CPU": "Intel Core i5 12400F",
+      "Motherboard": "MSI H610 Anakart",
+      "GPU": "Palit RTX 4060 Ekran Kartı",
+      "Ram": "16GB Ram"
     },
-    "store": "inceHesap"
+    "store": "sinerji"
   },
   {
-    "name": "Daemon",
-    "price": 18499,
-    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
-    "link": "https://www.incehesap.com/daemon-hazir-sistem-fiyati-58355/",
+    "name": "Sinerji Pro V13 Intel i5 12400 8GB 512GB NVMe M.2 SSD İş Bilgisayarı",
+    "price": 10578,
+    "image": "https://static.sinerji.gen.tr/Images/MD/5ZM-6nt-613791.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-pro-v13-intel-i5-12400-8gb-512gb-nvme-m2-ssd-is-bilgisayari-p-51588",
     "specs": {
-      "CPU": "AMD Ryzen 5 5500",
-      "Ram": "16 GB DDR4",
-      "GPU": "Axle RTX 2060S 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
+      "CPU": "Intel Core i5 12400 "
     },
-    "store": "inceHesap"
+    "store": "sinerji"
   },
   {
-    "name": "GeForce Master",
-    "price": 142999,
-    "image": "https://www.incehesap.com/resim/urun/202302/63e10a52048147.31809263_ihgmlfjpqonke_200.webp",
-    "link": "https://www.incehesap.com/geforce-espor-pc-master-hazir-sistem-fiyati-45563/",
+    "name": "Sinerji Enion Intel Core i7 14700K 32GB 1TB NVMe M.2 SSD MSI GeForce Ventus 3X OC RTX4070 Super Oyun Bilgisayarı",
+    "price": 66393,
+    "image": "https://static.sinerji.gen.tr/Images/MD/D3J-6ht-ekran-goruntusu-2024-03-04-153030.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-enion-intel-core-i7-14700k-32gb-1tb-nvme-m2-ssd-msi-geforce-ventus-3x-oc-rtx4070-super-oyun-bilgisayari-p-51576",
     "specs": {
-      "CPU": "AMD Ryzen 9 7900X",
-      "Ram": "32 GB DDR5",
-      "GPU": "Gigabyte RTX 4090 24 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
+      "CPU": "Intel Core i7 14700K",
+      "Motherboard": "MSI Z790 Anakart",
+      "GPU": "MSI RTX 4070 Super Ekran Kartı",
+      "Ram": "32GB Ram"
     },
-    "store": "inceHesap"
+    "store": "sinerji"
   },
   {
-    "name": "Winorwin Elite",
-    "price": 32999,
-    "image": "https://www.incehesap.com/resim/urun/202407/66839f3a9bb7b7.01015879_nqjoimlehfgpk_200.webp",
-    "link": "https://www.incehesap.com/winorwin-elite-hazir-sistem-fiyati-46665/",
+    "name": "Sinerji Raum Intel Core i7 14700K 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Trio 16GB RTX4080 Super Oyun Bilgisayarı",
+    "price": 96295,
+    "image": "https://static.sinerji.gen.tr/Images/MD/1MJ-tu9-mb520b12-image.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-raum-intel-core-i7-14700k-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-trio-16gb-rtx4080-super-oyun-bilgisayari-p-51574",
     "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Powercolor RX 7700 XT 12 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
+      "CPU": "Intel Core i7 14700K",
+      "Motherboard": "MSI Z790 Anakart",
+      "GPU": "MSI RTX 4080 Super Ekran Kartı",
+      "Ram": "32GB Ram"
     },
-    "store": "inceHesap"
+    "store": "sinerji"
   },
   {
-    "name": "Tundra 4080 Super",
-    "price": 67999,
-    "image": "https://www.incehesap.com/resim/urun/202406/66791aae8604c3.62493700_npioefjqgmhkl_200.webp",
-    "link": "https://www.incehesap.com/tundra-hazir-sistem-fiyati-56275/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600",
-      "Ram": "16 GB DDR5",
-      "GPU": "MSI RTX 4080 Super 16 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Fornax 4090",
-    "price": 148999,
-    "image": "https://www.incehesap.com/resim/urun/202407/669f7030d33871.02513166_hepokqjlnmifg_200.webp",
-    "link": "https://www.incehesap.com/fornax-hazir-sistem-fiyati-60039/",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X3D",
-      "Ram": "32 GB DDR5",
-      "GPU": "Asus RTX 4090 24 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Slate Pro 3050",
-    "price": 17999,
-    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
-    "link": "https://www.incehesap.com/slate-pro-3050-hazir-sistem-fiyati-46592/",
-    "specs": {
-      "CPU": "Intel i3-13100F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Axle RTX 3050 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Wardon 4060 Ti",
-    "price": 34999,
-    "image": "https://www.incehesap.com/resim/urun/202406/6669862c97f304.11933245_ilnmhqeopjgkf_200.webp",
-    "link": "https://www.incehesap.com/wardon-4060-ti-hazir-sistem-fiyati-63180/",
-    "specs": {
-      "CPU": "Intel i5-14400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4060 Ti 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Khopesh 6650 XT",
-    "price": 18999,
-    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
-    "link": "https://www.incehesap.com/khopesh-hazir-sistem-fiyati-61003/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5500",
-      "Ram": "16 GB DDR4",
-      "GPU": "Powercolor RX 6650 XT 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Falcon 4090",
-    "price": 114999,
-    "image": "https://www.incehesap.com/resim/urun/202405/663a03403b6d27.96978412_lehoinkjfgmqp_200.webp",
-    "link": "https://www.incehesap.com/falcon-4090-hazir-sistem-fiyati-47354/",
-    "specs": {
-      "CPU": "Intel i7-13700KF",
-      "Ram": "32 GB DDR5",
-      "GPU": "Asus RTX 4090 24 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Nyks 4080 Süper",
-    "price": 78229,
-    "image": "https://www.incehesap.com/resim/urun/202302/63e10a52048147.31809263_ihgmlfjpqonke_200.webp",
-    "link": "https://www.incehesap.com/nyks-hazir-sistem-fiyati-58884/",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X3D",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4080 Super 16 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Uber 3060 V2",
-    "price": 23999,
-    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
-    "link": "https://www.incehesap.com/uber-v2-hazir-sistem-fiyati-45167/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 3600",
-      "Ram": "16 GB DDR4",
-      "GPU": "MSI RTX 3060 12 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Lancool PBM",
-    "price": 30999,
-    "image": "https://www.incehesap.com/resim/urun/202402/65cf6e30153e33.10289865_legonqikfhmpj_200.webp",
-    "link": "https://www.incehesap.com/lancool-pbm-hazir-sistem-fiyati-49175/",
+    "name": "Sinerji Jamadar Ryzen 5 8400F 16GB 1TB NVMe M.2 SSD MSI GeForce Ventus 2X E 12GB OC RTX4070 Oyun Bilgisayarı",
+    "price": 43086,
+    "image": "https://static.sinerji.gen.tr/Images/MD/4B4-zz3-1024.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-jamadar-ryzen-5-8400f-16gb-1tb-nvme-m2-ssd-msi-geforce-ventus-2x-e-12gb-oc-rtx4070-oyun-bilgisayari-p-51573",
     "specs": {
       "CPU": "AMD Ryzen 5 8400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "MSI RTX 4060 8 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "MSI RTX 4070 Ekran Kartı",
+      "Ram": "16GB Ram"
     },
-    "store": "inceHesap"
+    "store": "sinerji"
   },
   {
-    "name": "Slate Gold",
-    "price": 80999,
-    "image": "https://www.incehesap.com/resim/urun/202311/655b4128d98186.31506198_nkqfielpmgojh_200.webp",
-    "link": "https://www.incehesap.com/slate-gold-hazir-sistem-fiyati-46113/",
+    "name": "Sinerji Gloria Intel Core i5 13400F 16GB 1TB NVMe M.2 SSD MSI GeForce Ventus 2X E 12GB OC RTX4070 Oyun Bilgisayarı",
+    "price": 39857,
+    "image": "https://static.sinerji.gen.tr/Images/MD/MEX-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-gloria-intel-core-i5-13400f-16gb-1tb-nvme-m2-ssd-msi-geforce-ventus-2x-e-12gb-oc-rtx4070-oyun-bilgisayari-p-51570",
     "specs": {
-      "CPU": "AMD Ryzen 7 7800X3D",
-      "Ram": "32 GB DDR5",
-      "GPU": "Gigabyte RTX 4080 Super 16 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
+      "CPU": "Intel Core i5 13400F",
+      "Motherboard": "MSI H610 Anakart",
+      "GPU": "MSI RTX 4070 Ekran Kartı",
+      "Ram": "16GB Ram"
     },
-    "store": "inceHesap"
+    "store": "sinerji"
   },
   {
-    "name": "Synthetix",
-    "price": 22599,
-    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
-    "link": "https://www.incehesap.com/synthetix-hazir-sistem-fiyati-62372/",
+    "name": "Sinerji Pro V10 Intel Core i5 12400 32GB 1TB NVMe M.2 SSD İş Bilgisayarı",
+    "price": 13601,
+    "image": "https://static.sinerji.gen.tr/Images/MD/CSU-6nt-613791.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-pro-v10-intel-core-i5-12400-32gb-1tb-nvme-m2-ssd-is-bilgisayari-p-51552",
     "specs": {
-      "CPU": "Intel i3-13100F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
+      "CPU": "Intel Core i5 12400 "
     },
-    "store": "inceHesap"
+    "store": "sinerji"
   },
   {
-    "name": "Telcharming",
-    "price": 24999,
-    "image": "https://www.incehesap.com/resim/urun/202402/65cf6e30153e33.10289865_legonqikfhmpj_200.webp",
-    "link": "https://www.incehesap.com/telcharming-hazir-sistem-fiyati-39593/",
+    "name": "Sinerji Pro V9 Intel Core i7 14700K 32GB 1TB NVMe M.2 SSD İş Bilgisayarı",
+    "price": 33298,
+    "image": "https://static.sinerji.gen.tr/Images/MD/EAH-ns3-1024-5.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-pro-v9-intel-core-i7-14700k-32gb-1tb-nvme-m2-ssd-is-bilgisayari-p-51550",
     "specs": {
-      "CPU": "AMD Ryzen 5 5600",
-      "Ram": "16 GB DDR4",
-      "GPU": "Gigabyte RTX 4060 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
+      "CPU": "Intel Core i7 14700K"
     },
-    "store": "inceHesap"
+    "store": "sinerji"
   },
   {
-    "name": "PCH Penumbra Gold",
-    "price": 52229,
-    "image": "https://www.incehesap.com/resim/urun/202406/66791868602b76.23808833_kgjonhqmfpile_200.webp",
-    "link": "https://www.incehesap.com/pch-penumbra-gold-hazir-sistem-fiyati-42962/",
+    "name": "Sinerji Pro V7 Intel Core i7 13700K 32GB 1TB NVMe M.2 SSD İş Bilgisayarı",
+    "price": 30271,
+    "image": "https://static.sinerji.gen.tr/Images/MD/YLY-k6c-screenshot5.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-pro-v7-intel-core-i7-13700k-32gb-1tb-nvme-m2-ssd-is-bilgisayari-p-51546",
     "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Gigabyte RTX 4070 Super 12 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
+      "CPU": "Intel Core i7 13700K"
     },
-    "store": "inceHesap"
+    "store": "sinerji"
   },
   {
-    "name": "Prime",
-    "price": 60229,
-    "image": "https://www.incehesap.com/resim/urun/202311/655b4128d98186.31506198_nkqfielpmgojh_200.webp",
-    "link": "https://www.incehesap.com/prime-hazir-sistem-fiyati-48012/",
+    "name": "Sinerji Back-Connect Intel Core i5 14600K 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X Black OC 8GB RTX4060Ti Oyun Bilgisayarı",
+    "price": 55497,
+    "image": "https://static.sinerji.gen.tr/Images/MD/27T-tu9-mb520b12-image.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-back-connect-intel-core-i5-14600k-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-black-oc-8gb-rtx4060ti-oyun-bilgisayari-p-51542",
     "specs": {
-      "CPU": "AMD Ryzen 7 7800X3D",
-      "Ram": "16 GB DDR5",
-      "GPU": "Powercolor RX 7900 XT 20 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
+      "CPU": "Intel Core i5 14600K",
+      "Motherboard": "MSI B760 Anakart",
+      "GPU": "MSI RTX 4060Ti Ekran Kartı",
+      "Ram": "16GB Ram"
     },
-    "store": "inceHesap"
+    "store": "sinerji"
   },
   {
-    "name": "Phoenix Silver",
-    "price": 55999,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/phoenix-silver-hazir-sistem-fiyati-42326/",
+    "name": "Sinerji Whisper Ryzen 5 8400F 16GB 1TB NVMe M.2 SSD MSI GeForce Ventus 2X OC RTX4070 Super Oyun Bilgisayarı",
+    "price": 49443,
+    "image": "https://static.sinerji.gen.tr/Images/MD/1PS-ael-61ezdy5vs-lacsl1001.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-whisper-ryzen-5-8400f-16gb-1tb-nvme-m2-ssd-msi-geforce-ventus-2x-oc-rtx4070-super-oyun-bilgisayari-p-51539",
     "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4070 Ti Super 16 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
+      "CPU": "AMD Ryzen 5 8400F",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "MSI RTX 4070 Super Ekran Kartı",
+      "Ram": "16GB Ram"
     },
-    "store": "inceHesap"
+    "store": "sinerji"
   },
   {
-    "name": "Corax Bronze",
-    "price": 23499,
-    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
-    "link": "https://www.incehesap.com/corax-bronze-hazir-sistem-fiyati-43356/",
+    "name": "Sinerji Mirage Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD ASUS GeForce TUF Gaming OC 24GB RTX4090 Oyun Bilgisayarı",
+    "price": 138239,
+    "image": "https://static.sinerji.gen.tr/Images/MD/PFR-ge2-ekran-goruntusu-2024-05-08-140126.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-mirage-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-asus-geforce-tuf-gaming-oc-24gb-rtx4090-oyun-bilgisayari-p-51536",
     "specs": {
-      "CPU": "Intel i3-13100F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RX 7600 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
+      "CPU": "AMD Ryzen 7 7800X",
+      "Motherboard": "Asus B650 Anakart",
+      "GPU": "Asus RTX 4090 Ekran Kartı",
+      "Ram": "32GB Ram"
     },
-    "store": "inceHesap"
+    "store": "sinerji"
   },
   {
-    "name": "Stainless 4060",
-    "price": 27999,
-    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
-    "link": "https://www.incehesap.com/stainless-hazir-sistem-fiyati-61982/",
+    "name": "Sinerji Shard Intel Core i9 14900KF 32GB 1TB NVMe M.2 SSD MSI GeForce Ventus 3X OC 24GB RTX4090 Oyun Bilgisayarı",
+    "price": 156402,
+    "image": "https://static.sinerji.gen.tr/Images/MD/EL6-3an-corsair-icue-5000x-rgb-tempered-glass-siyah-mid-tower-kasa-63.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-shard-intel-core-i9-14900kf-32gb-1tb-nvme-m2-ssd-msi-geforce-ventus-3x-oc-24gb-rtx4090-oyun-bilgisayari-p-51534",
     "specs": {
-      "CPU": "Intel i5-13400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
+      "CPU": "Intel Core i9 14900K",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "MSI RTX 4090 Ekran Kartı",
+      "Ram": "32GB Ram"
     },
-    "store": "inceHesap"
+    "store": "sinerji"
   },
   {
-    "name": "Origin Gold",
-    "price": 81229,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b9e2a3e0034.73512644_pkqjfnlmgoehi_200.webp",
-    "link": "https://www.incehesap.com/origin-gold-hazir-sistem-fiyati-50387/",
+    "name": "Sinerji Cleaver Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim 24GB RTX4090 Oyun Bilgisayarı",
+    "price": 151357,
+    "image": "https://static.sinerji.gen.tr/Images/MD/SR1-ge2-ekran-goruntusu-2024-05-08-140126.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-cleaver-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-24gb-rtx4090-oyun-bilgisayari-p-51532",
     "specs": {
-      "CPU": "Intel i7-13700K",
-      "Ram": "32 GB DDR5",
-      "GPU": "PNY RTX 4080 Super 16 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
+      "CPU": "AMD Ryzen 7 7800X",
+      "Motherboard": "MSI X670 Anakart",
+      "GPU": "MSI RTX 4090 Ekran Kartı",
+      "Ram": "32GB Ram"
     },
-    "store": "inceHesap"
+    "store": "sinerji"
   },
   {
-    "name": "Whisper 4060 Ti",
-    "price": 40229,
-    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
-    "link": "https://www.incehesap.com/whisper-4060-ti-hazir-sistem-fiyati-64134/",
+    "name": "Sinerji Caribbean Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD ASUS GeForce TUF Gaming OC 16GB RTX4070Ti Super Oyun Bilgisayarı",
+    "price": 110995,
+    "image": "https://static.sinerji.gen.tr/Images/MD/XJY-z55-6500dairflowblackhero01aa.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-caribbean-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-asus-geforce-tuf-gaming-oc-16gb-rtx4070ti-super-oyun-bilgisayari-p-51531",
     "specs": {
-      "CPU": "Intel i5-13600KF",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4060 Ti 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
+      "CPU": "AMD Ryzen 7 7800X",
+      "Motherboard": "Asus X670 Anakart",
+      "GPU": "Asus RTX 4070Ti Super Ekran Kartı",
+      "Ram": "32GB Ram"
     },
-    "store": "inceHesap"
+    "store": "sinerji"
   },
   {
-    "name": "Neron 6600",
-    "price": 20999,
-    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
-    "link": "https://www.incehesap.com/neron-6600-hazir-sistem-fiyati-51535/",
+    "name": "Sinerji Zote Ryzen 5 8400F 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 3X E 8GB RTX4060Ti Oyun Bilgsayarı",
+    "price": 38343,
+    "image": "https://static.sinerji.gen.tr/Images/MD/LH8-k6c-screenshot5.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-zote-ryzen-5-8400f-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-3x-e-8gb-rtx4060ti-oyun-bilgsayari-p-51492",
     "specs": {
-      "CPU": "Intel i3-14100F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RX 6600 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
+      "CPU": "AMD Ryzen 5 8400F",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "MSI RTX 4060Ti Ekran Kartı",
+      "Ram": "16GB Ram"
     },
-    "store": "inceHesap"
+    "store": "sinerji"
   },
   {
-    "name": "TechnoEpic",
-    "price": 78229,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b9e2a3e0034.73512644_pkqjfnlmgoehi_200.webp",
-    "link": "https://www.incehesap.com/technoepic-bilgisayari-hazir-sistem-fiyati-56270/",
+    "name": "Sinerji Rigel Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim 24GB RTX4090 Oyun Bilgisayarı",
+    "price": 141909,
+    "image": "https://static.sinerji.gen.tr/Images/MD/5B2-73q-11-146-348-01-2.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-rigel-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-24gb-rtx4090-oyun-bilgisayari-p-51471",
     "specs": {
-      "CPU": "AMD Ryzen 7 7700X",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4080 Super 16 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
+      "CPU": "AMD Ryzen 7 7800X",
+      "Motherboard": "MSI X670 Anakart",
+      "GPU": "MSI RTX 4090 Ekran Kartı",
+      "Ram": "32GB Ram"
     },
-    "store": "inceHesap"
+    "store": "sinerji"
   },
   {
-    "name": "Jarvis Hero Creator",
-    "price": 58229,
-    "image": "https://www.incehesap.com/resim/urun/202405/6638d0436d0193.58674256_pgefqkijolnhm_200.webp",
-    "link": "https://www.incehesap.com/jarvis-hero-hazir-sistem-fiyati-48268/",
+    "name": "Sinerji Sirius Ryzen 7 7800X3D 64GB 2TB NVMe M.2 SSD ASUS GeForce ROG Strix White OC 24GB RTX4090 Oyun Bilgisayarı",
+    "price": 171538,
+    "image": "https://static.sinerji.gen.tr/Images/MD/7E4-h83-61eb5534e35ce8af07f25ff28197862b1600.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-sirius-ryzen-7-7800x3d-64gb-2tb-nvme-m2-ssd-asus-geforce-rog-strix-white-oc-24gb-rtx4090-oyun-bilgisayari-p-51468",
     "specs": {
-      "CPU": "Intel i7-13700K",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4070 12 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
+      "CPU": "AMD Ryzen 7 7800X",
+      "Motherboard": "Asus X670 Anakart",
+      "GPU": "Asus RTX 4090 Ekran Kartı",
+      "Ram": "64GB Ram"
     },
-    "store": "inceHesap"
+    "store": "sinerji"
   },
   {
-    "name": "Reinforce",
-    "price": 30499,
-    "image": "https://www.incehesap.com/resim/urun/202405/6638d0436d0193.58674256_pgefqkijolnhm_200.webp",
-    "link": "https://www.incehesap.com/reinforce-hazir-sistem-fiyati-61925/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Hector Silver",
-    "price": 45729,
-    "image": "https://www.incehesap.com/resim/urun/202302/63e214496b9037.22849704_qhflegnkojpmi_200.webp",
-    "link": "https://www.incehesap.com/hector-silver-hazir-sistem-fiyati-50348/",
+    "name": "Sinerji Duke Ryzen 5 5700X 16GB 512GB NVMe M.2 SSD Palit GeForce Infinity 2 8GB RTX4060 Oyun Bilgisayarı",
+    "price": 26354,
+    "image": "https://static.sinerji.gen.tr/Images/MD/EFQ-kl8-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-duke-ryzen-5-5700x-16gb-512gb-nvme-m2-ssd-palit-geforce-infinity-2-8gb-rtx4060-oyun-bilgisayari-p-51435",
     "specs": {
       "CPU": "AMD Ryzen 7 5700X",
-      "Ram": "16 GB DDR4",
-      "GPU": "MSI RTX 4070 12 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
+      "Motherboard": "MSI A520 Anakart",
+      "GPU": "Palit RTX 4060 Ekran Kartı",
+      "Ram": "16GB Ram"
     },
-    "store": "inceHesap"
+    "store": "sinerji"
   },
   {
-    "name": "Nihilstein V1 PBM",
-    "price": 61229,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/nihilstein-v1-pbm-hazir-sistem-fiyati-56511/",
+    "name": "Sinerji Animus Ryzen 7 8700F 32GB 1TB NVMe M.2 SSD MSI GeForce Ventus 2X OC 12GB RTX4070 Super Oyun Bilgisayarı",
+    "price": 52709,
+    "image": "https://static.sinerji.gen.tr/Images/MD/S25-qas-e3.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-animus-ryzen-7-8700f-32gb-1tb-nvme-m2-ssd-msi-geforce-ventus-2x-oc-12gb-rtx4070-super-oyun-bilgisayari-p-51431",
     "specs": {
-      "CPU": "Intel i5-13600KF",
-      "Ram": "16 GB DDR5",
-      "GPU": "MSI RTX 4070 Ti 12 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
+      "CPU": "AMD Ryzen 7 8700F",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "MSI RTX 4070 Super Ekran Kartı",
+      "Ram": "32GB Ram"
     },
-    "store": "inceHesap"
+    "store": "sinerji"
   },
   {
-    "name": "WhiteFox Platinum",
-    "price": 51999,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b9d62b65d18.48115181_pjhelqkmingfo_200.webp",
-    "link": "https://www.incehesap.com/whitefox-platinum-hazir-sistem-fiyati-46594/",
+    "name": "Sinerji Baurus Ryzen 5 8400F 16GB 500GB NVMe M.2 SSD MSI GeForce Gaming X Slim White 12GB RTX4070 Super Oyun Bilgisayarı",
+    "price": 50452,
+    "image": "https://static.sinerji.gen.tr/Images/MD/5T8-qas-e3.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-baurus-ryzen-5-8400f-16gb-500gb-nvme-m2-ssd-msi-geforce-gaming-x-slim-white-12gb-rtx4070-super-oyun-bilgisayari-p-51400",
     "specs": {
       "CPU": "AMD Ryzen 5 8400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Powercolor RX 7900 XT 20 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "Asus RTX 4070 Super Ekran Kartı",
+      "Ram": "16GB Ram"
     },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Thunder 4060 Ti",
-    "price": 40999,
-    "image": "https://www.incehesap.com/resim/urun/202306/648c4fe2806314.68243130_ehklmiqjgpfon_200.webp",
-    "link": "https://www.incehesap.com/thunder-hazir-sistem-fiyati-47014/",
-    "specs": {
-      "CPU": "Intel i5-12400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4060 Ti 8 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Vector Bronze",
-    "price": 23999,
-    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
-    "link": "https://www.incehesap.com/vector-bronze-hazir-sistem-fiyati-46672/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5500",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RX 7600 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Oblivion",
-    "price": 33699,
-    "image": "https://www.incehesap.com/resim/urun/202407/6683a0291c09c9.39876331_qpgnjfhemkloi_200.webp",
-    "link": "https://www.incehesap.com/oblivion-hazir-sistem-fiyati-62946/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600",
-      "Ram": "16 GB DDR4",
-      "GPU": "MSI RTX 4060 Ti 8 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Sharpen 7600XT",
-    "price": 29999,
-    "image": "https://www.incehesap.com/resim/urun/202406/6669862c97f304.11933245_ilnmhqeopjgkf_200.webp",
-    "link": "https://www.incehesap.com/sharpen-hazir-sistem-fiyati-61443/",
-    "specs": {
-      "CPU": "Intel i5-12400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RX 7600 XT 16 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
+    "store": "sinerji"
   },
   {
     "name": "Sword Silver",
@@ -11482,240 +11001,6 @@
       "CPU": "AMD Ryzen 5 7500F",
       "Ram": "16 GB DDR5",
       "GPU": "Asus RTX 4070 12 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Matem Silver",
-    "price": 32999,
-    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
-    "link": "https://www.incehesap.com/matem-silver-hazir-sistem-fiyati-46901/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RX 7600 XT 16 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Atlantic Platinum PBM",
-    "price": 117999,
-    "image": "https://www.incehesap.com/resim/urun/202403/65eea9e79ee9e5.80949613_pegjqoflknmih_200.webp",
-    "link": "https://www.incehesap.com/atlantic-platinum-pbm-hazir-sistem-fiyati-42946/",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X3D",
-      "Ram": "32 GB DDR5",
-      "GPU": "MSI RTX 4090 24 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Razor Crest",
-    "price": 44999,
-    "image": "https://www.incehesap.com/resim/urun/202403/65eea9e79ee9e5.80949613_pegjqoflknmih_200.webp",
-    "link": "https://www.incehesap.com/razor-crest-hazir-sistem-fiyati-35562/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RX 7900 GRE 16 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "RaptorLake",
-    "price": 70229,
-    "image": "https://www.incehesap.com/resim/urun/202403/65eea9e79ee9e5.80949613_pegjqoflknmih_200.webp",
-    "link": "https://www.incehesap.com/raptorlake-hazir-sistem-fiyati-59766/",
-    "specs": {
-      "CPU": "Intel i7-13700K",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4070 Ti Super 16 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Sempiternal",
-    "price": 44999,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/sempiternal-hazir-sistem-fiyati-63158/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4070 12 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Orion V2",
-    "price": 17999,
-    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
-    "link": "https://www.incehesap.com/orion-v2-hazir-sistem-fiyati-42325/",
-    "specs": {
-      "CPU": "Intel i3-12100F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Axle RX 5700 XT  8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Flow Bronze",
-    "price": 48999,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/flow-bronze-hazir-sistem-fiyati-50390/",
-    "specs": {
-      "CPU": "Intel i5-13400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Gigabyte RTX 4070 Super 12 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Lord X",
-    "price": 24499,
-    "image": "https://www.incehesap.com/resim/urun/202405/6638d0436d0193.58674256_pgefqkijolnhm_200.webp",
-    "link": "https://www.incehesap.com/lord-x-hazir-sistem-fiyati-43260/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Freedom",
-    "price": 62229,
-    "image": "https://www.incehesap.com/resim/urun/202311/655b4128d98186.31506198_nkqfielpmgojh_200.webp",
-    "link": "https://www.incehesap.com/freedom-hazir-sistem-fiyati-40898/",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X3D",
-      "Ram": "32 GB DDR5",
-      "GPU": "Powercolor RX 7900 XT 20 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Ethereal Gold",
-    "price": 42999,
-    "image": "https://www.incehesap.com/resim/urun/202302/63e23ccaecb934.00217227_mjnhpgofkilqe_200.webp",
-    "link": "https://www.incehesap.com/ethereal-gold-hazir-sistem-fiyati-63017/",
-    "specs": {
-      "CPU": "Intel i5-13400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4070 12 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Nemesis",
-    "price": 22999,
-    "image": "https://www.incehesap.com/resim/urun/202302/63e236967ff001.90324741_okqeiglnmfhpj_200.webp",
-    "link": "https://www.incehesap.com/nemesis-hazir-sistem-fiyati-42798/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5500",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RX 6650 XT 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Vector Silver",
-    "price": 121999,
-    "image": "https://www.incehesap.com/resim/urun/202403/65eea9e79ee9e5.80949613_pegjqoflknmih_200.webp",
-    "link": "https://www.incehesap.com/vector-silver-hazir-sistem-fiyati-46673/",
-    "specs": {
-      "CPU": "Intel i7-13700K",
-      "Ram": "32 GB DDR5",
-      "GPU": "Gigabyte RTX 4090 24 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Goliath Gold",
-    "price": 68999,
-    "image": "https://www.incehesap.com/resim/urun/202403/65eea9e79ee9e5.80949613_pegjqoflknmih_200.webp",
-    "link": "https://www.incehesap.com/goliath-gold-hazir-sistem-fiyati-52893/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RX 7900 XTX 24 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Nova Gold",
-    "price": 81229,
-    "image": "https://www.incehesap.com/resim/urun/202407/6683a0291c09c9.39876331_qpgnjfhemkloi_200.webp",
-    "link": "https://www.incehesap.com/nova-gold-hazir-sistem-fiyati-67324/",
-    "specs": {
-      "CPU": "Intel i7-13700KF",
-      "Ram": "32 GB DDR5",
-      "GPU": "Asus RTX 4080 Super 16 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Raider V2",
-    "price": 27999,
-    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
-    "link": "https://www.incehesap.com/raider-v2-hazir-sistem-fiyati-35240/",
-    "specs": {
-      "CPU": "Intel i5-13400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Colorful RTX 4060 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Alys Silver",
-    "price": 41999,
-    "image": "https://www.incehesap.com/resim/urun/202406/66791aae8604c3.62493700_npioefjqgmhkl_200.webp",
-    "link": "https://www.incehesap.com/alys-silver-lemur-hazir-sistem-fiyati-50902/",
-    "specs": {
-      "CPU": "Intel i5-13400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Powercolor RX 7900 GRE 16 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Aspect",
-    "price": 28499,
-    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
-    "link": "https://www.incehesap.com/aspect-hazir-sistem-fiyati-58372/",
-    "specs": {
-      "CPU": "AMD Ryzen 7 5700X",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Brave Gold",
-    "price": 24999,
-    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
-    "link": "https://www.incehesap.com/brave-gold-hazir-sistem-fiyati-63015/",
-    "specs": {
-      "CPU": "Intel i5-12400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "PNY RTX 4060 8 GB",
       "Storage": "512 GB SSD Hazır Sistem"
     },
     "store": "inceHesap"
@@ -11955,12 +11240,25 @@
     "store": "inceHesap"
   },
   {
-    "name": "Metin",
-    "price": 24999,
-    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
-    "link": "https://www.incehesap.com/metin-hazir-sistem-fiyati-50383/",
+    "name": "Estate Pro",
+    "price": 54499,
+    "image": "https://www.incehesap.com/resim/urun/202406/6669870484b889.04764103_gqljnoiephfkm_200.webp",
+    "link": "https://www.incehesap.com/estate-pro-hazir-sistem-fiyati-39396/",
     "specs": {
-      "CPU": "Intel i3-13100F",
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4070 Ti Super 16 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Machete",
+    "price": 23999,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a94ed7c6cc45.08193713_nklpojgifqemh_200.webp",
+    "link": "https://www.incehesap.com/machete-hazir-sistem-fiyati-42335/",
+    "specs": {
+      "CPU": "Intel i3-14100F",
       "Ram": "16 GB DDR4",
       "GPU": "Gigabyte RTX 4060 8 GB",
       "Storage": "512 GB SSD Hazır Sistem"
@@ -11968,129 +11266,90 @@
     "store": "inceHesap"
   },
   {
-    "name": "PCH Antumbra",
-    "price": 25499,
-    "image": "https://www.incehesap.com/resim/urun/202407/66839f3a9bb7b7.01015879_nqjoimlehfgpk_200.webp",
-    "link": "https://www.incehesap.com/pch-antumbra-hazir-sistem-fiyati-56849/",
-    "specs": {
-      "CPU": "Intel i3-14100F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Glamor",
-    "price": 31999,
-    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
-    "link": "https://www.incehesap.com/glamor-hazir-sistem-fiyati-62718/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Scorpion 7600",
-    "price": 24999,
-    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
-    "link": "https://www.incehesap.com/scorpion-hazir-sistem-fiyati-60378/",
-    "specs": {
-      "CPU": "Intel i3-14100F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RX 7600 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Ripple",
-    "price": 39999,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/ripple-hazir-sistem-fiyati-62936/",
-    "specs": {
-      "CPU": "Intel i5-12400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "MSI RTX 4070 12 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Dark Solid",
-    "price": 60999,
-    "image": "https://www.incehesap.com/resim/urun/202311/655b4128d98186.31506198_nkqfielpmgojh_200.webp",
-    "link": "https://www.incehesap.com/dark-solid-hazir-sistem-fiyati-47663/",
-    "specs": {
-      "CPU": "Intel i7-13700K",
-      "Ram": "16 GB DDR5",
-      "GPU": "Powercolor RX 7900 XT 20 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Fenix Gold",
-    "price": 56999,
-    "image": "https://www.incehesap.com/resim/urun/202102/6028eefeab6821.09911597_glpqeknhiofjm_200.webp",
-    "link": "https://www.incehesap.com/fenix-gold-hazir-sistem-fiyati-48955/",
-    "specs": {
-      "CPU": "Intel i5-13600KF",
-      "Ram": "16 GB DDR5",
-      "GPU": "Powercolor RX 7900 XT 20 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Origin Silver",
-    "price": 70999,
-    "image": "https://www.incehesap.com/resim/urun/202406/66791aae8604c3.62493700_npioefjqgmhkl_200.webp",
-    "link": "https://www.incehesap.com/origin-silver-hazir-sistem-fiyati-50385/",
+    "name": "Strain Gold",
+    "price": 34999,
+    "image": "https://www.incehesap.com/resim/urun/202407/6683a0291c09c9.39876331_qpgnjfhemkloi_200.webp",
+    "link": "https://www.incehesap.com/strain-gold-hazir-sistem-fiyati-63161/",
     "specs": {
       "CPU": "Intel i5-13400F",
       "Ram": "16 GB DDR5",
-      "GPU": "Gigabyte RTX 4080 Super 16 GB",
+      "GPU": "Powercolor RX 7700 XT 12 GB",
       "Storage": "1 TB SSD Hazır Sistem"
     },
     "store": "inceHesap"
   },
   {
-    "name": "Tundra Silver",
-    "price": 61999,
-    "image": "https://www.incehesap.com/resim/urun/202302/63e214496b9037.22849704_qhflegnkojpmi_200.webp",
-    "link": "https://www.incehesap.com/tundra-silver-hazir-sistem-fiyati-41748/",
+    "name": "Curious PBM",
+    "price": 48229,
+    "image": "https://www.incehesap.com/resim/urun/202407/6683a0291c09c9.39876331_qpgnjfhemkloi_200.webp",
+    "link": "https://www.incehesap.com/curious-pbm-hazir-sistem-fiyati-62708/",
     "specs": {
       "CPU": "Intel i5-13600KF",
       "Ram": "16 GB DDR5",
-      "GPU": "Gigabyte RTX 4070 Ti Super 16 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
+      "GPU": "MSI RTX 4060 Ti 16 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
     },
     "store": "inceHesap"
   },
   {
-    "name": "Dynamic XT",
-    "price": 45999,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/dynamic-xt-hazir-sistem-fiyati-49065/",
+    "name": "Hyperion Evo PBM",
+    "price": 80229,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e10a52048147.31809263_ihgmlfjpqonke_200.webp",
+    "link": "https://www.incehesap.com/hyperion-evo-hazir-sistem-fiyati-64128/",
     "specs": {
-      "CPU": "AMD Ryzen 5 5600",
+      "CPU": "Intel i7-13700KF",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4080 Super 16 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Rainclaw Silver",
+    "price": 54999,
+    "image": "https://www.incehesap.com/resim/urun/202406/66791868602b76.23808833_kgjonhqmfpile_200.webp",
+    "link": "https://www.incehesap.com/rainclaw-silver-hazir-sistem-fiyati-38390/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 5700X",
       "Ram": "16 GB DDR4",
-      "GPU": "Gigabyte RTX 4070 Super 12 GB",
+      "GPU": "MSI RTX 4070 Ti 12 GB",
       "Storage": "512 GB SSD Hazır Sistem"
     },
     "store": "inceHesap"
   },
   {
-    "name": "Eagle Force PBM",
-    "price": 25999,
-    "image": "https://www.incehesap.com/resim/urun/202401/65a94ed7c6cc45.08193713_nklpojgifqemh_200.webp",
-    "link": "https://www.incehesap.com/eagle-force-pbm-hazir-sistem-fiyati-50073/",
+    "name": "Ventus Silver",
+    "price": 44999,
+    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
+    "link": "https://www.incehesap.com/ventus-silver-hazir-sistem-fiyati-47012/",
     "specs": {
-      "CPU": "Intel i3-14100F",
+      "CPU": "Intel i5-14400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4070 12 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Zodiak Gold",
+    "price": 55229,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/zodiak-gold-hazir-sistem-fiyati-63849/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Gigabyte RTX 4070 Ti 12 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Quinn V2 PBM",
+    "price": 29999,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
+    "link": "https://www.incehesap.com/quinn-v2-pbm-hazir-sistem-fiyati-35561/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 5700X",
       "Ram": "16 GB DDR4",
       "GPU": "MSI RTX 4060 8 GB",
       "Storage": "512 GB SSD Hazır Sistem"
@@ -12098,62 +11357,23 @@
     "store": "inceHesap"
   },
   {
-    "name": "Dynamic XT V2",
-    "price": 47999,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/dynamic-xt-v2-hazir-sistem-fiyati-49066/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Gigabyte RTX 4070 Super 12 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Massive",
-    "price": 45999,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/massive-hazir-sistem-fiyati-62183/",
+    "name": "Skygate Pro 4060",
+    "price": 33999,
+    "image": "https://www.incehesap.com/resim/urun/202306/648c4fe2806314.68243130_ehklmiqjgpfon_200.webp",
+    "link": "https://www.incehesap.com/skygate-pro-hazir-sistem-fiyati-46674/",
     "specs": {
       "CPU": "Intel i5-12400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Gigabyte RTX 4070 Super 12 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Rainclaw Gold PBM",
-    "price": 49999,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/rainclaw-gold-pbm-hazir-sistem-fiyati-41844/",
-    "specs": {
-      "CPU": "Intel i5-13600KF",
       "Ram": "16 GB DDR4",
-      "GPU": "MSI RTX 4070 Super 12 GB",
+      "GPU": "Asus RTX 4060 8 GB",
       "Storage": "512 GB SSD Hazır Sistem"
     },
     "store": "inceHesap"
   },
   {
-    "name": "Ascend Silver",
-    "price": 50999,
-    "image": "https://www.incehesap.com/resim/urun/202406/66791aae8604c3.62493700_npioefjqgmhkl_200.webp",
-    "link": "https://www.incehesap.com/ascend-silver-hazir-sistem-fiyati-41697/",
-    "specs": {
-      "CPU": "Intel i5-13400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Gigabyte RTX 4070 Ti 12 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Battle Elite",
-    "price": 30999,
-    "image": "https://www.incehesap.com/resim/urun/202406/66791868602b76.23808833_kgjonhqmfpile_200.webp",
-    "link": "https://www.incehesap.com/battle-elite-webtekno-hazir-sistem-fiyati-43563/",
+    "name": "PCH F Class 1.1",
+    "price": 29499,
+    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
+    "link": "https://www.incehesap.com/pch-f-class-1-1-hazir-sistem-fiyati-45603/",
     "specs": {
       "CPU": "AMD Ryzen 7 5700X",
       "Ram": "16 GB DDR4",
@@ -12163,27 +11383,105 @@
     "store": "inceHesap"
   },
   {
-    "name": "Zenith Silver",
-    "price": 34999,
-    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
-    "link": "https://www.incehesap.com/zenith-silver-frekanstv-hazir-sistem-fiyati-56888/",
+    "name": "VOK CHANCE",
+    "price": 29699,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
+    "link": "https://www.incehesap.com/vok-chance-hazir-sistem-fiyati-60099/",
     "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
+      "CPU": "Intel i5-13400F",
       "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4060 Ti 8 GB",
+      "GPU": "Asus RTX 4060 8 GB",
       "Storage": "512 GB SSD Hazır Sistem"
     },
     "store": "inceHesap"
   },
   {
-    "name": "Sharpen Silver PBM",
-    "price": 33499,
-    "image": "https://www.incehesap.com/resim/urun/202302/63e214496b9037.22849704_qhflegnkojpmi_200.webp",
-    "link": "https://www.incehesap.com/sharpen-silver-pbm-hazir-sistem-fiyati-45562/",
+    "name": "Ventus Evo",
+    "price": 24499,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a94ed7c6cc45.08193713_nklpojgifqemh_200.webp",
+    "link": "https://www.incehesap.com/ventus-evo-hazir-sistem-fiyati-64130/",
     "specs": {
-      "CPU": "AMD Ryzen 5 5600",
+      "CPU": "Intel i3-14100F",
       "Ram": "16 GB DDR4",
-      "GPU": "MSI RX 6800 16 GB",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Ripple Gold",
+    "price": 48999,
+    "image": "https://www.incehesap.com/resim/urun/202102/6028eefeab6821.09911597_glpqeknhiofjm_200.webp",
+    "link": "https://www.incehesap.com/ripple-gold-hazir-sistem-fiyati-63171/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4070 Super 12 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Obsidian Base",
+    "price": 27999,
+    "image": "https://www.incehesap.com/resim/urun/202405/6638d0436d0193.58674256_pgefqkijolnhm_200.webp",
+    "link": "https://www.incehesap.com/obsidian-base-hazir-sistem-fiyati-57182/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RX 7600 8 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "El Capitan",
+    "price": 45999,
+    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
+    "link": "https://www.incehesap.com/el-capitan-hazir-sistem-fiyati-45726/",
+    "specs": {
+      "CPU": "Intel i5-14400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4070 12 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Oblivion Gold",
+    "price": 40999,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/oblivion-gold-hazir-sistem-fiyati-63177/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "MSI RTX 4070 12 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Khaos 4070 Ti",
+    "price": 58229,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/khaos-hazir-sistem-fiyati-61000/",
+    "specs": {
+      "CPU": "Intel i5-13600KF",
+      "Ram": "16 GB DDR5",
+      "GPU": "Gigabyte RTX 4070 Ti 12 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Nihilstein Elite",
+    "price": 53999,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/nihilstein-elite-hazir-sistem-fiyati-42332/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4070 Ti 12 GB",
       "Storage": "512 GB SSD Hazır Sistem"
     },
     "store": "inceHesap"
@@ -12423,240 +11721,6 @@
     "store": "inceHesap"
   },
   {
-    "name": "Estate Pro",
-    "price": 54499,
-    "image": "https://www.incehesap.com/resim/urun/202406/6669870484b889.04764103_gqljnoiephfkm_200.webp",
-    "link": "https://www.incehesap.com/estate-pro-hazir-sistem-fiyati-39396/",
-    "specs": {
-      "CPU": "Intel i5-13400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4070 Ti Super 16 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Machete",
-    "price": 23999,
-    "image": "https://www.incehesap.com/resim/urun/202401/65a94ed7c6cc45.08193713_nklpojgifqemh_200.webp",
-    "link": "https://www.incehesap.com/machete-hazir-sistem-fiyati-42335/",
-    "specs": {
-      "CPU": "Intel i3-14100F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Gigabyte RTX 4060 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Strain Gold",
-    "price": 34999,
-    "image": "https://www.incehesap.com/resim/urun/202407/6683a0291c09c9.39876331_qpgnjfhemkloi_200.webp",
-    "link": "https://www.incehesap.com/strain-gold-hazir-sistem-fiyati-63161/",
-    "specs": {
-      "CPU": "Intel i5-13400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Powercolor RX 7700 XT 12 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Curious PBM",
-    "price": 46999,
-    "image": "https://www.incehesap.com/resim/urun/202407/6683a0291c09c9.39876331_qpgnjfhemkloi_200.webp",
-    "link": "https://www.incehesap.com/curious-pbm-hazir-sistem-fiyati-62708/",
-    "specs": {
-      "CPU": "Intel i5-13600KF",
-      "Ram": "16 GB DDR5",
-      "GPU": "MSI RTX 4060 Ti 16 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Hyperion Evo PBM",
-    "price": 78999,
-    "image": "https://www.incehesap.com/resim/urun/202302/63e10a52048147.31809263_ihgmlfjpqonke_200.webp",
-    "link": "https://www.incehesap.com/hyperion-evo-hazir-sistem-fiyati-64128/",
-    "specs": {
-      "CPU": "Intel i7-13700KF",
-      "Ram": "16 GB DDR5",
-      "GPU": "MSI RTX 4080 Super 16 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Rainclaw Silver",
-    "price": 54999,
-    "image": "https://www.incehesap.com/resim/urun/202406/66791868602b76.23808833_kgjonhqmfpile_200.webp",
-    "link": "https://www.incehesap.com/rainclaw-silver-hazir-sistem-fiyati-38390/",
-    "specs": {
-      "CPU": "AMD Ryzen 7 5700X",
-      "Ram": "16 GB DDR4",
-      "GPU": "MSI RTX 4070 Ti 12 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Ventus Silver",
-    "price": 44999,
-    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
-    "link": "https://www.incehesap.com/ventus-silver-hazir-sistem-fiyati-47012/",
-    "specs": {
-      "CPU": "Intel i5-14400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4070 12 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Zodiak Gold",
-    "price": 53999,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/zodiak-gold-hazir-sistem-fiyati-63849/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Gigabyte RTX 4070 Ti 12 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Quinn V2 PBM",
-    "price": 29999,
-    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
-    "link": "https://www.incehesap.com/quinn-v2-pbm-hazir-sistem-fiyati-35561/",
-    "specs": {
-      "CPU": "AMD Ryzen 7 5700X",
-      "Ram": "16 GB DDR4",
-      "GPU": "MSI RTX 4060 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Skygate Pro 4060",
-    "price": 33999,
-    "image": "https://www.incehesap.com/resim/urun/202306/648c4fe2806314.68243130_ehklmiqjgpfon_200.webp",
-    "link": "https://www.incehesap.com/skygate-pro-hazir-sistem-fiyati-46674/",
-    "specs": {
-      "CPU": "Intel i5-12400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "PCH F Class 1.1",
-    "price": 29499,
-    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
-    "link": "https://www.incehesap.com/pch-f-class-1-1-hazir-sistem-fiyati-45603/",
-    "specs": {
-      "CPU": "AMD Ryzen 7 5700X",
-      "Ram": "16 GB DDR4",
-      "GPU": "Gigabyte RTX 4060 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "VOK CHANCE",
-    "price": 29699,
-    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
-    "link": "https://www.incehesap.com/vok-chance-hazir-sistem-fiyati-60099/",
-    "specs": {
-      "CPU": "Intel i5-13400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Ventus Evo",
-    "price": 24499,
-    "image": "https://www.incehesap.com/resim/urun/202401/65a94ed7c6cc45.08193713_nklpojgifqemh_200.webp",
-    "link": "https://www.incehesap.com/ventus-evo-hazir-sistem-fiyati-64130/",
-    "specs": {
-      "CPU": "Intel i3-14100F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Ripple Gold",
-    "price": 48999,
-    "image": "https://www.incehesap.com/resim/urun/202102/6028eefeab6821.09911597_glpqeknhiofjm_200.webp",
-    "link": "https://www.incehesap.com/ripple-gold-hazir-sistem-fiyati-63171/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4070 Super 12 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Obsidian Base",
-    "price": 27999,
-    "image": "https://www.incehesap.com/resim/urun/202405/6638d0436d0193.58674256_pgefqkijolnhm_200.webp",
-    "link": "https://www.incehesap.com/obsidian-base-hazir-sistem-fiyati-57182/",
-    "specs": {
-      "CPU": "Intel i5-12400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RX 7600 8 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "El Capitan",
-    "price": 45999,
-    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
-    "link": "https://www.incehesap.com/el-capitan-hazir-sistem-fiyati-45726/",
-    "specs": {
-      "CPU": "Intel i5-14400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4070 12 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Oblivion Gold",
-    "price": 40999,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/oblivion-gold-hazir-sistem-fiyati-63177/",
-    "specs": {
-      "CPU": "Intel i5-13400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "MSI RTX 4070 12 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Khaos 4070 Ti",
-    "price": 56999,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/khaos-hazir-sistem-fiyati-61000/",
-    "specs": {
-      "CPU": "Intel i5-13600KF",
-      "Ram": "16 GB DDR5",
-      "GPU": "Gigabyte RTX 4070 Ti 12 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
     "name": "Wardon 4070 Super",
     "price": 41999,
     "image": "https://www.incehesap.com/resim/urun/202302/63e212270b7c53.80281962_iohgejnkpmfql_200.webp",
@@ -12890,6 +11954,941 @@
     "store": "inceHesap"
   },
   {
+    "name": "Matem Silver",
+    "price": 32999,
+    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
+    "link": "https://www.incehesap.com/matem-silver-hazir-sistem-fiyati-46901/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RX 7600 XT 16 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Atlantic Platinum PBM",
+    "price": 117999,
+    "image": "https://www.incehesap.com/resim/urun/202403/65eea9e79ee9e5.80949613_pegjqoflknmih_200.webp",
+    "link": "https://www.incehesap.com/atlantic-platinum-pbm-hazir-sistem-fiyati-42946/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X3D",
+      "Ram": "32 GB DDR5",
+      "GPU": "MSI RTX 4090 24 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Razor Crest",
+    "price": 45999,
+    "image": "https://www.incehesap.com/resim/urun/202403/65eea9e79ee9e5.80949613_pegjqoflknmih_200.webp",
+    "link": "https://www.incehesap.com/razor-crest-hazir-sistem-fiyati-35562/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RX 7900 GRE 16 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "RaptorLake",
+    "price": 68999,
+    "image": "https://www.incehesap.com/resim/urun/202403/65eea9e79ee9e5.80949613_pegjqoflknmih_200.webp",
+    "link": "https://www.incehesap.com/raptorlake-hazir-sistem-fiyati-59766/",
+    "specs": {
+      "CPU": "Intel i7-13700K",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4070 Ti Super 16 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Sempiternal",
+    "price": 44999,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/sempiternal-hazir-sistem-fiyati-63158/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4070 12 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Orion V2",
+    "price": 17999,
+    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
+    "link": "https://www.incehesap.com/orion-v2-hazir-sistem-fiyati-42325/",
+    "specs": {
+      "CPU": "Intel i3-12100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Axle RX 5700 XT  8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Flow Bronze",
+    "price": 48999,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/flow-bronze-hazir-sistem-fiyati-50390/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Gigabyte RTX 4070 Super 12 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Lord X",
+    "price": 24499,
+    "image": "https://www.incehesap.com/resim/urun/202405/6638d0436d0193.58674256_pgefqkijolnhm_200.webp",
+    "link": "https://www.incehesap.com/lord-x-hazir-sistem-fiyati-43260/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Freedom",
+    "price": 61999,
+    "image": "https://www.incehesap.com/resim/urun/202311/655b4128d98186.31506198_nkqfielpmgojh_200.webp",
+    "link": "https://www.incehesap.com/freedom-hazir-sistem-fiyati-40898/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X3D",
+      "Ram": "32 GB DDR5",
+      "GPU": "Powercolor RX 7900 XT 20 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Ethereal Gold",
+    "price": 42999,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e23ccaecb934.00217227_mjnhpgofkilqe_200.webp",
+    "link": "https://www.incehesap.com/ethereal-gold-hazir-sistem-fiyati-63017/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4070 12 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Nemesis",
+    "price": 22999,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e236967ff001.90324741_okqeiglnmfhpj_200.webp",
+    "link": "https://www.incehesap.com/nemesis-hazir-sistem-fiyati-42798/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5500",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RX 6650 XT 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Vector Silver",
+    "price": 121999,
+    "image": "https://www.incehesap.com/resim/urun/202403/65eea9e79ee9e5.80949613_pegjqoflknmih_200.webp",
+    "link": "https://www.incehesap.com/vector-silver-hazir-sistem-fiyati-46673/",
+    "specs": {
+      "CPU": "Intel i7-13700K",
+      "Ram": "32 GB DDR5",
+      "GPU": "Gigabyte RTX 4090 24 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Goliath Gold",
+    "price": 68999,
+    "image": "https://www.incehesap.com/resim/urun/202403/65eea9e79ee9e5.80949613_pegjqoflknmih_200.webp",
+    "link": "https://www.incehesap.com/goliath-gold-hazir-sistem-fiyati-52893/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RX 7900 XTX 24 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Nova Gold",
+    "price": 80999,
+    "image": "https://www.incehesap.com/resim/urun/202407/6683a0291c09c9.39876331_qpgnjfhemkloi_200.webp",
+    "link": "https://www.incehesap.com/nova-gold-hazir-sistem-fiyati-67324/",
+    "specs": {
+      "CPU": "Intel i7-13700KF",
+      "Ram": "32 GB DDR5",
+      "GPU": "Asus RTX 4080 Super 16 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Raider V2",
+    "price": 27999,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
+    "link": "https://www.incehesap.com/raider-v2-hazir-sistem-fiyati-35240/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Colorful RTX 4060 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Alys Silver",
+    "price": 41999,
+    "image": "https://www.incehesap.com/resim/urun/202406/66791aae8604c3.62493700_npioefjqgmhkl_200.webp",
+    "link": "https://www.incehesap.com/alys-silver-lemur-hazir-sistem-fiyati-50902/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Powercolor RX 7900 GRE 16 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Aspect",
+    "price": 28499,
+    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
+    "link": "https://www.incehesap.com/aspect-hazir-sistem-fiyati-58372/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 5700X",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Brave Gold",
+    "price": 24999,
+    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
+    "link": "https://www.incehesap.com/brave-gold-hazir-sistem-fiyati-63015/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "PNY RTX 4060 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Metin",
+    "price": 24999,
+    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
+    "link": "https://www.incehesap.com/metin-hazir-sistem-fiyati-50383/",
+    "specs": {
+      "CPU": "Intel i3-13100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Gigabyte RTX 4060 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "PCH Antumbra",
+    "price": 25499,
+    "image": "https://www.incehesap.com/resim/urun/202407/66839f3a9bb7b7.01015879_nqjoimlehfgpk_200.webp",
+    "link": "https://www.incehesap.com/pch-antumbra-hazir-sistem-fiyati-56849/",
+    "specs": {
+      "CPU": "Intel i3-14100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Glamor",
+    "price": 31999,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
+    "link": "https://www.incehesap.com/glamor-hazir-sistem-fiyati-62718/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Scorpion 7600",
+    "price": 24999,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
+    "link": "https://www.incehesap.com/scorpion-hazir-sistem-fiyati-60378/",
+    "specs": {
+      "CPU": "Intel i3-14100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RX 7600 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Ripple",
+    "price": 39999,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/ripple-hazir-sistem-fiyati-62936/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "MSI RTX 4070 12 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Dark Solid",
+    "price": 60999,
+    "image": "https://www.incehesap.com/resim/urun/202311/655b4128d98186.31506198_nkqfielpmgojh_200.webp",
+    "link": "https://www.incehesap.com/dark-solid-hazir-sistem-fiyati-47663/",
+    "specs": {
+      "CPU": "Intel i7-13700K",
+      "Ram": "16 GB DDR5",
+      "GPU": "Powercolor RX 7900 XT 20 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Fenix Gold",
+    "price": 56999,
+    "image": "https://www.incehesap.com/resim/urun/202102/6028eefeab6821.09911597_glpqeknhiofjm_200.webp",
+    "link": "https://www.incehesap.com/fenix-gold-hazir-sistem-fiyati-48955/",
+    "specs": {
+      "CPU": "Intel i5-13600KF",
+      "Ram": "16 GB DDR5",
+      "GPU": "Powercolor RX 7900 XT 20 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Origin Silver",
+    "price": 70999,
+    "image": "https://www.incehesap.com/resim/urun/202406/66791aae8604c3.62493700_npioefjqgmhkl_200.webp",
+    "link": "https://www.incehesap.com/origin-silver-hazir-sistem-fiyati-50385/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Gigabyte RTX 4080 Super 16 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Tundra Silver",
+    "price": 61999,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e214496b9037.22849704_qhflegnkojpmi_200.webp",
+    "link": "https://www.incehesap.com/tundra-silver-hazir-sistem-fiyati-41748/",
+    "specs": {
+      "CPU": "Intel i5-13600KF",
+      "Ram": "16 GB DDR5",
+      "GPU": "Gigabyte RTX 4070 Ti Super 16 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Dynamic XT",
+    "price": 45999,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/dynamic-xt-hazir-sistem-fiyati-49065/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600",
+      "Ram": "16 GB DDR4",
+      "GPU": "Gigabyte RTX 4070 Super 12 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Eagle Force PBM",
+    "price": 25999,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a94ed7c6cc45.08193713_nklpojgifqemh_200.webp",
+    "link": "https://www.incehesap.com/eagle-force-pbm-hazir-sistem-fiyati-50073/",
+    "specs": {
+      "CPU": "Intel i3-14100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "MSI RTX 4060 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Dynamic XT V2",
+    "price": 47999,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/dynamic-xt-v2-hazir-sistem-fiyati-49066/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Gigabyte RTX 4070 Super 12 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Massive",
+    "price": 45999,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/massive-hazir-sistem-fiyati-62183/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Gigabyte RTX 4070 Super 12 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Rainclaw Gold PBM",
+    "price": 49999,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/rainclaw-gold-pbm-hazir-sistem-fiyati-41844/",
+    "specs": {
+      "CPU": "Intel i5-13600KF",
+      "Ram": "16 GB DDR4",
+      "GPU": "MSI RTX 4070 Super 12 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Ascend Silver",
+    "price": 50999,
+    "image": "https://www.incehesap.com/resim/urun/202406/66791aae8604c3.62493700_npioefjqgmhkl_200.webp",
+    "link": "https://www.incehesap.com/ascend-silver-hazir-sistem-fiyati-41697/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Gigabyte RTX 4070 Ti 12 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Battle Elite",
+    "price": 31999,
+    "image": "https://www.incehesap.com/resim/urun/202406/66791868602b76.23808833_kgjonhqmfpile_200.webp",
+    "link": "https://www.incehesap.com/battle-elite-webtekno-hazir-sistem-fiyati-43563/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 5700X",
+      "Ram": "16 GB DDR4",
+      "GPU": "Gigabyte RTX 4060 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Zenith Silver",
+    "price": 34999,
+    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
+    "link": "https://www.incehesap.com/zenith-silver-frekanstv-hazir-sistem-fiyati-56888/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4060 Ti 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Sharpen Silver PBM",
+    "price": 33499,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e214496b9037.22849704_qhflegnkojpmi_200.webp",
+    "link": "https://www.incehesap.com/sharpen-silver-pbm-hazir-sistem-fiyati-45562/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600",
+      "Ram": "16 GB DDR4",
+      "GPU": "MSI RX 6800 16 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Majesty",
+    "price": 31999,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
+    "link": "https://www.incehesap.com/majesty-hazir-sistem-fiyati-43299/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 Ti 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Crown Silver",
+    "price": 18499,
+    "image": "https://www.incehesap.com/resim/urun/202407/66839f3a9bb7b7.01015879_nqjoimlehfgpk_200.webp",
+    "link": "https://www.incehesap.com/crown-silver-hazir-sistem-fiyati-44977/",
+    "specs": {
+      "CPU": "Sparkle Intel Arc A750 8 GB",
+      "Ram": "16 GB DDR4",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Red Devil",
+    "price": 54999,
+    "image": "https://www.incehesap.com/resim/urun/202307/64c206c691cac0.85625634_mfjogeilphnkq_200.webp",
+    "link": "https://www.incehesap.com/red-devil-hazir-sistem-fiyati-43009/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X3D",
+      "Ram": "32 GB DDR5",
+      "GPU": "Powercolor RX 7800 XT 16 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Estate Pro V2",
+    "price": 25999,
+    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
+    "link": "https://www.incehesap.com/estate-pro-v2-fiyati-41254/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Hero XT PBM",
+    "price": 30999,
+    "image": "https://www.incehesap.com/resim/urun/202402/65cf6e30153e33.10289865_legonqikfhmpj_200.webp",
+    "link": "https://www.incehesap.com/hero-xt-pbm-hazir-sistem-fiyati-47573/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4060 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Achilles",
+    "price": 24999,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e23ccaecb934.00217227_mjnhpgofkilqe_200.webp",
+    "link": "https://www.incehesap.com/achilles-hazir-sistem-fiyati-57905/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Vangard",
+    "price": 49999,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/vangard-hazir-sistem-fiyati-48044/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X3D",
+      "Ram": "16 GB DDR5",
+      "GPU": "Powercolor RX 7900 GRE 16 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Crixus V2",
+    "price": 18999,
+    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
+    "link": "https://www.incehesap.com/crixus-v2-hazir-sistem-fiyati-45066/",
+    "specs": {
+      "CPU": "Intel i3-12100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Axle RTX 2060S 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Eagle 3060 Ti",
+    "price": 27999,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
+    "link": "https://www.incehesap.com/eagle-3060-ti-hazir-sistem-fiyati-41669/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Gigabyte RTX 3060 Ti 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Thunder Silver",
+    "price": 25999,
+    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
+    "link": "https://www.incehesap.com/thunder-silver-hazir-sistem-fiyati-43174/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RX 6600 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Articuno",
+    "price": 38999,
+    "image": "https://www.incehesap.com/resim/urun/202311/655b4128d98186.31506198_nkqfielpmgojh_200.webp",
+    "link": "https://www.incehesap.com/articuno-hazir-sistem-fiyati-41940/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600",
+      "Ram": "16 GB DDR5",
+      "GPU": "Powercolor RX 7800 XT 16 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Clutch PBM",
+    "price": 29499,
+    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
+    "link": "https://www.incehesap.com/clutch-pbm-hazir-sistem-fiyati-44441/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4060 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Zenith 4070 Ti Super",
+    "price": 56999,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/zenith-4070-ti-super-hazir-sistem-fiyati-37255/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Gigabyte RTX 4070 Ti Super 16 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Lancea",
+    "price": 49999,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e214496b9037.22849704_qhflegnkojpmi_200.webp",
+    "link": "https://www.incehesap.com/lancea-hazir-sistem-fiyati-51853/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "PNY RTX 4070 Ti Super 16 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Articuno Elite PBM",
+    "price": 36999,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
+    "link": "https://www.incehesap.com/articuno-elite-pbm-hazir-sistem-fiyati-42795/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "MSI RTX 4060 Ti 16 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Wind Force PBM",
+    "price": 42999,
+    "image": "https://www.incehesap.com/resim/urun/202405/6655f06dc62144.90061049_gqhjflnepokmi_200.webp",
+    "link": "https://www.incehesap.com/wind-force-pbm-hazir-sistem-fiyati-38568/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4070 12 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Flame 4060",
+    "price": 27999,
+    "image": "https://www.incehesap.com/resim/urun/202406/6669862c97f304.11933245_ilnmhqeopjgkf_200.webp",
+    "link": "https://www.incehesap.com/flame-hazir-sistem-fiyati-37443/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Neron 6600 V2",
+    "price": 18999,
+    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
+    "link": "https://www.incehesap.com/neron-6600-v2-hazir-sistem-fiyati-50681/",
+    "specs": {
+      "CPU": "Intel i3-12100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RX 6600 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "PCH Penumbra Gold",
+    "price": 51999,
+    "image": "https://www.incehesap.com/resim/urun/202406/66791868602b76.23808833_kgjonhqmfpile_200.webp",
+    "link": "https://www.incehesap.com/pch-penumbra-gold-hazir-sistem-fiyati-42962/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Gigabyte RTX 4070 Super 12 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Prime",
+    "price": 60999,
+    "image": "https://www.incehesap.com/resim/urun/202311/655b4128d98186.31506198_nkqfielpmgojh_200.webp",
+    "link": "https://www.incehesap.com/prime-hazir-sistem-fiyati-48012/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X3D",
+      "Ram": "16 GB DDR5",
+      "GPU": "Powercolor RX 7900 XT 20 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Phoenix Silver",
+    "price": 55999,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/phoenix-silver-hazir-sistem-fiyati-42326/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4070 Ti Super 16 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Corax Bronze",
+    "price": 23499,
+    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
+    "link": "https://www.incehesap.com/corax-bronze-hazir-sistem-fiyati-43356/",
+    "specs": {
+      "CPU": "Intel i3-13100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RX 7600 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Stainless 4060",
+    "price": 27999,
+    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
+    "link": "https://www.incehesap.com/stainless-hazir-sistem-fiyati-61982/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Origin Gold",
+    "price": 79999,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b9e2a3e0034.73512644_pkqjfnlmgoehi_200.webp",
+    "link": "https://www.incehesap.com/origin-gold-hazir-sistem-fiyati-50387/",
+    "specs": {
+      "CPU": "Intel i7-13700K",
+      "Ram": "32 GB DDR5",
+      "GPU": "PNY RTX 4080 Super 16 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Whisper 4060 Ti",
+    "price": 39999,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
+    "link": "https://www.incehesap.com/whisper-4060-ti-hazir-sistem-fiyati-64134/",
+    "specs": {
+      "CPU": "Intel i5-13600KF",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 Ti 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Neron 6600",
+    "price": 20999,
+    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
+    "link": "https://www.incehesap.com/neron-6600-hazir-sistem-fiyati-51535/",
+    "specs": {
+      "CPU": "Intel i3-14100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RX 6600 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "TechnoEpic",
+    "price": 77999,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b9e2a3e0034.73512644_pkqjfnlmgoehi_200.webp",
+    "link": "https://www.incehesap.com/technoepic-bilgisayari-hazir-sistem-fiyati-56270/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7700X",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4080 Super 16 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Jarvis Hero Creator",
+    "price": 57999,
+    "image": "https://www.incehesap.com/resim/urun/202405/6638d0436d0193.58674256_pgefqkijolnhm_200.webp",
+    "link": "https://www.incehesap.com/jarvis-hero-hazir-sistem-fiyati-48268/",
+    "specs": {
+      "CPU": "Intel i7-13700K",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4070 12 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Reinforce",
+    "price": 30499,
+    "image": "https://www.incehesap.com/resim/urun/202405/6638d0436d0193.58674256_pgefqkijolnhm_200.webp",
+    "link": "https://www.incehesap.com/reinforce-hazir-sistem-fiyati-61925/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Hector Silver",
+    "price": 46499,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e214496b9037.22849704_qhflegnkojpmi_200.webp",
+    "link": "https://www.incehesap.com/hector-silver-hazir-sistem-fiyati-50348/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 5700X",
+      "Ram": "16 GB DDR4",
+      "GPU": "MSI RTX 4070 12 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Nihilstein V1 PBM",
+    "price": 59999,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/nihilstein-v1-pbm-hazir-sistem-fiyati-56511/",
+    "specs": {
+      "CPU": "Intel i5-13600KF",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4070 Ti 12 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "WhiteFox Platinum",
+    "price": 51999,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b9d62b65d18.48115181_pjhelqkmingfo_200.webp",
+    "link": "https://www.incehesap.com/whitefox-platinum-hazir-sistem-fiyati-46594/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Powercolor RX 7900 XT 20 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Thunder 4060 Ti",
+    "price": 40999,
+    "image": "https://www.incehesap.com/resim/urun/202306/648c4fe2806314.68243130_ehklmiqjgpfon_200.webp",
+    "link": "https://www.incehesap.com/thunder-hazir-sistem-fiyati-47014/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 Ti 8 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Vector Bronze",
+    "price": 23999,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
+    "link": "https://www.incehesap.com/vector-bronze-hazir-sistem-fiyati-46672/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5500",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RX 7600 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Oblivion",
+    "price": 33699,
+    "image": "https://www.incehesap.com/resim/urun/202407/6683a0291c09c9.39876331_qpgnjfhemkloi_200.webp",
+    "link": "https://www.incehesap.com/oblivion-hazir-sistem-fiyati-62946/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600",
+      "Ram": "16 GB DDR4",
+      "GPU": "MSI RTX 4060 Ti 8 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Sharpen 7600XT",
+    "price": 29999,
+    "image": "https://www.incehesap.com/resim/urun/202406/6669862c97f304.11933245_ilnmhqeopjgkf_200.webp",
+    "link": "https://www.incehesap.com/sharpen-hazir-sistem-fiyati-61443/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RX 7600 XT 16 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
     "name": "Negatron 3060 Ti",
     "price": 22999,
     "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
@@ -12943,7 +12942,7 @@
   },
   {
     "name": "Infinity Dual",
-    "price": 55229,
+    "price": 54999,
     "image": "https://www.incehesap.com/resim/urun/202403/65eea9e79ee9e5.80949613_pegjqoflknmih_200.webp",
     "link": "https://www.incehesap.com/infinity-dual-hazir-sistem-fiyati-64253/",
     "specs": {
@@ -12981,7 +12980,7 @@
   },
   {
     "name": "Jarvis-X",
-    "price": 39229,
+    "price": 39999,
     "image": "https://www.incehesap.com/resim/urun/202407/6683a0291c09c9.39876331_qpgnjfhemkloi_200.webp",
     "link": "https://www.incehesap.com/jarvis-x-hazir-sistem-fiyati-46589/",
     "specs": {
@@ -12994,7 +12993,7 @@
   },
   {
     "name": "Helios Platinum",
-    "price": 44229,
+    "price": 42999,
     "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
     "link": "https://www.incehesap.com/helios-platinum-hazir-sistem-fiyati-48972/",
     "specs": {
@@ -13098,7 +13097,7 @@
   },
   {
     "name": "White Angel",
-    "price": 65229,
+    "price": 63999,
     "image": "https://www.incehesap.com/resim/urun/202311/655b4128d98186.31506198_nkqfielpmgojh_200.webp",
     "link": "https://www.incehesap.com/white-angel-hazir-sistem-fiyati-56273/",
     "specs": {
@@ -13118,6 +13117,240 @@
       "CPU": "Intel i3-14100F",
       "Ram": "16 GB DDR4",
       "GPU": "Asus RX 6650 XT 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Procyon 4060",
+    "price": 26999,
+    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
+    "link": "https://www.incehesap.com/procyon-hazir-sistem-fiyati-35558/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Colorful RTX 4060 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Eternal PBM",
+    "price": 80999,
+    "image": "https://www.incehesap.com/resim/urun/202406/66791aae8604c3.62493700_npioefjqgmhkl_200.webp",
+    "link": "https://www.incehesap.com/eternal-pbm-hazir-sistem-fiyati-62756/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X3D",
+      "Ram": "32 GB DDR5",
+      "GPU": "MSI RTX 4080 Super 16 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Metaverse PBM",
+    "price": 44999,
+    "image": "https://www.incehesap.com/resim/urun/202401/65ba46129ca239.86740278_himfglkjponeq_200.webp",
+    "link": "https://www.incehesap.com/metaverse-pbm-hazir-sistem-fiyati-63188/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4070 Super 12 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Daemon",
+    "price": 18499,
+    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
+    "link": "https://www.incehesap.com/daemon-hazir-sistem-fiyati-58355/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5500",
+      "Ram": "16 GB DDR4",
+      "GPU": "Axle RTX 2060S 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "GeForce Master",
+    "price": 142999,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e10a52048147.31809263_ihgmlfjpqonke_200.webp",
+    "link": "https://www.incehesap.com/geforce-espor-pc-master-hazir-sistem-fiyati-45563/",
+    "specs": {
+      "CPU": "AMD Ryzen 9 7900X",
+      "Ram": "32 GB DDR5",
+      "GPU": "Gigabyte RTX 4090 24 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Winorwin Elite",
+    "price": 32999,
+    "image": "https://www.incehesap.com/resim/urun/202407/66839f3a9bb7b7.01015879_nqjoimlehfgpk_200.webp",
+    "link": "https://www.incehesap.com/winorwin-elite-hazir-sistem-fiyati-46665/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Powercolor RX 7700 XT 12 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Tundra 4080 Super",
+    "price": 67999,
+    "image": "https://www.incehesap.com/resim/urun/202406/66791aae8604c3.62493700_npioefjqgmhkl_200.webp",
+    "link": "https://www.incehesap.com/tundra-hazir-sistem-fiyati-56275/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4080 Super 16 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Fornax 4090",
+    "price": 148999,
+    "image": "https://www.incehesap.com/resim/urun/202407/669f7030d33871.02513166_hepokqjlnmifg_200.webp",
+    "link": "https://www.incehesap.com/fornax-hazir-sistem-fiyati-60039/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X3D",
+      "Ram": "32 GB DDR5",
+      "GPU": "Asus RTX 4090 24 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Slate Pro 3050",
+    "price": 17999,
+    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
+    "link": "https://www.incehesap.com/slate-pro-3050-hazir-sistem-fiyati-46592/",
+    "specs": {
+      "CPU": "Intel i3-13100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Axle RTX 3050 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Wardon 4060 Ti",
+    "price": 34999,
+    "image": "https://www.incehesap.com/resim/urun/202406/6669862c97f304.11933245_ilnmhqeopjgkf_200.webp",
+    "link": "https://www.incehesap.com/wardon-4060-ti-hazir-sistem-fiyati-63180/",
+    "specs": {
+      "CPU": "Intel i5-14400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 Ti 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Khopesh 6650 XT",
+    "price": 18999,
+    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
+    "link": "https://www.incehesap.com/khopesh-hazir-sistem-fiyati-61003/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5500",
+      "Ram": "16 GB DDR4",
+      "GPU": "Powercolor RX 6650 XT 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Falcon 4090",
+    "price": 114999,
+    "image": "https://www.incehesap.com/resim/urun/202405/663a03403b6d27.96978412_lehoinkjfgmqp_200.webp",
+    "link": "https://www.incehesap.com/falcon-4090-hazir-sistem-fiyati-47354/",
+    "specs": {
+      "CPU": "Intel i7-13700KF",
+      "Ram": "32 GB DDR5",
+      "GPU": "Asus RTX 4090 24 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Nyks 4080 Süper",
+    "price": 77999,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e10a52048147.31809263_ihgmlfjpqonke_200.webp",
+    "link": "https://www.incehesap.com/nyks-hazir-sistem-fiyati-58884/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X3D",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4080 Super 16 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Uber 3060 V2",
+    "price": 23999,
+    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
+    "link": "https://www.incehesap.com/uber-v2-hazir-sistem-fiyati-45167/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 3600",
+      "Ram": "16 GB DDR4",
+      "GPU": "MSI RTX 3060 12 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Lancool PBM",
+    "price": 30999,
+    "image": "https://www.incehesap.com/resim/urun/202402/65cf6e30153e33.10289865_legonqikfhmpj_200.webp",
+    "link": "https://www.incehesap.com/lancool-pbm-hazir-sistem-fiyati-49175/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4060 8 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Slate Gold",
+    "price": 80999,
+    "image": "https://www.incehesap.com/resim/urun/202311/655b4128d98186.31506198_nkqfielpmgojh_200.webp",
+    "link": "https://www.incehesap.com/slate-gold-hazir-sistem-fiyati-46113/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X3D",
+      "Ram": "32 GB DDR5",
+      "GPU": "Gigabyte RTX 4080 Super 16 GB",
+      "Storage": "1 TB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Synthetix",
+    "price": 22599,
+    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
+    "link": "https://www.incehesap.com/synthetix-hazir-sistem-fiyati-62372/",
+    "specs": {
+      "CPU": "Intel i3-13100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD Hazır Sistem"
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Telcharming",
+    "price": 24999,
+    "image": "https://www.incehesap.com/resim/urun/202402/65cf6e30153e33.10289865_legonqikfhmpj_200.webp",
+    "link": "https://www.incehesap.com/telcharming-hazir-sistem-fiyati-39593/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600",
+      "Ram": "16 GB DDR4",
+      "GPU": "Gigabyte RTX 4060 8 GB",
       "Storage": "512 GB SSD Hazır Sistem"
     },
     "store": "inceHesap"
@@ -13176,7 +13409,7 @@
   },
   {
     "name": "Ethereal",
-    "price": 60229,
+    "price": 58999,
     "image": "https://www.incehesap.com/resim/urun/202401/65ba46129ca239.86740278_himfglkjponeq_200.webp",
     "link": "https://www.incehesap.com/ethereal-hazir-sistem-fiyati-62934/",
     "specs": {
@@ -13241,7 +13474,7 @@
   },
   {
     "name": "Flexy Silver PBM",
-    "price": 51229,
+    "price": 49999,
     "image": "https://www.incehesap.com/resim/urun/202401/65ba46129ca239.86740278_himfglkjponeq_200.webp",
     "link": "https://www.incehesap.com/flexy-silver-pbm-hazir-sistem-fiyati-48781/",
     "specs": {
@@ -13280,7 +13513,7 @@
   },
   {
     "name": "Souldash",
-    "price": 61229,
+    "price": 59999,
     "image": "https://www.incehesap.com/resim/urun/202102/6028eefeab6821.09911597_glpqeknhiofjm_200.webp",
     "link": "https://www.incehesap.com/souldash-hazir-sistem-fiyati-57341/",
     "specs": {
@@ -13318,7 +13551,7 @@
   },
   {
     "name": "Superior Bronze",
-    "price": 67229,
+    "price": 67999,
     "image": "https://www.incehesap.com/resim/urun/202407/6683a0291c09c9.39876331_qpgnjfhemkloi_200.webp",
     "link": "https://www.incehesap.com/superior-bronze-hazir-sistem-fiyati-44963/",
     "specs": {
@@ -13576,7 +13809,7 @@
   },
   {
     "name": "Skygate Pro V2",
-    "price": 40999,
+    "price": 41999,
     "image": "https://www.incehesap.com/resim/urun/202102/6028eefeab6821.09911597_glpqeknhiofjm_200.webp",
     "link": "https://www.incehesap.com/skygate-pro-v2-hazir-sistem-fiyati-50349/",
     "specs": {
@@ -13584,239 +13817,6 @@
       "Ram": "16 GB DDR5",
       "GPU": "Gigabyte RTX 4060 8 GB",
       "Storage": "1 TB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Majesty",
-    "price": 31999,
-    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
-    "link": "https://www.incehesap.com/majesty-hazir-sistem-fiyati-43299/",
-    "specs": {
-      "CPU": "Intel i5-12400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4060 Ti 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Crown Silver",
-    "price": 18499,
-    "image": "https://www.incehesap.com/resim/urun/202407/66839f3a9bb7b7.01015879_nqjoimlehfgpk_200.webp",
-    "link": "https://www.incehesap.com/crown-silver-hazir-sistem-fiyati-44977/",
-    "specs": {
-      "CPU": "Sparkle Intel Arc A750 8 GB",
-      "Ram": "16 GB DDR4",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Red Devil",
-    "price": 54999,
-    "image": "https://www.incehesap.com/resim/urun/202307/64c206c691cac0.85625634_mfjogeilphnkq_200.webp",
-    "link": "https://www.incehesap.com/red-devil-hazir-sistem-fiyati-43009/",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X3D",
-      "Ram": "32 GB DDR5",
-      "GPU": "Powercolor RX 7800 XT 16 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Estate Pro V2",
-    "price": 25999,
-    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
-    "link": "https://www.incehesap.com/estate-pro-v2-fiyati-41254/",
-    "specs": {
-      "CPU": "Intel i5-12400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Hero XT PBM",
-    "price": 30999,
-    "image": "https://www.incehesap.com/resim/urun/202402/65cf6e30153e33.10289865_legonqikfhmpj_200.webp",
-    "link": "https://www.incehesap.com/hero-xt-pbm-hazir-sistem-fiyati-47573/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600",
-      "Ram": "16 GB DDR5",
-      "GPU": "MSI RTX 4060 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Achilles",
-    "price": 24999,
-    "image": "https://www.incehesap.com/resim/urun/202302/63e23ccaecb934.00217227_mjnhpgofkilqe_200.webp",
-    "link": "https://www.incehesap.com/achilles-hazir-sistem-fiyati-57905/",
-    "specs": {
-      "CPU": "Intel i5-12400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Vangard",
-    "price": 50229,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/vangard-hazir-sistem-fiyati-48044/",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X3D",
-      "Ram": "16 GB DDR5",
-      "GPU": "Powercolor RX 7900 GRE 16 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Crixus V2",
-    "price": 18999,
-    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
-    "link": "https://www.incehesap.com/crixus-v2-hazir-sistem-fiyati-45066/",
-    "specs": {
-      "CPU": "Intel i3-12100F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Axle RTX 2060S 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Eagle 3060 Ti",
-    "price": 27999,
-    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
-    "link": "https://www.incehesap.com/eagle-3060-ti-hazir-sistem-fiyati-41669/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Gigabyte RTX 3060 Ti 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Thunder Silver",
-    "price": 25999,
-    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
-    "link": "https://www.incehesap.com/thunder-silver-hazir-sistem-fiyati-43174/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RX 6600 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Articuno",
-    "price": 38999,
-    "image": "https://www.incehesap.com/resim/urun/202311/655b4128d98186.31506198_nkqfielpmgojh_200.webp",
-    "link": "https://www.incehesap.com/articuno-hazir-sistem-fiyati-41940/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600",
-      "Ram": "16 GB DDR5",
-      "GPU": "Powercolor RX 7800 XT 16 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Clutch PBM",
-    "price": 29499,
-    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
-    "link": "https://www.incehesap.com/clutch-pbm-hazir-sistem-fiyati-44441/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Ram": "16 GB DDR5",
-      "GPU": "MSI RTX 4060 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Zenith 4070 Ti Super",
-    "price": 56999,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/zenith-4070-ti-super-hazir-sistem-fiyati-37255/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Gigabyte RTX 4070 Ti Super 16 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Lancea",
-    "price": 49999,
-    "image": "https://www.incehesap.com/resim/urun/202302/63e214496b9037.22849704_qhflegnkojpmi_200.webp",
-    "link": "https://www.incehesap.com/lancea-hazir-sistem-fiyati-51853/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "PNY RTX 4070 Ti Super 16 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Articuno Elite PBM",
-    "price": 36999,
-    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
-    "link": "https://www.incehesap.com/articuno-elite-pbm-hazir-sistem-fiyati-42795/",
-    "specs": {
-      "CPU": "Intel i5-13400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "MSI RTX 4060 Ti 16 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Wind Force PBM",
-    "price": 42999,
-    "image": "https://www.incehesap.com/resim/urun/202405/6655f06dc62144.90061049_gqhjflnepokmi_200.webp",
-    "link": "https://www.incehesap.com/wind-force-pbm-hazir-sistem-fiyati-38568/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "MSI RTX 4070 12 GB",
-      "Storage": "1 TB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Flame 4060",
-    "price": 27999,
-    "image": "https://www.incehesap.com/resim/urun/202406/6669862c97f304.11933245_ilnmhqeopjgkf_200.webp",
-    "link": "https://www.incehesap.com/flame-hazir-sistem-fiyati-37443/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Neron 6600 V2",
-    "price": 18999,
-    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
-    "link": "https://www.incehesap.com/neron-6600-v2-hazir-sistem-fiyati-50681/",
-    "specs": {
-      "CPU": "Intel i3-12100F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RX 6600 8 GB",
-      "Storage": "512 GB SSD Hazır Sistem"
     },
     "store": "inceHesap"
   },
@@ -16495,7 +16495,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/406085/forge-mag4060ti-amd-ryzen-5-7500f-mpk-msi-geforce-rtx-4060-ti-ventus-2x-black-16gb-oc-16gb-ram-500gb-m-2-ssd-gaming-bilgisayar/\r",
     "name": "FORGE-MAG4060Ti / AMD Ryzen 5 7500F MPK / MSI GeForce RTX 4060 Ti Ventus 2X Black 16GB OC / 16GB RAM / 500GB M.2 SSD Gaming Bilgisayar",
-    "price": 36596.9,
+    "price": 36999,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "MSI PRO A620M-E 6000MHz (OC) DDR5 Soket AM5 M.2 mATX Anakart",
@@ -16630,7 +16630,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/455564/blade-4070tisuper-amd-ryzen-7-7800x3d-asus-rog-strix-geforce-rtx-4070-ti-super-oc-16gb-16gb-ram-1tb-m-2-ssd-gaming-bilgisayar/\r",
     "name": "BLADE-4070TISUPER / AMD Ryzen 7 7800X3D / ASUS ROG Strix GeForce RTX 4070 Ti SUPER OC 16GB / 16GB RAM / 1TB M.2 SSD Gaming Bilgisayar – Black Myth: Wukong Hediyeli",
-    "price": 98499.01,
+    "price": 98499,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "Asus Rog Strix B650E-E Gaming WiFi 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP Anakart",
@@ -18535,7 +18535,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/330175/mantis-7500f-amd-ryzen-5-7500f-mpk-asus-dual-geforce-rtx-4060-ti-oc-8gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/\r",
     "name": "MANTIS-7500F / AMD Ryzen 5 7500F MPK / ASUS Dual GeForce RTX 4060 Ti OC 8GB / 16GB RAM / 512GB M.2 SSD Gaming Bilgisayar",
-    "price": 35999.01,
+    "price": 35599,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "ASUS Prime B650M-R 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart",
@@ -19120,7 +19120,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/366470/nova-14100f-intel-i3-14100f-asus-dual-geforce-rtx-4060-oc-8gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/\r",
     "name": "NOVA-14100F / INTEL i3-14100F / ASUS Dual GeForce RTX 4060 OC 8GB / 16GB RAM / 512GB M.2 SSD Gaming Bilgisayar",
-    "price": 28399,
+    "price": 0,
     "specs": {
       "CPU": "Intel Core i3-14100F 4.7GHz 12MB Önbellek 4 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart/",
@@ -19600,7 +19600,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/347914/pardus-mag4060ti-amd-ryzen-5-5500-mpk-msi-geforce-rtx-4060-ti-ventus-2x-black-16gb-oc-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/\r",
     "name": "PARDUS-MAG4060Ti / AMD Ryzen 5 5500 MPK / MSI GeForce RTX 4060 Ti Ventus 2X Black 16GB OC / 16GB RAM / 512GB M.2 SSD Gaming Bilgisayar",
-    "price": 31399,
+    "price": 0,
     "specs": {
       "CPU": "AMD Ryzen 5 5500 MPK 3.6GHz 16MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "MSI B450M-A PRO MAX 4133MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -19645,7 +19645,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/339206/pardus-pro4060ti-amd-ryzen-5-7500f-mpk-msi-geforce-rtx-4060-ti-ventus-2x-black-8gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/\r",
     "name": "PARDUS-PRO4060Ti / AMD Ryzen 5 7500F MPK / MSI GeForce RTX 4060 Ti VENTUS 2X BLACK 8GB / 16GB RAM / 512GB M.2 SSD Gaming Bilgisayar",
-    "price": 38522.6,
+    "price": 34499,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "MSI PRO A620M-E 6000MHz (OC) DDR5 Soket AM5 M.2 mATX Anakart",
@@ -19825,7 +19825,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/384276/raptor-dual4060-intel-i5-13400f-asus-dual-geforce-rtx-4060-oc-8gb-white-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/\r",
     "name": "RAPTOR-DUAL4060 / INTEL i5-13400F / ASUS Dual GeForce RTX 4060 OC 8GB WHITE / 16GB RAM / 512GB M.2 SSD Gaming Bilgisayar",
-    "price": 0,
+    "price": 30999.01,
     "specs": {
       "CPU": "Intel Core i5-13400F 4.6GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci (BX8071513400F)\n",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart\n",
@@ -20110,7 +20110,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/363513/sunrise-7800x3d-amd-ryzen-7-7800x3d-tray-galax-geforce-rtx-4060-1-click-oc-2x-v2-8gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/\r",
     "name": "SUNRISE-7800X3D / AMD Ryzen 7 7800X3D TRAY / GALAX GeForce RTX 4060 1-Click OC 2X V2 8GB / 16GB RAM / 512GB M.2 SSD Gaming Bilgisayar",
-    "price": 39306.48,
+    "price": 39599.01,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci\n",
       "Motherboard": "ASUS Prime B650M-R 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart",
@@ -20170,7 +20170,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/416308/sunrise-master4060ti-amd-ryzen-5-5600-mpk-galax-geforce-rtx-4060-ti-ex-1-click-oc-8gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/\r",
     "name": "SUNRISE-MASTER4060Ti / AMD Ryzen 5 5600 MPK / GALAX GeForce RTX 4060 Ti EX 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Gaming Bilgisayar",
-    "price": 0,
+    "price": 31199,
     "specs": {
       "CPU": "AMD Ryzen 5 5600 MPK 3.5GHz 32MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME A520M-K 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -20708,6 +20708,21 @@
     "store": "gamingGen"
   },
   {
+    "link": "https://www.gaming.gen.tr/urun/507296/vulcan-5700x3d-amd-ryzen-7-5700x3d-galax-geforce-rtx-4070-1-click-oc-2x-12gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/\r",
+    "name": "VULCAN-5700X3D / AMD Ryzen 7 5700X3D / GALAX GeForce RTX 4070 1-Click OC 2X 12GB / 16GB RAM / 512GB M.2 SSD Gaming Bilgisayar",
+    "price": 38499.01,
+    "specs": {
+      "CPU": "AMD Ryzen 7 5700X3D Tray 4.1GHz 96 MB Önbellek 8 Çekirdek AM4 7nm İşlemci",
+      "Motherboard": "ASUS PRIME B550M-K 4600MHz(OC) DDR4 Soket AM4 M.2 HDMI VGA DVI mATX Anakart",
+      "GPU": "GALAX GeForce RTX 4070 1-Click OC 2X 12GB GDDR6X 192 Bit DLSS 3 Ekran Kartı (47NOM7MD8DDF) – 2 Yıl Birebir Değişim Garantili",
+      "Ram": "XPG Gammix D35 8GB 3200MHz CL16 DDR4 Ram (2×8) (AX4U32008G16A-SBKD35)",
+      "Case": "ENERMAX StarryFort SF21 Rainbow Temperli Cam Mesh USB 3.2 mATX Siyah Cyberbron II 600W 80+ Bronze Gaming Kasa",
+      "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
+    },
+    "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/06/enermax-starryfort-sf21-argb-temperli-cam-mesh-usb-3-2-matx-siyah-cyberbron-ii-600w-80-bronze-gaming-kasa-yyh1.jpg",
+    "store": "gamingGen"
+  },
+  {
     "link": "https://www.gaming.gen.tr/urun/359837/vulcan-7500f-amd-ryzen-5-7500f-mpk-galax-geforce-rtx-4060-ti-1-click-oc-8gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/\r",
     "name": "VULCAN-7500F / AMD Ryzen 5 7500F MPK / GALAX GeForce RTX 4060 Ti 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Gaming Bilgisayar",
     "price": 31399.01,
@@ -20755,7 +20770,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/506450/vulcan-8400f-amd-ryzen-5-8400f-mpk-galax-geforce-rtx-4060-ti-1-click-oc-8gb-16gb-ram-512gb-m-2-ssd-gaming-bilgisayar/\r",
     "name": "VULCAN-8400F / AMD Ryzen 5 8400F MPK / GALAX GeForce RTX 4060 Ti 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Gaming Bilgisayar",
-    "price": 32401.12,
+    "price": 30699.02,
     "specs": {
       "CPU": "AMD Ryzen 5 8400F MPK 4.7GHz 16MB Önbellek 6 Çekirdek AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
