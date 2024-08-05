@@ -217,7 +217,7 @@
             >
               Filtreleri Sıfırla
             </button>
-            <div class="form-group row">
+            <div class="form-group row" style="margin-top: 10px;">
               <div class="col">
                 <label for="startPrice">Başlangıç Fiyatı</label>
                 <input
@@ -235,6 +235,19 @@
                   class="form-control"
                   placeholder="35000"
                 />
+              </div>
+              <div class="col">
+                <button
+                  id="priceFilterButton"
+                  class="btn btn-primary"
+                  style="
+                    margin-top: 32px;
+                    border-color: #1c2938;
+                    background-color: #1c2938;
+                  "
+                >
+                  Fiyat Ara
+                </button>
               </div>
             </div>
             <div class="form-group" style="display: flex; flex-wrap: wrap">
@@ -492,6 +505,15 @@
                     class="form-control"
                     placeholder="35000"
                   />
+                </div>
+                <div class="col">
+                  <button
+                    id="priceFilterButtonMobile"
+                    class="btn btn-primary"
+                    style="margin-top: 32px"
+                  >
+                    Fiyat Ara
+                  </button>
                 </div>
               </div>
               <div class="form-group" style="display: flex; flex-wrap: wrap">
@@ -1021,7 +1043,7 @@
         document
           .getElementById("filterInput")
           .addEventListener("keyup", filterProducts);
-        document
+        /*         document
           .getElementById("startPrice")
           .addEventListener("input", filterProducts);
         document
@@ -1032,7 +1054,7 @@
           .addEventListener("input", filterProducts);
         document
           .getElementById("endPriceMobile")
-          .addEventListener("input", filterProducts);
+          .addEventListener("input", filterProducts); */
         document
           .getElementById("sortOrder")
           .addEventListener("change", filterProducts);
@@ -1053,6 +1075,13 @@
         document
           .getElementById("resetFilters")
           .addEventListener("click", resetFilters);
+
+        document
+          .getElementById("priceFilterButton")
+          .addEventListener("click", filterProducts);
+        document
+          .getElementById("priceFilterButtonMobile")
+          .addEventListener("click", filterProducts);
       }
 
       function resetFilters() {
