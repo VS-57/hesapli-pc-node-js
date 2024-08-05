@@ -11,6 +11,9 @@ import vatanRouter from "./routes/vatan.mjs";
 import sinerjiRouter from "./routes/sinerji.mjs";
 import inceHesapRouter from "./routes/inceHesap.mjs";
 import getAllRouter from "./routes/getAll.mjs";
+import getCPUs from "./hardwares/cpus.mjs";
+import getGPUs from "./hardwares/gpus.mjs";
+
 import setupSwagger from "./swagger/swagger.mjs";
 import fetch from "node-fetch";
 import { promises as fs } from "fs"; // Importing fs.promises
@@ -37,6 +40,8 @@ app.use("/api/vatan", vatanRouter);
 app.use("/api/sinerji", sinerjiRouter);
 app.use("/api/inceHesap", inceHesapRouter);
 app.use("/api/getAll", getAllRouter);
+app.use("/api/cpu", getCPUs);
+app.use("/api/gpu", getGPUs);
 
 // Yeni endpoint
 app.get("/api/combined", async (req, res) => {
