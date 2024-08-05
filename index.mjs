@@ -10,7 +10,6 @@ import pckolikRouter from "./routes/pckolik.mjs";
 import vatanRouter from "./routes/vatan.mjs";
 import sinerjiRouter from "./routes/sinerji.mjs";
 import inceHesapRouter from "./routes/inceHesap.mjs";
-
 import getAllRouter from "./routes/getAll.mjs";
 import setupSwagger from "./swagger/swagger.mjs";
 import fetch from "node-fetch";
@@ -24,7 +23,7 @@ const __dirname = path.dirname(__filename);
 
 app.use(cors());
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "public")));
+app.use(express.static(path.join(__dirname, "public"))); // Serve static files
 
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "main.html"));
@@ -43,7 +42,6 @@ app.use("/api/getAll", getAllRouter);
 app.get("/api/combined", async (req, res) => {
   try {
     const urls = [
-      /* 'http://localhost:3000/api/gaming-gen', */
       "http://localhost:3000/api/itopya",
       "http://localhost:3000/api/pckolik",
       "http://localhost:3000/api/vatan",
