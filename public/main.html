@@ -1138,6 +1138,8 @@
           const formattedPrice = new Intl.NumberFormat("tr-TR", {
             style: "currency",
             currency: "TRY",
+            minimumFractionDigits: 3,
+            maximumFractionDigits: 3,
           }).format(product.price ?? 0);
 
           const productCard = `
