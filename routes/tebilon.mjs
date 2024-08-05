@@ -43,6 +43,50 @@ async function fetchAllProducts(urls) {
   return products;
 }
 
+async function fetchProductDetails(url) {
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      console.error(`Failed to fetch ${url}: ${response.statusText}`);
+      return null;
+    }
+
+    const html = await response.text();
+    const dom = new JSDOM(html);
+    const doc = dom.window.document;
+    const specElements = doc.querySelectorAll(".spec-head");
+
+    const tempSpecs = {};
+    specElements.forEach((specElement) => {
+      const titleElement = specElement.querySelector(".spec-sub-title span");
+      const detailElement = specElement.querySelector(".spec-detail span");
+      if (titleElement && detailElement) {
+        const title = titleElement.textContent.trim();
+        const detail = detailElement.textContent.trim();
+        tempSpecs[title] = detail;
+      }
+    });
+
+    const specs = {
+      CPU: tempSpecs["İşlemci Modeli"] || "N/A",
+      Motherboard: "N/A",
+      GPU: tempSpecs["Grafik İşlemci"] || "N/A",
+      Ram: tempSpecs["Ram Kapasitesi"] || "N/A",
+      Case: tempSpecs["PSU"] + " " + tempSpecs["PSU Verimlilik"] || "N/A",
+      Storage:
+        tempSpecs["Depolama Kapasitesi"] + " " + tempSpecs["Depolama Türü"] ||
+        "N/A",
+    };
+
+    return specs;
+  } catch (error) {
+    console.error(
+      `Error fetching product details from ${url}: ${error.message}`
+    );
+    return null;
+  }
+}
+
 function generateUrls(base, totalPages) {
   const urls = [];
   for (let i = 1; i <= totalPages; i++) {
@@ -54,12 +98,18 @@ function generateUrls(base, totalPages) {
 
 router.get("/", async (req, res) => {
   const baseUrl = "https://www.tebilon.com/hazir-sistemler/";
-  const totalPages = parseInt(req.query.pages, 6) || 1; // Default to 1 if pages query parameter is not provided
+  const totalPages = 6; // Default to 1 if pages query parameter is not provided
   const urls = generateUrls(baseUrl, totalPages);
 
   try {
     const products = await fetchAllProducts(urls);
-    res.json(products);
+    const detailPromises = products.map(async (product, index) => {
+      product.specs = await fetchProductDetails(product.link);
+      return product;
+    });
+
+    const productsWithDetails = await Promise.all(detailPromises);
+    res.json(productsWithDetails);
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
