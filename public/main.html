@@ -676,7 +676,6 @@
 
         processorModelFilters.innerHTML = ""; // Clear existing content
         const cpus = await fetchCpus();
-        console.log(fetchCpus());
         cpus.forEach((processor) => {
           const div = document.createElement("div");
           div.className = "form-check";
