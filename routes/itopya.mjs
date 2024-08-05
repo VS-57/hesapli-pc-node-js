@@ -16,9 +16,6 @@ async function fetchPageData(page) {
 function parseProducts(doc) {
   const productElements = doc.querySelectorAll(".product");
   return Array.from(productElements).map((product) => {
-    const productImage = product
-      .querySelector(".brand img")
-      .getAttribute("data-src");
     const image = product
       .querySelector(".product-header .image img")
       .getAttribute("data-src");
