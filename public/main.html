@@ -760,6 +760,18 @@
       // Ayrıca, sayfa yüklendiğinde de kontrol edebilirsiniz
       window.addEventListener("load", checkIfMobile);
 
+      const selectedGPUs = Array.from(
+        document.querySelectorAll(".form-check-input:checked")
+      )
+        .filter(
+          (checkbox) =>
+            checkbox.id.includes("RTX") ||
+            checkbox.id.includes("GTX") ||
+            checkbox.id.includes("ARC") ||
+            checkbox.id.includes("RX")
+        )
+        .map((checkbox) => checkbox.value.toLowerCase());
+
       async function populateProcessorModelFilters() {
         const processorModelFilters = isMobile
           ? document.getElementById("processorModelFiltersMobile")
@@ -791,26 +803,32 @@
         const gpuModelFilters = isMobile
           ? document.getElementById("gpuModelFiltersMobile")
           : document.getElementById("gpuModelFilters");
+
         gpuModelFilters.innerHTML = ""; // Clear existing content
-        gpus.forEach((gpu) => {
-          const div = document.createElement("div");
-          div.className = "form-check";
-          const input = document.createElement("input");
-          input.className = "form-check-input";
-          input.type = "checkbox";
-          input.value = gpu.value;
-          input.id = gpu.value;
-          input.addEventListener("change", filterProducts);
 
-          const label = document.createElement("label");
-          label.className = "form-check-label";
-          label.htmlFor = gpu.value;
-          label.textContent = gpu.name;
+        gpus
+          .filter(
+            (x) => x.name.includes(selectedGPUs[0]) || selectedGPUs.length === 0
+          )
+          .forEach((gpu) => {
+            const div = document.createElement("div");
+            div.className = "form-check";
+            const input = document.createElement("input");
+            input.className = "form-check-input";
+            input.type = "checkbox";
+            input.value = gpu.value;
+            input.id = gpu.value;
+            input.addEventListener("change", filterProducts);
 
-          div.appendChild(input);
-          div.appendChild(label);
-          gpuModelFilters.appendChild(div);
-        });
+            const label = document.createElement("label");
+            label.className = "form-check-label";
+            label.htmlFor = gpu.value;
+            label.textContent = gpu.name;
+
+            div.appendChild(input);
+            div.appendChild(label);
+            gpuModelFilters.appendChild(div);
+          });
       }
 
       function filterProcessorModels() {
@@ -831,7 +849,23 @@
           : document.getElementById("processorModelFilters");
 
         processorModelFilters.innerHTML = ""; // Clear existing content
-        CPUs.forEach((processor) => {
+
+        const selectedCPUs = Array.from(
+          document.querySelectorAll(".form-check-input:checked")
+        )
+          .filter(
+            (checkbox) =>
+              checkbox.id.includes("Intel") || checkbox.id.includes("AMD")
+          )
+          .map((checkbox) => checkbox.value.toLowerCase());
+
+        const cpuFilterText = selectedCPUs[0] == "intel" ? "core" : "ryzen";
+
+        CPUs.filter(
+          (x) =>
+            x.name.toLowerCase().includes(cpuFilterText) ||
+            selectedCPUs.length !== 1
+        ).forEach((processor) => {
           const div = document.createElement("div");
           div.className = "form-check";
           const input = document.createElement("input");
@@ -883,37 +917,55 @@
 
         gpuModelFilters.innerHTML = ""; // Clear existing content
 
-        gpus.forEach((gpu) => {
-          const div = document.createElement("div");
-          div.className = "form-check";
-          const input = document.createElement("input");
-          input.className = "form-check-input";
-          input.type = "checkbox";
-          input.value = gpu.value;
-          input.id = gpu.value;
+        const selectedGPUs = Array.from(
+          document.querySelectorAll(".form-check-input:checked")
+        )
+          .filter(
+            (checkbox) =>
+              checkbox.id.includes("RTX") ||
+              checkbox.id.includes("GTX") ||
+              checkbox.id.includes("ARC") ||
+              checkbox.id.includes("RX")
+          )
+          .map((checkbox) => checkbox.value.toLowerCase());
 
-          // Restore the checked state if it was checked before
-          if (currentCheckedStates[gpu.value]) {
-            input.checked = true;
-          }
+        gpus
+          .filter(
+            (x) =>
+              x.name.toLowerCase().includes(selectedGPUs[0]) ||
+              selectedGPUs.length === 0
+          )
+          .forEach((gpu) => {
+            const div = document.createElement("div");
+            div.className = "form-check";
+            const input = document.createElement("input");
+            input.className = "form-check-input";
+            input.type = "checkbox";
+            input.value = gpu.value;
+            input.id = gpu.value;
 
-          input.addEventListener("change", filterProducts);
+            // Restore the checked state if it was checked before
+            if (currentCheckedStates[gpu.value]) {
+              input.checked = true;
+            }
 
-          if (gpu.name.toLowerCase().includes(searchTerm)) {
-            div.style.display = "block";
-          } else {
-            div.style.display = "none";
-          }
+            input.addEventListener("change", filterProducts);
 
-          const label = document.createElement("label");
-          label.className = "form-check-label";
-          label.htmlFor = gpu.value;
-          label.textContent = gpu.name;
+            if (gpu.name.toLowerCase().includes(searchTerm)) {
+              div.style.display = "block";
+            } else {
+              div.style.display = "none";
+            }
 
-          div.appendChild(input);
-          div.appendChild(label);
-          gpuModelFilters.appendChild(div);
-        });
+            const label = document.createElement("label");
+            label.className = "form-check-label";
+            label.htmlFor = gpu.value;
+            label.textContent = gpu.name;
+
+            div.appendChild(input);
+            div.appendChild(label);
+            gpuModelFilters.appendChild(div);
+          });
       }
 
       async function getProducts() {
@@ -1059,6 +1111,9 @@
           )
           .map((checkbox) => checkbox.value.toLowerCase());
 
+        filterGpuModels();
+        filterProcessorModels();
+
         const products = await getProducts();
         let filteredProducts = products.filter(function (product) {
           const matchesFilter = product.name
@@ -1069,7 +1124,6 @@
 
           let matchesCPU = true;
           if (selectedCPUs.length > 0) {
-            console.log(selectedCPUs + "CPU");
             matchesCPU = selectedCPUs.some((cpu) =>
               product.specs.CPU?.toLowerCase().includes(cpu)
             );
