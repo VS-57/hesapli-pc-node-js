@@ -628,7 +628,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="data.js"></script>
     <!-- Google tag (gtag.js) -->
     <script
       async
@@ -670,13 +669,15 @@
       // Ayrıca, sayfa yüklendiğinde de kontrol edebilirsiniz
       window.addEventListener("load", checkIfMobile);
 
-      function populateProcessorModelFilters() {
+      async function populateProcessorModelFilters() {
         const processorModelFilters = isMobile
           ? document.getElementById("processorModelFiltersMobile")
           : document.getElementById("processorModelFilters");
 
         processorModelFilters.innerHTML = ""; // Clear existing content
-        processors.forEach((processor) => {
+        const cpus = await fetchCpus();
+        console.log(fetchCpus());
+        cpus.forEach((processor) => {
           const div = document.createElement("div");
           div.className = "form-check";
           const input = document.createElement("input");
@@ -697,11 +698,12 @@
         });
       }
 
-      function populateGpuModelFilters() {
+      async function populateGpuModelFilters() {
         const gpuModelFilters = isMobile
           ? document.getElementById("gpuModelFiltersMobile")
           : document.getElementById("gpuModelFilters");
         gpuModelFilters.innerHTML = ""; // Clear existing content
+        const gpus = await fetchGpus();
         gpus.forEach((gpu) => {
           const div = document.createElement("div");
           div.className = "form-check";
@@ -825,6 +827,32 @@
           div.appendChild(label);
           gpuModelFilters.appendChild(div);
         });
+      }
+
+      async function fetchGpus() {
+        try {
+          const response = await fetch("http://localhost:3000/api/gpu");
+          if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+          }
+          return await response.json();
+        } catch (error) {
+          console.error("Error fetching GPUs:", error);
+          return [];
+        }
+      }
+
+      async function fetchCpus() {
+        try {
+          const response = await fetch("http://localhost:3000/api/cpu");
+          if (!response.ok) {
+            throw new Error(`HTTP error! Status: ${response.status}`);
+          }
+          return await response.json();
+        } catch (error) {
+          console.error("Error fetching GPUs:", error);
+          return [];
+        }
       }
 
       async function getProducts() {
@@ -1050,40 +1078,40 @@
           }).format(product.price ?? 0);
 
           const productCard = `
-<div class="col-md-4 product-item">
-    <div class="card product-card" style="position: relative;">
-        <img src="${
-          product.image
-        }" style="margin-top:20px" class="card-img-top product-image" alt="${
+      <div class="col-md-4 product-item">
+          <div class="card product-card" style="position: relative;">
+              <img src="${
+                product.image
+              }" style="margin-top:20px" class="card-img-top product-image" alt="${
             product?.name ?? ""
           }" onerror="this.onerror=null;this.src='https://previews.123rf.com/images/blankstock/blankstock1812/blankstock181201188/113234166-no-or-stop-sign-computer-line-icon-pc-component-sign-monitor-with-case-symbol-caution-prohibited-ban.jpg';">
-        <div class="card-body" style="display: flex; flex-direction: column; justify-content: space-between; flex-grow: 1;">
-            <h5 class="card-title">${product.name ?? ""}</h5>
-            <ul class="list-unstyled">
-                <li><strong>CPU:</strong> ${product.specs.CPU ?? ""}</li>
-                <li><strong>GPU:</strong> ${product.specs.GPU ?? ""}</li>
-                <li><strong>Motherboard:</strong> ${
-                  product.specs.Motherboard ?? ""
-                }</li>
-                <li><strong>RAM:</strong> ${product.specs.Ram ?? ""}</li>
-                <li><strong>Storage:</strong> ${
-                  product.specs?.Storage ?? ""
-                }</li>
-            </ul>
-            <p class="card-text"><strong>Fiyat: ${formattedPrice}</strong></p>
-           <a href="${
-             product.link
-           }" class="btn btn-primary" style="background-color:#1c2938;border-color:#1c2938" target="_blank">Detayları Gör</a>
+              <div class="card-body" style="display: flex; flex-direction: column; justify-content: space-between; flex-grow: 1;">
+                  <h5 class="card-title">${product.name ?? ""}</h5>
+                  <ul class="list-unstyled">
+                      <li><strong>CPU:</strong> ${product.specs.CPU ?? ""}</li>
+                      <li><strong>GPU:</strong> ${product.specs.GPU ?? ""}</li>
+                      <li><strong>Motherboard:</strong> ${
+                        product.specs.Motherboard ?? ""
+                      }</li>
+                      <li><strong>RAM:</strong> ${product.specs.Ram ?? ""}</li>
+                      <li><strong>Storage:</strong> ${
+                        product.specs?.Storage ?? ""
+                      }</li>
+                  </ul>
+                  <p class="card-text"><strong>Fiyat: ${formattedPrice}</strong></p>
+                 <a href="${
+                   product.link
+                 }" class="btn btn-primary" style="background-color:#1c2938;border-color:#1c2938" target="_blank">Detayları Gör</a>
 
-        </div>
-        <div style="position: absolute; top: 10px; right: 10px;">
-            <img src="/logos/${product.store?.toLowerCase()}.png" alt="${
+              </div>
+              <div style="position: absolute; top: 10px; right: 10px;">
+                  <img src="/logos/${product.store?.toLowerCase()}.png" alt="${
             product.store
           } logo" class="store-logo" style="width: 50px; height: auto;">
-        </div>
-    </div>
-</div>
-`;
+              </div>
+          </div>
+      </div>
+      `;
           productList.insertAdjacentHTML("beforeend", productCard);
         });
       }
