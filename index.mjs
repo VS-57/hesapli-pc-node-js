@@ -61,6 +61,7 @@ app.get("/api/combined", async (req, res) => {
       "http://localhost:3000/api/inceHesap",
       "http://localhost:3000/api/game-garaj",
       "http://localhost:3000/api/tebilon",
+      "http://localhost:3000/api/gencergaming",
     ];
 
     const fetchPromises = urls.map((url) =>
