@@ -96,31 +96,47 @@
         flex-wrap: wrap;
       }
 
-      .site-logo {
+      .header-left {
         flex: 1;
-        text-align: center;
+      }
+
+      .header-right {
+        flex: 3;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
       }
 
       .header-title {
         color: #f7f8f9;
-        flex: 1;
         text-align: center;
         margin: 10px 0;
       }
 
       .search-box {
-        flex: 3;
         width: 100%;
+        position: relative;
       }
 
       .search-box input {
-        width: 100%;
+        width: 80%;
+      }
+
+      .contact-button {
+        position: absolute;
+        top: 0;
+        right: 0;
+        background-color: #1c2938;
+        color: #fff;
+        border-color: #fff;
+        border-radius: 5px;
+        padding: 10px 20px;
+        cursor: pointer;
       }
 
       @media (max-width: 768px) {
-        .site-logo,
-        .header-title,
-        .search-box {
+        .header-left,
+        .header-right {
           flex: 1 0 100%;
           text-align: center;
         }
@@ -129,13 +145,23 @@
           order: 1;
         }
 
-        .site-logo {
+        .header-left {
           order: 2;
         }
 
-        .search-box {
+        .header-right {
           order: 3;
           margin-top: 10px;
+        }
+
+        .search-box input {
+          width: 100%;
+        }
+
+        .contact-button {
+          position: static;
+          margin-top: 10px;
+          width: 100%;
         }
       }
 
@@ -150,14 +176,24 @@
   <body style="background-color: #f7f8f9">
     <header class="header">
       <div class="header-content">
-        <h1 class="header-title">Ucuza Sistem</h1>
-        <div class="search-box">
-          <input
-            type="text"
-            id="filterInput"
-            class="form-control"
-            placeholder="Ürün ara..."
-          />
+        <div class="header-left">
+          <h1 class="header-title">Ucuza Sistem</h1>
+        </div>
+        <div class="header-right">
+          <div class="search-box">
+            <input
+              type="text"
+              id="filterInput"
+              class="form-control"
+              placeholder="Ürün ara..."
+            />
+            <button
+              class="contact-button"
+              onclick="location.href='mailto:ucuza.sistem.iletisim@gmail.com'"
+            >
+              İletişim
+            </button>
+          </div>
         </div>
       </div>
     </header>
