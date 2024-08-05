@@ -1,4 +1,3 @@
-// index.mjs
 import express from "express";
 import cors from "cors";
 import path from "path";
@@ -24,9 +23,11 @@ const port = 3000;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
+// Statik dosyalar için public dizinini sun
+app.use(express.static(path.join(__dirname, "public")));
+
 app.use(cors());
 app.use(express.json());
-app.use(express.static(path.join(__dirname, "public"))); // Serve static files
 
 app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "main.html"));
