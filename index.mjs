@@ -21,17 +21,7 @@ const port = 3000;
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
-// CORS configuration
-const corsOptions = {
-  origin: ["http://ucuzasistem.com", "https://ucuzasistem.up.railway.app"],
-  methods: ["GET", "POST"], // Allow GET and POST methods
-  allowedHeaders: ["Content-Type", "Authorization"], // Adjust headers if needed
-};
-
-app.use(cors(corsOptions)); // Apply CORS middleware with options
-
-// app.use(cors());
-
+app.use(cors());
 app.use(express.json());
 app.use(express.static(path.join(__dirname, "public"))); // Serve static files
 
