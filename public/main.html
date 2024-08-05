@@ -243,7 +243,7 @@
                   id="gameGaraj"
                 />
                 <label class="form-check-label" for="gameGaraj"
-                  >GameGaraj</label
+                  >Game Garaj</label
                 >
               </div>
               <div
@@ -307,6 +307,20 @@
                   id="tebilon"
                 />
                 <label class="form-check-label" for="tebilon">Tebilon</label>
+              </div>
+              <div
+                class="form-check"
+                style="flex: 1 0 33.33%; box-sizing: border-box"
+              >
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value="gencergaming"
+                  id="gencergaming"
+                />
+                <label class="form-check-label" for="gencergaming"
+                  >Gencer Gaming</label
+                >
               </div>
             </div>
 
@@ -550,6 +564,20 @@
                     id="tebilon"
                   />
                   <label class="form-check-label" for="tebilon">Tebilon</label>
+                </div>
+                <div
+                  class="form-check"
+                  style="flex: 1 0 33.33%; box-sizing: border-box"
+                >
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value="gencergaming"
+                    id="gencergaming"
+                  />
+                  <label class="form-check-label" for="gencergaming"
+                    >GencerGaming</label
+                  >
                 </div>
               </div>
               <div class="form-group row">
@@ -1035,6 +1063,7 @@
               !checkbox.id.includes("sinerji") &&
               !checkbox.id.includes("inceHesap") &&
               !checkbox.id.includes("tebilon") &&
+              !checkbox.id.includes("gencergaming") &&
               !checkbox.id.includes("gameGaraj")
           )
           .map((checkbox) => checkbox.value.toLowerCase());
@@ -1053,6 +1082,7 @@
               checkbox.id.includes("sinerji") ||
               checkbox.id.includes("inceHesap") ||
               checkbox.id.includes("tebilon") ||
+              checkbox.id.includes("gencergaming") ||
               checkbox.id.includes("vatan")
           )
           .map((checkbox) => checkbox.value.toLowerCase());
