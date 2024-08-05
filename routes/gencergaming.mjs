@@ -34,9 +34,11 @@ async function fetchAllProducts(urls) {
           : "0";
         const price = parseFloat(priceText.replace(/[^\d.]/g, "")) || 0;
 
-        const image = imageElement
+        /* const image = imageElement
           ? imageElement.getAttribute("src")
-          : "No image";
+          : "No image"; */
+
+        const image = null;
 
         const specs = {};
 
