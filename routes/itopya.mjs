@@ -48,8 +48,11 @@ function parseProducts(doc) {
         (specsArray.find((spec) => spec.specText.includes("Ekran Kartı")) || {})
           .specText || "N/A",
       Ram:
-        (specsArray.find((spec) => spec.specText.includes("Ram")) || {})
-          .specText || "N/A",
+        (
+          specsArray.find((spec) =>
+            spec.specText.toLowerCase().includes("Ram".toLowerCase())
+          ) || {}
+        ).specText || "N/A",
       Storage:
         (specsArray.find((spec) => spec.specText.includes("SSD")) || {})
           .specText || "N/A",
