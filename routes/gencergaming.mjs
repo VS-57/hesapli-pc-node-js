@@ -30,8 +30,9 @@ async function fetchAllProducts(urls) {
 
         // Parse the price
         const priceText = priceElement
-          ? priceElement.textContent.trim().replace(" TL", "").replace(",", ".")
+          ? priceElement.textContent.trim().replace(" TL", "").split(",")[0]
           : "0";
+
         const price = parseFloat(priceText.replace(/[^\d.]/g, "")) || 0;
 
         /* const image = imageElement
