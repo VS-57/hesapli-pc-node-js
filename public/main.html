@@ -217,7 +217,7 @@
             >
               Filtreleri Sıfırla
             </button>
-            <div class="form-group row" style="margin-top: 10px;">
+            <div class="form-group row" style="margin-top: 10px">
               <div class="col">
                 <label for="startPrice">Başlangıç Fiyatı</label>
                 <input
@@ -1201,12 +1201,30 @@
           }
 
           let matchesModel = true;
+
           if (selectedModels.length > 0) {
-            matchesModel = selectedModels.some(
-              (model) =>
-                product.specs.CPU?.toLowerCase().includes(model) ||
-                product.specs.GPU?.toLowerCase().trim().includes(model.trim())
+            const gpuModels = selectedModels.filter((x) =>
+              ["rtx", "gtx", "rx", "arc"].some((keyword) =>
+                x.toLowerCase().includes(keyword)
+              )
             );
+
+            const nonGpuModels = selectedModels.filter(
+              (x) =>
+                !["rtx", "gtx", "rx", "arc"].some((keyword) =>
+                  x.toLowerCase().includes(keyword)
+                )
+            );
+
+            if (gpuModels.length > 0) {
+              matchesModel = gpuModels.some((model) =>
+                product.specs.GPU?.toLowerCase().trim().includes(model.trim())
+              );
+            } else {
+              matchesModel = nonGpuModels.some((model) =>
+                product.specs.CPU?.toLowerCase().includes(model)
+              );
+            }
           }
 
           let matchesStock = true;
