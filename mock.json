@@ -9901,7 +9901,8 @@
     "image": "https://static.sinerji.gen.tr/Images/MD/96J-zsg-rog-hyperion-gr701-white-edition-3.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-feel-intel-core-i9-14900ks-64gb-1tb-nvme-m2-ssd-asus-geforce-rog-strix-white-oc-24gb-rtx4090-oyun-bilgisayari-p-50802",
     "specs": {
-      "GPU": "GeForce RTX PC",
+      "CPU": "i9 14900KS",
+      "GPU": "GeForce RTX 4090",
       "Ram": "64GB Ram"
     },
     "store": "sinerji"
