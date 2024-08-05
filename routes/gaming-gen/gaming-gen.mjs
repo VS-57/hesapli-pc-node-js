@@ -87,7 +87,7 @@ async function scrapeProductsFromFile(filePath) {
     const urls = links.split("\n").filter(Boolean);
 
     const results = [];
-    for (const url of urls.slice) {
+    for (const url of urls) {
       const product = await scrapeProduct(page, url);
       if (product) {
         results.push(product);
