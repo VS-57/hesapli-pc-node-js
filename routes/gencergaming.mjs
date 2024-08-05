@@ -13,33 +13,26 @@ async function fetchAllProducts(urls) {
       const html = await response.text();
       const dom = new JSDOM(html);
       const doc = dom.window.document;
-      const productElements = doc.querySelectorAll(".product-item");
+      const productElements = doc.querySelectorAll(".card-product");
 
       productElements.forEach((productElement) => {
-        const nameElement = productElement.querySelector(".product-title a");
-        const priceElement = productElement.querySelector(".price");
-        const imageElement = productElement.querySelector(".product-image img");
+        const nameElement = productElement.querySelector(".title.hzr");
+        const priceElement = productElement.querySelector(".sale-price");
+        const imageElement = productElement.querySelector(".image img");
+        const linkElement = productElement.querySelector(".c-p-i-link");
 
-        if (!nameElement || !priceElement || !imageElement) {
-          console.log("Missing elements:", {
-            nameElement,
-            priceElement,
-            imageElement,
-          });
+        if (!nameElement || !priceElement || !imageElement || !linkElement) {
           return;
         }
 
-        const link =
-          "https://www.gencergaming.com/" +
-          productElement.querySelector(".product-image a").href;
+        const link = linkElement.href;
         const name = nameElement ? nameElement.textContent.trim() : "No name";
 
         // Parse the price
         const priceText = priceElement
-          ? priceElement.textContent.trim().replace(/\s+/g, " ").replace("₺", "")
+          ? priceElement.textContent.trim().replace(" TL", "").replace(",", ".")
           : "0";
-        const price =
-          parseFloat(priceText.replace(/[^\d,]/g, "").replace(",", ".")) || 0;
+        const price = parseFloat(priceText.replace(/[^\d.]/g, "")) || 0;
 
         const image = imageElement
           ? imageElement.getAttribute("src")
@@ -48,25 +41,22 @@ async function fetchAllProducts(urls) {
         const specs = {};
 
         productElement
-          .querySelectorAll(".technicalSpecs li")
+          .querySelectorAll(".attributes .nitelik li")
           .forEach((specElement) => {
-            const [specName, specValue] = specElement.textContent
-              .split(":")
-              .map((s) => s.trim());
-            if (specName && specValue) {
-              if (specName.includes("İşlemci Modeli")) {
-                specs["CPU"] =
-                  specValue +
-                  " " +
-                  findNumberAndNextChar(name).number +
-                  findNumberAndNextChar(name).nextChar;
-              } else if (specName.includes("Ekran Kartı")) {
-                specs["GPU"] = specValue;
-              } else if (specName.includes("Anakart")) {
-                specs["Motherboard"] = specValue;
-              } else if (specName.includes("RAM")) {
-                specs["Ram"] = specValue + " Ram";
-              }
+            const specIcon = specElement.querySelector("img").src;
+            const specValue = specElement
+              .querySelector(".value")
+              .textContent.trim();
+            if (specIcon.includes("islemci.png")) {
+              specs["CPU"] = specValue;
+            } else if (specIcon.includes("ekran_kart")) {
+              specs["GPU"] = specValue;
+            } else if (specIcon.includes("ram.png")) {
+              specs["Ram"] = specValue + " Ram";
+            } else if (specIcon.includes("depolama.png")) {
+              specs["Storage"] = specValue;
+            } else if (specIcon.includes("anakart.png")) {
+              specs["Motherboard"] = specValue;
             }
           });
 
