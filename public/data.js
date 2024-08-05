@@ -28,6 +28,7 @@ const processors = [
   { name: "Ryzen 5 5600G", value: "5600G" },
   { name: "Ryzen 5 5600GE", value: "5600GE" },
   { name: "Ryzen 5 7500F", value: "7500F" },
+  { name: "Ryzen 5 7600", value: "7600" },
   { name: "Ryzen 5 7600X", value: "7600X" },
 
   { name: "Ryzen 7 1700", value: "1700" },
