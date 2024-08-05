@@ -10,6 +10,8 @@ import vatanRouter from "./routes/vatan.mjs";
 import sinerjiRouter from "./routes/sinerji.mjs";
 import tebilonRouter from "./routes/tebilon.mjs";
 import inceHesapRouter from "./routes/inceHesap.mjs";
+import gencerGamingRouter from "./routes/gencergaming.mjs";
+
 import getAllRouter from "./routes/getAll.mjs";
 import getCPUs from "./hardwares/cpus.mjs";
 import getGPUs from "./hardwares/gpus.mjs";
@@ -42,6 +44,8 @@ app.use("/api/vatan", vatanRouter);
 app.use("/api/sinerji", sinerjiRouter);
 app.use("/api/tebilon", tebilonRouter);
 app.use("/api/inceHesap", inceHesapRouter);
+app.use("/api/gencergaming", gencerGamingRouter);
+
 app.use("/api/getAll", getAllRouter);
 app.use("/api/cpu", getCPUs);
 app.use("/api/gpu", getGPUs);
