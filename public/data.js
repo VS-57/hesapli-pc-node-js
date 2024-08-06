@@ -1,5 +1,5 @@
 const CPUs = [
-  // Ryzen Processors
+  // Ryzen 3
   { name: "Ryzen 3 1200", value: "1200" },
   { name: "Ryzen 3 1300X", value: "1300X" },
   { name: "Ryzen 3 2200G", value: "2200G" },
@@ -7,7 +7,7 @@ const CPUs = [
   { name: "Ryzen 3 3200G", value: "3200G" },
   { name: "Ryzen 3 3100", value: "3100" },
   { name: "Ryzen 3 3300X", value: "3300X" },
-
+  { name: "Ryzen 3 8300G", value: "8300G" },
   { name: "Ryzen 5 1400", value: "1400" },
   { name: "Ryzen 5 1500X", value: "1500X" },
   { name: "Ryzen 5 1600", value: "1600" },
@@ -19,6 +19,7 @@ const CPUs = [
   { name: "Ryzen 5 3600", value: "3600" },
   { name: "Ryzen 5 3600X", value: "3600X" },
   { name: "Ryzen 5 3600XT", value: "3600XT" },
+  { name: "Ryzen 5 4300G", value: "4300G" },
   { name: "Ryzen 5 4500", value: "4500" },
   { name: "Ryzen 5 4600G", value: "4600G" },
   { name: "Ryzen 5 4600GE", value: "4600GE" },
@@ -29,8 +30,11 @@ const CPUs = [
   { name: "Ryzen 5 5600GE", value: "5600GE" },
   { name: "Ryzen 5 7500F", value: "7500F" },
   { name: "Ryzen 5 7600", value: "7600" },
-  { name: "Ryzen 5 7600X", value: "7600X" },
+  { name: "Ryzen 5 8400F", value: "8400F" },
+  { name: "Ryzen 5 8500G", value: "8500G" },
+  { name: "Ryzen 5 8600G", value: "8600G" },
 
+  // Ryzen 7
   { name: "Ryzen 7 1700", value: "1700" },
   { name: "Ryzen 7 1700X", value: "1700X" },
   { name: "Ryzen 7 1800X", value: "1800X" },
@@ -42,12 +46,14 @@ const CPUs = [
   { name: "Ryzen 7 5700G", value: "5700G" },
   { name: "Ryzen 7 5700X", value: "5700X" },
   { name: "Ryzen 7 5700X3D", value: "5700X3D" },
-
   { name: "Ryzen 7 5800X", value: "5800X" },
   { name: "Ryzen 7 5800X3D", value: "5800X3D" },
   { name: "Ryzen 7 7700X", value: "7700X" },
   { name: "Ryzen 7 7800X3D", value: "7800X3D" },
+  { name: "Ryzen 7 8700F", value: "8700F" },
+  { name: "Ryzen 7 8700G", value: "8700G" },
 
+  // Ryzen 9
   { name: "Ryzen 9 3900X", value: "3900X" },
   { name: "Ryzen 9 3900XT", value: "3900XT" },
   { name: "Ryzen 9 3950X", value: "3950X" },

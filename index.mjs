@@ -178,6 +178,7 @@ app.get("/api/combined", async (req, res) => {
  */
 app.post("/api/getProducts", async (req, res) => {
   const {
+    searchTerm,
     startPrice,
     endPrice,
     selectedGPUs,
@@ -200,6 +201,11 @@ app.post("/api/getProducts", async (req, res) => {
     }
     if (endPrice !== undefined && endPrice > 0) {
       filteredData = filteredData.filter((item) => item.price <= endPrice);
+    }
+    if (searchTerm !== undefined && searchTerm !== null) {
+      filteredData = filteredData.filter((item) =>
+        item.name.includes(searchTerm)
+      );
     }
     if (selectedGPUs && selectedGPUs.length > 0) {
       filteredData = filteredData.filter((item) =>
@@ -237,11 +243,11 @@ app.post("/api/getProducts", async (req, res) => {
       );
     }
 
-    if (isStocked !== undefined && isStocked !== null) {
+    if (isStocked === true) {
       filteredData = filteredData.filter((item) => {
-        const inStock =
-          item.price !== null && item.price !== undefined && item.price !== 0;
-        return isStocked ? inStock : !inStock;
+        return (
+          item.price !== null && item.price !== undefined && item.price !== 0
+        );
       });
     }
 
