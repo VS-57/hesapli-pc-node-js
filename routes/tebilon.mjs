@@ -7,36 +7,52 @@ const router = express.Router();
 async function fetchAllProducts(urls) {
   const products = [];
   const fetchPromises = urls.map(async (url) => {
-    const response = await fetch(url);
-    const html = await response.text();
-    const dom = new JSDOM(html);
-    const doc = dom.window.document;
-    const productElements = doc.querySelectorAll(".showcase__product");
+    try {
+      const response = await fetch(url);
+      if (!response.ok) {
+        console.error(`Failed to fetch ${url}: ${response.statusText}`);
+        return;
+      }
 
-    productElements.forEach((productElement) => {
-      const nameElement = productElement.querySelector(".showcase__title a");
-      const priceElement = productElement.querySelector(".newPrice");
-      const imageElement = productElement.querySelector(".showcase__image img");
+      const html = await response.text();
+      const dom = new JSDOM(html);
+      const doc = dom.window.document;
+      let productElements = doc.querySelectorAll(".showcase__product");
+      if (productElements.length > 39) {
+        productElements = Array.from(productElements).slice(0, 40);
+      }
 
-      const link = productElement.querySelector(".showcase__title a").href;
-      const name = nameElement ? nameElement.textContent.trim() : "No name";
+      productElements.forEach((productElement) => {
+        const nameElement = productElement.querySelector(".showcase__title a");
+        const priceElement = productElement.querySelector(".newPrice");
+        const imageElement = productElement.querySelector(
+          ".showcase__image img"
+        );
 
-      // Parse the price
-      const priceText = priceElement
-        ? priceElement.textContent
-            .trim()
-            .replace(/\s+/g, " ")
-            .replace(" TL", "")
-        : "0";
-      const price =
-        parseFloat(priceText.replace(/[^\d,]/g, "").replace(",", ".")) || 0;
+        const link = nameElement ? nameElement.href : "No link";
+        const name = nameElement ? nameElement.textContent.trim() : "No name";
 
-      const image = imageElement
-        ? imageElement.getAttribute("src")
-        : "No image";
+        // Parse the price
+        const priceText = priceElement
+          ? priceElement.textContent
+              .trim()
+              .replace(/\s+/g, " ")
+              .replace(" TL", "")
+          : "0";
+        const price =
+          parseFloat(priceText.replace(/[^\d,]/g, "").replace(",", ".")) || 0;
 
-      products.push({ name, price, image, link, store: "tebilon" });
-    });
+        const image = imageElement
+          ? imageElement.getAttribute("src")
+          : "No image";
+
+        products.push({ name, price, image, link, store: "tebilon" });
+      });
+    } catch (error) {
+      console.error(
+        `Error fetching product list from ${url}: ${error.message}`
+      );
+    }
   });
 
   await Promise.all(fetchPromises);
@@ -72,10 +88,12 @@ async function fetchProductDetails(url) {
       Motherboard: "N/A",
       GPU: tempSpecs["Grafik İşlemci"] || "N/A",
       Ram: tempSpecs["Ram Kapasitesi"] || "N/A",
-      Case: tempSpecs["PSU"] + " " + tempSpecs["PSU Verimlilik"] || "N/A",
+      Case:
+        (tempSpecs["PSU"] || "") + " " + (tempSpecs["PSU Verimlilik"] || "N/A"),
       Storage:
-        tempSpecs["Depolama Kapasitesi"] + " " + tempSpecs["Depolama Türü"] ||
-        "N/A",
+        (tempSpecs["Depolama Kapasitesi"] || "") +
+        " " +
+        (tempSpecs["Depolama Türü"] || "N/A"),
     };
 
     return specs;
@@ -98,12 +116,12 @@ function generateUrls(base, totalPages) {
 
 router.get("/", async (req, res) => {
   const baseUrl = "https://www.tebilon.com/hazir-sistemler/";
-  const totalPages = 6; // Default to 1 if pages query parameter is not provided
+  const totalPages = 6; // Default to 6 pages
   const urls = generateUrls(baseUrl, totalPages);
 
   try {
     const products = await fetchAllProducts(urls);
-    const detailPromises = products.map(async (product, index) => {
+    const detailPromises = products.map(async (product) => {
       product.specs = await fetchProductDetails(product.link);
       return product;
     });
