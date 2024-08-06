@@ -225,7 +225,7 @@ function filterGpuModels() {
 
 async function getProducts() {
   try {
-    const filterValue = document
+    const searchTerm = document
       .getElementById("filterInput")
       .value.toLowerCase();
     const startPrice = isMobile
@@ -295,6 +295,7 @@ async function getProducts() {
       .map((checkbox) => checkbox.value.toLowerCase());
 
     const requestBody = {
+      searchTerm: searchTerm,
       startPrice: startPrice,
       endPrice: endPrice,
       selectedGPUs: selectedGPUs,
