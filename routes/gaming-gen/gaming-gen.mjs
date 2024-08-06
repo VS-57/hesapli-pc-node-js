@@ -25,8 +25,30 @@ async function scrapeProduct(page, url) {
       let price = "N/A";
       if (priceElement) {
         const priceText = priceElement.textContent.trim();
-        price = priceText.split("Şu andaki fiyat")[1] || "N/A";
-        price = parseFloat(price.replace(/[^\d,]/g, "").replace(",", ".")) || 0;
+        const priceParts = priceText.split("Şu andaki fiyat");
+
+        if (priceParts.length > 1) {
+          let rawPrice = priceParts[1].trim();
+          rawPrice = rawPrice.replace(/[^\d,]/g, "").replace(",", ".");
+
+          let numericPrice = parseFloat(rawPrice);
+
+          // Check if the numericPrice is a valid number
+          if (!isNaN(numericPrice)) {
+            if (Number.isInteger(numericPrice)) {
+              price = numericPrice;
+            } else {
+              const [integerPart, decimalPart] = rawPrice.split(".");
+              if (decimalPart === "00") {
+                price = parseInt(integerPart);
+              } else {
+                price = numericPrice;
+              }
+            }
+          } else {
+            price = 0;
+          }
+        }
       }
 
       let description = [];
