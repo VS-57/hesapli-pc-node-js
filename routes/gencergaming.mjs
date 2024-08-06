@@ -4,6 +4,36 @@ import { JSDOM } from "jsdom";
 
 const router = express.Router();
 
+// Sayfa verilerini çekme fonksiyonu
+async function fetchPageData(url) {
+  try {
+    const response = await fetch(url);
+    if (!response.ok)
+      throw new Error(`Error fetching page ${url}: ${response.statusText}`);
+    const text = await response.text();
+    const dom = new JSDOM(text);
+    return dom.window.document;
+  } catch (error) {
+    throw new Error(`Failed to fetch page ${url}: ${error.message}`);
+  }
+}
+
+// Toplam sayfa sayısını alma fonksiyonu
+async function getTotalPages(baseUrl) {
+  try {
+    const doc = await fetchPageData(baseUrl);
+    const totalPagesElement = doc.querySelector(
+      ".pagination-nav .pagination li:nth-last-child(1) a"
+    );
+    return totalPagesElement
+      ? parseInt(totalPagesElement.textContent.trim(), 10)
+      : 1;
+  } catch (error) {
+    throw new Error(`Failed to fetch total pages: ${error.message}`);
+  }
+}
+
+// Ürünleri ayrıştırma fonksiyonu
 async function fetchAllProducts(urls) {
   const products = [];
 
@@ -36,11 +66,10 @@ async function fetchAllProducts(urls) {
         const tprice = parseFloat(priceText.replace(".", "")) || 0;
         const price = tprice.toString().replace(",", "");
 
+        const image = null;
         /* const image = imageElement
           ? imageElement.getAttribute("src")
           : "No image"; */
-
-        const image = null;
 
         const specs = {};
 
@@ -82,17 +111,6 @@ async function fetchAllProducts(urls) {
   return products;
 }
 
-function findNumberAndNextChar(name) {
-  const regex = /\b(\d{4,5})(.)/;
-  const match = name.match(regex);
-  if (match) {
-    const number = match[1];
-    const nextChar = match[2];
-    return { number, nextChar };
-  }
-  return null;
-}
-
 function generateUrls(base, totalPages) {
   const urls = [];
   for (let i = 1; i <= totalPages; i++) {
@@ -104,9 +122,10 @@ function generateUrls(base, totalPages) {
 
 router.get("/", async (req, res) => {
   const baseUrl = "https://www.gencergaming.com/hazir-sistemler?sayfa=";
-  const totalPages = 4; // Update this if there are more pages
-  const urls = generateUrls(baseUrl, totalPages);
   try {
+    const totalPages = await getTotalPages(baseUrl);
+    console.log(totalPages);
+    const urls = generateUrls(baseUrl, totalPages);
     const products = await fetchAllProducts(urls);
     res.json(products);
   } catch (error) {
