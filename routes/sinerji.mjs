@@ -1,16 +1,29 @@
 import express from "express";
-import fetch from "node-fetch";
+import puppeteer from "puppeteer";
 import { JSDOM } from "jsdom";
 
 const router = express.Router();
 
-async function fetchAllProducts(urls) {
+async function fetchPageData(url, page) {
+  await page.goto(url, { waitUntil: "networkidle2" });
+  const content = await page.content();
+  const dom = new JSDOM(content);
+  return dom.window.document;
+}
+
+function parseTotalPages(doc) {
+  console.log(doc.get);
+  const pagingElements = doc.querySelectorAll(".paging a");
+  const secondLastPageElement = pagingElements[pagingElements.length - 2];
+  console.log(secondLastPageElement.textContent);
+  const totalPages = parseInt(secondLastPageElement.textContent, 10);
+  return totalPages;
+}
+
+async function fetchAllProducts(urls, page) {
   const products = [];
-  const fetchPromises = urls.map(async (url) => {
-    const response = await fetch(url);
-    const html = await response.text();
-    const dom = new JSDOM(html);
-    const doc = dom.window.document;
+  for (const url of urls) {
+    const doc = await fetchPageData(url, page);
     const productElements = doc.querySelectorAll(".product");
 
     productElements.forEach((productElement) => {
@@ -23,7 +36,6 @@ async function fetchAllProducts(urls) {
         productElement.querySelector(".img a").href;
       const name = nameElement ? nameElement.textContent.trim() : "No name";
 
-      // Parse the price
       const priceText = priceElement
         ? priceElement.textContent.trim().replace(/\s+/g, " ").replace("₺", "")
         : "0";
@@ -61,9 +73,7 @@ async function fetchAllProducts(urls) {
 
       products.push({ name, price, image, link, specs, store: "sinerji" });
     });
-  });
-
-  await Promise.all(fetchPromises);
+  }
   return products;
 }
 
@@ -78,10 +88,12 @@ function findNumberAndNextChar(name) {
   return null;
 }
 
-function generateUrls(base, totalPages) {
+async function generateUrls(baseUrl, page) {
+  const initialDoc = await fetchPageData(baseUrl, page);
+  const totalPages = parseTotalPages(initialDoc);
   const urls = [];
   for (let i = 1; i <= totalPages; i++) {
-    const url = i === 1 ? base : `${base}?px=${i}`;
+    const url = i === 1 ? baseUrl : `${baseUrl}?px=${i}`;
     urls.push(url);
   }
   return urls;
@@ -89,10 +101,12 @@ function generateUrls(base, totalPages) {
 
 router.get("/", async (req, res) => {
   const baseUrl = "https://www.sinerji.gen.tr/hazir-sistemler-c-2107";
-  const totalPages = 4; // Update this if there are more pages
-  const urls = generateUrls(baseUrl, totalPages);
   try {
-    const products = await fetchAllProducts(urls);
+    const browser = await puppeteer.launch();
+    const page = await browser.newPage();
+    const urls = await generateUrls(baseUrl, page);
+    const products = await fetchAllProducts(urls, page);
+    await browser.close();
     res.json(products);
   } catch (error) {
     res.status(500).json({ error: error.message });
