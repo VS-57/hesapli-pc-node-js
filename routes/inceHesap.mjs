@@ -44,7 +44,11 @@ async function fetchAllProducts(urls) {
         const specText = specElement.textContent.trim();
 
         // Belirli anahtarlar ile eşleştirme yap
-        if (specText.includes("AMD") || specText.includes("Intel")) {
+        if (
+          specText.includes("AMD") ||
+          (specText.includes("Intel") &&
+            !specText.toLowerCase().includes("arc"))
+        ) {
           specs["CPU"] = specText;
         } else if (
           specText?.toLowerCase().includes("rtx") ||
