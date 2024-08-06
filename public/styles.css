@@ -120,10 +120,18 @@
     margin-top: 10px;
     width: 100%;
   }
+
+  .navbar-toggler {
+    width: 100%;
+  }
 }
 
 @media (max-width: 480px) {
   .header-title {
     display: none;
+  }
+
+  .navbar-toggler {
+    width: 100%;
   }
 }

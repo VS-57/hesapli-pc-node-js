@@ -44,7 +44,7 @@
     </div>
   </header>
   <div style="margin-left: 10px; text-align: center;">
-    <p style="margin: auto;">
+    <p style="margin: auto; font-size: 0.8em;">
       <strong>Yasal Uyarı : </strong>Sitemizde paylaşılan ürünler tamamen
       bilgilendirme amaçlı olup ticari kâr güdülmemektedir. Ürünlere dair
       görseller, fiyatlar, teknik özellikler ve diğer bilgiler ilgili satış
@@ -53,6 +53,7 @@
       edilmemektedir.
     </p>
   </div>
+
 
   <div class="container-fluid">
     <div class="row">
@@ -175,8 +176,8 @@
       <!-- Mobile Sidebar -->
       <nav class="col-md-3 d-md-none bg-light">
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#filterMenu"
-          aria-controls="filterMenu" aria-expanded="false" aria-label="Toggle navigation"
-          style="margin: 10px; margin-bottom: 20px; border-color: #1c2938">
+          style="margin-bottom: 10px;margin-top: 10px;" aria-controls="filterMenu" aria-expanded="false"
+          aria-label="Toggle navigation">
           <span class="navbar-toggler-icon">
             <i style="margin-top: 4px" class="fas fa-bars"></i>
           </span>
@@ -185,12 +186,12 @@
 
         <div class="collapse" id="filterMenu">
           <div class="filter-content">
-            <button id="resetFilters" class="btn btn-secondary" style="width: 100%; background-color: #1c2938">
+            <button id="resetFilters" class="btn btn-secondary" style="width: 100%; background-color: #1c2938;">
               Filtreleri Sıfırla
             </button>
             <div class="form-group row">
               <div class="col">
-                <label for="startPriceMobile">Başlangıç Fiyatı</label>
+                <label for="startPriceMobile" style="white-space: nowrap">Başlangıç Fiyatı</label>
                 <input type="number" id="startPriceMobile" class="form-control" placeholder="0" />
               </div>
               <div class="col">
@@ -296,7 +297,7 @@
       <!-- Main content -->
       <div class="col-md-9">
         <div class="row mb-4" style="margin-top: 10px">
-          <div style="margin-top: 9px">
+          <div style="margin-top: 3px; display: flex; align-items: center">
             <p style="display: inline; margin: 0 15px">
               <strong>Ürün Sayısı:</strong>
             </p>
@@ -335,12 +336,14 @@
 
         <!-- Pagination Buttons -->
         <div class="row mb-4">
-          <div class="col-12 d-flex justify-content-between">
+          <div class="col-12 d-flex justify-content-between align-items-center">
             <button id="prevPage" class="btn btn-secondary" style="background-color: #1c2938;">Önceki</button>
-            <span id="pageInfo"></span>
+            <span id="pageTopInfo" class="badge"
+              style="padding: 10px 20px 10px 20px; background-color: #1c2938; color: #f7f8f9;">1/1</span>
             <button id="nextPage" class="btn btn-secondary" style="background-color: #1c2938;">Sonraki</button>
           </div>
         </div>
+
 
         <div class="row" id="productList">
           <!-- Ürün Kartları burada görüntülenecek -->
@@ -350,7 +353,8 @@
         <div class="row mb-4">
           <div class="col-12 d-flex justify-content-between">
             <button id="prevPageBottom" class="btn btn-primary" style="background-color: #1c2938;">Önceki</button>
-            <span id="pageInfoBottom"></span>
+            <span id="pageInfoBottom" class="badge"
+              style="padding: 10px 20px 10px 20px; background-color: #1c2938; color: #f7f8f9;">1/1</span>
             <button id="nextPageBottom" class="btn btn-primary" style="background-color: #1c2938;">Sonraki</button>
           </div>
         </div>

@@ -327,6 +327,13 @@ async function getProducts() {
     totalPages = data.pagination.totalPages;
     document.getElementById("productCount").textContent =
       data.pagination.totalItems;
+
+    document.getElementById("pageTopInfo").textContent =
+      data.pagination.currentPage + "/" + data.pagination.totalPages;
+
+      document.getElementById("pageInfoBottom").textContent =
+      data.pagination.currentPage + "/" + data.pagination.totalPages;
+
     renderProducts(data);
   } catch (error) {
     console.error("Error:", error);
