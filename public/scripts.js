@@ -331,10 +331,15 @@ async function getProducts() {
     document.getElementById("pageTopInfo").textContent =
       data.pagination.currentPage + " / " + data.pagination.totalPages;
 
-      document.getElementById("pageInfoBottom").textContent =
+    document.getElementById("pageInfoBottom").textContent =
       data.pagination.currentPage + " / " + data.pagination.totalPages;
 
-    renderProducts(data);
+    if (data.pagination.currentPage > data.pagination.totalPages) {
+      currentPage = 1;
+      getProducts();
+    }
+
+    renderProducts(data.data);
   } catch (error) {
     console.error("Error:", error);
     return [];
@@ -424,7 +429,7 @@ function resetFilters() {
 function renderProducts(products) {
   const productList = document.getElementById("productList");
   productList.innerHTML = "";
-  products.data.forEach(function (product) {
+  products.forEach(function (product) {
     const formattedPrice = new Intl.NumberFormat("tr-TR", {
       style: "currency",
       currency: "TRY",
