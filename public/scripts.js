@@ -87,9 +87,9 @@ async function populateGpuModelFilters() {
 }
 
 function filterProcessorModels() {
-  const searchTerm = document
-    .getElementById("processorSearch")
-    .value.toLowerCase();
+  const searchTerm = isMobile
+    ? document.getElementById("processorSearchMobile").value.toLowerCase()
+    : document.getElementById("processorSearch").value.toLowerCase();
 
   // Store the current checked states
   const currentCheckedStates = {};
@@ -152,7 +152,9 @@ function filterProcessorModels() {
 }
 
 function filterGpuModels() {
-  const searchTerm = document.getElementById("gpuSearch").value.toLowerCase();
+  const searchTerm = isMobile
+    ? document.getElementById("gpuSearchMobile").value.toLowerCase()
+    : document.getElementById("gpuSearch").value.toLowerCase();
 
   // Store the current checked states
   const currentCheckedStates = {};
@@ -398,7 +400,13 @@ function setupEventListeners() {
     .getElementById("processorSearch")
     .addEventListener("input", filterProcessorModels);
   document
+    .getElementById("processorSearchMobile")
+    .addEventListener("input", filterProcessorModels);
+  document
     .getElementById("gpuSearch")
+    .addEventListener("input", filterGpuModels);
+  document
+    .getElementById("gpuSearchMobile")
     .addEventListener("input", filterGpuModels);
   document
     .getElementById("resetFilters")
