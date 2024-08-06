@@ -228,6 +228,9 @@ async function getProducts() {
     const searchTerm = document
       .getElementById("filterInput")
       .value.toLowerCase();
+
+    const pageSize = document.getElementById("pageSize").value;
+
     const startPrice = isMobile
       ? Number(document.getElementById("startPriceMobile").value) || 0
       : Number(document.getElementById("startPrice").value) || 0;
@@ -313,7 +316,7 @@ async function getProducts() {
       page: 1,
       stores: selectedStores,
       orderBy: sortOrder,
-      pageSize: 2500,
+      pageSize: pageSize,
     };
 
     const response = await fetch("https://ucuzasistem.com/api/getProducts", {
@@ -337,6 +340,8 @@ async function getProducts() {
 function setupEventListeners() {
   document.getElementById("filterInput").addEventListener("keyup", getProducts);
   document.getElementById("sortOrder").addEventListener("change", getProducts);
+  document.getElementById("pageSize").addEventListener("change", getProducts);
+
   document
     .getElementById("showInStock")
     .addEventListener("change", getProducts);
