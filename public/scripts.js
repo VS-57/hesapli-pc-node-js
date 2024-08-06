@@ -282,7 +282,11 @@ async function getProducts() {
           checkbox.id !== "tebilon" &&
           checkbox.id !== "sinerji" &&
           checkbox.id !== "gencergaming" &&
-          checkbox.id !== "inceHesap"
+          checkbox.id !== "inceHesap" &&
+          (checkbox.id.toLowerCase().includes("rtx") ||
+            checkbox.id.toLowerCase().includes("arc") ||
+            checkbox.id.toLowerCase().includes("gtx") ||
+            checkbox.id.toLowerCase().includes("rx"))
       )
       .map((checkbox) => checkbox.value.toLowerCase());
 
@@ -305,12 +309,16 @@ async function getProducts() {
           checkbox.id !== "tebilon" &&
           checkbox.id !== "sinerji" &&
           checkbox.id !== "gencergaming" &&
-          checkbox.id !== "inceHesap"
+          checkbox.id !== "inceHesap" &&
+          !checkbox.id.toLowerCase().includes("rtx") &&
+          !checkbox.id.toLowerCase().includes("arc") &&
+          !checkbox.id.toLowerCase().includes("gtx") &&
+          !checkbox.id.toLowerCase().includes("rx")
       )
       .map((checkbox) => checkbox.value.toLowerCase());
 
-    console.log(selectedGPUModels);
-    console.log(selectedCPUModels);
+    console.log("gpu" + selectedGPUModels);
+    console.log("cpu" + selectedCPUModels);
 
     const sortOrder = document.getElementById("sortOrder").value;
     const showInStock = document.getElementById("showInStock").checked;
@@ -339,19 +347,8 @@ async function getProducts() {
       selectedGPUs: selectedGPUClass,
       selectedCPUs: selectedCPUBrands,
       isStocked: showInStock,
-      selectedGPUseries: selectedGPUModels,
+      selectedGPUModels: selectedGPUModels,
       selectedCPUModels: selectedCPUModels,
-      /*  selectedGPUseries: selectedGPUModels.filter((model) =>
-        ["rtx", "gtx", "rx", "arc"].some((keyword) =>
-          model.includes(keyword.toLowerCase())
-        )
-      ),
-      selectedCPUseries: selectedGPUModels.filter(
-        (model) =>
-          !["rtx", "gtx", "rx", "arc"].some((keyword) =>
-            model.includes(keyword.toLowerCase())
-          )
-      ), */
       page: currentPage,
       stores: selectedStores,
       orderBy: sortOrder,

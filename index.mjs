@@ -183,8 +183,8 @@ app.post("/api/getProducts", async (req, res) => {
     endPrice,
     selectedGPUs,
     selectedCPUs,
-    selectedGPUseries,
-    selectedCPUseries,
+    selectedGPUModels,
+    selectedCPUModels,
     stores,
     page = 1,
     pageSize = 10,
@@ -214,16 +214,16 @@ app.post("/api/getProducts", async (req, res) => {
         )
       );
     }
-    if (selectedGPUseries && selectedGPUseries.length > 0) {
+    if (selectedGPUModels && selectedGPUModels.length > 0) {
       filteredData = filteredData.filter((item) =>
-        selectedGPUseries.some((series) =>
+        selectedGPUModels.some((series) =>
           item.specs.GPU?.toLowerCase().includes(series.toLowerCase())
         )
       );
     }
-    if (selectedCPUseries && selectedCPUseries.length > 0) {
+    if (selectedCPUModels && selectedCPUModels.length > 0) {
       filteredData = filteredData.filter((item) =>
-        selectedCPUseries.some((series) =>
+        selectedCPUModels.some((series) =>
           item.specs.CPU?.toLowerCase().includes(series.toLowerCase())
         )
       );
