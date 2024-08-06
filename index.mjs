@@ -228,12 +228,32 @@ app.post("/api/getProducts", async (req, res) => {
         )
       );
     }
+
     if (selectedCPUs && selectedCPUs.length > 0) {
-      filteredData = filteredData.filter((item) =>
-        selectedCPUs.some((cpu) =>
-          item.specs.CPU?.toLowerCase().includes(cpu.toLowerCase())
-        )
-      );
+      if (selectedCPUs[0] === "amd" && selectedCPUs.length === 1) {
+        filteredData = filteredData.filter((item) =>
+          selectedCPUs.some(
+            (cpu) =>
+              item.specs.CPU?.toLowerCase().includes("r3 ") ||
+              item.specs.CPU?.toLowerCase().includes("r5 ") ||
+              item.specs.CPU?.toLowerCase().includes("r7 ") ||
+              item.specs.CPU?.toLowerCase().includes("amd") ||
+              item.specs.CPU?.toLowerCase().includes("ryzen")
+          )
+        );
+      } else if (selectedCPUs[0] === "intel" && selectedCPUs.length === 1) {
+        filteredData = filteredData.filter((item) =>
+          selectedCPUs.some(
+            (cpu) =>
+              item.specs.CPU?.toLowerCase().includes("i3 ") ||
+              item.specs.CPU?.toLowerCase().includes("i5 ") ||
+              item.specs.CPU?.toLowerCase().includes("i7 ") ||
+              item.specs.CPU?.toLowerCase().includes("intel") ||
+              item.specs.CPU?.toLowerCase().includes("ıntel") ||
+              item.specs.CPU?.toLowerCase().includes("core")
+          )
+        );
+      }
     }
     if (stores && stores.length > 0) {
       filteredData = filteredData.filter((item) =>
