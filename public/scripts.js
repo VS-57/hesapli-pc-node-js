@@ -1,22 +1,18 @@
-// Populate the filters when the page loads
 function initFilters() {
   populateProcessorModelFilters();
   populateGpuModelFilters();
 }
 
 let isMobile = false;
+let currentPage = 1;
+let totalPages = 10;
 
 function checkIfMobile() {
   isMobile = window.innerWidth <= 800;
 }
-
-// İlk yüklemede kontrol et
 checkIfMobile();
 
-// Pencere yeniden boyutlandırıldığında kontrol et
 window.addEventListener("resize", checkIfMobile);
-
-// Ayrıca, sayfa yüklendiğinde de kontrol edebilirsiniz
 window.addEventListener("load", checkIfMobile);
 
 const selectedGPUs = Array.from(
@@ -313,7 +309,7 @@ async function getProducts() {
             model.includes(keyword)
           )
       ),
-      page: 1,
+      page: currentPage,
       stores: selectedStores,
       orderBy: sortOrder,
       pageSize: pageSize,
@@ -328,6 +324,7 @@ async function getProducts() {
     });
 
     const data = await response.json();
+    totalPages = data.pagination.totalPages;
     document.getElementById("productCount").textContent =
       data.pagination.totalItems;
     renderProducts(data);
@@ -341,6 +338,43 @@ function setupEventListeners() {
   document.getElementById("filterInput").addEventListener("keyup", getProducts);
   document.getElementById("sortOrder").addEventListener("change", getProducts);
   document.getElementById("pageSize").addEventListener("change", getProducts);
+
+  document.getElementById("pageSize").addEventListener("change", async () => {
+    currentPage = 1;
+    await getProducts();
+  });
+
+  document.getElementById("prevPage").addEventListener("click", async () => {
+    if (currentPage > 1) {
+      currentPage--;
+      await getProducts();
+    }
+  });
+
+  document.getElementById("nextPage").addEventListener("click", async () => {
+    if (currentPage < totalPages) {
+      currentPage++;
+      await getProducts();
+    }
+  });
+
+  document
+    .getElementById("prevPageBottom")
+    .addEventListener("click", async () => {
+      if (currentPage > 1) {
+        currentPage--;
+        await getProducts();
+      }
+    });
+
+  document
+    .getElementById("nextPageBottom")
+    .addEventListener("click", async () => {
+      if (currentPage < totalPages) {
+        currentPage++;
+        await getProducts();
+      }
+    });
 
   document
     .getElementById("showInStock")
@@ -433,5 +467,4 @@ document.addEventListener("DOMContentLoaded", async function () {
   await initFilters();
   setupEventListeners();
   const products = await getProducts();
-  document.getElementById("productCount").textContent = products.length;
 });
