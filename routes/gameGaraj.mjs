@@ -20,6 +20,27 @@ async function fetchPageData(page) {
   }
 }
 
+// Toplam sayfa sayısını alma fonksiyonu
+async function getTotalPages() {
+  try {
+    const response = await fetch(
+      `https://www.gamegaraj.com/grup/masaustu-bilgisayar/`
+    );
+    if (!response.ok)
+      throw new Error(`Error fetching total pages: ${response.statusText}`);
+    const text = await response.text();
+    const dom = new JSDOM(text);
+    const totalPagesElement = dom.window.document.querySelector(
+      ".woocommerce-pagination .page-numbers li:nth-last-child(2) a"
+    );
+    return totalPagesElement
+      ? parseInt(totalPagesElement.textContent.trim(), 10)
+      : 1;
+  } catch (error) {
+    throw new Error(`Failed to fetch total pages: ${error.message}`);
+  }
+}
+
 // Ürünleri ayrıştırma fonksiyonu
 function parseProducts(doc) {
   const productElements = doc.querySelectorAll(".products li.product");
@@ -141,7 +162,8 @@ async function fetchAllProducts(totalPages) {
 
 router.get("/", async (req, res) => {
   try {
-    const totalPages = parseInt(req.query.totalPages, 10) || 8; // Dinamik sayfa sayısı
+    const totalPages = await getTotalPages();
+    console.log(totalPages);
     const products = await fetchAllProducts(totalPages);
     res.json(products);
   } catch (error) {
