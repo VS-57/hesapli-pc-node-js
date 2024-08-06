@@ -329,10 +329,10 @@ async function getProducts() {
       data.pagination.totalItems;
 
     document.getElementById("pageTopInfo").textContent =
-      data.pagination.currentPage + "/" + data.pagination.totalPages;
+      data.pagination.currentPage + " / " + data.pagination.totalPages;
 
       document.getElementById("pageInfoBottom").textContent =
-      data.pagination.currentPage + "/" + data.pagination.totalPages;
+      data.pagination.currentPage + " / " + data.pagination.totalPages;
 
     renderProducts(data);
   } catch (error) {
