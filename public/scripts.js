@@ -164,6 +164,12 @@ function filterGpuModels() {
       currentCheckedStates[checkbox.id] = checkbox.checked;
     });
 
+  document
+    .querySelectorAll("#gpuModelFiltersMobile .form-check-input")
+    .forEach((checkbox) => {
+      currentCheckedStates[checkbox.id] = checkbox.checked;
+    });
+
   const gpuModelFilters = isMobile
     ? document.getElementById("gpuModelFiltersMobile")
     : document.getElementById("gpuModelFilters");
@@ -235,7 +241,8 @@ async function getProducts() {
     const endPrice = isMobile
       ? Number(document.getElementById("endPriceMobile").value) || null
       : Number(document.getElementById("endPrice").value) || null;
-    const selectedCPUs = Array.from(
+
+    const selectedCPUBrands = Array.from(
       document.querySelectorAll(".form-check-input:checked")
     )
       .filter(
@@ -243,41 +250,71 @@ async function getProducts() {
           checkbox.id.includes("Intel") || checkbox.id.includes("AMD")
       )
       .map((checkbox) => checkbox.value.toLowerCase());
-    const selectedGPUs = Array.from(
+
+    const selectedGPUClass = Array.from(
       document.querySelectorAll(".form-check-input:checked")
     )
       .filter(
         (checkbox) =>
-          checkbox.id.includes("RTX") ||
-          checkbox.id.includes("GTX") ||
-          checkbox.id.includes("ARC") ||
-          checkbox.id.includes("RX")
+          checkbox.id === "RTX" ||
+          checkbox.id === "GTX" ||
+          checkbox.id === "ARC" ||
+          checkbox.id === "RX"
       )
       .map((checkbox) => checkbox.value.toLowerCase());
-    const selectedModels = Array.from(
+
+    const selectedGPUModels = Array.from(
       document.querySelectorAll(".form-check-input:checked")
     )
       .filter(
         (checkbox) =>
-          !checkbox.id.includes("Intel") &&
-          !checkbox.id.includes("AMD") &&
-          !checkbox.id.includes("RTX") &&
-          !checkbox.id.includes("ARC") &&
-          !checkbox.id.includes("GTX") &&
-          !checkbox.id.includes("RX") &&
-          !checkbox.id.includes("itopya") &&
-          !checkbox.id.includes("gamingGen") &&
-          !checkbox.id.includes("pckolik") &&
-          !checkbox.id.includes("vatan") &&
-          !checkbox.id.includes("sinerji") &&
-          !checkbox.id.includes("inceHesap") &&
-          !checkbox.id.includes("tebilon") &&
-          !checkbox.id.includes("gencergaming") &&
-          !checkbox.id.includes("gameGaraj")
+          checkbox.id !== "Intel" &&
+          checkbox.id !== "AMD" &&
+          checkbox.id !== "RTX" &&
+          checkbox.id !== "ARC" &&
+          checkbox.id !== "GTX" &&
+          checkbox.id !== "RX" &&
+          checkbox.id !== "vatan" &&
+          checkbox.id !== "itopya" &&
+          checkbox.id !== "gamingGen" &&
+          checkbox.id !== "gameGaraj" &&
+          checkbox.id !== "pckolik" &&
+          checkbox.id !== "tebilon" &&
+          checkbox.id !== "sinerji" &&
+          checkbox.id !== "gencergaming" &&
+          checkbox.id !== "inceHesap"
       )
       .map((checkbox) => checkbox.value.toLowerCase());
+
+    const selectedCPUModels = Array.from(
+      document.querySelectorAll(".form-check-input:checked")
+    )
+      .filter(
+        (checkbox) =>
+          checkbox.id !== "Intel" &&
+          checkbox.id !== "AMD" &&
+          checkbox.id !== "RTX" &&
+          checkbox.id !== "ARC" &&
+          checkbox.id !== "GTX" &&
+          checkbox.id !== "RX" &&
+          checkbox.id !== "vatan" &&
+          checkbox.id !== "itopya" &&
+          checkbox.id !== "gamingGen" &&
+          checkbox.id !== "gameGaraj" &&
+          checkbox.id !== "pckolik" &&
+          checkbox.id !== "tebilon" &&
+          checkbox.id !== "sinerji" &&
+          checkbox.id !== "gencergaming" &&
+          checkbox.id !== "inceHesap"
+      )
+      .map((checkbox) => checkbox.value.toLowerCase());
+
+    console.log(selectedGPUModels);
+    console.log(selectedCPUModels);
+
     const sortOrder = document.getElementById("sortOrder").value;
     const showInStock = document.getElementById("showInStock").checked;
+
     const selectedStores = Array.from(
       document.querySelectorAll(".form-check-input:checked")
     )
@@ -299,18 +336,22 @@ async function getProducts() {
       searchTerm: searchTerm,
       startPrice: startPrice,
       endPrice: endPrice,
-      selectedGPUs: selectedGPUs,
-      selectedCPUs: selectedCPUs,
+      selectedGPUs: selectedGPUClass,
+      selectedCPUs: selectedCPUBrands,
       isStocked: showInStock,
-      selectedGPUseries: selectedModels.filter((model) =>
-        ["rtx", "gtx", "rx", "arc"].some((keyword) => model.includes(keyword))
+      selectedGPUseries: selectedGPUModels,
+      selectedCPUModels: selectedCPUModels,
+      /*  selectedGPUseries: selectedGPUModels.filter((model) =>
+        ["rtx", "gtx", "rx", "arc"].some((keyword) =>
+          model.includes(keyword.toLowerCase())
+        )
       ),
-      selectedCPUseries: selectedModels.filter(
+      selectedCPUseries: selectedGPUModels.filter(
         (model) =>
           !["rtx", "gtx", "rx", "arc"].some((keyword) =>
-            model.includes(keyword)
+            model.includes(keyword.toLowerCase())
           )
-      ),
+      ), */
       page: currentPage,
       stores: selectedStores,
       orderBy: sortOrder,
@@ -396,6 +437,11 @@ function setupEventListeners() {
   document.querySelectorAll(".form-check-input").forEach(function (checkbox) {
     checkbox.addEventListener("change", getProducts);
   });
+
+  document.querySelectorAll(".form-check-input").forEach(function (checkbox) {
+    checkbox.addEventListener("change", filterGpuModels);
+  });
+
   document
     .getElementById("processorSearch")
     .addEventListener("input", filterProcessorModels);
