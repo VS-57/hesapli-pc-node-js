@@ -317,9 +317,6 @@ async function getProducts() {
       )
       .map((checkbox) => checkbox.value.toLowerCase());
 
-    console.log("gpu" + selectedGPUModels);
-    console.log("cpu" + selectedCPUModels);
-
     const sortOrder = document.getElementById("sortOrder").value;
     const showInStock = document.getElementById("showInStock").checked;
 
