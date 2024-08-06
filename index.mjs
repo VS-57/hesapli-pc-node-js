@@ -50,7 +50,24 @@ app.use("/api/getAll", getAllRouter);
 app.use("/api/cpu", getCPUs);
 app.use("/api/gpu", getGPUs);
 
-// Yeni endpoint
+/**
+ * @swagger
+ * /api/combined:
+ *   get:
+ *     summary: Get combined data from all sources
+ *     description: Fetches data from multiple sources and combines them into one response.
+ *     responses:
+ *       200:
+ *         description: Successfully retrieved combined data
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: array
+ *               items:
+ *                 type: object
+ *       500:
+ *         description: Failed to fetch or combine data
+ */
 app.get("/api/combined", async (req, res) => {
   try {
     const urls = [
@@ -83,6 +100,156 @@ app.get("/api/combined", async (req, res) => {
     res.json(updatedArr);
   } catch (error) {
     res.status(500).json({ error: error.message });
+  }
+});
+
+/**
+ * @swagger
+ * /api/filter:
+ *   post:
+ *     summary: Filter and paginate data from mock.json
+ *     description: Returns filtered and paginated data from mock.json based on the provided criteria.
+ *     requestBody:
+ *       required: true
+ *       content:
+ *         application/json:
+ *           schema:
+ *             type: object
+ *             properties:
+ *               startPrice:
+ *                 type: integer
+ *                 example: 100
+ *               endPrice:
+ *                 type: integer
+ *                 example: 1000
+ *               selectedGPUs:
+ *                 type: array
+ *                 items:
+ *                   type: string
+ *                 example: ["NVIDIA", "AMD"]
+ *               selectedGPUseries:
+ *                 type: array
+ *                 items:
+ *                   type: string
+ *                 example: ["rtx", "gtx"]
+ *               selectedCPUs:
+ *                 type: array
+ *                 items:
+ *                   type: string
+ *                 example: ["Intel", "AMD"]
+ *               page:
+ *                 type: integer
+ *                 example: 1
+ *               pageSize:
+ *                 type: integer
+ *                 example: 10
+ *     responses:
+ *       200:
+ *         description: Successfully retrieved filtered and paginated data
+ *         content:
+ *           application/json:
+ *             schema:
+ *               type: object
+ *               properties:
+ *                 data:
+ *                   type: array
+ *                   items:
+ *                     type: object
+ *                 pagination:
+ *                   type: object
+ *                   properties:
+ *                     totalItems:
+ *                       type: integer
+ *                       example: 100
+ *                     totalPages:
+ *                       type: integer
+ *                       example: 10
+ *                     currentPage:
+ *                       type: integer
+ *                       example: 1
+ *                     pageSize:
+ *                       type: integer
+ *                       example: 10
+ *       500:
+ *         description: Failed to read or filter mock data
+ */
+app.post("/api/getProducts", async (req, res) => {
+  const {
+    startPrice,
+    endPrice,
+    selectedGPUs,
+    selectedCPUs,
+    selectedGPUseries,
+    selectedCPUseries,
+    stores,
+    page = 1,
+    pageSize = 10,
+  } = req.body;
+  try {
+    const data = JSON.parse(await fs.readFile("mock.json", "utf-8"));
+
+    let filteredData = data;
+
+    if (startPrice !== undefined && startPrice > 0) {
+      filteredData = filteredData.filter((item) => item.price >= startPrice);
+    }
+    if (endPrice !== undefined && endPrice > 0) {
+      filteredData = filteredData.filter((item) => item.price <= endPrice);
+    }
+    if (selectedGPUs && selectedGPUs.length > 0) {
+      filteredData = filteredData.filter((item) =>
+        selectedGPUs.some((model) =>
+          item.specs.GPU?.toLowerCase().includes(model.toLowerCase())
+        )
+      );
+    }
+    if (selectedGPUseries && selectedGPUseries.length > 0) {
+      filteredData = filteredData.filter((item) =>
+        selectedGPUseries.some((series) =>
+          item.specs.GPU?.toLowerCase().includes(series.toLowerCase())
+        )
+      );
+    }
+    if (selectedCPUseries && selectedCPUseries.length > 0) {
+      filteredData = filteredData.filter((item) =>
+        selectedCPUseries.some((series) =>
+          item.specs.CPU?.toLowerCase().includes(series.toLowerCase())
+        )
+      );
+    }
+    if (selectedCPUs && selectedCPUs.length > 0) {
+      filteredData = filteredData.filter((item) =>
+        selectedCPUs.some((cpu) =>
+          item.specs.CPU?.toLowerCase().includes(cpu.toLowerCase())
+        )
+      );
+    }
+    if (stores && stores.length > 0) {
+      filteredData = filteredData.filter((item) =>
+        stores.some((store) =>
+          item.store?.toLowerCase().includes(store.toLowerCase())
+        )
+      );
+    }
+
+    const totalItems = filteredData.length;
+    const totalPages = Math.ceil(totalItems / pageSize);
+    const paginatedData = filteredData.slice(
+      (page - 1) * pageSize,
+      page * pageSize
+    );
+
+    res.json({
+      data: paginatedData,
+      pagination: {
+        totalItems,
+        totalPages,
+        currentPage: page,
+        pageSize,
+      },
+    });
+  } catch (error) {
+    res.status(500).json({ error: error });
   }
 });
 
