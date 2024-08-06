@@ -82,7 +82,7 @@ async function scrapeMultiplePages(urls) {
 
 router.get("/", async (req, res) => {
   const baseUrl = "https://pckolik.com/tr/pc/hazir-sistemler";
-  const urls = [`${baseUrl}`, `${baseUrl}?page=2`];
+  const urls = [`${baseUrl}`];
   try {
     const products = await scrapeMultiplePages(urls);
     res.json(products);
