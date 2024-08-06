@@ -299,6 +299,7 @@ async function getProducts() {
       endPrice: endPrice,
       selectedGPUs: selectedGPUs,
       selectedCPUs: selectedCPUs,
+      isStocked: showInStock,
       selectedGPUseries: selectedModels.filter((model) =>
         ["rtx", "gtx", "rx", "arc"].some((keyword) => model.includes(keyword))
       ),
