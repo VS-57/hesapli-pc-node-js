@@ -188,6 +188,7 @@ app.post("/api/getProducts", async (req, res) => {
     page = 1,
     pageSize = 10,
     orderBy,
+    isStocked,
   } = req.body;
   try {
     const data = JSON.parse(await fs.readFile("mock.json", "utf-8"));
@@ -234,6 +235,14 @@ app.post("/api/getProducts", async (req, res) => {
           item.store?.toLowerCase().includes(store.toLowerCase())
         )
       );
+    }
+
+    if (isStocked !== undefined && isStocked !== null) {
+      filteredData = filteredData.filter((item) => {
+        const inStock =
+          item.price !== null && item.price !== undefined && item.price !== 0;
+        return isStocked ? inStock : !inStock;
+      });
     }
 
     if (orderBy) {
