@@ -143,6 +143,9 @@ app.get("/api/combined", async (req, res) => {
  *               pageSize:
  *                 type: integer
  *                 example: 10
+ *               orderBy:
+ *                 type: string
+ *                 example: "lowToHigh"
  *     responses:
  *       200:
  *         description: Successfully retrieved filtered and paginated data
@@ -184,6 +187,7 @@ app.post("/api/getProducts", async (req, res) => {
     stores,
     page = 1,
     pageSize = 10,
+    orderBy,
   } = req.body;
   try {
     const data = JSON.parse(await fs.readFile("mock.json", "utf-8"));
@@ -230,6 +234,17 @@ app.post("/api/getProducts", async (req, res) => {
           item.store?.toLowerCase().includes(store.toLowerCase())
         )
       );
+    }
+
+    if (orderBy) {
+      filteredData.sort((a, b) => {
+        if (orderBy === "lowToHigh") {
+          return a.price - b.price;
+        } else if (orderBy === "highToLow") {
+          return b.price - a.price;
+        }
+        return 0;
+      });
     }
 
     const totalItems = filteredData.length;
