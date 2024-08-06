@@ -13,6 +13,12 @@ async function fetchPageData(page) {
   return dom.window.document;
 }
 
+function parseTotalPages(doc) {
+  const pageInfo = doc.querySelector(".page-info strong").textContent.trim();
+  const totalPages = parseInt(pageInfo.split("/")[1], 10);
+  return totalPages;
+}
+
 function parseProducts(doc) {
   const productElements = doc.querySelectorAll(".product");
   return Array.from(productElements).map((product) => {
@@ -62,9 +68,12 @@ function parseProducts(doc) {
   });
 }
 
-async function fetchAllProducts(totalPages) {
-  let allProducts = [];
-  for (let page = 1; page <= totalPages; page++) {
+async function fetchAllProducts() {
+  const initialDoc = await fetchPageData(1);
+  const totalPages = parseTotalPages(initialDoc);
+  let allProducts = parseProducts(initialDoc);
+
+  for (let page = 2; page <= totalPages; page++) {
     const doc = await fetchPageData(page);
     const products = parseProducts(doc);
     allProducts = allProducts.concat(products);
@@ -74,8 +83,7 @@ async function fetchAllProducts(totalPages) {
 
 router.get("/", async (req, res) => {
   try {
-    const totalPages = 23;
-    const products = await fetchAllProducts(totalPages);
+    const products = await fetchAllProducts();
     res.json(products);
   } catch (error) {
     res.status(500).json({ error: error.message });
