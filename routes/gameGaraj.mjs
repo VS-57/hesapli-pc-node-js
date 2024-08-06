@@ -163,7 +163,6 @@ async function fetchAllProducts(totalPages) {
 router.get("/", async (req, res) => {
   try {
     const totalPages = await getTotalPages();
-    console.log(totalPages);
     const products = await fetchAllProducts(totalPages);
     res.json(products);
   } catch (error) {

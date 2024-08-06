@@ -124,7 +124,6 @@ router.get("/", async (req, res) => {
   const baseUrl = "https://www.incehesap.com/hazir-sistemler-fiyatlari/";
   try {
     const totalPages = await getTotalPages(baseUrl);
-    console.log(totalPages);
     const urls = generateUrls(baseUrl, totalPages);
     const products = await fetchAllProducts(urls);
     res.json(products);
