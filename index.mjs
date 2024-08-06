@@ -216,11 +216,21 @@ app.post("/api/getProducts", async (req, res) => {
     }
     if (selectedGPUModels && selectedGPUModels.length > 0) {
       filteredData = filteredData.filter((item) =>
-        selectedGPUModels.some((series) =>
-          item.specs.GPU?.toLowerCase().includes(series.toLowerCase())
-        )
+        selectedGPUModels.some((series) => {
+          let gpuName = item.specs.GPU?.toLowerCase();
+          let normalizedSeries = series.replace(/\s+/g, "").toLowerCase();
+          if (gpuName && gpuName.includes("arc")) {
+            const arcIndex = gpuName.indexOf("arc");
+            const modifiedGPU =
+              gpuName.slice(0, arcIndex + 3) +
+              gpuName.slice(arcIndex + 3).replace("a", "");
+            gpuName = modifiedGPU.replace(/\s+/g, "");
+          }
+          return gpuName?.includes(normalizedSeries);
+        })
       );
     }
+
     if (selectedCPUModels && selectedCPUModels.length > 0) {
       filteredData = filteredData.filter((item) =>
         selectedCPUModels.some((series) =>

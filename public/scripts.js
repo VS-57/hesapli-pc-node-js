@@ -371,7 +371,10 @@ async function getProducts() {
     document.getElementById("pageInfoBottom").textContent =
       data.pagination.currentPage + " / " + data.pagination.totalPages;
 
-    if (data.pagination.currentPage > data.pagination.totalPages) {
+    if (
+      data.pagination.currentPage > data.pagination.totalPages &&
+      data.data.length > 0
+    ) {
       currentPage = 1;
       getProducts();
     }
