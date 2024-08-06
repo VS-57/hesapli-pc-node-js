@@ -1,0 +1,126 @@
+/* CSS stil tanımlamaları burada */
+.product-card {
+    margin-bottom: 30px;
+  }
+  
+  .product-image {
+    height: 200px;
+    object-fit: contain;
+  }
+  
+  .card-body {
+    font-size: 0.9rem;
+  }
+  
+  .filter-sidebar {
+    border-right: 1px solid #ddd;
+    padding-right: 20px;
+  }
+  
+  .filter-sidebar h5 {
+    margin-top: 20px;
+  }
+  
+  .product-item {
+    position: relative;
+  }
+  
+  .scrollable-filters {
+    max-height: 300px;
+    overflow-y: auto;
+  }
+  
+  .logo-container {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+  }
+  
+  .store-logo {
+    max-width: 50px;
+  }
+  
+  .header {
+    background-color: #1c2938;
+    padding: 20px;
+  }
+  
+  .header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .header-left {
+    flex: 1;
+  }
+  
+  .header-right {
+    flex: 3;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .header-title {
+    color: #f7f8f9;
+    text-align: center;
+    margin: 10px 0;
+  }
+  
+  .search-box {
+    width: 100%;
+    position: relative;
+  }
+  
+  .search-box input {
+    width: 80%;
+  }
+  
+  .contact-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #1c2938;
+    color: #fff;
+    padding: 10px 20px;
+  }
+  
+  @media (max-width: 768px) {
+    .header-left,
+    .header-right {
+      flex: 1 0 100%;
+      text-align: center;
+    }
+  
+    .header-title {
+      order: 1;
+    }
+  
+    .header-left {
+      order: 2;
+    }
+  
+    .header-right {
+      order: 3;
+      margin-top: 10px;
+    }
+  
+    .search-box input {
+      width: 100%;
+    }
+  
+    .contact-button {
+      position: static;
+      margin-top: 10px;
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .header-title {
+      display: none;
+    }
+  }
+  
