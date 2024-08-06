@@ -417,7 +417,6 @@ function resetFilters() {
 function renderProducts(products) {
   const productList = document.getElementById("productList");
   productList.innerHTML = "";
-  console.log(products);
   products.data.forEach(function (product) {
     const formattedPrice = new Intl.NumberFormat("tr-TR", {
       style: "currency",
