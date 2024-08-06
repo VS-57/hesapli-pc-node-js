@@ -4,6 +4,32 @@ import { JSDOM } from "jsdom";
 
 const router = express.Router();
 
+async function getTotalPages(url) {
+  try {
+    const response = await fetch(url);
+    if (!response.ok) {
+      console.error(`Failed to fetch ${url}: ${response.statusText}`);
+      return 1;
+    }
+
+    const html = await response.text();
+    const dom = new JSDOM(html);
+    const doc = dom.window.document;
+    const paginationElements = doc.querySelectorAll(
+      ".productSort__pagination a"
+    );
+    const totalPages = Array.from(paginationElements)
+      .map((el) => parseInt(el.textContent.trim()))
+      .filter((num) => !isNaN(num))
+      .sort((a, b) => b - a)[0];
+
+    return totalPages || 1;
+  } catch (error) {
+    console.error(`Error fetching total pages from ${url}: ${error.message}`);
+    return 1;
+  }
+}
+
 async function fetchAllProducts(urls) {
   const products = [];
   const fetchPromises = urls.map(async (url) => {
@@ -116,10 +142,11 @@ function generateUrls(base, totalPages) {
 
 router.get("/", async (req, res) => {
   const baseUrl = "https://www.tebilon.com/hazir-sistemler/";
-  const totalPages = 6; // Default to 6 pages
-  const urls = generateUrls(baseUrl, totalPages);
 
   try {
+    const totalPages = await getTotalPages(baseUrl);
+    const urls = generateUrls(baseUrl, totalPages);
+
     const products = await fetchAllProducts(urls);
     const detailPromises = products.map(async (product) => {
       product.specs = await fetchProductDetails(product.link);
