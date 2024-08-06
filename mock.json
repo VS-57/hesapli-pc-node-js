@@ -8551,1175 +8551,6 @@
     "store": "vatan"
   },
   {
-    "name": "Thanatos V2",
-    "price": 22989,
-    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
-    "link": "https://www.incehesap.com/thanatos-v2-hazir-sistem-fiyati-42947/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600G Tray",
-      "Ram": "16 GB DDR4",
-      "GPU": "Colorful RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Zodiak Silver",
-    "price": 23789,
-    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
-    "link": "https://www.incehesap.com/zodiak-silver-hazir-sistem-fiyati-45605/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600G Tray",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Machete Dual",
-    "price": 14999,
-    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
-    "link": "https://www.incehesap.com/machete-dual-hazir-sistem-fiyati-64251/",
-    "specs": {
-      "CPU": "Intel i3-12100F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Sparkle Intel Arc A750 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Curious PBM",
-    "price": 45999,
-    "image": "https://www.incehesap.com/resim/urun/202407/6683a0291c09c9.39876331_qpgnjfhemkloi_200.webp",
-    "link": "https://www.incehesap.com/curious-pbm-hazir-sistem-fiyati-62708/",
-    "specs": {
-      "CPU": "Intel i5-13600KF",
-      "Ram": "16 GB DDR5",
-      "GPU": "MSI RTX 4060 Ti 16 GB",
-      "Storage": "1 TB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "CharmQuell",
-    "price": 24199,
-    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
-    "link": "https://www.incehesap.com/charmquell-hazir-sistem-fiyati-41725/",
-    "specs": {
-      "CPU": "Intel i5-12400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Gigabyte RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Nova APU",
-    "price": 10999,
-    "image": "https://www.incehesap.com/resim/urun/202406/66796afb2c74a9.35905443_feponmlqhijgk_200.webp",
-    "link": "https://www.incehesap.com/nova-apu-hazir-sistem-fiyati-50965/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600G Tray",
-      "Ram": "16 GB DDR4",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Thunder V2",
-    "price": 36999,
-    "image": "https://www.incehesap.com/resim/urun/202102/6028eefeab6821.09911597_glpqeknhiofjm_200.webp",
-    "link": "https://www.incehesap.com/thunder-v2-hazir-sistem-fiyati-50188/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Powercolor RX 7800 XT 16 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Nihilstein Bronze",
-    "price": 25799,
-    "image": "https://www.incehesap.com/resim/urun/202402/65cf6e30153e33.10289865_legonqikfhmpj_200.webp",
-    "link": "https://www.incehesap.com/nihilstein-bronze-hazir-sistem-fiyati-42678/",
-    "specs": {
-      "CPU": "Intel i5-12400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Clutch Bronze",
-    "price": 29499,
-    "image": "https://www.incehesap.com/resim/urun/202407/66839f3a9bb7b7.01015879_nqjoimlehfgpk_200.webp",
-    "link": "https://www.incehesap.com/clutch-bronze-hazir-sistem-fiyati-47267/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Gigabyte RTX 4060 8 GB",
-      "Storage": "1 TB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Phantom Silver PBM",
-    "price": 33789,
-    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
-    "link": "https://www.incehesap.com/phantom-silver-pbm-hazir-sistem-fiyati-44035/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600G Tray",
-      "Ram": "16 GB DDR4",
-      "GPU": "MSI RTX 4060 Ti 16 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "RRaenee",
-    "price": 31299,
-    "image": "https://www.incehesap.com/resim/urun/202402/65cf6e30153e33.10289865_legonqikfhmpj_200.webp",
-    "link": "https://www.incehesap.com/rraenee-hazir-sistem-fiyati-39592/",
-    "specs": {
-      "CPU": "Intel i5-12400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "MSI RTX 4060 Ti 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Obsidian 4060 Ti",
-    "price": 27499,
-    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
-    "link": "https://www.incehesap.com/obsidian-hazir-sistem-fiyati-57187/",
-    "specs": {
-      "CPU": "Intel i5-12400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Colorful RTX 4060 Ti 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Warrior Silver PBM",
-    "price": 33499,
-    "image": "https://www.incehesap.com/resim/urun/202406/66791868602b76.23808833_kgjonhqmfpile_200.webp",
-    "link": "https://www.incehesap.com/warrior-silver-pbm-hazir-sistem-fiyati-46114/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Ram": "16 GB DDR5",
-      "GPU": "MSI RTX 4060 Ti 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Artemis 6650 XT",
-    "price": 22499,
-    "image": "https://www.incehesap.com/resim/urun/202401/65a94ed7c6cc45.08193713_nklpojgifqemh_200.webp",
-    "link": "https://www.incehesap.com/artemis-hazir-sistem-fiyati-57134/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 3600",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RX 6650 XT 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Warrior Gold",
-    "price": 29299,
-    "image": "https://www.incehesap.com/resim/urun/202302/63e10a52048147.31809263_ihgmlfjpqonke_200.webp",
-    "link": "https://www.incehesap.com/warrior-gold-hazir-sistem-fiyati-45606/",
-    "specs": {
-      "CPU": "Intel i5-13400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "MSI RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Crown 4060",
-    "price": 28999,
-    "image": "https://www.incehesap.com/resim/urun/202402/65cf6e30153e33.10289865_legonqikfhmpj_200.webp",
-    "link": "https://www.incehesap.com/crown-hazir-sistem-fiyati-58351/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Obsidian Elite",
-    "price": 39199,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/obsidian-elite-hazir-sistem-fiyati-57184/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Gigabyte RX 7800 XT 16 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Nova Bronze",
-    "price": 40999,
-    "image": "https://www.incehesap.com/resim/urun/202406/6669862c97f304.11933245_ilnmhqeopjgkf_200.webp",
-    "link": "https://www.incehesap.com/nova-bronze-hazir-sistem-fiyati-50969/",
-    "specs": {
-      "CPU": "Intel i5-13400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4070 12 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Fenix Silver",
-    "price": 14999,
-    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
-    "link": "https://www.incehesap.com/fenix-silver-hazir-sistem-fiyati-48954/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5500",
-      "Ram": "16 GB DDR4",
-      "GPU": "Axle RX 5500 XT 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Skygate Pro V2",
-    "price": 42399,
-    "image": "https://www.incehesap.com/resim/urun/202102/6028eefeab6821.09911597_glpqeknhiofjm_200.webp",
-    "link": "https://www.incehesap.com/skygate-pro-v2-hazir-sistem-fiyati-50349/",
-    "specs": {
-      "CPU": "Intel i7-13700K",
-      "Ram": "16 GB DDR5",
-      "GPU": "Gigabyte RTX 4060 8 GB",
-      "Storage": "1 TB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Eagle Force V2",
-    "price": 25789,
-    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
-    "link": "https://www.incehesap.com/eagle-force-v2-hazir-sistem-fiyati-47265/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600G Tray",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Crown Gold",
-    "price": 37999,
-    "image": "https://www.incehesap.com/resim/urun/202407/6683a0291c09c9.39876331_qpgnjfhemkloi_200.webp",
-    "link": "https://www.incehesap.com/crown-gold-hazir-sistem-fiyati-63182/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "MSI RTX 4060 Ti 16 GB",
-      "Storage": "1 TB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Corax Silver",
-    "price": 28199,
-    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
-    "link": "https://www.incehesap.com/corax-silver-hazir-sistem-fiyati-37238/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Colorful RTX 4060 8 GB",
-      "Storage": "1 TB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Taurus Silver",
-    "price": 22299,
-    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
-    "link": "https://www.incehesap.com/taurus-silver-hazir-sistem-fiyati-45604/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5500",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Thunder PBM",
-    "price": 32199,
-    "image": "https://www.incehesap.com/resim/urun/202406/6669862c97f304.11933245_ilnmhqeopjgkf_200.webp",
-    "link": "https://www.incehesap.com/thunder-pbm-hazir-sistem-fiyati-69567/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Ram": "16 GB DDR5",
-      "GPU": "MSI RTX 4060 Ti 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Ventus X",
-    "price": 29999,
-    "image": "https://www.incehesap.com/resim/urun/202406/6669862c97f304.11933245_ilnmhqeopjgkf_200.webp",
-    "link": "https://www.incehesap.com/ventus-x-hazir-sistem-fiyati-61060/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "PNY RTX 4060 Ti 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Rival Elite V2",
-    "price": 37289,
-    "image": "https://www.incehesap.com/resim/urun/202406/6669862c97f304.11933245_ilnmhqeopjgkf_200.webp",
-    "link": "https://www.incehesap.com/rival-elite-v2-hazir-sistem-fiyati-47407/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600G Tray",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4070 12 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Negatron Platinum",
-    "price": 41299,
-    "image": "https://www.incehesap.com/resim/urun/202406/66791868602b76.23808833_kgjonhqmfpile_200.webp",
-    "link": "https://www.incehesap.com/negatron-platinum-hazir-sistem-fiyati-46593/",
-    "specs": {
-      "CPU": "Intel i5-13400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "PNY RTX 4070 Super 12 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Extensive",
-    "price": 37999,
-    "image": "https://www.incehesap.com/resim/urun/202406/66791aae8604c3.62493700_npioefjqgmhkl_200.webp",
-    "link": "https://www.incehesap.com/extensive-hazir-sistem-fiyati-62034/",
-    "specs": {
-      "CPU": "Intel i5-13400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Powercolor RX 7800 XT 16 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Sword Silver",
-    "price": 23499,
-    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
-    "link": "https://www.incehesap.com/sword-silver-hazir-sistem-fiyati-51857/",
-    "specs": {
-      "CPU": "Intel i5-12400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Superior 4060",
-    "price": 38999,
-    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
-    "link": "https://www.incehesap.com/superior-hazir-sistem-fiyati-44511/",
-    "specs": {
-      "CPU": "Intel i7-13700K",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Agron Creator",
-    "price": 37999,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/agron-creator-hazir-sistem-fiyati-58701/",
-    "specs": {
-      "CPU": "Intel i5-13600KF",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "1 TB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Falcon 3050",
-    "price": 16999,
-    "image": "https://www.incehesap.com/resim/urun/202307/64a2c2fa91ac33.70476273_lpefnjhqkigmo_200.webp",
-    "link": "https://www.incehesap.com/falcon-3050-hazir-sistem-fiyati-41742/",
-    "specs": {
-      "CPU": "Intel i3-12100F",
-      "Ram": "16 GB DDR4",
-      "GPU": "MSI GTX 1650 4 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Crixus PBM",
-    "price": 54499,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/crixus-pbm-hazir-sistem-fiyati-43850/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Ram": "16 GB DDR5",
-      "GPU": "MSI RTX 4070 Ti 12 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Clutch Silver",
-    "price": 25999,
-    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
-    "link": "https://www.incehesap.com/clutch-silver-hazir-sistem-fiyati-45609/",
-    "specs": {
-      "CPU": "Intel i5-13400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "PNY RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Uber PBM",
-    "price": 34999,
-    "image": "https://www.incehesap.com/resim/urun/202405/6655f06dc62144.90061049_gqhjflnepokmi_200.webp",
-    "link": "https://www.incehesap.com/uber-pbm-hazir-sistem-fiyati-44570/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "MSI RTX 4060 Ti 8 GB",
-      "Storage": "1 TB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Corax 4060 Ti",
-    "price": 31999,
-    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
-    "link": "https://www.incehesap.com/corax-hazir-sistem-fiyati-46742/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Colorful RTX 4060 Ti 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Achilles",
-    "price": 24999,
-    "image": "https://www.incehesap.com/resim/urun/202302/63e23ccaecb934.00217227_mjnhpgofkilqe_200.webp",
-    "link": "https://www.incehesap.com/achilles-hazir-sistem-fiyati-57905/",
-    "specs": {
-      "CPU": "Intel i5-12400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Slate Pro 3050",
-    "price": 18499,
-    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
-    "link": "https://www.incehesap.com/slate-pro-3050-hazir-sistem-fiyati-46592/",
-    "specs": {
-      "CPU": "Intel i3-13100F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Axle RTX 3050 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Slate 3050",
-    "price": 16499,
-    "image": "https://www.incehesap.com/resim/urun/202302/63e236967ff001.90324741_okqeiglnmfhpj_200.webp",
-    "link": "https://www.incehesap.com/slate-3050-hazir-sistem-fiyati-38391/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 3600",
-      "Ram": "16 GB DDR4",
-      "GPU": "MSI GTX 1650 4 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Taurus Bronze",
-    "price": 25389,
-    "image": "https://www.incehesap.com/resim/urun/202307/64a2c2fa91ac33.70476273_lpefnjhqkigmo_200.webp",
-    "link": "https://www.incehesap.com/taurus-bronze-hazir-sistem-fiyati-45487/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600G Tray",
-      "Ram": "16 GB DDR4",
-      "GPU": "Gigabyte RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Simurg 3060 Ti",
-    "price": 20999,
-    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
-    "link": "https://www.incehesap.com/simurg-hazir-sistem-fiyati-60388/",
-    "specs": {
-      "CPU": "Intel i3-12100F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Gigabyte RTX 3060 Ti 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Mortar Bronze",
-    "price": 27199,
-    "image": "https://www.incehesap.com/resim/urun/202302/63e23ccaecb934.00217227_mjnhpgofkilqe_200.webp",
-    "link": "https://www.incehesap.com/mortar-bronze-hazir-sistem-fiyati-46664/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RX 7600 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Lancea V2",
-    "price": 47999,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/lancea-v2-hazir-sistem-fiyati-46115/",
-    "specs": {
-      "CPU": "Intel i5-13600KF",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4070 12 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Hydro Bronze V2",
-    "price": 48999,
-    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
-    "link": "https://www.incehesap.com/hydro-bronze-v2-hazir-sistem-fiyati-39297/",
-    "specs": {
-      "CPU": "Intel i5-13600KF",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4070 12 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Nihilstein V2",
-    "price": 29999,
-    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
-    "link": "https://www.incehesap.com/nihilstein-v2-hazir-sistem-fiyati-42806/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Jarvis-X",
-    "price": 39999,
-    "image": "https://www.incehesap.com/resim/urun/202407/6683a0291c09c9.39876331_qpgnjfhemkloi_200.webp",
-    "link": "https://www.incehesap.com/jarvis-x-hazir-sistem-fiyati-46589/",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X3D",
-      "Ram": "16 GB DDR5",
-      "GPU": "Colorful RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Elnath 4060 Ti",
-    "price": 34499,
-    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
-    "link": "https://www.incehesap.com/elnath-hazir-sistem-fiyati-60102/",
-    "specs": {
-      "CPU": "Intel i5-13400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Colorful RTX 4060 Ti 8 GB",
-      "Storage": "1 TB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Phoenix V2",
-    "price": 29789,
-    "image": "https://www.incehesap.com/resim/urun/202402/65cf6e30153e33.10289865_legonqikfhmpj_200.webp",
-    "link": "https://www.incehesap.com/phoenix-v2-hazir-sistem-fiyati-50236/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600G Tray",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RX 7600 XT 16 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Runadia PBM",
-    "price": 30199,
-    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
-    "link": "https://www.incehesap.com/runadia-pbm-hazir-sistem-fiyati-69564/",
-    "specs": {
-      "CPU": "Intel i5-14400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "MSI RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Jarvis Bronze",
-    "price": 58999,
-    "image": "https://www.incehesap.com/resim/urun/202302/63e214496b9037.22849704_qhflegnkojpmi_200.webp",
-    "link": "https://www.incehesap.com/jarvis-bronze-hazir-sistem-fiyati-48279/",
-    "specs": {
-      "CPU": "Intel i5-13600KF",
-      "Ram": "16 GB DDR5",
-      "GPU": "PNY RTX 4070 Ti Super 16 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Magic 4060",
-    "price": 23789,
-    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
-    "link": "https://www.incehesap.com/magic-hazir-sistem-fiyati-57472/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600G Tray",
-      "Ram": "16 GB DDR4",
-      "GPU": "PNY RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Renegade",
-    "price": 17999,
-    "image": "https://www.incehesap.com/resim/urun/202407/66839f3a9bb7b7.01015879_nqjoimlehfgpk_200.webp",
-    "link": "https://www.incehesap.com/renegade-hazir-sistem-fiyati-49349/",
-    "specs": {
-      "CPU": "Intel i3-14100F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Sparkle Intel Arc A750 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Vulcan 4060 Ti",
-    "price": 34499,
-    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
-    "link": "https://www.incehesap.com/vulcan-myt-hazir-sistem-fiyati-47437/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4060 Ti 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Khaos 4070 Ti",
-    "price": 57999,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/khaos-hazir-sistem-fiyati-61000/",
-    "specs": {
-      "CPU": "Intel i5-13600KF",
-      "Ram": "16 GB DDR5",
-      "GPU": "Gigabyte RTX 4070 Ti 12 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Quinn V2 PBM",
-    "price": 30349,
-    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
-    "link": "https://www.incehesap.com/quinn-v2-pbm-hazir-sistem-fiyati-35561/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5700X3D",
-      "Ram": "16 GB DDR4",
-      "GPU": "MSI RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Tundra Gold PBM",
-    "price": 114999,
-    "image": "https://www.incehesap.com/resim/urun/202301/63d931e6de6486.73326492_jpfgqneolkhim_200.webp",
-    "link": "https://www.incehesap.com/tundra-gold-pbm-hazir-sistem-fiyati-47266/",
-    "specs": {
-      "CPU": "Intel i5-13600KF",
-      "Ram": "32 GB DDR5",
-      "GPU": "MSI RTX 4090 24 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Obsidian Base",
-    "price": 26699,
-    "image": "https://www.incehesap.com/resim/urun/202405/6638d0436d0193.58674256_pgefqkijolnhm_200.webp",
-    "link": "https://www.incehesap.com/obsidian-base-hazir-sistem-fiyati-57182/",
-    "specs": {
-      "CPU": "Intel i5-12400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RX 7600 8 GB",
-      "Storage": "1 TB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Rainclaw Silver",
-    "price": 57049,
-    "image": "https://www.incehesap.com/resim/urun/202406/66791868602b76.23808833_kgjonhqmfpile_200.webp",
-    "link": "https://www.incehesap.com/rainclaw-silver-hazir-sistem-fiyati-38390/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5700X3D",
-      "Ram": "16 GB DDR4",
-      "GPU": "MSI RTX 4070 Ti 12 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "El Capitan",
-    "price": 44999,
-    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
-    "link": "https://www.incehesap.com/el-capitan-hazir-sistem-fiyati-45726/",
-    "specs": {
-      "CPU": "Intel i5-14400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4070 12 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Raven",
-    "price": 35499,
-    "image": "https://www.incehesap.com/resim/urun/202402/65cf6e30153e33.10289865_legonqikfhmpj_200.webp",
-    "link": "https://www.incehesap.com/raven-hazir-sistem-fiyati-36692/",
-    "specs": {
-      "CPU": "Intel i5-13600KF",
-      "Ram": "16 GB DDR5",
-      "GPU": "Gigabyte RTX 4060 8 GB",
-      "Storage": "1 TB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Machete Gold",
-    "price": 29999,
-    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
-    "link": "https://www.incehesap.com/machete-gold-hazir-sistem-fiyati-42334/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600G Tray",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4060 Ti 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Ripple Gold",
-    "price": 46499,
-    "image": "https://www.incehesap.com/resim/urun/202102/6028eefeab6821.09911597_glpqeknhiofjm_200.webp",
-    "link": "https://www.incehesap.com/ripple-gold-hazir-sistem-fiyati-63171/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4070 Super 12 GB",
-      "Storage": "1 TB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "PCH Penumbra Gold",
-    "price": 52599,
-    "image": "https://www.incehesap.com/resim/urun/202406/66791868602b76.23808833_kgjonhqmfpile_200.webp",
-    "link": "https://www.incehesap.com/pch-penumbra-gold-hazir-sistem-fiyati-42962/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Gigabyte RTX 4070 Super 12 GB",
-      "Storage": "1 TB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Ventus Evo",
-    "price": 24499,
-    "image": "https://www.incehesap.com/resim/urun/202401/65a94ed7c6cc45.08193713_nklpojgifqemh_200.webp",
-    "link": "https://www.incehesap.com/ventus-evo-hazir-sistem-fiyati-64130/",
-    "specs": {
-      "CPU": "Intel i3-14100F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Eclipse 4060",
-    "price": 28999,
-    "image": "https://www.incehesap.com/resim/urun/202407/6698fa759b3b31.03293152_jmipghofkqlen_200.webp",
-    "link": "https://www.incehesap.com/eclipse-hazir-sistem-fiyati-47430/",
-    "specs": {
-      "CPU": "Intel i5-14400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Gigabyte RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Oblivion Gold",
-    "price": 39499,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/oblivion-gold-hazir-sistem-fiyati-63177/",
-    "specs": {
-      "CPU": "Intel i5-13400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "MSI RTX 4070 12 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "GameOn",
-    "price": 66499,
-    "image": "https://www.incehesap.com/resim/urun/202405/663dc3c8e719d5.50604540_pmejkilhgfnqo_200.webp",
-    "link": "https://www.incehesap.com/gameon-hazir-sistem-fiyati-70803/",
-    "specs": {
-      "CPU": "Intel i5-13600KF",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4070 Ti Super 16 GB",
-      "Storage": "1 TB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Nyks Platinum",
-    "price": 49999,
-    "image": "https://www.incehesap.com/resim/urun/202405/6638d0436d0193.58674256_pgefqkijolnhm_200.webp",
-    "link": "https://www.incehesap.com/nyks-platinum-hazir-sistem-fiyati-46591/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Gigabyte RTX 4070 Ti 12 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Shild Silver",
-    "price": 33699,
-    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
-    "link": "https://www.incehesap.com/shild-hazir-sistem-fiyati-57496/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4060 Ti 8 GB",
-      "Storage": "1 TB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Strain",
-    "price": 90879,
-    "image": "https://www.incehesap.com/resim/urun/202407/6683a0291c09c9.39876331_qpgnjfhemkloi_200.webp",
-    "link": "https://www.incehesap.com/strain-hazir-sistem-fiyati-62856/",
-    "specs": {
-      "CPU": "Intel i7-13700KF",
-      "Ram": "16 GB DDR5",
-      "GPU": "Gigabyte RTX 4080 Super 16 GB",
-      "Storage": "1 TB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Stainless 4060",
-    "price": 27499,
-    "image": "https://www.incehesap.com/resim/urun/202302/63e25bbd314344.26884128_qminepjgokflh_200.webp",
-    "link": "https://www.incehesap.com/stainless-hazir-sistem-fiyati-61982/",
-    "specs": {
-      "CPU": "Intel i5-13400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Magnus Silver",
-    "price": 39049,
-    "image": "https://www.incehesap.com/resim/urun/202407/6683a0291c09c9.39876331_qpgnjfhemkloi_200.webp",
-    "link": "https://www.incehesap.com/magnus-hazir-sistem-fiyati-67326/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5700X3D",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4060 Ti 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Phantom 4060 Ti",
-    "price": 28999,
-    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
-    "link": "https://www.incehesap.com/phantom-hazir-sistem-fiyati-46900/",
-    "specs": {
-      "CPU": "Intel i5-12400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Colorful RTX 4060 Ti 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Flame 4060",
-    "price": 27999,
-    "image": "https://www.incehesap.com/resim/urun/202406/6669862c97f304.11933245_ilnmhqeopjgkf_200.webp",
-    "link": "https://www.incehesap.com/flame-hazir-sistem-fiyati-37443/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Wardon 4070 Super",
-    "price": 41999,
-    "image": "https://www.incehesap.com/resim/urun/202302/63e212270b7c53.80281962_iohgejnkpmfql_200.webp",
-    "link": "https://www.incehesap.com/wardon-hazir-sistem-fiyati-58366/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "PNY RTX 4070 Super 12 GB",
-      "Storage": "1 TB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Majesty Bronz",
-    "price": 35999,
-    "image": "https://www.incehesap.com/resim/urun/202010/asus-tuf-gaming-gt301-argb-usb-3-1-atx-kasa-kasalar-masaustu-139763_200.webp",
-    "link": "https://www.incehesap.com/majesty-bronz-hazir-sistem-fiyati-43300/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4060 Ti 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Helios Platinum",
-    "price": 43199,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/helios-platinum-hazir-sistem-fiyati-48972/",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X3D",
-      "Ram": "32 GB DDR5",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "1 TB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Verto PBM",
-    "price": 33999,
-    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
-    "link": "https://www.incehesap.com/verto-pbm-hazir-sistem-fiyati-64133/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600",
-      "Ram": "16 GB DDR5",
-      "GPU": "MSI RTX 4060 Ti 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Atlantic V2",
-    "price": 33299,
-    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
-    "link": "https://www.incehesap.com/atlantic-v2-hazir-sistem-fiyati-41389/",
-    "specs": {
-      "CPU": "Intel i5-12400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "MSI RTX 4060 Ti 16 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Negatron 3060 Ti",
-    "price": 23499,
-    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
-    "link": "https://www.incehesap.com/negatron-hazir-sistem-fiyati-58697/",
-    "specs": {
-      "CPU": "Intel i5-12400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Gigabyte RTX 3060 Ti 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Verto Dual",
-    "price": 37499,
-    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
-    "link": "https://www.incehesap.com/verto-hazir-sistem-fiyati-62199/",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7700X",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Whisper PBM",
-    "price": 22699,
-    "image": "https://www.incehesap.com/resim/urun/202401/65a94ed7c6cc45.08193713_nklpojgifqemh_200.webp",
-    "link": "https://www.incehesap.com/whisper-pbm-hazir-sistem-fiyati-57344/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5500",
-      "Ram": "16 GB DDR4",
-      "GPU": "MSI RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Alpha Spear",
-    "price": 44999,
-    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
-    "link": "https://www.incehesap.com/alpha-spear-hazir-sistem-fiyati-60381/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4070 Super 12 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Taurus 5500 XT",
-    "price": 14999,
-    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
-    "link": "https://www.incehesap.com/taurus-hazir-sistem-fiyati-60055/",
-    "specs": {
-      "CPU": "Intel i3-12100F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Axle RX 5500 XT 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "PCH S Class 1.1",
-    "price": 28499,
-    "image": "https://www.incehesap.com/resim/urun/202307/64a2c2fa91ac33.70476273_lpefnjhqkigmo_200.webp",
-    "link": "https://www.incehesap.com/pch-s-class-1-1-hazir-sistem-fiyati-47432/",
-    "specs": {
-      "CPU": "Intel i5-13400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Orion 6600",
-    "price": 20999,
-    "image": "https://www.incehesap.com/resim/urun/202402/65cf6e30153e33.10289865_legonqikfhmpj_200.webp",
-    "link": "https://www.incehesap.com/orion-hazir-sistem-fiyati-42168/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 3600",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RX 6600 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Neron 6600 V2",
-    "price": 19199,
-    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
-    "link": "https://www.incehesap.com/neron-6600-v2-hazir-sistem-fiyati-50681/",
-    "specs": {
-      "CPU": "Intel i3-12100F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RX 6600 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Gamerbase",
-    "price": 39499,
-    "image": "https://www.incehesap.com/resim/urun/202407/6683a0291c09c9.39876331_qpgnjfhemkloi_200.webp",
-    "link": "https://www.incehesap.com/gamerbase-hazir-sistem-fiyati-50394/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Powercolor RX 7900 GRE 16 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Flow Silver",
-    "price": 20499,
-    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
-    "link": "https://www.incehesap.com/flow-silver-hazir-sistem-fiyati-50391/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5500",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RX 6600 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
     "name": "Radeon 6600",
     "price": 21989,
     "image": "https://www.incehesap.com/resim/urun/202302/63e23ccaecb934.00217227_mjnhpgofkilqe_200.webp",
@@ -9949,6 +8780,266 @@
       "CPU": "Intel i5-13600KF",
       "Ram": "16 GB DDR5",
       "GPU": "Asus RX 7900 XT 20 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Battle Silver",
+    "price": 25789,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e212270b7c53.80281962_iohgejnkpmfql_200.webp",
+    "link": "https://www.incehesap.com/battle-silver-hazir-sistem-fiyati-43357/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600G Tray",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Nihilstein Elite",
+    "price": 54499,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/nihilstein-elite-hazir-sistem-fiyati-42332/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4070 Ti 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Metin",
+    "price": 24499,
+    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
+    "link": "https://www.incehesap.com/metin-hazir-sistem-fiyati-50383/",
+    "specs": {
+      "CPU": "Intel i3-13100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Gigabyte RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Strain Gold V2",
+    "price": 24599,
+    "image": "https://www.incehesap.com/resim/urun/202407/6698fa759b3b31.03293152_jmipghofkqlen_200.webp",
+    "link": "https://www.incehesap.com/strain-gold-v2-hazir-sistem-fiyati-63387/",
+    "specs": {
+      "CPU": "Intel i3-14100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RX 6650 XT 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "PCH Antumbra",
+    "price": 25499,
+    "image": "https://www.incehesap.com/resim/urun/202407/66839f3a9bb7b7.01015879_nqjoimlehfgpk_200.webp",
+    "link": "https://www.incehesap.com/pch-antumbra-hazir-sistem-fiyati-56849/",
+    "specs": {
+      "CPU": "Intel i3-14100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Scorpion 7600",
+    "price": 24499,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
+    "link": "https://www.incehesap.com/scorpion-hazir-sistem-fiyati-60378/",
+    "specs": {
+      "CPU": "Intel i3-14100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RX 7600 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Ripple",
+    "price": 36999,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/ripple-hazir-sistem-fiyati-62936/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "MSI RTX 4070 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Dark Solid",
+    "price": 61499,
+    "image": "https://www.incehesap.com/resim/urun/202311/655b4128d98186.31506198_nkqfielpmgojh_200.webp",
+    "link": "https://www.incehesap.com/dark-solid-hazir-sistem-fiyati-47663/",
+    "specs": {
+      "CPU": "Intel i7-13700K",
+      "Ram": "16 GB DDR5",
+      "GPU": "Powercolor RX 7900 XT 20 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Superior Elite",
+    "price": 39999,
+    "image": "https://www.incehesap.com/resim/urun/202406/6669862c97f304.11933245_ilnmhqeopjgkf_200.webp",
+    "link": "https://www.incehesap.com/superior-elite-hazir-sistem-fiyati-44987/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4070 Super 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Tundra Silver",
+    "price": 62499,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e214496b9037.22849704_qhflegnkojpmi_200.webp",
+    "link": "https://www.incehesap.com/tundra-silver-hazir-sistem-fiyati-41748/",
+    "specs": {
+      "CPU": "Intel i5-13600KF",
+      "Ram": "16 GB DDR5",
+      "GPU": "Gigabyte RTX 4070 Ti Super 16 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Vector Elite",
+    "price": 124999,
+    "image": "https://www.incehesap.com/resim/urun/202406/66791aae8604c3.62493700_npioefjqgmhkl_200.webp",
+    "link": "https://www.incehesap.com/vector-elite-hazir-sistem-fiyati-46679/",
+    "specs": {
+      "CPU": "Intel i9-14900K",
+      "Ram": "32 GB DDR5",
+      "GPU": "Asus RTX 4090 24 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Glamor",
+    "price": 29999,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
+    "link": "https://www.incehesap.com/glamor-hazir-sistem-fiyati-62718/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Fenix Gold",
+    "price": 56999,
+    "image": "https://www.incehesap.com/resim/urun/202102/6028eefeab6821.09911597_glpqeknhiofjm_200.webp",
+    "link": "https://www.incehesap.com/fenix-gold-hazir-sistem-fiyati-48955/",
+    "specs": {
+      "CPU": "Intel i5-13600KF",
+      "Ram": "16 GB DDR5",
+      "GPU": "Powercolor RX 7900 XT 20 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Origin Silver",
+    "price": 77879,
+    "image": "https://www.incehesap.com/resim/urun/202406/66791aae8604c3.62493700_npioefjqgmhkl_200.webp",
+    "link": "https://www.incehesap.com/origin-silver-hazir-sistem-fiyati-50385/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Gigabyte RTX 4080 Super 16 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Dynamic XT",
+    "price": 46789,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/dynamic-xt-hazir-sistem-fiyati-49065/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600G Tray",
+      "Ram": "16 GB DDR4",
+      "GPU": "Gigabyte RTX 4070 Super 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Ventus Silver",
+    "price": 43499,
+    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
+    "link": "https://www.incehesap.com/ventus-silver-hazir-sistem-fiyati-47012/",
+    "specs": {
+      "CPU": "Intel i5-14400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4070 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "PCH F Class 1.1",
+    "price": 30949,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e25bbd314344.26884128_qminepjgokflh_200.webp",
+    "link": "https://www.incehesap.com/pch-f-class-1-1-hazir-sistem-fiyati-45603/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5700X3D",
+      "Ram": "16 GB DDR4",
+      "GPU": "Gigabyte RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Massive",
+    "price": 46199,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/massive-hazir-sistem-fiyati-62183/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Gigabyte RTX 4070 Super 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Eagle Force PBM",
+    "price": 24399,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e25bbd314344.26884128_qminepjgokflh_200.webp",
+    "link": "https://www.incehesap.com/eagle-force-pbm-hazir-sistem-fiyati-50073/",
+    "specs": {
+      "CPU": "Intel i3-14100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "MSI RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Dynamic XT V2",
+    "price": 48999,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/dynamic-xt-v2-hazir-sistem-fiyati-49066/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Gigabyte RTX 4070 Super 12 GB",
       "Storage": "512 GB SSD "
     },
     "store": "inceHesap"
@@ -10188,6 +9279,239 @@
     "store": "inceHesap"
   },
   {
+    "name": "Thanatos V2",
+    "price": 22989,
+    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
+    "link": "https://www.incehesap.com/thanatos-v2-hazir-sistem-fiyati-42947/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600G Tray",
+      "Ram": "16 GB DDR4",
+      "GPU": "Colorful RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Zodiak Silver",
+    "price": 23789,
+    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
+    "link": "https://www.incehesap.com/zodiak-silver-hazir-sistem-fiyati-45605/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600G Tray",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Machete Dual",
+    "price": 14999,
+    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
+    "link": "https://www.incehesap.com/machete-dual-hazir-sistem-fiyati-64251/",
+    "specs": {
+      "CPU": "Intel i3-12100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Sparkle Intel Arc A750 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Curious PBM",
+    "price": 45999,
+    "image": "https://www.incehesap.com/resim/urun/202407/6683a0291c09c9.39876331_qpgnjfhemkloi_200.webp",
+    "link": "https://www.incehesap.com/curious-pbm-hazir-sistem-fiyati-62708/",
+    "specs": {
+      "CPU": "Intel i5-13600KF",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4060 Ti 16 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "CharmQuell",
+    "price": 24199,
+    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
+    "link": "https://www.incehesap.com/charmquell-hazir-sistem-fiyati-41725/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Gigabyte RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Nova APU",
+    "price": 10999,
+    "image": "https://www.incehesap.com/resim/urun/202406/66796afb2c74a9.35905443_feponmlqhijgk_200.webp",
+    "link": "https://www.incehesap.com/nova-apu-hazir-sistem-fiyati-50965/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600G Tray",
+      "Ram": "16 GB DDR4",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Thunder V2",
+    "price": 36999,
+    "image": "https://www.incehesap.com/resim/urun/202102/6028eefeab6821.09911597_glpqeknhiofjm_200.webp",
+    "link": "https://www.incehesap.com/thunder-v2-hazir-sistem-fiyati-50188/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Powercolor RX 7800 XT 16 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Nihilstein Bronze",
+    "price": 25799,
+    "image": "https://www.incehesap.com/resim/urun/202402/65cf6e30153e33.10289865_legonqikfhmpj_200.webp",
+    "link": "https://www.incehesap.com/nihilstein-bronze-hazir-sistem-fiyati-42678/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Clutch Bronze",
+    "price": 29499,
+    "image": "https://www.incehesap.com/resim/urun/202407/66839f3a9bb7b7.01015879_nqjoimlehfgpk_200.webp",
+    "link": "https://www.incehesap.com/clutch-bronze-hazir-sistem-fiyati-47267/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Gigabyte RTX 4060 8 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Phantom Silver PBM",
+    "price": 33789,
+    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
+    "link": "https://www.incehesap.com/phantom-silver-pbm-hazir-sistem-fiyati-44035/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600G Tray",
+      "Ram": "16 GB DDR4",
+      "GPU": "MSI RTX 4060 Ti 16 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "RRaenee",
+    "price": 31299,
+    "image": "https://www.incehesap.com/resim/urun/202402/65cf6e30153e33.10289865_legonqikfhmpj_200.webp",
+    "link": "https://www.incehesap.com/rraenee-hazir-sistem-fiyati-39592/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "MSI RTX 4060 Ti 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Obsidian 4060 Ti",
+    "price": 27499,
+    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
+    "link": "https://www.incehesap.com/obsidian-hazir-sistem-fiyati-57187/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Colorful RTX 4060 Ti 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Warrior Silver PBM",
+    "price": 33499,
+    "image": "https://www.incehesap.com/resim/urun/202406/66791868602b76.23808833_kgjonhqmfpile_200.webp",
+    "link": "https://www.incehesap.com/warrior-silver-pbm-hazir-sistem-fiyati-46114/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4060 Ti 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Artemis 6650 XT",
+    "price": 22499,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a94ed7c6cc45.08193713_nklpojgifqemh_200.webp",
+    "link": "https://www.incehesap.com/artemis-hazir-sistem-fiyati-57134/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 3600",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RX 6650 XT 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Warrior Gold",
+    "price": 29299,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e10a52048147.31809263_ihgmlfjpqonke_200.webp",
+    "link": "https://www.incehesap.com/warrior-gold-hazir-sistem-fiyati-45606/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Crown 4060",
+    "price": 28999,
+    "image": "https://www.incehesap.com/resim/urun/202402/65cf6e30153e33.10289865_legonqikfhmpj_200.webp",
+    "link": "https://www.incehesap.com/crown-hazir-sistem-fiyati-58351/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Obsidian Elite",
+    "price": 39199,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/obsidian-elite-hazir-sistem-fiyati-57184/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Gigabyte RX 7800 XT 16 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Nova Bronze",
+    "price": 40999,
+    "image": "https://www.incehesap.com/resim/urun/202406/6669862c97f304.11933245_ilnmhqeopjgkf_200.webp",
+    "link": "https://www.incehesap.com/nova-bronze-hazir-sistem-fiyati-50969/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4070 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
     "name": "Prime",
     "price": 60999,
     "image": "https://www.incehesap.com/resim/urun/202311/655b4128d98186.31506198_nkqfielpmgojh_200.webp",
@@ -10422,77 +9746,103 @@
     "store": "inceHesap"
   },
   {
-    "name": "Metin",
-    "price": 24499,
-    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
-    "link": "https://www.incehesap.com/metin-hazir-sistem-fiyati-50383/",
+    "name": "Superior Bronze",
+    "price": 65499,
+    "image": "https://www.incehesap.com/resim/urun/202407/6683a0291c09c9.39876331_qpgnjfhemkloi_200.webp",
+    "link": "https://www.incehesap.com/superior-bronze-hazir-sistem-fiyati-44963/",
     "specs": {
-      "CPU": "Intel i3-13100F",
+      "CPU": "AMD Ryzen 7 7800X3D",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4070 Ti Super 16 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Red Devil",
+    "price": 54999,
+    "image": "https://www.incehesap.com/resim/urun/202307/64c206c691cac0.85625634_mfjogeilphnkq_200.webp",
+    "link": "https://www.incehesap.com/red-devil-hazir-sistem-fiyati-43009/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X3D",
+      "Ram": "32 GB DDR5",
+      "GPU": "Powercolor RX 7800 XT 16 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Nova Gold",
+    "price": 80999,
+    "image": "https://www.incehesap.com/resim/urun/202407/6683a0291c09c9.39876331_qpgnjfhemkloi_200.webp",
+    "link": "https://www.incehesap.com/nova-gold-hazir-sistem-fiyati-67324/",
+    "specs": {
+      "CPU": "Intel i7-13700KF",
+      "Ram": "32 GB DDR5",
+      "GPU": "Asus RTX 4080 Super 16 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Orion V2",
+    "price": 18199,
+    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
+    "link": "https://www.incehesap.com/orion-v2-hazir-sistem-fiyati-42325/",
+    "specs": {
+      "CPU": "Intel i3-12100F",
       "Ram": "16 GB DDR4",
-      "GPU": "Gigabyte RTX 4060 8 GB",
+      "GPU": "Axle RX 5700 XT  8 GB",
       "Storage": "512 GB SSD "
     },
     "store": "inceHesap"
   },
   {
-    "name": "Strain Gold V2",
-    "price": 24599,
-    "image": "https://www.incehesap.com/resim/urun/202407/6698fa759b3b31.03293152_jmipghofkqlen_200.webp",
-    "link": "https://www.incehesap.com/strain-gold-v2-hazir-sistem-fiyati-63387/",
+    "name": "Alys Silver",
+    "price": 41999,
+    "image": "https://www.incehesap.com/resim/urun/202406/66791aae8604c3.62493700_npioefjqgmhkl_200.webp",
+    "link": "https://www.incehesap.com/alys-silver-lemur-hazir-sistem-fiyati-50902/",
     "specs": {
-      "CPU": "Intel i3-14100F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RX 6650 XT 8 GB",
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Powercolor RX 7900 GRE 16 GB",
       "Storage": "512 GB SSD "
     },
     "store": "inceHesap"
   },
   {
-    "name": "PCH Antumbra",
-    "price": 25499,
+    "name": "Crown Silver",
+    "price": 18499,
     "image": "https://www.incehesap.com/resim/urun/202407/66839f3a9bb7b7.01015879_nqjoimlehfgpk_200.webp",
-    "link": "https://www.incehesap.com/pch-antumbra-hazir-sistem-fiyati-56849/",
-    "specs": {
-      "CPU": "Intel i3-14100F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Scorpion 7600",
-    "price": 24499,
-    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
-    "link": "https://www.incehesap.com/scorpion-hazir-sistem-fiyati-60378/",
-    "specs": {
-      "CPU": "Intel i3-14100F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RX 7600 8 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Ripple",
-    "price": 36999,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/ripple-hazir-sistem-fiyati-62936/",
+    "link": "https://www.incehesap.com/crown-silver-hazir-sistem-fiyati-44977/",
     "specs": {
       "CPU": "Intel i5-12400F",
       "Ram": "16 GB DDR4",
-      "GPU": "MSI RTX 4070 12 GB",
+      "GPU": "Sparkle Intel Arc A750 8 GB",
       "Storage": "512 GB SSD "
     },
     "store": "inceHesap"
   },
   {
-    "name": "Dark Solid",
-    "price": 61499,
-    "image": "https://www.incehesap.com/resim/urun/202311/655b4128d98186.31506198_nkqfielpmgojh_200.webp",
-    "link": "https://www.incehesap.com/dark-solid-hazir-sistem-fiyati-47663/",
+    "name": "Crixus V2",
+    "price": 18999,
+    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
+    "link": "https://www.incehesap.com/crixus-v2-hazir-sistem-fiyati-45066/",
     "specs": {
-      "CPU": "Intel i7-13700K",
+      "CPU": "Intel i3-12100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Axle RTX 2060S 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Freiheit",
+    "price": 57999,
+    "image": "https://www.incehesap.com/resim/urun/202311/655b4128d98186.31506198_nkqfielpmgojh_200.webp",
+    "link": "https://www.incehesap.com/freiheit-hazir-sistem-fiyati-37235/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7700X",
       "Ram": "16 GB DDR5",
       "GPU": "Powercolor RX 7900 XT 20 GB",
       "Storage": "1 TB SSD "
@@ -10500,25 +9850,64 @@
     "store": "inceHesap"
   },
   {
-    "name": "Superior Elite",
-    "price": 39999,
-    "image": "https://www.incehesap.com/resim/urun/202406/6669862c97f304.11933245_ilnmhqeopjgkf_200.webp",
-    "link": "https://www.incehesap.com/superior-elite-hazir-sistem-fiyati-44987/",
+    "name": "Vangard",
+    "price": 50499,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/vangard-hazir-sistem-fiyati-48044/",
     "specs": {
-      "CPU": "Intel i5-12400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4070 Super 12 GB",
+      "CPU": "AMD Ryzen 7 7800X3D",
+      "Ram": "16 GB DDR5",
+      "GPU": "Powercolor RX 7900 GRE 16 GB",
       "Storage": "512 GB SSD "
     },
     "store": "inceHesap"
   },
   {
-    "name": "Tundra Silver",
-    "price": 62499,
-    "image": "https://www.incehesap.com/resim/urun/202302/63e214496b9037.22849704_qhflegnkojpmi_200.webp",
-    "link": "https://www.incehesap.com/tundra-silver-hazir-sistem-fiyati-41748/",
+    "name": "Articuno",
+    "price": 38999,
+    "image": "https://www.incehesap.com/resim/urun/202311/655b4128d98186.31506198_nkqfielpmgojh_200.webp",
+    "link": "https://www.incehesap.com/articuno-hazir-sistem-fiyati-41940/",
     "specs": {
-      "CPU": "Intel i5-13600KF",
+      "CPU": "AMD Ryzen 5 7600",
+      "Ram": "16 GB DDR5",
+      "GPU": "Powercolor RX 7800 XT 16 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Wind Force PBM",
+    "price": 40999,
+    "image": "https://www.incehesap.com/resim/urun/202405/6655f06dc62144.90061049_gqhjflnepokmi_200.webp",
+    "link": "https://www.incehesap.com/wind-force-pbm-hazir-sistem-fiyati-38568/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4070 12 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Thunder Silver",
+    "price": 24999,
+    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
+    "link": "https://www.incehesap.com/thunder-silver-hazir-sistem-fiyati-43174/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RX 6600 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Zenith 4070 Ti Super",
+    "price": 56999,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/zenith-4070-ti-super-hazir-sistem-fiyati-37255/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
       "Ram": "16 GB DDR5",
       "GPU": "Gigabyte RTX 4070 Ti Super 16 GB",
       "Storage": "512 GB SSD "
@@ -10526,90 +9915,90 @@
     "store": "inceHesap"
   },
   {
-    "name": "Vector Elite",
-    "price": 124999,
-    "image": "https://www.incehesap.com/resim/urun/202406/66791aae8604c3.62493700_npioefjqgmhkl_200.webp",
-    "link": "https://www.incehesap.com/vector-elite-hazir-sistem-fiyati-46679/",
-    "specs": {
-      "CPU": "Intel i9-14900K",
-      "Ram": "32 GB DDR5",
-      "GPU": "Asus RTX 4090 24 GB",
-      "Storage": "1 TB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Glamor",
+    "name": "Raider",
     "price": 29999,
-    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
-    "link": "https://www.incehesap.com/glamor-hazir-sistem-fiyati-62718/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Ram": "16 GB DDR5",
-      "GPU": "Asus RTX 4060 8 GB",
-      "Storage": "1 TB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Fenix Gold",
-    "price": 56999,
-    "image": "https://www.incehesap.com/resim/urun/202102/6028eefeab6821.09911597_glpqeknhiofjm_200.webp",
-    "link": "https://www.incehesap.com/fenix-gold-hazir-sistem-fiyati-48955/",
-    "specs": {
-      "CPU": "Intel i5-13600KF",
-      "Ram": "16 GB DDR5",
-      "GPU": "Powercolor RX 7900 XT 20 GB",
-      "Storage": "1 TB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Origin Silver",
-    "price": 77879,
-    "image": "https://www.incehesap.com/resim/urun/202406/66791aae8604c3.62493700_npioefjqgmhkl_200.webp",
-    "link": "https://www.incehesap.com/origin-silver-hazir-sistem-fiyati-50385/",
+    "image": "https://www.incehesap.com/resim/urun/202302/63e212270b7c53.80281962_iohgejnkpmfql_200.webp",
+    "link": "https://www.incehesap.com/raider-oyuncu-biligsayari-fiyati-37250/",
     "specs": {
       "CPU": "Intel i5-13400F",
       "Ram": "16 GB DDR5",
-      "GPU": "Gigabyte RTX 4080 Super 16 GB",
+      "GPU": "Gigabyte RTX 4060 8 GB",
       "Storage": "1 TB SSD "
     },
     "store": "inceHesap"
   },
   {
-    "name": "Dynamic XT",
-    "price": 46789,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/dynamic-xt-hazir-sistem-fiyati-49065/",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600G Tray",
-      "Ram": "16 GB DDR4",
-      "GPU": "Gigabyte RTX 4070 Super 12 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "Ventus Silver",
-    "price": 43499,
-    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
-    "link": "https://www.incehesap.com/ventus-silver-hazir-sistem-fiyati-47012/",
-    "specs": {
-      "CPU": "Intel i5-14400F",
-      "Ram": "16 GB DDR4",
-      "GPU": "Asus RTX 4070 12 GB",
-      "Storage": "512 GB SSD "
-    },
-    "store": "inceHesap"
-  },
-  {
-    "name": "PCH F Class 1.1",
-    "price": 30949,
+    "name": "Clutch PBM",
+    "price": 27999,
     "image": "https://www.incehesap.com/resim/urun/202302/63e25bbd314344.26884128_qminepjgokflh_200.webp",
-    "link": "https://www.incehesap.com/pch-f-class-1-1-hazir-sistem-fiyati-45603/",
+    "link": "https://www.incehesap.com/clutch-pbm-hazir-sistem-fiyati-44441/",
     "specs": {
-      "CPU": "AMD Ryzen 5 5700X3D",
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Articuno Elite PBM",
+    "price": 35499,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
+    "link": "https://www.incehesap.com/articuno-elite-pbm-hazir-sistem-fiyati-42795/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "MSI RTX 4060 Ti 16 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Lancea",
+    "price": 50599,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e214496b9037.22849704_qhflegnkojpmi_200.webp",
+    "link": "https://www.incehesap.com/lancea-hazir-sistem-fiyati-51853/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "PNY RTX 4070 Ti Super 16 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Eternal PBM",
+    "price": 80999,
+    "image": "https://www.incehesap.com/resim/urun/202406/66791aae8604c3.62493700_npioefjqgmhkl_200.webp",
+    "link": "https://www.incehesap.com/eternal-pbm-hazir-sistem-fiyati-62756/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X3D",
+      "Ram": "32 GB DDR5",
+      "GPU": "MSI RTX 4080 Super 16 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Ruling Silver V2",
+    "price": 29499,
+    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
+    "link": "https://www.incehesap.com/ruling-silver-v2-hazir-sistem-fiyati-35560/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Powercolor RX 7700 XT 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Magnus Bronze",
+    "price": 27199,
+    "image": "https://www.incehesap.com/resim/urun/202407/6698fa759b3b31.03293152_jmipghofkqlen_200.webp",
+    "link": "https://www.incehesap.com/magnus-hazir-sistem-fiyati-61005/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
       "Ram": "16 GB DDR4",
       "GPU": "Gigabyte RTX 4060 8 GB",
       "Storage": "512 GB SSD "
@@ -10617,12 +10006,90 @@
     "store": "inceHesap"
   },
   {
-    "name": "Massive",
-    "price": 46199,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/massive-hazir-sistem-fiyati-62183/",
+    "name": "Lord X",
+    "price": 25789,
+    "image": "https://www.incehesap.com/resim/urun/202405/6638d0436d0193.58674256_pgefqkijolnhm_200.webp",
+    "link": "https://www.incehesap.com/lord-x-hazir-sistem-fiyati-43260/",
     "specs": {
-      "CPU": "Intel i5-12400F",
+      "CPU": "AMD Ryzen 5 5600G Tray",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Raider V2",
+    "price": 27999,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
+    "link": "https://www.incehesap.com/raider-v2-hazir-sistem-fiyati-35240/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Colorful RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Sempiternal",
+    "price": 43999,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/sempiternal-hazir-sistem-fiyati-63158/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4070 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Goliath Silver",
+    "price": 44999,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/goliath-silver-hazir-sistem-fiyati-37447/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4070 Super 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Jarvis Hero Creator",
+    "price": 56999,
+    "image": "https://www.incehesap.com/resim/urun/202405/6638d0436d0193.58674256_pgefqkijolnhm_200.webp",
+    "link": "https://www.incehesap.com/jarvis-hero-hazir-sistem-fiyati-48268/",
+    "specs": {
+      "CPU": "Intel i7-13700K",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4070 12 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Goliath Gold",
+    "price": 67999,
+    "image": "https://www.incehesap.com/resim/urun/202403/65eea9e79ee9e5.80949613_pegjqoflknmih_200.webp",
+    "link": "https://www.incehesap.com/goliath-gold-hazir-sistem-fiyati-52893/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RX 7900 XTX 24 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Flow Bronze",
+    "price": 48999,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/flow-bronze-hazir-sistem-fiyati-50390/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
       "Ram": "16 GB DDR5",
       "GPU": "Gigabyte RTX 4070 Super 12 GB",
       "Storage": "512 GB SSD "
@@ -10630,12 +10097,376 @@
     "store": "inceHesap"
   },
   {
-    "name": "Eagle Force PBM",
-    "price": 24399,
-    "image": "https://www.incehesap.com/resim/urun/202302/63e25bbd314344.26884128_qminepjgokflh_200.webp",
-    "link": "https://www.incehesap.com/eagle-force-pbm-hazir-sistem-fiyati-50073/",
+    "name": "Metaverse Bronze",
+    "price": 51999,
+    "image": "https://www.incehesap.com/resim/urun/202406/6669870484b889.04764103_gqljnoiephfkm_200.webp",
+    "link": "https://www.incehesap.com/metaverse-bronze-hazir-sistem-fiyati-52850/",
     "specs": {
-      "CPU": "Intel i3-14100F",
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4070 Ti Super 16 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "RaptorLake",
+    "price": 67999,
+    "image": "https://www.incehesap.com/resim/urun/202403/65eea9e79ee9e5.80949613_pegjqoflknmih_200.webp",
+    "link": "https://www.incehesap.com/raptorlake-hazir-sistem-fiyati-59766/",
+    "specs": {
+      "CPU": "Intel i7-13700K",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4070 Ti Super 16 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Vector Silver",
+    "price": 121999,
+    "image": "https://www.incehesap.com/resim/urun/202403/65eea9e79ee9e5.80949613_pegjqoflknmih_200.webp",
+    "link": "https://www.incehesap.com/vector-silver-hazir-sistem-fiyati-46673/",
+    "specs": {
+      "CPU": "Intel i7-13700K",
+      "Ram": "32 GB DDR5",
+      "GPU": "Gigabyte RTX 4090 24 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Majesty",
+    "price": 31199,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
+    "link": "https://www.incehesap.com/majesty-hazir-sistem-fiyati-43299/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 Ti 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Space 3060 Ti",
+    "price": 27999,
+    "image": "https://www.incehesap.com/resim/urun/202407/66839f3a9bb7b7.01015879_nqjoimlehfgpk_200.webp",
+    "link": "https://www.incehesap.com/space-3060-ti-hazir-sistem-fiyati-43143/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Gigabyte RTX 3060 Ti 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Aspect",
+    "price": 30849,
+    "image": "https://www.incehesap.com/resim/urun/202307/64a2c2fa91ac33.70476273_lpefnjhqkigmo_200.webp",
+    "link": "https://www.incehesap.com/aspect-hazir-sistem-fiyati-58372/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5700X3D",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Brave Gold",
+    "price": 25999,
+    "image": "https://www.incehesap.com/resim/urun/202307/64a2c2fa91ac33.70476273_lpefnjhqkigmo_200.webp",
+    "link": "https://www.incehesap.com/brave-gold-hazir-sistem-fiyati-63015/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "PNY RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Hero XT PBM",
+    "price": 29199,
+    "image": "https://www.incehesap.com/resim/urun/202402/65cf6e30153e33.10289865_legonqikfhmpj_200.webp",
+    "link": "https://www.incehesap.com/hero-xt-pbm-hazir-sistem-fiyati-47573/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Nemesis",
+    "price": 22999,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e236967ff001.90324741_okqeiglnmfhpj_200.webp",
+    "link": "https://www.incehesap.com/nemesis-hazir-sistem-fiyati-42798/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5500",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RX 6650 XT 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Fenix Silver",
+    "price": 14999,
+    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
+    "link": "https://www.incehesap.com/fenix-silver-hazir-sistem-fiyati-48954/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5500",
+      "Ram": "16 GB DDR4",
+      "GPU": "Axle RX 5500 XT 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Skygate Pro V2",
+    "price": 42399,
+    "image": "https://www.incehesap.com/resim/urun/202102/6028eefeab6821.09911597_glpqeknhiofjm_200.webp",
+    "link": "https://www.incehesap.com/skygate-pro-v2-hazir-sistem-fiyati-50349/",
+    "specs": {
+      "CPU": "Intel i7-13700K",
+      "Ram": "16 GB DDR5",
+      "GPU": "Gigabyte RTX 4060 8 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Eagle Force V2",
+    "price": 25789,
+    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
+    "link": "https://www.incehesap.com/eagle-force-v2-hazir-sistem-fiyati-47265/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600G Tray",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Crown Gold",
+    "price": 37999,
+    "image": "https://www.incehesap.com/resim/urun/202407/6683a0291c09c9.39876331_qpgnjfhemkloi_200.webp",
+    "link": "https://www.incehesap.com/crown-gold-hazir-sistem-fiyati-63182/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4060 Ti 16 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Corax Silver",
+    "price": 28199,
+    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
+    "link": "https://www.incehesap.com/corax-silver-hazir-sistem-fiyati-37238/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Colorful RTX 4060 8 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Taurus Silver",
+    "price": 22299,
+    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
+    "link": "https://www.incehesap.com/taurus-silver-hazir-sistem-fiyati-45604/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5500",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Thunder PBM",
+    "price": 32199,
+    "image": "https://www.incehesap.com/resim/urun/202406/6669862c97f304.11933245_ilnmhqeopjgkf_200.webp",
+    "link": "https://www.incehesap.com/thunder-pbm-hazir-sistem-fiyati-69567/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4060 Ti 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Ventus X",
+    "price": 29999,
+    "image": "https://www.incehesap.com/resim/urun/202406/6669862c97f304.11933245_ilnmhqeopjgkf_200.webp",
+    "link": "https://www.incehesap.com/ventus-x-hazir-sistem-fiyati-61060/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "PNY RTX 4060 Ti 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Rival Elite V2",
+    "price": 37289,
+    "image": "https://www.incehesap.com/resim/urun/202406/6669862c97f304.11933245_ilnmhqeopjgkf_200.webp",
+    "link": "https://www.incehesap.com/rival-elite-v2-hazir-sistem-fiyati-47407/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600G Tray",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4070 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Negatron Platinum",
+    "price": 41299,
+    "image": "https://www.incehesap.com/resim/urun/202406/66791868602b76.23808833_kgjonhqmfpile_200.webp",
+    "link": "https://www.incehesap.com/negatron-platinum-hazir-sistem-fiyati-46593/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "PNY RTX 4070 Super 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Extensive",
+    "price": 37999,
+    "image": "https://www.incehesap.com/resim/urun/202406/66791aae8604c3.62493700_npioefjqgmhkl_200.webp",
+    "link": "https://www.incehesap.com/extensive-hazir-sistem-fiyati-62034/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Powercolor RX 7800 XT 16 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Sword Silver",
+    "price": 23499,
+    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
+    "link": "https://www.incehesap.com/sword-silver-hazir-sistem-fiyati-51857/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Superior 4060",
+    "price": 38999,
+    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
+    "link": "https://www.incehesap.com/superior-hazir-sistem-fiyati-44511/",
+    "specs": {
+      "CPU": "Intel i7-13700K",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Agron Creator",
+    "price": 37999,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/agron-creator-hazir-sistem-fiyati-58701/",
+    "specs": {
+      "CPU": "Intel i5-13600KF",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Falcon 3050",
+    "price": 16999,
+    "image": "https://www.incehesap.com/resim/urun/202307/64a2c2fa91ac33.70476273_lpefnjhqkigmo_200.webp",
+    "link": "https://www.incehesap.com/falcon-3050-hazir-sistem-fiyati-41742/",
+    "specs": {
+      "CPU": "Intel i3-12100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "MSI GTX 1650 4 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Crixus PBM",
+    "price": 54499,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/crixus-pbm-hazir-sistem-fiyati-43850/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4070 Ti 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Clutch Silver",
+    "price": 25999,
+    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
+    "link": "https://www.incehesap.com/clutch-silver-hazir-sistem-fiyati-45609/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "PNY RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Uber PBM",
+    "price": 34999,
+    "image": "https://www.incehesap.com/resim/urun/202405/6655f06dc62144.90061049_gqhjflnepokmi_200.webp",
+    "link": "https://www.incehesap.com/uber-pbm-hazir-sistem-fiyati-44570/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4060 Ti 8 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Khaos 4070 Ti",
+    "price": 57999,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/khaos-hazir-sistem-fiyati-61000/",
+    "specs": {
+      "CPU": "Intel i5-13600KF",
+      "Ram": "16 GB DDR5",
+      "GPU": "Gigabyte RTX 4070 Ti 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Quinn V2 PBM",
+    "price": 30349,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
+    "link": "https://www.incehesap.com/quinn-v2-pbm-hazir-sistem-fiyati-35561/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5700X3D",
       "Ram": "16 GB DDR4",
       "GPU": "MSI RTX 4060 8 GB",
       "Storage": "512 GB SSD "
@@ -10643,14 +10474,1145 @@
     "store": "inceHesap"
   },
   {
-    "name": "Dynamic XT V2",
-    "price": 48999,
-    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
-    "link": "https://www.incehesap.com/dynamic-xt-v2-hazir-sistem-fiyati-49066/",
+    "name": "Tundra Gold PBM",
+    "price": 114999,
+    "image": "https://www.incehesap.com/resim/urun/202301/63d931e6de6486.73326492_jpfgqneolkhim_200.webp",
+    "link": "https://www.incehesap.com/tundra-gold-pbm-hazir-sistem-fiyati-47266/",
+    "specs": {
+      "CPU": "Intel i5-13600KF",
+      "Ram": "32 GB DDR5",
+      "GPU": "MSI RTX 4090 24 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Obsidian Base",
+    "price": 26699,
+    "image": "https://www.incehesap.com/resim/urun/202405/6638d0436d0193.58674256_pgefqkijolnhm_200.webp",
+    "link": "https://www.incehesap.com/obsidian-base-hazir-sistem-fiyati-57182/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RX 7600 8 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Rainclaw Silver",
+    "price": 57049,
+    "image": "https://www.incehesap.com/resim/urun/202406/66791868602b76.23808833_kgjonhqmfpile_200.webp",
+    "link": "https://www.incehesap.com/rainclaw-silver-hazir-sistem-fiyati-38390/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5700X3D",
+      "Ram": "16 GB DDR4",
+      "GPU": "MSI RTX 4070 Ti 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "El Capitan",
+    "price": 44999,
+    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
+    "link": "https://www.incehesap.com/el-capitan-hazir-sistem-fiyati-45726/",
+    "specs": {
+      "CPU": "Intel i5-14400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4070 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Raven",
+    "price": 35499,
+    "image": "https://www.incehesap.com/resim/urun/202402/65cf6e30153e33.10289865_legonqikfhmpj_200.webp",
+    "link": "https://www.incehesap.com/raven-hazir-sistem-fiyati-36692/",
+    "specs": {
+      "CPU": "Intel i5-13600KF",
+      "Ram": "16 GB DDR5",
+      "GPU": "Gigabyte RTX 4060 8 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Machete Gold",
+    "price": 29999,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
+    "link": "https://www.incehesap.com/machete-gold-hazir-sistem-fiyati-42334/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600G Tray",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 Ti 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Ripple Gold",
+    "price": 46499,
+    "image": "https://www.incehesap.com/resim/urun/202102/6028eefeab6821.09911597_glpqeknhiofjm_200.webp",
+    "link": "https://www.incehesap.com/ripple-gold-hazir-sistem-fiyati-63171/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4070 Super 12 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "PCH Penumbra Gold",
+    "price": 52599,
+    "image": "https://www.incehesap.com/resim/urun/202406/66791868602b76.23808833_kgjonhqmfpile_200.webp",
+    "link": "https://www.incehesap.com/pch-penumbra-gold-hazir-sistem-fiyati-42962/",
     "specs": {
       "CPU": "AMD Ryzen 5 7500F",
       "Ram": "16 GB DDR5",
       "GPU": "Gigabyte RTX 4070 Super 12 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Ventus Evo",
+    "price": 24499,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a94ed7c6cc45.08193713_nklpojgifqemh_200.webp",
+    "link": "https://www.incehesap.com/ventus-evo-hazir-sistem-fiyati-64130/",
+    "specs": {
+      "CPU": "Intel i3-14100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Eclipse 4060",
+    "price": 28999,
+    "image": "https://www.incehesap.com/resim/urun/202407/6698fa759b3b31.03293152_jmipghofkqlen_200.webp",
+    "link": "https://www.incehesap.com/eclipse-hazir-sistem-fiyati-47430/",
+    "specs": {
+      "CPU": "Intel i5-14400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Gigabyte RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Oblivion Gold",
+    "price": 39499,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/oblivion-gold-hazir-sistem-fiyati-63177/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "MSI RTX 4070 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "GameOn",
+    "price": 66499,
+    "image": "https://www.incehesap.com/resim/urun/202405/663dc3c8e719d5.50604540_pmejkilhgfnqo_200.webp",
+    "link": "https://www.incehesap.com/gameon-hazir-sistem-fiyati-70803/",
+    "specs": {
+      "CPU": "Intel i5-13600KF",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4070 Ti Super 16 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Nyks Platinum",
+    "price": 49999,
+    "image": "https://www.incehesap.com/resim/urun/202405/6638d0436d0193.58674256_pgefqkijolnhm_200.webp",
+    "link": "https://www.incehesap.com/nyks-platinum-hazir-sistem-fiyati-46591/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Gigabyte RTX 4070 Ti 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Shild Silver",
+    "price": 33699,
+    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
+    "link": "https://www.incehesap.com/shild-hazir-sistem-fiyati-57496/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4060 Ti 8 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Strain",
+    "price": 90879,
+    "image": "https://www.incehesap.com/resim/urun/202407/6683a0291c09c9.39876331_qpgnjfhemkloi_200.webp",
+    "link": "https://www.incehesap.com/strain-hazir-sistem-fiyati-62856/",
+    "specs": {
+      "CPU": "Intel i7-13700KF",
+      "Ram": "16 GB DDR5",
+      "GPU": "Gigabyte RTX 4080 Super 16 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Stainless 4060",
+    "price": 27499,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e25bbd314344.26884128_qminepjgokflh_200.webp",
+    "link": "https://www.incehesap.com/stainless-hazir-sistem-fiyati-61982/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Eagle 3060 Ti",
+    "price": 27499,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
+    "link": "https://www.incehesap.com/eagle-3060-ti-hazir-sistem-fiyati-41669/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Gigabyte RTX 3060 Ti 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Estate Pro V2",
+    "price": 25999,
+    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
+    "link": "https://www.incehesap.com/estate-pro-v2-fiyati-41254/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "GeForce Master",
+    "price": 142999,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e10a52048147.31809263_ihgmlfjpqonke_200.webp",
+    "link": "https://www.incehesap.com/geforce-espor-pc-master-hazir-sistem-fiyati-45563/",
+    "specs": {
+      "CPU": "AMD Ryzen 9 7900X",
+      "Ram": "32 GB DDR5",
+      "GPU": "Gigabyte RTX 4090 24 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Metaverse PBM",
+    "price": 44999,
+    "image": "https://www.incehesap.com/resim/urun/202401/65ba46129ca239.86740278_himfglkjponeq_200.webp",
+    "link": "https://www.incehesap.com/metaverse-pbm-hazir-sistem-fiyati-63188/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4070 Super 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Winorwin Elite",
+    "price": 32999,
+    "image": "https://www.incehesap.com/resim/urun/202407/66839f3a9bb7b7.01015879_nqjoimlehfgpk_200.webp",
+    "link": "https://www.incehesap.com/winorwin-elite-hazir-sistem-fiyati-46665/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Powercolor RX 7700 XT 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Procyon 4060",
+    "price": 28299,
+    "image": "https://www.incehesap.com/resim/urun/202307/64a2c2fa91ac33.70476273_lpefnjhqkigmo_200.webp",
+    "link": "https://www.incehesap.com/procyon-hazir-sistem-fiyati-35558/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Colorful RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Wardon 4060 Ti",
+    "price": 33299,
+    "image": "https://www.incehesap.com/resim/urun/202406/6669862c97f304.11933245_ilnmhqeopjgkf_200.webp",
+    "link": "https://www.incehesap.com/wardon-4060-ti-hazir-sistem-fiyati-63180/",
+    "specs": {
+      "CPU": "Intel i5-14400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 Ti 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Tundra 4080 Super",
+    "price": 67999,
+    "image": "https://www.incehesap.com/resim/urun/202406/66791aae8604c3.62493700_npioefjqgmhkl_200.webp",
+    "link": "https://www.incehesap.com/tundra-hazir-sistem-fiyati-56275/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4080 Super 16 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Sword",
+    "price": 18799,
+    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
+    "link": "https://www.incehesap.com/sword-cagdas-isil-hazir-sistem-fiyati-45486/",
+    "specs": {
+      "CPU": "Intel i3-12100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Powercolor RX 6650 XT 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Lancool PBM",
+    "price": 28999,
+    "image": "https://www.incehesap.com/resim/urun/202402/65cf6e30153e33.10289865_legonqikfhmpj_200.webp",
+    "link": "https://www.incehesap.com/lancool-pbm-hazir-sistem-fiyati-49175/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4060 8 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Nyks 4080 Süper",
+    "price": 77999,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e10a52048147.31809263_ihgmlfjpqonke_200.webp",
+    "link": "https://www.incehesap.com/nyks-hazir-sistem-fiyati-58884/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X3D",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4080 Super 16 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Uber 3060 V2",
+    "price": 22299,
+    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
+    "link": "https://www.incehesap.com/uber-v2-hazir-sistem-fiyati-45167/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 3600",
+      "Ram": "16 GB DDR4",
+      "GPU": "MSI RTX 3060 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Slate Gold",
+    "price": 89879,
+    "image": "https://www.incehesap.com/resim/urun/202311/655b4128d98186.31506198_nkqfielpmgojh_200.webp",
+    "link": "https://www.incehesap.com/slate-gold-hazir-sistem-fiyati-46113/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X3D",
+      "Ram": "32 GB DDR5",
+      "GPU": "Gigabyte RTX 4080 Super 16 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Fornax 4090",
+    "price": 149999,
+    "image": "https://www.incehesap.com/resim/urun/202407/669f7030d33871.02513166_hepokqjlnmifg_200.webp",
+    "link": "https://www.incehesap.com/fornax-hazir-sistem-fiyati-60039/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X3D",
+      "Ram": "32 GB DDR5",
+      "GPU": "Asus RTX 4090 24 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Daemon",
+    "price": 18499,
+    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
+    "link": "https://www.incehesap.com/daemon-hazir-sistem-fiyati-58355/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5500",
+      "Ram": "16 GB DDR4",
+      "GPU": "Axle RTX 2060S 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Falcon 4090",
+    "price": 115999,
+    "image": "https://www.incehesap.com/resim/urun/202405/663a03403b6d27.96978412_lehoinkjfgmqp_200.webp",
+    "link": "https://www.incehesap.com/falcon-4090-hazir-sistem-fiyati-47354/",
+    "specs": {
+      "CPU": "Intel i7-13700KF",
+      "Ram": "32 GB DDR5",
+      "GPU": "Asus RTX 4090 24 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Flight Gold",
+    "price": 59499,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e214496b9037.22849704_qhflegnkojpmi_200.webp",
+    "link": "https://www.incehesap.com/flight-hazir-sistem-fiyati-47615/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X3D",
+      "Ram": "32 GB DDR5",
+      "GPU": "Asus RTX 4070 Super 12 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Neron Silver",
+    "price": 18799,
+    "image": "https://www.incehesap.com/resim/urun/202402/65cf6e30153e33.10289865_legonqikfhmpj_200.webp",
+    "link": "https://www.incehesap.com/neron-silver-hazir-sistem-fiyati-50705/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Sparkle Intel Arc A750 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Corax 4060 Ti",
+    "price": 31999,
+    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
+    "link": "https://www.incehesap.com/corax-hazir-sistem-fiyati-46742/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Colorful RTX 4060 Ti 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Achilles",
+    "price": 24999,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e23ccaecb934.00217227_mjnhpgofkilqe_200.webp",
+    "link": "https://www.incehesap.com/achilles-hazir-sistem-fiyati-57905/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Slate Pro 3050",
+    "price": 18499,
+    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
+    "link": "https://www.incehesap.com/slate-pro-3050-hazir-sistem-fiyati-46592/",
+    "specs": {
+      "CPU": "Intel i3-13100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Axle RTX 3050 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Slate 3050",
+    "price": 16499,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e236967ff001.90324741_okqeiglnmfhpj_200.webp",
+    "link": "https://www.incehesap.com/slate-3050-hazir-sistem-fiyati-38391/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 3600",
+      "Ram": "16 GB DDR4",
+      "GPU": "MSI GTX 1650 4 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Taurus Bronze",
+    "price": 25389,
+    "image": "https://www.incehesap.com/resim/urun/202307/64a2c2fa91ac33.70476273_lpefnjhqkigmo_200.webp",
+    "link": "https://www.incehesap.com/taurus-bronze-hazir-sistem-fiyati-45487/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600G Tray",
+      "Ram": "16 GB DDR4",
+      "GPU": "Gigabyte RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Simurg 3060 Ti",
+    "price": 20999,
+    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
+    "link": "https://www.incehesap.com/simurg-hazir-sistem-fiyati-60388/",
+    "specs": {
+      "CPU": "Intel i3-12100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Gigabyte RTX 3060 Ti 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Mortar Bronze",
+    "price": 27199,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e23ccaecb934.00217227_mjnhpgofkilqe_200.webp",
+    "link": "https://www.incehesap.com/mortar-bronze-hazir-sistem-fiyati-46664/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RX 7600 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Lancea V2",
+    "price": 47999,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/lancea-v2-hazir-sistem-fiyati-46115/",
+    "specs": {
+      "CPU": "Intel i5-13600KF",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4070 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Hydro Bronze V2",
+    "price": 48999,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
+    "link": "https://www.incehesap.com/hydro-bronze-v2-hazir-sistem-fiyati-39297/",
+    "specs": {
+      "CPU": "Intel i5-13600KF",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4070 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Nihilstein V2",
+    "price": 29999,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
+    "link": "https://www.incehesap.com/nihilstein-v2-hazir-sistem-fiyati-42806/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Jarvis-X",
+    "price": 39999,
+    "image": "https://www.incehesap.com/resim/urun/202407/6683a0291c09c9.39876331_qpgnjfhemkloi_200.webp",
+    "link": "https://www.incehesap.com/jarvis-x-hazir-sistem-fiyati-46589/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X3D",
+      "Ram": "16 GB DDR5",
+      "GPU": "Colorful RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Elnath 4060 Ti",
+    "price": 34499,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
+    "link": "https://www.incehesap.com/elnath-hazir-sistem-fiyati-60102/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Colorful RTX 4060 Ti 8 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Phoenix V2",
+    "price": 29789,
+    "image": "https://www.incehesap.com/resim/urun/202402/65cf6e30153e33.10289865_legonqikfhmpj_200.webp",
+    "link": "https://www.incehesap.com/phoenix-v2-hazir-sistem-fiyati-50236/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600G Tray",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RX 7600 XT 16 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Runadia PBM",
+    "price": 30199,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
+    "link": "https://www.incehesap.com/runadia-pbm-hazir-sistem-fiyati-69564/",
+    "specs": {
+      "CPU": "Intel i5-14400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Jarvis Bronze",
+    "price": 58999,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e214496b9037.22849704_qhflegnkojpmi_200.webp",
+    "link": "https://www.incehesap.com/jarvis-bronze-hazir-sistem-fiyati-48279/",
+    "specs": {
+      "CPU": "Intel i5-13600KF",
+      "Ram": "16 GB DDR5",
+      "GPU": "PNY RTX 4070 Ti Super 16 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Magic 4060",
+    "price": 23789,
+    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
+    "link": "https://www.incehesap.com/magic-hazir-sistem-fiyati-57472/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600G Tray",
+      "Ram": "16 GB DDR4",
+      "GPU": "PNY RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Renegade",
+    "price": 17999,
+    "image": "https://www.incehesap.com/resim/urun/202407/66839f3a9bb7b7.01015879_nqjoimlehfgpk_200.webp",
+    "link": "https://www.incehesap.com/renegade-hazir-sistem-fiyati-49349/",
+    "specs": {
+      "CPU": "Intel i3-14100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Sparkle Intel Arc A750 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Vulcan 4060 Ti",
+    "price": 34499,
+    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
+    "link": "https://www.incehesap.com/vulcan-myt-hazir-sistem-fiyati-47437/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4060 Ti 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Matem Bronze",
+    "price": 27999,
+    "image": "https://www.incehesap.com/resim/urun/202406/6669862c97f304.11933245_ilnmhqeopjgkf_200.webp",
+    "link": "https://www.incehesap.com/matem-hazir-sistem-fiyati-46902/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5500",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 Ti 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Sharpen 7600XT",
+    "price": 29999,
+    "image": "https://www.incehesap.com/resim/urun/202406/6669862c97f304.11933245_ilnmhqeopjgkf_200.webp",
+    "link": "https://www.incehesap.com/sharpen-hazir-sistem-fiyati-61443/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RX 7600 XT 16 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Flexy Silver PBM",
+    "price": 50299,
+    "image": "https://www.incehesap.com/resim/urun/202401/65ba46129ca239.86740278_himfglkjponeq_200.webp",
+    "link": "https://www.incehesap.com/flexy-silver-pbm-hazir-sistem-fiyati-48781/",
+    "specs": {
+      "CPU": "Intel i5-13600KF",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4070 Super 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Ruling Silver",
+    "price": 21999,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e23ccaecb934.00217227_mjnhpgofkilqe_200.webp",
+    "link": "https://www.incehesap.com/ruling-silver-hazir-sistem-fiyati-35238/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Powercolor RX 6650 XT 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Machete Silver",
+    "price": 18499,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e25bbd314344.26884128_qminepjgokflh_200.webp",
+    "link": "https://www.incehesap.com/machete-silver-hazir-sistem-fiyati-64248/",
+    "specs": {
+      "CPU": "Intel i3-13100F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Sparkle Intel Arc A750 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Ethereal Gold",
+    "price": 41499,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e23ccaecb934.00217227_mjnhpgofkilqe_200.webp",
+    "link": "https://www.incehesap.com/ethereal-gold-hazir-sistem-fiyati-63017/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4070 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Vector Bronze",
+    "price": 22999,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
+    "link": "https://www.incehesap.com/vector-bronze-hazir-sistem-fiyati-46672/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5500",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RX 7600 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Ethereal",
+    "price": 55999,
+    "image": "https://www.incehesap.com/resim/urun/202401/65ba46129ca239.86740278_himfglkjponeq_200.webp",
+    "link": "https://www.incehesap.com/ethereal-hazir-sistem-fiyati-62934/",
+    "specs": {
+      "CPU": "Intel i7-13700K",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4070 Super 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Flow Gold PBM",
+    "price": 53999,
+    "image": "https://www.incehesap.com/resim/urun/202406/66791868602b76.23808833_kgjonhqmfpile_200.webp",
+    "link": "https://www.incehesap.com/flow-gold-pbm-hazir-sistem-fiyati-50392/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4070 Ti Super 16 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Fenix Bronze",
+    "price": 27499,
+    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
+    "link": "https://www.incehesap.com/fenix-bronze-hazir-sistem-fiyati-48734/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "PNY RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Souldash",
+    "price": 60499,
+    "image": "https://www.incehesap.com/resim/urun/202102/6028eefeab6821.09911597_glpqeknhiofjm_200.webp",
+    "link": "https://www.incehesap.com/souldash-hazir-sistem-fiyati-57341/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X3D",
+      "Ram": "16 GB DDR5",
+      "GPU": "Powercolor RX 7900 XT 20 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Matem Silver",
+    "price": 32999,
+    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
+    "link": "https://www.incehesap.com/matem-silver-hazir-sistem-fiyati-46901/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RX 7600 XT 16 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Hero PBM",
+    "price": 35999,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e214496b9037.22849704_qhflegnkojpmi_200.webp",
+    "link": "https://www.incehesap.com/hero-pbm-hazir-sistem-fiyati-47666/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "MSI RX 6800 16 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Space",
+    "price": 53299,
+    "image": "https://www.incehesap.com/resim/urun/202211/6380eb20344903.04407264_pmnholiqgfjek_200.webp",
+    "link": "https://www.incehesap.com/space-hazir-sistem-fiyati-41840/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Gigabyte RTX 4070 Super 12 GB",
+      "Storage": "500 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Freedom",
+    "price": 62499,
+    "image": "https://www.incehesap.com/resim/urun/202311/655b4128d98186.31506198_nkqfielpmgojh_200.webp",
+    "link": "https://www.incehesap.com/freedom-hazir-sistem-fiyati-40898/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X3D",
+      "Ram": "32 GB DDR5",
+      "GPU": "Powercolor RX 7900 XT 20 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Battle Gold",
+    "price": 42199,
+    "image": "https://www.incehesap.com/resim/urun/202406/66791868602b76.23808833_kgjonhqmfpile_200.webp",
+    "link": "https://www.incehesap.com/battle-gold-hazir-sistem-fiyati-43358/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4070 12 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Razor Crest",
+    "price": 44999,
+    "image": "https://www.incehesap.com/resim/urun/202403/65eea9e79ee9e5.80949613_pegjqoflknmih_200.webp",
+    "link": "https://www.incehesap.com/razor-crest-hazir-sistem-fiyati-35562/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RX 7900 GRE 16 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Atlantic Platinum PBM",
+    "price": 114999,
+    "image": "https://www.incehesap.com/resim/urun/202403/65eea9e79ee9e5.80949613_pegjqoflknmih_200.webp",
+    "link": "https://www.incehesap.com/atlantic-platinum-pbm-hazir-sistem-fiyati-42946/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X3D",
+      "Ram": "32 GB DDR5",
+      "GPU": "MSI RTX 4090 24 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Magnus Silver",
+    "price": 39049,
+    "image": "https://www.incehesap.com/resim/urun/202407/6683a0291c09c9.39876331_qpgnjfhemkloi_200.webp",
+    "link": "https://www.incehesap.com/magnus-hazir-sistem-fiyati-67326/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5700X3D",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RTX 4060 Ti 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Phantom 4060 Ti",
+    "price": 28999,
+    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
+    "link": "https://www.incehesap.com/phantom-hazir-sistem-fiyati-46900/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Colorful RTX 4060 Ti 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Flame 4060",
+    "price": 27999,
+    "image": "https://www.incehesap.com/resim/urun/202406/6669862c97f304.11933245_ilnmhqeopjgkf_200.webp",
+    "link": "https://www.incehesap.com/flame-hazir-sistem-fiyati-37443/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Wardon 4070 Super",
+    "price": 41999,
+    "image": "https://www.incehesap.com/resim/urun/202302/63e212270b7c53.80281962_iohgejnkpmfql_200.webp",
+    "link": "https://www.incehesap.com/wardon-hazir-sistem-fiyati-58366/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "PNY RTX 4070 Super 12 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Majesty Bronz",
+    "price": 35999,
+    "image": "https://www.incehesap.com/resim/urun/202010/asus-tuf-gaming-gt301-argb-usb-3-1-atx-kasa-kasalar-masaustu-139763_200.webp",
+    "link": "https://www.incehesap.com/majesty-bronz-hazir-sistem-fiyati-43300/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4060 Ti 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Helios Platinum",
+    "price": 43199,
+    "image": "https://www.incehesap.com/resim/urun/202407/668b991e6559b0.56690709_fpmjhlkqoegni_200.webp",
+    "link": "https://www.incehesap.com/helios-platinum-hazir-sistem-fiyati-48972/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X3D",
+      "Ram": "32 GB DDR5",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "1 TB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Verto PBM",
+    "price": 33999,
+    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
+    "link": "https://www.incehesap.com/verto-pbm-hazir-sistem-fiyati-64133/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600",
+      "Ram": "16 GB DDR5",
+      "GPU": "MSI RTX 4060 Ti 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Atlantic V2",
+    "price": 33299,
+    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
+    "link": "https://www.incehesap.com/atlantic-v2-hazir-sistem-fiyati-41389/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "MSI RTX 4060 Ti 16 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Negatron 3060 Ti",
+    "price": 23499,
+    "image": "https://www.incehesap.com/resim/urun/202406/666982f53c6629.55520121_poljihgfnkeqm_200.webp",
+    "link": "https://www.incehesap.com/negatron-hazir-sistem-fiyati-58697/",
+    "specs": {
+      "CPU": "Intel i5-12400F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Gigabyte RTX 3060 Ti 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Verto Dual",
+    "price": 37499,
+    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
+    "link": "https://www.incehesap.com/verto-hazir-sistem-fiyati-62199/",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7700X",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Whisper PBM",
+    "price": 22699,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a94ed7c6cc45.08193713_nklpojgifqemh_200.webp",
+    "link": "https://www.incehesap.com/whisper-pbm-hazir-sistem-fiyati-57344/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5500",
+      "Ram": "16 GB DDR4",
+      "GPU": "MSI RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Alpha Spear",
+    "price": 44999,
+    "image": "https://www.incehesap.com/resim/urun/202311/6551c8c7337974.29696363_pqlokgnmihjfe_200.webp",
+    "link": "https://www.incehesap.com/alpha-spear-hazir-sistem-fiyati-60381/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4070 Super 12 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Taurus 5500 XT",
+    "price": 14999,
+    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
+    "link": "https://www.incehesap.com/taurus-hazir-sistem-fiyati-60055/",
+    "specs": {
+      "CPU": "Intel i3-12100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Axle RX 5500 XT 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "PCH S Class 1.1",
+    "price": 28499,
+    "image": "https://www.incehesap.com/resim/urun/202307/64a2c2fa91ac33.70476273_lpefnjhqkigmo_200.webp",
+    "link": "https://www.incehesap.com/pch-s-class-1-1-hazir-sistem-fiyati-47432/",
+    "specs": {
+      "CPU": "Intel i5-13400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Asus RTX 4060 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Orion 6600",
+    "price": 20999,
+    "image": "https://www.incehesap.com/resim/urun/202402/65cf6e30153e33.10289865_legonqikfhmpj_200.webp",
+    "link": "https://www.incehesap.com/orion-hazir-sistem-fiyati-42168/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 3600",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RX 6600 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Neron 6600 V2",
+    "price": 19199,
+    "image": "https://www.incehesap.com/resim/urun/202211/6374957103944_200.webp",
+    "link": "https://www.incehesap.com/neron-6600-v2-hazir-sistem-fiyati-50681/",
+    "specs": {
+      "CPU": "Intel i3-12100F",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RX 6600 8 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Gamerbase",
+    "price": 39499,
+    "image": "https://www.incehesap.com/resim/urun/202407/6683a0291c09c9.39876331_qpgnjfhemkloi_200.webp",
+    "link": "https://www.incehesap.com/gamerbase-hazir-sistem-fiyati-50394/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Ram": "16 GB DDR5",
+      "GPU": "Powercolor RX 7900 GRE 16 GB",
+      "Storage": "512 GB SSD "
+    },
+    "store": "inceHesap"
+  },
+  {
+    "name": "Flow Silver",
+    "price": 20499,
+    "image": "https://www.incehesap.com/resim/urun/202401/65a8fea1a53ef4.35895722_gokplhfmiejnq_200.webp",
+    "link": "https://www.incehesap.com/flow-silver-hazir-sistem-fiyati-50391/",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5500",
+      "Ram": "16 GB DDR4",
+      "GPU": "Asus RX 6600 8 GB",
       "Storage": "512 GB SSD "
     },
     "store": "inceHesap"
@@ -22483,7 +23445,8 @@
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2023/05/cooler-master-cmp-510-argb-siyah-mid-tower-650w-80-bronze-gaming-kasa-cp510-kgnn65-s01.jpg",
     "store": "gamingGen"
-  },{
+  },
+  {
     "name": "Sinerji Giga Intel Core i5 13400 16GB 512GB NVMe M.2 SSD Gainward GeForce Python II 8GB RTX4060 Oyun Bilgisayarı",
     "price": 25499,
     "image": "https://static.sinerji.gen.tr/Images/MD/TLZ-p4j-frisby-fc-9320g-midi-tower-kasa-1.jpg",
