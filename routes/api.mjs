@@ -10,8 +10,8 @@ import inceHesapRouter from "./inceHesap.mjs";
 import gencerGamingRouter from "./gencergaming.mjs";
 import getCPUs from "../hardwares/cpus.mjs";
 import getGPUs from "../hardwares/gpus.mjs";
-import getProductsRouter from "./getProducts.mjs"; // getProducts rotasını import edin
-import combinedRouter from "./combined.mjs"; // combined rotasını import edin
+import getProductsRouter from "./getProducts.mjs";
+import combinedRouter from "./combined.mjs"; 
 
 const router = Router();
 
@@ -27,7 +27,7 @@ router.use("/gencergaming", gencerGamingRouter);
 
 router.use("/cpu", getCPUs);
 router.use("/gpu", getGPUs);
-router.use("/getProducts", getProductsRouter); // getProducts rotasını kullan
-router.use("/combined", combinedRouter); // combined rotasını kullan
+router.use("/getProducts", getProductsRouter);
+router.use("/combined", combinedRouter);
 
 export default router;
