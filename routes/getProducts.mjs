@@ -31,14 +31,16 @@ router.post("/", async (req, res) => {
       filteredData = filteredData.filter((item) => item.price <= endPrice);
     }
     if (searchTerm !== undefined && searchTerm !== null) {
-      filteredData = filteredData.filter((item) =>
-        item.name.includes(searchTerm)
+      filteredData = filteredData.filter(
+        (item) => item.name && item.name.includes(searchTerm)
       );
     }
     if (selectedGPUs && selectedGPUs.length > 0) {
       filteredData = filteredData.filter((item) =>
-        selectedGPUs.some((model) =>
-          item.specs?.GPU?.toLowerCase().includes(model.toLowerCase())
+        selectedGPUs.some(
+          (model) =>
+            item.specs?.GPU &&
+            item.specs.GPU.toLowerCase().includes(model.toLowerCase())
         )
       );
     }
@@ -53,7 +55,7 @@ router.post("/", async (req, res) => {
               gpuName.slice(0, arcIndex + 3) +
               gpuName.slice(arcIndex + 3).replace("a", "");
             gpuName = modifiedGPU.replace(/\s+/g, "");
-            return gpuName?.includes(normalizedSeries);
+            return gpuName.includes(normalizedSeries);
           }
           return gpuName?.includes(series);
         })
@@ -62,42 +64,53 @@ router.post("/", async (req, res) => {
 
     if (selectedCPUModels && selectedCPUModels.length > 0) {
       filteredData = filteredData.filter((item) =>
-        selectedCPUModels.some((series) =>
-          item.specs?.CPU?.toLowerCase().includes(series.toLowerCase())
+        selectedCPUModels.some(
+          (series) =>
+            item.specs?.CPU &&
+            item.specs.CPU.toLowerCase().includes(series.toLowerCase())
         )
       );
     }
 
     if (selectedCPUs && selectedCPUs.length > 0) {
-      if (selectedCPUs[0].toLowerCase() === "amd" && selectedCPUs.length === 1) {
+      if (
+        selectedCPUs[0].toLowerCase() === "amd" &&
+        selectedCPUs.length === 1
+      ) {
         filteredData = filteredData.filter((item) =>
           selectedCPUs.some(
             (cpu) =>
-              item.specs?.CPU?.toLowerCase().includes("r3 ") ||
-              item.specs?.CPU?.toLowerCase().includes("r5 ") ||
-              item.specs?.CPU?.toLowerCase().includes("r7 ") ||
-              item.specs?.CPU?.toLowerCase().includes("amd") ||
-              item.specs?.CPU?.toLowerCase().includes("ryzen")
+              item.specs?.CPU &&
+              (item.specs.CPU.toLowerCase().includes("r3 ") ||
+                item.specs.CPU.toLowerCase().includes("r5 ") ||
+                item.specs.CPU.toLowerCase().includes("r7 ") ||
+                item.specs.CPU.toLowerCase().includes("amd") ||
+                item.specs.CPU.toLowerCase().includes("ryzen"))
           )
         );
-      } else if (selectedCPUs[0].toLowerCase() === "intel" && selectedCPUs.length === 1) {
+      } else if (
+        selectedCPUs[0].toLowerCase() === "intel" &&
+        selectedCPUs.length === 1
+      ) {
         filteredData = filteredData.filter((item) =>
           selectedCPUs.some(
             (cpu) =>
-              item.specs?.CPU?.toLowerCase().includes("i3 ") ||
-              item.specs?.CPU?.toLowerCase().includes("i5 ") ||
-              item.specs?.CPU?.toLowerCase().includes("i7 ") ||
-              item.specs?.CPU?.toLowerCase().includes("intel") ||
-              item.specs?.CPU?.toLowerCase().includes("ıntel") ||
-              item.specs?.CPU?.toLowerCase().includes("core")
+              item.specs?.CPU &&
+              (item.specs.CPU.toLowerCase().includes("i3 ") ||
+                item.specs.CPU.toLowerCase().includes("i5 ") ||
+                item.specs.CPU.toLowerCase().includes("i7 ") ||
+                item.specs.CPU.toLowerCase().includes("intel") ||
+                item.specs.CPU.toLowerCase().includes("ıntel") ||
+                item.specs.CPU.toLowerCase().includes("core"))
           )
         );
       }
     }
     if (stores && stores.length > 0) {
       filteredData = filteredData.filter((item) =>
-        stores.some((store) =>
-          item.store?.toLowerCase().includes(store.toLowerCase())
+        stores.some(
+          (store) =>
+            item.store && item.store.toLowerCase().includes(store.toLowerCase())
         )
       );
     }
