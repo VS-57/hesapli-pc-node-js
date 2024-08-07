@@ -510,7 +510,9 @@ function renderProducts(products) {
                 <p class="card-text"><strong>Fiyat: ${formattedPrice}</strong></p>
                <a href="${
                  product.link
-               }" class="btn btn-primary" style="background-color:#1c2938;border-color:#1c2938" target="_blank">Detayları Gör</a>
+               }" class="btn btn-primary product-detail-link" style="background-color:#1c2938;border-color:#1c2938" target="_blank" data-product-name="${
+      product.name
+    }">Detayları Gör</a>
   
             </div>
             <div style="position: absolute; top: 10px; right: 10px;">
@@ -522,6 +524,19 @@ function renderProducts(products) {
     </div>
     `;
     productList.insertAdjacentHTML("beforeend", productCard);
+  });
+
+  // Add event listeners to the newly added product detail links
+  document.querySelectorAll(".product-detail-link").forEach((link) => {
+    link.addEventListener("click", (event) => {
+      const productName = event.target.getAttribute("data-product-name");
+      gtag("event", "ReferenceTo", {
+        event_category: "Product",
+        event_label: productName,
+        value: event.target.href,
+        name: productName, // Including the product name as an additional parameter
+      });
+    });
   });
 }
 
