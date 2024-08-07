@@ -17,7 +17,7 @@ async function scrapeProductIDs(page, url) {
       const fiboFiltersData = window.fiboFiltersData || {};
       return fiboFiltersData.base_products_ids || [];
     });
-    console.log(productIDs)
+
     return productIDs;
   } catch (error) {
     console.error(`Error in scrapeProductIDs for ${url}:`, error);
@@ -37,7 +37,10 @@ router.get("/", async (req, res) => {
 
   console.log("Scraping finished, sending response.");
 
-  res.json({ productIDs });
+  res.json({ 
+    productIDs,
+    count: productIDs.length
+  });
 });
 
 export default router;
