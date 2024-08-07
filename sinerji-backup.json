@@ -1,917 +1,7 @@
-[
-  {
-    "name": "Sinerji Giga Intel Core i5 13400 16GB 512GB NVMe M.2 SSD Gainward GeForce Python II 8GB RTX4060 Oyun Bilgisayarı",
-    "price": 25499,
-    "image": "https://static.sinerji.gen.tr/Images/MD/TLZ-p4j-frisby-fc-9320g-midi-tower-kasa-1.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-giga-intel-core-i5-13400-16gb-512gb-nvme-m2-ssd-gainward-geforce-python-ii-8gb-rtx4060-oyun-bilgisayari-p-43019",
-    "specs": {
-      "CPU": "Intel Core i5 13400 ",
-      "Motherboard": "MSI H610 Anakart",
-      "GPU": "Gainward RTX 4060 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Wunch Intel Core i5 12400F 16GB 512GB NVMe M.2 SSD MSI GeForce Ventus XS OC V1 4GB GTX1650 Oyun Bilgisayarı",
-    "price": 16750,
-    "image": "https://static.sinerji.gen.tr/Images/MD/P5K-p4j-frisby-fc-9320g-midi-tower-kasa-1.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-wunch-intel-core-i5-12400f-16gb-512gb-nvme-m2-ssd-msi-geforce-ventus-xs-oc-v1-4gb-gtx1650-oyun-bilgisayari-p-42644",
-    "specs": {
-      "CPU": "Intel Core i5 12400F",
-      "Motherboard": "MSI H610 Anakart",
-      "GPU": "MSI GTX 1650 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Pro V4 Intel Core i7 12700 16GB 512GB NVMe M.2 SSD İş Bilgisayarı",
-    "price": 21286,
-    "image": "https://static.sinerji.gen.tr/Images/MD/J3C-gfdgfdgfdgfddfg.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-pro-v4-intel-core-i7-12700-16gb-512gb-nvme-m2-ssd-is-bilgisayari-p-42137",
-    "specs": {
-      "CPU": "Intel Core i5 12700 "
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Rapidness Ryzen 5 5500 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X Black OC 8GB RTX4060Ti Oyun Bilgisayarı",
-    "price": 27367,
-    "image": "https://static.sinerji.gen.tr/Images/MD/AQK-nza-1024.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-rapidness-ryzen-5-5500-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-black-oc-8gb-rtx4060ti-oyun-bilgisayari-p-42118",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5500 ",
-      "Motherboard": "MSI B450 Anakart",
-      "GPU": "MSI RTX 4060Ti Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Lugias Intel Core i5 12400F 16GB 500GB NVMe M.2 SSD MSI Radeon Mech V1 2X 12GB RX6750XT Oyun Bilgisayarı",
-    "price": 25340,
-    "image": "https://static.sinerji.gen.tr/Images/MD/CMX-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-lugias-intel-core-i5-12400f-16gb-500gb-nvme-m2-ssd-msi-radeon-mech-v1-2x-12gb-rx6750xt-oyun-bilgisayari-p-42098",
-    "specs": {
-      "CPU": "Intel Core i5 12400F",
-      "Motherboard": "MSI H610 Anakart",
-      "GPU": "MSI RX6750XT Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Flex Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD ASUS GeForce ROG Strix OC 16GB RTX4070Ti Super Oyun Bilgisayarı",
-    "price": 95859,
-    "image": "https://static.sinerji.gen.tr/Images/MD/112-5l3-tuf-gaming-gt502-0.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-flex-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-asus-geforce-rog-strix-oc-16gb-rtx4070ti-super-oyun-bilgisayari-p-42090",
-    "specs": {
-      "Motherboard": "Asus X670 Anakart",
-      "GPU": "Asus RTX 4070Ti Super Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Bailey Ryzen 5 8400F 16GB 512GB NVMe M.2 SSD MSI GeForce Gaming X 8GB RTX4060 Oyun Bilgisayarı",
-    "price": 29262,
-    "image": "https://static.sinerji.gen.tr/Images/MD/2ZK-nza-1024.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-bailey-ryzen-5-8400f-16gb-512gb-nvme-m2-ssd-msi-geforce-gaming-x-8gb-rtx4060-oyun-bilgisayari-p-41019",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Motherboard": "MSI A620 Anakart",
-      "GPU": "MSI RTX 4060 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Arctic Ryzen 5 7600 16GB 1TB NVMe M.2 SSD Gigabyte GeForce Gaming 12GB RTX4070Ti Oyun Bilgisayarı",
-    "price": 49368,
-    "image": "https://static.sinerji.gen.tr/Images/MD/AT9-6ht-ekran-goruntusu-2024-03-04-153030.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-arctic-ryzen-5-7600-16gb-1tb-nvme-m2-ssd-gigabyte-geforce-gaming-12gb-rtx4070ti-oyun-bilgisayari-p-40642",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600 ",
-      "Motherboard": "Gigabyte A620 Anakart",
-      "GPU": "Gigabyte RTX 4070Ti Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Kyashe Ryzen 5 7600 16GB 512GB NVMe M.2 SSD Sapphire Radeon Pulse 16GB RX7800XT Oyun Bilgisayarı",
-    "price": 35263,
-    "image": "https://static.sinerji.gen.tr/Images/MD/7TD-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-kyashe-ryzen-5-7600-16gb-512gb-nvme-m2-ssd-sapphire-radeon-pulse-16gb-rx7800xt-oyun-bilgisayari-p-40637",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600 ",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "AMD Radeon RX7800XT",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Envy Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim 24GB RTX4090 Oyun Bilgisayarı",
-    "price": 133194,
-    "image": "https://static.sinerji.gen.tr/Images/MD/U12-7s6-141379-1large.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-envy-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-24gb-rtx4090-oyun-bilgisayari-p-40259",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "MSI RTX 4090 Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Leuts Intel Core i5 12400F 16GB 512GB NVMe M.2 SSD XFX Radeon Core Gaming 12GB RX6750XT Oyun Bilgisayarı",
-    "price": 24327,
-    "image": "https://static.sinerji.gen.tr/Images/MD/67P-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-leuts-intel-core-i5-12400f-16gb-512gb-nvme-m2-ssd-xfx-radeon-core-gaming-12gb-rx6750xt-oyun-bilgisayari-p-40241",
-    "specs": {
-      "CPU": "Intel Core i5 12400F",
-      "Motherboard": "Gigabyte H610 Anakart",
-      "GPU": "XFX Radeon RX6750XT Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Chill Ryzen 5 5600 16GB 1TB NVMe M.2 SSD ASUS GeForce TUF Gaming OC 8GB RTX4060Ti Oyun Bilgisayarı",
-    "price": 35477,
-    "image": "https://static.sinerji.gen.tr/Images/MD/A23-6ht-ekran-goruntusu-2024-03-04-153030.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-chill-ryzen-5-5600-16gb-1tb-nvme-m2-ssd-asus-geforce-tuf-gaming-oc-8gb-rtx4060ti-oyun-bilgisayari-p-40017",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600 ",
-      "Motherboard": "Asus A520 Anakart",
-      "GPU": "Asus RTX 4060Ti Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Artemis Ryzen 5 5500 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X XD OC 8GB RTX3050 Oyun Bilgisayarı",
-    "price": 20654,
-    "image": "https://static.sinerji.gen.tr/Images/MD/K6A-nza-1024.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-artemis-ryzen-5-5500-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-xd-oc-8gb-rtx3050-oyun-bilgisayari-p-39993",
-    "specs": {
-      "Motherboard": "MSI B450 Anakart",
-      "GPU": "MSI RTX 3050 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Sayanora Ryzen 5 7500F 16GB 1TB NVMe M.2 SSD Gigabyte GeForce Eagle OC 12GB RTX4070Ti Oyun Bilgisayarı",
-    "price": 47425,
-    "image": "https://static.sinerji.gen.tr/Images/MD/95F-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-sayanora-ryzen-5-7500f-16gb-1tb-nvme-m2-ssd-gigabyte-geforce-eagle-oc-12gb-rtx4070ti-oyun-bilgisayari-p-39840",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Motherboard": "Gigabyte A620 Anakart",
-      "GPU": "Gigabyte RTX 4070Ti Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Assault Ryzen 5 5500 16GB 512GB NVMe M.2 SSD Gainward GeForce Python II 8GB RTX4060 Oyun Bilgisayarı",
-    "price": 22999,
-    "image": "https://static.sinerji.gen.tr/Images/MD/JU9-kl8-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-assault-ryzen-5-5500-16gb-512gb-nvme-m2-ssd-gainward-geforce-python-ii-8gb-rtx4060-oyun-bilgisayari-p-39555",
-    "specs": {
-      "GPU": "GeForce RTX 4060 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Dragon Intel Core i5 12400F 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X Black OC 8GB RTX4060 Oyun Bilgisayarı",
-    "price": 25226,
-    "image": "https://static.sinerji.gen.tr/Images/MD/Q8M-nza-1024.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-dragon-intel-core-i5-12400f-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-black-oc-8gb-rtx4060-oyun-bilgisayari-p-39395",
-    "specs": {
-      "CPU": "Intel Core i5 12400F",
-      "Motherboard": "MSI H610 Anakart",
-      "GPU": "MSI RTX 4060 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Zhwach Ryzen 5 8400F 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X OC 8GB RTX4060Ti Oyun Bilgisayarı",
-    "price": 31422,
-    "image": "https://static.sinerji.gen.tr/Images/MD/ZX4-nza-1024.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-zhwach-ryzen-5-8400f-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-oc-8gb-rtx4060ti-oyun-bilgisayari-p-39358",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Motherboard": "MSI A620 Anakart",
-      "GPU": "MSI RTX 4060Ti Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Goose Ryzen 5 7600 16GB 512GB NVMe M.2 SSD PowerColor Radeon RX 7900 GRE FIGTHER 16GB Oyun Bilgisayarı",
-    "price": 37278,
-    "image": "https://static.sinerji.gen.tr/Images/MD/LK6-8sx-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-goose-ryzen-5-7600-16gb-512gb-nvme-m2-ssd-powercolor-radeon-rx-7900-gre-figther-16gb-oyun-bilgisayari-p-37897",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600 ",
-      "Motherboard": "Asus A620 Anakart",
-      "GPU": "AMD Radeon RX7900GRE",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Ultimate Ryzen 5 5600X 16GB 512GB NVMe M.2 SSD Sapphire Radeon Pulse 16GB RX7800XT Oyun Bilgisayarı",
-    "price": 31280,
-    "image": "https://static.sinerji.gen.tr/Images/MD/9FL-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-ultimate-ryzen-5-5600x-16gb-512gb-nvme-m2-ssd-sapphire-radeon-pulse-16gb-rx7800xt-oyun-bilgisayari-p-37681",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600X",
-      "Motherboard": "Asus A520 Anakart",
-      "GPU": "Sapphire RX7800XT Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Pro V2 Intel Core i5 12400 16GB 512GB NVMe M.2 SSD Ofis Bilgisayarı",
-    "price": 11000,
-    "image": "https://static.sinerji.gen.tr/Images/MD/BQG-6nt-613791.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-pro-v2-intel-core-i5-12400-16gb-512gb-nvme-m2-ssd-ofis-bilgisayari-p-37648",
-    "specs": {
-      "CPU": "Intel Core i5 12400 "
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Guerres Intel Core i5 14600KF 32GB 1TB NVMe M.2 SSD MSI GeForce Ventus 3X OC 16GB RTX4070Ti Super Oyun Bilgisayarı",
-    "price": 78705,
-    "image": "https://static.sinerji.gen.tr/Images/MD/DBC-1mf-we.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-guerres-intel-core-i5-14600kf-32gb-1tb-nvme-m2-ssd-msi-geforce-ventus-3x-oc-16gb-rtx4070ti-super-oyun-bilgisayari-p-37594",
-    "specs": {
-      "CPU": "Intel Core i5 14600K",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "MSI RTX 4070Ti Super Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Pro V3 Intel Core i5 13400 16GB 512GB NVMe M.2 SSD İş Bilgisayarı",
-    "price": 13300,
-    "image": "https://static.sinerji.gen.tr/Images/MD/QAY-6nt-613791.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-pro-v3-intel-core-i5-13400-16gb-512gb-nvme-m2-ssd-is-bilgisayari-p-36418",
-    "specs": {
-      "CPU": "Intel Core i5 13400 "
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Reyz Intel Core i9 14900KS 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim 24GB RTX4090 Oyun Bilgisayarı",
-    "price": 154072,
-    "image": "https://static.sinerji.gen.tr/Images/MD/HZ8-300r-airflow.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-reyz-intel-core-i9-14900ks-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-24gb-rtx4090-oyun-bilgisayari-p-36417",
-    "specs": {
-      "CPU": "Intel Core i9 14900K",
-      "Motherboard": "MSI Z790 Anakart",
-      "GPU": "MSI RTX 4090 Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji AUSS Ryzen 5 5600 16GB 512GB NVMe M.2 SSD ASUS Radeon Dual OC 16GB RX7600XT Oyun Bilgisayarı",
-    "price": 27805,
-    "image": "https://static.sinerji.gen.tr/Images/MD/9G5-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-auss-ryzen-5-5600-16gb-512gb-nvme-m2-ssd-asus-radeon-dual-oc-16gb-rx7600xt-oyun-bilgisayari-p-36369",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600 ",
-      "Motherboard": "Asus A520 Anakart",
-      "GPU": "Asus RX7600XT Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Prometheus Ryzen 7 7800X3D 16GB 1TB NVMe M.2 SSD Gainward GeForce Ghost 12GB RTX4070 Super Oyun Bilgisayarı",
-    "price": 48434,
-    "image": "https://static.sinerji.gen.tr/Images/MD/JYT-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-prometheus-ryzen-7-7800x3d-16gb-1tb-nvme-m2-ssd-gainward-geforce-ghost-12gb-rtx4070-super-oyun-bilgisayari-p-50813",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "Gainward GeForce RTX 4070 Super",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Lexsk Ryzen 5 7600 32GB 1TB NVMe M.2 SSD ASUS GeForce Dual White OC 12GB RTX4070 Oyun Bilgisayarı",
-    "price": 59910,
-    "image": "https://static.sinerji.gen.tr/Images/MD/94L-tdh-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-lexsk-ryzen-5-7600-32gb-1tb-nvme-m2-ssd-asus-geforce-dual-white-oc-12gb-rtx4070-oyun-bilgisayari-p-50804",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600 ",
-      "Motherboard": "Asus B650 Anakart",
-      "GPU": "Asus RTX 4070 Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Osmight Intel Core i7 14700K 32GB 1TB NVMe M.2 SSD ASUS Radeon TUF Gaming OC 20GB RX7900XT Oyun Bilgisayarı",
-    "price": 89200,
-    "image": "https://static.sinerji.gen.tr/Images/MD/RGN-5l3-tuf-gaming-gt502-0.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-osmight-intel-core-i7-14700k-32gb-1tb-nvme-m2-ssd-asus-radeon-tuf-gaming-oc-20gb-rx7900xt-oyun-bilgisayari-p-50799",
-    "specs": {
-      "CPU": "Intel Core i7 14700K",
-      "Motherboard": "Asus Z790 Anakart",
-      "GPU": "Asus RX7900XT Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji ColdTouch Intel Core i5 14400F 16GB 1TB NVMe M.2 SSD ASUS GeForce ProArt OC 12GB RTX4070 Oyun Bilgisayarı",
-    "price": 53479,
-    "image": "https://static.sinerji.gen.tr/Images/MD/49E-9jq-indir-2.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-coldtouch-intel-core-i5-14400f-16gb-1tb-nvme-m2-ssd-asus-geforce-proart-oc-12gb-rtx4070-oyun-bilgisayari-p-50798",
-    "specs": {
-      "CPU": "Intel Core i5 14400F",
-      "Motherboard": "Asus B760 Anakart",
-      "GPU": "Asus RTX 4070 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Apex Ryzen 5 5500 16GB 512GB NVMe M.2 SSD Gainward GeForce Python II 8GB RTX4060 Oyun Bilgisayarı",
-    "price": 20999,
-    "image": "https://static.sinerji.gen.tr/Images/MD/1D8-p4j-frisby-fc-9320g-midi-tower-kasa-1.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-apex-ryzen-5-5500-16gb-512gb-nvme-m2-ssd-gainward-geforce-python-ii-8gb-rtx4060-oyun-bilgisayari-p-50785",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5500 ",
-      "Motherboard": "ASRock B450 Anakart",
-      "GPU": "Palit RTX 4060 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Lupus Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Ventus 3X OC 16GB RTX4070Ti Super Oyun Bilgisayar",
-    "price": 80724,
-    "image": "https://static.sinerji.gen.tr/Images/MD/5H4-nmm-11-139-206-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-lupus-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-ventus-3x-oc-16gb-rtx4070ti-super-oyun-bilgisayar-p-50714",
-    "specs": {
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "MSI RTX 4070Ti Super Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Etazhi Ryzen 5 5600 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2x Black OC 8GB RTX4060Ti Oyun Bilgisayarı",
-    "price": 28381,
-    "image": "https://static.sinerji.gen.tr/Images/MD/5D2-nza-1024.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-etazhi-ryzen-5-5600-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-black-oc-8gb-rtx4060ti-oyun-bilgisayari-p-50696",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600 ",
-      "Motherboard": "MSI B450 Anakart",
-      "GPU": "MSI RTX 4060Ti Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Jarvis Ryzen 5 7500F 16GB 1TB NVMe M.2 SSD ASUS Radeon TUF Gaming OC 12GB RX7700XT Oyun Bilgisayarı",
-    "price": 42316,
-    "image": "https://static.sinerji.gen.tr/Images/MD/5HL-6ht-ekran-goruntusu-2024-03-04-153030.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-jarvis-ryzen-5-7500f-16gb-1tb-nvme-m2-ssd-asus-radeon-tuf-gaming-oc-12gb-rx7700xt-oyun-bilgisayari-p-49851",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Motherboard": "Asus A620 Anakart",
-      "GPU": "Asus RX7700XT Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Saraxy Ryzen 5 5500 16GB 512GB NVMe M.2 SSD MSI GeForce RTX 3060 Ventus 2X OC 8GB Oyun Bilgisayarı",
-    "price": 20779,
-    "image": "https://static.sinerji.gen.tr/Images/MD/B5N-nza-1024.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-saraxy-ryzen-5-5500-16gb-512gb-nvme-m2-ssd-msi-geforce-rtx-3060-ventus-2x-oc-8gb-oyun-bilgisayari-p-47597",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5500 ",
-      "Motherboard": "MSI B450 Anakart",
-      "GPU": "MSI RTX 3060 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Ronark Ryzen 5 8400F 16GB 1TB NVMe M.2 SSD Gigabyte GeForce Windforce 3X OC 12GB RTX4070 Super Oyun Bilgisayarı",
-    "price": 44093,
-    "image": "https://static.sinerji.gen.tr/Images/MD/1E2-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-ronark-ryzen-5-8400f-16gb-1tb-nvme-m2-ssd-gigabyte-geforce-windforce-3x-oc-12gb-rtx4070-super-oyun-bilgisayari-p-47582",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Motherboard": "MSI A620 Anakart",
-      "GPU": "Gigabyte RTX 4070 Super Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Desmarias Ryzen 5 8400F 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X OC 12GB RTX4070 Super Oyun Bilgisayarı",
-    "price": 41559,
-    "image": "https://static.sinerji.gen.tr/Images/MD/1Y6-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-desmarias-ryzen-5-8400f-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-oc-12gb-rtx4070-super-oyun-bilgisayari-p-46202",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Motherboard": "MSI A620 Anakart",
-      "GPU": "MSI RTX 4070 Super Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Pro V5 Intel Core i7 13700 16GB 512GB NVMe M.2 SSD İş Bilgisayarı",
-    "price": 19999,
-    "image": "https://static.sinerji.gen.tr/Images/MD/CHG-6nt-613791.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-pro-v5-intel-core-i7-13700-16gb-512gb-nvme-m2-ssd-is-bilgisayari-p-45857",
-    "specs": {
-      "CPU": "Intel Core i7 13700 "
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji İsilion Ryzen 5 5600 16GB 500GB NVMe M.2 SSD MSI Radeon Mech 2X 12GB V1 RX6750XT Oyun Bilgisayarı",
-    "price": 25340,
-    "image": "https://static.sinerji.gen.tr/Images/MD/Y87-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-isilion-ryzen-5-5600-16gb-500gb-nvme-m2-ssd-msi-radeon-mech-2x-12gb-v1-rx6750xt-oyun-bilgisayari-p-43967",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600 ",
-      "Motherboard": "MSI B450 Anakart",
-      "GPU": "MSI RX6750XT Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Pycton AMD Ryzen 5 7600 16GB 500GB NVMe M.2 SSD Gainward GeForce RTX 4070 Super Ghost 12GB Oyun Bilgisayarı",
-    "price": 39797,
-    "image": "https://static.sinerji.gen.tr/Images/MD/H7J-kl8-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-pycton-amd-ryzen-5-7600-16gb-500gb-nvme-m2-ssd-gainward-geforce-rtx-4070-super-ghost-12gb-oyun-bilgisayari-p-43947",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600 ",
-      "Motherboard": "Asus A620 Anakart",
-      "GPU": "Gainward GeForce RTX 4070 Super",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Zeit Ryzen 5 5600 16GB 512GB NVMe M.2 SSD Gainward GeForce Python II 8GB RTX4060 Oyun Bilgisayarı",
-    "price": 22000,
-    "image": "https://static.sinerji.gen.tr/Images/MD/ZDU-p4j-frisby-fc-9320g-midi-tower-kasa-1.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-zeit-ryzen-5-5600-16gb-512gb-nvme-m2-ssd-gainward-geforce-python-ii-8gb-rtx4060-oyun-bilgisayari-p-43921",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600 ",
-      "Motherboard": "MSI A520 Anakart",
-      "GPU": "Gainward RTX 4060 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Zonixs Intel Core i5 13400F 16GB 1TB NVMe M.2 SSD ASUS GeForce Dual White OC 12GB RTX4070 Oyun Bilgisayarı",
-    "price": 44398,
-    "image": "https://static.sinerji.gen.tr/Images/MD/ZJJ-d76-59l-11-139-194-06.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-zonixs-intel-core-i5-13400f-16gb-1tb-nvme-m2-ssd-asus-geforce-dual-white-oc-12gb-rtx4070-oyun-bilgisayari-p-43920",
-    "specs": {
-      "CPU": "Intel Core i5 13400F",
-      "Motherboard": "Asus H610 Anakart",
-      "GPU": "Asus RTX 4070 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Fade Ryzen 5 5500 16GB 500GB NVMe M.2 SSD MSI GeForce Gaming X 8GB RTX4060 Oyun Bilgisayarı",
-    "price": 24327,
-    "image": "https://static.sinerji.gen.tr/Images/MD/94F-nza-1024.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-fade-ryzen-5-5500-16gb-500gb-nvme-m2-ssd-msi-geforce-gaming-x-8gb-rtx4060-oyun-bilgisayari-p-43804",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5500 ",
-      "Motherboard": "MSI B450 Anakart",
-      "GPU": "MSI RTX 4060 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Tykie Ryzen 5 7500F 16GB 500GB NVMe M.2 SSD ASUS GeForce Dual White OC 12GB RTX4070 Oyun Bilgisayarı",
-    "price": 44948,
-    "image": "https://static.sinerji.gen.tr/Images/MD/XX6-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-tykie-ryzen-5-7500f-16gb-500gb-nvme-m2-ssd-asus-geforce-dual-white-oc-12gb-rtx4070-oyun-bilgisayari-p-43796",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7500F",
-      "Motherboard": "Asus A620 Anakart",
-      "GPU": "Asus RTX 4070 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Masha Intel Core i5 13400 16GB 512GB NVMe M.2 SSD PowerColor Figther 16GB RX7900GRE Oyun Bilgisayarı",
-    "price": 36830,
-    "image": "https://static.sinerji.gen.tr/Images/MD/A3X-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-masha-intel-core-i5-13400-16gb-512gb-nvme-m2-ssd-powercolor-figther-16gb-rx7900gre-oyun-bilgisayari-p-43614",
-    "specs": {
-      "CPU": "AMD Ryzen 5 13400 ",
-      "Motherboard": "MSI H610 Anakart",
-      "GPU": "PowerColor RX7900GRE Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Xhooka Ryzen 5 7600 32GB 1TB NVMe M.2 SSD MSI GeForce Ventus 3X 12GB OC RTX4070 Super Oyun Bilgisayarı",
-    "price": 51384,
-    "image": "https://static.sinerji.gen.tr/Images/MD/SJF-59l-11-139-194-06.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-xhooka-ryzen-5-7600-32gb-1tb-nvme-m2-ssd-msi-geforce-ventus-3x-12gb-oc-rtx4070-super-oyun-bilgisayari-p-43388",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600 ",
-      "Motherboard": "MSI A620 Anakart",
-      "GPU": "MSI RTX 4070 Super Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Calypto Ryzen 7 8700F 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim White 16GB RTX4070Ti Super Oyun Bilgisayarı",
-    "price": 75678,
-    "image": "https://static.sinerji.gen.tr/Images/MD/S27-zze-44910.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-calypto-ryzen-7-8700f-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-white-16gb-rtx4070ti-super-oyun-bilgisayari-p-43355",
-    "specs": {
-      "CPU": "AMD Ryzen 7 8700F",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "MSI RTX 4070Ti Super Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Eien Ryzen 5 8400F 16GB 512GB NVMe M.2 SSD MSI Radeon Mech 2X 12GB V1 RX6750XT Oyun Bilgisayarı",
-    "price": 28381,
-    "image": "https://static.sinerji.gen.tr/Images/MD/PCH-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-eien-ryzen-5-8400f-16gb-512gb-nvme-m2-ssd-msi-radeon-mech-2x-12gb-v1-rx6750xt-oyun-bilgisayari-p-43210",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Motherboard": "MSI A620 Anakart",
-      "GPU": "MSI RX6750XT Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Aetan Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim 24GB RTX4090 Oyun Bilgisayarı",
-    "price": 149339,
-    "image": "https://static.sinerji.gen.tr/Images/MD/3KT-m8e-corsair-icue-7000x-rgb-tempered-glass-siyah-atx-full-tower-kasa-28.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-aetan-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-24gb-rtx4090-oyun-bilgisayari-p-43208",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X",
-      "Motherboard": "MSI X670 Anakart",
-      "GPU": "MSI RTX 4090 Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Wisp Intel Core i5 14400F 32GB 1TB NVMe M.2 SSD ASUS GeForce Dual White OC 12GB RTX4070 Oyun Bilgisayarı",
-    "price": 56256,
-    "image": "https://static.sinerji.gen.tr/Images/MD/MXH-9jq-indir-2.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-wisp-intel-core-i5-14400f-32gb-1tb-nvme-m2-ssd-asus-geforce-dual-white-oc-12gb-rtx4070-oyun-bilgisayari-p-43201",
-    "specs": {
-      "CPU": "Intel Core i5 14400F",
-      "Motherboard": "Asus B760 Anakart",
-      "GPU": "Asus RTX 4070 Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Baurus Ryzen 5 8400F 16GB 500GB NVMe M.2 SSD MSI GeForce Gaming X Slim White 12GB RTX4070 Super Oyun Bilgisayarı",
-    "price": 50452,
-    "image": "https://static.sinerji.gen.tr/Images/MD/5T8-qas-e3.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-baurus-ryzen-5-8400f-16gb-500gb-nvme-m2-ssd-msi-geforce-gaming-x-slim-white-12gb-rtx4070-super-oyun-bilgisayari-p-51400",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "Asus RTX 4070 Super Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Ryu Ryzen 5 7600 16GB 500GB NVMe M.2 SSD Gainward GeForce Ghost 12GB RTX4070 Super Oyun Bilgisayarı",
-    "price": 36999,
-    "image": "https://static.sinerji.gen.tr/Images/MD/BL6-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-ryu-ryzen-5-7600-16gb-500gb-nvme-m2-ssd-gainward-geforce-ghost-12gb-rtx4070-super-oyun-bilgisayari-p-51396",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600 ",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "Gainward GeForce RTX 4070 Super",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Virinom Ryzen 5 8400F 16GB 512GB NVMe M.2 SSD Palit GeForce Dual 12GB RTX4070 Super Oyun Bilgisayarı",
-    "price": 40362,
-    "image": "https://static.sinerji.gen.tr/Images/MD/5UE-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-virinom-ryzen-5-8400f-16gb-512gb-nvme-m2-ssd-palit-geforce-dual-12gb-rtx4070-super-oyun-bilgisayari-p-51395",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Motherboard": "MSI A620 Anakart",
-      "GPU": "Palit RTX 4070 Super Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Qinoks Ryzen 5 8400F 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 3X E 8GB RTX4060Ti Oyun Bilgisayarı",
-    "price": 32289,
-    "image": "https://static.sinerji.gen.tr/Images/MD/B5A-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-qinoks-ryzen-5-8400f-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-3x-e-8gb-rtx4060ti-oyun-bilgisayari-p-51381",
-    "specs": {
-      "Motherboard": "MSI A620 Anakart",
-      "GPU": "MSI RTX 4060Ti Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Koi Ryzen 7 7800X3D 16GB 1TB NVMe M.2 SSD Palit GeForce Dual 12GB RTX4070 Super Oyun Bilgisayarı",
-    "price": 70633,
-    "image": "https://static.sinerji.gen.tr/Images/MD/RS6-htp-110000466076709.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-koi-ryzen-7-7800x3d-16gb-1tb-nvme-m2-ssd-palit-geforce-dual-12gb-rtx4070-super-oyun-bilgisayari-p-51368",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "Palit RTX 4070 Super Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Eriana Ryzen 5 7600 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X E 12GB OC RTX4070 Oyun Bilgisayarı",
-    "price": 37278,
-    "image": "https://static.sinerji.gen.tr/Images/MD/FS4-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-eriana-ryzen-5-7600-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-e-12gb-oc-rtx4070-oyun-bilgisayari-p-51352",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600 ",
-      "Motherboard": "MSI A620 Anakart",
-      "GPU": "MSI RTX 4070 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Stonic Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Ventus 2X OC 12GB RTX4070 Super Oyun Bilgisayar",
-    "price": 63065,
-    "image": "https://static.sinerji.gen.tr/Images/MD/C6R-zz3-1024.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-stonic-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-ventus-2x-oc-12gb-rtx4070-super-oyun-bilgisayar-p-51336",
-    "specs": {
-      "GPU": "GeForce RTX 4070 Super Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Viserion Ryzen 5 7600 16GB 512GB NVMe M.2 SSD Gainward GeForce Panther 16GB RTX4060Ti Oyun Bilgisayarı",
-    "price": 32240,
-    "image": "https://static.sinerji.gen.tr/Images/MD/ALY-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-viserion-ryzen-5-7600-16gb-512gb-nvme-m2-ssd-gainward-geforce-panther-16gb-rtx4060ti-oyun-bilgisayari-p-51324",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600 ",
-      "Motherboard": "ASRock A620 Anakart",
-      "GPU": "Gainward RTX 4060Ti Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Virtus Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim White 16GB RTX4070Ti Super Oyun Bilgisayarı",
-    "price": 83751,
-    "image": "https://static.sinerji.gen.tr/Images/MD/TQX-k97-sd1.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-virtus-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-white-16gb-rtx4070ti-super-oyun-bilgisayari-p-51263",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "MSI RTX 4070 Super Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Riven Ryzen 7 7800X3D 16GB 1TB NVMe M.2 SSD MSI GeForce Ventus 3X OC 12GB RTX4070 Super Oyun Bilgisayarı",
-    "price": 53479,
-    "image": "https://static.sinerji.gen.tr/Images/MD/85P-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-riven-ryzen-7-7800x3d-16gb-1tb-nvme-m2-ssd-msi-geforce-ventus-3x-oc-12gb-rtx4070-super-oyun-bilgisayari-p-51210",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "MSI RTX 4070 Super Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Quadro V1 Intel Core i7 14700KF 32GB 1TB NVMe M.2 SSD PNY Quadro 8GB T1000 Ekran Kartı İş Bilgisayarı",
-    "price": 65886,
-    "image": "https://static.sinerji.gen.tr/Images/MD/7RF-3an-corsair-icue-5000x-rgb-tempered-glass-siyah-mid-tower-kasa-63.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-quadro-v1-intel-core-i7-14700kf-32gb-1tb-nvme-m2-ssd-pny-quadro-8gb-t1000-ekran-karti-is-bilgisayari-p-51173",
-    "specs": {},
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Brutus Ryzen 5 8400F 16GB 512GB NVMe M.2 SSD Gainward GeForce Python II 8GB RTX4060 Oyun Bilgisayarı",
-    "price": 25999,
-    "image": "https://static.sinerji.gen.tr/Images/MD/HXN-p4j-frisby-fc-9320g-midi-tower-kasa-1.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-brutus-ryzen-5-8400f-16gb-512gb-nvme-m2-ssd-gainward-geforce-python-ii-8gb-rtx4060-oyun-bilgisayari-p-51118",
-    "specs": {
-      "CPU": "AMD Ryzen 5 8400F",
-      "Motherboard": "MSI A620 Anakart",
-      "GPU": "Gainward RTX 4060 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Lynxcerezz Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim RTX4070Ti Super Oyun Bilgisayarı",
-    "price": 91227,
-    "image": "https://static.sinerji.gen.tr/Images/MD/F68-320r.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-lynxcerezz-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-rtx4070ti-super-oyun-bilgisayari-p-51060",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "MSI RTX 4070Ti Super Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Flawsless Ryzen 5 7600 16GB 512GB NVMe M.2 SSD Palit GeForce Dual 12GB RTX4070 Super Oyun Bilgisayarı",
-    "price": 41308,
-    "image": "https://static.sinerji.gen.tr/Images/MD/TCN-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-flawsless-ryzen-5-7600-16gb-512gb-nvme-m2-ssd-palit-geforce-dual-12gb-rtx4070-super-oyun-bilgisayari-p-51038",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600 ",
-      "Motherboard": "ASRock A620 Anakart",
-      "GPU": "Palit RTX 4070 Super Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Maverick Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD ASUS GeForce TUF Gaming OC 24GB RTX4090 Oyun Bilgisayarı",
-    "price": 138868,
-    "image": "https://static.sinerji.gen.tr/Images/MD/ZT4-5l3-tuf-gaming-gt502-0.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-maverick-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-asus-geforce-tuf-gaming-oc-24gb-rtx4090-oyun-bilgisayari-p-51032",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X",
-      "Motherboard": "Asus X670 Anakart",
-      "GPU": "Asus RTX 4090 Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Mjolnir Ryzen 5 7600 16GB 512GB NVMe M.2 SSD XFX Radeon Core Gaming 12GB RX6750XT Oyun Bilgsayarı",
-    "price": 28210,
-    "image": "https://static.sinerji.gen.tr/Images/MD/A6Z-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-mjolnir-ryzen-5-7600-16gb-512gb-nvme-m2-ssd-xfx-radeon-core-gaming-12gb-rx6750xt-oyun-bilgsayari-p-51031",
-    "specs": {
-      "Motherboard": "ASRock A620 Anakart",
-      "GPU": "XFX Radeon RX6750XT Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Vixen Ryzen 5 7600 16GB 1TB NVMe M.2 SSD Gigabyte WindForce 3X OC 12GB RTX4070 Super Oyun Bilgisayarı",
-    "price": 45338,
-    "image": "https://static.sinerji.gen.tr/Images/MD/B22-kl8-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-vixen-ryzen-5-7600-16gb-1tb-nvme-m2-ssd-gigabyte-windforce-3x-oc-12gb-rtx4070-super-oyun-bilgisayari-p-51007",
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600 ",
-      "Motherboard": "MSI A620 Anakart",
-      "GPU": "Gigabyte RTX 4070 Super Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Bjarlox Ryzen 5 5600 16GB 512GB NVMe M.2 SSD XFX Radeon Core Gaming 12GB RX6750XT Oyun Bilgisayarı",
-    "price": 24822,
-    "image": "https://static.sinerji.gen.tr/Images/MD/HAP-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-bjarlox-ryzen-5-5600-16gb-512gb-nvme-m2-ssd-xfx-radeon-core-gaming-12gb-rx6750xt-oyun-bilgisayari-p-50974",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600 ",
-      "Motherboard": "ASRock A520 Anakart",
-      "GPU": "AMD Radeon RX6750XT",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Unique Ryzen 5 5500 16GB 512GB NVMe M.2 SSD XFX Radeon Core Gaming 12GB RX6750XT Oyun Bilgisayarı",
-    "price": 23207,
-    "image": "https://static.sinerji.gen.tr/Images/MD/87Y-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-unique-ryzen-5-5500-16gb-512gb-nvme-m2-ssd-xfx-radeon-core-gaming-12gb-rx6750xt-oyun-bilgisayari-p-50973",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5500 ",
-      "Motherboard": "ASRock B450 Anakart",
-      "GPU": "XFX Radeon RX6750XT Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Glacier Ryzen 5 5600 16GB 512GB NVMe M.2 SSD Gainward GeForce Python II 8GB RTX4060 Oyun Bilgisayarı",
-    "price": 26799,
-    "image": "https://static.sinerji.gen.tr/Images/MD/XQZ-adsiz-1080-x-1920-piksel-778-x-1080-piksel-714-x-519-piksel-27.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-glacier-ryzen-5-5600-16gb-512gb-nvme-m2-ssd-gainward-geforce-python-ii-8gb-rtx4060-oyun-bilgisayari-p-50909",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600 ",
-      "Motherboard": "ASRock A520 Anakart",
-      "GPU": "Palit RTX 4060 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Wish Ryzen 5 5600 16GB 512GB NVMe M.2 SSD Palit GeForce JetStream 16GB RTX4060Ti Oyun Bilgisayarı",
-    "price": 28959,
-    "image": "https://static.sinerji.gen.tr/Images/MD/QXS-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-wish-ryzen-5-5600-16gb-512gb-nvme-m2-ssd-palit-geforce-jetstream-16gb-rtx4060ti-oyun-bilgisayari-p-50906",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600 ",
-      "Motherboard": "MSI A520 Anakart",
-      "GPU": "Palit RTX 4060Ti Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Midnight Ryzen 7 8700F 16GB 1TB NVMe M.2 SSD Gigabyte GeForce Gaming 12GB RTX4070Ti Oyun Bilgisayarı",
-    "price": 60542,
-    "image": "https://static.sinerji.gen.tr/Images/MD/PP5-8ea-s2.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-midnight-ryzen-7-8700f-16gb-1tb-nvme-m2-ssd-gigabyte-geforce-gaming-12gb-rtx4070ti-oyun-bilgisayari-p-50873",
-    "specs": {
-      "CPU": "AMD Ryzen 7 8700F",
-      "Motherboard": "Gigabyte A620 Anakart",
-      "GPU": "Gigabyte RTX 4070Ti Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Annual Ryzen 5 5500 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X OC 6GB RTX3050 Oyun Bilgisayarı",
-    "price": 18667,
-    "image": "https://static.sinerji.gen.tr/Images/MD/8M8-nza-1024.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-annual-ryzen-5-5500-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-oc-6gb-rtx3050-oyun-bilgisayari-p-50848",
-    "specs": {
-      "CPU": "AMD Ryzen 5 5500 ",
-      "Motherboard": "MSI B450 Anakart",
-      "GPU": "MSI RTX 3050 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Ataahi Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD PowerColor Radeon Figther 16GB RX7900GRE Oyun Bilgisayarı",
-    "price": 49442,
-    "image": "https://static.sinerji.gen.tr/Images/MD/T3Z-9xq-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-ataahi-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-powercolor-radeon-figther-16gb-rx7900gre-oyun-bilgisayari-p-50822",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X",
-      "Motherboard": "MSI B650 Anakart",
-      "GPU": "PowerColor RX7900GRE Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
+
   {
     "name": "Sinerji Lobo Ryzen 5 7600 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 3X E 8GB RTX4060Ti Oyun Bilgisayarı",
-    "price": 33248,
+    "price": 33695,
     "image": "https://static.sinerji.gen.tr/Images/MD/UZB-9xq-01.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-lobo-ryzen-5-7600-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-3x-e-8gb-rtx4060ti-oyun-bilgisayari-p-51797",
     "specs": {
@@ -924,7 +14,7 @@
   },
   {
     "name": "Sinerji VOK Trooper V3 Ryzen 7 7800X3D 16GB 1TB NVMe M.2 SSD MSI GeForce Ventus 2X OC 12GB RTX4070 Super Oyun Bilgisayarı",
-    "price": 49947,
+    "price": 50619,
     "image": "https://static.sinerji.gen.tr/Images/MD/1BL-9xq-01.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-vok-trooper-v3-ryzen-7-7800x3d-16gb-1tb-nvme-m2-ssd-msi-geforce-ventus-2x-oc-12gb-rtx4070-super-oyun-bilgisayari-p-51744",
     "specs": {
@@ -937,7 +27,7 @@
   },
   {
     "name": "Sinerji Abyss Ryzen 5 5600 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 3X E 8GB RTX4060Ti Oyun Bilgisayarı",
-    "price": 28888,
+    "price": 29277,
     "image": "https://static.sinerji.gen.tr/Images/MD/GJR-9xq-01.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-abyss-ryzen-5-5600-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-3x-e-8gb-rtx4060ti-oyun-bilgisayari-p-51630",
     "specs": {
@@ -950,7 +40,7 @@
   },
   {
     "name": "Sinerji Breaker Intel Core i5 12400F 16GB 512GB NVMe M.2 SSD Gainward GeForce Python II 8GB RTX4060 Oyun Bilgisayarı",
-    "price": 22499,
+    "price": 22802,
     "image": "https://static.sinerji.gen.tr/Images/MD/KLG-p4j-frisby-fc-9320g-midi-tower-kasa-1.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-breaker-intel-core-i5-12400f-16gb-512gb-nvme-m2-ssd-gainward-geforce-python-ii-8gb-rtx4060-oyun-bilgisayari-p-51603",
     "specs": {
@@ -963,7 +53,7 @@
   },
   {
     "name": "Sinerji Pro V13 Intel i5 12400 8GB 512GB NVMe M.2 SSD İş Bilgisayarı",
-    "price": 10578,
+    "price": 10721,
     "image": "https://static.sinerji.gen.tr/Images/MD/5ZM-6nt-613791.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-pro-v13-intel-i5-12400-8gb-512gb-nvme-m2-ssd-is-bilgisayari-p-51588",
     "specs": {
@@ -973,7 +63,7 @@
   },
   {
     "name": "Sinerji Enion Intel Core i7 14700K 32GB 1TB NVMe M.2 SSD MSI GeForce Ventus 3X OC RTX4070 Super Oyun Bilgisayarı",
-    "price": 66393,
+    "price": 67286,
     "image": "https://static.sinerji.gen.tr/Images/MD/D3J-6ht-ekran-goruntusu-2024-03-04-153030.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-enion-intel-core-i7-14700k-32gb-1tb-nvme-m2-ssd-msi-geforce-ventus-3x-oc-rtx4070-super-oyun-bilgisayari-p-51576",
     "specs": {
@@ -986,7 +76,7 @@
   },
   {
     "name": "Sinerji Raum Intel Core i7 14700K 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Trio 16GB RTX4080 Super Oyun Bilgisayarı",
-    "price": 96295,
+    "price": 97590,
     "image": "https://static.sinerji.gen.tr/Images/MD/1MJ-tu9-mb520b12-image.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-raum-intel-core-i7-14700k-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-trio-16gb-rtx4080-super-oyun-bilgisayari-p-51574",
     "specs": {
@@ -999,7 +89,7 @@
   },
   {
     "name": "Sinerji Jamadar Ryzen 5 8400F 16GB 1TB NVMe M.2 SSD MSI GeForce Ventus 2X E 12GB OC RTX4070 Oyun Bilgisayarı",
-    "price": 43086,
+    "price": 43666,
     "image": "https://static.sinerji.gen.tr/Images/MD/4B4-zz3-1024.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-jamadar-ryzen-5-8400f-16gb-1tb-nvme-m2-ssd-msi-geforce-ventus-2x-e-12gb-oc-rtx4070-oyun-bilgisayari-p-51573",
     "specs": {
@@ -1012,7 +102,7 @@
   },
   {
     "name": "Sinerji Gloria Intel Core i5 13400F 16GB 1TB NVMe M.2 SSD MSI GeForce Ventus 2X E 12GB OC RTX4070 Oyun Bilgisayarı",
-    "price": 39857,
+    "price": 40393,
     "image": "https://static.sinerji.gen.tr/Images/MD/MEX-9xq-01.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-gloria-intel-core-i5-13400f-16gb-1tb-nvme-m2-ssd-msi-geforce-ventus-2x-e-12gb-oc-rtx4070-oyun-bilgisayari-p-51570",
     "specs": {
@@ -1025,7 +115,7 @@
   },
   {
     "name": "Sinerji Pro V12 Intel Core i5 13400 32GB 1TB NVMe M.2 SSD İş Bilgisayarı",
-    "price": 15818,
+    "price": 16030,
     "image": "https://static.sinerji.gen.tr/Images/MD/K9H-6nt-613791.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-pro-v12-intel-core-i5-13400-32gb-1tb-nvme-m2-ssd-is-bilgisayari-p-51555",
     "specs": {
@@ -1035,7 +125,7 @@
   },
   {
     "name": "Sinerji Pro V10 Intel Core i5 12400 32GB 1TB NVMe M.2 SSD İş Bilgisayarı",
-    "price": 13601,
+    "price": 13784,
     "image": "https://static.sinerji.gen.tr/Images/MD/CSU-6nt-613791.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-pro-v10-intel-core-i5-12400-32gb-1tb-nvme-m2-ssd-is-bilgisayari-p-51552",
     "specs": {
@@ -1044,18 +134,8 @@
     "store": "sinerji"
   },
   {
-    "name": "Sinerji Pro V9 Intel Core i7 14700K 32GB 1TB NVMe M.2 SSD İş Bilgisayarı",
-    "price": 33298,
-    "image": "https://static.sinerji.gen.tr/Images/MD/EAH-ns3-1024-5.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-pro-v9-intel-core-i7-14700k-32gb-1tb-nvme-m2-ssd-is-bilgisayari-p-51550",
-    "specs": {
-      "CPU": "Intel Core i7 14700K"
-    },
-    "store": "sinerji"
-  },
-  {
     "name": "Sinerji Pro V8 Intel Core i7 13700 32GB 1TB NVMe M.2 SSD İş Bilgisayarı",
-    "price": 22999,
+    "price": 23309,
     "image": "https://static.sinerji.gen.tr/Images/MD/C8S-k6c-screenshot5.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-pro-v8-intel-core-i7-13700-32gb-1tb-nvme-m2-ssd-is-bilgisayari-p-51549",
     "specs": {
@@ -1065,7 +145,7 @@
   },
   {
     "name": "Sinerji Pro V7 Intel Core i7 13700K 32GB 1TB NVMe M.2 SSD İş Bilgisayarı",
-    "price": 30271,
+    "price": 30678,
     "image": "https://static.sinerji.gen.tr/Images/MD/YLY-k6c-screenshot5.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-pro-v7-intel-core-i7-13700k-32gb-1tb-nvme-m2-ssd-is-bilgisayari-p-51546",
     "specs": {
@@ -1075,7 +155,7 @@
   },
   {
     "name": "Sinerji Back-Connect Intel Core i5 14600K 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X Black OC 8GB RTX4060Ti Oyun Bilgisayarı",
-    "price": 55497,
+    "price": 56244,
     "image": "https://static.sinerji.gen.tr/Images/MD/27T-tu9-mb520b12-image.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-back-connect-intel-core-i5-14600k-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-black-oc-8gb-rtx4060ti-oyun-bilgisayari-p-51542",
     "specs": {
@@ -1088,7 +168,7 @@
   },
   {
     "name": "Sinerji Whisper Ryzen 5 8400F 16GB 1TB NVMe M.2 SSD MSI GeForce Ventus 2X OC RTX4070 Super Oyun Bilgisayarı",
-    "price": 49443,
+    "price": 50108,
     "image": "https://static.sinerji.gen.tr/Images/MD/1PS-ael-61ezdy5vs-lacsl1001.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-whisper-ryzen-5-8400f-16gb-1tb-nvme-m2-ssd-msi-geforce-ventus-2x-oc-rtx4070-super-oyun-bilgisayari-p-51539",
     "specs": {
@@ -1101,7 +181,7 @@
   },
   {
     "name": "Sinerji Mirage Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD ASUS GeForce TUF Gaming OC 24GB RTX4090 Oyun Bilgisayarı",
-    "price": 138239,
+    "price": 140099,
     "image": "https://static.sinerji.gen.tr/Images/MD/PFR-ge2-ekran-goruntusu-2024-05-08-140126.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-mirage-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-asus-geforce-tuf-gaming-oc-24gb-rtx4090-oyun-bilgisayari-p-51536",
     "specs": {
@@ -1114,7 +194,7 @@
   },
   {
     "name": "Sinerji Shard Intel Core i9 14900KF 32GB 1TB NVMe M.2 SSD MSI GeForce Ventus 3X OC 24GB RTX4090 Oyun Bilgisayarı",
-    "price": 156402,
+    "price": 158506,
     "image": "https://static.sinerji.gen.tr/Images/MD/EL6-3an-corsair-icue-5000x-rgb-tempered-glass-siyah-mid-tower-kasa-63.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-shard-intel-core-i9-14900kf-32gb-1tb-nvme-m2-ssd-msi-geforce-ventus-3x-oc-24gb-rtx4090-oyun-bilgisayari-p-51534",
     "specs": {
@@ -1127,7 +207,7 @@
   },
   {
     "name": "Sinerji Cleaver Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim 24GB RTX4090 Oyun Bilgisayarı",
-    "price": 151357,
+    "price": 153393,
     "image": "https://static.sinerji.gen.tr/Images/MD/SR1-ge2-ekran-goruntusu-2024-05-08-140126.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-cleaver-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-24gb-rtx4090-oyun-bilgisayari-p-51532",
     "specs": {
@@ -1140,7 +220,7 @@
   },
   {
     "name": "Sinerji Zote Ryzen 5 8400F 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 3X E 8GB RTX4060Ti Oyun Bilgsayarı",
-    "price": 38343,
+    "price": 38859,
     "image": "https://static.sinerji.gen.tr/Images/MD/LH8-k6c-screenshot5.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-zote-ryzen-5-8400f-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-3x-e-8gb-rtx4060ti-oyun-bilgsayari-p-51492",
     "specs": {
@@ -1153,7 +233,7 @@
   },
   {
     "name": "Sinerji Rigel Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim 24GB RTX4090 Oyun Bilgisayarı",
-    "price": 141909,
+    "price": 143818,
     "image": "https://static.sinerji.gen.tr/Images/MD/5B2-73q-11-146-348-01-2.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-rigel-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-24gb-rtx4090-oyun-bilgisayari-p-51471",
     "specs": {
@@ -1166,7 +246,7 @@
   },
   {
     "name": "Sinerji Sirius Ryzen 7 7800X3D 64GB 2TB NVMe M.2 SSD ASUS GeForce ROG Strix White OC 24GB RTX4090 Oyun Bilgisayarı",
-    "price": 171538,
+    "price": 173846,
     "image": "https://static.sinerji.gen.tr/Images/MD/7E4-h83-61eb5534e35ce8af07f25ff28197862b1600.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-sirius-ryzen-7-7800x3d-64gb-2tb-nvme-m2-ssd-asus-geforce-rog-strix-white-oc-24gb-rtx4090-oyun-bilgisayari-p-51468",
     "specs": {
@@ -1178,21 +258,8 @@
     "store": "sinerji"
   },
   {
-    "name": "Sinerji Duke Ryzen 5 5700X 16GB 512GB NVMe M.2 SSD Gainward GeForce Python II 8GB RTX4060 Oyun Bilgisayarı",
-    "price": 26999,
-    "image": "https://static.sinerji.gen.tr/Images/MD/EFQ-kl8-01.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-duke-ryzen-5-5700x-16gb-512gb-nvme-m2-ssd-gainward-geforce-python-ii-8gb-rtx4060-oyun-bilgisayari-p-51435",
-    "specs": {
-      "CPU": "AMD Ryzen 7 5700X",
-      "Motherboard": "MSI A520 Anakart",
-      "GPU": "Gainward RTX 4060 Ekran Kartı",
-      "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
     "name": "Sinerji Animus Ryzen 7 8700F 32GB 1TB NVMe M.2 SSD MSI GeForce Ventus 2X OC 12GB RTX4070 Super Oyun Bilgisayarı",
-    "price": 52709,
+    "price": 53418,
     "image": "https://static.sinerji.gen.tr/Images/MD/S25-qas-e3.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-animus-ryzen-7-8700f-32gb-1tb-nvme-m2-ssd-msi-geforce-ventus-2x-oc-12gb-rtx4070-super-oyun-bilgisayari-p-51431",
     "specs": {
@@ -1200,6 +267,1006 @@
       "Motherboard": "MSI B650 Anakart",
       "GPU": "MSI RTX 4070 Super Ekran Kartı",
       "Ram": "32GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Baurus Ryzen 5 8400F 16GB 500GB NVMe M.2 SSD MSI GeForce Gaming X Slim White 12GB RTX4070 Super Oyun Bilgisayarı",
+    "price": 51131,
+    "image": "https://static.sinerji.gen.tr/Images/MD/5T8-qas-e3.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-baurus-ryzen-5-8400f-16gb-500gb-nvme-m2-ssd-msi-geforce-gaming-x-slim-white-12gb-rtx4070-super-oyun-bilgisayari-p-51400",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "Asus RTX 4070 Super Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Ryu Ryzen 5 7600 16GB 500GB NVMe M.2 SSD Gainward GeForce Ghost 12GB RTX4070 Super Oyun Bilgisayarı",
+    "price": 38500,
+    "image": "https://static.sinerji.gen.tr/Images/MD/BL6-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-ryu-ryzen-5-7600-16gb-500gb-nvme-m2-ssd-gainward-geforce-ghost-12gb-rtx4070-super-oyun-bilgisayari-p-51396",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600 ",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "Gainward GeForce RTX 4070 Super",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Virinom Ryzen 5 8400F 16GB 512GB NVMe M.2 SSD Palit GeForce Dual 12GB RTX4070 Super Oyun Bilgisayarı",
+    "price": 40905,
+    "image": "https://static.sinerji.gen.tr/Images/MD/5UE-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-virinom-ryzen-5-8400f-16gb-512gb-nvme-m2-ssd-palit-geforce-dual-12gb-rtx4070-super-oyun-bilgisayari-p-51395",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Motherboard": "MSI A620 Anakart",
+      "GPU": "Palit RTX 4070 Super Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Qinoks Ryzen 5 8400F 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 3X E 8GB RTX4060Ti Oyun Bilgisayarı",
+    "price": 32723,
+    "image": "https://static.sinerji.gen.tr/Images/MD/B5A-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-qinoks-ryzen-5-8400f-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-3x-e-8gb-rtx4060ti-oyun-bilgisayari-p-51381",
+    "specs": {
+      "Motherboard": "MSI A620 Anakart",
+      "GPU": "MSI RTX 4060Ti Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Koi Ryzen 7 7800X3D 16GB 1TB NVMe M.2 SSD Palit GeForce Dual 12GB RTX4070 Super Oyun Bilgisayarı",
+    "price": 71583,
+    "image": "https://static.sinerji.gen.tr/Images/MD/RS6-htp-110000466076709.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-koi-ryzen-7-7800x3d-16gb-1tb-nvme-m2-ssd-palit-geforce-dual-12gb-rtx4070-super-oyun-bilgisayari-p-51368",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "Palit RTX 4070 Super Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Eriana Ryzen 5 7600 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X E 12GB OC RTX4070 Oyun Bilgisayarı",
+    "price": 37780,
+    "image": "https://static.sinerji.gen.tr/Images/MD/FS4-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-eriana-ryzen-5-7600-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-e-12gb-oc-rtx4070-oyun-bilgisayari-p-51352",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600 ",
+      "Motherboard": "MSI A620 Anakart",
+      "GPU": "MSI RTX 4070 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Stonic Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Ventus 2X OC 12GB RTX4070 Super Oyun Bilgisayar",
+    "price": 63914,
+    "image": "https://static.sinerji.gen.tr/Images/MD/C6R-zz3-1024.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-stonic-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-ventus-2x-oc-12gb-rtx4070-super-oyun-bilgisayar-p-51336",
+    "specs": {
+      "GPU": "GeForce RTX 4070 Super Ekran Kartı",
+      "Ram": "32GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Viserion Ryzen 5 7600 16GB 512GB NVMe M.2 SSD Gainward GeForce Panther 16GB RTX4060Ti Oyun Bilgisayarı",
+    "price": 32674,
+    "image": "https://static.sinerji.gen.tr/Images/MD/ALY-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-viserion-ryzen-5-7600-16gb-512gb-nvme-m2-ssd-gainward-geforce-panther-16gb-rtx4060ti-oyun-bilgisayari-p-51324",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600 ",
+      "Motherboard": "ASRock A620 Anakart",
+      "GPU": "Gainward RTX 4060Ti Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Virtus Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim White 16GB RTX4070Ti Super Oyun Bilgisayarı",
+    "price": 84877,
+    "image": "https://static.sinerji.gen.tr/Images/MD/TQX-k97-sd1.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-virtus-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-white-16gb-rtx4070ti-super-oyun-bilgisayari-p-51263",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "MSI RTX 4070 Super Ekran Kartı",
+      "Ram": "32GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Riven Ryzen 7 7800X3D 16GB 1TB NVMe M.2 SSD MSI GeForce Ventus 3X OC 12GB RTX4070 Super Oyun Bilgisayarı",
+    "price": 54198,
+    "image": "https://static.sinerji.gen.tr/Images/MD/85P-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-riven-ryzen-7-7800x3d-16gb-1tb-nvme-m2-ssd-msi-geforce-ventus-3x-oc-12gb-rtx4070-super-oyun-bilgisayari-p-51210",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "MSI RTX 4070 Super Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Quadro V1 Intel Core i7 14700KF 32GB 1TB NVMe M.2 SSD PNY Quadro 8GB T1000 Ekran Kartı İş Bilgisayarı",
+    "price": 66772,
+    "image": "https://static.sinerji.gen.tr/Images/MD/7RF-3an-corsair-icue-5000x-rgb-tempered-glass-siyah-mid-tower-kasa-63.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-quadro-v1-intel-core-i7-14700kf-32gb-1tb-nvme-m2-ssd-pny-quadro-8gb-t1000-ekran-karti-is-bilgisayari-p-51173",
+    "specs": {
+
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Brutus Ryzen 5 8400F 16GB 512GB NVMe M.2 SSD Gainward GeForce Python II 8GB RTX4060 Oyun Bilgisayarı",
+    "price": 26349,
+    "image": "https://static.sinerji.gen.tr/Images/MD/HXN-p4j-frisby-fc-9320g-midi-tower-kasa-1.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-brutus-ryzen-5-8400f-16gb-512gb-nvme-m2-ssd-gainward-geforce-python-ii-8gb-rtx4060-oyun-bilgisayari-p-51118",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Motherboard": "MSI A620 Anakart",
+      "GPU": "Gainward RTX 4060 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Lynxcerezz Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim RTX4070Ti Super Oyun Bilgisayarı",
+    "price": 92454,
+    "image": "https://static.sinerji.gen.tr/Images/MD/F68-320r.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-lynxcerezz-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-rtx4070ti-super-oyun-bilgisayari-p-51060",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "MSI RTX 4070Ti Super Ekran Kartı",
+      "Ram": "32GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Flawsless Ryzen 5 7600 16GB 512GB NVMe M.2 SSD Palit GeForce Dual 12GB RTX4070 Super Oyun Bilgisayarı",
+    "price": 41864,
+    "image": "https://static.sinerji.gen.tr/Images/MD/TCN-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-flawsless-ryzen-5-7600-16gb-512gb-nvme-m2-ssd-palit-geforce-dual-12gb-rtx4070-super-oyun-bilgisayari-p-51038",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600 ",
+      "Motherboard": "ASRock A620 Anakart",
+      "GPU": "Palit RTX 4070 Super Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Maverick Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD ASUS GeForce TUF Gaming OC 24GB RTX4090 Oyun Bilgisayarı",
+    "price": 140736,
+    "image": "https://static.sinerji.gen.tr/Images/MD/ZT4-5l3-tuf-gaming-gt502-0.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-maverick-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-asus-geforce-tuf-gaming-oc-24gb-rtx4090-oyun-bilgisayari-p-51032",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X",
+      "Motherboard": "Asus X670 Anakart",
+      "GPU": "Asus RTX 4090 Ekran Kartı",
+      "Ram": "32GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Mjolnir Ryzen 5 7600 16GB 512GB NVMe M.2 SSD XFX Radeon Core Gaming 12GB RX6750XT Oyun Bilgsayarı",
+    "price": 28590,
+    "image": "https://static.sinerji.gen.tr/Images/MD/A6Z-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-mjolnir-ryzen-5-7600-16gb-512gb-nvme-m2-ssd-xfx-radeon-core-gaming-12gb-rx6750xt-oyun-bilgsayari-p-51031",
+    "specs": {
+      "Motherboard": "ASRock A620 Anakart",
+      "GPU": "XFX Radeon RX6750XT Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Vixen Ryzen 5 7600 16GB 1TB NVMe M.2 SSD Gigabyte WindForce 3X OC 12GB RTX4070 Super Oyun Bilgisayarı",
+    "price": 45948,
+    "image": "https://static.sinerji.gen.tr/Images/MD/B22-kl8-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-vixen-ryzen-5-7600-16gb-1tb-nvme-m2-ssd-gigabyte-windforce-3x-oc-12gb-rtx4070-super-oyun-bilgisayari-p-51007",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600 ",
+      "Motherboard": "MSI A620 Anakart",
+      "GPU": "Gigabyte RTX 4070 Super Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Bjarlox Ryzen 5 5600 16GB 512GB NVMe M.2 SSD XFX Radeon Core Gaming 12GB RX6750XT Oyun Bilgisayarı",
+    "price": 25156,
+    "image": "https://static.sinerji.gen.tr/Images/MD/HAP-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-bjarlox-ryzen-5-5600-16gb-512gb-nvme-m2-ssd-xfx-radeon-core-gaming-12gb-rx6750xt-oyun-bilgisayari-p-50974",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600 ",
+      "Motherboard": "ASRock A520 Anakart",
+      "GPU": "AMD Radeon RX6750XT",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Unique Ryzen 5 5500 16GB 512GB NVMe M.2 SSD XFX Radeon Core Gaming 12GB RX6750XT Oyun Bilgisayarı",
+    "price": 23520,
+    "image": "https://static.sinerji.gen.tr/Images/MD/87Y-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-unique-ryzen-5-5500-16gb-512gb-nvme-m2-ssd-xfx-radeon-core-gaming-12gb-rx6750xt-oyun-bilgisayari-p-50973",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5500 ",
+      "Motherboard": "ASRock B450 Anakart",
+      "GPU": "XFX Radeon RX6750XT Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Glacier Ryzen 5 5600 16GB 512GB NVMe M.2 SSD Gainward GeForce Python II 8GB RTX4060 Oyun Bilgisayarı",
+    "price": 27160,
+    "image": "https://static.sinerji.gen.tr/Images/MD/XQZ-adsiz-1080-x-1920-piksel-778-x-1080-piksel-714-x-519-piksel-27.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-glacier-ryzen-5-5600-16gb-512gb-nvme-m2-ssd-gainward-geforce-python-ii-8gb-rtx4060-oyun-bilgisayari-p-50909",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600 ",
+      "Motherboard": "ASRock A520 Anakart",
+      "GPU": "Palit RTX 4060 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Wish Ryzen 5 5600 16GB 512GB NVMe M.2 SSD Palit GeForce JetStream 16GB RTX4060Ti Oyun Bilgisayarı",
+    "price": 29349,
+    "image": "https://static.sinerji.gen.tr/Images/MD/QXS-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-wish-ryzen-5-5600-16gb-512gb-nvme-m2-ssd-palit-geforce-jetstream-16gb-rtx4060ti-oyun-bilgisayari-p-50906",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600 ",
+      "Motherboard": "MSI A520 Anakart",
+      "GPU": "Palit RTX 4060Ti Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Midnight Ryzen 7 8700F 16GB 1TB NVMe M.2 SSD Gigabyte GeForce Gaming 12GB RTX4070Ti Oyun Bilgisayarı",
+    "price": 61357,
+    "image": "https://static.sinerji.gen.tr/Images/MD/PP5-8ea-s2.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-midnight-ryzen-7-8700f-16gb-1tb-nvme-m2-ssd-gigabyte-geforce-gaming-12gb-rtx4070ti-oyun-bilgisayari-p-50873",
+    "specs": {
+      "CPU": "AMD Ryzen 7 8700F",
+      "Motherboard": "Gigabyte A620 Anakart",
+      "GPU": "Gigabyte RTX 4070Ti Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Annual Ryzen 5 5500 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X OC 6GB RTX3050 Oyun Bilgisayarı",
+    "price": 18918,
+    "image": "https://static.sinerji.gen.tr/Images/MD/8M8-nza-1024.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-annual-ryzen-5-5500-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-oc-6gb-rtx3050-oyun-bilgisayari-p-50848",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5500 ",
+      "Motherboard": "MSI B450 Anakart",
+      "GPU": "MSI RTX 3050 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Ataahi Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD PowerColor Radeon Figther 16GB RX7900GRE Oyun Bilgisayarı",
+    "price": 50108,
+    "image": "https://static.sinerji.gen.tr/Images/MD/T3Z-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-ataahi-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-powercolor-radeon-figther-16gb-rx7900gre-oyun-bilgisayari-p-50822",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "PowerColor RX7900GRE Ekran Kartı",
+      "Ram": "32GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Prometheus Ryzen 7 7800X3D 16GB 1TB NVMe M.2 SSD Gainward GeForce Ghost 12GB RTX4070 Super Oyun Bilgisayarı",
+    "price": 49085,
+    "image": "https://static.sinerji.gen.tr/Images/MD/JYT-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-prometheus-ryzen-7-7800x3d-16gb-1tb-nvme-m2-ssd-gainward-geforce-ghost-12gb-rtx4070-super-oyun-bilgisayari-p-50813",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "Gainward GeForce RTX 4070 Super",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji ColdTouch Intel Core i5 14400F 16GB 1TB NVMe M.2 SSD ASUS GeForce ProArt OC 12GB RTX4070 Oyun Bilgisayarı",
+    "price": 54198,
+    "image": "https://static.sinerji.gen.tr/Images/MD/49E-9jq-indir-2.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-coldtouch-intel-core-i5-14400f-16gb-1tb-nvme-m2-ssd-asus-geforce-proart-oc-12gb-rtx4070-oyun-bilgisayari-p-50798",
+    "specs": {
+      "CPU": "Intel Core i5 14400F",
+      "Motherboard": "Asus B760 Anakart",
+      "GPU": "Asus RTX 4070 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Apex Ryzen 5 5500 16GB 512GB NVMe M.2 SSD Gainward GeForce Python II 8GB RTX4060 Oyun Bilgisayarı",
+    "price": 21282,
+    "image": "https://static.sinerji.gen.tr/Images/MD/1D8-p4j-frisby-fc-9320g-midi-tower-kasa-1.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-apex-ryzen-5-5500-16gb-512gb-nvme-m2-ssd-gainward-geforce-python-ii-8gb-rtx4060-oyun-bilgisayari-p-50785",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5500 ",
+      "Motherboard": "ASRock B450 Anakart",
+      "GPU": "Palit RTX 4060 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Lupus Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Ventus 3X OC 16GB RTX4070Ti Super Oyun Bilgisayar",
+    "price": 81810,
+    "image": "https://static.sinerji.gen.tr/Images/MD/5H4-nmm-11-139-206-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-lupus-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-ventus-3x-oc-16gb-rtx4070ti-super-oyun-bilgisayar-p-50714",
+    "specs": {
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "MSI RTX 4070Ti Super Ekran Kartı",
+      "Ram": "32GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Etazhi Ryzen 5 5600 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2x Black OC 8GB RTX4060Ti Oyun Bilgisayarı",
+    "price": 28763,
+    "image": "https://static.sinerji.gen.tr/Images/MD/5D2-nza-1024.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-etazhi-ryzen-5-5600-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-black-oc-8gb-rtx4060ti-oyun-bilgisayari-p-50696",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600 ",
+      "Motherboard": "MSI B450 Anakart",
+      "GPU": "MSI RTX 4060Ti Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Jarvis Ryzen 5 7500F 16GB 1TB NVMe M.2 SSD ASUS Radeon TUF Gaming OC 12GB RX7700XT Oyun Bilgisayarı",
+    "price": 42885,
+    "image": "https://static.sinerji.gen.tr/Images/MD/5HL-6ht-ekran-goruntusu-2024-03-04-153030.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-jarvis-ryzen-5-7500f-16gb-1tb-nvme-m2-ssd-asus-radeon-tuf-gaming-oc-12gb-rx7700xt-oyun-bilgisayari-p-49851",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Motherboard": "Asus A620 Anakart",
+      "GPU": "Asus RX7700XT Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Saraxy Ryzen 5 5500 16GB 512GB NVMe M.2 SSD MSI GeForce RTX 3060 Ventus 2X OC 8GB Oyun Bilgisayarı",
+    "price": 21058,
+    "image": "https://static.sinerji.gen.tr/Images/MD/B5N-nza-1024.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-saraxy-ryzen-5-5500-16gb-512gb-nvme-m2-ssd-msi-geforce-rtx-3060-ventus-2x-oc-8gb-oyun-bilgisayari-p-47597",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5500 ",
+      "Motherboard": "MSI B450 Anakart",
+      "GPU": "MSI RTX 3060 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Ronark Ryzen 5 8400F 16GB 1TB NVMe M.2 SSD Gigabyte GeForce Windforce 3X OC 12GB RTX4070 Super Oyun Bilgisayarı",
+    "price": 44686,
+    "image": "https://static.sinerji.gen.tr/Images/MD/1E2-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-ronark-ryzen-5-8400f-16gb-1tb-nvme-m2-ssd-gigabyte-geforce-windforce-3x-oc-12gb-rtx4070-super-oyun-bilgisayari-p-47582",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Motherboard": "MSI A620 Anakart",
+      "GPU": "Gigabyte RTX 4070 Super Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Desmarias Ryzen 5 8400F 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X OC 12GB RTX4070 Super Oyun Bilgisayarı",
+    "price": 42118,
+    "image": "https://static.sinerji.gen.tr/Images/MD/1Y6-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-desmarias-ryzen-5-8400f-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-oc-12gb-rtx4070-super-oyun-bilgisayari-p-46202",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Motherboard": "MSI A620 Anakart",
+      "GPU": "MSI RTX 4070 Super Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Pro V5 Intel Core i7 13700 16GB 512GB NVMe M.2 SSD İş Bilgisayarı",
+    "price": 20268,
+    "image": "https://static.sinerji.gen.tr/Images/MD/CHG-6nt-613791.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-pro-v5-intel-core-i7-13700-16gb-512gb-nvme-m2-ssd-is-bilgisayari-p-45857",
+    "specs": {
+      "CPU": "Intel Core i7 13700 "
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji İsilion Ryzen 5 5600 16GB 500GB NVMe M.2 SSD MSI Radeon Mech 2X 12GB V1 RX6750XT Oyun Bilgisayarı",
+    "price": 25681,
+    "image": "https://static.sinerji.gen.tr/Images/MD/Y87-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-isilion-ryzen-5-5600-16gb-500gb-nvme-m2-ssd-msi-radeon-mech-2x-12gb-v1-rx6750xt-oyun-bilgisayari-p-43967",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600 ",
+      "Motherboard": "MSI B450 Anakart",
+      "GPU": "MSI RX6750XT Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Pycton AMD Ryzen 5 7600 16GB 500GB NVMe M.2 SSD Gainward GeForce RTX 4070 Super Ghost 12GB Oyun Bilgisayarı",
+    "price": 40332,
+    "image": "https://static.sinerji.gen.tr/Images/MD/H7J-kl8-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-pycton-amd-ryzen-5-7600-16gb-500gb-nvme-m2-ssd-gainward-geforce-rtx-4070-super-ghost-12gb-oyun-bilgisayari-p-43947",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600 ",
+      "Motherboard": "Asus A620 Anakart",
+      "GPU": "Gainward GeForce RTX 4070 Super",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Zeit Ryzen 5 5600 16GB 512GB NVMe M.2 SSD Gainward GeForce Python II 8GB RTX4060 Oyun Bilgisayarı",
+    "price": 22295,
+    "image": "https://static.sinerji.gen.tr/Images/MD/ZDU-p4j-frisby-fc-9320g-midi-tower-kasa-1.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-zeit-ryzen-5-5600-16gb-512gb-nvme-m2-ssd-gainward-geforce-python-ii-8gb-rtx4060-oyun-bilgisayari-p-43921",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600 ",
+      "Motherboard": "MSI A520 Anakart",
+      "GPU": "Gainward RTX 4060 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Zonixs Intel Core i5 13400F 16GB 1TB NVMe M.2 SSD ASUS GeForce Dual White OC 12GB RTX4070 Oyun Bilgisayarı",
+    "price": 44995,
+    "image": "https://static.sinerji.gen.tr/Images/MD/ZJJ-d76-59l-11-139-194-06.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-zonixs-intel-core-i5-13400f-16gb-1tb-nvme-m2-ssd-asus-geforce-dual-white-oc-12gb-rtx4070-oyun-bilgisayari-p-43920",
+    "specs": {
+      "CPU": "Intel Core i5 13400F",
+      "Motherboard": "Asus H610 Anakart",
+      "GPU": "Asus RTX 4070 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Fade Ryzen 5 5500 16GB 500GB NVMe M.2 SSD MSI GeForce Gaming X 8GB RTX4060 Oyun Bilgisayarı",
+    "price": 24654,
+    "image": "https://static.sinerji.gen.tr/Images/MD/94F-nza-1024.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-fade-ryzen-5-5500-16gb-500gb-nvme-m2-ssd-msi-geforce-gaming-x-8gb-rtx4060-oyun-bilgisayari-p-43804",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5500 ",
+      "Motherboard": "MSI B450 Anakart",
+      "GPU": "MSI RTX 4060 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Tykie Ryzen 5 7500F 16GB 500GB NVMe M.2 SSD ASUS GeForce Dual White OC 12GB RTX4070 Oyun Bilgisayarı",
+    "price": 45553,
+    "image": "https://static.sinerji.gen.tr/Images/MD/XX6-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-tykie-ryzen-5-7500f-16gb-500gb-nvme-m2-ssd-asus-geforce-dual-white-oc-12gb-rtx4070-oyun-bilgisayari-p-43796",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Motherboard": "Asus A620 Anakart",
+      "GPU": "Asus RTX 4070 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Masha Intel Core i5 13400 16GB 512GB NVMe M.2 SSD PowerColor Figther 16GB RX7900GRE Oyun Bilgisayarı",
+    "price": 37325,
+    "image": "https://static.sinerji.gen.tr/Images/MD/A3X-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-masha-intel-core-i5-13400-16gb-512gb-nvme-m2-ssd-powercolor-figther-16gb-rx7900gre-oyun-bilgisayari-p-43614",
+    "specs": {
+      "CPU": "AMD Ryzen 5 13400 ",
+      "Motherboard": "MSI H610 Anakart",
+      "GPU": "PowerColor RX7900GRE Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Xhooka Ryzen 5 7600 32GB 1TB NVMe M.2 SSD MSI GeForce Ventus 3X 12GB OC RTX4070 Super Oyun Bilgisayarı",
+    "price": 52075,
+    "image": "https://static.sinerji.gen.tr/Images/MD/SJF-59l-11-139-194-06.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-xhooka-ryzen-5-7600-32gb-1tb-nvme-m2-ssd-msi-geforce-ventus-3x-12gb-oc-rtx4070-super-oyun-bilgisayari-p-43388",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600 ",
+      "Motherboard": "MSI A620 Anakart",
+      "GPU": "MSI RTX 4070 Super Ekran Kartı",
+      "Ram": "32GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Calypto Ryzen 7 8700F 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim White 16GB RTX4070Ti Super Oyun Bilgisayarı",
+    "price": 76696,
+    "image": "https://static.sinerji.gen.tr/Images/MD/S27-zze-44910.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-calypto-ryzen-7-8700f-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-white-16gb-rtx4070ti-super-oyun-bilgisayari-p-43355",
+    "specs": {
+      "CPU": "AMD Ryzen 7 8700F",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "MSI RTX 4070Ti Super Ekran Kartı",
+      "Ram": "32GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Eien Ryzen 5 8400F 16GB 512GB NVMe M.2 SSD MSI Radeon Mech 2X 12GB V1 RX6750XT Oyun Bilgisayarı",
+    "price": 28763,
+    "image": "https://static.sinerji.gen.tr/Images/MD/PCH-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-eien-ryzen-5-8400f-16gb-512gb-nvme-m2-ssd-msi-radeon-mech-2x-12gb-v1-rx6750xt-oyun-bilgisayari-p-43210",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Motherboard": "MSI A620 Anakart",
+      "GPU": "MSI RX6750XT Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Aetan Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim 24GB RTX4090 Oyun Bilgisayarı",
+    "price": 151348,
+    "image": "https://static.sinerji.gen.tr/Images/MD/3KT-m8e-corsair-icue-7000x-rgb-tempered-glass-siyah-atx-full-tower-kasa-28.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-aetan-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-24gb-rtx4090-oyun-bilgisayari-p-43208",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X",
+      "Motherboard": "MSI X670 Anakart",
+      "GPU": "MSI RTX 4090 Ekran Kartı",
+      "Ram": "32GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Wisp Intel Core i5 14400F 32GB 1TB NVMe M.2 SSD ASUS GeForce Dual White OC 12GB RTX4070 Oyun Bilgisayarı",
+    "price": 57013,
+    "image": "https://static.sinerji.gen.tr/Images/MD/MXH-9jq-indir-2.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-wisp-intel-core-i5-14400f-32gb-1tb-nvme-m2-ssd-asus-geforce-dual-white-oc-12gb-rtx4070-oyun-bilgisayari-p-43201",
+    "specs": {
+      "CPU": "Intel Core i5 14400F",
+      "Motherboard": "Asus B760 Anakart",
+      "GPU": "Asus RTX 4070 Ekran Kartı",
+      "Ram": "32GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Giga Intel Core i5 13400 16GB 512GB NVMe M.2 SSD Gainward GeForce Python II 8GB RTX4060 Oyun Bilgisayarı",
+    "price": 25842,
+    "image": "https://static.sinerji.gen.tr/Images/MD/TLZ-p4j-frisby-fc-9320g-midi-tower-kasa-1.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-giga-intel-core-i5-13400-16gb-512gb-nvme-m2-ssd-gainward-geforce-python-ii-8gb-rtx4060-oyun-bilgisayari-p-43019",
+    "specs": {
+      "CPU": "Intel Core i5 13400 ",
+      "Motherboard": "MSI H610 Anakart",
+      "GPU": "Gainward RTX 4060 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Wunch Intel Core i5 12400F 16GB 512GB NVMe M.2 SSD MSI GeForce Ventus XS OC V1 4GB GTX1650 Oyun Bilgisayarı",
+    "price": 16975,
+    "image": "https://static.sinerji.gen.tr/Images/MD/P5K-p4j-frisby-fc-9320g-midi-tower-kasa-1.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-wunch-intel-core-i5-12400f-16gb-512gb-nvme-m2-ssd-msi-geforce-ventus-xs-oc-v1-4gb-gtx1650-oyun-bilgisayari-p-42644",
+    "specs": {
+      "CPU": "Intel Core i5 12400F",
+      "Motherboard": "MSI H610 Anakart",
+      "GPU": "MSI GTX 1650 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Pro V4 Intel Core i7 12700 16GB 512GB NVMe M.2 SSD İş Bilgisayarı",
+    "price": 21572,
+    "image": "https://static.sinerji.gen.tr/Images/MD/J3C-gfdgfdgfdgfddfg.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-pro-v4-intel-core-i7-12700-16gb-512gb-nvme-m2-ssd-is-bilgisayari-p-42137",
+    "specs": {
+      "CPU": "Intel Core i5 12700 "
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Rapidness Ryzen 5 5500 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X Black OC 8GB RTX4060Ti Oyun Bilgisayarı",
+    "price": 27736,
+    "image": "https://static.sinerji.gen.tr/Images/MD/AQK-nza-1024.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-rapidness-ryzen-5-5500-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-black-oc-8gb-rtx4060ti-oyun-bilgisayari-p-42118",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5500 ",
+      "Motherboard": "MSI B450 Anakart",
+      "GPU": "MSI RTX 4060Ti Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Lugias Intel Core i5 12400F 16GB 500GB NVMe M.2 SSD MSI Radeon Mech V1 2X 12GB RX6750XT Oyun Bilgisayarı",
+    "price": 25681,
+    "image": "https://static.sinerji.gen.tr/Images/MD/CMX-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-lugias-intel-core-i5-12400f-16gb-500gb-nvme-m2-ssd-msi-radeon-mech-v1-2x-12gb-rx6750xt-oyun-bilgisayari-p-42098",
+    "specs": {
+      "CPU": "Intel Core i5 12400F",
+      "Motherboard": "MSI H610 Anakart",
+      "GPU": "MSI RX6750XT Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Flex Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD ASUS GeForce ROG Strix OC 16GB RTX4070Ti Super Oyun Bilgisayarı",
+    "price": 97149,
+    "image": "https://static.sinerji.gen.tr/Images/MD/112-5l3-tuf-gaming-gt502-0.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-flex-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-asus-geforce-rog-strix-oc-16gb-rtx4070ti-super-oyun-bilgisayari-p-42090",
+    "specs": {
+      "Motherboard": "Asus X670 Anakart",
+      "GPU": "Asus RTX 4070Ti Super Ekran Kartı",
+      "Ram": "32GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Bailey Ryzen 5 8400F 16GB 512GB NVMe M.2 SSD MSI GeForce Gaming X 8GB RTX4060 Oyun Bilgisayarı",
+    "price": 29655,
+    "image": "https://static.sinerji.gen.tr/Images/MD/2ZK-nza-1024.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-bailey-ryzen-5-8400f-16gb-512gb-nvme-m2-ssd-msi-geforce-gaming-x-8gb-rtx4060-oyun-bilgisayari-p-41019",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Motherboard": "MSI A620 Anakart",
+      "GPU": "MSI RTX 4060 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Arctic Ryzen 5 7600 16GB 1TB NVMe M.2 SSD Gigabyte GeForce Gaming 12GB RTX4070Ti Oyun Bilgisayarı",
+    "price": 50032,
+    "image": "https://static.sinerji.gen.tr/Images/MD/AT9-6ht-ekran-goruntusu-2024-03-04-153030.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-arctic-ryzen-5-7600-16gb-1tb-nvme-m2-ssd-gigabyte-geforce-gaming-12gb-rtx4070ti-oyun-bilgisayari-p-40642",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600 ",
+      "Motherboard": "Gigabyte A620 Anakart",
+      "GPU": "Gigabyte RTX 4070Ti Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Kyashe Ryzen 5 7600 16GB 512GB NVMe M.2 SSD Sapphire Radeon Pulse 16GB RX7800XT Oyun Bilgisayarı",
+    "price": 35737,
+    "image": "https://static.sinerji.gen.tr/Images/MD/7TD-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-kyashe-ryzen-5-7600-16gb-512gb-nvme-m2-ssd-sapphire-radeon-pulse-16gb-rx7800xt-oyun-bilgisayari-p-40637",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600 ",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "AMD Radeon RX7800XT",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Envy Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim 24GB RTX4090 Oyun Bilgisayarı",
+    "price": 134986,
+    "image": "https://static.sinerji.gen.tr/Images/MD/U12-7s6-141379-1large.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-envy-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-24gb-rtx4090-oyun-bilgisayari-p-40259",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "MSI RTX 4090 Ekran Kartı",
+      "Ram": "32GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Leuts Intel Core i5 12400F 16GB 512GB NVMe M.2 SSD XFX Radeon Core Gaming 12GB RX6750XT Oyun Bilgisayarı",
+    "price": 24654,
+    "image": "https://static.sinerji.gen.tr/Images/MD/67P-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-leuts-intel-core-i5-12400f-16gb-512gb-nvme-m2-ssd-xfx-radeon-core-gaming-12gb-rx6750xt-oyun-bilgisayari-p-40241",
+    "specs": {
+      "CPU": "Intel Core i5 12400F",
+      "Motherboard": "Gigabyte H610 Anakart",
+      "GPU": "XFX Radeon RX6750XT Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Chill Ryzen 5 5600 16GB 1TB NVMe M.2 SSD ASUS GeForce TUF Gaming OC 8GB RTX4060Ti Oyun Bilgisayarı",
+    "price": 35954,
+    "image": "https://static.sinerji.gen.tr/Images/MD/A23-6ht-ekran-goruntusu-2024-03-04-153030.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-chill-ryzen-5-5600-16gb-1tb-nvme-m2-ssd-asus-geforce-tuf-gaming-oc-8gb-rtx4060ti-oyun-bilgisayari-p-40017",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600 ",
+      "Motherboard": "Asus A520 Anakart",
+      "GPU": "Asus RTX 4060Ti Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Artemis Ryzen 5 5500 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X XD OC 8GB RTX3050 Oyun Bilgisayarı",
+    "price": 20931,
+    "image": "https://static.sinerji.gen.tr/Images/MD/K6A-nza-1024.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-artemis-ryzen-5-5500-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-xd-oc-8gb-rtx3050-oyun-bilgisayari-p-39993",
+    "specs": {
+      "Motherboard": "MSI B450 Anakart",
+      "GPU": "MSI RTX 3050 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Sayanora Ryzen 5 7500F 16GB 1TB NVMe M.2 SSD Gigabyte GeForce Eagle OC 12GB RTX4070Ti Oyun Bilgisayarı",
+    "price": 48063,
+    "image": "https://static.sinerji.gen.tr/Images/MD/95F-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-sayanora-ryzen-5-7500f-16gb-1tb-nvme-m2-ssd-gigabyte-geforce-eagle-oc-12gb-rtx4070ti-oyun-bilgisayari-p-39840",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F",
+      "Motherboard": "Gigabyte A620 Anakart",
+      "GPU": "Gigabyte RTX 4070Ti Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Assault Ryzen 5 5500 16GB 512GB NVMe M.2 SSD Gainward GeForce Python II 8GB RTX4060 Oyun Bilgisayarı",
+    "price": 23309,
+    "image": "https://static.sinerji.gen.tr/Images/MD/JU9-kl8-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-assault-ryzen-5-5500-16gb-512gb-nvme-m2-ssd-gainward-geforce-python-ii-8gb-rtx4060-oyun-bilgisayari-p-39555",
+    "specs": {
+      "GPU": "GeForce RTX 4060 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Dragon Intel Core i5 12400F 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X Black OC 8GB RTX4060 Oyun Bilgisayarı",
+    "price": 25565,
+    "image": "https://static.sinerji.gen.tr/Images/MD/Q8M-nza-1024.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-dragon-intel-core-i5-12400f-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-black-oc-8gb-rtx4060-oyun-bilgisayari-p-39395",
+    "specs": {
+      "CPU": "Intel Core i5 12400F",
+      "Motherboard": "MSI H610 Anakart",
+      "GPU": "MSI RTX 4060 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Zhwach Ryzen 5 8400F 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X OC 8GB RTX4060Ti Oyun Bilgisayarı",
+    "price": 31845,
+    "image": "https://static.sinerji.gen.tr/Images/MD/ZX4-nza-1024.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-zhwach-ryzen-5-8400f-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-oc-8gb-rtx4060ti-oyun-bilgisayari-p-39358",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Motherboard": "MSI A620 Anakart",
+      "GPU": "MSI RTX 4060Ti Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Goose Ryzen 5 7600 16GB 512GB NVMe M.2 SSD PowerColor Radeon RX 7900 GRE FIGTHER 16GB Oyun Bilgisayarı",
+    "price": 37780,
+    "image": "https://static.sinerji.gen.tr/Images/MD/LK6-8sx-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-goose-ryzen-5-7600-16gb-512gb-nvme-m2-ssd-powercolor-radeon-rx-7900-gre-figther-16gb-oyun-bilgisayari-p-37897",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600 ",
+      "Motherboard": "Asus A620 Anakart",
+      "GPU": "AMD Radeon RX7900GRE",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Ultimate Ryzen 5 5600X 16GB 512GB NVMe M.2 SSD Sapphire Radeon Pulse 16GB RX7800XT Oyun Bilgisayarı",
+    "price": 31701,
+    "image": "https://static.sinerji.gen.tr/Images/MD/9FL-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-ultimate-ryzen-5-5600x-16gb-512gb-nvme-m2-ssd-sapphire-radeon-pulse-16gb-rx7800xt-oyun-bilgisayari-p-37681",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600X",
+      "Motherboard": "Asus A520 Anakart",
+      "GPU": "Sapphire RX7800XT Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Pro V2 Intel Core i5 12400 16GB 512GB NVMe M.2 SSD Ofis Bilgisayarı",
+    "price": 11148,
+    "image": "https://static.sinerji.gen.tr/Images/MD/BQG-6nt-613791.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-pro-v2-intel-core-i5-12400-16gb-512gb-nvme-m2-ssd-ofis-bilgisayari-p-37648",
+    "specs": {
+      "CPU": "Intel Core i5 12400 "
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Guerres Intel Core i5 14600KF 32GB 1TB NVMe M.2 SSD MSI GeForce Ventus 3X OC 16GB RTX4070Ti Super Oyun Bilgisayarı",
+    "price": 79764,
+    "image": "https://static.sinerji.gen.tr/Images/MD/DBC-1mf-we.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-guerres-intel-core-i5-14600kf-32gb-1tb-nvme-m2-ssd-msi-geforce-ventus-3x-oc-16gb-rtx4070ti-super-oyun-bilgisayari-p-37594",
+    "specs": {
+      "CPU": "Intel Core i5 14600K",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "MSI RTX 4070Ti Super Ekran Kartı",
+      "Ram": "32GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Pro V3 Intel Core i5 13400 16GB 512GB NVMe M.2 SSD İş Bilgisayarı",
+    "price": 13479,
+    "image": "https://static.sinerji.gen.tr/Images/MD/QAY-6nt-613791.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-pro-v3-intel-core-i5-13400-16gb-512gb-nvme-m2-ssd-is-bilgisayari-p-36418",
+    "specs": {
+      "CPU": "Intel Core i5 13400 "
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Reyz Intel Core i9 14900KS 32GB 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim 24GB RTX4090 Oyun Bilgisayarı",
+    "price": 156145,
+    "image": "https://static.sinerji.gen.tr/Images/MD/HZ8-300r-airflow.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-reyz-intel-core-i9-14900ks-32gb-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-24gb-rtx4090-oyun-bilgisayari-p-36417",
+    "specs": {
+      "CPU": "Intel Core i9 14900K",
+      "Motherboard": "MSI Z790 Anakart",
+      "GPU": "MSI RTX 4090 Ekran Kartı",
+      "Ram": "32GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji AUSS Ryzen 5 5600 16GB 512GB NVMe M.2 SSD ASUS Radeon Dual OC 16GB RX7600XT Oyun Bilgisayarı",
+    "price": 28179,
+    "image": "https://static.sinerji.gen.tr/Images/MD/9G5-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-auss-ryzen-5-5600-16gb-512gb-nvme-m2-ssd-asus-radeon-dual-oc-16gb-rx7600xt-oyun-bilgisayari-p-36369",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600 ",
+      "Motherboard": "Asus A520 Anakart",
+      "GPU": "Asus RX7600XT Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Thunder Ryzen 5 5500 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X 12GB OC RTX3060 Oyun Bilgisayarı",
+    "price": 22259,
+    "image": "https://static.sinerji.gen.tr/Images/MD/8SG-nza-1024.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-thunder-ryzen-5-5500-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-12gb-oc-rtx3060-oyun-bilgisayari-p-36201",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5500 ",
+      "Motherboard": "MSI A520 Anakart",
+      "GPU": "MSI RTX 3060 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Smildon Ryzen 5 5500 16GB 512GB NVMe M.2 SSD MSI GeForce Ventus 2X Black OC 8GB RTX4060 Oyun Bilgisayarı",
+    "price": 23627,
+    "image": "https://static.sinerji.gen.tr/Images/MD/P5J-nza-1024.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-smildon-ryzen-5-5500-16gb-512gb-nvme-m2-ssd-msi-geforce-ventus-2x-black-oc-8gb-rtx4060-oyun-bilgisayari-p-36113",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5500 ",
+      "Motherboard": "MSI B450 Anakart",
+      "GPU": "MSI RTX 4060 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Pro V1 APU Ryzen 3 4300G PRO 16GB 512GB NVMe M.2 SSD Ofis Bilgisayarı",
+    "price": 8731,
+    "image": "https://static.sinerji.gen.tr/Images/MD/27L-6nt-613791.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-pro-v1-apu-ryzen-3-4300g-pro-16gb-512gb-nvme-m2-ssd-ofis-bilgisayari-p-35898",
+    "specs": {
+      "CPU": "AMD Ryzen 3 4300G"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Freya Ryzen 5 7600 16GB 1TB NVMe M.2 SSD Sapphire Radeon Pulse 16GB RX7800XT Oyun Bilgisayarı",
+    "price": 36814,
+    "image": "https://static.sinerji.gen.tr/Images/MD/AGM-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-freya-ryzen-5-7600-16gb-1tb-nvme-m2-ssd-sapphire-radeon-pulse-16gb-rx7800xt-oyun-bilgisayari-p-35896",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600 ",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "AMD Radeon RX7800XT",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Galadriel Ryzen 5 8400F 16GB 512GB NVMe M.2 SSD Palit GeForce JetStream 16GB RTX4060Ti Oyun Bilgisayarı",
+    "price": 31845,
+    "image": "https://static.sinerji.gen.tr/Images/MD/A7K-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-galadriel-ryzen-5-8400f-16gb-512gb-nvme-m2-ssd-palit-geforce-jetstream-16gb-rtx4060ti-oyun-bilgisayari-p-35895",
+    "specs": {
+      "CPU": "AMD Ryzen 5 8400F",
+      "Motherboard": "MSI A620 Anakart",
+      "GPU": "Palit RTX 4060Ti Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Sargas Ryzen 7 7800X3D 1TB NVMe M.2 SSD MSI GeForce Gaming X Slim White 12GB RTX4070 Super Oyun Bilgisayarı",
+    "price": 68515,
+    "image": "https://static.sinerji.gen.tr/Images/MD/GZK-3h7-10.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-sargas-ryzen-7-7800x3d-1tb-nvme-m2-ssd-msi-geforce-gaming-x-slim-white-12gb-rtx4070-super-oyun-bilgisayari-p-35894",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "MSI RTX 4070 Super Ekran Kartı",
+      "Ram": "32GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Vok Trooper V4 Ryzen 5 7600 32GB 1TB NVMe M.2 SSD PowerColor Radeon Figther 16GB RX7900GRE Oyun Bilgisayarı",
+    "price": 40999,
+    "image": "https://static.sinerji.gen.tr/Images/MD/RSC-8sx-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-vok-trooper-v4-ryzen-5-7600-32gb-1tb-nvme-m2-ssd-powercolor-radeon-figther-16gb-rx7900gre-oyun-bilgisayari-p-35890",
+    "specs": {
+      "CPU": "AMD Ryzen 7 7600 ",
+      "Motherboard": "MSI B650 Anakart",
+      "GPU": "PowerColor RX7900GRE Ekran Kartı",
+      "Ram": "32GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Venom Ryzen 5 3600 16GB 512GB NVMe M.2 SSD MSI GeForce Ventus XS OC V1 4GB GTX1650 Oyun Bilgisayarı",
+    "price": 15622,
+    "image": "https://static.sinerji.gen.tr/Images/MD/6JG-p4j-frisby-fc-9320g-midi-tower-kasa-1.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-venom-ryzen-5-3600-16gb-512gb-nvme-m2-ssd-msi-geforce-ventus-xs-oc-v1-4gb-gtx1650-oyun-bilgisayari-p-35888",
+    "specs": {
+      "CPU": "AMD Ryzen 5 3600 ",
+      "Motherboard": "MSI B450 Anakart",
+      "GPU": "MSI GTX 1650 Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Delos Intel Core i5 13400F 16GB 1TB NVMe M.2 SSD ASUS Radeon TUF OC 12GB RX7700XT Oyun Bilgisayarı",
+    "price": 40679,
+    "image": "https://static.sinerji.gen.tr/Images/MD/YJX-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-delos-intel-core-i5-13400f-16gb-1tb-nvme-m2-ssd-asus-radeon-tuf-oc-12gb-rx7700xt-oyun-bilgisayari-p-35887",
+    "specs": {
+      "CPU": "Intel Core i5 13400F",
+      "Motherboard": "Asus H610 Anakart",
+      "GPU": "Asus RX7700XT Ekran Kartı",
+      "Ram": "16GB Ram"
     },
     "store": "sinerji"
   }
