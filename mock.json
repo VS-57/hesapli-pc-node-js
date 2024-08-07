@@ -23355,6 +23355,7 @@
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2023/05/cooler-master-cmp-510-argb-siyah-mid-tower-650w-80-bronze-gaming-kasa-cp510-kgnn65-s01.jpg",
     "store": "gamingGen"
   },
+
   {
     "name": "Sinerji Lobo Ryzen 5 7600 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 3X E 8GB RTX4060Ti Oyun Bilgisayarı",
     "price": 33695,
@@ -23771,9 +23772,7 @@
     "price": 66772,
     "image": "https://static.sinerji.gen.tr/Images/MD/7RF-3an-corsair-icue-5000x-rgb-tempered-glass-siyah-mid-tower-kasa-63.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-quadro-v1-intel-core-i7-14700kf-32gb-1tb-nvme-m2-ssd-pny-quadro-8gb-t1000-ekran-karti-is-bilgisayari-p-51173",
-    "specs": {
-
-    },
+    "specs": {},
     "store": "sinerji"
   },
   {
