@@ -473,7 +473,7 @@ function resetFilters() {
   document.querySelectorAll(".form-check-input").forEach(function (checkbox) {
     checkbox.checked = false;
   });
-  document.getElementById("sortOrder").value = "default";
+  document.getElementById("sortOrder").value = "lowToHigh";
   document.getElementById("showInStock").checked = true;
   getProducts();
 }
