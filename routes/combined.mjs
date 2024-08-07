@@ -10,8 +10,9 @@ router.get("/", async (req, res) => {
       "http://localhost:3000/api/itopya",
       "http://localhost:3000/api/pckolik",
       "http://localhost:3000/api/vatan",
-      /* "http://localhost:3000/api/sinerji", */
+      "http://localhost:3000/api/sinerji",
       "http://localhost:3000/api/inceHesap",
+      "http://localhost:3000/api/gaming-gen",
       "http://localhost:3000/api/game-garaj",
       "http://localhost:3000/api/tebilon",
       "http://localhost:3000/api/gencergaming",

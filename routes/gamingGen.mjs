@@ -162,7 +162,7 @@ router.get("/", async (req, res) => {
   );
 
   const results = [];
-  for (const productUrl of productURLs.slice(0, 5)) {
+  for (const productUrl of productURLs) {
     const product = await scrapeProduct(page, productUrl);
     if (product) {
       results.push(product);
