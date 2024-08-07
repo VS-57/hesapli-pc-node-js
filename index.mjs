@@ -2,6 +2,7 @@ import express from "express";
 import cors from "cors";
 import path from "path";
 import { fileURLToPath } from "url";
+import compression from "compression"; // compression paketini import edin
 import gameGarajRouter from "./routes/gameGaraj.mjs";
 import gamingGenRouter from "./routes/gamingGen.mjs";
 import itopyaRouter from "./routes/itopya.mjs";
@@ -11,11 +12,9 @@ import sinerjiRouter from "./routes/sinerji.mjs";
 import tebilonRouter from "./routes/tebilon.mjs";
 import inceHesapRouter from "./routes/inceHesap.mjs";
 import gencerGamingRouter from "./routes/gencergaming.mjs";
-
 import getAllRouter from "./routes/getAll.mjs";
 import getCPUs from "./hardwares/cpus.mjs";
 import getGPUs from "./hardwares/gpus.mjs";
-
 import setupSwagger from "./swagger/swagger.mjs";
 import fetch from "node-fetch";
 import { promises as fs } from "fs"; // Importing fs.promises
@@ -25,6 +24,9 @@ const port = 3000;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+// Compression middleware'ini kullanın
+app.use(compression());
 
 // Statik dosyalar için public dizinini sun
 app.use(express.static(path.join(__dirname, "public")));
@@ -50,24 +52,6 @@ app.use("/api/getAll", getAllRouter);
 app.use("/api/cpu", getCPUs);
 app.use("/api/gpu", getGPUs);
 
-/**
- * @swagger
- * /api/combined:
- *   get:
- *     summary: Get combined data from all sources
- *     description: Fetches data from multiple sources and combines them into one response.
- *     responses:
- *       200:
- *         description: Successfully retrieved combined data
- *         content:
- *           application/json:
- *             schema:
- *               type: array
- *               items:
- *                 type: object
- *       500:
- *         description: Failed to fetch or combine data
- */
 app.get("/api/combined", async (req, res) => {
   try {
     const urls = [
@@ -103,79 +87,6 @@ app.get("/api/combined", async (req, res) => {
   }
 });
 
-/**
- * @swagger
- * /api/filter:
- *   post:
- *     summary: Filter and paginate data from mock.json
- *     description: Returns filtered and paginated data from mock.json based on the provided criteria.
- *     requestBody:
- *       required: true
- *       content:
- *         application/json:
- *           schema:
- *             type: object
- *             properties:
- *               startPrice:
- *                 type: integer
- *                 example: 100
- *               endPrice:
- *                 type: integer
- *                 example: 1000
- *               selectedGPUs:
- *                 type: array
- *                 items:
- *                   type: string
- *                 example: ["NVIDIA", "AMD"]
- *               selectedGPUseries:
- *                 type: array
- *                 items:
- *                   type: string
- *                 example: ["rtx", "gtx"]
- *               selectedCPUs:
- *                 type: array
- *                 items:
- *                   type: string
- *                 example: ["Intel", "AMD"]
- *               page:
- *                 type: integer
- *                 example: 1
- *               pageSize:
- *                 type: integer
- *                 example: 10
- *               orderBy:
- *                 type: string
- *                 example: "lowToHigh"
- *     responses:
- *       200:
- *         description: Successfully retrieved filtered and paginated data
- *         content:
- *           application/json:
- *             schema:
- *               type: object
- *               properties:
- *                 data:
- *                   type: array
- *                   items:
- *                     type: object
- *                 pagination:
- *                   type: object
- *                   properties:
- *                     totalItems:
- *                       type: integer
- *                       example: 100
- *                     totalPages:
- *                       type: integer
- *                       example: 10
- *                     currentPage:
- *                       type: integer
- *                       example: 1
- *                     pageSize:
- *                       type: integer
- *                       example: 10
- *       500:
- *         description: Failed to read or filter mock data
- */
 app.post("/api/getProducts", async (req, res) => {
   const {
     searchTerm,
