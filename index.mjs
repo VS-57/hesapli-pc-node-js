@@ -38,6 +38,10 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "main.html"));
 });
 
+/* app.use((req, res, next) => {
+  res.status(404).sendFile(path.join(__dirname, "public", "404.html"));
+}); */
+
 app.use("/api/game-garaj", gameGarajRouter);
 app.use("/api/gaming-gen", gamingGenRouter);
 app.use("/api/itopya", itopyaRouter);
@@ -129,15 +133,16 @@ app.post("/api/getProducts", async (req, res) => {
       filteredData = filteredData.filter((item) =>
         selectedGPUModels.some((series) => {
           let gpuName = item.specs.GPU?.toLowerCase();
-          let normalizedSeries = series.replace(/\s+/g, "").toLowerCase();
           if (gpuName && gpuName.includes("arc")) {
+            let normalizedSeries = series.replace(/\s+/g, "").toLowerCase();
             const arcIndex = gpuName.indexOf("arc");
             const modifiedGPU =
               gpuName.slice(0, arcIndex + 3) +
               gpuName.slice(arcIndex + 3).replace("a", "");
             gpuName = modifiedGPU.replace(/\s+/g, "");
+            return gpuName?.includes(normalizedSeries);
           }
-          return gpuName?.includes(normalizedSeries);
+          return gpuName?.includes(series);
         })
       );
     }
@@ -227,5 +232,5 @@ app.post("/api/getProducts", async (req, res) => {
 setupSwagger(app);
 
 app.listen(port, () => {
-  console.log(`Server is running on http://localhost:${port}/api-docs`);
+  console.log(`Server is running on http://localhost:${port}`);
 });

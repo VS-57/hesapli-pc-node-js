@@ -66,11 +66,11 @@
           </button>
           <div class="form-group row" style="margin-top: 10px">
             <div class="col">
-              <label for="startPrice">Başlangıç Fiyatı</label>
+              <label for="startPrice" style="white-space: nowrap">Başlangıç Fiyatı</label>
               <input type="number" id="startPrice" class="form-control" placeholder="0" />
             </div>
             <div class="col">
-              <label for="endPrice">Bitiş Fiyatı</label>
+              <label for="endPrice" style="white-space: nowrap">Bitiş Fiyatı</label>
               <input type="number" id="endPrice" class="form-control" placeholder="35000" />
             </div>
             <div class="col">
@@ -363,17 +363,12 @@
     </div>
   </div>
 
-  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-  <script src="data.js"></script>
-
-  <!-- Google Ads -->
-
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js" defer></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" defer></script>
+  <script src="data.js" defer></script>
   <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5687500600918444"
     crossorigin="anonymous"></script>
-
-  <!-- Google tag (gtag.js) -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MN0RJQRG23"></script>
   <script>
     window.dataLayer = window.dataLayer || [];
@@ -381,11 +376,12 @@
       dataLayer.push(arguments);
     }
     gtag("js", new Date());
-
     gtag("config", "G-MN0RJQRG23");
   </script>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
-  <script src="scripts.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" media="print"
+    onload="this.media='all'" />
+  <script src="scripts.js" defer></script>
+  <div class="addthis_inline_share_toolbox"></div>
 </body>
 
 </html>
