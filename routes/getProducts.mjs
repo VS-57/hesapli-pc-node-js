@@ -18,6 +18,7 @@ router.post("/", async (req, res) => {
     orderBy,
     isStocked,
   } = req.body;
+
   try {
     const data = JSON.parse(await fs.readFile("mock.json", "utf-8"));
 
@@ -37,14 +38,14 @@ router.post("/", async (req, res) => {
     if (selectedGPUs && selectedGPUs.length > 0) {
       filteredData = filteredData.filter((item) =>
         selectedGPUs.some((model) =>
-          item.specs.GPU?.toLowerCase().includes(model.toLowerCase())
+          item.specs?.GPU?.toLowerCase().includes(model.toLowerCase())
         )
       );
     }
     if (selectedGPUModels && selectedGPUModels.length > 0) {
       filteredData = filteredData.filter((item) =>
         selectedGPUModels.some((series) => {
-          let gpuName = item.specs.GPU?.toLowerCase();
+          let gpuName = item.specs?.GPU?.toLowerCase();
           if (gpuName && gpuName.includes("arc")) {
             let normalizedSeries = series.replace(/\s+/g, "").toLowerCase();
             const arcIndex = gpuName.indexOf("arc");
@@ -62,33 +63,33 @@ router.post("/", async (req, res) => {
     if (selectedCPUModels && selectedCPUModels.length > 0) {
       filteredData = filteredData.filter((item) =>
         selectedCPUModels.some((series) =>
-          item.specs.CPU?.toLowerCase().includes(series.toLowerCase())
+          item.specs?.CPU?.toLowerCase().includes(series.toLowerCase())
         )
       );
     }
 
     if (selectedCPUs && selectedCPUs.length > 0) {
-      if (selectedCPUs[0] === "amd" && selectedCPUs.length === 1) {
+      if (selectedCPUs[0].toLowerCase() === "amd" && selectedCPUs.length === 1) {
         filteredData = filteredData.filter((item) =>
           selectedCPUs.some(
             (cpu) =>
-              item.specs.CPU?.toLowerCase().includes("r3 ") ||
-              item.specs.CPU?.toLowerCase().includes("r5 ") ||
-              item.specs.CPU?.toLowerCase().includes("r7 ") ||
-              item.specs.CPU?.toLowerCase().includes("amd") ||
-              item.specs.CPU?.toLowerCase().includes("ryzen")
+              item.specs?.CPU?.toLowerCase().includes("r3 ") ||
+              item.specs?.CPU?.toLowerCase().includes("r5 ") ||
+              item.specs?.CPU?.toLowerCase().includes("r7 ") ||
+              item.specs?.CPU?.toLowerCase().includes("amd") ||
+              item.specs?.CPU?.toLowerCase().includes("ryzen")
           )
         );
-      } else if (selectedCPUs[0] === "intel" && selectedCPUs.length === 1) {
+      } else if (selectedCPUs[0].toLowerCase() === "intel" && selectedCPUs.length === 1) {
         filteredData = filteredData.filter((item) =>
           selectedCPUs.some(
             (cpu) =>
-              item.specs.CPU?.toLowerCase().includes("i3 ") ||
-              item.specs.CPU?.toLowerCase().includes("i5 ") ||
-              item.specs.CPU?.toLowerCase().includes("i7 ") ||
-              item.specs.CPU?.toLowerCase().includes("intel") ||
-              item.specs.CPU?.toLowerCase().includes("ıntel") ||
-              item.specs.CPU?.toLowerCase().includes("core")
+              item.specs?.CPU?.toLowerCase().includes("i3 ") ||
+              item.specs?.CPU?.toLowerCase().includes("i5 ") ||
+              item.specs?.CPU?.toLowerCase().includes("i7 ") ||
+              item.specs?.CPU?.toLowerCase().includes("intel") ||
+              item.specs?.CPU?.toLowerCase().includes("ıntel") ||
+              item.specs?.CPU?.toLowerCase().includes("core")
           )
         );
       }
@@ -137,7 +138,8 @@ router.post("/", async (req, res) => {
       },
     });
   } catch (error) {
-    res.status(500).json({ error: error });
+    console.error("Error occurred while filtering products:", error);
+    res.status(500).json({ error: error.message });
   }
 });
 
