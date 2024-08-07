@@ -373,7 +373,8 @@ async function getProducts() {
 
     if (
       data.pagination.currentPage > data.pagination.totalPages &&
-      data.data.length > 0
+      data.pagination.currentPage * data.pagination.totalPages >
+        data.data.length
     ) {
       currentPage = 1;
       getProducts();
