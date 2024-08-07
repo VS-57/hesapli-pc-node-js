@@ -38,9 +38,10 @@ app.get("/", (req, res) => {
   res.sendFile(path.join(__dirname, "public", "main.html"));
 });
 
-/* app.use((req, res, next) => {
+// Custom 404 error page
+app.use((req, res, next) => {
   res.status(404).sendFile(path.join(__dirname, "public", "404.html"));
-}); */
+});
 
 app.use("/api/game-garaj", gameGarajRouter);
 app.use("/api/gaming-gen", gamingGenRouter);
