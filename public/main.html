@@ -26,7 +26,7 @@
   <link href="styles.css" rel="stylesheet" />
 </head>
 
-<body style="background-color: #f7f8f9">
+<body>
   <header class="header">
     <div class="header-content">
       <div class="header-left">
@@ -35,6 +35,12 @@
       <div class="header-right">
         <div class="search-box">
           <input type="text" id="filterInput" class="form-control" placeholder="Ürün ara..." />
+        </div>
+        <div class="button-group">
+          <!-- Dark Mode Toggle Button -->
+          <button id="darkModeToggle" class="btn btn-secondary">
+            Dark Mode
+          </button>
           <button class="btn btn-secondary contact-button"
             onclick="location.href='mailto:ucuza.sistem.iletisim@gmail.com'">
             İletişim
@@ -43,6 +49,8 @@
       </div>
     </div>
   </header>
+
+
   <!-- <div style="margin-left: 10px; text-align: center;">
     <p style="margin: auto; font-size: 0.8em;">
       <strong>Yasal Uyarı : </strong>Sitemizde paylaşılan ürünler tamamen
@@ -58,10 +66,10 @@
   <div class="container-fluid">
     <div class="row">
       <!-- Sidebar (filter menu) -->
-      <nav class="col-md-3 d-none d-md-block bg-light sidebar filter-sidebar">
+      <nav class="col-md-3 d-none d-md-block sidebar filter-sidebar">
         <div class="filter-content">
           <h5>Filtreler</h5>
-          <button id="resetFilters" class="btn btn-secondary" style="width: 100%; background-color: #1c2938">
+          <button id="resetFilters" class="btn btn-secondary" style="width: 100%;">
             Filtreleri Sıfırla
           </button>
           <div class="form-group row" style="margin-top: 10px">
@@ -74,11 +82,9 @@
               <input type="number" id="endPrice" class="form-control" placeholder="35000" />
             </div>
             <div class="col">
-              <button id="priceFilterButton" class="btn btn-primary" style="
+              <button id="priceFilterButton" class="btn btn-secondary" style="
                     margin-top: 32px;
-                    border-color: #1c2938;
-                    background-color: #1c2938;
-                  ">
+                    border-color: #1c2938;">
                 Fiyat Ara
               </button>
             </div>
@@ -174,8 +180,11 @@
         </div>
       </nav>
       <!-- Mobile Sidebar -->
-      <nav class="col-md-3 d-md-none bg-light">
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#filterMenu"
+      <nav class="col-md-3 d-md-none">
+        <button id="darkModeToggleMobile" class="btn btn-secondary" style="margin-bottom: 10px;margin-top: 10px; width: 100%;">
+          Dark Mode
+        </button>
+        <button class="navbar-toggler btn-secondary" type="button" data-toggle="collapse" data-target="#filterMenu"
           style="margin-bottom: 10px;margin-top: 10px;" aria-controls="filterMenu" aria-expanded="false"
           aria-label="Toggle navigation">
           <span class="navbar-toggler-icon">
@@ -186,7 +195,7 @@
 
         <div class="collapse" id="filterMenu">
           <div class="filter-content">
-            <button id="resetFilters" class="btn btn-secondary" style="width: 100%; background-color: #1c2938;">
+            <button id="resetFilters" class="btn btn-secondary" style="width: 100%;">
               Filtreleri Sıfırla
             </button>
             <div class="form-group row">
@@ -337,10 +346,9 @@
         <!-- Pagination Buttons -->
         <div class="row mb-4">
           <div class="col-12 d-flex justify-content-between align-items-center">
-            <button id="prevPage" class="btn btn-secondary" style="background-color: #1c2938;">Önceki</button>
-            <span id="pageTopInfo" class="badge"
-              style="padding: 10px 20px 10px 20px; background-color: #1c2938; color: #f7f8f9;">1 / 1</span>
-            <button id="nextPage" class="btn btn-secondary" style="background-color: #1c2938;">Sonraki</button>
+            <button id="prevPage" class="btn btn-secondary">Önceki</button>
+            <span id="pageTopInfo" class="badge" style="padding: 10px 20px 10px 20px; color: #f7f8f9;">1 / 1</span>
+            <button id="nextPage" class="btn btn-secondary">Sonraki</button>
           </div>
         </div>
 
@@ -352,10 +360,9 @@
         <!-- Pagination Buttons at the Bottom -->
         <div class="row mb-4">
           <div class="col-12 d-flex justify-content-between">
-            <button id="prevPageBottom" class="btn btn-primary" style="background-color: #1c2938;">Önceki</button>
-            <span id="pageInfoBottom" class="badge"
-              style="padding: 10px 20px 10px 20px; background-color: #1c2938; color: #f7f8f9;">1 / 1</span>
-            <button id="nextPageBottom" class="btn btn-primary" style="background-color: #1c2938;">Sonraki</button>
+            <button id="prevPageBottom" class="btn btn-secondary">Önceki</button>
+            <span id="pageInfoBottom" class="badge" style="padding: 10px 20px 10px 20px; color: #f7f8f9;">1 / 1</span>
+            <button id="nextPageBottom" class="btn btn-secondary">Sonraki</button>
           </div>
         </div>
       </div>

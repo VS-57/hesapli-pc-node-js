@@ -36,6 +36,14 @@
   right: 10px;
 }
 
+.btn-secondary {
+  background-color: #1c2938;
+}
+
+.btn-secondary:hover {
+  background-color: #2a3a4f; /* Hover durumunda istediğiniz renk */
+}
+
 .store-logo {
   max-width: 50px;
 }
@@ -49,7 +57,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
 }
 
 .header-left {
@@ -59,7 +66,7 @@
 .header-right {
   flex: 3;
   display: flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   align-items: center;
 }
 
@@ -69,26 +76,37 @@
   margin: 10px 0;
 }
 
+.button-group {
+  display: flex;
+  justify-content: flex-end;
+  flex: 1;
+}
+
 .search-box {
-  width: 100%;
+  flex: 0 0 40%; /* Arama kutusunun genişliği %40 */
   position: relative;
 }
 
+#darkModeToggle {
+  margin-left: 20px; /* Butonlar arasında boşluk */
+}
+
 .search-box input {
-  width: 80%;
+  width: 100%;
 }
 
 .contact-button {
-  position: absolute;
-  top: 0;
-  right: 0;
-  background-color: #1c2938;
-  color: #fff;
-  padding: 10px 20px;
+  margin-left: 20px; /* Butonlar arasında boşluk */
 }
 
 .ml-auto {
   margin-left: auto;
+}
+
+@media (max-width: 768px) {
+  .header {
+    display: none;
+  }
 }
 
 @media (max-width: 768px) {
@@ -134,4 +152,49 @@
   .navbar-toggler {
     width: 100%;
   }
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #e0e0e0;
+}
+
+.dark-mode .header {
+  background-color: #1f1f1f;
+}
+
+.dark-mode .product-card {
+  background-color: #1f1f1f;
+  color: #e0e0e0;
+  border-color: #333;
+}
+
+.dark-mode .filter-sidebar {
+  background-color: #1f1f1f !important;
+  border-right-color: #333;
+}
+
+.dark-mode .form-check-label {
+  color: #e0e0e0;
+}
+
+.dark-mode .form-control {
+  background-color: #333;
+  color: #e0e0e0;
+  border-color: #444;
+}
+
+.dark-mode .btn-primary,
+.dark-mode .btn-secondary {
+  background-color: #333;
+  border-color: #444;
+}
+
+.dark-mode .store-logo {
+  filter: brightness(0.8);
+}
+
+input[type="checkbox"]:checked {
+  background-color: #f7f8f9; /* Seçili olduğunda arka plan rengi */
+  border: 2px solid #1c2938; /* Seçili olduğunda kenarlık rengi */
 }

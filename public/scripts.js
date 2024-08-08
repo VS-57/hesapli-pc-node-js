@@ -15,6 +15,39 @@ checkIfMobile();
 window.addEventListener("resize", checkIfMobile);
 window.addEventListener("load", checkIfMobile);
 
+// Dark Mode Toggle
+document
+  .getElementById("darkModeToggle")
+  .addEventListener("click", function () {
+    document.body.classList.toggle("dark-mode");
+
+    // Dark Mode durumu yerel depolamaya kaydediliyor
+    if (document.body.classList.contains("dark-mode")) {
+      localStorage.setItem("darkMode", "enabled");
+    } else {
+      localStorage.setItem("darkMode", "disabled");
+    }
+  });
+document
+  .getElementById("darkModeToggleMobile")
+  .addEventListener("click", function () {
+    document.body.classList.toggle("dark-mode");
+
+    // Dark Mode durumu yerel depolamaya kaydediliyor
+    if (document.body.classList.contains("dark-mode")) {
+      localStorage.setItem("darkMode", "enabled");
+    } else {
+      localStorage.setItem("darkMode", "disabled");
+    }
+  });
+
+// Sayfa yüklendiğinde Dark Mode durumunu kontrol et
+window.addEventListener("load", function () {
+  if (localStorage.getItem("darkMode") === "enabled") {
+    document.body.classList.add("dark-mode");
+  }
+});
+
 const selectedGPUs = Array.from(
   document.querySelectorAll(".form-check-input:checked")
 )
@@ -511,7 +544,7 @@ function renderProducts(products) {
                 <p class="card-text"><strong>Fiyat: ${formattedPrice}</strong></p>
                <a href="${
                  product.link
-               }" class="btn btn-primary product-detail-link" style="background-color:#1c2938;border-color:#1c2938" target="_blank" data-product-name="${
+               }" class="btn btn-secondary product-detail-link" target="_blank" data-product-name="${
       product.name
     }">Detayları Gör</a>
   
