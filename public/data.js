@@ -33,6 +33,7 @@ const CPUs = [
   { name: "Ryzen 5 8400F", value: "8400F " },
   { name: "Ryzen 5 8500G", value: "8500G " },
   { name: "Ryzen 5 8600G", value: "8600G " },
+  { name: "Ryzen 5 9600X", value: "9600X " },
 
   // Ryzen 7
   { name: "Ryzen 7 1700", value: "1700 " },
@@ -52,6 +53,7 @@ const CPUs = [
   { name: "Ryzen 7 7800X3D", value: "7800X3D " },
   { name: "Ryzen 7 8700F", value: "8700F " },
   { name: "Ryzen 7 8700G", value: "8700G " },
+  { name: "Ryzen 7 9700X", value: "9700X " },
 
   // Ryzen 9
   { name: "Ryzen 9 3900X", value: "3900X " },
@@ -61,9 +63,10 @@ const CPUs = [
   { name: "Ryzen 9 5950X", value: "5950X " },
   { name: "Ryzen 9 7900X", value: "7900X " },
   { name: "Ryzen 9 7900X3D", value: "7900X3D " },
-
   { name: "Ryzen 9 7950X", value: "7950X " },
   { name: "Ryzen 9 7950X3D", value: "7950X3D " },
+  { name: "Ryzen 9 9900X", value: "9900X " },
+  { name: "Ryzen 9 9950X", value: "9950X " },
 
   // Intel 10th Gen Processors
   { name: "Core i3-10100", value: "10100 " },
