@@ -110,6 +110,7 @@ async function scrapeProductsFromFile(filePath) {
 
     const results = [];
     for (const url of urls) {
+      console.log(urls.indexOf(url) + "/" + urls.length);
       const product = await scrapeProduct(page, url);
       if (product) {
         results.push(product);

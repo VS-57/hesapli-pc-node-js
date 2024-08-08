@@ -21,9 +21,6 @@ document.body.appendChild(a);
 a.click();
 document.body.removeChild(a);
 
-// Konsola productLinks dizisini yazdırıyoruz
-console.log(productLinks);
-
 
 const productLinks2 = [];
 
@@ -65,9 +62,6 @@ function clickShowMoreButtonAndCollectLinks() {
     document.body.appendChild(a);
     a.click();
     document.body.removeChild(a);
-
-    // Konsola productLinks dizisini yazdırıyoruz
-    console.log(productLinks);
   }
 }
 

@@ -12,10 +12,8 @@ async function fetchPageData(url, page) {
 }
 
 function parseTotalPages(doc) {
-  console.log(doc.get);
   const pagingElements = doc.querySelectorAll(".paging a");
   const secondLastPageElement = pagingElements[pagingElements.length - 2];
-  console.log(secondLastPageElement.textContent);
   const totalPages = parseInt(secondLastPageElement.textContent, 10);
   return totalPages;
 }
