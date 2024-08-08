@@ -28,6 +28,7 @@ document
       localStorage.setItem("darkMode", "disabled");
     }
   });
+
 document
   .getElementById("darkModeToggleMobile")
   .addEventListener("click", function () {
@@ -41,12 +42,13 @@ document
     }
   });
 
-// Sayfa yüklendiğinde Dark Mode durumunu kontrol et
+// Sayfa yüklendiğinde kaydedilen durumu geri yükleyin
 window.addEventListener("load", function () {
   if (localStorage.getItem("darkMode") === "enabled") {
     document.body.classList.add("dark-mode");
   }
 });
+
 
 const selectedGPUs = Array.from(
   document.querySelectorAll(".form-check-input:checked")
