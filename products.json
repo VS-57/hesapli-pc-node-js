@@ -17,7 +17,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/406085",
     "name": "FORGE-MAG4060Ti / AMD Ryzen 5 7500F MPK / MSI GeForce RTX 4060 Ti Ventus 2X Black 16GB OC / 16GB RAM / 500GB M.2 SSD Gaming Bilgisayar",
-    "price": 31399,
+    "price": 36999,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "MSI PRO A620M-E 6000MHz (OC) DDR5 Soket AM5 M.2 mATX Anakart",
@@ -62,7 +62,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/329767",
     "name": "ANNADENIZ-CHAT / INTEL i5-12400F / ASUS Dual GeForce RTX 4060 Ti OC 8GB / 16GB RAM / 512GB M.2 SSD Gaming Bilgisayar",
-    "price": "31399",
+    "price": 31399,
     "specs": {
       "CPU": "Intel Core i5-12400F 2.5GHz 18MB Önbellek 12 Çekirdek 1700 10nm İşlemci",
       "Motherboard": "ASUS PRIME H610M-K D4 ARGB 3200MHz DDR4 Soket 1700 M.2 HDMI mATX Anakart",
@@ -3317,7 +3317,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/311329",
     "name": "PLATINUM-4090 / AMD Ryzen 9 7900X / ASUS ROG Strix GeForce RTX 4090 24GB / 32GB RAM / 1TB M.2 SSD Gaming Bilgisayar – Black Myth: Wukong Hediyeli",
-    "price": 158999.01,
+    "price": 156781.41,
     "specs": {
       "CPU": "AMD Ryzen 9 7900X 5.6GHz 12 Çekirdek 64MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "Asus Rog Strix X670E-A Gaming WiFi 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP ATX Anakart (90MB1BM0-M0EAY0)\n",
@@ -3332,7 +3332,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/472253",
     "name": "PLATINUM-WHITE4090 / AMD Ryzen 9 7950X3D / ASUS ROG Strix GeForce RTX 4090 24GB / 32GB RAM / 1TB M.2 SSD Gaming Bilgisayar – Black Myth: Wukong Hediyeli",
-    "price": 173599,
+    "price": 171381.4,
     "specs": {
       "CPU": "AMD Ryzen 9 7950X3D 5.7GHz 128MB Önbellek 16 Çekirdek AM5 6nm İşlemci",
       "Motherboard": "Asus Rog Strix X670E-A Gaming WiFi 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP ATX Anakart (90MB1BM0-M0EAY0)",
@@ -4517,7 +4517,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/472329",
     "name": "VULCAN-MASTER4080S / AMD Ryzen 9 7900X / GALAX GeForce RTX 4080 SUPER ST 1-Click OC 16GB / 32GB RAM / 1TB M.2 SSD Gaming Bilgisayar – Black Myth: Wukong Hediyeli",
-    "price": 109816.65,
+    "price": 107599.05,
     "specs": {
       "CPU": "AMD Ryzen 9 7900X 5.6GHz 12 Çekirdek 64MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "Asus Rog Strix X670E-A Gaming WiFi 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP ATX Anakart (90MB1BM0-M0EAY0)\n",
@@ -4549,7 +4549,7 @@
     "name": "PLATINUM-4090-V1 / INTEL Core i9-14900KF / ASUS ROG STRIX GeForce RTX 4090 OC WHITE 24GB / 64GB RAM / 2TB M.2 SSD Gaming Bilgisayar",
     "price": 215129.45,
     "specs": {
-      "CPU": "INTEL Core i9-14900KF ",
+      "CPU": "INTEL Core i9-14900KF",
       "Motherboard": "N/A",
       "GPU": "ASUS ROG STRIX GeForce RTX 4090 OC WHITE 24GB",
       "Ram": "64GB RAM",
