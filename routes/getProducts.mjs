@@ -32,7 +32,9 @@ router.post("/", async (req, res) => {
     }
     if (searchTerm !== undefined && searchTerm !== null) {
       filteredData = filteredData.filter(
-        (item) => item.name && item.name.includes(searchTerm)
+        (item) =>
+          item.name &&
+          item.name.toLowerCase().includes(searchTerm.toLowerCase())
       );
     }
     if (selectedGPUs && selectedGPUs.length > 0) {

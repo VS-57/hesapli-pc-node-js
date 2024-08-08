@@ -17,7 +17,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/406085",
     "name": "FORGE-MAG4060Ti / AMD Ryzen 5 7500F MPK / MSI GeForce RTX 4060 Ti Ventus 2X Black 16GB OC / 16GB RAM / 500GB M.2 SSD Gaming Bilgisayar",
-    "price": 36999,
+    "price": 31399,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "MSI PRO A620M-E 6000MHz (OC) DDR5 Soket AM5 M.2 mATX Anakart",
@@ -62,7 +62,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/329767",
     "name": "ANNADENIZ-CHAT / INTEL i5-12400F / ASUS Dual GeForce RTX 4060 Ti OC 8GB / 16GB RAM / 512GB M.2 SSD Gaming Bilgisayar",
-    "price": 31399,
+    "price": "31399",
     "specs": {
       "CPU": "Intel Core i5-12400F 2.5GHz 18MB Önbellek 12 Çekirdek 1700 10nm İşlemci",
       "Motherboard": "ASUS PRIME H610M-K D4 ARGB 3200MHz DDR4 Soket 1700 M.2 HDMI mATX Anakart",
@@ -107,7 +107,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/296627",
     "name": "BLADE-4060Ti / AMD Ryzen 5 5600 MPK / ASUS Dual GeForce RTX 4060 Ti OC 8GB / 16GB RAM / 512GB M.2 SSD Gaming Bilgisayar",
-    "price": 29399,
+    "price": 29399.01,
     "specs": {
       "CPU": "AMD Ryzen 5 5600 MPK 3.5GHz 32MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME A520M-K 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -3812,7 +3812,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/384381",
     "name": "SUNRISE-MASTER14400F / INTEL Core i5-14400F / GALAX GeForce RTX 4060 Ti EX 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Gaming Bilgisayar",
-    "price": 36699,
+    "price": 36699.01,
     "specs": {
       "CPU": "Intel Core i5-14400F 4.7GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart",
@@ -4547,7 +4547,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/489929",
     "name": "PLATINUM-4090-V1 / INTEL Core i9-14900KF / ASUS ROG STRIX GeForce RTX 4090 OC WHITE 24GB / 64GB RAM / 2TB M.2 SSD Gaming Bilgisayar",
-    "price": 218971.45,
+    "price": 215129.45,
     "specs": {
       "CPU": "INTEL Core i9-14900KF ",
       "Motherboard": "N/A",
