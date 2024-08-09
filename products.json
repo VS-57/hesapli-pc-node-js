@@ -1877,7 +1877,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/359827",
     "name": "LUNAR-4060 / INTEL i5-13400F / GALAX GeForce RTX 4060 1-Click OC 2X V2 8GB / 16GB RAM / 512GB M.2 SSD Gaming Bilgisayar",
-    "price": 29399,
+    "price": 29399.02,
     "specs": {
       "CPU": "Intel Core i5-13400F 4.6GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci (BX8071513400F)",
       "Motherboard": "ASUS PRIME H610M-K D4 ARGB 3200MHz DDR4 Soket 1700 M.2 HDMI mATX Anakart",
@@ -2612,7 +2612,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/505279",
     "name": "MIRANA-MASTER4060 / AMD Ryzen 5 5500 MPK / GALAX GeForce RTX 4060 1-Click OC 2X V2 8GB / 16GB RAM / 512GB M.2 SSD Gaming Bilgisayar",
-    "price": 24898.99,
+    "price": 24899.01,
     "specs": {
       "CPU": "AMD Ryzen 5 5500 MPK 3.6GHz 16MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME A520M-K 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -3092,7 +3092,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/502848",
     "name": "OPTIMA-7600 / AMD Ryzen 5 7600 TRAY / GALAX GeForce RTX 4060 Ti 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Gaming Bilgisayar",
-    "price": 31899.02,
+    "price": 31899.01,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart",
@@ -4352,7 +4352,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/382151",
     "name": "VULCAN-5500 / AMD Ryzen 5 5500 MPK / GALAX GeForce RTX 4060 1-Click OC 2X V2 8GB / 16GB RAM / 512GB M.2 SSD Gaming Bilgisayar",
-    "price": 21998.99,
+    "price": 21999.01,
     "specs": {
       "CPU": "AMD Ryzen 5 5500 MPK 3.6GHz 16MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME A520M-K 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -4457,7 +4457,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/506450",
     "name": "VULCAN-8400F / AMD Ryzen 5 8400F MPK / GALAX GeForce RTX 4060 Ti 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Gaming Bilgisayar",
-    "price": 30699.02,
+    "price": 30699.01,
     "specs": {
       "CPU": "AMD Ryzen 5 8400F MPK 4.7GHz 16MB Önbellek 6 Çekirdek AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
@@ -4554,7 +4554,7 @@
       "GPU": "ASUS ROG STRIX GeForce RTX 4090 OC WHITE 24GB",
       "Ram": "64GB RAM",
       "Case": "N/A",
-      "Storage": "2TB M.2 SSD"
+      "Storage": "2TB M.2 SSD Gaming Bilgisayar"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/04/hyte-y70-touch-siyah-beyaz-temperli-cam-usb-3-2-e-atx-dual-chamber-mid-tower-dokunmatik-ekranli-gaming-kasa-cs-hyte-y70-bw-l.jpg",
     "store": "gamingGen"
