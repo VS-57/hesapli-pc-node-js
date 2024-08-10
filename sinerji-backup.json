@@ -447,19 +447,6 @@
     "store": "sinerji"
   },
   {
-    "name": "Sinerji Maverick Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD ASUS GeForce TUF Gaming OC 24GB RTX4090 Oyun Bilgisayarı",
-    "price": 140736,
-    "image": "https://static.sinerji.gen.tr/Images/MD/ZT4-5l3-tuf-gaming-gt502-0.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-maverick-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-asus-geforce-tuf-gaming-oc-24gb-rtx4090-oyun-bilgisayari-p-51032",
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X",
-      "Motherboard": "Asus X670 Anakart",
-      "GPU": "Asus RTX 4090 Ekran Kartı",
-      "Ram": "32GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
     "name": "Sinerji Mjolnir Ryzen 5 7600 16GB 512GB NVMe M.2 SSD XFX Radeon Core Gaming 12GB RX6750XT Oyun Bilgsayarı",
     "price": 28590,
     "image": "https://static.sinerji.gen.tr/Images/MD/A6Z-9xq-01.jpg",
@@ -551,7 +538,7 @@
   },
   {
     "name": "Sinerji Annual Ryzen 5 5500 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X OC 6GB RTX3050 Oyun Bilgisayarı",
-    "price": 18918,
+    "price": 18999,
     "image": "https://static.sinerji.gen.tr/Images/MD/8M8-nza-1024.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-annual-ryzen-5-5500-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-oc-6gb-rtx3050-oyun-bilgisayari-p-50848",
     "specs": {
@@ -895,7 +882,7 @@
   },
   {
     "name": "Sinerji Rapidness Ryzen 5 5500 16GB 500GB NVMe M.2 SSD MSI GeForce Ventus 2X Black OC 8GB RTX4060Ti Oyun Bilgisayarı",
-    "price": 27736,
+    "price": 27999,
     "image": "https://static.sinerji.gen.tr/Images/MD/AQK-nza-1024.jpg",
     "link": "https://www.sinerji.gen.tr//sinerji-rapidness-ryzen-5-5500-16gb-500gb-nvme-m2-ssd-msi-geforce-ventus-2x-black-oc-8gb-rtx4060ti-oyun-bilgisayari-p-42118",
     "specs": {
@@ -916,18 +903,6 @@
       "Motherboard": "MSI H610 Anakart",
       "GPU": "MSI RX6750XT Ekran Kartı",
       "Ram": "16GB Ram"
-    },
-    "store": "sinerji"
-  },
-  {
-    "name": "Sinerji Flex Ryzen 7 7800X3D 32GB 1TB NVMe M.2 SSD ASUS GeForce ROG Strix OC 16GB RTX4070Ti Super Oyun Bilgisayarı",
-    "price": 97149,
-    "image": "https://static.sinerji.gen.tr/Images/MD/112-5l3-tuf-gaming-gt502-0.jpg",
-    "link": "https://www.sinerji.gen.tr//sinerji-flex-ryzen-7-7800x3d-32gb-1tb-nvme-m2-ssd-asus-geforce-rog-strix-oc-16gb-rtx4070ti-super-oyun-bilgisayari-p-42090",
-    "specs": {
-      "Motherboard": "Asus X670 Anakart",
-      "GPU": "Asus RTX 4070Ti Super Ekran Kartı",
-      "Ram": "32GB Ram"
     },
     "store": "sinerji"
   },
@@ -1121,6 +1096,19 @@
     "store": "sinerji"
   },
   {
+    "name": "Sinerji Source Ryzen 5 7600 16GB 500GB NVMe M.2 SSD ASUS GeForce Evo Dual OC 8GB White RTX4060Ti Oyun Bilgisayarı",
+    "price": 34999,
+    "image": "https://static.sinerji.gen.tr/Images/MD/XM3-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-source-ryzen-5-7600-16gb-500gb-nvme-m2-ssd-asus-geforce-evo-dual-oc-8gb-white-rtx4060ti-oyun-bilgisayari-p-37408",
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600 ",
+      "Motherboard": "Asus A620 Anakart",
+      "GPU": "Asus RTX 4060Ti Ekran Kartı",
+      "Ram": "16GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
     "name": "Sinerji Pro V3 Intel Core i5 13400 16GB 512GB NVMe M.2 SSD İş Bilgisayarı",
     "price": 13479,
     "image": "https://static.sinerji.gen.tr/Images/MD/QAY-6nt-613791.jpg",
@@ -1241,6 +1229,19 @@
       "Motherboard": "MSI B650 Anakart",
       "GPU": "PowerColor RX7900GRE Ekran Kartı",
       "Ram": "32GB Ram"
+    },
+    "store": "sinerji"
+  },
+  {
+    "name": "Sinerji Mars Ryzen 5 5600 16GB 512GB NVMe M.2 SSD ASUS GeForce Evo Dual OC 8GB RTX4060Ti Oyun Bilgisayarı",
+    "price": 30799,
+    "image": "https://static.sinerji.gen.tr/Images/MD/TC4-9xq-01.jpg",
+    "link": "https://www.sinerji.gen.tr//sinerji-mars-ryzen-5-5600-16gb-512gb-nvme-m2-ssd-asus-geforce-evo-dual-oc-8gb-rtx4060ti-oyun-bilgisayari-p-35889",
+    "specs": {
+      "CPU": "AMD Ryzen 5 5600 ",
+      "Motherboard": "Asus A520 Anakart",
+      "GPU": "Asus RTX 4060Ti Ekran Kartı",
+      "Ram": "16GB Ram"
     },
     "store": "sinerji"
   },
