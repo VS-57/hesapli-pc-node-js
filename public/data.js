@@ -107,6 +107,8 @@ const CPUs = [
   // Intel 13th Gen Processors
   { name: "Core i3-13100", value: "13100 " },
   { name: "Core i5-13400", value: "13400 " },
+  { name: "Core i5-13400F", value: "13400F " },
+
   { name: "Core i5-13600K", value: "13600K " },
   { name: "Core i7-13700", value: "13700 " },
   { name: "Core i7-13700K", value: "13700K " },
