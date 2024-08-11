@@ -1,18 +1,24 @@
 import express from "express";
 import puppeteer from "puppeteer";
 import fs from "fs/promises";
+import path from "path"; // Import path module
+import { fileURLToPath } from "url"; // Import fileURLToPath to convert import.meta.url to path
 
 const router = express.Router();
+
+// Get the directory name of the current module
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
 async function scrapeProductIDs(page, url) {
   try {
     console.log(`Navigating to ${url}`);
-    await page.goto(url, { waitUntil: "networkidle2", timeout: 60000 }); // Set timeout to 60 seconds
+    await page.goto(url, { waitUntil: "networkidle2", timeout: 60000 });
 
     await page.waitForFunction(
       'typeof window.fiboFiltersData !== "undefined" && window.fiboFiltersData.base_products_ids.length > 0',
       { timeout: 60000 }
-    ); // Wait for fiboFiltersData to be defined and contain product IDs
+    );
 
     const productIDs = await page.evaluate(() => {
       const fiboFiltersData = window.fiboFiltersData || {};
@@ -58,7 +64,6 @@ async function scrapeProduct(page, url) {
 
           let numericPrice = parseFloat(rawPrice);
 
-          // Check if the numericPrice is a valid number
           if (!isNaN(numericPrice)) {
             if (Number.isInteger(numericPrice)) {
               price = numericPrice;
@@ -126,29 +131,6 @@ async function scrapeProduct(page, url) {
   }
 }
 
-async function scrapeProductsFromFile(filePath) {
-  try {
-    const browser = await puppeteer.launch();
-    const page = await browser.newPage();
-    const links = await fs.readFile(filePath, "utf-8");
-    const urls = links.split("\n").filter(Boolean);
-
-    const results = [];
-    for (const url of urls) {
-      const product = await scrapeProduct(page, url);
-      if (product) {
-        results.push(product);
-      }
-    }
-
-    await browser.close();
-    await fs.writeFile("../../products.json", JSON.stringify(results, null, 2)); // Changed path to save two levels up
-    console.log("Scraping completed. Results saved to products.json");
-  } catch (error) {
-    console.error("Error in scrapeProductsFromFile:", error);
-  }
-}
-
 router.get("/", async (req, res) => {
   const browser = await puppeteer.launch({ headless: true });
   const page = await browser.newPage();
@@ -169,6 +151,16 @@ router.get("/", async (req, res) => {
     }
   }
 
+  const filePath = path.join(__dirname, "..", "products.json");
+
+  try {
+    await fs.mkdir(path.dirname(filePath), { recursive: true });
+    await fs.writeFile(filePath, JSON.stringify(results, null, 2));
+    console.log(`Products saved to ${filePath}`);
+  } catch (error) {
+    console.error(`Failed to save products to ${filePath}:`, error);
+  }
+
   await browser.close();
 
   console.log("Scraping finished, sending response.");
@@ -177,6 +169,3 @@ router.get("/", async (req, res) => {
 });
 
 export default router;
-
-// If you need to run the file scraping separately, uncomment the following line
-// scrapeProductsFromFile("product_links.txt");
