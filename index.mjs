@@ -19,9 +19,9 @@ app.use(express.static(path.join(__dirname, "public")));
 //app.use(cors());
 
 const corsOptions = {
-  origin: ["https://ucuzasistem.com", "https://www.ucuzasistem.com"], // Sadece bu domainlere izin ver
-  methods: "GET,HEAD,PUT,PATCH,POST,DELETE", // İzin verilen HTTP metotları
-  credentials: true, // Kimlik bilgilerinin dahil edilmesine izin ver
+  origin: ["https://ucuzasistem.com", "https://www.ucuzasistem.com"],
+  methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
+  credentials: true,
 };
 
 app.use(cors(corsOptions));
