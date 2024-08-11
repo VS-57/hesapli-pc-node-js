@@ -2,14 +2,7 @@ import express from "express";
 const router = express.Router();
 import { promises as fs } from "fs";
 import mysql from "mysql2/promise"; // mysql2 paketini kullanıyoruz
-
-const dbConfig = {
-  host: "monorail.proxy.rlwy.net",
-  user: "root",
-  password: "SldXKXwgwcMPzsTtadDgIMkWDsmYgfGu",
-  database: "railway", // Örnek veritabanı adı
-  port: 46142,
-};
+import dbConfig from "../config.mjs";
 
 router.get("/", async (req, res) => {
   try {
