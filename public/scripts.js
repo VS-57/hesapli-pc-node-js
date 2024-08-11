@@ -527,6 +527,9 @@ function setupEventListeners() {
   document
     .getElementById("resetFilters")
     .addEventListener("click", resetFilters);
+  document
+    .getElementById("resetFiltersMobile")
+    .addEventListener("click", resetFilters);
 
   document
     .getElementById("priceFilterButton")
@@ -542,9 +545,11 @@ function resetFilters() {
   document.getElementById("endPrice").value = "";
   document.getElementById("startPriceMobile").value = "";
   document.getElementById("endPriceMobile").value = "";
+
   document.querySelectorAll(".form-check-input").forEach(function (checkbox) {
     checkbox.checked = false;
   });
+
   document.getElementById("sortOrder").value = "lowToHigh";
   document.getElementById("showInStock").checked = true;
   getProducts();
