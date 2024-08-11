@@ -69,7 +69,7 @@ router.post("/", async (req, res) => {
         selectedCPUModels.some(
           (series) =>
             item.specs?.CPU &&
-            item.specs.CPU.toLowerCase().includes(series.toLowerCase())
+            (item.specs.CPU.toLowerCase() + " ").includes(series.toLowerCase())
         )
       );
     }

@@ -141,7 +141,7 @@ router.get("/", async (req, res) => {
       return productList.some((item) => {
         const itemCPU = item.specs?.CPU?.toLowerCase() || "";
 
-        return itemCPU.includes(cpu.value.trim().toLowerCase());
+        return (itemCPU + " ").includes(cpu.value.trim().toLowerCase());
       });
     });
 
