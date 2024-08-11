@@ -114,8 +114,9 @@ async function fetchProductDetails(url) {
       Motherboard: "N/A",
       GPU: tempSpecs["Grafik İşlemci"] || "N/A",
       Ram: tempSpecs["Ram Kapasitesi"] || "N/A",
-      Case:
-        (tempSpecs["PSU"] || "") + " " + (tempSpecs["PSU Verimlilik"] || "N/A"),
+      Case : (
+        (tempSpecs["PSU"] || "") + " " + (tempSpecs["PSU Verimlilik"] || "")
+      ).trim() === "" ? "N/A" : (tempSpecs["PSU"] || "") + " " + (tempSpecs["PSU Verimlilik"] || ""),
       Storage:
         (tempSpecs["Depolama Kapasitesi"] || "") +
         " " +
