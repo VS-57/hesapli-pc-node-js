@@ -94,7 +94,8 @@ function parseProducts(doc) {
             (x) =>
               (x.toLowerCase().includes("mhz") &&
                 x.toLowerCase().includes("gb")) ||
-              x.toLowerCase().includes("ram")
+              x.toLowerCase().includes("ram") ||
+              x.toLowerCase().includes("cl")
           ) || "N/A"
       );
     };
