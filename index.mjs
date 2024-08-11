@@ -16,7 +16,16 @@ app.use(compression());
 
 app.use(express.static(path.join(__dirname, "public")));
 
-app.use(cors());
+//app.use(cors());
+
+const corsOptions = {
+  origin: ["https://ucuzasistem.com", "https://www.ucuzasistem.com"], // Sadece bu domainlere izin ver
+  methods: "GET,HEAD,PUT,PATCH,POST,DELETE", // İzin verilen HTTP metotları
+  credentials: true, // Kimlik bilgilerinin dahil edilmesine izin ver
+};
+
+app.use(cors(corsOptions));
+
 app.use(express.json());
 
 app.get("/", (req, res) => {
