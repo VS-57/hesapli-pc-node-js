@@ -419,6 +419,11 @@ async function getProducts() {
       pageSize: pageSize,
     };
 
+    // URL'yi güncelleyin
+    const newUrl = new URL(window.location.href);
+    newUrl.searchParams.set("page", currentPage);
+    history.pushState(null, "", newUrl);
+
     const response = await fetch("https://ucuzasistem.com/api/getProducts", {
       method: "POST",
       headers: {
@@ -609,6 +614,12 @@ function renderProducts(products) {
 }
 
 document.addEventListener("DOMContentLoaded", async function () {
+  const urlParams = new URLSearchParams(window.location.search);
+  const pageFromUrl = parseInt(urlParams.get("page"));
+  if (!isNaN(pageFromUrl) && pageFromUrl > 0) {
+    currentPage = pageFromUrl;
+  }
+
   await initFilters();
   setupEventListeners();
   const products = await getProducts();
