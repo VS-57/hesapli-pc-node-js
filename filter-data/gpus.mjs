@@ -1,5 +1,6 @@
 import express from "express";
 const router = express.Router();
+import { promises as fs } from "fs";
 
 const GPUs = [
   // NVIDIA GeForce GPUs
@@ -92,8 +93,25 @@ const GPUs = [
   { name: "Intel ARC 770", value: "ARC 770" },
 ];
 
-router.get("/", (req, res) => {
-  res.json(GPUs);
+router.get("/", async (req, res) => {
+  try {
+    const productList = JSON.parse(await fs.readFile("mock.json", "utf-8"));
+
+    const filteredGPUList = GPUs.filter((gpu) => {
+      // Check if there is at least one product that matches the CPU criteria
+      return productList.some((item) => {
+        const itemGPU = item.specs?.GPU?.toLowerCase() || "";
+
+        return itemGPU.includes(gpu.value.trim().toLowerCase());
+      });
+    });
+
+    // Return the filtered GPU list
+    res.json(filteredGPUList);
+  } catch (error) {
+    console.error("Error reading or processing the file:", error);
+    res.status(500).json({ error: "Internal Server Error" });
+  }
 });
 
 export default router;
