@@ -27,29 +27,14 @@ router.get("/", async (req, res) => {
         })
     );
 
-    // Sinerji için fetch ve retry işlemi (180 saniyeye kadar)
+    // Sinerji için ayrı fetch işlemi
     const sinerjiUrl = "https://ucuzasistem.com/api/sinerji";
-    const fetchWithRetry = async (url, retries = 9, delay = 20000) => {
-      for (let i = 0; i < retries; i++) {
-        try {
-          const response = await fetch(url);
-          const data = await response.json();
-          if (Array.isArray(data) && data.length > 0) {
-            return data;
-          } else {
-            console.log(
-              `Attempt ${i + 1} for ${url} returned empty. Retrying...`
-            );
-          }
-        } catch (error) {
-          console.error(`Attempt ${i + 1} failed for ${url}:`, error.message);
-        }
-        await new Promise((resolve) => setTimeout(resolve, delay));
-      }
-      return null;
-    };
-
-    const sinerjiPromise = fetchWithRetry(sinerjiUrl, 9, 20000); // 9 attempts with 20s delay
+    const sinerjiPromise = fetch(sinerjiUrl)
+      .then((response) => response.json())
+      .catch((error) => {
+        console.error(`Error fetching from ${sinerjiUrl}:`, error.message);
+        return null; // Hata durumunda null döndür
+      });
 
     // Tüm diğer verileri al
     const results = await Promise.allSettled(fetchPromises);
