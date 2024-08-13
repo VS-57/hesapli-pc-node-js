@@ -7,14 +7,14 @@ const router = Router();
 router.get("/", async (req, res) => {
   try {
     const urls = [
-      "http://localhost:3000/api/itopya",
-      "http://localhost:3000/api/pckolik",
-      "http://localhost:3000/api/vatan",
-      "http://localhost:3000/api/inceHesap",
-      /* "http://localhost:3000/api/gaming-gen", */
-      "http://localhost:3000/api/game-garaj",
-      "http://localhost:3000/api/tebilon",
-      "http://localhost:3000/api/gencergaming",
+      "https://ucuzasistem.com/api/itopya",
+      "https://ucuzasistem.com/api/pckolik",
+      "https://ucuzasistem.com/api/vatan",
+      "https://ucuzasistem.com/api/inceHesap",
+      /* "https://ucuzasistem.com/api/gaming-gen", */
+      "https://ucuzasistem.com/api/game-garaj",
+      "https://ucuzasistem.com/api/tebilon",
+      "https://ucuzasistem.com/api/gencergaming",
     ];
 
     // Diğer tüm URL'ler için fetch işlemi
@@ -27,14 +27,29 @@ router.get("/", async (req, res) => {
         })
     );
 
-    // Sinerji için ayrı fetch işlemi
-    const sinerjiUrl = "http://localhost:3000/api/sinerji";
-    const sinerjiPromise = fetch(sinerjiUrl)
-      .then((response) => response.json())
-      .catch((error) => {
-        console.error(`Error fetching from ${sinerjiUrl}:`, error.message);
-        return null; // Hata durumunda null döndür
-      });
+    // Sinerji için fetch ve retry işlemi (180 saniyeye kadar)
+    const sinerjiUrl = "https://ucuzasistem.com/api/sinerji";
+    const fetchWithRetry = async (url, retries = 9, delay = 20000) => {
+      for (let i = 0; i < retries; i++) {
+        try {
+          const response = await fetch(url);
+          const data = await response.json();
+          if (Array.isArray(data) && data.length > 0) {
+            return data;
+          } else {
+            console.log(
+              `Attempt ${i + 1} for ${url} returned empty. Retrying...`
+            );
+          }
+        } catch (error) {
+          console.error(`Attempt ${i + 1} failed for ${url}:`, error.message);
+        }
+        await new Promise((resolve) => setTimeout(resolve, delay));
+      }
+      return null;
+    };
+
+    const sinerjiPromise = fetchWithRetry(sinerjiUrl, 9, 20000); // 9 attempts with 20s delay
 
     // Tüm diğer verileri al
     const results = await Promise.allSettled(fetchPromises);
