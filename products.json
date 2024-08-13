@@ -481,10 +481,10 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/471245",
-    "name": "CARNAGE-PROSPECT4080S / AMD Ryzen 9 7950X3D / MSI GeForce RTX 4080 SUPER Gaming X Slim 16GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
+    "name": "CARNAGE-PROSPECT4080S / AMD Ryzen 9 7950X3D TRAY / MSI GeForce RTX 4080 SUPER Gaming X Slim 16GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
     "price": 161499,
     "specs": {
-      "CPU": "AMD Ryzen 9 7950X3D 5.7GHz 128MB Önbellek 16 Çekirdek AM5 6nm İşlemci",
+      "CPU": "AMD Ryzen 9 7950X3D Tray 5.7GHz 128MB Önbellek 16 Çekirdek AM5 6nm İşlemci",
       "Motherboard": "Msi Mpg X670E Carbon WiFi Soket AM5 DDR5 HDMI DP RGB Anakart",
       "GPU": "MSI GeForce RTX 4080 SUPER Gaming X Slim 16GB GDDR6X 256 Bit DLSS 3 Ekran kartı",
       "Ram": "Corsair Dominator Platinum RGB 32GB (2x16GB) 6200MHz CL36 DDR5 Ram (CMT32GX5M2X6200C36)",
@@ -496,10 +496,10 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/471089",
-    "name": "CARNAGE-PROSPECT4090 / AMD Ryzen 9 7950X3D / MSI GeForce RTX 4090 SUPRIM LIQUID X 24G 24GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
+    "name": "CARNAGE-PROSPECT4090 / AMD Ryzen 9 7950X3D TRAY / MSI GeForce RTX 4090 SUPRIM LIQUID X 24G 24GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
     "price": 205999,
     "specs": {
-      "CPU": "AMD Ryzen 9 7950X3D 5.7GHz 128MB Önbellek 16 Çekirdek AM5 6nm İşlemci",
+      "CPU": "AMD Ryzen 9 7950X3D Tray 5.7GHz 128MB Önbellek 16 Çekirdek AM5 6nm İşlemci",
       "Motherboard": "Msi Mpg X670E Carbon WiFi Soket AM5 DDR5 HDMI DP RGB Anakart",
       "GPU": "MSI GeForce RTX 4090 SUPRIM LIQUID X 24G 24GB GDDR6X 384 Bit DLSS 3 Sıvı Soğutuculu Ekran Kartı",
       "Ram": "Corsair Dominator Platinum RGB 32GB (2x16GB) 6200MHz CL36 DDR5 Ram (CMT32GX5M2X6200C36)",
@@ -567,21 +567,6 @@
       "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/06/enermax-starryfort-sf21-argb-temperli-cam-mesh-usb-3-2-matx-siyah-cyberbron-ii-600w-80-bronze-gaming-kasa-yyh1.jpg",
-    "store": "gamingGen"
-  },
-  {
-    "link": "https://www.gaming.gen.tr/urun/329622",
-    "name": "CYBER-4060 / INTEL i3-12100F / ASUS Dual GeForce RTX 4060 OC 8GB WHITE / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 29699,
-    "specs": {
-      "CPU": "Intel Core i3-12100F 4.3GHz 12MB Önbellek 4 Çekirdek 1700 İşlemci",
-      "Motherboard": "ASUS Tuf Gaming B760M-BTF WIFI 5333MHz(OC) DDR4 Soket LGA1700 M.2 HDMI DP mATX Anakart",
-      "GPU": "ASUS Dual GeForce RTX 4060 OC 8GB GDDR6 128 Bit Beyaz DLSS 3 Ekran Kartı",
-      "Ram": "Kingston Beast Black 16GB (2×8) 3200MHz CL16 Intel XMP 2.0 DDR4 Ram (KF432C16BB/8TR)",
-      "Case": "ASUS A21 Temperli Cam USB 3.0 mATX Mesh Beyaz Mid Tower Kasa + 3 ADET AF120A2R-SI FAN",
-      "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
-    },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2023/08/ap21-1.jpg",
     "store": "gamingGen"
   },
   {
@@ -797,7 +782,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/450299",
     "name": "DIAMOND-4070TISUPER / INTEL i7-14700K / ASUS ROG Strix GeForce RTX 4070 Ti SUPER OC 16GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 110798.99,
+    "price": 111171.02,
     "specs": {
       "CPU": "Intel Core i7-14700K 5.6GHz 28MB Önbellek 20 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS PRIME Z790-P WIFI 7200MHz(OC) DDR5 Soket 1700 M.2 HDMI DP ATX Anakart",
@@ -812,7 +797,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/311328",
     "name": "DIAMOND-4090 / INTEL i9-14900KF / ASUS ROG Strix GeForce RTX 4090 24GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 165999,
+    "price": 166399.01,
     "specs": {
       "CPU": "Intel Core i9-14900KF 6.0GHz 36MB Önbellek 24 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS PRIME Z790-P WIFI 7200MHz(OC) DDR5 Soket 1700 M.2 HDMI DP ATX Anakart",
@@ -917,7 +902,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/251285",
     "name": "ELITE-4090 / AMD Ryzen 9 7900X / ASUS TUF Gaming GeForce RTX 4090 24GB OC / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 140998.99,
+    "price": 140998.98,
     "specs": {
       "CPU": "AMD Ryzen 9 7900X 5.6GHz 12 Çekirdek 64MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS TUF GAMING X670E-PLUS 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP Anakart",
@@ -947,7 +932,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/292910",
     "name": "ELITE-6800 / AMD Ryzen 5 7600 TRAY / MSI Radeon RX 6800 Gaming Z Trio 16G 16GB / 16GB RAM / 500GB SSD Sistem Tavsiyesi",
-    "price": 36699,
+    "price": "N/A",
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "MSI PRO A620M-E 6000MHz (OC) DDR5 Soket AM5 M.2 mATX Anakart",
@@ -1037,7 +1022,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/238640",
     "name": "ELITE-7900XT / AMD Ryzen 9 7900X / ASUS TUF GAMING RADEON RX 7900 XT 20GB OC / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
-    "price": 105999,
+    "price": 105998.99,
     "specs": {
       "CPU": "AMD Ryzen 9 7900X 5.6GHz 12 Çekirdek 64MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS TUF GAMING X670E-PLUS 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP Anakart",
@@ -1187,7 +1172,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/278387",
     "name": "ELITE-ROG4090 / AMD Ryzen 9 7900X / ASUS ROG Strix GeForce RTX 4090 24GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 154999,
+    "price": 154998.99,
     "specs": {
       "CPU": "AMD Ryzen 9 7900X 5.6GHz 12 Çekirdek 64MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS TUF GAMING X670E-PLUS 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP Anakart\n",
@@ -1652,7 +1637,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/403132",
     "name": "GAMING-WHITE4070 / AMD Ryzen 5 7500F MPK / ASUS Dual GeForce RTX 4070 OC 12GB WHITE / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 39999.01,
+    "price": "N/A",
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci\n",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
@@ -2987,7 +2972,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/413969",
     "name": "OPTIMA-4070TISUPER / INTEL i7-14700KF / GALAX GeForce RTX 4070 Ti SUPER EX Gamer 1-Click OC 16 GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 64699,
+    "price": 64698.99,
     "specs": {
       "CPU": "Intel Core i7-14700KF 5.6GHz 33MB Önbellek 20 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS PRIME B760M-K 8000MHz (OC) DDR5 Soket 1700 M.2 HDMI mATX Anakart\n",
@@ -3197,7 +3182,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/450294",
     "name": "PLATINUM-4070TISUPER / RYZEN 7 7800X3D / ASUS ROG Strix GeForce RTX 4070 Ti SUPER OC 16GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 112598.99,
+    "price": 112971.02,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "Asus Rog Strix B650E-E Gaming WiFi 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP Anakart",
@@ -3212,7 +3197,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/311329",
     "name": "PLATINUM-4090 / AMD Ryzen 9 7900X / ASUS ROG Strix GeForce RTX 4090 24GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 156781,
+    "price": 156781.41,
     "specs": {
       "CPU": "AMD Ryzen 9 7900X 5.6GHz 12 Çekirdek 64MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "Asus Rog Strix X670E-A Gaming WiFi 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP ATX Anakart (90MB1BM0-M0EAY0)\n",
@@ -3226,10 +3211,10 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/472253",
-    "name": "PLATINUM-WHITE4090 / AMD Ryzen 9 7950X3D / ASUS ROG Strix GeForce RTX 4090 24GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 171381.4,
+    "name": "PLATINUM-WHITE4090 / AMD Ryzen 9 7950X3D TRAY / ASUS ROG Strix GeForce RTX 4090 24GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
+    "price": 171799.01,
     "specs": {
-      "CPU": "AMD Ryzen 9 7950X3D 5.7GHz 128MB Önbellek 16 Çekirdek AM5 6nm İşlemci",
+      "CPU": "AMD Ryzen 9 7950X3D Tray 5.7GHz 128MB Önbellek 16 Çekirdek AM5 6nm İşlemci",
       "Motherboard": "Asus Rog Strix X670E-A Gaming WiFi 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP ATX Anakart (90MB1BM0-M0EAY0)",
       "GPU": "ASUS ROG Strix GeForce RTX 4090 24GB GDDR6X 384 Bit DLSS 3 Ekran Kartı – Black Myth: Wukong Hediyeli",
       "Ram": "Corsair Vengeance RGB 32GB (2x16GB) 6000MHz CL36 INTEL XMP 3.0 DDR5 Ram (CMH32GX5M2D6000C36W)",
@@ -3242,7 +3227,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/384229",
     "name": "RAPTOR-4060 / INTEL i5-13400F / ASUS Dual GeForce RTX 4060 OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 29998,
+    "price": 29999,
     "specs": {
       "CPU": "Intel Core i5-13400F 4.6GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci (BX8071513400F)",
       "Motherboard": "ASUS Prime H610M-E-CSM 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart",
@@ -3302,7 +3287,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/480758",
     "name": "RAPTOR-7900XT / INTEL Core i9-14900KF / ASUS TUF GAMING RADEON RX 7900 XT 20GB OC / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
-    "price": 109999,
+    "price": 109998.99,
     "specs": {
       "CPU": "Intel Core i9-14900KF 6.0GHz 36MB Önbellek 24 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS PRIME Z790-P WIFI 7200MHz(OC) DDR5 Soket 1700 M.2 HDMI DP Anakart",
@@ -3332,7 +3317,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/329780",
     "name": "RAPTOR-DUAL4060Ti / INTEL i5-13400F / ASUS DUAL GeForce RTX 4060Ti OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 34299,
+    "price": 34299.01,
     "specs": {
       "CPU": "Intel Core i5-13400F 4.6GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci (BX8071513400F)",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart",
@@ -3362,7 +3347,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/440143",
     "name": "RAPTOR-EVO4070SUPER / INTEL i5-14400F / ASUS Dual GeForce RTX 4070 SUPER OC WHITE 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 50298.99,
+    "price": "N/A",
     "specs": {
       "CPU": "Intel Core i5-14400F 4.7GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart\n",
@@ -3377,7 +3362,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/446492",
     "name": "RAPTOR-ROG4090 / INTEL i9-14900KF / ASUS ROG Strix GeForce RTX 4090 24GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 158799,
+    "price": 158798.99,
     "specs": {
       "CPU": "Intel Core i9-14900KF 6.0GHz 36MB Önbellek 24 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS PRIME Z790-P WIFI 7200MHz(OC) DDR5 Soket 1700 M.2 HDMI DP ATX Anakart",
@@ -3407,7 +3392,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/455578",
     "name": "RAPTOR-TUF4090 / INTEL i9-14900KF / ASUS TUF Gaming GeForce RTX 4090 24GB OC / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 145999,
+    "price": 145998.99,
     "specs": {
       "CPU": "Intel Core i9-14900KF 6.0GHz 36MB Önbellek 24 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS PRIME Z790-P WIFI 7200MHz(OC) DDR5 Soket 1700 M.2 HDMI DP ATX Anakart",
@@ -3527,7 +3512,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/443158",
     "name": "SUNRISE-4070TISUPER / AMD Ryzen 7 7800X3D / GALAX GeForce RTX 4070 Ti SUPER EX Gamer 1-Click OC 16 GB / 16GB RAM / 1 TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 62998,
+    "price": 62998.98,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci\n",
       "Motherboard": "ASUS Prime B650M-R 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart\n",
@@ -3812,7 +3797,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/451188",
     "name": "ULTIMA-7600XT / AMD Ryzen 5 7500F MPK / ASUS DUAL Radeon RX 7600 XT OC 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
-    "price": 37499,
+    "price": "N/A",
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 5.0GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart",
@@ -3962,7 +3947,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/439963",
     "name": "ULTIMA-WHITE4070 / AMD Ryzen 5 7600 TRAY / Asus Dual GeForce RTX 4070 OC 12GB WHITE / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 39599,
+    "price": 39599.02,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
