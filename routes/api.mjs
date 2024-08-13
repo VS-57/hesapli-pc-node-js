@@ -13,6 +13,8 @@ import getGPUs from "../filter-data/gpus.mjs";
 import getProductsRouter from "./getProducts.mjs";
 import combinedRouter from "./combined.mjs";
 
+import testRouter from "./test.mjs";
+
 const router = Router();
 
 router.use("/game-garaj", gameGarajRouter);
@@ -24,6 +26,7 @@ router.use("/sinerji", sinerjiRouter);
 router.use("/tebilon", tebilonRouter);
 router.use("/inceHesap", inceHesapRouter);
 router.use("/gencergaming", gencerGamingRouter);
+router.use("/test", testRouter);
 
 router.use("/cpu", getCPUs);
 router.use("/gpu", getGPUs);
