@@ -1,6 +1,7 @@
 import express from "express";
 import puppeteer from "puppeteer";
 import { JSDOM } from "jsdom";
+import fs from "fs/promises"; // Import fs/promises for async file operations
 
 const router = express.Router();
 
@@ -105,6 +106,18 @@ router.get("/", async (req, res) => {
     const urls = await generateUrls(baseUrl, page);
     const products = await fetchAllProducts(urls, page);
     await browser.close();
+
+    let productList = JSON.parse(await fs.readFile("mock.json", "utf-8"));
+
+    // Remove existing 'sinerji' store products
+    const filteredList = productList.filter((x) => x.store !== "sinerji");
+
+    // Add new products to the list
+    const updatedList = [...filteredList, ...products];
+
+    // Write the updated list back to the file
+    await fs.writeFile("mock.json", JSON.stringify(updatedList, null, 2));
+
     res.json(products);
   } catch (error) {
     res.status(500).json({ error: error.message });
