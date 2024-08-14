@@ -116,7 +116,7 @@ router.get("/", async (req, res) => {
     const updatedList = [...filteredList, ...products];
 
     // Write the updated list back to the file
-    await fs.writeFile("mock.json", JSON.stringify(updatedList, null, 2));
+    /* await fs.writeFile("mock.json", JSON.stringify(updatedList, null, 2)); */
 
     res.json(products);
   } catch (error) {
