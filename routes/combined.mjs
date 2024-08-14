@@ -7,34 +7,37 @@ const router = Router();
 router.get("/", async (req, res) => {
   try {
     const urls = [
-      "https://ucuzasistem.com/api/itopya",
-      "https://ucuzasistem.com/api/pckolik",
-      "https://ucuzasistem.com/api/vatan",
-      "https://ucuzasistem.com/api/inceHesap",
-      /* "https://ucuzasistem.com/api/gaming-gen", */
-      "https://ucuzasistem.com/api/game-garaj",
-      "https://ucuzasistem.com/api/tebilon",
-      "https://ucuzasistem.com/api/gencergaming",
+      "http://localhost:3000/api/itopya",
+      "http://localhost:3000/api/pckolik",
+      "http://localhost:3000/api/vatan",
+      "http://localhost:3000/api/inceHesap",
+      /* "http://localhost:3000/api/gaming-gen", */
+      "http://localhost:3000/api/game-garaj",
+      "http://localhost:3000/api/tebilon",
+      "http://localhost:3000/api/gencergaming",
     ];
 
+    const fetchWithTimeout = async (url) => {
+      const controller = new AbortController();
+      const timeoutId = setTimeout(() => controller.abort(), 240000); // 4 dakika
+
+      try {
+        const response = await fetch(url, { signal: controller.signal });
+        clearTimeout(timeoutId);
+        return response.json();
+      } catch (error) {
+        clearTimeout(timeoutId);
+        console.error(`Error fetching from ${url}:`, error.message);
+        return null; // Hata durumunda null döndür
+      }
+    };
+
     // Diğer tüm URL'ler için fetch işlemi
-    const fetchPromises = urls.map((url) =>
-      fetch(url)
-        .then((response) => response.json())
-        .catch((error) => {
-          console.error(`Error fetching from ${url}:`, error.message);
-          return null; // Hata durumunda null döndür
-        })
-    );
+    const fetchPromises = urls.map((url) => fetchWithTimeout(url));
 
     // Sinerji için ayrı fetch işlemi
-    const sinerjiUrl = "https://ucuzasistem.com/api/sinerji";
-    const sinerjiPromise = fetch(sinerjiUrl)
-      .then((response) => response.json())
-      .catch((error) => {
-        console.error(`Error fetching from ${sinerjiUrl}:`, error.message);
-        return null; // Hata durumunda null döndür
-      });
+    const sinerjiUrl = "http://localhost:3000/api/sinerji";
+    const sinerjiPromise = fetchWithTimeout(sinerjiUrl);
 
     // Tüm diğer verileri al
     const results = await Promise.allSettled(fetchPromises);
