@@ -19,7 +19,11 @@ app.use(express.static(path.join(__dirname, "public")));
 //app.use(cors());
 
 const corsOptions = {
-  origin: ["https://ucuzasistem.com", "https://www.ucuzasistem.com"],
+  origin: [
+    "https://ucuzasistem.com",
+    "https://www.ucuzasistem.com",
+    "https://ucuzasistem.up.railway.app",
+  ],
   methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
   credentials: true,
 };
