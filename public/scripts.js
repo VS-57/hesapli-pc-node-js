@@ -40,6 +40,11 @@ async function fetchGPUs() {
   }
 }
 
+if (window.location.href === "https://ucuzasistem.up.railway.app/") {
+  window.location.href = "https://ucuzasistem.com";
+}
+
+
 async function initFilters() {
   window.CPUs = await fetchCPUs(); // Fetch the CPUs from the API and assign to a global variable
   window.GPUs = await fetchGPUs(); // Fetch the GPUs from the API and assign to a global variable
