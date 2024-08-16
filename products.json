@@ -32,7 +32,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/352894",
     "name": "75FPS-4060 / INTEL i5-14400F / ASUS Dual GeForce RTX 4060 OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 31299.01,
+    "price": 31299,
     "specs": {
       "CPU": "Intel Core i5-14400F 4.7GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart",
@@ -152,7 +152,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/455564",
     "name": "BLADE-4070TISUPER / AMD Ryzen 7 7800X3D / ASUS ROG Strix GeForce RTX 4070 Ti SUPER OC 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 98499.01,
+    "price": 98499,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "Asus Rog Strix B650E-E Gaming WiFi 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP Anakart",
@@ -211,7 +211,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/386080",
-    "name": "BLADE-7700XT / AMD Ryzen 5 5600 MPK / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi",
+    "name": "BLADE-7700XT / AMD Ryzen 5 5600 MPK / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 29799.01,
     "specs": {
       "CPU": "AMD Ryzen 5 5600 MPK 3.5GHz 32MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
@@ -219,7 +219,7 @@
       "GPU": "ASUS DUAL Radeon RX 7700 XT OC 12GB GDDR6 192 Bit Ekran Kartı",
       "Ram": "XPG Gammix D35 16GB (2×8) 3200MHz CL16 DDR4 Ram (AX4U32008G16A-SBKD35)",
       "Case": "ASUS A21 Plus ARGB Temperli Cam USB 3.2 mATX Mesh Siyah Mid Tower Gaming Kasa",
-      "Storage": "ADATA Legend 800 500GB PCIe Gen4 x4 Okuma 3500MB – Yazma 2800MB M.2 SSD (ALEG-800-500GCS)"
+      "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/03/asus-a21-plus-argb-temperli-cam-usb-3-2-matx-mesh-siyah-mid-tower-gaming-kasa.jpg",
     "store": "gamingGen"
@@ -241,7 +241,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/386004",
-    "name": "BLADE-7800XT / AMD Ryzen 7 5700X TRAY / ASUS Dual Radeon RX 7800 XT OC 16GB / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi",
+    "name": "BLADE-7800XT / AMD Ryzen 7 5700X TRAY / ASUS Dual Radeon RX 7800 XT OC 16GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 36499,
     "specs": {
       "CPU": "AMD Ryzen 7 5700X Tray 3.4GHz 32MB Önbellek 8 Çekirdek AM4 7nm İşlemci",
@@ -249,7 +249,7 @@
       "GPU": "ASUS Dual Radeon RX 7800 XT OC 16GB GDDR6 256 Bit Ekran Kartı",
       "Ram": "Kingston Beast Black 16GB (2×8) 3200MHz CL16 Intel XMP 2.0 DDR4 Ram (KF432C16BB/8TR)",
       "Case": "ASUS A21 Plus ARGB Temperli Cam USB 3.2 mATX Mesh Siyah Mid Tower Gaming Kasa",
-      "Storage": "ADATA Legend 800 500GB PCIe Gen4 x4 Okuma 3500MB – Yazma 2800MB M.2 SSD (ALEG-800-500GCS)"
+      "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/03/asus-a21-plus-argb-temperli-cam-usb-3-2-matx-mesh-siyah-mid-tower-gaming-kasa.jpg",
     "store": "gamingGen"
@@ -301,7 +301,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/386204",
-    "name": "BLADE-DUAL7700XT / AMD Ryzen 5 5600 MPK / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi",
+    "name": "BLADE-DUAL7700XT / AMD Ryzen 5 5600 MPK / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 28999.01,
     "specs": {
       "CPU": "AMD Ryzen 5 5600 MPK 3.5GHz 32MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
@@ -309,14 +309,14 @@
       "GPU": "ASUS DUAL Radeon RX 7700 XT OC 12GB GDDR6 192 Bit Ekran Kartı",
       "Ram": "Lexar Thor 16GB (2×8) 3200MHz CL16 DDR4 Ram (LD4BU008G-R3200GSXG)",
       "Case": "ENERMAX StarryFort SF21 Rainbow Temperli Cam Mesh USB 3.2 mATX Siyah Cyberbron II 600W 80+ Bronze Gaming Kasa",
-      "Storage": "ADATA Legend 800 500GB PCIe Gen4 x4 Okuma 3500MB – Yazma 2800MB M.2 SSD (ALEG-800-500GCS)"
+      "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/06/enermax-starryfort-sf21-argb-temperli-cam-mesh-usb-3-2-matx-siyah-cyberbron-ii-600w-80-bronze-gaming-kasa-yyh1.jpg",
     "store": "gamingGen"
   },
   {
     "link": "https://www.gaming.gen.tr/urun/353880",
-    "name": "BLADE-DUAL7800XT / AMD Ryzen 5 5600 MPK / ASUS Dual Radeon RX 7800 XT OC 16GB / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi",
+    "name": "BLADE-DUAL7800XT / AMD Ryzen 5 5600 MPK / ASUS Dual Radeon RX 7800 XT OC 16GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 32499.01,
     "specs": {
       "CPU": "AMD Ryzen 5 5600 MPK 3.5GHz 32MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
@@ -324,7 +324,7 @@
       "GPU": "ASUS Dual Radeon RX 7800 XT OC 16GB GDDR6 256 Bit Ekran Kartı",
       "Ram": "Kingston Beast Black 16GB (2×8) 3200MHz CL16 Intel XMP 2.0 DDR4 Ram (KF432C16BB/8TR)",
       "Case": "ENERMAX StarryFort SF21 Rainbow Temperli Cam Mesh USB 3.2 mATX Siyah Cyberbron II 600W 80+ Bronze Gaming Kasa",
-      "Storage": "ADATA Legend 800 500GB PCIe Gen4 x4 Okuma 3500MB – Yazma 2800MB M.2 SSD (ALEG-800-500GCS)\n"
+      "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/06/enermax-starryfort-sf21-argb-temperli-cam-mesh-usb-3-2-matx-siyah-cyberbron-ii-600w-80-bronze-gaming-kasa-yyh1.jpg",
     "store": "gamingGen"
@@ -375,28 +375,13 @@
     "store": "gamingGen"
   },
   {
-    "link": "https://www.gaming.gen.tr/urun/410050",
-    "name": "CARNAGE-4070SUPER / AMD Ryzen 7 7800X3D TRAY / MSI GeForce RTX 4070 SUPER 12G Gaming X Slim 12GB / 16GB RAM / 1TB SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 59998.99,
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci",
-      "Motherboard": "MSI PRO B650M-B 6800MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
-      "GPU": "MSI GeForce RTX 4070 SUPER 12G Gaming X Slim 12GB GDDR6X 192 Bit DLSS 3 Ekran Kartı",
-      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 INTEL XMP 3.0 DDR5 Ram (CMK16GX5M1B5200C40)\n",
-      "Case": "MSI MAG FORGE 100R Tempered Glass ARGB USB 3.2 Mid Tower Kasa",
-      "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
-    },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2021/06/msi-mag-forge-100r-tempered-glass-argb-usb-3-2-mid-tower-kasa.jpg",
-    "store": "gamingGen"
-  },
-  {
     "link": "https://www.gaming.gen.tr/urun/471379",
-    "name": "CARNAGE-4070TISUPER / AMD Ryzen 7 7800X3D TRAY / MSI GeForce RTX 4070 Ti SUPER 16G VENTUS 2X White OC / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
+    "name": "CARNAGE-4070TISUPER / AMD Ryzen 7 7800X3D TRAY / MSI GeForce RTX 4070 Ti SUPER 16G Ventus 3X OC 16GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
     "price": 89999,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "MSI X670E Gaming Plus WiFi 7800MHz (OC) DDR5 Soket AM5 M.2 HDMI DP ATX Anakart",
-      "GPU": "MSI GeForce RTX 4070 Ti SUPER 16G VENTUS 2X White OC 16GB GDDR6X 256 Bit DLSS 3 Beyaz Ekran Kartı",
+      "GPU": "MSI GeForce RTX 4070 Ti SUPER 16G Ventus 3X OC 16GB GDDR6X 256 Bit DLSS 3 Ekran Kartı",
       "Ram": "Corsair Vengeance RGB 32GB (2x16GB) 5600MHz CL40 AMD EXPO DDR5 Ram (CMH32GX5M2B5600Z40)",
       "Case": "MSI GUNGNIR 300R ARGB Airflow Beyaz Mid Tower Gaming Kasa\n",
       "Storage": "Kingston 1TB KC3000 SKC3000S/1024G NVMe M.2 SSD (7000MB Okuma / 6000MB Yazma)"
@@ -447,36 +432,6 @@
       "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2023/09/msi-mag-forge-m100a-d60-600w-80-rgb-matx-kasa-1.jpg",
-    "store": "gamingGen"
-  },
-  {
-    "link": "https://www.gaming.gen.tr/urun/410061",
-    "name": "CARNAGE-MAG4070SUPER / AMD Ryzen 5 7500F MPK / MSI GeForce RTX 4070 SUPER 12G Gaming X Slim 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 49799,
-    "specs": {
-      "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
-      "Motherboard": "MSI PRO A620M-E 6000MHz (OC) DDR5 Soket AM5 M.2 mATX Anakart",
-      "GPU": "MSI GeForce RTX 4070 SUPER 12G Gaming X Slim 12GB GDDR6X 192 Bit DLSS 3 Ekran Kartı",
-      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
-      "Case": "MSI MAG FORGE 100R Tempered Glass ARGB USB 3.2 Mid Tower Kasa",
-      "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
-    },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2021/06/msi-mag-forge-100r-tempered-glass-argb-usb-3-2-mid-tower-kasa.jpg",
-    "store": "gamingGen"
-  },
-  {
-    "link": "https://www.gaming.gen.tr/urun/413252",
-    "name": "CARNAGE-MAG4070TISUPER / AMD Ryzen 7 7800X3D TRAY / MSI GeForce RTX 4070 Ti SUPER 16G VENTUS 2X White OC 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 68998.99,
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci",
-      "Motherboard": "MSI PRO B650M-B 6800MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
-      "GPU": "MSI GeForce RTX 4070 Ti SUPER 16G VENTUS 2X White OC 16GB GDDR6X 256 Bit DLSS 3 Beyaz Ekran Kartı",
-      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 INTEL XMP 3.0 DDR5 Ram (CMK16GX5M1B5200C40)\n",
-      "Case": "MSI MAG FORGE 100R Tempered Glass ARGB USB 3.2 Mid Tower Kasa",
-      "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
-    },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2021/06/msi-mag-forge-100r-tempered-glass-argb-usb-3-2-mid-tower-kasa.jpg",
     "store": "gamingGen"
   },
   {
@@ -586,7 +541,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/329871",
-    "name": "CYBER-4070 / INTEL i5-12400F / ASUS Dual GeForce RTX 4070 OC 12GB / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
+    "name": "CYBER-4070 / INTEL i5-12400F / ASUS Dual GeForce RTX 4070 OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
     "price": 35799.01,
     "specs": {
       "CPU": "Intel Core i5-12400F 2.5GHz 18MB Önbellek 12 Çekirdek 1700 10nm İşlemci",
@@ -594,7 +549,7 @@
       "GPU": "Asus Dual GeForce RTX 4070 OC 12GB GDDR6X 192 Bit Ekran DLSS 3 Ekran Kartı",
       "Ram": "Lexar Thor 16GB (2×8) 3200MHz CL16 DDR4 Ram (LD4BU008G-R3200GSXG)",
       "Case": "ENERMAX StarryFort SF21 Rainbow Temperli Cam Mesh USB 3.2 mATX Siyah Cyberbron II 600W 80+ Bronze Gaming Kasa",
-      "Storage": "ADATA Legend 800 500GB PCIe Gen4 x4 Okuma 3500MB – Yazma 2800MB M.2 SSD (ALEG-800-500GCS)"
+      "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/06/enermax-starryfort-sf21-argb-temperli-cam-mesh-usb-3-2-matx-siyah-cyberbron-ii-600w-80-bronze-gaming-kasa-yyh1.jpg",
     "store": "gamingGen"
@@ -631,7 +586,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/386062",
-    "name": "CYBER-7700XT / INTEL i5-13400F / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi",
+    "name": "CYBER-7700XT / INTEL i5-13400F / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 34299.01,
     "specs": {
       "CPU": "Intel Core i5-13400F 4.6GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci (BX8071513400F)",
@@ -639,14 +594,14 @@
       "GPU": "ASUS DUAL Radeon RX 7700 XT OC 12GB GDDR6 192 Bit Ekran Kartı",
       "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
       "Case": "ASUS Prime AP201 USB 3.2 Tempered Glass Mesh MicroATX Kasa",
-      "Storage": "ADATA Legend 800 500GB PCIe Gen4 x4 Okuma 3500MB – Yazma 2800MB M.2 SSD (ALEG-800-500GCS)"
+      "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2023/04/asus-prime-ap201-usb-3-2-tempered-glass-mesh-microatx-kasa-10.jpg",
     "store": "gamingGen"
   },
   {
     "link": "https://www.gaming.gen.tr/urun/385998",
-    "name": "CYBER-7800XT / INTEL i5-13400F / ASUS Dual Radeon RX 7800 XT OC 16GB / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi",
+    "name": "CYBER-7800XT / INTEL i5-13400F / ASUS Dual Radeon RX 7800 XT OC 16GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 37598.99,
     "specs": {
       "CPU": "Intel Core i5-13400F 4.6GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci (BX8071513400F)",
@@ -654,7 +609,7 @@
       "GPU": "ASUS Dual Radeon RX 7800 XT OC 16GB GDDR6 256 Bit Ekran Kartı",
       "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)\n",
       "Case": "ASUS A21 Plus ARGB Temperli Cam USB 3.2 mATX Mesh Siyah Mid Tower Gaming Kasa",
-      "Storage": "ADATA Legend 800 500GB PCIe Gen4 x4 Okuma 3500MB – Yazma 2800MB M.2 SSD (ALEG-800-500GCS)"
+      "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/03/asus-a21-plus-argb-temperli-cam-usb-3-2-matx-mesh-siyah-mid-tower-gaming-kasa.jpg",
     "store": "gamingGen"
@@ -736,7 +691,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/386183",
-    "name": "CYBER-DUAL7700XT / INTEL i5-13400F / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi",
+    "name": "CYBER-DUAL7700XT / INTEL i5-13400F / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 32999.01,
     "specs": {
       "CPU": "Intel Core i5-13400F 4.6GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci (BX8071513400F)",
@@ -744,14 +699,14 @@
       "GPU": "ASUS DUAL Radeon RX 7700 XT OC 12GB GDDR6 192 Bit Ekran Kartı",
       "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
       "Case": "ENERMAX StarryFort SF21 Rainbow Temperli Cam Mesh USB 3.2 mATX Siyah Cyberbron II 600W 80+ Bronze Gaming Kasa",
-      "Storage": "ADATA Legend 800 500GB PCIe Gen4 x4 Okuma 3500MB – Yazma 2800MB M.2 SSD (ALEG-800-500GCS)"
+      "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/06/enermax-starryfort-sf21-argb-temperli-cam-mesh-usb-3-2-matx-siyah-cyberbron-ii-600w-80-bronze-gaming-kasa-yyh1.jpg",
     "store": "gamingGen"
   },
   {
     "link": "https://www.gaming.gen.tr/urun/338738",
-    "name": "CYBER-DUAL7800XT / INTEL i5-13400F / ASUS Dual Radeon RX 7800 XT OC 16GB / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi",
+    "name": "CYBER-DUAL7800XT / INTEL i5-13400F / ASUS Dual Radeon RX 7800 XT OC 16GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 36699.01,
     "specs": {
       "CPU": "Intel Core i5-13400F 4.6GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci (BX8071513400F)",
@@ -759,7 +714,7 @@
       "GPU": "ASUS Dual Radeon RX 7800 XT OC 16GB GDDR6 256 Bit Ekran Kartı",
       "Ram": "Corsair Vengeance 16GB 5200MHz CL40 INTEL XMP 3.0 DDR5 Ram (CMK16GX5M1B5200C40)",
       "Case": "ENERMAX StarryFort SF21 Rainbow Temperli Cam Mesh USB 3.2 mATX Siyah Cyberbron II 600W 80+ Bronze Gaming Kasa",
-      "Storage": "ADATA Legend 800 500GB PCIe Gen4 x4 Okuma 3500MB – Yazma 2800MB M.2 SSD (ALEG-800-500GCS)\n"
+      "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/06/enermax-starryfort-sf21-argb-temperli-cam-mesh-usb-3-2-matx-siyah-cyberbron-ii-600w-80-bronze-gaming-kasa-yyh1.jpg",
     "store": "gamingGen"
@@ -782,7 +737,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/450299",
     "name": "DIAMOND-4070TISUPER / INTEL i7-14700K / ASUS ROG Strix GeForce RTX 4070 Ti SUPER OC 16GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 111171.02,
+    "price": 115999,
     "specs": {
       "CPU": "Intel Core i7-14700K 5.6GHz 28MB Önbellek 20 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS PRIME Z790-P WIFI 7200MHz(OC) DDR5 Soket 1700 M.2 HDMI DP ATX Anakart",
@@ -797,7 +752,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/311328",
     "name": "DIAMOND-4090 / INTEL i9-14900KF / ASUS ROG Strix GeForce RTX 4090 24GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 166399.01,
+    "price": 171399,
     "specs": {
       "CPU": "Intel Core i9-14900KF 6.0GHz 36MB Önbellek 24 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS PRIME Z790-P WIFI 7200MHz(OC) DDR5 Soket 1700 M.2 HDMI DP ATX Anakart",
@@ -902,10 +857,10 @@
   {
     "link": "https://www.gaming.gen.tr/urun/251285",
     "name": "ELITE-4090 / AMD Ryzen 9 7900X / ASUS TUF Gaming GeForce RTX 4090 24GB OC / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 137699.98,
+    "price": 136698.99,
     "specs": {
       "CPU": "AMD Ryzen 9 7900X 5.6GHz 12 Çekirdek 64MB Önbellek Soket AM5 İşlemci",
-      "Motherboard": "ASUS TUF GAMING X670E-PLUS 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP Anakart",
+      "Motherboard": "Asus Prime X670-P-CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP ATX Anakart",
       "GPU": "ASUS TUF Gaming GeForce RTX 4090 24GB OC GDDR6X 384 Bit DLSS 3 Ekran Kartı",
       "Ram": "Corsair Vengeance RGB 32GB (2x16GB) 5600MHz CL40 AMD EXPO DDR5 Ram (CMH32GX5M2B5600Z40)",
       "Case": "ASUS TUF Gaming GT502 V2 Panaromik Temperli Cam USB 3.2 Mid Tower Kasa",
@@ -927,21 +882,6 @@
       "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/03/asus-a21-plus-argb-temperli-cam-usb-3-2-matx-mesh-siyah-mid-tower-gaming-kasa.jpg",
-    "store": "gamingGen"
-  },
-  {
-    "link": "https://www.gaming.gen.tr/urun/292910",
-    "name": "ELITE-6800 / AMD Ryzen 5 7600 TRAY / MSI Radeon RX 6800 Gaming Z Trio 16G 16GB / 16GB RAM / 500GB SSD Sistem Tavsiyesi",
-    "price": 36699,
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
-      "Motherboard": "MSI PRO A620M-E 6000MHz (OC) DDR5 Soket AM5 M.2 mATX Anakart",
-      "GPU": "MSI Radeon RX 6800 Gaming Z Trio 16G V1 16GB GDDR6 256 Bit Ekran Kartı",
-      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
-      "Case": "VENTO VG07F RGB Siyah Mid Tower ATX FSP Hyper Pro H3-650 80+ Bronze Gaming Kasa",
-      "Storage": "MSI Spatium M450 500GB PCIe Gen4 x4 Okuma 3600MB – Yazma 2300MB M.2 SSD"
-    },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2023/12/vento-vg07f-rgb-siyah-mid-tower-atx-hyper-pro-h3-650-80-bronze-gaming-kasa-yy.jpg",
     "store": "gamingGen"
   },
   {
@@ -976,7 +916,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/338703",
-    "name": "ELITE-7700XT / AMD Ryzen 7 5700X / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi",
+    "name": "ELITE-7700XT / AMD Ryzen 7 5700X / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 32799,
     "specs": {
       "CPU": "AMD Ryzen 7 5700X Tray 3.4GHz 32MB Önbellek 8 Çekirdek AM4 7nm İşlemci",
@@ -984,7 +924,7 @@
       "GPU": "ASUS DUAL Radeon RX 7700 XT OC 12GB GDDR6 192 Bit Ekran Kartı",
       "Ram": "Kingston Beast Black 16GB (2×8) 3200MHz CL16 Intel XMP 2.0 DDR4 Ram (KF432C16BB/8TR)",
       "Case": "ASUS A21 Plus ARGB Temperli Cam USB 3.2 mATX Mesh Siyah Mid Tower Gaming Kasa",
-      "Storage": "ADATA Legend 800 500GB PCIe Gen4 x4 Okuma 3500MB – Yazma 2800MB M.2 SSD (ALEG-800-500GCS)"
+      "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/03/asus-a21-plus-argb-temperli-cam-usb-3-2-matx-mesh-siyah-mid-tower-gaming-kasa.jpg",
     "store": "gamingGen"
@@ -1006,7 +946,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/338739",
-    "name": "ELITE-7800XT / AMD Ryzen 5 7500F MPK / ASUS Dual Radeon RX 7800 XT OC 16GB / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi",
+    "name": "ELITE-7800XT / AMD Ryzen 5 7500F MPK / ASUS Dual Radeon RX 7800 XT OC 16GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 37599.01,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 5.0GHz 32MB 6 Çekirdek AM5 işlemci\n",
@@ -1014,7 +954,7 @@
       "GPU": "ASUS Dual Radeon RX 7800 XT OC 16GB GDDR6 256 Bit Ekran Kartı",
       "Ram": "Lexar Thor OC 16GB (2x8GB) 6000MHz CL38 Intel XMP 3.0 / AMD EXPO DDR5 Ram (LD5U08G60C38LG-RGD)",
       "Case": "ASUS A21 Plus ARGB Temperli Cam USB 3.2 mATX Mesh Siyah Mid Tower Gaming Kasa",
-      "Storage": "ADATA Legend 800 500GB PCIe Gen4 x4 Okuma 3500MB – Yazma 2800MB M.2 SSD (ALEG-800-500GCS)"
+      "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/03/asus-a21-plus-argb-temperli-cam-usb-3-2-matx-mesh-siyah-mid-tower-gaming-kasa.jpg",
     "store": "gamingGen"
@@ -1022,10 +962,10 @@
   {
     "link": "https://www.gaming.gen.tr/urun/238640",
     "name": "ELITE-7900XT / AMD Ryzen 9 7900X / ASUS TUF GAMING RADEON RX 7900 XT 20GB OC / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
-    "price": 104498.99,
+    "price": 102999.01,
     "specs": {
       "CPU": "AMD Ryzen 9 7900X 5.6GHz 12 Çekirdek 64MB Önbellek Soket AM5 İşlemci",
-      "Motherboard": "ASUS TUF GAMING X670E-PLUS 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP Anakart",
+      "Motherboard": "Asus Prime X670-P-CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP ATX Anakart",
       "GPU": "ASUS TUF GAMING RADEON RX 7900 XT 20GB OC GDDR6 320 Bit Ekran Kartı",
       "Ram": "Corsair Vengeance RGB 32GB (2x16GB) 5600MHz CL40 AMD EXPO DDR5 Ram (CMH32GX5M2B5600Z40)",
       "Case": "ASUS TUF Gaming GT502 V2 Panaromik Temperli Cam USB 3.2 Mid Tower Kasa",
@@ -1172,10 +1112,10 @@
   {
     "link": "https://www.gaming.gen.tr/urun/278387",
     "name": "ELITE-ROG4090 / AMD Ryzen 9 7900X / ASUS ROG Strix GeForce RTX 4090 24GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 151699.99,
+    "price": 150699,
     "specs": {
       "CPU": "AMD Ryzen 9 7900X 5.6GHz 12 Çekirdek 64MB Önbellek Soket AM5 İşlemci",
-      "Motherboard": "ASUS TUF GAMING X670E-PLUS 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP Anakart\n",
+      "Motherboard": "Asus Prime X670-P-CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP ATX Anakart",
       "GPU": "ASUS ROG Strix GeForce RTX 4090 24GB GDDR6X 384 Bit DLSS 3 Ekran Kartı – Black Myth: Wukong Hediyeli",
       "Ram": "Corsair Vengeance RGB 32GB (2x16GB) 5600MHz CL40 AMD EXPO DDR5 Ram (CMH32GX5M2B5600Z40)",
       "Case": "ASUS ROG Strix Helios White Edition Tempered Glass RGB USB 3.1 Mid Tower Kasa",
@@ -1230,36 +1170,6 @@
     "store": "gamingGen"
   },
   {
-    "link": "https://www.gaming.gen.tr/urun/292863",
-    "name": "EPIC-13400F / INTEL i5-13400F / MSI Radeon RX 6800 Gaming Z Trio 16GB / 16GB RAM / 500GB SSD Sistem Tavsiyesi",
-    "price": 36499,
-    "specs": {
-      "CPU": "Intel Core i5-13400F 4.6GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci (BX8071513400F)",
-      "Motherboard": "MSI PRO H610M-B DDR4 3200MHz Soket 1700 M.2 HDMI VGA mATX Anakart",
-      "GPU": "MSI Radeon RX 6800 Gaming Z Trio 16G V1 16GB GDDR6 256 Bit Ekran Kartı",
-      "Ram": "XPG Gammix D35 16GB (2×8) 3200MHz CL16 DDR4 Ram (AX4U32008G16A-SBKD35)",
-      "Case": "VENTO VG07F RGB Siyah Mid Tower ATX FSP Hyper Pro H3-650 80+ Bronze Gaming Kasa",
-      "Storage": "MSI Spatium M450 500GB PCIe Gen4 x4 Okuma 3600MB – Yazma 2300MB M.2 SSD"
-    },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2023/12/vento-vg07f-rgb-siyah-mid-tower-atx-hyper-pro-h3-650-80-bronze-gaming-kasa-yy.jpg",
-    "store": "gamingGen"
-  },
-  {
-    "link": "https://www.gaming.gen.tr/urun/290342",
-    "name": "EPIC-3070 / INTEL i5-12400F / MSI GeForce RTX 3070 VENTUS 2X OC LHR 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 42199.01,
-    "specs": {
-      "CPU": "Intel Core i5-12400F 2.5GHz 18MB Önbellek 12 Çekirdek 1700 10nm İşlemci",
-      "Motherboard": "MSI PRO H610M-E 3200MHz DDR4 Soket 1700 M.2 HDMI VGA mATX Anakart",
-      "GPU": "MSI GeForce RTX 3070 VENTUS 2X OC LHR 8GB GDDR6 256 Bit Ekran Kartı",
-      "Ram": "Kingston Beast Black 16GB (2×8) 3200MHz CL16 Intel XMP 2.0 DDR4 Ram (KF432C16BB/8TR)",
-      "Case": "ENERMAX StarryFort SF21 Rainbow Temperli Cam Mesh USB 3.2 mATX Siyah Cyberbron II 600W 80+ Bronze Gaming Kasa",
-      "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
-    },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/06/enermax-starryfort-sf21-argb-temperli-cam-mesh-usb-3-2-matx-siyah-cyberbron-ii-600w-80-bronze-gaming-kasa-yyh1.jpg",
-    "store": "gamingGen"
-  },
-  {
     "link": "https://www.gaming.gen.tr/urun/323551",
     "name": "EPIC-4060 / INTEL i3-12100F / MSI GeForce RTX 4060 Ventus 2X Black 8GB OC / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 23998.99,
@@ -1290,28 +1200,13 @@
     "store": "gamingGen"
   },
   {
-    "link": "https://www.gaming.gen.tr/urun/410177",
-    "name": "EPIC-4070SUPER / INTEL i7-14700K / MSI GeForce RTX 4070 SUPER 12G Gaming X Slim 12GB / 16GB RAM / 1TB SSD Sistem Tavsiyesi",
-    "price": 69899,
-    "specs": {
-      "CPU": "Intel Core i7-14700K 5.6GHz 28MB Önbellek 20 Çekirdek 1700 İşlemci",
-      "Motherboard": "MSI B760 Gaming Plus WiFi 6800MHz (OC) DDR5 Soket 1700 M.2 DP HDMI ATX Anakart",
-      "GPU": "MSI GeForce RTX 4070 SUPER 12G Gaming X Slim 12GB GDDR6X 192 Bit DLSS 3 Ekran Kartı",
-      "Ram": "Lexar Thor OC 16GB (2x8GB) 6000MHz CL38 Intel XMP 3.0 / AMD EXPO DDR5 Ram (LD5U08G60C38LG-RGD)",
-      "Case": "MSI MAG FORGE 100R Tempered Glass ARGB USB 3.2 Mid Tower Kasa",
-      "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
-    },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2021/06/msi-mag-forge-100r-tempered-glass-argb-usb-3-2-mid-tower-kasa.jpg",
-    "store": "gamingGen"
-  },
-  {
     "link": "https://www.gaming.gen.tr/urun/471264",
-    "name": "EPIC-4070TISUPER / INTEL Core i7-14700K / MSI GeForce RTX 4070 Ti SUPER 16G VENTUS 2X White OC / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
+    "name": "EPIC-4070TISUPER / INTEL Core i7-14700K / MSI GeForce RTX 4070 Ti SUPER 16G Ventus 3X OC 16GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
     "price": 89999,
     "specs": {
       "CPU": "Intel Core i7-14700K 5.6GHz 28MB Önbellek 20 Çekirdek 1700 İşlemci",
       "Motherboard": "MSI PRO Z790-P WIFI 7000MHz (OC) DDR5 Soket 1700 M.2 HDMI DP ATX Anakart",
-      "GPU": "MSI GeForce RTX 4070 Ti SUPER 16G VENTUS 2X White OC 16GB GDDR6X 256 Bit DLSS 3 Beyaz Ekran Kartı",
+      "GPU": "MSI GeForce RTX 4070 Ti SUPER 16G Ventus 3X OC 16GB GDDR6X 256 Bit DLSS 3 Ekran Kartı",
       "Ram": "Corsair Vengeance 32GB (2x16GB) 5200 MHz RGB CL40 INTEL XMP 3.0 DDR5 Ram (CMH32GX5M2B5200C40)\n",
       "Case": "MSI GUNGNIR 300R ARGB Airflow Beyaz Mid Tower Gaming Kasa\n",
       "Storage": "Kingston 1TB KC3000 SKC3000S/1024G NVMe M.2 SSD (7000MB Okuma / 6000MB Yazma)"
@@ -1332,36 +1227,6 @@
       "Storage": "Kingston 1TB KC3000 SKC3000S/1024G NVMe M.2 SSD (7000MB Okuma / 6000MB Yazma)"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2023/10/msi-gungnir-300r-argb-airflow-beyaz-mid-tower-gaming-kasa-1.jpg",
-    "store": "gamingGen"
-  },
-  {
-    "link": "https://www.gaming.gen.tr/urun/292856",
-    "name": "EPIC-6800 / INTEL i5-12400F / MSI Radeon RX 6800 Gaming Z Trio 16G 16GB / 16GB RAM / 500GB SSD Sistem Tavsiyesi",
-    "price": 33899,
-    "specs": {
-      "CPU": "Intel Core i5-12400F 2.5GHz 18MB Önbellek 6 Çekirdek 1700 10nm İşlemci",
-      "Motherboard": "MSI PRO H610M-E 3200MHz DDR4 Soket 1700 M.2 HDMI VGA mATX Anakart\n",
-      "GPU": "MSI Radeon RX 6800 Gaming Z Trio 16G V1 16GB GDDR6 256 Bit Ekran Kartı",
-      "Ram": "XPG Gammix D35 16GB (2×8) 3200MHz CL16 DDR4 Ram",
-      "Case": "VENTO VG07F RGB Siyah Mid Tower ATX FSP Hyper Pro H3-650 80+ Bronze Gaming Kasa",
-      "Storage": "MSI Spatium M450 500GB PCIe Gen4 x4 Okuma 3600MB – Yazma 2300MB M.2 SSD"
-    },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2023/12/vento-vg07f-rgb-siyah-mid-tower-atx-hyper-pro-h3-650-80-bronze-gaming-kasa-yy.jpg",
-    "store": "gamingGen"
-  },
-  {
-    "link": "https://www.gaming.gen.tr/urun/410190",
-    "name": "EPIC-MAG4070SUPER / INTEL i5-14600K / MSI GeForce RTX 4070 SUPER 12G Gaming X Slim 12GB / 16GB RAM / 512GB SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 56499,
-    "specs": {
-      "CPU": "Intel Core i5-14600K 5.3GHz 24MB Önbellek 14 Çekirdek 1700 İşlemci",
-      "Motherboard": "MSI PRO H610M-E 3200MHz DDR4 Soket 1700 M.2 HDMI VGA mATX Anakart",
-      "GPU": "MSI GeForce RTX 4070 SUPER 12G Gaming X Slim 12GB GDDR6X 192 Bit DLSS 3 Ekran Kartı",
-      "Ram": "XPG Gammix D35 16GB (2×8) 3200MHz CL16 DDR4 Ram (AX4U32008G16A-SBKD35)",
-      "Case": "MSI MAG FORGE 100R Tempered Glass ARGB USB 3.2 Mid Tower Kasa",
-      "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
-    },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2021/06/msi-mag-forge-100r-tempered-glass-argb-usb-3-2-mid-tower-kasa.jpg",
     "store": "gamingGen"
   },
   {
@@ -1456,7 +1321,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/330042",
-    "name": "GAMING-4070 / AMD Ryzen 5 7600 TRAY / ASUS Dual GeForce RTX 4070 OC 12GB / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
+    "name": "GAMING-4070 / AMD Ryzen 5 7600 TRAY / ASUS Dual GeForce RTX 4070 OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
     "price": 41799,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
@@ -1464,7 +1329,7 @@
       "GPU": "Asus Dual GeForce RTX 4070 OC 12GB GDDR6X 192 Bit Ekran DLSS 3 Ekran Kartı",
       "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
       "Case": "ASUS TUF GAMING GT301 GamingGenTR Edition RGB Temperli Cam USB 3.2 Mid Tower Kasa\n",
-      "Storage": "ADATA Legend 800 500GB PCIe Gen4 x4 Okuma 3500MB – Yazma 2800MB M.2 SSD (ALEG-800-500GCS)"
+      "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2023/05/asus-tuf-gaming-gt301-gaminggentr-edition-rgb-temperli-cam-usb-3-2-mid-tower-kasa.jpg",
     "store": "gamingGen"
@@ -1486,7 +1351,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/449188",
-    "name": "GAMING-5700X3D / AMD Ryzen 7 5700X3D / Asus Dual GeForce RTX 4070 OC 12GB / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
+    "name": "GAMING-5700X3D / AMD Ryzen 7 5700X3D / Asus Dual GeForce RTX 4070 OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
     "price": 41399,
     "specs": {
       "CPU": "AMD Ryzen 7 5700X3D Tray 4.1GHz 96 MB Önbellek 8 Çekirdek AM4 7nm İşlemci",
@@ -1494,7 +1359,7 @@
       "GPU": "Asus Dual GeForce RTX 4070 OC 12GB GDDR6X 192 Bit Ekran DLSS 3 Ekran Kartı",
       "Ram": "Kingston Beast Black 16GB (2×8) 3200MHz CL16 Intel XMP 2.0 DDR4 Ram (KF432C16BB/8TR)",
       "Case": "ASUS A21 Plus ARGB Temperli Cam USB 3.2 mATX Mesh Siyah Mid Tower Gaming Kasa",
-      "Storage": "ADATA Legend 800 500GB PCIe Gen4 x4 Okuma 3500MB – Yazma 2800MB M.2 SSD (ALEG-800-500GCS)"
+      "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/03/asus-a21-plus-argb-temperli-cam-usb-3-2-matx-mesh-siyah-mid-tower-gaming-kasa.jpg",
     "store": "gamingGen"
@@ -1606,7 +1471,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/352917",
-    "name": "GAMING-DUAL7800XT / AMD Ryzen 5 7500F MPK / ASUS Dual Radeon RX 7800 XT OC 16GB / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi",
+    "name": "GAMING-DUAL7800XT / AMD Ryzen 5 7500F MPK / ASUS Dual Radeon RX 7800 XT OC 16GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 36699.01,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
@@ -1614,7 +1479,7 @@
       "GPU": "ASUS Dual Radeon RX 7800 XT OC 16GB GDDR6 256 Bit Ekran Kartı",
       "Ram": "Lexar Thor OC 16GB (2x8GB) 6000MHz CL38 Intel XMP 3.0 / AMD EXPO DDR5 Ram (LD5U08G60C38LG-RGD)",
       "Case": "XPG Valor Mesh RGB Siyah Mid Tower 650W 80+ White Gaming Kasa",
-      "Storage": "ADATA Legend 800 500GB PCIe Gen4 x4 Okuma 3500MB – Yazma 2800MB M.2 SSD (ALEG-800-500GCS)\n"
+      "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2023/08/xpg-valor-mesh-rgb-siyah-mid-tower-650w-80-white-gaming-kasa-y.jpg",
     "store": "gamingGen"
@@ -1711,7 +1576,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/493135",
-    "name": "GG-4070S / AMD Ryzen 7 7800X3D / ASUS DUAL GeForce RTX 4070 SUPER EVO 12GB / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
+    "name": "GG-4070S / AMD Ryzen 7 7800X3D / ASUS DUAL GeForce RTX 4070 SUPER EVO 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
     "price": 54099,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci\n",
@@ -1719,7 +1584,7 @@
       "GPU": "ASUS DUAL GeForce RTX 4070 SUPER EVO 12GB GDDR6X 192 Bit DLSS 3 Ekran Kartı – Black Myth: Wukong Hediyeli",
       "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
       "Case": "ASUS A21 Plus ARGB Temperli Cam USB 3.2 mATX Mesh Siyah Mid Tower Gaming Kasa",
-      "Storage": "ADATA Legend 800 500GB PCIe Gen4 x4 Okuma 3500MB – Yazma 2800MB M.2 SSD (ALEG-800-500GCS)"
+      "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/03/asus-a21-plus-argb-temperli-cam-usb-3-2-matx-mesh-siyah-mid-tower-gaming-kasa.jpg",
     "store": "gamingGen"
@@ -1950,6 +1815,21 @@
     "store": "gamingGen"
   },
   {
+    "link": "https://www.gaming.gen.tr/urun/363639",
+    "name": "LUNAR-FENIX4080SUPER / INTEL i5-14600K / GALAX GeForce RTX 4080 SUPER SG 1-Click OC 16GB / 16GB RAM / 1TB M.2 SSD Gaming Bilgisayar – Black Myth: Wukong Hediyeli",
+    "price": 73698.99,
+    "specs": {
+      "CPU": "Intel Core i5-14600K 5.3GHz 24MB Önbellek 14 Çekirdek 1700 İşlemci",
+      "Motherboard": "ASUS PRIME B760M-K 8000MHz (OC) DDR5 Soket 1700 M.2 HDMI mATX Anakart",
+      "GPU": "GALAX GeForce RTX 4080 SUPER SG 1-Click OC 16GB GDDR6X 256 Bit DLSS 3 Ekran Kartı (48SZM6MD9RSG) – 2 Yıl Birebir Değişim Garantili",
+      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 INTEL XMP 3.0 DDR5 Ram (CMK16GX5M1B5200C40)",
+      "Case": "BITFENIX Enso Mesh ARGB USB 3.0 Mid Tower E-ATX destekli Gaming Kasa (ESM-150-KKWGK-4A)",
+      "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
+    },
+    "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/03/bitfenix-enso-mesh-argb-usb-3-0-mid-tower-e-atx-destekli-gaming-kasa.jpg",
+    "store": "gamingGen"
+  },
+  {
     "link": "https://www.gaming.gen.tr/urun/505415",
     "name": "LUNAR-MASTER14600K / INTEL Core i5-14600K / GALAX GeForce RTX 4070 Ti SUPER EX Gamer 1-Click OC 16 GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
     "price": 64999,
@@ -2161,7 +2041,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/493382",
-    "name": "MANTIS-DUAL7700XT / AMD Ryzen 5 7600 TRAY / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi",
+    "name": "MANTIS-DUAL7700XT / AMD Ryzen 5 7600 TRAY / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 33499.01,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
@@ -2169,14 +2049,14 @@
       "GPU": "ASUS DUAL Radeon RX 7700 XT OC 12GB GDDR6 192 Bit Ekran Kartı",
       "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
       "Case": "ENERMAX StarryFort SF21 Rainbow Temperli Cam Mesh USB 3.2 mATX Siyah Cyberbron II 600W 80+ Bronze Gaming Kasa",
-      "Storage": "ADATA Legend 800 500GB PCIe Gen4 x4 Okuma 3500MB – Yazma 2800MB M.2 SSD (ALEG-800-500GCS)"
+      "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/06/enermax-starryfort-sf21-argb-temperli-cam-mesh-usb-3-2-matx-siyah-cyberbron-ii-600w-80-bronze-gaming-kasa-yyh1.jpg",
     "store": "gamingGen"
   },
   {
     "link": "https://www.gaming.gen.tr/urun/493266",
-    "name": "MANTIS-DUAL7800XT / AMD Ryzen 5 7600 TRAY / ASUS Dual Radeon RX 7800 XT OC 16GB / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi",
+    "name": "MANTIS-DUAL7800XT / AMD Ryzen 5 7600 TRAY / ASUS Dual Radeon RX 7800 XT OC 16GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 37999,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
@@ -2184,14 +2064,14 @@
       "GPU": "ASUS Dual Radeon RX 7800 XT OC 16GB GDDR6 256 Bit Ekran Kartı",
       "Ram": "Corsair Vengeance 16GB 5200MHz CL40 INTEL XMP 3.0 DDR5 Ram (CMK16GX5M1B5200C40)",
       "Case": "ENERMAX StarryFort SF21 Rainbow Temperli Cam Mesh USB 3.2 mATX Siyah Cyberbron II 600W 80+ Bronze Gaming Kasa",
-      "Storage": "ADATA Legend 800 500GB PCIe Gen4 x4 Okuma 3500MB – Yazma 2800MB M.2 SSD (ALEG-800-500GCS)\n"
+      "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/06/enermax-starryfort-sf21-argb-temperli-cam-mesh-usb-3-2-matx-siyah-cyberbron-ii-600w-80-bronze-gaming-kasa-yyh1.jpg",
     "store": "gamingGen"
   },
   {
     "link": "https://www.gaming.gen.tr/urun/330003",
-    "name": "MANTIS-TUF4070 / INTEL i5-13400F / ASUS Dual GeForce RTX 4070 OC 12GB / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
+    "name": "MANTIS-TUF4070 / INTEL i5-13400F / ASUS Dual GeForce RTX 4070 OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
     "price": 42999,
     "specs": {
       "CPU": "Intel Core i5-13400F 4.6GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci",
@@ -2199,7 +2079,7 @@
       "GPU": "Asus Dual GeForce RTX 4070 OC 12GB GDDR6X 192 Bit Ekran DLSS 3 Ekran Kartı",
       "Ram": "XPG Gammix D35 16GB (2×8) 3200MHz CL16 DDR4 Ram (AX4U32008G16A-SBKD35)",
       "Case": "ASUS TUF Gaming GT302 TG ARGB Temperli Cam USB 3.2 Siyah Mid Tower E-ATX Gaming Kasa",
-      "Storage": "ADATA Legend 800 500GB PCIe Gen4 x4 Okuma 3500MB – Yazma 2800MB M.2 SSD (ALEG-800-500GCS)"
+      "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/05/asus-tuf-gaming-gt302-tg-argb-temperli-cam-usb-3-2-siyah-mid-tower-e-atx-gaming-kasa-1.webp",
     "store": "gamingGen"
@@ -2232,36 +2112,6 @@
       "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2022/02/msi-mag-forge-100r-b65-650w-80-tempered-glass-argb-usb-3-2-atx-mid-tower-kasa-1.jpg",
-    "store": "gamingGen"
-  },
-  {
-    "link": "https://www.gaming.gen.tr/urun/333205",
-    "name": "MAXIMA-5600 / AMD Ryzen 5 5600 MPK / MSI Radeon RX 6800 Gaming Z Trio 16GB / 16GB RAM / 500GB SSD Sistem Tavsiyesi",
-    "price": 31999,
-    "specs": {
-      "CPU": "AMD Ryzen 5 5600 MPK 3.5GHz 32MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
-      "Motherboard": "MSI B450M-A PRO MAX 4133MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
-      "GPU": "MSI Radeon RX 6800 Gaming Z Trio 16G V1 16GB GDDR6 256 Bit Ekran Kartı",
-      "Ram": "XPG Gammix D35 16GB (2×8) 3200MHz CL16 DDR4 Ram (AX4U32008G16A-SBKD35)",
-      "Case": "VENTO VG07F RGB Siyah Mid Tower ATX FSP Hyper Pro H3-650 80+ Bronze Gaming Kasa",
-      "Storage": "MSI Spatium M450 500GB PCIe Gen4 x4 Okuma 3600MB – Yazma 2300MB M.2 SSD"
-    },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2023/12/vento-vg07f-rgb-siyah-mid-tower-atx-hyper-pro-h3-650-80-bronze-gaming-kasa-yy.jpg",
-    "store": "gamingGen"
-  },
-  {
-    "link": "https://www.gaming.gen.tr/urun/292846",
-    "name": "MAXIMA-6800 / AMD Ryzen 5 7500F MPK / MSI Radeon RX 6800 Gaming Z Trio 16G V1 16GB / 16GB RAM / 500GB SSD Sistem Tavsiyesi",
-    "price": 36199,
-    "specs": {
-      "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
-      "Motherboard": "MSI PRO A620M-E 6000MHz (OC) DDR5 Soket AM5 M.2 mATX Anakart",
-      "GPU": "MSI Radeon RX 6800 Gaming Z Trio 16G V1 16GB GDDR6 256 Bit Ekran Kartı",
-      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Bulk Ram (CMK5X16G1B52Z40A2",
-      "Case": "VENTO VG07F RGB Siyah Mid Tower ATX FSP Hyper Pro H3-650 80+ Bronze Gaming Kasa\n",
-      "Storage": "MSI Spatium M450 500GB PCIe Gen4 x4 Okuma 3600MB – Yazma 2300MB M.2 SSD"
-    },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2023/12/vento-vg07f-rgb-siyah-mid-tower-atx-hyper-pro-h3-650-80-bronze-gaming-kasa-yy.jpg",
     "store": "gamingGen"
   },
   {
@@ -2423,6 +2273,21 @@
       "Motherboard": "ASUS Prime B650M-R 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart",
       "GPU": "GALAX GeForce RTX 4070 Ti SUPER EX Gamer 1-Click OC 16 GB GDDR6X 256 Bit DLSS 3 Ekran Kartı (47UZM6MD9BUP) – 2 Yıl Birebir Değişim Garantili",
       "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Bulk Kutusuz Ram (CMK5X16G1B52Z40A2)",
+      "Case": "VENTO VG4200S RGB Temperli Cam USB 3.0 Mesh Siyah E-ATX FSP Hydro K Pro Gen5 750W 80+ Bronze Gaming Kasa",
+      "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
+    },
+    "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/07/vento-vg4200s-rgb-temperli-cam-usb-3-0-mesh-siyah-e-atx-fsp-hydro-k-pro-gen5-750w-80-bronze-bronze-gaming-kasa-1.jpg",
+    "store": "gamingGen"
+  },
+  {
+    "link": "https://www.gaming.gen.tr/urun/443291",
+    "name": "MIRANA-4080SUPER / AMD Ryzen 5 7600 TRAY / GALAX GeForce RTX 4080 SUPER SG 1-Click OC 16GB / 16GB RAM / 1TB M.2 SSD Gaming Bilgisayar – Black Myth: Wukong Hediyeli",
+    "price": 64499,
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
+      "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
+      "GPU": "GALAX GeForce RTX 4080 SUPER SG 1-Click OC 16GB GDDR6X 256 Bit DLSS 3 Ekran Kartı (48SZM6MD9RSG) – 2 Yıl Birebir Değişim Garantili",
+      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
       "Case": "VENTO VG4200S RGB Temperli Cam USB 3.0 Mesh Siyah E-ATX FSP Hydro K Pro Gen5 750W 80+ Bronze Gaming Kasa",
       "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
     },
@@ -2761,7 +2626,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/338693",
-    "name": "NOVA-7700XT / AMD Ryzen 7 5700X TRAY / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi",
+    "name": "NOVA-7700XT / AMD Ryzen 7 5700X TRAY / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 31799.01,
     "specs": {
       "CPU": "AMD Ryzen 7 5700X Tray 3.4GHz 32MB Önbellek 8 Çekirdek AM4 7nm İşlemci",
@@ -2769,7 +2634,7 @@
       "GPU": "ASUS DUAL Radeon RX 7700 XT OC 12GB GDDR6 192 Bit Ekran Kartı",
       "Ram": "Kingston Beast Black 16GB (2×8) 3200MHz CL16 Intel XMP 2.0 DDR4 Ram (KF432C16BB/8TR)",
       "Case": "ENERMAX StarryFort SF21 Rainbow Temperli Cam Mesh USB 3.2 mATX Siyah Cyberbron II 600W 80+ Bronze Gaming Kasa",
-      "Storage": "ADATA Legend 800 500GB PCIe Gen4 x4 Okuma 3500MB – Yazma 2800MB M.2 SSD (ALEG-800-500GCS)"
+      "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/06/enermax-starryfort-sf21-argb-temperli-cam-mesh-usb-3-2-matx-siyah-cyberbron-ii-600w-80-bronze-gaming-kasa-yyh1.jpg",
     "store": "gamingGen"
@@ -2791,7 +2656,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/386032",
-    "name": "NOVA-7800XT / INTEL i5-13400F / ASUS Dual Radeon RX 7800 XT OC 16GB / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi",
+    "name": "NOVA-7800XT / INTEL i5-13400F / ASUS Dual Radeon RX 7800 XT OC 16GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 46998.99,
     "specs": {
       "CPU": "Intel Core i5-14600K 5.3GHz 24MB Önbellek 14 Çekirdek 1700 İşlemci",
@@ -2799,7 +2664,7 @@
       "GPU": "ASUS Dual Radeon RX 7800 XT OC 16GB GDDR6 256 Bit Ekran Kartı",
       "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)\n",
       "Case": "ASUS A21 Plus ARGB Temperli Cam USB 3.2 mATX Mesh Siyah Mid Tower Gaming Kasa",
-      "Storage": "ADATA Legend 800 500GB PCIe Gen4 x4 Okuma 3500MB – Yazma 2800MB M.2 SSD (ALEG-800-500GCS)"
+      "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/03/asus-a21-plus-argb-temperli-cam-usb-3-2-matx-mesh-siyah-mid-tower-gaming-kasa.jpg",
     "store": "gamingGen"
@@ -2836,7 +2701,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/386230",
-    "name": "NOVA-DUAL7700XT / INTEL i5-12400F / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi",
+    "name": "NOVA-DUAL7700XT / INTEL i5-12400F / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 30299.01,
     "specs": {
       "CPU": "Intel Core i5-12400F 2.5GHz 18MB Önbellek 12 Çekirdek 1700 10nm İşlemci",
@@ -2844,7 +2709,7 @@
       "GPU": "ASUS DUAL Radeon RX 7700 XT OC 12GB GDDR6 192 Bit Ekran Kartı",
       "Ram": "XPG Gammix D35 16GB (2×8) 3200MHz CL16 DDR4 Ram (AX4U32008G16A-SBKD35)",
       "Case": "ENERMAX StarryFort SF21 Rainbow Temperli Cam Mesh USB 3.2 mATX Siyah Cyberbron II 600W 80+ Bronze Gaming Kasa",
-      "Storage": "ADATA Legend 800 500GB PCIe Gen4 x4 Okuma 3500MB – Yazma 2800MB M.2 SSD (ALEG-800-500GCS)"
+      "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/06/enermax-starryfort-sf21-argb-temperli-cam-mesh-usb-3-2-matx-siyah-cyberbron-ii-600w-80-bronze-gaming-kasa-yyh1.jpg",
     "store": "gamingGen"
@@ -2866,7 +2731,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/326025",
-    "name": "NOVA-TUF4070 / INTEL i5-12400F / ASUS Dual GeForce RTX 4070 OC 12GB / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
+    "name": "NOVA-TUF4070 / INTEL i5-12400F / ASUS Dual GeForce RTX 4070 OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
     "price": 39599,
     "specs": {
       "CPU": "Intel Core i5-12400F 2.5GHz 18MB Önbellek 12 Çekirdek 1700 10nm İşlemci",
@@ -2874,7 +2739,7 @@
       "GPU": "Asus Dual GeForce RTX 4070 OC 12GB GDDR6X 192 Bit Ekran DLSS 3 Ekran Kartı",
       "Ram": "XPG Gammix D35 16GB (2×8) 3200MHz CL16 DDR4 Ram (AX4U32008G16A-SBKD35)",
       "Case": "ASUS TUF GAMING GT301 GamingGenTR Edition RGB Temperli Cam USB 3.2 Mid Tower Kasa\n",
-      "Storage": "ADATA Legend 800 500GB PCIe Gen4 x4 Okuma 3500MB – Yazma 2800MB M.2 SSD (ALEG-800-500GCS)"
+      "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2023/05/asus-tuf-gaming-gt301-gaminggentr-edition-rgb-temperli-cam-usb-3-2-mid-tower-kasa.jpg",
     "store": "gamingGen"
@@ -2982,6 +2847,21 @@
       "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/03/asus-a21-plus-argb-temperli-cam-usb-3-2-matx-mesh-siyah-mid-tower-gaming-kasa.jpg",
+    "store": "gamingGen"
+  },
+  {
+    "link": "https://www.gaming.gen.tr/urun/416973",
+    "name": "OPTIMA-4080SUPER / INTEL i7-14700K / GALAX GeForce RTX 4080 SUPER SG 1-Click OC 16GB / 16GB RAM / 1TB M.2 SSD Gaming Bilgisayar – Black Myth: Wukong Hediyeli",
+    "price": 79498.98,
+    "specs": {
+      "CPU": "Intel Core i7-14700K 5.6GHz 28MB Önbellek 20 Çekirdek 1700 İşlemci",
+      "Motherboard": "ASUS PRIME B760M-K 8000MHz (OC) DDR5 Soket 1700 M.2 HDMI mATX Anakart",
+      "GPU": "GALAX GeForce RTX 4080 SUPER SG 1-Click OC 16GB GDDR6X 256 Bit DLSS 3 Ekran Kartı (48SZM6MD9RSG) – 2 Yıl Birebir Değişim Garantili",
+      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 INTEL XMP 3.0 DDR5 Ram (CMK16GX5M1B5200C40)",
+      "Case": "Corsair iCUE 3000D RGB AIRFLOW USB 3.2 Mid Tower ATX Gaming Kasa (CC-9011255-WW)",
+      "Storage": "Kingston 1TB KC3000 SKC3000S/1024G NVMe M.2 SSD (7000MB Okuma / 6000MB Yazma)"
+    },
+    "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/02/corsair-icue-3000d-rgb-usb-3-2-mid-tower-atx-gaming-kasa-cc-9011255-ww.jpg",
     "store": "gamingGen"
   },
   {
@@ -3135,21 +3015,6 @@
     "store": "gamingGen"
   },
   {
-    "link": "https://www.gaming.gen.tr/urun/410071",
-    "name": "PARDUS-MAG4070SUPER / AMD Ryzen 7 5700X3D TRAY / MSI GeForce RTX 4070 SUPER 12G Gaming X Slim 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 49999,
-    "specs": {
-      "CPU": "AMD Ryzen 7 5700X3D Tray 4.1GHz 96 MB Önbellek 8 Çekirdek AM4 7nm İşlemci",
-      "Motherboard": "MSI B450M-A PRO MAX 4133MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
-      "GPU": "MSI GeForce RTX 4070 SUPER 12G Gaming X Slim 12GB GDDR6X 192 Bit DLSS 3 Ekran Kartı",
-      "Ram": "XPG Gammix D35 16GB (2×8) 3200MHz CL16 DDR4 Ram",
-      "Case": "MSI MAG FORGE 100R Tempered Glass ARGB USB 3.2 Mid Tower Kasa",
-      "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
-    },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2021/06/msi-mag-forge-100r-tempered-glass-argb-usb-3-2-mid-tower-kasa.jpg",
-    "store": "gamingGen"
-  },
-  {
     "link": "https://www.gaming.gen.tr/urun/505747",
     "name": "PARDUS-MAG4070TISUPER / AMD Ryzen 5 7600 TRAY / MSI GeForce RTX 4070 Ti SUPER 16G Ventus 3X OC / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 55998.99,
@@ -3182,7 +3047,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/450294",
     "name": "PLATINUM-4070TISUPER / RYZEN 7 7800X3D / ASUS ROG Strix GeForce RTX 4070 Ti SUPER OC 16GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 112971.02,
+    "price": 117999,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "Asus Rog Strix B650E-E Gaming WiFi 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP Anakart",
@@ -3197,10 +3062,10 @@
   {
     "link": "https://www.gaming.gen.tr/urun/311329",
     "name": "PLATINUM-4090 / AMD Ryzen 9 7900X / ASUS ROG Strix GeForce RTX 4090 24GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 156781.41,
+    "price": 157599.01,
     "specs": {
       "CPU": "AMD Ryzen 9 7900X 5.6GHz 12 Çekirdek 64MB Önbellek Soket AM5 İşlemci",
-      "Motherboard": "Asus Rog Strix X670E-A Gaming WiFi 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP ATX Anakart (90MB1BM0-M0EAY0)\n",
+      "Motherboard": "Asus Rog Strix X670E-F Gaming WiFi Soket AM5 6400MHz(OC) DDR5 DP HDMI Aura RGB ATX Anakart",
       "GPU": "ASUS ROG Strix GeForce RTX 4090 24GB GDDR6X 384 Bit DLSS 3 Ekran Kartı – Black Myth: Wukong Hediyeli",
       "Ram": "Corsair Vengeance RGB 32GB (2x16GB) 6000MHz CL36 INTEL XMP 3.0 DDR5 Ram (CMH32GX5M2D6000C36W)",
       "Case": "HYTE Y70 Touch Siyah-Kırmızı Temperli Cam USB 3.2 E-ATX Dual Chamber Mid Tower Dokunmatik Ekranlı Gaming Kasa (CS-HYTE-Y70-BR-L)",
@@ -3212,10 +3077,10 @@
   {
     "link": "https://www.gaming.gen.tr/urun/472253",
     "name": "PLATINUM-WHITE4090 / AMD Ryzen 9 7950X3D TRAY / ASUS ROG Strix GeForce RTX 4090 24GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 171799.01,
+    "price": 177599,
     "specs": {
       "CPU": "AMD Ryzen 9 7950X3D Tray 5.7GHz 128MB Önbellek 16 Çekirdek AM5 6nm İşlemci",
-      "Motherboard": "Asus Rog Strix X670E-A Gaming WiFi 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP ATX Anakart (90MB1BM0-M0EAY0)",
+      "Motherboard": "Asus Rog Strix X670E-F Gaming WiFi Soket AM5 6400MHz(OC) DDR5 DP HDMI Aura RGB ATX Anakart",
       "GPU": "ASUS ROG Strix GeForce RTX 4090 24GB GDDR6X 384 Bit DLSS 3 Ekran Kartı – Black Myth: Wukong Hediyeli",
       "Ram": "Corsair Vengeance RGB 32GB (2x16GB) 6000MHz CL36 INTEL XMP 3.0 DDR5 Ram (CMH32GX5M2D6000C36W)",
       "Case": "ASUS ROG Strix Hyperion GR701 Tempered Glass ARGB USB 3.2 High Tower Beyaz Kasa",
@@ -3331,7 +3196,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/338719",
-    "name": "RAPTOR-DUAL7800XT / INTEL i5-14600K / ASUS Dual Radeon RX 7800 XT OC 16GB / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi",
+    "name": "RAPTOR-DUAL7800XT / INTEL i5-14600K / ASUS Dual Radeon RX 7800 XT OC 16GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 46499.01,
     "specs": {
       "CPU": "Intel Core i5-14600K 5.3GHz 24MB Önbellek 14 Çekirdek 1700 İşlemci",
@@ -3339,7 +3204,7 @@
       "GPU": "ASUS Dual Radeon RX 7800 XT OC 16GB GDDR6 256 Bit Ekran Kartı",
       "Ram": "Corsair Vengeance 16GB 5200MHz CL40 INTEL XMP 3.0 DDR5 Ram (CMK16GX5M1B5200C40)",
       "Case": "ENERMAX StarryFort SF21 Rainbow Temperli Cam Mesh USB 3.2 mATX Siyah Cyberbron II 600W 80+ Bronze Gaming Kasa",
-      "Storage": "ADATA Legend 800 500GB PCIe Gen4 x4 Okuma 3500MB – Yazma 2800MB M.2 SSD (ALEG-800-500GCS)\n"
+      "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/06/enermax-starryfort-sf21-argb-temperli-cam-mesh-usb-3-2-matx-siyah-cyberbron-ii-600w-80-bronze-gaming-kasa-yyh1.jpg",
     "store": "gamingGen"
@@ -3376,7 +3241,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/330052",
-    "name": "RAPTOR-TUF4070 / INTEL i5-13400F / ASUS Dual GeForce RTX 4070 OC 12GB / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
+    "name": "RAPTOR-TUF4070 / INTEL i5-13400F / ASUS Dual GeForce RTX 4070 OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
     "price": 39599.01,
     "specs": {
       "CPU": "Intel Core i5-13400F 4.6GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci (BX8071513400F)",
@@ -3384,7 +3249,7 @@
       "GPU": "Asus Dual GeForce RTX 4070 OC 12GB GDDR6X 192 Bit Ekran DLSS 3 Ekran Kartı",
       "Ram": "XPG Gammix D35 16GB (2×8) 3200MHz CL16 DDR4 Ram (AX4U32008G16A-SBKD35)",
       "Case": "ASUS TUF GAMING GT301 GamingGenTR Edition RGB Temperli Cam USB 3.1 Mid Tower Kasa\n",
-      "Storage": "ADATA Legend 800 500GB PCIe Gen4 x4 Okuma 3500MB – Yazma 2800MB M.2 SSD (ALEG-800-500GCS)"
+      "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2023/05/asus-tuf-gaming-gt301-gaminggentr-edition-rgb-temperli-cam-usb-3-2-mid-tower-kasa.jpg",
     "store": "gamingGen"
@@ -3406,7 +3271,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/435421",
-    "name": "RAPTOR-TUF7700XT / INTEL Core i5-13400F / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi",
+    "name": "RAPTOR-TUF7700XT / INTEL Core i5-13400F / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 34998.99,
     "specs": {
       "CPU": "Intel Core i5-13400F 4.6GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci (BX8071513400F)",
@@ -3414,7 +3279,7 @@
       "GPU": "ASUS DUAL Radeon RX 7700 XT OC 12GB GDDR6 192 Bit Ekran Kartı",
       "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
       "Case": "Corsair iCUE 3000D RGB USB 3.2 Mid Tower ATX Gaming Kasa (CC-9011255-WW)",
-      "Storage": "ADATA Legend 800 500GB PCIe Gen4 x4 Okuma 3500MB – Yazma 2800MB M.2 SSD (ALEG-800-500GCS)"
+      "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/02/corsair-icue-3000d-rgb-usb-3-2-mid-tower-atx-gaming-kasa-cc-9011255-ww.jpg",
     "store": "gamingGen"
@@ -3522,6 +3387,21 @@
       "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/02/corsair-icue-3000d-rgb-usb-3-2-mid-tower-atx-gaming-kasa-cc-9011255-ww.jpg",
+    "store": "gamingGen"
+  },
+  {
+    "link": "https://www.gaming.gen.tr/urun/416951",
+    "name": "SUNRISE-4080SUPER / AMD Ryzen 7 7600 TRAY / GALAX GeForce RTX 4080 SUPER SG 1-Click OC 16GB / 16GB RAM / 1TB M.2 SSD Gaming Bilgisayar – Black Myth: Wukong Hediyeli",
+    "price": 63499,
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
+      "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
+      "GPU": "GALAX GeForce RTX 4080 SUPER SG 1-Click OC 16GB GDDR6X 256 Bit DLSS 3 Ekran Kartı (48SZM6MD9RSG) – 2 Yıl Birebir Değişim Garantili",
+      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)\n",
+      "Case": "ASUS A21 Plus ARGB Temperli Cam USB 3.2 mATX Mesh Siyah Mid Tower Gaming Kasa",
+      "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
+    },
+    "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/03/asus-a21-plus-argb-temperli-cam-usb-3-2-matx-mesh-siyah-mid-tower-gaming-kasa.jpg",
     "store": "gamingGen"
   },
   {
@@ -4005,21 +3885,6 @@
     "store": "gamingGen"
   },
   {
-    "link": "https://www.gaming.gen.tr/urun/410075",
-    "name": "VORTEX-MAG4070SUPER / INTEL i5-14400F / MSI GeForce RTX 4070 SUPER 12G Gaming X Slim 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 51999.01,
-    "specs": {
-      "CPU": "Intel Core i5-14400F 4.7GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci",
-      "Motherboard": "MSI Pro H610M-E 5600MHz (OC) DDR5 Soket 1700 M.2 HDMI VGA mATX Anakart",
-      "GPU": "MSI GeForce RTX 4070 SUPER 12G Gaming X Slim 12GB GDDR6X 192 Bit DLSS 3 Ekran Kartı",
-      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
-      "Case": "MSI MAG FORGE 100R Tempered Glass ARGB USB 3.2 Mid Tower Kasa",
-      "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
-    },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2021/06/msi-mag-forge-100r-tempered-glass-argb-usb-3-2-mid-tower-kasa.jpg",
-    "store": "gamingGen"
-  },
-  {
     "link": "https://www.gaming.gen.tr/urun/359769",
     "name": "VULCAN-4060 / AMD Ryzen 5 5500 MPK / GALAX GeForce RTX 4060 1-Click OC 2X V2 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 22799.01,
@@ -4092,6 +3957,21 @@
       "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/03/asus-a21-plus-argb-temperli-cam-usb-3-2-matx-mesh-siyah-mid-tower-gaming-kasa.jpg",
+    "store": "gamingGen"
+  },
+  {
+    "link": "https://www.gaming.gen.tr/urun/384379",
+    "name": "VULCAN-4080SUPER / AMD Ryzen 7 7800X3D / GALAX GeForce RTX 4080 SUPER SG 1-Click OC 16GB / 16GB RAM / 1 TB M.2 SSD Gaming Bilgisayar – Black Myth: Wukong Hediyeli",
+    "price": 74998.99,
+    "specs": {
+      "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci\n",
+      "Motherboard": "ASUS EX-B650M-V7 8000MHz (OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart",
+      "GPU": "GALAX GeForce RTX 4080 SUPER SG 1-Click OC 16GB GDDR6X 256 Bit DLSS 3 Ekran Kartı (48SZM6MD9RSG) – 2 Yıl Birebir Değişim Garantili",
+      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 INTEL XMP 3.0 DDR5 Ram (CMK16GX5M1B5200C40)",
+      "Case": "Corsair iCUE 3000D RGB AIRFLOW USB 3.2 Mid Tower ATX Gaming Kasa (CC-9011255-WW)",
+      "Storage": "Kingston 1TB KC3000 SKC3000S/1024G NVMe M.2 SSD (7000MB Okuma / 6000MB Yazma)"
+    },
+    "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/02/corsair-icue-3000d-rgb-usb-3-2-mid-tower-atx-gaming-kasa-cc-9011255-ww.jpg",
     "store": "gamingGen"
   },
   {
