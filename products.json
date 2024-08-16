@@ -31,12 +31,12 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/352894",
-    "name": "75FPS-4060 / INTEL i5-14400F / ASUS Dual GeForce RTX 4060 OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 31299,
+    "name": "75FPS-4060 / INTEL i5-14400F / ASUS DUAL GeForce RTX 4060 EVO OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
+    "price": 30999.01,
     "specs": {
       "CPU": "Intel Core i5-14400F 4.7GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart",
-      "GPU": "ASUS Dual GeForce RTX 4060 OC 8GB GDDR6 128 Bit Beyaz DLSS 3 Ekran Kartı",
+      "GPU": "ASUS DUAL GeForce RTX 4060 EVO OC 8GB GDDR6 128 Bit DLSS 3 Ekran Kartı",
       "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
       "Case": "ENERMAX StarryFort SF21 Rainbow Temperli Cam Mesh USB 3.2 mATX Siyah Cyberbron II 600W 80+ Bronze Gaming Kasa",
       "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
@@ -152,10 +152,10 @@
   {
     "link": "https://www.gaming.gen.tr/urun/455564",
     "name": "BLADE-4070TISUPER / AMD Ryzen 7 7800X3D / ASUS ROG Strix GeForce RTX 4070 Ti SUPER OC 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 98499,
+    "price": 96999.01,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci",
-      "Motherboard": "Asus Rog Strix B650E-E Gaming WiFi 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP Anakart",
+      "Motherboard": "Asus Prime X670-P-CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP ATX Anakart",
       "GPU": "ASUS ROG Strix GeForce RTX 4070 Ti SUPER OC 16GB GDDR6X 256 Bit DLSS 3 Ekran Kartı",
       "Ram": "Corsair Vengeance 16GB 5200MHz CL40 INTEL XMP 3.0 DDR5 Ram (CMK16GX5M1B5200C40)",
       "Case": "HYTE Y70 Touch Siyah-Kırmızı Temperli Cam USB 3.2 E-ATX Dual Chamber Mid Tower Dokunmatik Ekranlı Gaming Kasa (CS-HYTE-Y70-BR-L)",
@@ -285,13 +285,43 @@
     "store": "gamingGen"
   },
   {
+    "link": "https://www.gaming.gen.tr/urun/513718",
+    "name": "BLADE-9600X / AMD Ryzen 5 9600X / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
+    "price": 45998.99,
+    "specs": {
+      "CPU": "AMD Ryzen 5 9600X 3.9GHz 32MB Önbellek 6 Çekirdek AM5 4nm İşlemci",
+      "Motherboard": "ASUS Tuf Gaming B650M-E 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP mATX Anakart\n",
+      "GPU": "ASUS DUAL Radeon RX 7700 XT OC 12GB GDDR6 192 Bit Ekran Kartı",
+      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
+      "Case": "Corsair iCUE 3000D RGB USB 3.2 Mid Tower ATX Gaming Kasa (CC-9011255-WW)",
+      "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
+    },
+    "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/02/corsair-icue-3000d-rgb-usb-3-2-mid-tower-atx-gaming-kasa-cc-9011255-ww.jpg",
+    "store": "gamingGen"
+  },
+  {
+    "link": "https://www.gaming.gen.tr/urun/513745",
+    "name": "BLADE-9700X / AMD Ryzen 7 9700X / ASUS Dual Radeon RX 7800 XT OC 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
+    "price": 53998.98,
+    "specs": {
+      "CPU": "AMD Ryzen 7 9700X 3.8GHz 32MB Önbellek 8 Çekirdek AM5 4nm İşlemci",
+      "Motherboard": "ASUS Tuf Gaming B650M-E 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP mATX Anakart\n",
+      "GPU": "ASUS Dual Radeon RX 7800 XT OC 16GB GDDR6 256 Bit Ekran Kartı",
+      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
+      "Case": "Corsair iCUE 3000D RGB USB 3.2 Mid Tower ATX Gaming Kasa (CC-9011255-WW)",
+      "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
+    },
+    "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/02/corsair-icue-3000d-rgb-usb-3-2-mid-tower-atx-gaming-kasa-cc-9011255-ww.jpg",
+    "store": "gamingGen"
+  },
+  {
     "link": "https://www.gaming.gen.tr/urun/445653",
-    "name": "BLADE-DUAL4060 / AMD Ryzen 5 5600 MPK / ASUS Dual GeForce RTX 4060 OC 8GB WHITE / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 25599.01,
+    "name": "BLADE-DUAL4060 / AMD Ryzen 5 5600 MPK / ASUS DUAL GeForce RTX 4060 EVO OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
+    "price": 25499.01,
     "specs": {
       "CPU": "AMD Ryzen 5 5600 MPK 3.5GHz 32MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME A520M-K 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
-      "GPU": "ASUS Dual GeForce RTX 4060 OC 8GB GDDR6 128 Bit Beyaz DLSS 3 Ekran Kartı",
+      "GPU": "ASUS DUAL GeForce RTX 4060 EVO OC 8GB GDDR6 128 Bit DLSS 3 Ekran Kartı",
       "Ram": "Lexar Thor 16GB (2×8) 3200MHz CL16 DDR4 Ram (LD4BU008G-R3200GSXG)",
       "Case": "ENERMAX StarryFort SF21 Rainbow Temperli Cam Mesh USB 3.2 mATX Siyah Cyberbron II 600W 80+ Bronze Gaming Kasa",
       "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
@@ -1020,6 +1050,21 @@
     "store": "gamingGen"
   },
   {
+    "link": "https://www.gaming.gen.tr/urun/513785",
+    "name": "ELITE-9600X / AMD Ryzen 5 9600X / ASUS DUAL GeForce RTX 4070 SUPER EVO OC 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
+    "price": 61999,
+    "specs": {
+      "CPU": "AMD Ryzen 5 9600X 3.9GHz 32MB Önbellek 6 Çekirdek AM5 4nm İşlemci",
+      "Motherboard": "ASUS Tuf Gaming B650M-E 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP mATX Anakart\n",
+      "GPU": "ASUS DUAL GeForce RTX 4070 SUPER EVO OC 12GB GDDR6X 192 Bit DLSS 3 Ekran Kartı",
+      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
+      "Case": "ASUS TUF Gaming GT502 V2 Panaromik Temperli Cam USB 3.2 Mid Tower Kasa",
+      "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
+    },
+    "image": "https://www.gaming.gen.tr/wp-content/uploads/2023/03/asus-tuf-gaming-gt502-v2-panaromik-temperli-cam-usb-3-2-mid-tower-kasa.jpg",
+    "store": "gamingGen"
+  },
+  {
     "link": "https://www.gaming.gen.tr/urun/319964",
     "name": "ELITE-DUAL4060 / AMD Ryzen 5 7600 TRAY / ASUS Dual GeForce RTX 4060 OC 8GB WHITE / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 31599.02,
@@ -1112,7 +1157,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/278387",
     "name": "ELITE-ROG4090 / AMD Ryzen 9 7900X / ASUS ROG Strix GeForce RTX 4090 24GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 150699,
+    "price": 150699.01,
     "specs": {
       "CPU": "AMD Ryzen 9 7900X 5.6GHz 12 Çekirdek 64MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "Asus Prime X670-P-CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP ATX Anakart",
@@ -1741,17 +1786,17 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/359843",
-    "name": "LUNAR-4060Ti / INTEL i3-12100F / GALAX GeForce RTX 4060 Ti EX 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 25999.01,
+    "name": "LUNAR-4060Ti / INTEL i3-12100F / GALAX GeForce RTX 4060 Ti EX 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD",
+    "price": 25999,
     "specs": {
-      "CPU": "Intel Core i3-12100F 4.3GHz 12MB Önbellek 4 Çekirdek 1700 İşlemci",
+      "CPU": "Intel i3-12100F ",
       "Motherboard": "ASUS PRIME H610M-K D4 ARGB 3200MHz DDR4 Soket 1700 M.2 HDMI mATX Anakart",
       "GPU": "GALAX GeForce RTX 4060 Ti EX 1-Click OC 8GB GDDR6 128 Bit DLSS 3 Ekran Kartı (46ISL8MD8AEX) – 2 Yıl Birebir Değişim Garantili",
       "Ram": "Kingston Beast Black 16GB (2×8) 3200MHz CL16 Intel XMP 2.0 DDR4 Ram (KF432C16BB/8TR)",
       "Case": "ENERMAX StarryFort SF21 Rainbow Temperli Cam Mesh USB 3.2 mATX Siyah Cyberbron II 600W 80+ Bronze Gaming Kasa",
       "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
     },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/06/enermax-starryfort-sf21-argb-temperli-cam-mesh-usb-3-2-matx-siyah-cyberbron-ii-600w-80-bronze-gaming-kasa-yyh1.jpg",
+    "image": null,
     "store": "gamingGen"
   },
   {
@@ -1977,6 +2022,36 @@
       "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/06/enermax-starryfort-sf21-argb-temperli-cam-mesh-usb-3-2-matx-siyah-cyberbron-ii-600w-80-bronze-gaming-kasa-yyh1.jpg",
+    "store": "gamingGen"
+  },
+  {
+    "link": "https://www.gaming.gen.tr/urun/513657",
+    "name": "MANTIS-9600X / AMD Ryzen 5 9600X / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
+    "price": 45499,
+    "specs": {
+      "CPU": "AMD Ryzen 5 9600X 3.9GHz 32MB Önbellek 6 Çekirdek AM5 4nm İşlemci",
+      "Motherboard": "ASUS Tuf Gaming B650M-E 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP mATX Anakart\n",
+      "GPU": "ASUS DUAL Radeon RX 7700 XT OC 12GB GDDR6 192 Bit Ekran Kartı",
+      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
+      "Case": "ASUS TUF GAMING GT301 GamingGenTR Edition RGB Temperli Cam USB 3.1 Mid Tower Kasa",
+      "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
+    },
+    "image": "https://www.gaming.gen.tr/wp-content/uploads/2023/05/asus-tuf-gaming-gt301-gaminggentr-edition-rgb-temperli-cam-usb-3-2-mid-tower-kasa.jpg",
+    "store": "gamingGen"
+  },
+  {
+    "link": "https://www.gaming.gen.tr/urun/513744",
+    "name": "MANTIS-9700X / AMD Ryzen 7 9700X / ASUS Dual Radeon RX 7800 XT OC 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
+    "price": 53498.99,
+    "specs": {
+      "CPU": "AMD Ryzen 7 9700X 3.8GHz 32MB Önbellek 8 Çekirdek AM5 4nm İşlemci",
+      "Motherboard": "ASUS Tuf Gaming B650M-E 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP mATX Anakart\n",
+      "GPU": "ASUS Dual Radeon RX 7800 XT OC 16GB GDDR6 256 Bit Ekran Kartı",
+      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
+      "Case": "ASUS TUF GAMING GT301 GamingGenTR Edition RGB Temperli Cam USB 3.1 Mid Tower Kasa",
+      "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
+    },
+    "image": "https://www.gaming.gen.tr/wp-content/uploads/2023/05/asus-tuf-gaming-gt301-gaminggentr-edition-rgb-temperli-cam-usb-3-2-mid-tower-kasa.jpg",
     "store": "gamingGen"
   },
   {
@@ -3047,10 +3122,10 @@
   {
     "link": "https://www.gaming.gen.tr/urun/450294",
     "name": "PLATINUM-4070TISUPER / RYZEN 7 7800X3D / ASUS ROG Strix GeForce RTX 4070 Ti SUPER OC 16GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 117999,
+    "price": 116499.01,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci",
-      "Motherboard": "Asus Rog Strix B650E-E Gaming WiFi 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP Anakart",
+      "Motherboard": "Asus Prime X670-P-CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP ATX Anakart",
       "GPU": "ASUS ROG Strix GeForce RTX 4070 Ti SUPER OC 16GB GDDR6X 256 Bit DLSS 3 Ekran Kartı",
       "Ram": "Corsair Vengeance RGB 32GB (2x16GB) 6000MHz CL36 INTEL XMP 3.0 DDR5 Ram (CMH32GX5M2D6000C36W)",
       "Case": "ASUS TUF Gaming GT502 V2 Panaromik Temperli Cam USB 3.2 Beyaz Mid Tower Kasa",
@@ -3227,7 +3302,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/446492",
     "name": "RAPTOR-ROG4090 / INTEL i9-14900KF / ASUS ROG Strix GeForce RTX 4090 24GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 155499.99,
+    "price": 155499.01,
     "specs": {
       "CPU": "Intel Core i9-14900KF 6.0GHz 36MB Önbellek 24 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS PRIME Z790-P WIFI 7200MHz(OC) DDR5 Soket 1700 M.2 HDMI DP ATX Anakart",
@@ -3765,6 +3840,21 @@
     "store": "gamingGen"
   },
   {
+    "link": "https://www.gaming.gen.tr/urun/513776",
+    "name": "ULTIMA-9600X / AMD Ryzen 5 9600X / ASUS DUAL GeForce RTX 4070 SUPER EVO OC 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
+    "price": 58999,
+    "specs": {
+      "CPU": "AMD Ryzen 5 9600X 3.9GHz 32MB Önbellek 6 Çekirdek AM5 4nm İşlemci",
+      "Motherboard": "ASUS Tuf Gaming B650M-E 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP mATX Anakart\n",
+      "GPU": "ASUS DUAL GeForce RTX 4070 SUPER EVO OC 12GB GDDR6X 192 Bit DLSS 3 Ekran Kartı",
+      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
+      "Case": "Corsair iCUE 3000D RGB USB 3.2 Mid Tower ATX Gaming Kasa (CC-9011255-WW)",
+      "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
+    },
+    "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/02/corsair-icue-3000d-rgb-usb-3-2-mid-tower-atx-gaming-kasa-cc-9011255-ww.jpg",
+    "store": "gamingGen"
+  },
+  {
     "link": "https://www.gaming.gen.tr/urun/319929",
     "name": "ULTIMA-DUAL4060 / INTEL i3-12100F / ASUS Dual GeForce RTX 4060 OC 8GB WHITE / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 24999,
@@ -4127,7 +4217,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/418725",
     "name": "VULCAN-MASTER4070 / AMD Ryzen 7 7800X3D TRAY / GALAX GeForce RTX 4070 1-Click OC 2X 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 51798.99,
+    "price": 51798,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime B650M-R 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart",
