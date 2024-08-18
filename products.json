@@ -150,21 +150,6 @@
     "store": "gamingGen"
   },
   {
-    "link": "https://www.gaming.gen.tr/urun/455564",
-    "name": "BLADE-4070TISUPER / AMD Ryzen 7 7800X3D / ASUS ROG Strix GeForce RTX 4070 Ti SUPER OC 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 96999.01,
-    "specs": {
-      "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci",
-      "Motherboard": "Asus Prime X670-P-CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP ATX Anakart",
-      "GPU": "ASUS ROG Strix GeForce RTX 4070 Ti SUPER OC 16GB GDDR6X 256 Bit DLSS 3 Ekran Kartı",
-      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 INTEL XMP 3.0 DDR5 Ram (CMK16GX5M1B5200C40)",
-      "Case": "HYTE Y70 Touch Siyah-Kırmızı Temperli Cam USB 3.2 E-ATX Dual Chamber Mid Tower Dokunmatik Ekranlı Gaming Kasa (CS-HYTE-Y70-BR-L)",
-      "Storage": "Kingston 1TB KC3000 SKC3000S/1024G NVMe M.2 SSD (7000MB Okuma / 6000MB Yazma)"
-    },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/04/hyte-y70-touch-siyah-kirmizi-temperli-cam-usb-3-2-e-atx-dual-chamber-mid-tower-dokunmatik-ekranli-gaming-kasa-cs-hyte-y70-br-l.jpg",
-    "store": "gamingGen"
-  },
-  {
     "link": "https://www.gaming.gen.tr/urun/448959",
     "name": "BLADE-5700X3D / AMD Ryzen 7 5700X3D / ASUS DUAL GeForce RTX 4060 Ti EVO OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 35599,
@@ -597,21 +582,6 @@
       "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/06/enermax-starryfort-sf21-argb-temperli-cam-mesh-usb-3-2-matx-siyah-cyberbron-ii-600w-80-bronze-gaming-kasa-yyh1.jpg",
-    "store": "gamingGen"
-  },
-  {
-    "link": "https://www.gaming.gen.tr/urun/455354",
-    "name": "CYBER-4070TISUPER / INTEL i7-14700K / ASUS ROG Strix GeForce RTX 4070 Ti SUPER OC 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Black Myth: Wukong Hediyeli",
-    "price": 97499.01,
-    "specs": {
-      "CPU": "Intel Core i7-14700K 5.6GHz 28MB Önbellek 20 Çekirdek 1700 İşlemci",
-      "Motherboard": "ASUS PRIME Z790-P WIFI 7200MHz(OC) DDR5 Soket 1700 M.2 HDMI DP ATX Anakart",
-      "GPU": "ASUS ROG Strix GeForce RTX 4070 Ti SUPER OC 16GB GDDR6X 256 Bit DLSS 3 Ekran Kartı",
-      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 INTEL XMP 3.0 DDR5 Ram (CMK16GX5M1B5200C40)",
-      "Case": "HYTE Y70 Touch Siyah-Kırmızı Temperli Cam USB 3.2 E-ATX Dual Chamber Mid Tower Dokunmatik Ekranlı Gaming Kasa (CS-HYTE-Y70-BR-L)",
-      "Storage": "Kingston 1TB KC3000 SKC3000S/1024G NVMe M.2 SSD (7000MB Okuma / 6000MB Yazma)"
-    },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/04/hyte-y70-touch-siyah-kirmizi-temperli-cam-usb-3-2-e-atx-dual-chamber-mid-tower-dokunmatik-ekranli-gaming-kasa-cs-hyte-y70-br-l.jpg",
     "store": "gamingGen"
   },
   {
@@ -3212,7 +3182,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/451199",
     "name": "RAPTOR-7600XT / INTEL i5-13400F / ASUS DUAL Radeon RX 7600 XT OC 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
-    "price": "N/A",
+    "price": 37499,
     "specs": {
       "CPU": "Intel Core i5-13400F 4.6GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci (BX8071513400F)",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart",
