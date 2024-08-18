@@ -1,43 +1,44 @@
 import express from "express";
+import { MongoClient } from "mongodb";
+
 const router = express.Router();
-import { promises as fs } from "fs";
-import mysql from "mysql2/promise"; // mysql2 paketini kullanıyoruz
-import dbConfig from "../config.mjs";
+
+// MongoDB connection details
+const mongoUrl =
+  "mongodb://mongo:cSYFqpPbEyjwsAoNzrdfWYNJooWXsGOI@autorack.proxy.rlwy.net:48747";
+const dbName = "ucuzasistem"; // Replace with your actual database name
+const collectionName = "products"; // Replace with your actual collection name
 
 router.get("/", async (req, res) => {
+  let client;
+
   try {
-    const productList = JSON.parse(
-      await fs.readFile("mock_test.json", "utf-8")
-    );
+    // Create a new MongoClient
+    client = new MongoClient(mongoUrl);
 
-    await fs.writeFile(
-      "mock_test.json",
-      JSON.stringify(
-        [
-          {
-            name: "AFK-MD IV",
-            price: 24499.29,
-            image: "https://img-itopya.mncdn.com/cdn/250/afk-md-iv-19b882.png",
-            link: "https://www.itopya.com/afk-md-iv-amd-ryzen-5-5600-asus-radeon-rx-6600-dual-v2-8gb-16gb-ddr4-512gb-nvme-m2-ssd-am_h26603",
-            specs: {
-              CPU: "AMD-Ryzen 5 5600 İşlemci",
-              Motherboard: "ASUS-AMD A520 Anakart",
-              GPU: "ASUS-Radeon RX 6600 Ekran Kartı",
-              Ram: "GOODRAM-8GB x 2 RAM",
-              Storage: "GOODRAM-512GB,M.2  2280 SSD",
-            },
-            store: "itopya",
-          },
-        ],
-        null,
-        2
-      )
-    );
+    // Connect to the MongoDB server
+    await client.connect();
+    console.log("Connected to MongoDB");
 
+    // Get the database and collection
+    const db = client.db(dbName);
+    const collection = db.collection(collectionName);
+
+    // Fetch the product list from MongoDB
+    const productList = await collection.find({}).toArray();
+
+    // Send the product list as a JSON response
     res.json(productList);
   } catch (error) {
-    console.error("Error reading or processing the file:", error);
-    res.status(500).json({ error: "Internal Server Error" });
+    console.error("Error details:", error); // More detailed error logging
+    res
+      .status(500)
+      .json({ error: "Internal Server Error", message: error.message }); // Send error message to the client
+  } finally {
+    // Ensure the client is closed when you are done
+    if (client) {
+      await client.close();
+    }
   }
 });
 
