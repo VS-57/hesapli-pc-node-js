@@ -1,6 +1,6 @@
 import express from "express";
 import puppeteer from "puppeteer";
-import fs from "fs/promises";
+import { MongoClient } from "mongodb";
 import path from "path"; // Import path module
 import { fileURLToPath } from "url"; // Import fileURLToPath to convert import.meta.url to path
 
@@ -9,6 +9,12 @@ const router = express.Router();
 // Get the directory name of the current module
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
+
+// MongoDB connection details
+const mongoUrl =
+  "mongodb://mongo:cSYFqpPbEyjwsAoNzrdfWYNJooWXsGOI@autorack.proxy.rlwy.net:48747";
+const dbName = "ucuzasistem";
+const collectionName = "gamingGen";
 
 async function scrapeProductIDs(page, url) {
   try {
@@ -151,17 +157,34 @@ router.get("/", async (req, res) => {
     }
   }
 
-  const filePath = path.join(__dirname, "..", "products.json");
+  await browser.close();
+
+  // MongoDB'ye kaydetme işlemi
+  let client;
 
   try {
-    await fs.mkdir(path.dirname(filePath), { recursive: true });
-    await fs.writeFile(filePath, JSON.stringify(results, null, 2));
-    console.log(`Products saved to ${filePath}`);
-  } catch (error) {
-    console.error(`Failed to save products to ${filePath}:`, error);
-  }
+    client = new MongoClient(mongoUrl);
+    await client.connect();
+    console.log("Connected to MongoDB");
 
-  await browser.close();
+    const db = client.db(dbName);
+    const collection = db.collection(collectionName);
+
+    // Önceden mevcut olan verileri silmek isterseniz:
+    await collection.deleteMany();
+
+    // Yeni verileri ekleyin
+    if (results.length > 0) {
+      await collection.insertMany(results);
+      console.log("Products inserted into MongoDB");
+    }
+  } catch (error) {
+    console.error("Failed to insert products into MongoDB:", error);
+  } finally {
+    if (client) {
+      await client.close();
+    }
+  }
 
   console.log("Scraping finished, sending response.");
 
