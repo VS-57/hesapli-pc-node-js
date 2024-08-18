@@ -1,6 +1,5 @@
 import { Router } from "express";
 import fetch from "node-fetch";
-import { promises as fs } from "fs";
 import { MongoClient } from "mongodb";
 
 const router = Router();
@@ -8,7 +7,8 @@ const router = Router();
 // MongoDB connection details
 const mongoUrl = "mongodb://mongo:cSYFqpPbEyjwsAoNzrdfWYNJooWXsGOI@autorack.proxy.rlwy.net:48747";
 const dbName = "ucuzasistem";
-const collectionName = "products";
+const productsCollectionName = "products";
+const gamingGenCollectionName = "gamingGen";
 
 router.get("/", async (req, res) => {
   let client;
@@ -19,7 +19,8 @@ router.get("/", async (req, res) => {
     console.log("Connected to MongoDB");
 
     const db = client.db(dbName);
-    const collection = db.collection(collectionName);
+    const productsCollection = db.collection(productsCollectionName);
+    const gamingGenCollection = db.collection(gamingGenCollectionName);
 
     const urls = [
       "http://localhost:3000/api/itopya",
@@ -62,10 +63,8 @@ router.get("/", async (req, res) => {
       )
       .flatMap((result) => result.value);
 
-    // Gaming Gen ürünlerini ekle
-    const gamingGenProducts = JSON.parse(
-      await fs.readFile("products.json", "utf-8")
-    );
+    // Gaming Gen ürünlerini MongoDB'den çek
+    const gamingGenProducts = await gamingGenCollection.find().toArray();
 
     // Sinerji verisini al ve diğer sonuçlara ekle
     const sinerjiData = await sinerjiPromise;
@@ -77,15 +76,14 @@ router.get("/", async (req, res) => {
 
     // Her bir ürünü `id`'ye göre güncelle veya ekle
     await Promise.all(updatedArr.map(async (item) => {
-      await collection.updateOne(
+      const { _id, ...itemWithoutId } = item; // _id alanını hariç tut
+
+      await productsCollection.updateOne(
         { id: item.id }, // Benzersiz alanı burada belirleyin
-        { $set: item },
+        { $set: itemWithoutId }, // _id olmadan set işlemi
         { upsert: true } // Yoksa ekle, varsa güncelle
       );
     }));
-
-    // Verileri mock.json dosyasına yazma
-    await fs.writeFile("mock.json", JSON.stringify(updatedArr, null, 2));
 
     res.json(updatedArr);
   } catch (error) {
