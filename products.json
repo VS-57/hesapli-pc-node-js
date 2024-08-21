@@ -2,7 +2,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/445106",
     "name": "GAMING-DUAL4060 / AMD Ryzen 5 5500 MPK / ASUS DUAL GeForce RTX 4060 EVO OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 24799.01,
+    "price": 24799,
     "specs": {
       "CPU": "AMD Ryzen 5 5500 MPK 3.6GHz 16MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME A520M-K 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -17,12 +17,12 @@
   {
     "link": "https://www.gaming.gen.tr/urun/406085",
     "name": "FORGE-MAG4060Ti / AMD Ryzen 5 7500F MPK / MSI GeForce RTX 4060 Ti Ventus 2X Black 16GB OC / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi",
-    "price": 36998.98,
+    "price": 36999,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "MSI PRO A620M-E 6000MHz (OC) DDR5 Soket AM5 M.2 mATX Anakart",
       "GPU": "MSI GeForce RTX 4060 Ti Ventus 2X Black 16GB OC GDDR6 128 Bit DLSS 3 Ekran Kartı\n",
-      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)\n",
+      "Ram": "XPG Lancer Blade Black 16GB (1x16GB) 6000MHz CL30 DDR5 Ram (AX5U6000C4816G-SLABBK)",
       "Case": "MSI MAG FORGE M100A D60 600W 80+ RGB mATX Kasa",
       "Storage": "MSI Spatium M450 500GB PCIe Gen4 x4 Okuma 3600MB – Yazma 2300MB M.2 SSD"
     },
@@ -167,12 +167,12 @@
   {
     "link": "https://www.gaming.gen.tr/urun/330135",
     "name": "BLADE-7500F / AMD Ryzen 5 7500F MPK / ASUS DUAL GeForce RTX 4060 EVO OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 30998.98,
+    "price": 30999,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart",
       "GPU": "ASUS DUAL GeForce RTX 4060 EVO OC 8GB GDDR6 128 Bit DLSS 3 Ekran Kartı",
-      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
+      "Ram": "XPG Lancer Blade Black 16GB (1x16GB) 6000MHz CL30 DDR5 Ram (AX5U6000C4816G-SLABBK)",
       "Case": "ASUS TUF GAMING GT301 GamingGenTR Edition RGB Temperli Cam USB 3.1 Mid Tower Kasa",
       "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
     },
@@ -277,21 +277,6 @@
       "CPU": "AMD Ryzen 5 9600X 3.9GHz 32MB Önbellek 6 Çekirdek AM5 4nm İşlemci",
       "Motherboard": "ASUS Prime B650M-A II-CSM 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart\n",
       "GPU": "ASUS DUAL Radeon RX 7700 XT OC 12GB GDDR6 192 Bit Ekran Kartı",
-      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
-      "Case": "Corsair iCUE 3000D RGB USB 3.2 Mid Tower ATX Gaming Kasa (CC-9011255-WW)",
-      "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
-    },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/02/corsair-icue-3000d-rgb-usb-3-2-mid-tower-atx-gaming-kasa-cc-9011255-ww.jpg",
-    "store": "gamingGen"
-  },
-  {
-    "link": "https://www.gaming.gen.tr/urun/513745",
-    "name": "BLADE-9700X / AMD Ryzen 7 9700X / ASUS Dual Radeon RX 7800 XT OC 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
-    "price": 52398.98,
-    "specs": {
-      "CPU": "AMD Ryzen 7 9700X 3.8GHz 32MB Önbellek 8 Çekirdek AM5 4nm İşlemci",
-      "Motherboard": "ASUS Prime B650M-A II-CSM 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart\n",
-      "GPU": "ASUS Dual Radeon RX 7800 XT OC 16GB GDDR6 256 Bit Ekran Kartı",
       "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
       "Case": "Corsair iCUE 3000D RGB USB 3.2 Mid Tower ATX Gaming Kasa (CC-9011255-WW)",
       "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
@@ -497,12 +482,12 @@
   {
     "link": "https://www.gaming.gen.tr/urun/505691",
     "name": "CARNAGE-VENTUS4070 / AMD Ryzen 5 7600 TRAY / MSI GeForce RTX 4070 VENTUS 2X E 12G OC / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 39798.97,
+    "price": 39798.99,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "MSI PRO A620M-E 6000MHz (OC) DDR5 Soket AM5 M.2 mATX Anakart",
       "GPU": "MSI GeForce RTX 4070 VENTUS 2X E 12G OC 12GB GDDR6X 192 Bit DLSS 3 Ekran Kartı",
-      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 INTEL XMP 3.0 DDR5 Ram (CMK16GX5M1B5200C40)",
+      "Ram": "XPG Lancer Blade Black 16GB (1x16GB) 6000MHz CL30 DDR5 Ram (AX5U6000C4816G-SLABBK)",
       "Case": "MSI MAG FORGE M100A D60 600W 80+ RGB mATX Kasa",
       "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
     },
@@ -517,7 +502,7 @@
       "CPU": "AMD Ryzen 5 7500F MPK 5.0GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
       "GPU": "GALAX GeForce RTX 4070 SUPER 1-Click OC 2X V2 12GB GDDR6X 192 Bit DLSS 3 Ekran Kartı (47SOM7MDABCD) – 2 Yıl Birebir Değişim Garantili",
-      "Ram": "Corsair Vengeance 32GB (2×16) 5200MHz CL40 INTEL XMP 3.0 DDR5 Ram (CMK16GX5M1B5200C40)",
+      "Ram": "XPG Lancer Blade Black 32GB (2x16GB) 6000MHz CL30 DDR5 Ram (AX5U6000C4816G-SLABBK)",
       "Case": "XPG Valor Mesh RGB Siyah Mid Tower 650W 80+ White Gaming Kasa",
       "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
     },
@@ -842,7 +827,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/410000",
     "name": "ELITE-4070SUPER / AMD Ryzen 5 7600 TRAY / ASUS DUAL GeForce RTX 4070 SUPER EVO 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
-    "price": 47999,
+    "price": 47998.99,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime B650M-R 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart",
@@ -857,10 +842,10 @@
   {
     "link": "https://www.gaming.gen.tr/urun/251285",
     "name": "ELITE-4090 / AMD Ryzen 9 7900X / ASUS TUF Gaming GeForce RTX 4090 24GB OC / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
-    "price": 136626.56,
+    "price": 138398.99,
     "specs": {
       "CPU": "AMD Ryzen 9 7900X 5.6GHz 12 Çekirdek 64MB Önbellek Soket AM5 İşlemci",
-      "Motherboard": "Asus Prime X670-P-CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP ATX Anakart",
+      "Motherboard": "Asus Rog Strix B650E-E Gaming WiFi 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP Anakart",
       "GPU": "ASUS TUF Gaming GeForce RTX 4090 24GB OC GDDR6X 384 Bit DLSS 3 Ekran Kartı",
       "Ram": "Corsair Vengeance RGB 32GB (2x16GB) 5600MHz CL40 AMD EXPO DDR5 Ram (CMH32GX5M2B5600Z40)",
       "Case": "ASUS TUF Gaming GT502 V2 Panaromik Temperli Cam USB 3.2 Beyaz Mid Tower Kasa",
@@ -932,7 +917,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/504918",
     "name": "ELITE-7800X3D / AMD Ryzen 7 7800X3D TRAY / ASUS DUAL GeForce RTX 4070 SUPER EVO OC 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
-    "price": 58518.98,
+    "price": 57498.98,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci\n",
       "Motherboard": "ASUS Prime B650M-R 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart",
@@ -962,10 +947,10 @@
   {
     "link": "https://www.gaming.gen.tr/urun/238640",
     "name": "ELITE-7900XT / AMD Ryzen 9 7900X / ASUS TUF GAMING RADEON RX 7900 XT 20GB OC / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
-    "price": 103026.56,
+    "price": 104499,
     "specs": {
       "CPU": "AMD Ryzen 9 7900X 5.6GHz 12 Çekirdek 64MB Önbellek Soket AM5 İşlemci",
-      "Motherboard": "Asus Prime X670-P-CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP ATX Anakart",
+      "Motherboard": "Asus Rog Strix B650E-E Gaming WiFi 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP Anakart",
       "GPU": "ASUS TUF GAMING RADEON RX 7900 XT 20GB OC GDDR6 320 Bit Ekran Kartı",
       "Ram": "Corsair Vengeance RGB 32GB (2x16GB) 5600MHz CL40 AMD EXPO DDR5 Ram (CMH32GX5M2B5600Z40)",
       "Case": "ASUS TUF Gaming GT502 V2 Panaromik Temperli Cam USB 3.2 Beyaz Mid Tower Kasa",
@@ -1127,10 +1112,10 @@
   {
     "link": "https://www.gaming.gen.tr/urun/278387",
     "name": "ELITE-ROG4090 / AMD Ryzen 9 7900X / ASUS ROG Strix GeForce RTX 4090 24GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
-    "price": 150699.01,
+    "price": 152399,
     "specs": {
       "CPU": "AMD Ryzen 9 7900X 5.6GHz 12 Çekirdek 64MB Önbellek Soket AM5 İşlemci",
-      "Motherboard": "Asus Prime X670-P-CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP ATX Anakart",
+      "Motherboard": "Asus Rog Strix B650E-E Gaming WiFi 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP Anakart",
       "GPU": "ASUS ROG Strix GeForce RTX 4090 24GB GDDR6X 384 Bit DLSS 3 Ekran Kartı",
       "Ram": "Corsair Vengeance RGB 32GB (2x16GB) 5600MHz CL40 AMD EXPO DDR5 Ram (CMH32GX5M2B5600Z40)",
       "Case": "ASUS ROG Strix Helios White Edition Tempered Glass RGB USB 3.1 Mid Tower Kasa",
@@ -1337,12 +1322,12 @@
   {
     "link": "https://www.gaming.gen.tr/urun/330042",
     "name": "GAMING-4070 / AMD Ryzen 5 7600 TRAY / ASUS Dual GeForce RTX 4070 OC 12GB WHITE / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 41498.99,
+    "price": 41499.01,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart",
       "GPU": "ASUS Dual GeForce RTX 4070 OC 12GB GDDR6X 192 Bit Beyaz DLSS 3 Ekran Kartı",
-      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
+      "Ram": "XPG Lancer Blade Black 16GB (1x16GB) 6000MHz CL30 DDR5 Ram (AX5U6000C4816G-SLABBK)",
       "Case": "ASUS TUF GAMING GT301 GamingGenTR Edition RGB Temperli Cam USB 3.2 Mid Tower Kasa\n",
       "Storage": "Xpg Spectrix S40G 512GB RGB PCIe Gen3 x4 Okuma 3500MB – Yazma 2400MB M.2 SSD\n"
     },
@@ -1995,21 +1980,6 @@
     "store": "gamingGen"
   },
   {
-    "link": "https://www.gaming.gen.tr/urun/513744",
-    "name": "MANTIS-9700X / AMD Ryzen 7 9700X / ASUS Dual Radeon RX 7800 XT OC 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
-    "price": 51898.99,
-    "specs": {
-      "CPU": "AMD Ryzen 7 9700X 3.8GHz 32MB Önbellek 8 Çekirdek AM5 4nm İşlemci",
-      "Motherboard": "ASUS Prime B650M-A II-CSM 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart\n",
-      "GPU": "ASUS Dual Radeon RX 7800 XT OC 16GB GDDR6 256 Bit Ekran Kartı",
-      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
-      "Case": "ASUS TUF GAMING GT301 GamingGenTR Edition RGB Temperli Cam USB 3.1 Mid Tower Kasa",
-      "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
-    },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2023/05/asus-tuf-gaming-gt301-gaminggentr-edition-rgb-temperli-cam-usb-3-2-mid-tower-kasa.jpg",
-    "store": "gamingGen"
-  },
-  {
     "link": "https://www.gaming.gen.tr/urun/329511",
     "name": "MANTIS-DUAL4060 / AMD Ryzen 5 5600 MPK / ASUS Dual GeForce RTX 4060 OC 8GB WHITE / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 26399,
@@ -2432,7 +2402,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/345402",
     "name": "MIRANA-MASTER7800X3D / AMD Ryzen 7 7800X3D / GALAX GeForce RTX 4070 SUPER 1-Click OC 2X V2 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
-    "price": 54198.97,
+    "price": 54198.16,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime B650M-R 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart",
@@ -2567,7 +2537,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/410024",
     "name": "NOVA-4070SUPER / INTEL i5-14400F / ASUS DUAL GeForce RTX 4070 SUPER EVO 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 46398.99,
+    "price": 46399,
     "specs": {
       "CPU": "Intel Core i5-14400F 4.7GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart\n",
@@ -2627,7 +2597,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/338693",
     "name": "NOVA-7700XT / AMD Ryzen 7 5700X TRAY / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 31799.01,
+    "price": 31799,
     "specs": {
       "CPU": "AMD Ryzen 7 5700X Tray 3.4GHz 32MB Önbellek 8 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME B550M-K 4600MHz(OC) DDR4 Soket AM4 M.2 HDMI VGA DVI mATX Anakart",
@@ -2762,7 +2732,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/502866",
     "name": "OPTIMA-14700K / INTEL i7-14700K / GALAX GeForce RTX 4070 SUPER 1-Click OC 2X V2 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
-    "price": 63898.98,
+    "price": 63898.99,
     "specs": {
       "CPU": "Intel Core i7-14700K 5.6GHz 28MB Önbellek 20 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS TUF Gaming B760M-BTF WiFi 7200MHz (OC) DDR5 Soket 1700 M.2 HDMI DP mATX Anakart",
@@ -3032,10 +3002,10 @@
   {
     "link": "https://www.gaming.gen.tr/urun/450294",
     "name": "PLATINUM-4070TISUPER / RYZEN 7 7800X3D / ASUS ROG Strix GeForce RTX 4070 Ti SUPER OC 16GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
-    "price": 116499.01,
+    "price": 117999,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci",
-      "Motherboard": "Asus Prime X670-P-CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP ATX Anakart",
+      "Motherboard": "Asus Rog Strix B650E-E Gaming WiFi 6400MHz(OC) DDR5 Soket AM5 M.2 HDMI DP Anakart",
       "GPU": "ASUS ROG Strix GeForce RTX 4070 Ti SUPER OC 16GB GDDR6X 256 Bit DLSS 3 Ekran Kartı",
       "Ram": "Corsair Vengeance RGB 32GB (2x16GB) 6000MHz CL36 INTEL XMP 3.0 DDR5 Ram (CMH32GX5M2D6000C36W)",
       "Case": "ASUS TUF Gaming GT502 V2 Panaromik Temperli Cam USB 3.2 Beyaz Mid Tower Kasa",
@@ -3407,12 +3377,12 @@
   {
     "link": "https://www.gaming.gen.tr/urun/359785",
     "name": "SUNRISE-7500F / AMD Ryzen 5 7500F MPK / GALAX GeForce RTX 4060 1-Click OC 2X V2 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 27998.99,
+    "price": 27999.01,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart",
       "GPU": "GALAX GeForce RTX 4060 1-Click OC 2X V2 8GB GDDR6 128 Bit DLSS 3 Ekran Kartı (46NSL8MD9NXV) – 2 Yıl Birebir Değişim Garantili",
-      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)\n",
+      "Ram": "XPG Lancer Blade Black 16GB (1x16GB) 6000MHz CL30 DDR5 Ram (AX5U6000C4816G-SLABBK)",
       "Case": "XPG Valor Mesh RGB Siyah Mid Tower 650W 80+ White Gaming Kasa",
       "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
     },
@@ -3437,12 +3407,12 @@
   {
     "link": "https://www.gaming.gen.tr/urun/363513",
     "name": "SUNRISE-7800X3D / AMD Ryzen 7 7800X3D TRAY / GALAX GeForce RTX 4060 1-Click OC 2X V2 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 38998.99,
+    "price": 38999.01,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci\n",
       "Motherboard": "ASUS Prime B650M-R 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart",
       "GPU": "GALAX GeForce RTX 4060 1-Click OC 2X V2 8GB GDDR6 128 Bit DLSS 3 Ekran Kartı (46NSL8MD9NXV) – 2 Yıl Birebir Değişim Garantili",
-      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
+      "Ram": "XPG Lancer Blade Black 16GB (1x16GB) 6000MHz CL30 DDR5 Ram (AX5U6000C4816G-SLABBK)",
       "Case": "XPG Valor Mesh RGB Siyah Mid Tower 650W 80+ White Gaming Kasa",
       "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
     },
@@ -3617,7 +3587,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/366452",
     "name": "ULTIMA-5700X3D / AMD Ryzen 7 5700X3D / ASUS Dual GeForce RTX 4060 OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 31699.01,
+    "price": 31699,
     "specs": {
       "CPU": "AMD Ryzen 7 5700X3D Tray 4.1GHz 96 MB Önbellek 8 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME B550M-K 4600MHz(OC) DDR4 Soket AM4 M.2 HDMI VGA DVI mATX Anakart",
@@ -3767,12 +3737,12 @@
   {
     "link": "https://www.gaming.gen.tr/urun/480748",
     "name": "ULTIMA-DUAL7700XT / AMD Ryzen 5 7500F MPK / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 32498.99,
+    "price": 32499.01,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart",
       "GPU": "ASUS DUAL Radeon RX 7700 XT OC 12GB GDDR6 192 Bit Ekran Kartı",
-      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
+      "Ram": "XPG Lancer Blade Black 16GB (1x16GB) 6000MHz CL30 DDR5 Ram (AX5U6000C4816G-SLABBK)",
       "Case": "XPG Valor Mesh RGB Siyah Mid Tower 650W 80+ White Gaming Kasa",
       "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
     },
