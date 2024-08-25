@@ -3991,13 +3991,13 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/413940",
-    "name": "VULCAN-4070TISUPER / AMD Ryzen 5 7500F MPK / GALAX GeForce RTX 4070 Ti SUPER EX Gamer 1-Click OC V2 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 53498.99,
+    "name": "VULCAN-4070TISUPER / AMD Ryzen 5 7500F MPK / GALAX GeForce RTX 4070 Ti SUPER EX Gamer 1-Click OC V2 16GB / 16GB RAM / 1TB M.2 SSD",
+    "price": 53499,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
-      "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart\n",
+      "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart",
       "GPU": "GALAX GeForce RTX 4070 Ti SUPER EX Gamer 1-Click OC V2 16GB GDDR6X 256 Bit DLSS 3 Ekran Kartı (47UZM6MD7JDL) – 2 Yıl Birebir Değişim Garantili",
-      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)\n",
+      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
       "Case": "ASUS A21 Plus ARGB Temperli Cam USB 3.2 mATX Mesh Siyah Mid Tower Gaming Kasa",
       "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
     },
