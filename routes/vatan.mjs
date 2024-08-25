@@ -7,24 +7,26 @@ const router = express.Router();
 async function getTotalPages(url) {
   try {
     const response = await fetch(url);
+    console.log(`Fetching URL: ${url} - Status: ${response.status}`);
     if (!response.ok) {
       console.error(`Failed to fetch ${url}: ${response.statusText}`);
       return 1;
     }
 
     const html = await response.text();
+    console.log(`HTML Content fetched: ${html.length} characters`);
     const dom = new JSDOM(html);
     const doc = dom.window.document;
 
-    // Select all pagination items
     const paginationItems = doc.querySelectorAll(".pagination__item");
+    console.log(`Found ${paginationItems.length} pagination items`);
     if (paginationItems.length < 2) {
       return 1;
     }
 
-    // Get the second-to-last item
     const secondToLastItem = paginationItems[paginationItems.length - 2];
     const totalPages = parseInt(secondToLastItem.textContent.trim(), 10);
+    console.log(`Total Pages: ${totalPages}`);
 
     return totalPages || 1;
   } catch (error) {
@@ -32,6 +34,7 @@ async function getTotalPages(url) {
     return 1;
   }
 }
+
 
 async function fetchAllProducts(urls) {
   const products = [];
