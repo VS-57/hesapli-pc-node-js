@@ -14,10 +14,18 @@ async function fetchPageData(page) {
 }
 
 function parseTotalPages(doc) {
-  const pageInfo = doc.querySelector(".page-info strong").textContent.trim();
+  const pageInfoElement = doc.querySelector(".page-info strong");
+  
+  if (!pageInfoElement) {
+    console.error("Total pages element not found");
+    return 1; // Varsayılan olarak 1 sayfa döndür
+  }
+
+  const pageInfo = pageInfoElement.textContent.trim();
   const totalPages = parseInt(pageInfo.split("/")[1], 10);
   return totalPages;
 }
+
 
 function parseProducts(doc) {
   const productElements = doc.querySelectorAll(".product");
