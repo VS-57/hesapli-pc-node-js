@@ -16,9 +16,9 @@ app.use(compression());
 
 app.use(express.static(path.join(__dirname, "public")));
 
-app.use(cors());
+/* app.use(cors()); */
 
-/* const corsOptions = {
+const corsOptions = {
   origin: [
     "https://ucuzasistem.com",
     "https://www.ucuzasistem.com",
@@ -28,7 +28,7 @@ app.use(cors());
   credentials: true,
 };
 
-app.use(cors(corsOptions)); */
+app.use(cors(corsOptions));
 
 app.use(express.json());
 
