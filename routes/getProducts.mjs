@@ -49,20 +49,22 @@ router.post("/", async (req, res) => {
     if (selectedGPUModels && selectedGPUModels.length > 0) {
       filteredData = filteredData.filter((item) =>
         selectedGPUModels.some((series) => {
-          let gpuName = item.specs?.GPU?.toLowerCase();
+          let gpuName = item.specs?.GPU?.toLowerCase().replace(/\s+/g, "");
+          let normalizedSeries = series.replace(/\s+/g, "").toLowerCase();
+    
           if (gpuName && gpuName.includes("arc")) {
-            let normalizedSeries = series.replace(/\s+/g, "").toLowerCase();
             const arcIndex = gpuName.indexOf("arc");
             const modifiedGPU =
               gpuName.slice(0, arcIndex + 3) +
               gpuName.slice(arcIndex + 3).replace("a", "");
-            gpuName = modifiedGPU.replace(/\s+/g, "");
-            return gpuName.includes(normalizedSeries);
+            gpuName = modifiedGPU;
           }
-          return gpuName?.includes(series);
+    
+          return gpuName?.includes(normalizedSeries);
         })
       );
     }
+    
 
     if (selectedCPUModels && selectedCPUModels.length > 0) {
       filteredData = filteredData.filter((item) =>
