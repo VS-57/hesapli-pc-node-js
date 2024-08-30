@@ -5,7 +5,8 @@ import { MongoClient } from "mongodb";
 const router = express.Router();
 
 // MongoDB connection details
-const mongoUrl = "mongodb://mongo:cSYFqpPbEyjwsAoNzrdfWYNJooWXsGOI@autorack.proxy.rlwy.net:48747";
+const mongoUrl =
+  "mongodb://mongo:cSYFqpPbEyjwsAoNzrdfWYNJooWXsGOI@autorack.proxy.rlwy.net:48747";
 const dbName = "ucuzasistem";
 const collectionName = "vatan"; // Collection name set to "vatan"
 
@@ -103,11 +104,7 @@ router.get("/", async (req, res) => {
   const baseUrl = "https://www.vatanbilgisayar.com/oem-hazir-sistemler/";
 
   try {
-    // Launch Puppeteer with the necessary flags to run as root in Docker
-    const browser = await puppeteer.launch({
-      headless: true,
-      args: ['--no-sandbox', '--disable-setuid-sandbox']
-    });
+    const browser = await puppeteer.launch({ headless: true });
     const page = await browser.newPage();
 
     const totalPages = await getTotalPages(page, baseUrl);
