@@ -1,6 +1,7 @@
 import express from "express";
-import puppeteer from "puppeteer";
+import axios from "axios";
 import { MongoClient } from "mongodb";
+import { JSDOM } from "jsdom";
 
 const router = express.Router();
 
@@ -11,96 +12,81 @@ const dbName = "ucuzasistem";
 const collectionName = "itopya";
 
 async function fetchPageData(page) {
-  const browser = await puppeteer.launch();
-  const [pageInstance] = await browser.pages();
-  await pageInstance.goto(`https://www.itopya.com/HazirSistemler?pg=${page}`, {
-    waitUntil: "networkidle2",
-  });
-
-  const content = await pageInstance.content();
-  await browser.close();
+  const { data: content } = await axios.get(
+    `https://www.itopya.com/HazirSistemler?pg=${page}`
+  );
   return content;
 }
 
-async function parseTotalPages(pageInstance) {
-  const pageInfo = await pageInstance.$eval(
-    ".page-info strong",
-    (element) => element.textContent.trim()
-  );
+async function parseTotalPages(document) {
+  const pageInfo = document.querySelector(".page-info strong").textContent.trim();
   const totalPages = parseInt(pageInfo.split("/")[1], 10);
   return totalPages;
 }
 
-async function parseProducts(pageInstance) {
-  const products = await pageInstance.$$eval(".product", (productElements) =>
-    productElements.map((product) => {
-      const image = product.querySelector(".product-header .image img")?.dataset
-        .src;
-      const name = product.querySelector(".title").textContent.trim();
-      const link =
-        "https://www.itopya.com" +
-        product.querySelector(".title").getAttribute("href");
-      const priceText = product
-        .querySelector(".price strong")
-        .textContent.trim()
-        .replace(/\s+/g, " ");
-      const price =
-        parseFloat(priceText.replace(/[^\d,]/g, "").replace(",", ".")) || 0;
+async function parseProducts(document) {
+  const productElements = document.querySelectorAll(".product");
+  const products = Array.from(productElements).map((product) => {
+    const image = product.querySelector(".product-header .image img")?.dataset.src;
+    const name = product.querySelector(".title").textContent.trim();
+    const link =
+      "https://www.itopya.com" +
+      product.querySelector(".title").getAttribute("href");
+    const priceText = product
+      .querySelector(".price strong")
+      .textContent.trim()
+      .replace(/\s+/g, " ");
+    const price =
+      parseFloat(priceText.replace(/[^\d,]/g, "").replace(",", ".")) || 0;
 
-      const specsArray = Array.from(
-        product.querySelectorAll(".product-body ul li")
-      ).map((li) => ({
-        specIcon: li.querySelector("img").getAttribute("src"),
-        specText: li.querySelector("p").textContent.trim(),
-      }));
+    const specsArray = Array.from(
+      product.querySelectorAll(".product-body ul li")
+    ).map((li) => ({
+      specIcon: li.querySelector("img").getAttribute("src"),
+      specText: li.querySelector("p").textContent.trim(),
+    }));
 
-      const specs = {
-        CPU:
-          (specsArray.find((spec) => spec.specText.includes("İşlemci")) || {})
-            .specText || "N/A",
-        Motherboard:
-          (specsArray.find((spec) => spec.specText.includes("Anakart")) || {})
-            .specText || "N/A",
-        GPU:
-          (specsArray.find((spec) =>
-            spec.specText.includes("Ekran Kartı")
-          ) || {}).specText || "N/A",
-        Ram:
-          (
-            specsArray.find((spec) =>
-              spec.specText.toLowerCase().includes("Ram".toLowerCase())
-            ) || {}
-          ).specText || "N/A",
-        Storage:
-          (specsArray.find((spec) => spec.specText.includes("SSD")) || {})
-            .specText || "N/A",
-      };
+    const specs = {
+      CPU:
+        (specsArray.find((spec) => spec.specText.includes("İşlemci")) || {})
+          .specText || "N/A",
+      Motherboard:
+        (specsArray.find((spec) => spec.specText.includes("Anakart")) || {})
+          .specText || "N/A",
+      GPU:
+        (specsArray.find((spec) =>
+          spec.specText.includes("Ekran Kartı")
+        ) || {}).specText || "N/A",
+      Ram:
+        (
+          specsArray.find((spec) =>
+            spec.specText.toLowerCase().includes("Ram".toLowerCase())
+          ) || {}
+        ).specText || "N/A",
+      Storage:
+        (specsArray.find((spec) => spec.specText.includes("SSD")) || {})
+          .specText || "N/A",
+    };
 
-      return { name, price, image, link, specs, store: "itopya" };
-    })
-  );
+    return { name, price, image, link, specs, store: "itopya" };
+  });
   return products;
 }
 
 async function fetchAllProducts() {
-  const browser = await puppeteer.launch();
-  const [pageInstance] = await browser.pages();
-  await pageInstance.goto("https://www.itopya.com/HazirSistemler?pg=1", {
-    waitUntil: "networkidle2",
-  });
-
-  const totalPages = await parseTotalPages(pageInstance);
-  let allProducts = await parseProducts(pageInstance);
+  const initialContent = await fetchPageData(1);
+  const initialDocument = new JSDOM(initialContent).window.document;
+  
+  const totalPages = await parseTotalPages(initialDocument);
+  let allProducts = await parseProducts(initialDocument);
 
   for (let page = 2; page <= totalPages; page++) {
-    await pageInstance.goto(`https://www.itopya.com/HazirSistemler?pg=${page}`, {
-      waitUntil: "networkidle2",
-    });
-    const products = await parseProducts(pageInstance);
+    const content = await fetchPageData(page);
+    const document = new JSDOM(content).window.document;
+    const products = await parseProducts(document);
     allProducts = allProducts.concat(products);
   }
 
-  await browser.close();
   return allProducts;
 }
 
