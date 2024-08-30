@@ -1,15 +1,20 @@
 {
   "name": "scraper-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "A web scraping API using Puppeteer and Express.",
   "type": "module",
   "main": "index.mjs",
   "scripts": {
     "start": "node --no-deprecation index.mjs",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "web-scraping",
+    "puppeteer",
+    "express",
+    "API"
+  ],
+  "author": "Your Name",
   "license": "ISC",
   "dependencies": {
     "compression": "^1.7.4",
