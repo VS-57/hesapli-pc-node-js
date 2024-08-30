@@ -16,11 +16,12 @@ async function getTotalPages(url) {
     const response = await axios.get(url, {
       headers: {
         'User-Agent':
-          'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
-        'Accept-Language': 'en-US,en;q=0.9',
+          'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0',
+        'Accept-Language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
         'Connection': 'keep-alive',
         'DNT': '1',
         'Upgrade-Insecure-Requests': '1',
+        'X-Forwarded-For': '176.42.0.0', // Örnek Türkiye IP adresi
       },
     });
     console.log(`Fetching URL: ${url} - Status: ${response.status}`);
@@ -54,11 +55,12 @@ async function fetchAllProducts(urls) {
       const response = await axios.get(url, {
         headers: {
           'User-Agent':
-            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
-          'Accept-Language': 'en-US,en;q=0.9',
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0',
+          'Accept-Language': 'tr-TR,tr;q=0.9,en-US;q=0.8,en;q=0.7',
           'Connection': 'keep-alive',
           'DNT': '1',
           'Upgrade-Insecure-Requests': '1',
+          'X-Forwarded-For': '176.42.0.0', // Örnek Türkiye IP adresi
         },
       });
 
