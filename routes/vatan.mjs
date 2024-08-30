@@ -110,6 +110,16 @@ router.get("/", async (req, res) => {
     });
     const page = await browser.newPage();
 
+    // Set user agent and language preferences
+    await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36');
+    await page.setExtraHTTPHeaders({
+      'Accept-Language': 'tr-TR,tr;q=0.9'
+    });
+
+    // Set Geolocation to Istanbul, Turkey
+    await page.setGeolocation({ latitude: 41.0082, longitude: 28.9784 });
+    await page.emulateTimezone('Europe/Istanbul');
+
     const totalPages = await getTotalPages(page, baseUrl);
     const urls = generateUrls(baseUrl, totalPages);
     const products = await fetchAllProducts(page, urls);
