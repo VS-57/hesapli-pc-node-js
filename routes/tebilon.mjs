@@ -1,8 +1,15 @@
 import express from "express";
 import fetch from "node-fetch";
 import { JSDOM } from "jsdom";
+import { MongoClient } from "mongodb";
 
 const router = express.Router();
+
+// MongoDB connection details
+const mongoUrl =
+  "mongodb://mongo:cSYFqpPbEyjwsAoNzrdfWYNJooWXsGOI@autorack.proxy.rlwy.net:48747";
+const dbName = "ucuzasistem";
+const collectionName = "tebilon"; // Collection name set to "tebilon"
 
 async function getTotalPages(url) {
   try {
@@ -114,9 +121,11 @@ async function fetchProductDetails(url) {
       Motherboard: "N/A",
       GPU: tempSpecs["Grafik İşlemci"] || "N/A",
       Ram: tempSpecs["Ram Kapasitesi"] || "N/A",
-      Case : (
+      Case: (
         (tempSpecs["PSU"] || "") + " " + (tempSpecs["PSU Verimlilik"] || "")
-      ).trim() === "" ? "N/A" : (tempSpecs["PSU"] || "") + " " + (tempSpecs["PSU Verimlilik"] || ""),
+      ).trim() === ""
+        ? "N/A"
+        : (tempSpecs["PSU"] || "") + " " + (tempSpecs["PSU Verimlilik"] || ""),
       Storage:
         (tempSpecs["Depolama Kapasitesi"] || "") +
         " " +
@@ -155,6 +164,24 @@ router.get("/", async (req, res) => {
     });
 
     const productsWithDetails = await Promise.all(detailPromises);
+
+    // MongoDB connection
+    const client = new MongoClient(mongoUrl);
+    await client.connect();
+    const db = client.db(dbName);
+    const collection = db.collection(collectionName);
+
+    // Remove existing 'tebilon' store products
+    await collection.deleteMany({ store: "tebilon" });
+
+    // Insert new products into MongoDB
+    if (productsWithDetails.length > 0) {
+      await collection.insertMany(productsWithDetails);
+    }
+
+    // Close MongoDB connection
+    await client.close();
+
     res.json(productsWithDetails);
   } catch (error) {
     res.status(500).json({ error: error.message });

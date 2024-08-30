@@ -1,8 +1,15 @@
 import express from "express";
 import fetch from "node-fetch";
 import { JSDOM } from "jsdom";
+import { MongoClient } from "mongodb";
 
 const router = express.Router();
+
+// MongoDB connection details
+const mongoUrl =
+  "mongodb://mongo:cSYFqpPbEyjwsAoNzrdfWYNJooWXsGOI@autorack.proxy.rlwy.net:48747";
+const dbName = "ucuzasistem";
+const collectionName = "inceHesap";
 
 async function fetchPageData(url) {
   try {
@@ -126,6 +133,24 @@ router.get("/", async (req, res) => {
     const totalPages = await getTotalPages(baseUrl);
     const urls = generateUrls(baseUrl, 14 /* totalPages */);
     const products = await fetchAllProducts(urls);
+
+    // MongoDB connection
+    const client = new MongoClient(mongoUrl);
+    await client.connect();
+    const db = client.db(dbName);
+    const collection = db.collection(collectionName);
+
+    // Remove existing 'inceHesap' store products
+    await collection.deleteMany({ store: "inceHesap" });
+
+    // Insert new products into MongoDB
+    if (products.length > 0) {
+      await collection.insertMany(products);
+    }
+
+    // Close MongoDB connection
+    await client.close();
+
     res.json(products);
   } catch (error) {
     res.status(500).json({ error: error.message });

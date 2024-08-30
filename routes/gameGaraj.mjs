@@ -1,10 +1,17 @@
 import express from "express";
 import fetch from "node-fetch";
 import { JSDOM } from "jsdom";
+import { MongoClient } from "mongodb";
 
 const router = express.Router();
 
-// Sayfa verilerini çekme fonksiyonu
+// MongoDB connection details
+const mongoUrl =
+  "mongodb://mongo:cSYFqpPbEyjwsAoNzrdfWYNJooWXsGOI@autorack.proxy.rlwy.net:48747";
+const dbName = "ucuzasistem";
+const collectionName = "gameGaraj";
+
+// Function to fetch page data
 async function fetchPageData(page) {
   try {
     const response = await fetch(
@@ -20,7 +27,7 @@ async function fetchPageData(page) {
   }
 }
 
-// Toplam sayfa sayısını alma fonksiyonu
+// Function to get total pages
 async function getTotalPages() {
   try {
     const response = await fetch(
@@ -41,7 +48,7 @@ async function getTotalPages() {
   }
 }
 
-// Ürünleri ayrıştırma fonksiyonu
+// Function to parse products from a page
 function parseProducts(doc) {
   const productElements = doc.querySelectorAll(".products li.product");
   return Array.from(productElements).map((product) => {
@@ -52,9 +59,9 @@ function parseProducts(doc) {
     );
     const specsElement = product.querySelector(
       'div[itemprop="description"] ul'
-    ); // Teknik özelliklerin bulunduğu alan
+    ); // Technical specifications area
 
-    // Fiyatı sayıya çevirme
+    // Convert price to a number
     let priceText = priceElement ? priceElement.textContent.trim() : null;
     let priceNumber = null;
 
@@ -65,14 +72,14 @@ function parseProducts(doc) {
       priceNumber = parseFloat(normalizedPriceText);
     }
 
-    // Teknik özellikleri al
+    // Extract specifications
     const specsList = specsElement
       ? Array.from(specsElement.querySelectorAll("li")).map((li) =>
           li.textContent.trim()
         )
       : [];
 
-    // Function to find the GPU
+    // Functions to find specific specs
     const findGPU = (list) => {
       return (
         list.find(
@@ -84,7 +91,6 @@ function parseProducts(doc) {
       );
     };
 
-    // Function to find the RAM
     const findRAM = (list) => {
       return (
         list
@@ -100,7 +106,6 @@ function parseProducts(doc) {
       );
     };
 
-    // Function to find the Storage
     const findStorage = (list) => {
       return (
         list
@@ -117,7 +122,7 @@ function parseProducts(doc) {
       );
     };
 
-    // Building the specs object based on the specsList length
+    // Build the specs object
     const specs = specsList.reduce((acc, spec, index) => {
       if (index === 0) acc["CPU"] = spec;
       else if (index === 1) acc["Motherboard"] = spec;
@@ -127,11 +132,12 @@ function parseProducts(doc) {
       return acc;
     }, {});
 
-    // Handling cases where specsList length is not 5
+    // Handle cases where specsList length is not 5
     if (specsList.length !== 5) {
       if (!specs["Ram"]) specs["Ram"] = findRAM(specsList);
       if (!specs["Storage"]) specs["Storage"] = findStorage(specsList);
     }
+
     return {
       image: imageElement ? imageElement.getAttribute("src") : null,
       name: titleElement ? titleElement.textContent.trim() : null,
@@ -143,7 +149,7 @@ function parseProducts(doc) {
   });
 }
 
-// Tüm ürünleri almak için fonksiyon
+// Function to fetch all products
 async function fetchAllProducts(totalPages) {
   let allProducts = [];
   for (let page = 1; page <= totalPages; page++) {
@@ -155,7 +161,6 @@ async function fetchAllProducts(totalPages) {
       console.error(
         `Error fetching products from page ${page}: ${error.message}`
       );
-      // Hata mesajını istemciye iletmek yerine sadece loglama yapıyoruz
     }
   }
   return allProducts;
@@ -165,6 +170,24 @@ router.get("/", async (req, res) => {
   try {
     const totalPages = await getTotalPages();
     const products = await fetchAllProducts(totalPages);
+
+    // MongoDB connection
+    const client = new MongoClient(mongoUrl);
+    await client.connect();
+    const db = client.db(dbName);
+    const collection = db.collection(collectionName);
+
+    // Remove existing 'gameGaraj' store products
+    await collection.deleteMany({ store: "gameGaraj" });
+
+    // Insert new products into MongoDB
+    if (products.length > 0) {
+      await collection.insertMany(products);
+    }
+
+    // Close MongoDB connection
+    await client.close();
+
     res.json(products);
   } catch (error) {
     res.status(500).json({ error: error.message });

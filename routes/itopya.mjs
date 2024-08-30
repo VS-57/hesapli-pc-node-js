@@ -1,7 +1,14 @@
 import express from "express";
 import puppeteer from "puppeteer";
+import { MongoClient } from "mongodb";
 
 const router = express.Router();
+
+// MongoDB connection details
+const mongoUrl =
+  "mongodb://mongo:cSYFqpPbEyjwsAoNzrdfWYNJooWXsGOI@autorack.proxy.rlwy.net:48747";
+const dbName = "ucuzasistem";
+const collectionName = "itopya";
 
 async function fetchPageData(page) {
   const browser = await puppeteer.launch();
@@ -100,6 +107,24 @@ async function fetchAllProducts() {
 router.get("/", async (req, res) => {
   try {
     const products = await fetchAllProducts();
+
+    // MongoDB connection
+    const client = new MongoClient(mongoUrl);
+    await client.connect();
+    const db = client.db(dbName);
+    const collection = db.collection(collectionName);
+
+    // Remove existing 'itopya' store products
+    await collection.deleteMany({ store: "itopya" });
+
+    // Insert new products into MongoDB
+    if (products.length > 0) {
+      await collection.insertMany(products);
+    }
+
+    // Close MongoDB connection
+    await client.close();
+
     res.json(products);
   } catch (error) {
     res.status(500).json({ error: error.message });

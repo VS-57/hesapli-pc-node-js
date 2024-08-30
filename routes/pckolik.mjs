@@ -1,9 +1,17 @@
 import express from "express";
 import fetch from "node-fetch";
 import { JSDOM } from "jsdom";
+import { MongoClient } from "mongodb";
 
 const router = express.Router();
 
+// MongoDB connection details
+const mongoUrl =
+  "mongodb://mongo:cSYFqpPbEyjwsAoNzrdfWYNJooWXsGOI@autorack.proxy.rlwy.net:48747";
+const dbName = "ucuzasistem";
+const collectionName = "pckolik";
+
+// Function to fetch and scrape product data from a given URL
 async function fetchAndScrapeProductData(url) {
   const response = await fetch(url);
   const html = await response.text();
@@ -33,7 +41,7 @@ async function fetchAndScrapeProductData(url) {
       ? "https://pckolik.com" + linkElement.getAttribute("href")
       : "N/A";
 
-    // Array.from(featuresList) ile features'ı al ve ilk üç elemanı 'specs' olarak düzenle
+    // Extract features and organize them into specs
     const features = Array.from(featuresList).map((feature) =>
       feature.textContent.trim()
     );
@@ -43,8 +51,8 @@ async function fetchAndScrapeProductData(url) {
         (x) =>
           x.toLowerCase().includes("ryzen") ||
           x.toLowerCase().includes("core") ||
-          x.toLowerCase().includes("İŞLEMCİ".toLowerCase()) ||
-          x.toLowerCase().includes("ISLEMCI".toLowerCase())
+          x.toLowerCase().includes("işlemci") ||
+          x.toLowerCase().includes("islemci")
       ) || "N/A";
 
     const tempGpu =
@@ -58,9 +66,11 @@ async function fetchAndScrapeProductData(url) {
 
     const specs = {
       CPU: tempCpu,
-      Motherboard: features.find((x) => x.toLowerCase().includes("anakart")),
+      Motherboard: features.find((x) =>
+        x.toLowerCase().includes("anakart")
+      ) || "N/A",
       GPU: tempGpu,
-      Ram: features.find((x) => x.toLowerCase().includes("ram")),
+      Ram: features.find((x) => x.toLowerCase().includes("ram")) || "N/A",
       Case: features.find((x) => x.toLowerCase().includes("kasa")) || "N/A",
       Storage: features.find((x) => x.toLowerCase().includes("ssd")) || "N/A",
     };
@@ -71,6 +81,7 @@ async function fetchAndScrapeProductData(url) {
   return products;
 }
 
+// Function to scrape multiple pages
 async function scrapeMultiplePages(urls) {
   let allProducts = [];
   for (let url of urls) {
@@ -80,11 +91,30 @@ async function scrapeMultiplePages(urls) {
   return allProducts;
 }
 
+// Express route handler
 router.get("/", async (req, res) => {
   const baseUrl = "https://pckolik.com/tr/pc/hazir-sistemler";
   const urls = [`${baseUrl}`];
   try {
     const products = await scrapeMultiplePages(urls);
+
+    // MongoDB connection
+    const client = new MongoClient(mongoUrl);
+    await client.connect();
+    const db = client.db(dbName);
+    const collection = db.collection(collectionName);
+
+    // Remove existing 'pckolik' store products
+    await collection.deleteMany({ store: "pckolik" });
+
+    // Insert new products into MongoDB
+    if (products.length > 0) {
+      await collection.insertMany(products);
+    }
+
+    // Close MongoDB connection
+    await client.close();
+
     res.json(products);
   } catch (error) {
     res.status(500).json({ error: error.message });

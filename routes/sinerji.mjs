@@ -1,9 +1,14 @@
 import express from "express";
 import puppeteer from "puppeteer";
-import { JSDOM } from "jsdom";
-import fs from "fs/promises"; // Import fs/promises for async file operations
+import { MongoClient } from "mongodb";
+import { JSDOM } from "jsdom"; // Import JSDOM since it's being used in the function
 
 const router = express.Router();
+
+const mongoUrl =
+  "mongodb://mongo:cSYFqpPbEyjwsAoNzrdfWYNJooWXsGOI@autorack.proxy.rlwy.net:48747";
+const dbName = "ucuzasistem";
+const collectionName = "sinerji";
 
 async function fetchPageData(url, page) {
   await page.goto(url, { waitUntil: "networkidle2" });
@@ -107,16 +112,22 @@ router.get("/", async (req, res) => {
     const products = await fetchAllProducts(urls, page);
     await browser.close();
 
-    let productList = JSON.parse(await fs.readFile("mock.json", "utf-8"));
+    // Connect to MongoDB
+    const client = new MongoClient(mongoUrl);
+    await client.connect();
+    const db = client.db(dbName);
+    const collection = db.collection(collectionName);
 
-    // Remove existing 'sinerji' store products
-    const filteredList = productList.filter((x) => x.store !== "sinerji");
+    // Remove existing 'sinerji' store products from the collection
+    await collection.deleteMany({ store: "sinerji" });
 
-    // Add new products to the list
-    const updatedList = [...filteredList, ...products];
+    // Insert new products into the collection
+    if (products.length > 0) {
+      await collection.insertMany(products);
+    }
 
-    // Write the updated list back to the file
-    /* await fs.writeFile("mock.json", JSON.stringify(updatedList, null, 2)); */
+    // Close the MongoDB connection
+    await client.close();
 
     res.json(products);
   } catch (error) {

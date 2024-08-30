@@ -1,10 +1,17 @@
 import express from "express";
 import fetch from "node-fetch";
 import { JSDOM } from "jsdom";
+import { MongoClient } from "mongodb";
 
 const router = express.Router();
 
-// Sayfa verilerini çekme fonksiyonu
+// MongoDB connection details
+const mongoUrl =
+  "mongodb://mongo:cSYFqpPbEyjwsAoNzrdfWYNJooWXsGOI@autorack.proxy.rlwy.net:48747";
+const dbName = "ucuzasistem";
+const collectionName = "gencerGaming";
+
+// Function to fetch page data
 async function fetchPageData(url) {
   try {
     const response = await fetch(url);
@@ -18,7 +25,7 @@ async function fetchPageData(url) {
   }
 }
 
-// Toplam sayfa sayısını alma fonksiyonu
+// Function to get total pages
 async function getTotalPages(baseUrl) {
   try {
     const doc = await fetchPageData(baseUrl);
@@ -33,7 +40,7 @@ async function getTotalPages(baseUrl) {
   }
 }
 
-// Ürünleri ayrıştırma fonksiyonu
+// Function to fetch and parse all products
 async function fetchAllProducts(urls) {
   const products = [];
 
@@ -111,6 +118,7 @@ async function fetchAllProducts(urls) {
   return products;
 }
 
+// Function to generate URLs for pagination
 function generateUrls(base, totalPages) {
   const urls = [];
   for (let i = 1; i <= totalPages; i++) {
@@ -126,6 +134,24 @@ router.get("/", async (req, res) => {
     const totalPages = await getTotalPages(baseUrl);
     const urls = generateUrls(baseUrl, totalPages);
     const products = await fetchAllProducts(urls);
+
+    // MongoDB connection
+    const client = new MongoClient(mongoUrl);
+    await client.connect();
+    const db = client.db(dbName);
+    const collection = db.collection(collectionName);
+
+    // Remove existing 'gencergaming' store products
+    await collection.deleteMany({ store: "gencergaming" });
+
+    // Insert new products into MongoDB
+    if (products.length > 0) {
+      await collection.insertMany(products);
+    }
+
+    // Close MongoDB connection
+    await client.close();
+
     res.json(products);
   } catch (error) {
     res.status(500).json({ error: error.message });
