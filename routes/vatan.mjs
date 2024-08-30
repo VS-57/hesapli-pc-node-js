@@ -16,8 +16,9 @@ async function getTotalPages(url) {
     const response = await fetch(url);
     console.log(`Fetching URL: ${url} - Status: ${response.status}`);
     if (!response.ok) {
-      console.error(`Failed to fetch ${url}: ${response.statusText}`);
-      return 1;
+      const errorMsg = `Failed to fetch ${url}: ${response.statusText}`;
+      console.error(errorMsg);
+      throw new Error(errorMsg);
     }
 
     const html = await response.text();
@@ -38,7 +39,7 @@ async function getTotalPages(url) {
     return totalPages || 1;
   } catch (error) {
     console.error(`Error fetching total pages from ${url}: ${error.message}`);
-    return 1;
+    throw error;
   }
 }
 
@@ -47,6 +48,12 @@ async function fetchAllProducts(urls) {
   const fetchPromises = urls.map(async (url) => {
     try {
       const response = await fetch(url);
+      if (!response.ok) {
+        const errorMsg = `Failed to fetch ${url}: ${response.statusText}`;
+        console.error(errorMsg);
+        throw new Error(errorMsg);
+      }
+
       const html = await response.text();
       const dom = new JSDOM(html);
       const doc = dom.window.document;
@@ -112,11 +119,17 @@ async function fetchAllProducts(urls) {
       console.error(
         `Error fetching product list from ${url}: ${error.message}`
       );
+      throw error;
     }
   });
 
-  await Promise.all(fetchPromises);
-  return products;
+  try {
+    await Promise.all(fetchPromises);
+    return products;
+  } catch (error) {
+    console.error(`Error in fetching all products: ${error.message}`);
+    throw error;
+  }
 }
 
 function generateUrls(base, totalPages) {
@@ -137,23 +150,27 @@ router.get("/", async (req, res) => {
     const products = await fetchAllProducts(urls);
 
     // MongoDB connection
-    const client = new MongoClient(mongoUrl);
-    await client.connect();
-    const db = client.db(dbName);
-    const collection = db.collection(collectionName);
+    const client = new MongoClient(mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true });
+    try {
+      await client.connect();
+      const db = client.db(dbName);
+      const collection = db.collection(collectionName);
 
-    // Remove existing 'vatan' store products
-    await collection.deleteMany({ store: "vatan" });
+      // Remove existing 'vatan' store products
+      await collection.deleteMany({ store: "vatan" });
 
-    // Insert new products into MongoDB
-    if (products.length > 0) {
-      await collection.insertMany(products);
+      // Insert new products into MongoDB
+      if (products.length > 0) {
+        await collection.insertMany(products);
+      }
+
+      res.json(products);
+    } catch (dbError) {
+      console.error(`Database error: ${dbError.message}`);
+      res.status(500).json({ error: `Database error: ${dbError.message}` });
+    } finally {
+      await client.close();
     }
-
-    // Close MongoDB connection
-    await client.close();
-
-    res.json(products);
   } catch (error) {
     res.status(500).json({ error: error.message });
   }
