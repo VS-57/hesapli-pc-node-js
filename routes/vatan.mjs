@@ -1,6 +1,5 @@
 import express from "express";
-import fetch from "node-fetch";
-import { JSDOM } from "jsdom";
+import puppeteer from "puppeteer";
 import { MongoClient } from "mongodb";
 
 const router = express.Router();
@@ -12,110 +11,122 @@ const dbName = "ucuzasistem";
 const collectionName = "vatan"; // Collection name set to "vatan"
 
 async function getTotalPages(url) {
+  const browser = await puppeteer.launch();
+  const page = await browser.newPage();
+
   try {
-    const response = await fetch(url);
-    console.log(`Fetching URL: ${url} - Status: ${response.status}`);
-    if (!response.ok) {
-      console.error(`Failed to fetch ${url}: ${response.statusText}`);
-      return 1;
-    }
+    await page.goto(url, { waitUntil: "networkidle2" });
+    const totalPages = await page.evaluate(() => {
+      const paginationItems = document.querySelectorAll(".pagination__item");
+      if (paginationItems.length < 2) {
+        return 1;
+      }
 
-    const html = await response.text();
-    console.log(`HTML Content fetched: ${html.length} characters`);
-    const dom = new JSDOM(html);
-    const doc = dom.window.document;
+      const secondToLastItem = paginationItems[paginationItems.length - 2];
+      return parseInt(secondToLastItem.textContent.trim(), 10) || 1;
+    });
 
-    const paginationItems = doc.querySelectorAll(".pagination__item");
-    console.log(`Found ${paginationItems.length} pagination items`);
-    if (paginationItems.length < 2) {
-      return 1;
-    }
-
-    const secondToLastItem = paginationItems[paginationItems.length - 2];
-    const totalPages = parseInt(secondToLastItem.textContent.trim(), 10);
     console.log(`Total Pages: ${totalPages}`);
-
-    return totalPages || 1;
+    return totalPages;
   } catch (error) {
     console.error(`Error fetching total pages from ${url}: ${error.message}`);
     return 1;
+  } finally {
+    await browser.close();
   }
 }
 
 async function fetchAllProducts(urls) {
   const products = [];
-  const fetchPromises = urls.map(async (url) => {
-    try {
-      const response = await fetch(url);
-      const html = await response.text();
-      const dom = new JSDOM(html);
-      const doc = dom.window.document;
-      const productElements = doc.querySelectorAll(
-        ".product-list.product-list--list-page .product-list-link"
-      );
+  const browser = await puppeteer.launch();
 
-      productElements.forEach((productElement) => {
-        const nameElement = productElement.querySelector(
-          ".product-list__product-name h3"
-        );
-        const priceElement = productElement.querySelector(
-          ".product-list__price"
-        );
-        const imageElement = productElement.querySelector(
-          ".product-list__image-safe img"
-        );
+  try {
+    const fetchPromises = urls.map(async (url) => {
+      const page = await browser.newPage();
+      try {
+        await page.goto(url, { waitUntil: "networkidle2" });
 
-        const link =
-          "https://www.vatanbilgisayar.com" +
-          productElement.getAttribute("href");
-        const name = nameElement ? nameElement.textContent.trim() : "No name";
+        const pageProducts = await page.evaluate(() => {
+          const productElements = document.querySelectorAll(
+            ".product-list.product-list--list-page .product-list-link"
+          );
+          const products = [];
 
-        // Fiyatı al ve sayıya dönüştür
-        const priceText = priceElement
-          ? priceElement.textContent.trim().replace(/\s+/g, " ")
-          : "0";
-        const price =
-          parseFloat(priceText.replace(/[^\d,]/g, "").replace(",", ".")) || 0;
+          productElements.forEach((productElement) => {
+            const nameElement = productElement.querySelector(
+              ".product-list__product-name h3"
+            );
+            const priceElement = productElement.querySelector(
+              ".product-list__price"
+            );
+            const imageElement = productElement.querySelector(
+              ".product-list__image-safe img"
+            );
 
-        const image = imageElement
-          ? imageElement.getAttribute("data-src")
-          : "No image";
-        const specs = {};
+            const link =
+              "https://www.vatanbilgisayar.com" +
+              productElement.getAttribute("href");
+            const name = nameElement
+              ? nameElement.textContent.trim()
+              : "No name";
 
-        productElement
-          .querySelectorAll(".productlist_spec ul li p")
-          .forEach((specElement) => {
-            const specNameElement = specElement.querySelector("#specname");
-            const specValueElement = specElement.querySelector("#specvalue");
-            const specName = specNameElement
-              ? specNameElement.textContent.trim()
-              : "";
-            const specValue = specValueElement
-              ? specValueElement.textContent.trim()
-              : "";
+            const priceText = priceElement
+              ? priceElement.textContent.trim().replace(/\s+/g, " ")
+              : "0";
+            const price =
+              parseFloat(priceText.replace(/[^\d,]/g, "").replace(",", ".")) ||
+              0;
 
-            // Belirli anahtarlar ile eşleştirme yap
-            if (specName.includes("İşlemci Numarası")) {
-              specs["CPU"] = specValue;
-            } else if (specName.includes("Grafik İşlemci")) {
-              specs["GPU"] = specValue;
-            } else if (specName.includes("Anakart Chipseti")) {
-              specs["Motherboard"] = specValue;
-            } else if (specName.includes("Ram (Sistem Belleği)")) {
-              specs["Ram"] = specValue;
-            }
+            const image = imageElement
+              ? imageElement.getAttribute("data-src")
+              : "No image";
+            const specs = {};
+
+            productElement
+              .querySelectorAll(".productlist_spec ul li p")
+              .forEach((specElement) => {
+                const specNameElement = specElement.querySelector("#specname");
+                const specValueElement =
+                  specElement.querySelector("#specvalue");
+                const specName = specNameElement
+                  ? specNameElement.textContent.trim()
+                  : "";
+                const specValue = specValueElement
+                  ? specValueElement.textContent.trim()
+                  : "";
+
+                if (specName.includes("İşlemci Numarası")) {
+                  specs["CPU"] = specValue;
+                } else if (specName.includes("Grafik İşlemci")) {
+                  specs["GPU"] = specValue;
+                } else if (specName.includes("Anakart Chipseti")) {
+                  specs["Motherboard"] = specValue;
+                } else if (specName.includes("Ram (Sistem Belleği)")) {
+                  specs["Ram"] = specValue;
+                }
+              });
+
+            products.push({ name, price, image, link, specs, store: "vatan" });
           });
 
-        products.push({ name, price, image, link, specs, store: "vatan" });
-      });
-    } catch (error) {
-      console.error(
-        `Error fetching product list from ${url}: ${error.message}`
-      );
-    }
-  });
+          return products;
+        });
 
-  await Promise.all(fetchPromises);
+        products.push(...pageProducts);
+      } catch (error) {
+        console.error(
+          `Error fetching product list from ${url}: ${error.message}`
+        );
+      } finally {
+        await page.close();
+      }
+    });
+
+    await Promise.all(fetchPromises);
+  } finally {
+    await browser.close();
+  }
+
   return products;
 }
 
