@@ -1,8 +1,7 @@
 import express from "express";
 import { MongoClient } from "mongodb";
 import { JSDOM } from "jsdom";
-import puppeteer from "puppeteer-core";
-import chromium from "chromium"; // npm'den yüklü chromium'u kullanıyoruz
+import axios from "axios";
 
 const router = express.Router();
 
@@ -11,9 +10,8 @@ const mongoUrl =
 const dbName = "ucuzasistem";
 const collectionName = "sinerji";
 
-async function fetchPageData(url, page) {
-  await page.goto(url, { waitUntil: "networkidle2" });
-  const content = await page.content();
+async function fetchPageData(url) {
+  const { data: content } = await axios.get(url);
   const dom = new JSDOM(content);
   return dom.window.document;
 }
@@ -25,10 +23,10 @@ function parseTotalPages(doc) {
   return totalPages;
 }
 
-async function fetchAllProducts(urls, page) {
+async function fetchAllProducts(urls) {
   const products = [];
   for (const url of urls) {
-    const doc = await fetchPageData(url, page);
+    const doc = await fetchPageData(url);
     const productElements = doc.querySelectorAll(".product");
 
     productElements.forEach((productElement) => {
@@ -93,8 +91,8 @@ function findNumberAndNextChar(name) {
   return null;
 }
 
-async function generateUrls(baseUrl, page) {
-  const initialDoc = await fetchPageData(baseUrl, page);
+async function generateUrls(baseUrl) {
+  const initialDoc = await fetchPageData(baseUrl);
   const totalPages = parseTotalPages(initialDoc);
   const urls = [];
   for (let i = 1; i <= totalPages; i++) {
@@ -106,16 +104,9 @@ async function generateUrls(baseUrl, page) {
 
 router.get("/", async (req, res) => {
   const baseUrl = "https://www.sinerji.gen.tr/hazir-sistemler-c-2107";
-  let browser;
   try {
-    // Puppeteer-core ile Chromium'u çalıştırıyoruz
-    browser = await puppeteer.launch({
-      executablePath: chromium.path, // Chromium'un yürütülebilir yolu
-      args: ['--no-sandbox', '--disable-setuid-sandbox'],
-    });
-    const page = await browser.newPage();
-    const urls = await generateUrls(baseUrl, page);
-    const products = await fetchAllProducts(urls, page);
+    const urls = await generateUrls(baseUrl);
+    const products = await fetchAllProducts(urls);
     
     // MongoDB bağlantısı ve veri işleme
     const client = new MongoClient(mongoUrl);
@@ -136,10 +127,6 @@ router.get("/", async (req, res) => {
     res.json(products);
   } catch (error) {
     res.status(500).json({ error: error.message });
-  } finally {
-    if (browser) {
-      await browser.close();
-    }
   }
 });
 
