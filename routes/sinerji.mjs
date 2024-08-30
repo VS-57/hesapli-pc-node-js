@@ -105,33 +105,39 @@ async function generateUrls(baseUrl, page) {
 
 router.get("/", async (req, res) => {
   const baseUrl = "https://www.sinerji.gen.tr/hazir-sistemler-c-2107";
+  let browser;
   try {
-    const browser = await puppeteer.launch();
+    // Puppeteer başlatma parametrelerine sandbox'ı devre dışı bırakma ekleniyor
+    browser = await puppeteer.launch({
+      args: ['--no-sandbox', '--disable-setuid-sandbox'],
+    });
     const page = await browser.newPage();
     const urls = await generateUrls(baseUrl, page);
     const products = await fetchAllProducts(urls, page);
-    await browser.close();
-
-    // Connect to MongoDB
+    
+    // MongoDB bağlantısı ve veri işleme
     const client = new MongoClient(mongoUrl);
     await client.connect();
     const db = client.db(dbName);
     const collection = db.collection(collectionName);
 
-    // Remove existing 'sinerji' store products from the collection
+    // Mevcut sinerji ürünlerini sil ve yenileri ekle
     await collection.deleteMany({ store: "sinerji" });
 
-    // Insert new products into the collection
     if (products.length > 0) {
       await collection.insertMany(products);
     }
 
-    // Close the MongoDB connection
+    // MongoDB bağlantısını kapat
     await client.close();
 
     res.json(products);
   } catch (error) {
     res.status(500).json({ error: error.message });
+  } finally {
+    if (browser) {
+      await browser.close();
+    }
   }
 });
 
