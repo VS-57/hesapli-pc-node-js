@@ -1,7 +1,8 @@
 import express from "express";
-import puppeteer from "puppeteer";
 import { MongoClient } from "mongodb";
-import { JSDOM } from "jsdom"; // Import JSDOM since it's being used in the function
+import { JSDOM } from "jsdom";
+import puppeteer from "puppeteer-core";
+import chromium from "chromium"; // npm'den yüklü chromium'u kullanıyoruz
 
 const router = express.Router();
 
@@ -107,8 +108,9 @@ router.get("/", async (req, res) => {
   const baseUrl = "https://www.sinerji.gen.tr/hazir-sistemler-c-2107";
   let browser;
   try {
-    // Puppeteer başlatma parametrelerine sandbox'ı devre dışı bırakma ekleniyor
+    // Puppeteer-core ile Chromium'u çalıştırıyoruz
     browser = await puppeteer.launch({
+      executablePath: chromium.path, // Chromium'un yürütülebilir yolu
       args: ['--no-sandbox', '--disable-setuid-sandbox'],
     });
     const page = await browser.newPage();
