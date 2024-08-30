@@ -1,5 +1,5 @@
 import express from "express";
-import fetch from "node-fetch";
+import axios from "axios";
 import { JSDOM } from "jsdom";
 import { MongoClient } from "mongodb";
 
@@ -13,15 +13,19 @@ const collectionName = "vatan"; // Collection name set to "vatan"
 
 async function getTotalPages(url) {
   try {
-    const response = await fetch(url);
+    const response = await axios.get(url, {
+      headers: {
+        'User-Agent':
+          'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+        'Accept-Language': 'en-US,en;q=0.9',
+        'Connection': 'keep-alive',
+        'DNT': '1',
+        'Upgrade-Insecure-Requests': '1',
+      },
+    });
     console.log(`Fetching URL: ${url} - Status: ${response.status}`);
-    if (!response.ok) {
-      const errorMsg = `Failed to fetch ${url}: ${response.statusText}`;
-      console.error(errorMsg);
-      throw new Error(errorMsg);
-    }
 
-    const html = await response.text();
+    const html = response.data;
     console.log(`HTML Content fetched: ${html.length} characters`);
     const dom = new JSDOM(html);
     const doc = dom.window.document;
@@ -47,14 +51,18 @@ async function fetchAllProducts(urls) {
   const products = [];
   const fetchPromises = urls.map(async (url) => {
     try {
-      const response = await fetch(url);
-      if (!response.ok) {
-        const errorMsg = `Failed to fetch ${url}: ${response.statusText}`;
-        console.error(errorMsg);
-        throw new Error(errorMsg);
-      }
+      const response = await axios.get(url, {
+        headers: {
+          'User-Agent':
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+          'Accept-Language': 'en-US,en;q=0.9',
+          'Connection': 'keep-alive',
+          'DNT': '1',
+          'Upgrade-Insecure-Requests': '1',
+        },
+      });
 
-      const html = await response.text();
+      const html = response.data;
       const dom = new JSDOM(html);
       const doc = dom.window.document;
       const productElements = doc.querySelectorAll(
@@ -150,7 +158,10 @@ router.get("/", async (req, res) => {
     const products = await fetchAllProducts(urls);
 
     // MongoDB connection
-    const client = new MongoClient(mongoUrl, { useNewUrlParser: true, useUnifiedTopology: true });
+    const client = new MongoClient(mongoUrl, {
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    });
     try {
       await client.connect();
       const db = client.db(dbName);
