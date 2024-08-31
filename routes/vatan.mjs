@@ -7,13 +7,16 @@ puppeteer.use(StealthPlugin());
 
 const router = express.Router();
 
+const proxyAddress = "188.132.221.163:8080"; // Replace with the desired proxy from your list
+
 // MongoDB connection details
-const mongoUrl = "mongodb://mongo:cSYFqpPbEyjwsAoNzrdfWYNJooWXsGOI@autorack.proxy.rlwy.net:48747";
+const mongoUrl =
+  "mongodb://mongo:cSYFqpPbEyjwsAoNzrdfWYNJooWXsGOI@autorack.proxy.rlwy.net:48747";
 const dbName = "ucuzasistem";
 const collectionName = "vatan"; // Collection name set to "vatan"
 
 async function getTotalPages(page, url) {
-  await page.goto(url, { waitUntil: 'load', timeout: 0 });
+  await page.goto(url, { waitUntil: "load", timeout: 0 });
 
   const totalPages = await page.evaluate(() => {
     const paginationItems = document.querySelectorAll(".pagination__item");
@@ -30,19 +33,25 @@ async function getTotalPages(page, url) {
 
 async function fetchAllProducts(page, urls) {
   const products = [];
-  
+
   for (const url of urls) {
-    await page.goto(url, { waitUntil: 'load', timeout: 0 });
+    await page.goto(url, { waitUntil: "load", timeout: 0 });
 
     const productsOnPage = await page.evaluate(() => {
       const productElements = document.querySelectorAll(
         ".product-list.product-list--list-page .product-list-link"
       );
 
-      return Array.from(productElements).map(productElement => {
-        const nameElement = productElement.querySelector(".product-list__product-name h3");
-        const priceElement = productElement.querySelector(".product-list__price");
-        const imageElement = productElement.querySelector(".product-list__image-safe img");
+      return Array.from(productElements).map((productElement) => {
+        const nameElement = productElement.querySelector(
+          ".product-list__product-name h3"
+        );
+        const priceElement = productElement.querySelector(
+          ".product-list__price"
+        );
+        const imageElement = productElement.querySelector(
+          ".product-list__image-safe img"
+        );
 
         const link =
           "https://www.vatanbilgisayar.com" +
@@ -109,22 +118,24 @@ router.get("/", async (req, res) => {
     const browser = await puppeteer.launch({
       headless: true,
       args: [
-        '--no-sandbox',
-        '--disable-setuid-sandbox',
-        '--proxy-server=PROXY_SERVER_ADDRESS' // Eğer Türkiye proxy kullanıyorsanız burayı güncelleyin
-      ]
+        "--no-sandbox",
+        "--disable-setuid-sandbox",
+        `--proxy-server=${proxyAddress}`, // Use the selected proxy server
+      ],
     });
     const page = await browser.newPage();
 
     // Set user agent and language preferences
-    await page.setUserAgent('Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36');
+    await page.setUserAgent(
+      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36"
+    );
     await page.setExtraHTTPHeaders({
-      'Accept-Language': 'tr-TR,tr;q=0.9'
+      "Accept-Language": "tr-TR,tr;q=0.9",
     });
 
     // Set Geolocation to Istanbul, Turkey
     await page.setGeolocation({ latitude: 41.0082, longitude: 28.9784 });
-    await page.emulateTimezone('Europe/Istanbul');
+    await page.emulateTimezone("Europe/Istanbul");
 
     const totalPages = await getTotalPages(page, baseUrl);
     const urls = generateUrls(baseUrl, totalPages);
