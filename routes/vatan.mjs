@@ -7,7 +7,7 @@ puppeteer.use(StealthPlugin());
 
 const router = express.Router();
 
-const proxyAddress = "88.255.65.103:8080"; // Replace with the desired proxy from your list
+const proxyAddress = "31.209.98.18:51688"; // Replace with the desired proxy from your list
 
 // MongoDB connection details
 const mongoUrl =
