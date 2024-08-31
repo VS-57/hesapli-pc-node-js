@@ -1,6 +1,9 @@
 import express from "express";
-import puppeteer from "puppeteer";
+import puppeteer from "puppeteer-extra";
+import StealthPlugin from "puppeteer-extra-plugin-stealth";
 import { MongoClient } from "mongodb";
+
+puppeteer.use(StealthPlugin());
 
 const router = express.Router();
 
@@ -103,10 +106,13 @@ router.get("/", async (req, res) => {
   const baseUrl = "https://www.vatanbilgisayar.com/oem-hazir-sistemler/";
 
   try {
-    // Launch Puppeteer with the necessary flags to run as root in Docker
     const browser = await puppeteer.launch({
       headless: true,
-      args: ['--no-sandbox', '--disable-setuid-sandbox']
+      args: [
+        '--no-sandbox',
+        '--disable-setuid-sandbox',
+        '--proxy-server=PROXY_SERVER_ADDRESS' // Eğer Türkiye proxy kullanıyorsanız burayı güncelleyin
+      ]
     });
     const page = await browser.newPage();
 
