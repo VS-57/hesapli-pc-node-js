@@ -120,7 +120,7 @@ router.get("/", async (req, res) => {
       args: [
         "--no-sandbox",
         "--disable-setuid-sandbox",
-        `--proxy-server=${proxyAddress}`, // Use the selected proxy server
+       /*  `--proxy-server=${proxyAddress}`,  */
       ],
     });
     const page = await browser.newPage();
