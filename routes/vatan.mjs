@@ -7,7 +7,9 @@ puppeteer.use(StealthPlugin());
 
 const router = express.Router();
 
-const proxyAddress = "31.209.98.18:51688"; // Replace with the desired proxy from your list
+const proxyAddress = "216.173.84.218:6133"; // Proxy IP and port
+const proxyUsername = "KE4rXkUJ"; // Proxy username
+const proxyPassword = "KE4rXkUJ"; // Proxy password
 
 // MongoDB connection details
 const mongoUrl =
@@ -118,12 +120,18 @@ router.get("/", async (req, res) => {
     const browser = await puppeteer.launch({
       headless: true,
       args: [
+        `--proxy-server=${proxyAddress}`,
         "--no-sandbox",
         "--disable-setuid-sandbox",
-       /*  `--proxy-server=${proxyAddress}`,  */
       ],
     });
     const page = await browser.newPage();
+
+    // Proxy authentication
+    await page.authenticate({
+      username: proxyUsername,
+      password: proxyPassword,
+    });
 
     // Set user agent and language preferences
     await page.setUserAgent(
