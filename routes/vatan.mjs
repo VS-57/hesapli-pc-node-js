@@ -1,18 +1,13 @@
 import express from "express";
-import puppeteer from "puppeteer-extra";
-import StealthPlugin from "puppeteer-extra-plugin-stealth";
+import cloudScraper from "cloudscraper";
 import { MongoClient } from "mongodb";
-import axios from "axios";
 import * as cheerio from "cheerio";
-
-puppeteer.use(StealthPlugin());
 
 const router = express.Router();
 
 const proxyAddress = "216.173.84.218:6133"; // Proxy IP and port
 const proxyUsername = "KE4rXkUJ"; // Proxy username
 const proxyPassword = "KE4rXkUJ"; // Proxy password
-const apikey = "6f0992eec3d5c03b0a10ca458eb4c434b6e4cc37"; // ZenRows API anahtarı
 
 // MongoDB connection details
 const mongoUrl =
@@ -22,18 +17,16 @@ const collectionName = "vatan"; // Collection name set to "vatan"
 
 async function getTotalPages(url) {
   try {
-    const response = await axios({
-      url: "https://api.zenrows.com/v1/",
-      method: "GET",
-      params: {
-        url: url,
-        apikey: apikey,
+    const response = await cloudScraper.get({
+      uri: url,
+      headers: {
+        "User-Agent":
+          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36",
+        "Accept-Language": "tr-TR,tr;q=0.9",
       },
     });
 
-    // DOM'u parçalayıcı bir kütüphane olan cheerio'yu kullanarak HTML'den elemanları çekiyoruz
-    const cheerio = require("cheerio");
-    const $ = cheerio.load(response.data);
+    const $ = cheerio.load(response);
 
     const paginationItems = $(".pagination__item");
 
@@ -53,18 +46,16 @@ async function fetchAllProducts(urls) {
 
   for (const url of urls) {
     try {
-      const response = await axios({
-        url: "https://api.zenrows.com/v1/",
-        method: "GET",
-        params: {
-          url: url,
-          apikey: apikey,
-          js_render: "true",
-          premium_proxy: "true",
+      const response = await cloudScraper.get({
+        uri: url,
+        headers: {
+          "User-Agent":
+            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36",
+          "Accept-Language": "tr-TR,tr;q=0.9",
         },
       });
 
-      const $ = cheerio.load(response.data); // HTML yanıtını cheerio ile yüklüyoruz
+      const $ = cheerio.load(response); // HTML yanıtını cheerio ile yüklüyoruz
 
       const productElements = $(
         ".product-list.product-list--list-page .product-list-link"
@@ -146,36 +137,10 @@ router.get("/", async (req, res) => {
   const baseUrl = "https://www.vatanbilgisayar.com/oem-hazir-sistemler/";
 
   try {
-    const browser = await puppeteer.launch({
-      headless: true,
-      args: ["--no-sandbox", "--disable-setuid-sandbox"],
-    });
-    const page = await browser.newPage();
-
-    // Proxy authentication
-    await page.authenticate({
-      username: proxyUsername,
-      password: proxyPassword,
-    });
-
-    // Set user agent and language preferences
-    await page.setUserAgent(
-      "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36"
-    );
-    await page.setExtraHTTPHeaders({
-      "Accept-Language": "tr-TR,tr;q=0.9",
-    });
-
-    // Set Geolocation to Istanbul, Turkey
-    await page.setGeolocation({ latitude: 41.0082, longitude: 28.9784 });
-    await page.emulateTimezone("Europe/Istanbul");
-
-    /* const totalPages = await getTotalPages(page, baseUrl);
-    console.log(totalPages) */
-    const totalPages = 6;
+    const totalPages = await getTotalPages(baseUrl);
+    console.log(totalPages);
     const urls = generateUrls(baseUrl, totalPages);
     const products = await fetchAllProducts(urls);
-    await browser.close();
 
     // MongoDB connection
     const client = new MongoClient(mongoUrl, {
