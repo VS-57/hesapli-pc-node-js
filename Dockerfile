@@ -1,7 +1,7 @@
 # Use the official Node.js image as the base image
 FROM node:18
 
-# Install necessary dependencies for Chromium and Xvfb (including xauth)
+# Install necessary dependencies for Chromium and Xvfb (if needed)
 RUN apt-get update && apt-get install -y \
     libnss3 \
     libx11-xcb1 \
@@ -24,7 +24,6 @@ RUN apt-get update && apt-get install -y \
     wget \
     ca-certificates \
     xvfb \
-    xauth \  # xauth paketini ekliyoruz
     --no-install-recommends \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
