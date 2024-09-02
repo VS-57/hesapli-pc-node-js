@@ -2,7 +2,7 @@
 FROM node:18
 
 # Install necessary dependencies for Chromium and Xvfb (including xauth)
-RUN apt-get update && apt-get install -y \
+RUN apt-get update && apt-get install -y --no-install-recommends \
     libnss3 \
     libx11-xcb1 \
     libxcomposite1 \
@@ -24,8 +24,7 @@ RUN apt-get update && apt-get install -y \
     wget \
     ca-certificates \
     xvfb \
-    xauth \  # xauth paketini ekliyoruz
-    --no-install-recommends \
+    xauth \
     && apt-get clean && rm -rf /var/lib/apt/lists/*
 
 # Set the working directory inside the container
