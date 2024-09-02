@@ -6,15 +6,13 @@ import { JSDOM } from "jsdom";
 const router = express.Router();
 
 // MongoDB connection details
-const mongoUrl =
-  "mongodb://mongo:cSYFqpPbEyjwsAoNzrdfWYNJooWXsGOI@autorack.proxy.rlwy.net:48747";
+const mongoUrl = "mongodb://mongo:cSYFqpPbEyjwsAoNzrdfWYNJooWXsGOI@autorack.proxy.rlwy.net:48747";
 const dbName = "ucuzasistem";
 const collectionName = "itopya";
 
 async function fetchPageData(page) {
   const headers = {
-    'User-Agent':
-      'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
+    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
     'Accept-Language': 'en-US,en;q=0.9',
     'Accept-Encoding': 'gzip, deflate, br',
     'Connection': 'keep-alive',
@@ -41,43 +39,21 @@ async function parseProducts(document) {
   const products = Array.from(productElements).map((product) => {
     const image = product.querySelector(".product-header .image img")?.dataset.src;
     const name = product.querySelector(".title").textContent.trim();
-    const link =
-      "https://www.itopya.com" +
-      product.querySelector(".title").getAttribute("href");
-    const priceText = product
-      .querySelector(".price strong")
-      .textContent.trim()
-      .replace(/\s+/g, " ");
-    const price =
-      parseFloat(priceText.replace(/[^\d,]/g, "").replace(",", ".")) || 0;
+    const link = "https://www.itopya.com" + product.querySelector(".title").getAttribute("href");
+    const priceText = product.querySelector(".price strong").textContent.trim().replace(/\s+/g, " ");
+    const price = parseFloat(priceText.replace(/[^\d,]/g, "").replace(",", ".")) || 0;
 
-    const specsArray = Array.from(
-      product.querySelectorAll(".product-body ul li")
-    ).map((li) => ({
+    const specsArray = Array.from(product.querySelectorAll(".product-body ul li")).map((li) => ({
       specIcon: li.querySelector("img").getAttribute("src"),
       specText: li.querySelector("p").textContent.trim(),
     }));
 
     const specs = {
-      CPU:
-        (specsArray.find((spec) => spec.specText.includes("İşlemci")) || {})
-          .specText || "N/A",
-      Motherboard:
-        (specsArray.find((spec) => spec.specText.includes("Anakart")) || {})
-          .specText || "N/A",
-      GPU:
-        (specsArray.find((spec) =>
-          spec.specText.includes("Ekran Kartı")
-        ) || {}).specText || "N/A",
-      Ram:
-        (
-          specsArray.find((spec) =>
-            spec.specText.toLowerCase().includes("Ram".toLowerCase())
-          ) || {}
-        ).specText || "N/A",
-      Storage:
-        (specsArray.find((spec) => spec.specText.includes("SSD")) || {})
-          .specText || "N/A",
+      CPU: (specsArray.find((spec) => spec.specText.includes("İşlemci")) || {}).specText || "N/A",
+      Motherboard: (specsArray.find((spec) => spec.specText.includes("Anakart")) || {}).specText || "N/A",
+      GPU: (specsArray.find((spec) => spec.specText.includes("Ekran Kartı")) || {}).specText || "N/A",
+      Ram: (specsArray.find((spec) => spec.specText.toLowerCase().includes("Ram".toLowerCase())) || {}).specText || "N/A",
+      Storage: (specsArray.find((spec) => spec.specText.includes("SSD")) || {}).specText || "N/A",
     };
 
     return { name, price, image, link, specs, store: "itopya" };
