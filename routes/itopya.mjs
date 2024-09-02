@@ -1,59 +1,81 @@
 import express from "express";
-import axios from "axios";
 import { MongoClient } from "mongodb";
+import cloudscraper from "cloudflare-scraper";
 import { JSDOM } from "jsdom";
 
 const router = express.Router();
 
 // MongoDB connection details
-const mongoUrl = "mongodb://mongo:cSYFqpPbEyjwsAoNzrdfWYNJooWXsGOI@autorack.proxy.rlwy.net:48747";
+const mongoUrl =
+  "mongodb://mongo:cSYFqpPbEyjwsAoNzrdfWYNJooWXsGOI@autorack.proxy.rlwy.net:48747";
 const dbName = "ucuzasistem";
 const collectionName = "itopya";
 
 async function fetchPageData(page) {
-  const headers = {
-    'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.121 Safari/537.36',
-    'Accept-Language': 'en-US,en;q=0.9',
-    'Accept-Encoding': 'gzip, deflate, br',
-    'Connection': 'keep-alive',
-    'Referer': 'https://www.itopya.com/',
-    'DNT': '1',
-    'Upgrade-Insecure-Requests': '1',
-  };
-
-  const { data: content } = await axios.get(
-    `https://www.itopya.com/HazirSistemler?pg=${page}`,
-    { headers }
-  );
-  return content;
+  const url = `https://www.itopya.com/HazirSistemler?pg=${page}`;
+  const content = await cloudscraper.get(url); // Cloudflare'ı aşarak sayfa verisini çekiyoruz
+  return content.body;
 }
 
 async function parseTotalPages(document) {
-  const pageInfo = document.querySelector(".page-info strong").textContent.trim();
-  const totalPages = parseInt(pageInfo.split("/")[1], 10);
-  return totalPages;
+  const pageInfoElement = document.querySelector(".page-info strong");
+  if (pageInfoElement) {
+    const pageInfo = pageInfoElement.textContent.trim();
+    const totalPages = parseInt(pageInfo.split("/")[1], 10);
+    return totalPages;
+  } else {
+    console.error("Total pages element not found.");
+    return 1; // Varsayılan olarak 1 sayfa dönüyoruz
+  }
 }
 
 async function parseProducts(document) {
   const productElements = document.querySelectorAll(".product");
   const products = Array.from(productElements).map((product) => {
-    const image = product.querySelector(".product-header .image img")?.dataset.src;
-    const name = product.querySelector(".title").textContent.trim();
-    const link = "https://www.itopya.com" + product.querySelector(".title").getAttribute("href");
-    const priceText = product.querySelector(".price strong").textContent.trim().replace(/\s+/g, " ");
-    const price = parseFloat(priceText.replace(/[^\d,]/g, "").replace(",", ".")) || 0;
+    const imageElement = product.querySelector(".product-header .image img");
+    const image = imageElement ? imageElement.dataset.src : "No image";
 
-    const specsArray = Array.from(product.querySelectorAll(".product-body ul li")).map((li) => ({
-      specIcon: li.querySelector("img").getAttribute("src"),
-      specText: li.querySelector("p").textContent.trim(),
+    const nameElement = product.querySelector(".title");
+    const name = nameElement ? nameElement.textContent.trim() : "No name";
+
+    const linkElement = product.querySelector(".title");
+    const link = linkElement
+      ? "https://www.itopya.com" + linkElement.getAttribute("href")
+      : "No link";
+
+    const priceElement = product.querySelector(".price strong");
+    const priceText = priceElement
+      ? priceElement.textContent.trim().replace(/\s+/g, " ")
+      : "0";
+    const price =
+      parseFloat(priceText.replace(/[^\d,]/g, "").replace(",", ".")) || 0;
+
+    const specsArray = Array.from(
+      product.querySelectorAll(".product-body ul li")
+    ).map((li) => ({
+      specIcon: li.querySelector("img")?.getAttribute("src") || "No icon",
+      specText: li.querySelector("p")?.textContent.trim() || "No spec",
     }));
 
     const specs = {
-      CPU: (specsArray.find((spec) => spec.specText.includes("İşlemci")) || {}).specText || "N/A",
-      Motherboard: (specsArray.find((spec) => spec.specText.includes("Anakart")) || {}).specText || "N/A",
-      GPU: (specsArray.find((spec) => spec.specText.includes("Ekran Kartı")) || {}).specText || "N/A",
-      Ram: (specsArray.find((spec) => spec.specText.toLowerCase().includes("Ram".toLowerCase())) || {}).specText || "N/A",
-      Storage: (specsArray.find((spec) => spec.specText.includes("SSD")) || {}).specText || "N/A",
+      CPU:
+        (specsArray.find((spec) => spec.specText.includes("İşlemci")) || {})
+          .specText || "N/A",
+      Motherboard:
+        (specsArray.find((spec) => spec.specText.includes("Anakart")) || {})
+          .specText || "N/A",
+      GPU:
+        (specsArray.find((spec) => spec.specText.includes("Ekran Kartı")) || {})
+          .specText || "N/A",
+      Ram:
+        (
+          specsArray.find((spec) =>
+            spec.specText.toLowerCase().includes("ram")
+          ) || {}
+        ).specText || "N/A",
+      Storage:
+        (specsArray.find((spec) => spec.specText.includes("SSD")) || {})
+          .specText || "N/A",
     };
 
     return { name, price, image, link, specs, store: "itopya" };
@@ -64,8 +86,9 @@ async function parseProducts(document) {
 async function fetchAllProducts() {
   const initialContent = await fetchPageData(1);
   const initialDocument = new JSDOM(initialContent).window.document;
-  
+
   const totalPages = await parseTotalPages(initialDocument);
+  console.log(totalPages);
   let allProducts = await parseProducts(initialDocument);
 
   for (let page = 2; page <= totalPages; page++) {
