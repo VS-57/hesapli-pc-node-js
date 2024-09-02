@@ -15,91 +15,99 @@ async function fetchPageData(page, browser) {
   const pageInstance = await browser.newPage();
   await pageInstance.goto(url, { waitUntil: "networkidle2" });
 
-  const content = await pageInstance.content();
-  await pageInstance.close();
-  return content;
+  // Return the page instance so we can interact with it later
+  return pageInstance;
 }
 
-async function parseTotalPages(document) {
-  const pageInfoElement = document.querySelector(".page-info strong");
-  if (pageInfoElement) {
-    const pageInfo = pageInfoElement.textContent.trim();
-    const totalPages = parseInt(pageInfo.split("/")[1], 10);
-    return totalPages;
-  } else {
-    console.error("Total pages element not found.");
-    return 1; // Default to 1 page
-  }
-}
-
-async function parseProducts(document) {
-  const productElements = document.querySelectorAll(".product");
-  const products = Array.from(productElements).map((product) => {
-    const imageElement = product.querySelector(".product-header .image img");
-    const image = imageElement ? imageElement.dataset.src : "No image";
-
-    const nameElement = product.querySelector(".title");
-    const name = nameElement ? nameElement.textContent.trim() : "No name";
-
-    const linkElement = product.querySelector(".title");
-    const link = linkElement
-      ? "https://www.itopya.com" + linkElement.getAttribute("href")
-      : "No link";
-
-    const priceElement = product.querySelector(".price strong");
-    const priceText = priceElement
-      ? priceElement.textContent.trim().replace(/\s+/g, " ")
-      : "0";
-    const price =
-      parseFloat(priceText.replace(/[^\d,]/g, "").replace(",", ".")) || 0;
-
-    const specsArray = Array.from(
-      product.querySelectorAll(".product-body ul li")
-    ).map((li) => ({
-      specIcon: li.querySelector("img")?.getAttribute("src") || "No icon",
-      specText: li.querySelector("p")?.textContent.trim() || "No spec",
-    }));
-
-    const specs = {
-      CPU:
-        (specsArray.find((spec) => spec.specText.includes("İşlemci")) || {})
-          .specText || "N/A",
-      Motherboard:
-        (specsArray.find((spec) => spec.specText.includes("Anakart")) || {})
-          .specText || "N/A",
-      GPU:
-        (specsArray.find((spec) => spec.specText.includes("Ekran Kartı")) || {})
-          .specText || "N/A",
-      Ram:
-        (
-          specsArray.find((spec) =>
-            spec.specText.toLowerCase().includes("ram")
-          ) || {}
-        ).specText || "N/A",
-      Storage:
-        (specsArray.find((spec) => spec.specText.includes("SSD")) || {})
-          .specText || "N/A",
-    };
-
-    return { name, price, image, link, specs, store: "itopya" };
+async function parseTotalPages(pageInstance) {
+  const totalPages = await pageInstance.evaluate(() => {
+    const pageInfoElement = document.querySelector(".page-info strong");
+    if (pageInfoElement) {
+      const pageInfo = pageInfoElement.textContent.trim();
+      return parseInt(pageInfo.split("/")[1], 10);
+    } else {
+      console.error("Total pages element not found.");
+      return 1; // Default to 1 page
+    }
   });
+  return totalPages;
+}
+
+async function parseProducts(pageInstance) {
+  const products = await pageInstance.evaluate(() => {
+    const productElements = document.querySelectorAll(".product");
+    return Array.from(productElements).map((product) => {
+      const imageElement = product.querySelector(".product-header .image img");
+      const image = imageElement ? imageElement.dataset.src : "No image";
+
+      const nameElement = product.querySelector(".title");
+      const name = nameElement ? nameElement.textContent.trim() : "No name";
+
+      const linkElement = product.querySelector(".title");
+      const link = linkElement
+        ? "https://www.itopya.com" + linkElement.getAttribute("href")
+        : "No link";
+
+      const priceElement = product.querySelector(".price strong");
+      const priceText = priceElement
+        ? priceElement.textContent.trim().replace(/\s+/g, " ")
+        : "0";
+      const price =
+        parseFloat(priceText.replace(/[^\d,]/g, "").replace(",", ".")) || 0;
+
+      const specsArray = Array.from(
+        product.querySelectorAll(".product-body ul li")
+      ).map((li) => ({
+        specIcon: li.querySelector("img")?.getAttribute("src") || "No icon",
+        specText: li.querySelector("p")?.textContent.trim() || "No spec",
+      }));
+
+      const specs = {
+        CPU:
+          (specsArray.find((spec) => spec.specText.includes("İşlemci")) || {})
+            .specText || "N/A",
+        Motherboard:
+          (specsArray.find((spec) => spec.specText.includes("Anakart")) || {})
+            .specText || "N/A",
+        GPU:
+          (specsArray.find((spec) => spec.specText.includes("Ekran Kartı")) ||
+            {}
+          ).specText || "N/A",
+        Ram:
+          (
+            specsArray.find((spec) =>
+              spec.specText.toLowerCase().includes("ram")
+            ) || {}
+          ).specText || "N/A",
+        Storage:
+          (specsArray.find((spec) => spec.specText.includes("SSD")) || {})
+            .specText || "N/A",
+      };
+
+      return { name, price, image, link, specs, store: "itopya" };
+    });
+  });
+
   return products;
 }
 
 async function fetchAllProducts() {
-  const browser = await puppeteer.launch();
-  const initialContent = await fetchPageData(1, browser);
-  const initialDocument = new JSDOM(initialContent).window.document;
+  const browser = await puppeteer.launch({
+    args: ["--no-sandbox", "--disable-setuid-sandbox"],
+  });
+  const initialPageInstance = await fetchPageData(1, browser);
 
-  const totalPages = await parseTotalPages(initialDocument);
+  const totalPages = await parseTotalPages(initialPageInstance);
   console.log(totalPages);
-  let allProducts = await parseProducts(initialDocument);
+
+  let allProducts = await parseProducts(initialPageInstance);
+  await initialPageInstance.close();
 
   for (let page = 2; page <= totalPages; page++) {
-    const content = await fetchPageData(page, browser);
-    const document = new JSDOM(content).window.document;
-    const products = await parseProducts(document);
+    const pageInstance = await fetchPageData(page, browser);
+    const products = await parseProducts(pageInstance);
     allProducts = allProducts.concat(products);
+    await pageInstance.close();
   }
 
   await browser.close();
