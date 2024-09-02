@@ -1,7 +1,7 @@
 # Use the official Node.js image as the base image
 FROM node:18
 
-# Install necessary dependencies for Chromium and Xvfb (if needed)
+# Install necessary dependencies for Chromium
 RUN apt-get update && apt-get install -y \
     libnss3 \
     libx11-xcb1 \
@@ -23,9 +23,7 @@ RUN apt-get update && apt-get install -y \
     xdg-utils \
     wget \
     ca-certificates \
-    xvfb \
-    --no-install-recommends \
-    && apt-get clean && rm -rf /var/lib/apt/lists/*
+    --no-install-recommends
 
 # Set the working directory inside the container
 WORKDIR /usr/src/app
@@ -42,11 +40,5 @@ COPY . .
 # Expose the port your app runs on
 EXPOSE 3000
 
-# Set environment variable to disable Chromium sandboxing (useful for Puppeteer)
-ENV PUPPETEER_EXECUTABLE_PATH=/usr/bin/chromium-browser
-ENV CHROME_BIN=/usr/bin/chromium-browser
-ENV PUPPETEER_SKIP_CHROMIUM_DOWNLOAD=true
-ENV NODE_ENV=production
-
-# Command to run your application, with Xvfb if needed
-CMD ["xvfb-run", "--auto-servernum", "--server-args=-screen 0 1024x768x24", "npm", "start"]
+# Command to run your application
+CMD ["npm", "start"]
