@@ -17,27 +17,29 @@ const collectionName = "vatan"; // Collection name set to "vatan"
 
 async function getTotalPages(url) {
   try {
+    console.log(`Fetching total pages from URL: ${url}`);
     const response = await cloudScraper.get({
       uri: url,
       headers: {
-        "User-Agent":
-          "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36",
-        "Accept-Language": "tr-TR,tr;q=0.9",
+        'User-Agent':
+          'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
+        'Accept-Language': 'tr-TR,tr;q=0.9',
       },
     });
+
+    console.log('Response received for total pages');
 
     const $ = cheerio.load(response);
 
     const paginationItems = $(".pagination__item");
-
     const secondToLastItem = paginationItems
       .eq(paginationItems.length - 2)
       .text();
-    console.log(secondToLastItem);
+    console.log(`Second to last pagination item: ${secondToLastItem}`);
     return parseInt(secondToLastItem.replace(/[^\d]/g, ""), 10) || 1;
   } catch (error) {
-    console.error("Error fetching total pages:", error);
-    return 1; // Hata durumunda 1 sayfa varsayıyoruz
+    console.error("Error fetching total pages:", error.message);
+    return 1; // Assume 1 page in case of an error
   }
 }
 
@@ -46,16 +48,19 @@ async function fetchAllProducts(urls) {
 
   for (const url of urls) {
     try {
+      console.log(`Fetching products from URL: ${url}`);
       const response = await cloudScraper.get({
         uri: url,
         headers: {
-          "User-Agent":
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36",
-          "Accept-Language": "tr-TR,tr;q=0.9",
+          'User-Agent':
+            'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4515.131 Safari/537.36',
+          'Accept-Language': 'tr-TR,tr;q=0.9',
         },
       });
 
-      const $ = cheerio.load(response); // HTML yanıtını cheerio ile yüklüyoruz
+      console.log(`Response received for URL: ${url}`);
+
+      const $ = cheerio.load(response); // Load HTML into cheerio
 
       const productElements = $(
         ".product-list.product-list--list-page .product-list-link"
@@ -111,25 +116,30 @@ async function fetchAllProducts(urls) {
               }
             });
 
+          console.log(`Product found: ${name}, Price: ${price}`);
           return { name, price, image, link, specs, store: "vatan" };
         }
       );
 
       products.push(...productsOnPage);
+      console.log(`${productsOnPage.length} products found on page`);
     } catch (error) {
-      console.error("Error fetching products:", error);
+      console.error(`Error fetching products from ${url}:`, error.message);
     }
   }
 
+  console.log(`Total products fetched: ${products.length}`);
   return products;
 }
 
 function generateUrls(base, totalPages) {
+  console.log(`Generating URLs for ${totalPages} pages`);
   const urls = [];
   for (let i = 1; i <= totalPages; i++) {
     const url = i === 1 ? base : `${base}?page=${i}`;
     urls.push(url);
   }
+  console.log(`Generated URLs: ${urls.join(', ')}`);
   return urls;
 }
 
@@ -138,9 +148,13 @@ router.get("/", async (req, res) => {
 
   try {
     const totalPages = await getTotalPages(baseUrl);
-    console.log(totalPages);
+    console.log(`Total pages: ${totalPages}`);
     const urls = generateUrls(baseUrl, totalPages);
     const products = await fetchAllProducts(urls);
+
+    if (products.length === 0) {
+      console.warn("No products found. Returning empty array.");
+    }
 
     // MongoDB connection
     const client = new MongoClient(mongoUrl, {
@@ -152,12 +166,18 @@ router.get("/", async (req, res) => {
       const db = client.db(dbName);
       const collection = db.collection(collectionName);
 
+      console.log("Connected to MongoDB");
+
       // Remove existing 'vatan' store products
       await collection.deleteMany({ store: "vatan" });
+      console.log("Existing products removed");
 
       // Insert new products into MongoDB
       if (products.length > 0) {
         await collection.insertMany(products);
+        console.log("New products inserted into MongoDB");
+      } else {
+        console.warn("No products to insert into MongoDB");
       }
 
       res.json(products);
@@ -166,8 +186,10 @@ router.get("/", async (req, res) => {
       res.status(500).json({ error: `Database error: ${dbError.message}` });
     } finally {
       await client.close();
+      console.log("MongoDB connection closed");
     }
   } catch (error) {
+    console.error("An error occurred in the main process:", error.message);
     res.status(500).json({ error: error.message });
   }
 });
