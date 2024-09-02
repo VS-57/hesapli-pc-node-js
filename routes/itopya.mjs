@@ -1,7 +1,6 @@
 import express from "express";
 import { MongoClient } from "mongodb";
-import cloudscraper from "cloudflare-scraper";
-import { JSDOM } from "jsdom";
+import puppeteer from "puppeteer";
 
 const router = express.Router();
 
@@ -11,10 +10,14 @@ const mongoUrl =
 const dbName = "ucuzasistem";
 const collectionName = "itopya";
 
-async function fetchPageData(page) {
+async function fetchPageData(page, browser) {
   const url = `https://www.itopya.com/HazirSistemler?pg=${page}`;
-  const content = await cloudscraper.get(url); // Cloudflare'ı aşarak sayfa verisini çekiyoruz
-  return content.body;
+  const pageInstance = await browser.newPage();
+  await pageInstance.goto(url, { waitUntil: "networkidle2" });
+
+  const content = await pageInstance.content();
+  await pageInstance.close();
+  return content;
 }
 
 async function parseTotalPages(document) {
@@ -25,7 +28,7 @@ async function parseTotalPages(document) {
     return totalPages;
   } else {
     console.error("Total pages element not found.");
-    return 1; // Varsayılan olarak 1 sayfa dönüyoruz
+    return 1; // Default to 1 page
   }
 }
 
@@ -84,7 +87,8 @@ async function parseProducts(document) {
 }
 
 async function fetchAllProducts() {
-  const initialContent = await fetchPageData(1);
+  const browser = await puppeteer.launch();
+  const initialContent = await fetchPageData(1, browser);
   const initialDocument = new JSDOM(initialContent).window.document;
 
   const totalPages = await parseTotalPages(initialDocument);
@@ -92,12 +96,13 @@ async function fetchAllProducts() {
   let allProducts = await parseProducts(initialDocument);
 
   for (let page = 2; page <= totalPages; page++) {
-    const content = await fetchPageData(page);
+    const content = await fetchPageData(page, browser);
     const document = new JSDOM(content).window.document;
     const products = await parseProducts(document);
     allProducts = allProducts.concat(products);
   }
 
+  await browser.close();
   return allProducts;
 }
 
