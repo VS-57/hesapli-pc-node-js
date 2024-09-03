@@ -17,7 +17,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/335351",
     "name": "BLADE-DUAL6600 / AMD Ryzen 5 5600 MPK / ASUS Radeon DUAL RX 6600 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 23695.93,
+    "price": 23699,
     "specs": {
       "CPU": "AMD Ryzen 5 5600 MPK 3.5GHz 32MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME A520M-K 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -32,7 +32,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/406085",
     "name": "FORGE-MAG4060Ti / AMD Ryzen 5 7500F MPK / MSI GeForce RTX 4060 Ti Ventus 2X Black 16GB OC / 16GB RAM / 500GB M.2 SSD Sistem Tavsiyesi",
-    "price": 38120.16,
+    "price": 36999,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "MSI PRO A620M-E 6000MHz (OC) DDR5 Soket AM5 M.2 mATX Anakart",
@@ -107,7 +107,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/319915",
     "name": "BLADE-4060 / AMD Ryzen 5 5500 MPK / ASUS DUAL GeForce RTX 4060 EVO OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 25999,
+    "price": 25999.01,
     "specs": {
       "CPU": "AMD Ryzen 5 5500 MPK 3.6GHz 16MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME A520M-K 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -135,9 +135,24 @@
     "store": "gamingGen"
   },
   {
+    "link": "https://www.gaming.gen.tr/urun/329827",
+    "name": "BLADE-4070 / AMD Ryzen 5 7600 TRAY / ASUS DUAL GeForce RTX 4070 EVO OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
+    "price": 40999.01,
+    "specs": {
+      "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
+      "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
+      "GPU": "ASUS DUAL GeForce RTX 4070 EVO OC 12GB GDDR6X 192 Bit DLSS 3 Ekran Kartı – Star Wars Outlaws Hediyeli",
+      "Ram": "Lexar Thor OC 16GB (2x8GB) 6000MHz CL38 Intel XMP 3.0 / AMD EXPO DDR5 Ram (LD5U08G60C38LG-RGD)",
+      "Case": "ENERMAX StarryFort SF21 Rainbow Temperli Cam Mesh USB 3.2 mATX Siyah Cyberbron II 600W 80+ Bronze Gaming Kasa",
+      "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
+    },
+    "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/06/enermax-starryfort-sf21-argb-temperli-cam-mesh-usb-3-2-matx-siyah-cyberbron-ii-600w-80-bronze-gaming-kasa-yyh1.jpg",
+    "store": "gamingGen"
+  },
+  {
     "link": "https://www.gaming.gen.tr/urun/409889",
     "name": "BLADE-4070SUPER / AMD Ryzen 5 5600 MPK / ASUS DUAL GeForce RTX 4070 SUPER EVO 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 43889.86,
+    "price": 43899.01,
     "specs": {
       "CPU": "AMD Ryzen 5 5600 MPK 3.5GHz 32MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME A520M-K 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -151,7 +166,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/413241",
-    "name": "BLADE-4070TISUPER / AMD Ryzen 7 7800X3D / ASUS DUAL RTX 4070 Ti Super OC 16GB / 16GB RAM / 1TB M.2 SSD Gaming Bilgisayar",
+    "name": "BLADE-4070TISUPER / AMD Ryzen 7 7800X3D / ASUS DUAL RTX 4070 Ti Super OC 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
     "price": 68498.97,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci",
@@ -167,7 +182,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/325927",
     "name": "BLADE-6600 / AMD Ryzen 5 5500 MPK / ASUS Radeon DUAL RX 6600 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 22665.62,
+    "price": 22699.01,
     "specs": {
       "CPU": "AMD Ryzen 5 5500 MPK 3.6GHz 16MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME A520M-K 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -197,7 +212,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/451211",
     "name": "BLADE-7600XT / AMD Ryzen 5 7500F MPK / ASUS DUAL Radeon RX 7600 XT OC 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
-    "price": 37708.05,
+    "price": 37699,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 5.0GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart",
@@ -212,7 +227,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/386080",
     "name": "BLADE-7700XT / AMD Ryzen 5 5600 MPK / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 38128.82,
+    "price": 30699,
     "specs": {
       "CPU": "AMD Ryzen 5 5600 MPK 3.5GHz 32MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME A520M-K 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -252,21 +267,6 @@
       "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/06/enermax-starryfort-sf21-argb-temperli-cam-mesh-usb-3-2-matx-siyah-cyberbron-ii-600w-80-bronze-gaming-kasa-yyh1.jpg",
-    "store": "gamingGen"
-  },
-  {
-    "link": "https://www.gaming.gen.tr/urun/513718",
-    "name": "BLADE-9600X / AMD Ryzen 5 9600X / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
-    "price": 56450.47,
-    "specs": {
-      "CPU": "AMD Ryzen 5 9600X 3.9GHz 32MB Önbellek 6 Çekirdek AM5 4nm İşlemci",
-      "Motherboard": "ASUS Prime B650M-A II-CSM 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart\n",
-      "GPU": "ASUS DUAL Radeon RX 7700 XT OC 12GB GDDR6 192 Bit Ekran Kartı",
-      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
-      "Case": "Corsair iCUE 3000D RGB USB 3.2 Mid Tower ATX Gaming Kasa (CC-9011255-WW)",
-      "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
-    },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/02/corsair-icue-3000d-rgb-usb-3-2-mid-tower-atx-gaming-kasa-cc-9011255-ww.jpg",
     "store": "gamingGen"
   },
   {
@@ -317,7 +317,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/323541",
     "name": "CARNAGE-4060 / AMD Ryzen 5 5500 MPK / MSI GeForce RTX 4060 Ventus 2X Black 8GB OC / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 26065.62,
+    "price": 24999.01,
     "specs": {
       "CPU": "AMD Ryzen 5 5500 MPK 3.6GHz 16MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "MSI A520M-A PRO 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -332,7 +332,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/309297",
     "name": "CARNAGE-4060Ti / AMD Ryzen 5 5600 MPK / MSI GeForce RTX 4060 Ti Ventus 2X Black 16GB OC / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 33380.76,
+    "price": 32699,
     "specs": {
       "CPU": "AMD Ryzen 5 5600 MPK 4.4GHz 32MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "MSI A520M-A PRO 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -347,7 +347,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/471379",
     "name": "CARNAGE-4070TISUPER / AMD Ryzen 7 7800X3D TRAY / MSI GeForce RTX 4070 Ti SUPER 16G Ventus 3X OC 16GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 92718.57,
+    "price": 90998.99,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "MSI X670E Gaming Plus WiFi 7800MHz (OC) DDR5 Soket AM5 M.2 HDMI DP ATX Anakart",
@@ -362,7 +362,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/289401",
     "name": "CARNAGE-4090 / AMD Ryzen 9 7900X / MSI GeForce RTX 4090 VENTUS 3X E 24G OC 24GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 160015.58,
+    "price": 149999,
     "specs": {
       "CPU": "AMD Ryzen 9 7900X 5.6GHz 12 Çekirdek 64MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "Msi Mpg X670E Carbon WiFi Soket AM5 DDR5 HDMI DP RGB Anakart",
@@ -377,7 +377,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/506470",
     "name": "CARNAGE-8400F / AMD Ryzen 5 8400F MPK / MSI GeForce RTX 4060 OC Ventus 2X Black 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 35029.25,
+    "price": 34499,
     "specs": {
       "CPU": "AMD Ryzen 5 8400F MPK 4.7GHz 16MB Önbellek 6 Çekirdek AM5 İşlemci",
       "Motherboard": "MSI PRO A620M-E 6000MHz (OC) DDR5 Soket AM5 M.2 mATX Anakart",
@@ -390,9 +390,24 @@
     "store": "gamingGen"
   },
   {
+    "link": "https://www.gaming.gen.tr/urun/410061",
+    "name": "CARNAGE-MAG4070SUPER / AMD Ryzen 5 7500F MPK / MSI GeForce RTX 4070 SUPER 12G Ventus 3X OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
+    "price": 48999,
+    "specs": {
+      "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
+      "Motherboard": "MSI PRO A620M-E 6000MHz (OC) DDR5 Soket AM5 M.2 mATX Anakart",
+      "GPU": "MSI GeForce RTX 4070 SUPER 12G Ventus 3X OC 12GB GDDR6X 192 Bit DLSS 3 Ekran Kartı",
+      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
+      "Case": "MSI MAG FORGE 100R Tempered Glass ARGB USB 3.2 Mid Tower Kasa",
+      "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
+    },
+    "image": "https://www.gaming.gen.tr/wp-content/uploads/2021/06/msi-mag-forge-100r-tempered-glass-argb-usb-3-2-mid-tower-kasa.jpg",
+    "store": "gamingGen"
+  },
+  {
     "link": "https://www.gaming.gen.tr/urun/471245",
     "name": "CARNAGE-PROSPECT4080S / AMD Ryzen 9 7950X3D TRAY / MSI GeForce RTX 4080 SUPER Gaming X Slim 16GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 166392.9,
+    "price": 132999.01,
     "specs": {
       "CPU": "AMD Ryzen 9 7950X3D Tray 5.7GHz 128MB Önbellek 16 Çekirdek AM5 6nm İşlemci",
       "Motherboard": "Msi Mpg X670E Carbon WiFi Soket AM5 DDR5 HDMI DP RGB Anakart",
@@ -407,7 +422,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/471089",
     "name": "CARNAGE-PROSPECT4090 / AMD Ryzen 9 7950X3D TRAY / MSI GeForce RTX 4090 SUPRIM LIQUID X 24G 24GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 212241.39,
+    "price": 179999.01,
     "specs": {
       "CPU": "AMD Ryzen 9 7950X3D Tray 5.7GHz 128MB Önbellek 16 Çekirdek AM5 6nm İşlemci",
       "Motherboard": "Msi Mpg X670E Carbon WiFi Soket AM5 DDR5 HDMI DP RGB Anakart",
@@ -422,7 +437,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/323897",
     "name": "CARNAGE-VENTUS4060 / AMD Ryzen 5 5600 / MSI GeForce RTX 4060 Ventus 2X Black 8GB OC / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 28229.26,
+    "price": 27499,
     "specs": {
       "CPU": "AMD Ryzen 5 5600 3.5GHz 32MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "MSI A520M-A PRO 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -452,7 +467,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/464775",
     "name": "CHERRY-SON / AMD Ryzen 5 7500F MPK / GALAX GeForce RTX 4070 SUPER 1-Click OC 2X V2 12GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 46877.75,
+    "price": 46899,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 5.0GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
@@ -512,7 +527,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/410015",
     "name": "CYBER-4070SUPER / INTEL i5-13400F / ASUS DUAL GeForce RTX 4070 SUPER EVO 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 45641.37,
+    "price": 45699.01,
     "specs": {
       "CPU": "Intel Core i5-13400F 4.6GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci (BX8071513400F)",
       "Motherboard": "ASUS PRIME H610M-K D4 ARGB 3200MHz DDR4 Soket 1700 M.2 HDMI mATX Anakart",
@@ -526,7 +541,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/416788",
-    "name": "CYBER-4080SUPER / INTEL i7-14700K/ ASUS ProArt GeForce RTX 4080 SUPER OC 16GB / 16GB RAM / 1TB M.2 SSD Gaming Bilgisayar",
+    "name": "CYBER-4080SUPER / INTEL i7-14700K/ ASUS ProArt GeForce RTX 4080 SUPER OC 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
     "price": 90699,
     "specs": {
       "CPU": "Intel Core i7-14700K 5.6GHz 28MB Önbellek 20 Çekirdek 1700 İşlemci",
@@ -542,7 +557,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/386062",
     "name": "CYBER-7700XT / INTEL i5-13400F / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 35338.38,
+    "price": 35399.01,
     "specs": {
       "CPU": "Intel Core i5-13400F 4.6GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci (BX8071513400F)",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart",
@@ -587,7 +602,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/413068",
     "name": "CYBER-DUAL4070SUPER / INTEL i5-14600KF / ASUS DUAL GeForce RTX 4070 SUPER EVO 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 54295.95,
+    "price": 54299,
     "specs": {
       "CPU": "Intel Core i5-14600KF 5.3GHz 24MB Önbellek 14 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart\n",
@@ -677,7 +692,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/311227",
     "name": "DIAMOND-WHITE4090 / INTEL i9-14900KF / ASUS ROG STRIX GeForce RTX 4090 OC WHITE 24GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 159299,
+    "price": 159264.84,
     "specs": {
       "CPU": "Intel Core i9-14900KF 6.0GHz 36MB Önbellek 24 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS PRIME Z790-P WIFI 7200MHz(OC) DDR5 Soket 1700 M.2 HDMI DP ATX Anakart",
@@ -692,7 +707,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/494265",
     "name": "EASTER-4070TISUPER / AMD Ryzen 5 7600 TRAY / GALAX GeForce RTX 4070 Ti SUPER EX Gamer 1-Click OC V2 16GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 54605.07,
+    "price": 54599,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
@@ -752,7 +767,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/410000",
     "name": "ELITE-4070SUPER / AMD Ryzen 5 7600 TRAY / ASUS DUAL GeForce RTX 4070 SUPER OC 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 49468.53,
+    "price": 49498.99,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime B650M-R 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart",
@@ -766,7 +781,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/520768",
-    "name": "ELITE-4070TISUPER / AMD Ryzen 7 7800X3D / ASUS DUAL RTX 4070 Ti Super OC 16GB / 16GB RAM / 1TB M.2 SSD Gaming Bilgisayar",
+    "name": "ELITE-4070TISUPER / AMD Ryzen 7 7800X3D / ASUS DUAL RTX 4070 Ti Super OC 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
     "price": 66298.97,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci",
@@ -827,7 +842,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/504918",
     "name": "ELITE-7800X3D / AMD Ryzen 7 7800X3D TRAY / ASUS DUAL GeForce RTX 4070 SUPER EVO OC 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 59241.4,
+    "price": 58998.98,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci\n",
       "Motherboard": "ASUS Prime B650M-R 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart",
@@ -900,21 +915,6 @@
     "store": "gamingGen"
   },
   {
-    "link": "https://www.gaming.gen.tr/urun/513785",
-    "name": "ELITE-9600X / AMD Ryzen 5 9600X / ASUS DUAL GeForce RTX 4070 SUPER EVO OC 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 63877.76,
-    "specs": {
-      "CPU": "AMD Ryzen 5 9600X 3.9GHz 32MB Önbellek 6 Çekirdek AM5 4nm İşlemci",
-      "Motherboard": "ASUS Prime B650M-A II-CSM 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart\n",
-      "GPU": "ASUS DUAL GeForce RTX 4070 SUPER EVO OC 12GB GDDR6X 192 Bit DLSS 3 Ekran Kartı",
-      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
-      "Case": "ASUS TUF Gaming GT502 V2 Panaromik Temperli Cam USB 3.2 Beyaz Mid Tower Kasa",
-      "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
-    },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2022/12/asus-tuf-gaming-gt502-panaromik-temperli-cam-usb-3-2-beyaz-mid-tower-kasa.jpg",
-    "store": "gamingGen"
-  },
-  {
     "link": "https://www.gaming.gen.tr/urun/319964",
     "name": "ELITE-DUAL4060 / AMD Ryzen 5 7600 TRAY / ASUS Dual GeForce RTX 4060 OC 8GB WHITE / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 32499,
@@ -962,7 +962,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/422939",
     "name": "ELITE-DUAL4070SUPER / AMD Ryzen 7 7800X3D / ASUS DUAL GeForce RTX 4070 SUPER OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 57653.57,
+    "price": 57698.99,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci\n",
       "Motherboard": "ASUS Prime B650M-R 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart",
@@ -1021,7 +1021,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/484205",
-    "name": "ELITE-TUF4070TISUPER / AMD Ryzen 7 7800X3D Tray / ASUS TUF Gaming GeForce RTX 4070 Ti SUPER OG OC 16GB / 16GB RAM / 1TB M.2 SSD Gaming Bilgisayar",
+    "name": "ELITE-TUF4070TISUPER / AMD Ryzen 7 7800X3D Tray / ASUS TUF Gaming GeForce RTX 4070 Ti SUPER OG OC 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
     "price": 68498.98,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci",
@@ -1082,7 +1082,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/323551",
     "name": "EPIC-4060 / INTEL i3-12100F / MSI GeForce RTX 4060 Ventus 2X Black 8GB OC / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 25756.53,
+    "price": 24698.99,
     "specs": {
       "CPU": "Intel Core i3-12100F 4.3GHz 12MB Önbellek 4 Çekirdek 1700 İşlemci",
       "Motherboard": "MSI PRO H610M-E 3200MHz DDR4 Soket 1700 M.2 HDMI VGA mATX Anakart",
@@ -1097,7 +1097,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/309290",
     "name": "EPIC-4060Ti / INTEL i3-13100F / MSI GeForce RTX 4060 Ti VENTUS 2X BLACK 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 31320.19,
+    "price": 30499,
     "specs": {
       "CPU": "Intel Core i3-13100F 3.4GHz 12MB Önbellek 1700 İşlemci (BX8071513100F)",
       "Motherboard": "MSI PRO H610M-E 3200MHz DDR4 Soket 1700 M.2 HDMI VGA mATX Anakart",
@@ -1112,7 +1112,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/471264",
     "name": "EPIC-4070TISUPER / INTEL Core i7-14700K / MSI GeForce RTX 4070 Ti SUPER 16G Ventus 3X OC 16GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 92718.57,
+    "price": 91999.01,
     "specs": {
       "CPU": "Intel Core i7-14700K 5.6GHz 28MB Önbellek 20 Çekirdek 1700 İşlemci",
       "Motherboard": "MSI PRO Z790-P WIFI 7000MHz (OC) DDR5 Soket 1700 M.2 HDMI DP ATX Anakart",
@@ -1126,10 +1126,10 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/324137",
-    "name": "EPIC-4090 / INTEL i9-14900KF / MSI GeForce RTX 4090 VENTUS 3X E 24G OC 24GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 157954.98,
+    "name": "EPIC-4090 / INTEL i9-14900K / MSI GeForce RTX 4090 VENTUS 3X E 24G OC 24GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
+    "price": 150799,
     "specs": {
-      "CPU": "Intel Core i9-14900KF 6.0GHz 36MB Önbellek 24 Çekirdek 1700 İşlemci",
+      "CPU": "Intel Core i9-14900K 6.0GHz 36MB Önbellek 24 Çekirdek 1700 İşlemci",
       "Motherboard": "MSI PRO Z790-P WIFI 7000MHz (OC) DDR5 Soket 1700 M.2 HDMI DP Anakart",
       "GPU": "MSI GeForce RTX 4090 VENTUS 3X E 24G OC 24GB GDDR6X 384 Bit DLSS 3 Ekran Kartı",
       "Ram": "Corsair Vengeance 32GB (2x16GB) 5200 MHz RGB CL40 INTEL XMP 3.0 DDR5 Ram (CMH32GX5M2B5200C40)",
@@ -1141,10 +1141,10 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/471246",
-    "name": "EPIC-PROSPECT4080S / INTEL Core i9-14900KF / MSI GeForce RTX 4080 SUPER Gaming X Slim 16GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 146508.06,
+    "name": "EPIC-PROSPECT4080S / INTEL Core i9-14900K / MSI GeForce RTX 4080 SUPER Gaming X Slim 16GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
+    "price": 133999.01,
     "specs": {
-      "CPU": "Intel Core i9-14900KF 6.0GHz 36MB Önbellek 24 Çekirdek 1700 İşlemci",
+      "CPU": "Intel Core i9-14900K 6.0GHz 36MB Önbellek 24 Çekirdek 1700 İşlemci",
       "Motherboard": "MSI MPG Z790 CARBON WIFI Soket 1700 DDR5 7600MHZ(OC) M.2 USB3.2 USB Type-C HDMI ATX Anakart",
       "GPU": "MSI GeForce RTX 4080 SUPER Gaming X Slim 16GB GDDR6X 256 Bit DLSS 3 Ekran kartı",
       "Ram": "Corsair Dominator Platinum RGB 32GB (2x16GB) 6200MHz CL36 DDR5 Ram (CMT32GX5M2X6200C36)",
@@ -1156,10 +1156,10 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/471095",
-    "name": "EPIC-PROSPECT4090 / INTEL Core i9-14900KF / MSI GeForce RTX 4090 SUPRIM LIQUID X 24G 24GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 192459.59,
+    "name": "EPIC-PROSPECT4090 / INTEL Core i9-14900K / MSI GeForce RTX 4090 SUPRIM LIQUID X 24G 24GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
+    "price": 180999.01,
     "specs": {
-      "CPU": "Intel Core i9-14900KF 6.0GHz 36MB Önbellek 24 Çekirdek 1700 İşlemci",
+      "CPU": "Intel Core i9-14900K 6.0GHz 36MB Önbellek 24 Çekirdek 1700 İşlemci",
       "Motherboard": "MSI MPG Z790 CARBON WIFI Soket 1700 DDR5 7600MHZ(OC) M.2 USB3.2 USB Type-C HDMI ATX Anakart",
       "GPU": "MSI GeForce RTX 4090 SUPRIM LIQUID X 24G 24GB GDDR6X 384 Bit DLSS 3 Sıvı Soğutuculu Ekran Kartı",
       "Ram": "Corsair Dominator Platinum RGB 32GB (2x16GB) 6200MHz CL36 DDR5 Ram (CMT32GX5M2X6200C36)",
@@ -1172,7 +1172,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/323893",
     "name": "EPIC-VENTUS4060 / INTEL i5-12400F / MSI GeForce RTX 4060 Ventus 2X Black 8GB OC / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 27714.12,
+    "price": 26999.01,
     "specs": {
       "CPU": "Intel Core i5-12400F 2.5GHz 18MB Önbellek 12 Çekirdek 1700 10nm İşlemci",
       "Motherboard": "MSI PRO H610M-B DDR4 3200MHz Soket 1700 M.2 HDMI VGA mATX Anakart",
@@ -1187,7 +1187,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/341884",
     "name": "FORGE-4060Ti / INTEL i5-12400F / MSI GeForce RTX 4060 Ti VENTUS 2X BLACK 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 32144.42,
+    "price": 31698.99,
     "specs": {
       "CPU": "Intel Core i5-12400F 2.5GHz 18MB Önbellek 6 Çekirdek 1700 10nm İşlemci",
       "Motherboard": "MSI PRO H610M-E 3200MHz DDR4 Soket 1700 M.2 HDMI VGA mATX Anakart",
@@ -1247,7 +1247,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/410009",
     "name": "GAMING-4070SUPER / AMD Ryzen 5 7500F MPK / ASUS DUAL GeForce RTX 4070 SUPER EVO 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 46362.61,
+    "price": 46399.01,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart\n",
@@ -1261,7 +1261,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/520780",
-    "name": "GAMING-4070TISUPER / AMD Ryzen 5 7600 TRAY / ASUS DUAL RTX 4070 Ti Super OC 16GB / 16GB RAM / 1TB M.2 SSD Gaming Bilgisayar",
+    "name": "GAMING-4070TISUPER / AMD Ryzen 5 7600 TRAY / ASUS DUAL RTX 4070 Ti Super OC 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
     "price": 58399,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
@@ -1322,7 +1322,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/388451",
     "name": "GAMING-DUAL4070SUPER / AMD Ryzen 5 7600 TRAY / ASUS DUAL GeForce RTX 4070 SUPER EVO 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 54520.22,
+    "price": 54499,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart",
@@ -1352,7 +1352,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/440752",
     "name": "GAMING-EVO4070SUPER / AMD Ryzen 5 7500F MPK / ASUS DUAL GeForce RTX 4070 SUPER EVO 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 48423.21,
+    "price": 48499,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci\n",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart",
@@ -1366,7 +1366,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/520834",
-    "name": "GAMING-TUF4070TISUPER / AMD Ryzen 5 7600 Tray / ASUS TUF Gaming GeForce RTX 4070 Ti SUPER OG OC 16GB / 16GB RAM / 1TB M.2 SSD Gaming Bilgisayar",
+    "name": "GAMING-TUF4070TISUPER / AMD Ryzen 5 7600 Tray / ASUS TUF Gaming GeForce RTX 4070 Ti SUPER OG OC 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
     "price": 60799,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
@@ -1442,7 +1442,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/493135",
     "name": "GG-4070S / AMD Ryzen 7 7800X3D / ASUS DUAL GeForce RTX 4070 SUPER EVO 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 55738.38,
+    "price": 55798.98,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci\n",
       "Motherboard": "ASUS Prime B650M-R 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart",
@@ -1517,7 +1517,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/493401",
     "name": "KONSOLOG-ESPOR / AMD Ryzen 5 7600 TRAY / GALAX GeForce RTX 4070 1-Click OC 2X 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 40592.94,
+    "price": 40499.01,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
@@ -1546,12 +1546,12 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/359845",
-    "name": "LUNAR-13100F / INTEL i3-13100F / GALAX GeForce RTX 4060 Ti EX 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 28332.3,
+    "name": "LUNAR-13100F / INTEL i3-13100F / GALAX GeForce RTX 4060 Ti 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
+    "price": 27499,
     "specs": {
       "CPU": "Intel Core i3-13100F 3.4GHz 12MB Önbellek 1700 İşlemci (BX8071513100F)",
       "Motherboard": "ASUS PRIME H610M-K D4 ARGB 3200MHz DDR4 Soket 1700 M.2 HDMI mATX Anakart",
-      "GPU": "GALAX GeForce RTX 4060 Ti EX 1-Click OC 8GB GDDR6 128 Bit DLSS 3 Ekran Kartı (46ISL8MD8AEX) – 2 Yıl Birebir Değişim Garantili",
+      "GPU": "GALAX GeForce RTX 4060 Ti 1-Click OC 8GB GDDR6 128 Bit DLSS 3 Ekran Kartı (46ISL8MD8COC) – 2 Yıl Birebir Değişim Garantili",
       "Ram": "Kingston Beast Black 16GB (2×8) 3200MHz CL16 Intel XMP 2.0 DDR4 Ram (KF432C16BB/8TR)",
       "Case": "ENERMAX StarryFort SF21 Rainbow Temperli Cam Mesh USB 3.2 mATX Siyah Cyberbron II 600W 80+ Bronze Gaming Kasa",
       "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
@@ -1562,7 +1562,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/504552",
     "name": "LUNAR-14600K / INTEL i5-14600K / GALAX GeForce RTX 4070 Ti SUPER EX Gamer 1-Click OC V2 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 64908.07,
+    "price": 64899.01,
     "specs": {
       "CPU": "Intel Core i5-14600K 5.3GHz 24MB Önbellek 14 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS PRIME B760M-K 8000MHz (OC) DDR5 Soket 1700 M.2 HDMI mATX Anakart\n",
@@ -1577,7 +1577,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/502913",
     "name": "LUNAR-14700K / INTEL i7-14700K / GALAX GeForce RTX 4070 SUPER 1-Click OC 2X V2 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 62847.45,
+    "price": 62898.99,
     "specs": {
       "CPU": "Intel Core i7-14700K 5.6GHz 28MB Önbellek 20 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS PRIME B760M-K 8000MHz (OC) DDR5 Soket 1700 M.2 HDMI mATX Anakart",
@@ -1592,7 +1592,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/359827",
     "name": "LUNAR-4060 / INTEL i5-13400F / GALAX GeForce RTX 4060 1-Click OC 2X V2 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 30289.88,
+    "price": 30299,
     "specs": {
       "CPU": "Intel Core i5-13400F 4.6GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci (BX8071513400F)",
       "Motherboard": "ASUS PRIME H610M-K D4 ARGB 3200MHz DDR4 Soket 1700 M.2 HDMI mATX Anakart",
@@ -1606,12 +1606,12 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/359843",
-    "name": "LUNAR-4060Ti / INTEL i3-12100F / GALAX GeForce RTX 4060 Ti EX 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 26786.84,
+    "name": "LUNAR-4060Ti / INTEL i3-12100F / GALAX GeForce RTX 4060 Ti 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
+    "price": 26598.99,
     "specs": {
       "CPU": "Intel Core i3-12100F 4.3GHz 12MB Önbellek 4 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS PRIME H610M-K D4 ARGB 3200MHz DDR4 Soket 1700 M.2 HDMI mATX Anakart",
-      "GPU": "GALAX GeForce RTX 4060 Ti EX 1-Click OC 8GB GDDR6 128 Bit DLSS 3 Ekran Kartı (46ISL8MD8AEX) – 2 Yıl Birebir Değişim Garantili",
+      "GPU": "GALAX GeForce RTX 4060 Ti 1-Click OC 8GB GDDR6 128 Bit DLSS 3 Ekran Kartı (46ISL8MD8COC) – 2 Yıl Birebir Değişim Garantili",
       "Ram": "Kingston Beast Black 16GB (2×8) 3200MHz CL16 Intel XMP 2.0 DDR4 Ram (KF432C16BB/8TR)",
       "Case": "ENERMAX StarryFort SF21 Rainbow Temperli Cam Mesh USB 3.2 mATX Siyah Cyberbron II 600W 80+ Bronze Gaming Kasa",
       "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
@@ -1622,7 +1622,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/359856",
     "name": "LUNAR-4070 / INTEL i5-12400F / GALAX 1-Click OC 2X GeForce RTX 4070 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 34926.24,
+    "price": 34999.01,
     "specs": {
       "CPU": "Intel Core i5-12400F 2.5GHz 18MB Önbellek 6 Çekirdek 1700 10nm İşlemci",
       "Motherboard": "ASUS PRIME H610M-K D4 ARGB 3200MHz DDR4 Soket 1700 M.2 HDMI mATX Anakart",
@@ -1637,7 +1637,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/413920",
     "name": "LUNAR-4070SUPER / INTEL i5-14400F / GALAX GeForce RTX 4070 SUPER 1-Click OC 2X V2 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 48011.1,
+    "price": 47998.99,
     "specs": {
       "CPU": "Intel Core i5-14400F 4.7GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart\n",
@@ -1652,7 +1652,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/502789",
     "name": "LUNAR-7600 / AMD Ryzen 5 7600 TRAY / GALAX GeForce RTX 4070 Ti SUPER EX Gamer 1-Click OC V2 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 54914.16,
+    "price": 54899.03,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
@@ -1667,7 +1667,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/418734",
     "name": "LUNAR-FENIX4070 / INTEL i5-14600K / GALAX GeForce RTX 4070 1-Click OC 2X 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 48423.21,
+    "price": 48399.01,
     "specs": {
       "CPU": "Intel Core i5-14600K 5.3GHz 24MB Önbellek 14 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart",
@@ -1682,7 +1682,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/363639",
     "name": "LUNAR-FENIX4080SUPER / INTEL i5-14600K / GALAX GeForce RTX 4080 SUPER SG 1-Click OC 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 75932.31,
+    "price": 75999,
     "specs": {
       "CPU": "Intel Core i5-14600K 5.3GHz 24MB Önbellek 14 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS PRIME B760M-K 8000MHz (OC) DDR5 Soket 1700 M.2 HDMI mATX Anakart",
@@ -1697,7 +1697,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/505415",
     "name": "LUNAR-MASTER14600K / INTEL Core i5-14600K / GALAX GeForce RTX 4070 Ti SUPER EX Gamer 1-Click OC V2 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 66968.69,
+    "price": 66999.02,
     "specs": {
       "CPU": "Intel Core i5-14600K 5.3GHz 24MB Önbellek 14 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS PRIME B760M-K 8000MHz (OC) DDR5 Soket 1700 M.2 HDMI mATX Anakart",
@@ -1712,7 +1712,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/505556",
     "name": "LUNAR-MASTER4070 / INTEL Core i5-14600K / GALAX GeForce RTX 4070 1-Click OC 2X 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 52441.41,
+    "price": 52499.02,
     "specs": {
       "CPU": "Intel Core i5-14600K 5.3GHz 24MB Önbellek 14 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart",
@@ -1727,7 +1727,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/505408",
     "name": "LUNAR-MASTER7600 / AMD Ryzen 5 7600 TRAY / GALAX GeForce RTX 4070 Ti SUPER EX Gamer 1-Click OC V2 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 58520.22,
+    "price": 58499.02,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
@@ -1742,7 +1742,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/410020",
     "name": "MANTIS-4070SUPER / AMD Ryzen 5 7500F MPK / ASUS DUAL GeForce RTX 4070 SUPER EVO 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 49865.62,
+    "price": 49899,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart\n",
@@ -1785,21 +1785,6 @@
     "store": "gamingGen"
   },
   {
-    "link": "https://www.gaming.gen.tr/urun/513657",
-    "name": "MANTIS-9600X / AMD Ryzen 5 9600X / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
-    "price": 48499,
-    "specs": {
-      "CPU": "AMD Ryzen 5 9600X 3.9GHz 32MB Önbellek 6 Çekirdek AM5 4nm İşlemci",
-      "Motherboard": "ASUS Prime B650M-A II-CSM 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart\n",
-      "GPU": "ASUS DUAL Radeon RX 7700 XT OC 12GB GDDR6 192 Bit Ekran Kartı",
-      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
-      "Case": "ASUS TUF GAMING GT301 GamingGenTR Edition RGB Temperli Cam USB 3.1 Mid Tower Kasa",
-      "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
-    },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2023/05/asus-tuf-gaming-gt301-gaminggentr-edition-rgb-temperli-cam-usb-3-2-mid-tower-kasa.jpg",
-    "store": "gamingGen"
-  },
-  {
     "link": "https://www.gaming.gen.tr/urun/329511",
     "name": "MANTIS-DUAL4060 / AMD Ryzen 5 5600 MPK / ASUS DUAL GeForce RTX 4060 EVO OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 27198.95,
@@ -1832,7 +1817,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/412972",
     "name": "MANTIS-DUAL4070SUPER / AMD Ryzen 5 7500F MPK / ASUS DUAL GeForce RTX 4070 SUPER EVO 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 47392.91,
+    "price": 47399.02,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart",
@@ -1890,24 +1875,9 @@
     "store": "gamingGen"
   },
   {
-    "link": "https://www.gaming.gen.tr/urun/323554",
-    "name": "MAXIMA-4060 / AMD Ryzen 5 7600 TRAY / MSI GeForce RTX 4060 Ventus 2X Black 8GB OC / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 43992.93,
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
-      "Motherboard": "Msi Mag B650 Tomahawk WiFi AM5 DDR5 6600MHz(OC) HDMI DP M.2 ATX Anakart",
-      "GPU": "MSI GeForce RTX 4060 OC Ventus 2X Black 8GB GDDR6 128 Bit DLSS 3 Ekran Kartı",
-      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
-      "Case": "MSI MAG FORGE 100R Tempered Glass ARGB USB 3.2 Mid Tower Kasa",
-      "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
-    },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2022/02/msi-mag-forge-100r-b65-650w-80-tempered-glass-argb-usb-3-2-atx-mid-tower-kasa-1.jpg",
-    "store": "gamingGen"
-  },
-  {
     "link": "https://www.gaming.gen.tr/urun/347908",
     "name": "MAXIMA-MAG4060 / AMD Ryzen 5 5600 MPK / MSI GeForce RTX 4060 Ventus 2X Black 8GB OC / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 27095.92,
+    "price": 26299,
     "specs": {
       "CPU": "AMD Ryzen 5 5600 MPK 3.5GHz 32MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "MSI A520M-A PRO 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -1922,7 +1892,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/464703",
     "name": "MC-SUPER / AMD Ryzen 5 7500F MPK / GALAX GeForce RTX 4070 Ti SUPER EX Gamer 1-Click OC V2 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 54398.99,
+    "price": 54399.01,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 5.0GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
@@ -1952,7 +1922,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/409478",
     "name": "MESUT-4070SUPER / AMD Ryzen 5 7600 TRAY / ASUS DUAL GeForce RTX 4070 SUPER EVO 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 49453.51,
+    "price": 49499.01,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart",
@@ -1982,7 +1952,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/384380",
     "name": "MIRANA-13600KF / INTEL i5-13600KF / GALAX GeForce RTX 4060 1-Click OC 2X V2 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 34514.12,
+    "price": 34499,
     "specs": {
       "CPU": "Intel Core i5-13600KF 5.1GHz 20MB Önbellek 14 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS PRIME H610M-K D4 ARGB 3200MHz DDR4 Soket 1700 M.2 HDMI mATX Anakart",
@@ -1997,7 +1967,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/466152",
     "name": "MIRANA-4060 / AMD Ryzen 5 5500 MPK / GALAX GeForce RTX 4060 1-Click OC 2X V2 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 26168.65,
+    "price": 25999,
     "specs": {
       "CPU": "AMD Ryzen 5 5500 MPK 3.6GHz 16MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME A520M-K 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -2011,12 +1981,12 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/466174",
-    "name": "MIRANA-4060Ti / AMD Ryzen 5 7500F MPK / GALAX GeForce RTX 4060 Ti EX 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 36059.58,
+    "name": "MIRANA-4060Ti / AMD Ryzen 5 7500F MPK / GALAX GeForce RTX 4060 Ti 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
+    "price": 35499,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart",
-      "GPU": "GALAX GeForce RTX 4060 Ti EX 1-Click OC 8GB GDDR6 128 Bit DLSS 3 Ekran Kartı (46ISL8MD8AEX) – 2 Yıl Birebir Değişim Garantili",
+      "GPU": "GALAX GeForce RTX 4060 Ti 1-Click OC 8GB GDDR6 128 Bit DLSS 3 Ekran Kartı (46ISL8MD8COC) – 2 Yıl Birebir Değişim Garantili",
       "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)\n",
       "Case": "ASUS A21 Plus ARGB Temperli Cam USB 3.2 mATX Mesh Siyah Mid Tower Gaming Kasa",
       "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
@@ -2027,7 +1997,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/466176",
     "name": "MIRANA-4070 / AMD Ryzen 5 7500F MPK / GALAX 1-Click OC 2X GeForce RTX 4070 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 43271.7,
+    "price": 43299,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart",
@@ -2042,7 +2012,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/418141",
     "name": "MIRANA-4070SUPER / AMD Ryzen 5 7600 TRAY / GALAX GeForce RTX 4070 SUPER 1-Click OC 2X V2 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 46053.54,
+    "price": 45999.01,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
@@ -2057,7 +2027,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/363637",
     "name": "MIRANA-4070TISUPER / AMD Ryzen 5 7500F MPK / GALAX GeForce RTX 4070 Ti SUPER EX Gamer 1-Click OC V2 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 55326.27,
+    "price": 55299.01,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 5.0GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "ASUS Prime B650M-R 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart",
@@ -2071,8 +2041,8 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/443291",
-    "name": "MIRANA-4080SUPER / AMD Ryzen 5 7600 TRAY / GALAX GeForce RTX 4080 SUPER SG 1-Click OC 16GB / 16GB RAM / 1TB M.2 SSD Gaming Bilgisayar – Star Wars Outlaws Hediyeli",
-    "price": 66453.53,
+    "name": "MIRANA-4080SUPER / AMD Ryzen 5 7600 TRAY / GALAX GeForce RTX 4080 SUPER SG 1-Click OC 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
+    "price": 66499.02,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
@@ -2087,7 +2057,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/466162",
     "name": "MIRANA-5600 / AMD Ryzen 5 5600 MPK / GALAX GeForce RTX 4060 1-Click OC 2X V2 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 27198.96,
+    "price": 27199,
     "specs": {
       "CPU": "AMD Ryzen 5 5600 MPK 3.5GHz 32MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME A520M-K 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -2102,7 +2072,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/466167",
     "name": "MIRANA-7500F / AMD Ryzen 5 7500F MPK / GALAX GeForce RTX 4060 1-Click OC 2X V2 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 31320.18,
+    "price": 31299,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 5.0GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
@@ -2117,7 +2087,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/505547",
     "name": "MIRANA-7600 / AMD Ryzen 5 7600 / GALAX 1-Click OC 2X GeForce RTX 4070 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 45332.31,
+    "price": 45399.01,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
@@ -2132,7 +2102,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/505111",
     "name": "MIRANA-7800X3D / AMD Ryzen 7 7800X3D / GALAX GeForce RTX 4070 Ti SUPER EX Gamer 1-Click OC V2 16GB / 16GB RAM / 1 TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 63774.74,
+    "price": 63798.98,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci\n",
       "Motherboard": "ASUS Prime B650M-R 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart\n",
@@ -2147,7 +2117,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/505110",
     "name": "MIRANA-AIR4070SUPER / AMD Ryzen 7 7800X3D / GALAX GeForce RTX 4070 SUPER 1-Click OC 2X V2 12GB / 16GB RAM / 1 TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 56047.45,
+    "price": 55998.98,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci\n",
       "Motherboard": "ASUS Prime B650M-R 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart\n",
@@ -2162,7 +2132,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/418709",
     "name": "MIRANA-FENIX4070 / AMD Ryzen 5 7600 MPK / GALAX GeForce RTX 4070 1-Click OC 2X 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 43271.69,
+    "price": 43299.01,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 MPK 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart",
@@ -2177,7 +2147,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/505279",
     "name": "MIRANA-MASTER4060 / AMD Ryzen 5 5500 MPK / GALAX GeForce RTX 4060 1-Click OC 2X V2 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 25653.5,
+    "price": 25699,
     "specs": {
       "CPU": "AMD Ryzen 5 5500 MPK 3.6GHz 16MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME A520M-K 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -2192,7 +2162,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/418246",
     "name": "MIRANA-MASTER4070SUPER / AMD Ryzen 5 7500F / GALAX GeForce RTX 4070 SUPER 1-Click OC 2X V2 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 46362.61,
+    "price": 46398.98,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart",
@@ -2207,7 +2177,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/345402",
     "name": "MIRANA-MASTER7800X3D / AMD Ryzen 7 7800X3D / GALAX GeForce RTX 4070 SUPER 1-Click OC 2X V2 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 55840.57,
+    "price": 55898.98,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime B650M-R 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart",
@@ -2326,7 +2296,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/517179",
-    "name": "NOVA-3050 / INTEL Core i3-12100F / ASUS DUAL GeForce RTX 3050 OC 6GB / 16GB RAM / 512GB M.2 SSD Gaming Bilgisayar",
+    "name": "NOVA-3050 / INTEL Core i3-12100F / ASUS DUAL GeForce RTX 3050 OC 6GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 20399,
     "specs": {
       "CPU": "Intel Core i3-12100F 4.3GHz 12MB Önbellek 4 Çekirdek 1700 İşlemci",
@@ -2357,7 +2327,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/410024",
     "name": "NOVA-4070SUPER / INTEL i5-14400F / ASUS DUAL GeForce RTX 4070 SUPER EVO 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 55061.12,
+    "price": 47799,
     "specs": {
       "CPU": "Intel Core i5-14400F 4.7GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart\n",
@@ -2371,7 +2341,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/416841",
-    "name": "NOVA-4080SUPER / INTEL i7-14700K / ASUS ProArt GeForce RTX 4080 SUPER OC 16GB / 32GB RAM / 1TB M.2 SSD Gaming Bilgisayar",
+    "name": "NOVA-4080SUPER / INTEL i7-14700K / ASUS ProArt GeForce RTX 4080 SUPER OC 16GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
     "price": 112299.01,
     "specs": {
       "CPU": "Intel Core i7-14700K 5.6GHz 28MB Önbellek 20 Çekirdek 1700 İşlemci",
@@ -2447,7 +2417,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/412986",
     "name": "NOVA-DUAL4070SUPER / INTEL i5-14400F / ASUS DUAL GeForce RTX 4070 SUPER EVO 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 57930.64,
+    "price": 49799,
     "specs": {
       "CPU": "Intel Core i5-14400F 4.7GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart\n",
@@ -2477,7 +2447,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/440149",
     "name": "NOVA-EVO4070SUPER / INTEL i5-13400F / ASUS DUAL GeForce RTX 4070 SUPER EVO 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 58964.12,
+    "price": 49498.99,
     "specs": {
       "CPU": "Intel Core i5-13400F 4.6GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci (BX8071513400F)",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart\n",
@@ -2492,7 +2462,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/426409",
     "name": "OPTIMA-14100F / INTEL i3-14100F / GALAX GeForce RTX 4060 1-Click OC 2X V2 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 26065.63,
+    "price": 25999.01,
     "specs": {
       "CPU": "Intel Core i3-14100F 4.7GHz 12MB Önbellek 4 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart",
@@ -2507,7 +2477,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/418236",
     "name": "OPTIMA-14600K / INTEL i5-14600K / GALAX GeForce RTX 4070 Ti SUPER EX Gamer 1-Click OC V2 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 63877.76,
+    "price": 63898.99,
     "specs": {
       "CPU": "Intel Core i5-14600K 5.3GHz 24MB Önbellek 14 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS PRIME B760M-K 8000MHz (OC) DDR5 Soket 1700 M.2 HDMI mATX Anakart\n",
@@ -2522,7 +2492,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/359849",
     "name": "OPTIMA-4060Ti / INTEL i5-12400F / GALAX GeForce RTX 4060 Ti 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 28126.25,
+    "price": 27999,
     "specs": {
       "CPU": "Intel Core i5-12400F 2.5GHz 18MB Önbellek 6 Çekirdek 1700 10nm İşlemci",
       "Motherboard": "ASUS PRIME H610M-K D4 ARGB 3200MHz DDR4 Soket 1700 M.2 HDMI mATX Anakart",
@@ -2537,7 +2507,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/359862",
     "name": "OPTIMA-4070 / INTEL i5-13400F / GALAX 1-Click OC 2X GeForce RTX 4070 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 38326.24,
+    "price": 38399,
     "specs": {
       "CPU": "Intel Core i5-13400F 4.6GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci (BX8071513400F)",
       "Motherboard": "ASUS PRIME H610M-K D4 ARGB 3200MHz DDR4 Soket 1700 M.2 HDMI mATX Anakart",
@@ -2552,7 +2522,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/413908",
     "name": "OPTIMA-4070SUPER / INTEL i5-14400F / GALAX GeForce RTX 4070 SUPER 1-Click OC 2X V2 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 46053.52,
+    "price": 45998.99,
     "specs": {
       "CPU": "Intel Core i5-14400F 4.7GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart\n",
@@ -2567,7 +2537,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/413969",
     "name": "OPTIMA-4070TISUPER / INTEL i7-14700KF / GALAX GeForce RTX 4070 Ti SUPER EX Gamer 1-Click OC V2 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 66659.56,
+    "price": 66698.99,
     "specs": {
       "CPU": "Intel Core i7-14700KF 5.6GHz 33MB Önbellek 20 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS PRIME B760M-K 8000MHz (OC) DDR5 Soket 1700 M.2 HDMI mATX Anakart\n",
@@ -2581,8 +2551,8 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/416973",
-    "name": "OPTIMA-4080SUPER / INTEL i7-14700K / GALAX GeForce RTX 4080 SUPER SG 1-Click OC 16GB / 16GB RAM / 1TB M.2 SSD Gaming Bilgisayar – Star Wars Outlaws Hediyeli",
-    "price": 81908.04,
+    "name": "OPTIMA-4080SUPER / INTEL i7-14700K / GALAX GeForce RTX 4080 SUPER SG 1-Click OC 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
+    "price": 81898.99,
     "specs": {
       "CPU": "Intel Core i7-14700K 5.6GHz 28MB Önbellek 20 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS PRIME B760M-K 8000MHz (OC) DDR5 Soket 1700 M.2 HDMI mATX Anakart",
@@ -2597,7 +2567,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/502848",
     "name": "OPTIMA-7600 / AMD Ryzen 5 7600 TRAY / GALAX GeForce RTX 4060 Ti 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 32865.65,
+    "price": 32899.01,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart",
@@ -2612,7 +2582,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/505282",
     "name": "OPTIMA-MASTER14100F / INTEL i3-14100F / GALAX GeForce RTX 4060 1-Click OC 2X V2 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 28435.34,
+    "price": 28399,
     "specs": {
       "CPU": "Intel Core i3-14100F 4.7GHz 12MB Önbellek 4 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart",
@@ -2627,7 +2597,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/418253",
     "name": "OPTIMA-MASTER14600K / INTEL i5-14600K / GALAX GeForce RTX 4070 SUPER 1-Click OC 2X V2 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 53883.83,
+    "price": 53898.99,
     "specs": {
       "CPU": "Intel Core i5-14600K 5.3GHz 24MB Önbellek 14 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart",
@@ -2642,7 +2612,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/505461",
     "name": "OPTIMA-MASTER4070SUPER / INTEL Core i5-14600K / GALAX GeForce RTX 4070 SUPER 1-Click OC 2X V2 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 56665.65,
+    "price": 56699.01,
     "specs": {
       "CPU": "Intel Core i5-14600K 5.3GHz 24MB Önbellek 14 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart",
@@ -2657,7 +2627,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/339199",
     "name": "PARDUS-4060 / AMD Ryzen 5 7500F MPK / MSI GeForce RTX 4060 OC Ventus 2X Black 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 32350.48,
+    "price": 30299.01,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "MSI PRO A620M-E 6000MHz (OC) DDR5 Soket AM5 M.2 mATX Anakart",
@@ -2672,7 +2642,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/324254",
     "name": "PARDUS-4060Ti / AMD Ryzen 5 5500 MPK / MSI GeForce RTX 4060 Ti VENTUS 2X BLACK 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 30289.85,
+    "price": 29899,
     "specs": {
       "CPU": "AMD Ryzen 5 5500 MPK 3.6GHz 16MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "MSI B450M-A PRO MAX 4133MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -2686,12 +2656,12 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/410078",
-    "name": "PARDUS-4070SUPER / AMD Ryzen 5 7600 TRAY / MSI GeForce RTX 4070 SUPER 12G Gaming X Slim 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 53574.73,
+    "name": "PARDUS-4070SUPER / AMD Ryzen 5 7600 TRAY / MSI GeForce RTX 4070 SUPER 12G Ventus 3X OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
+    "price": 49499.01,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "MSI PRO A620M-E 6000MHz (OC) DDR5 Soket AM5 M.2 mATX Anakart",
-      "GPU": "MSI GeForce RTX 4070 SUPER 12G Gaming X Slim 12GB GDDR6X 192 Bit DLSS 3 Ekran Kartı",
+      "GPU": "MSI GeForce RTX 4070 SUPER 12G Ventus 3X OC 12GB GDDR6X 192 Bit DLSS 3 Ekran Kartı",
       "Ram": "Corsair Vengeance 16GB 5200MHz CL40 INTEL XMP 3.0 DDR5 Ram (CMK16GX5M1B5200C40)",
       "Case": "MSI MAG FORGE 100R Tempered Glass ARGB USB 3.2 Mid Tower Kasa",
       "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
@@ -2702,7 +2672,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/413315",
     "name": "PARDUS-4070TISUPER / AMD Ryzen 5 7600 TRAY / MSI GeForce RTX 4070 Ti SUPER 16G Ventus 3X OC 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 62641.38,
+    "price": 59999,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "MSI PRO A620M-E 6000MHz (OC) DDR5 Soket AM5 M.2 mATX Anakart\n",
@@ -2717,7 +2687,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/506461",
     "name": "PARDUS-8400F / AMD Ryzen 5 8400F MPK / MSI GeForce RTX 4060 OC Ventus 2X Black 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 31732.27,
+    "price": 29799,
     "specs": {
       "CPU": "AMD Ryzen 5 8400F MPK 4.7GHz 16MB Önbellek 6 Çekirdek AM5 İşlemci",
       "Motherboard": "MSI PRO A620M-E 6000MHz (OC) DDR5 Soket AM5 M.2 mATX Anakart",
@@ -2732,7 +2702,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/347914",
     "name": "PARDUS-MAG4060Ti / AMD Ryzen 5 5500 MPK / MSI GeForce RTX 4060 Ti Ventus 2X Black 16GB OC / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 32350.44,
+    "price": 31798.99,
     "specs": {
       "CPU": "AMD Ryzen 5 5500 MPK 3.6GHz 16MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "MSI B450M-A PRO MAX 4133MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -2747,7 +2717,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/505747",
     "name": "PARDUS-MAG4070TISUPER / AMD Ryzen 5 7600 TRAY / MSI GeForce RTX 4070 Ti SUPER 16G Ventus 3X OC / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 57699.01,
+    "price": 57499.02,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "MSI PRO A620M-E 6000MHz (OC) DDR5 Soket AM5 M.2 mATX Anakart",
@@ -2762,7 +2732,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/339206",
     "name": "PARDUS-PRO4060Ti / AMD Ryzen 5 7500F MPK / MSI GeForce RTX 4060 Ti VENTUS 2X BLACK 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 35544.41,
+    "price": 34799,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "MSI PRO A620M-E 6000MHz (OC) DDR5 Soket AM5 M.2 mATX Anakart",
@@ -2792,7 +2762,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/311329",
     "name": "PLATINUM-4090 / AMD Ryzen 9 7900X / ASUS ROG Strix GeForce RTX 4090 24GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 161999,
+    "price": 161964.84,
     "specs": {
       "CPU": "AMD Ryzen 9 7900X 5.6GHz 12 Çekirdek 64MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS ProArt X670E-CREATOR WiFi 8000MHz (OC) DDR5 Soket AM5 M.2 HDMI DP ThunderBolt 4 ATX Anakart",
@@ -2852,7 +2822,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/410033",
     "name": "RAPTOR-4070SUPER / INTEL i5-14400F / ASUS Dual GeForce RTX 4070 SUPER OC WHITE 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 51823.2,
+    "price": 51898.98,
     "specs": {
       "CPU": "Intel Core i5-14400F 4.7GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart\n",
@@ -2957,7 +2927,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/440143",
     "name": "RAPTOR-EVO4070SUPER / INTEL i5-14400F / ASUS Dual GeForce RTX 4070 SUPER OC WHITE 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 51823.2,
+    "price": 51898.98,
     "specs": {
       "CPU": "Intel Core i5-14400F 4.7GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart\n",
@@ -3016,12 +2986,12 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/390154",
-    "name": "SUNRISE-13100F / INTEL i3-13100F / GALAX GeForce RTX 4060 Ti EX 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 29259.58,
+    "name": "SUNRISE-13100F / INTEL i3-13100F / GALAX GeForce RTX 4060 Ti 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
+    "price": 28499.01,
     "specs": {
       "CPU": "Intel Core i3-13100F 3.4GHz 12MB Önbellek 1700 İşlemci (BX8071513100F)",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart",
-      "GPU": "GALAX GeForce RTX 4060 Ti EX 1-Click OC 8GB GDDR6 128 Bit DLSS 3 Ekran Kartı (46ISL8MD8AEX) – 2 Yıl Birebir Değişim Garantili",
+      "GPU": "GALAX GeForce RTX 4060 Ti 1-Click OC 8GB GDDR6 128 Bit DLSS 3 Ekran Kartı (46ISL8MD8COC) – 2 Yıl Birebir Değişim Garantili",
       "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
       "Case": "ENERMAX StarryFort SF21 Rainbow Temperli Cam Mesh USB 3.2 mATX Siyah Cyberbron II 600W 80+ Bronze Gaming Kasa",
       "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
@@ -3032,7 +3002,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/359780",
     "name": "SUNRISE-4060 / AMD Ryzen 5 5600 MPK / GALAX GeForce RTX 4060 1-Click OC 2X V2 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 24520.18,
+    "price": 24499.01,
     "specs": {
       "CPU": "AMD Ryzen 5 5600 MPK 3.5GHz 32MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME A520M-K 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -3047,7 +3017,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/359836",
     "name": "SUNRISE-4060Ti / AMD Ryzen 5 5600 MPK / GALAX GeForce RTX 4060 Ti 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 27817.13,
+    "price": 27799,
     "specs": {
       "CPU": "AMD Ryzen 5 5600 MPK 3.5GHz 32MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME A520M-K 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -3077,7 +3047,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/443158",
     "name": "SUNRISE-4070TISUPER / AMD Ryzen 7 7800X3D / GALAX GeForce RTX 4070 Ti SUPER EX Gamer 1-Click OC V2 16GB / 16GB RAM / 1 TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 64908.06,
+    "price": 64898.98,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci\n",
       "Motherboard": "ASUS Prime B650M-R 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart\n",
@@ -3092,7 +3062,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/416951",
     "name": "SUNRISE-4080SUPER / AMD Ryzen 7 7600 TRAY / GALAX GeForce RTX 4080 SUPER SG 1-Click OC 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 65423.22,
+    "price": 65399.01,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
@@ -3107,7 +3077,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/462127",
     "name": "SUNRISE-5600 / AMD Ryzen 5 5600 MPK / GALAX GeForce RTX 4060 1-Click OC 2X V2 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 23695.94,
+    "price": 23678.48,
     "specs": {
       "CPU": "AMD Ryzen 5 5600 MPK 3.5GHz 32MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME A520M-K 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -3122,7 +3092,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/359785",
     "name": "SUNRISE-7500F / AMD Ryzen 5 7500F MPK / GALAX GeForce RTX 4060 1-Click OC 2X V2 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 28847.46,
+    "price": 28899.01,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart",
@@ -3137,7 +3107,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/502894",
     "name": "SUNRISE-7600 / AMD Ryzen 5 7600 TRAY / GALAX GeForce RTX 4070 SUPER 1-Click OC 2X V2 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 44920.2,
+    "price": 44999.02,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
@@ -3152,7 +3122,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/363513",
     "name": "SUNRISE-7800X3D / AMD Ryzen 7 7800X3D TRAY / GALAX GeForce RTX 4060 1-Click OC 2X V2 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 40180.78,
+    "price": 40199,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci\n",
       "Motherboard": "ASUS Prime B650M-R 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart",
@@ -3167,7 +3137,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/506448",
     "name": "SUNRISE-8400F / AMD Ryzen 5 8400F MPK / GALAX GeForce RTX 4060 1-Click OC 2X V2 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 28332.29,
+    "price": 28399.02,
     "specs": {
       "CPU": "AMD Ryzen 5 8400F MPK 4.7GHz 16MB Önbellek 6 Çekirdek AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
@@ -3180,28 +3150,13 @@
     "store": "gamingGen"
   },
   {
-    "link": "https://www.gaming.gen.tr/urun/514035",
-    "name": "SUNRISE-9600X / AMD Ryzen 5 9600X / GALAX GeForce RTX 4070 SUPER 1-Click OC 2X V2 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 59241.39,
-    "specs": {
-      "CPU": "AMD Ryzen 5 9600X 3.9GHz 32MB Önbellek 6 Çekirdek AM5 4nm İşlemci",
-      "Motherboard": "ASUS Prime B650M-A II-CSM 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart\n",
-      "GPU": "GALAX GeForce RTX 4070 SUPER 1-Click OC 2X V2 12GB GDDR6X 192 Bit DLSS 3 Ekran Kartı (47SOM7MDABCD) – 2 Yıl Birebir Değişim Garantili",
-      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
-      "Case": "Corsair iCUE 3000D RGB USB 3.2 Mid Tower ATX Gaming Kasa (CC-9011255-WW)",
-      "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
-    },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/02/corsair-icue-3000d-rgb-usb-3-2-mid-tower-atx-gaming-kasa-cc-9011255-ww.jpg",
-    "store": "gamingGen"
-  },
-  {
     "link": "https://www.gaming.gen.tr/urun/416356",
-    "name": "SUNRISE-FENIX14400F / INTEL i5-14400F / GALAX GeForce RTX 4060 Ti EX 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 35441.41,
+    "name": "SUNRISE-FENIX14400F / INTEL i5-14400F / GALAX GeForce RTX 4060 Ti 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
+    "price": 34499.01,
     "specs": {
       "CPU": "Intel Core i5-14400F 4.7GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart\n",
-      "GPU": "GALAX GeForce RTX 4060 Ti EX 1-Click OC 8GB GDDR6 128 Bit DLSS 3 Ekran Kartı (46ISL8MD8AEX) – 2 Yıl Birebir Değişim Garantili",
+      "GPU": "GALAX GeForce RTX 4060 Ti 1-Click OC 8GB GDDR6 128 Bit DLSS 3 Ekran Kartı (46ISL8MD8COC) – 2 Yıl Birebir Değişim Garantili",
       "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
       "Case": "BITFENIX Enso Mesh ARGB USB 3.0 Mid Tower E-ATX destekli Gaming Kasa (ESM-150-KKWGK-4A)",
       "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
@@ -3211,12 +3166,12 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/384381",
-    "name": "SUNRISE-MASTER14400F / INTEL Core i5-14400F / GALAX GeForce RTX 4060 Ti EX 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 37811.1,
+    "name": "SUNRISE-MASTER14400F / INTEL Core i5-14400F / GALAX GeForce RTX 4060 Ti 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
+    "price": 36899,
     "specs": {
       "CPU": "Intel Core i5-14400F 4.7GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart",
-      "GPU": "GALAX GeForce RTX 4060 Ti EX 1-Click OC 8GB GDDR6 128 Bit DLSS 3 Ekran Kartı (46ISL8MD8AEX) – 2 Yıl Birebir Değişim Garantili",
+      "GPU": "GALAX GeForce RTX 4060 Ti 1-Click OC 8GB GDDR6 128 Bit DLSS 3 Ekran Kartı (46ISL8MD8COC) – 2 Yıl Birebir Değişim Garantili",
       "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
       "Case": "Cooler Master MasterBox TD500 V2 Mesh ARGB Mid Tower Siyah Gaming Kasa (TD500V2-KGNN-STU)",
       "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
@@ -3226,12 +3181,12 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/416308",
-    "name": "SUNRISE-MASTER4060Ti / AMD Ryzen 5 5600 MPK / GALAX GeForce RTX 4060 Ti EX 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 32144.42,
+    "name": "SUNRISE-MASTER4060Ti / AMD Ryzen 5 5600 MPK / GALAX GeForce RTX 4060 Ti 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
+    "price": 31499.01,
     "specs": {
       "CPU": "AMD Ryzen 5 5600 MPK 3.5GHz 32MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME A520M-K 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
-      "GPU": "GALAX GeForce RTX 4060 Ti EX 1-Click OC 8GB GDDR6 128 Bit DLSS 3 Ekran Kartı (46ISL8MD8AEX) – 2 Yıl Birebir Değişim Garantili",
+      "GPU": "GALAX GeForce RTX 4060 Ti 1-Click OC 8GB GDDR6 128 Bit DLSS 3 Ekran Kartı (46ISL8MD8COC) – 2 Yıl Birebir Değişim Garantili",
       "Ram": "Kingston Beast Black 16GB (2×8) 3200MHz CL16 Intel XMP 2.0 DDR4 Ram (KF432C16BB/8TR)",
       "Case": "Cooler Master MasterBox TD500 V2 Mesh ARGB Mid Tower Siyah Gaming Kasa (TD500V2-KGNN-STU)",
       "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
@@ -3242,7 +3197,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/505475",
     "name": "SUNRISE-MASTER4070 / AMD Ryzen 5 7500F MPK / GALAX 1-Click OC 2X GeForce RTX 4070 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 43786.89,
+    "price": 43799.02,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
@@ -3257,7 +3212,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/505423",
     "name": "SUNRISE-MASTER7600 / AMD Ryzen 5 7600 TRAY / GALAX GeForce RTX 4070 SUPER 1-Click OC 2X V2 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 49453.55,
+    "price": 49499.02,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
@@ -3286,7 +3241,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/352895",
-    "name": "ULTIMA-3050 / AMD Ryzen 5 5500 MPK/ ASUS DUAL GeForce RTX 3050 OC 6GB / 16GB RAM / 512GB M.2 SSD Gaming Bilgisayar",
+    "name": "ULTIMA-3050 / AMD Ryzen 5 5500 MPK/ ASUS DUAL GeForce RTX 3050 OC 6GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
     "price": 20399,
     "specs": {
       "CPU": "AMD Ryzen 5 5500 MPK 3.6GHz 16MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
@@ -3346,7 +3301,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/413198",
-    "name": "ULTIMA-4070TISUPER / AMD Ryzen 5 7600 TRAY / ASUS DUAL RTX 4070 Ti Super OC 16GB / 16GB RAM / 1TB M.2 SSD Gaming Bilgisayar",
+    "name": "ULTIMA-4070TISUPER / AMD Ryzen 5 7600 TRAY / ASUS DUAL RTX 4070 Ti Super OC 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
     "price": 60798.98,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
@@ -3361,7 +3316,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/383145",
-    "name": "ULTIMA-4080SUPER / AMD Ryzen 7 7800X3D / ASUS ProArt GeForce RTX 4080 SUPER OC 16GB / 16GB RAM / 1TB M.2 SSD Gaming Bilgisayar",
+    "name": "ULTIMA-4080SUPER / AMD Ryzen 7 7800X3D / ASUS ProArt GeForce RTX 4080 SUPER OC 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
     "price": 84498.99,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci\n",
@@ -3437,7 +3392,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/477952",
     "name": "ULTIMA-8400F / AMD Ryzen 5 8400F MPK / ASUS Dual GeForce RTX 4070 SUPER OC WHITE 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 46877.74,
+    "price": 46899,
     "specs": {
       "CPU": "AMD Ryzen 5 8400F MPK 4.7GHz 16MB Önbellek 6 Çekirdek AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart\n",
@@ -3447,21 +3402,6 @@
       "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
     },
     "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/06/enermax-starryfort-sf21-argb-temperli-cam-mesh-usb-3-2-matx-siyah-cyberbron-ii-600w-80-bronze-gaming-kasa-yyh1.jpg",
-    "store": "gamingGen"
-  },
-  {
-    "link": "https://www.gaming.gen.tr/urun/513776",
-    "name": "ULTIMA-9600X / AMD Ryzen 5 9600X / ASUS DUAL GeForce RTX 4070 SUPER EVO OC 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 62332.3,
-    "specs": {
-      "CPU": "AMD Ryzen 5 9600X 3.9GHz 32MB Önbellek 6 Çekirdek AM5 4nm İşlemci",
-      "Motherboard": "ASUS Prime B650M-A II-CSM 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart\n",
-      "GPU": "ASUS DUAL GeForce RTX 4070 SUPER EVO OC 12GB GDDR6X 192 Bit DLSS 3 Ekran Kartı",
-      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
-      "Case": "Corsair iCUE 3000D RGB USB 3.2 Mid Tower ATX Gaming Kasa (CC-9011255-WW)",
-      "Storage": "Kingston NV2 1TB NVMe PCIE 4.0 Okuma 3500MB-Yazma 2100MB M.2 SSD (SNV2S/1000G)"
-    },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/02/corsair-icue-3000d-rgb-usb-3-2-mid-tower-atx-gaming-kasa-cc-9011255-ww.jpg",
     "store": "gamingGen"
   },
   {
@@ -3496,7 +3436,7 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/344770",
-    "name": "ULTIMA-ROG4080SUPER / AMD Ryzen 7 7800X3D / ASUS ProArt GeForce RTX 4080 SUPER 16GB / 32GB RAM / 1TB M.2 SSD Gaming Bilgisayar",
+    "name": "ULTIMA-ROG4080SUPER / AMD Ryzen 7 7800X3D / ASUS ProArt GeForce RTX 4080 SUPER 16GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
     "price": 114399,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci",
@@ -3555,9 +3495,24 @@
     "store": "gamingGen"
   },
   {
+    "link": "https://www.gaming.gen.tr/urun/410063",
+    "name": "VORTEX-4070SUPER / INTEL i5-14400F / MSI GeForce RTX 4070 SUPER 12G Ventus 3X OC 12GB / 16GB RAM / 512GB M.2 SSD Gaming Bilgisayar",
+    "price": 50499.01,
+    "specs": {
+      "CPU": "Intel Core i5-14400F 4.7GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci",
+      "Motherboard": "MSI Pro H610M-E 5600MHz (OC) DDR5 Soket 1700 M.2 HDMI VGA mATX Anakart",
+      "GPU": "MSI GeForce RTX 4070 SUPER 12G Ventus 3X OC 12GB GDDR6X 192 Bit DLSS 3 Ekran Kartı",
+      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
+      "Case": "VENTO VG4200S RGB Temperli Cam USB 3.0 Mesh Siyah E-ATX FSP Hydro K Pro Gen5 750W 80+ Bronze Gaming Kasa",
+      "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
+    },
+    "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/07/vento-vg4200s-rgb-temperli-cam-usb-3-0-mesh-siyah-e-atx-fsp-hydro-k-pro-gen5-750w-80-bronze-bronze-gaming-kasa-1.jpg",
+    "store": "gamingGen"
+  },
+  {
     "link": "https://www.gaming.gen.tr/urun/413299",
     "name": "VORTEX-4070TISUPER / INTEL i5-14400F / MSI GeForce RTX 4070 Ti SUPER 16G Ventus 3X OC / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 69956.54,
+    "price": 67399,
     "specs": {
       "CPU": "Intel Core i5-14600K 5.3GHz 24MB Önbellek 14 Çekirdek 1700 İşlemci",
       "Motherboard": "MSI Pro H610M-E 5600MHz (OC) DDR5 Soket 1700 M.2 HDMI VGA mATX Anakart",
@@ -3572,7 +3527,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/326386",
     "name": "VORTEX-GAMING4060 / INTEL i5-12400F / MSI GeForce RTX 4060 OC Ventus 2X Black 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 27920.17,
+    "price": 26499.01,
     "specs": {
       "CPU": "Intel Core i5-12400F 2.5GHz 18MB Önbellek 12 Çekirdek 1700 10nm İşlemci",
       "Motherboard": "MSI PRO H610M-E 3200MHz DDR4 Soket 1700 M.2 HDMI VGA mATX Anakart",
@@ -3587,7 +3542,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/406039",
     "name": "VORTEX-MAG4060Ti / INTEL i5-13400F / MSI GeForce RTX 4060 Ti Ventus 2X Black 16GB OC / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 37398.96,
+    "price": 36399,
     "specs": {
       "CPU": "Intel Core i5-13400F 4.6GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci (BX8071513400F)",
       "Motherboard": "MSI PRO H610M-E 3200MHz DDR4 Soket 1700 M.2 HDMI VGA mATX Anakart",
@@ -3600,9 +3555,24 @@
     "store": "gamingGen"
   },
   {
+    "link": "https://www.gaming.gen.tr/urun/410075",
+    "name": "VORTEX-MAG4070SUPER / INTEL i5-14400F / MSI GeForce RTX 4070 SUPER 12G Ventus 3X OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
+    "price": 50999,
+    "specs": {
+      "CPU": "Intel Core i5-14400F 4.7GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci",
+      "Motherboard": "MSI Pro H610M-E 5600MHz (OC) DDR5 Soket 1700 M.2 HDMI VGA mATX Anakart",
+      "GPU": "MSI GeForce RTX 4070 SUPER 12G Ventus 3X OC 12GB GDDR6X 192 Bit DLSS 3 Ekran Kartı",
+      "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
+      "Case": "MSI MAG FORGE 100R Tempered Glass ARGB USB 3.2 Mid Tower Kasa",
+      "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
+    },
+    "image": "https://www.gaming.gen.tr/wp-content/uploads/2021/06/msi-mag-forge-100r-tempered-glass-argb-usb-3-2-mid-tower-kasa.jpg",
+    "store": "gamingGen"
+  },
+  {
     "link": "https://www.gaming.gen.tr/urun/359769",
     "name": "VULCAN-4060 / AMD Ryzen 5 5500 MPK / GALAX GeForce RTX 4060 1-Click OC 2X V2 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 23489.87,
+    "price": 23499,
     "specs": {
       "CPU": "AMD Ryzen 5 5500 MPK 3.6GHz 16MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME A520M-K 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -3617,7 +3587,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/359835",
     "name": "VULCAN-4060Ti / AMD Ryzen 5 5500 MPK / GALAX GeForce RTX 4060 Ti 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 26786.83,
+    "price": 26799,
     "specs": {
       "CPU": "AMD Ryzen 5 5500 MPK 3.6GHz 16MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME A520M-K 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -3632,7 +3602,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/359851",
     "name": "VULCAN-4070 / AMD Ryzen 5 5600 MPK / GALAX 1-Click OC 2X GeForce RTX 4070 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 33586.83,
+    "price": 33599,
     "specs": {
       "CPU": "AMD Ryzen 5 5600 MPK 3.5GHz 32MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME A520M-K 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -3647,7 +3617,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/413890",
     "name": "VULCAN-4070SUPER / AMD Ryzen 5 7500F MPK / GALAX GeForce RTX 4070 SUPER 1-Click OC 2X V2 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 44508.08,
+    "price": 44499.01,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
@@ -3662,7 +3632,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/413940",
     "name": "VULCAN-4070TISUPER / AMD Ryzen 5 7500F MPK / GALAX GeForce RTX 4070 Ti SUPER EX Gamer 1-Click OC V2 16GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 55120.19,
+    "price": 54998.99,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart\n",
@@ -3676,8 +3646,8 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/384379",
-    "name": "VULCAN-4080SUPER / AMD Ryzen 7 7800X3D / GALAX GeForce RTX 4080 SUPER SG 1-Click OC 16GB / 16GB RAM / 1 TB M.2 SSD Gaming Bilgisayar – Star Wars Outlaws Hediyeli",
-    "price": 77271.69,
+    "name": "VULCAN-4080SUPER / AMD Ryzen 7 7800X3D / GALAX GeForce RTX 4080 SUPER SG 1-Click OC 16GB / 16GB RAM / 1 TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
+    "price": 77298.97,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci\n",
       "Motherboard": "ASUS EX-B650M-V7 8000MHz (OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart",
@@ -3692,7 +3662,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/382151",
     "name": "VULCAN-5500 / AMD Ryzen 5 5500 MPK / GALAX GeForce RTX 4060 1-Click OC 2X V2 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 22665.63,
+    "price": 22678.47,
     "specs": {
       "CPU": "AMD Ryzen 5 5500 MPK 3.6GHz 16MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME A520M-K 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -3706,12 +3676,12 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/466170",
-    "name": "VULCAN-5600 / AMD Ryzen 5 5600 MPK / GALAX GeForce RTX 4060 Ti EX 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 31526.23,
+    "name": "VULCAN-5600 / AMD Ryzen 5 5600 MPK / GALAX GeForce RTX 4060 Ti 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
+    "price": 30798.99,
     "specs": {
       "CPU": "AMD Ryzen 5 5600 MPK 3.5GHz 32MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME A520M-K 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
-      "GPU": "GALAX GeForce RTX 4060 Ti EX 1-Click OC 8GB GDDR6 128 Bit DLSS 3 Ekran Kartı (46ISL8MD8AEX) – 2 Yıl Birebir Değişim Garantili",
+      "GPU": "GALAX GeForce RTX 4060 Ti 1-Click OC 8GB GDDR6 128 Bit DLSS 3 Ekran Kartı (46ISL8MD8COC) – 2 Yıl Birebir Değişim Garantili",
       "Ram": "XPG Gammix D35 16GB (2×8) 3200MHz CL16 DDR4 Ram (AX4U32008G16A-SBKD35)\n",
       "Case": "ASUS A21 Plus ARGB Temperli Cam USB 3.2 mATX Mesh Siyah Mid Tower Gaming Kasa",
       "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
@@ -3722,7 +3692,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/359837",
     "name": "VULCAN-7500F / AMD Ryzen 5 7500F MPK / GALAX GeForce RTX 4060 Ti 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 32350.5,
+    "price": 32399.02,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
@@ -3737,7 +3707,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/502822",
     "name": "VULCAN-7600 / AMD Ryzen 5 7600 TRAY / GALAX GeForce RTX 4060 1-Click OC 2X V2 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 29465.66,
+    "price": 29499.02,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart",
@@ -3752,7 +3722,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/505104",
     "name": "VULCAN-7800X3D / AMD Ryzen 7 7800X3D / GALAX GeForce RTX 4070 1-Click OC 2X 12GB / 16GB RAM / 1 TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 50895.94,
+    "price": 50898.98,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci\n",
       "Motherboard": "ASUS Prime B650M-R 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart\n",
@@ -3767,7 +3737,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/506450",
     "name": "VULCAN-8400F / AMD Ryzen 5 8400F MPK / GALAX GeForce RTX 4060 Ti 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 31629.28,
+    "price": 31699.01,
     "specs": {
       "CPU": "AMD Ryzen 5 8400F MPK 4.7GHz 16MB Önbellek 6 Çekirdek AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
@@ -3782,7 +3752,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/505094",
     "name": "VULCAN-AIR4070 / AMD Ryzen 7 7800X3D / GALAX GeForce RTX 4070 1-Click OC 2X 12GB / 16GB RAM / 1 TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 52441.39,
+    "price": 52498.99,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci\n",
       "Motherboard": "ASUS Prime B650M-R 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart\n",
@@ -3796,12 +3766,12 @@
   },
   {
     "link": "https://www.gaming.gen.tr/urun/416342",
-    "name": "VULCAN-FENIX7500F / AMD Ryzen 5 7500F MPK / GALAX GeForce RTX 4060 Ti EX 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 33998.98,
+    "name": "VULCAN-FENIX7500F / AMD Ryzen 5 7500F MPK / GALAX GeForce RTX 4060 Ti 1-Click OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
+    "price": 33499.01,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 5.0GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart",
-      "GPU": "GALAX GeForce RTX 4060 Ti EX 1-Click OC 8GB GDDR6 128 Bit DLSS 3 Ekran Kartı (46ISL8MD8AEX) – 2 Yıl Birebir Değişim Garantili",
+      "GPU": "GALAX GeForce RTX 4060 Ti 1-Click OC 8GB GDDR6 128 Bit DLSS 3 Ekran Kartı (46ISL8MD8COC) – 2 Yıl Birebir Değişim Garantili",
       "Ram": "Corsair Vengeance 16GB 5200MHz CL40 DDR5 Ram (CMK16GX5M1B5200C40)",
       "Case": "BITFENIX Enso Mesh ARGB USB 3.0 Mid Tower E-ATX destekli Gaming Kasa (ESM-150-KKWGK-4A)",
       "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
@@ -3812,7 +3782,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/418725",
     "name": "VULCAN-MASTER4070 / AMD Ryzen 7 7800X3D TRAY / GALAX GeForce RTX 4070 1-Click OC 2X 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
-    "price": 53368.67,
+    "price": 53399,
     "specs": {
       "CPU": "AMD Ryzen 7 7800X3D Tray 5.0GHz 8 Çekirdek 96MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime B650M-R 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart",
