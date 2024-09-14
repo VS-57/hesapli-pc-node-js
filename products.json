@@ -143,10 +143,10 @@
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
       "GPU": "ASUS DUAL GeForce RTX 4070 EVO OC 12GB GDDR6X 192 Bit DLSS 3 Ekran Kartı – Star Wars Outlaws Hediyeli",
       "Ram": "Lexar Thor OC 16GB (2x8GB) 6000MHz CL38 Intel XMP 3.0 / AMD EXPO DDR5 Ram (LD5U08G60C38LG-RGD)",
-      "Case": "ENERMAX StarryFort SF21 Rainbow Temperli Cam Mesh USB 3.2 mATX Siyah Cyberbron II 600W 80+ Bronze Gaming Kasa",
+      "Case": "XPG Valor Mesh RGB Siyah Mid Tower 650W 80+ White Gaming Kasa",
       "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD"
     },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/06/enermax-starryfort-sf21-argb-temperli-cam-mesh-usb-3-2-matx-siyah-cyberbron-ii-600w-80-bronze-gaming-kasa-yyh1.jpg",
+    "image": "https://www.gaming.gen.tr/wp-content/uploads/2023/08/xpg-valor-mesh-rgb-siyah-mid-tower-650w-80-white-gaming-kasa-y.jpg",
     "store": "gamingGen"
   },
   {
@@ -227,7 +227,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/386080",
     "name": "BLADE-7700XT / AMD Ryzen 5 5600 MPK / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 30398.99,
+    "price": 29798.99,
     "specs": {
       "CPU": "AMD Ryzen 5 5600 MPK 3.5GHz 32MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME A520M-K 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -287,7 +287,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/386204",
     "name": "BLADE-DUAL7700XT / AMD Ryzen 5 5600 MPK / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 28999,
+    "price": 28399,
     "specs": {
       "CPU": "AMD Ryzen 5 5600 MPK 3.5GHz 32MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "ASUS PRIME A520M-K 4600MHz(OC) DDR4 Soket AM4 M.2 mATX Anakart",
@@ -527,7 +527,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/390210",
     "name": "CYBER-13100F / INTEL i3-13100F / ASUS Dual GeForce RTX 4060 Ti OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 29799,
+    "price": 29799.01,
     "specs": {
       "CPU": "Intel Core i3-13100F 3.4GHz 12MB Önbellek 1700 İşlemci (BX8071513100F)",
       "Motherboard": "ASUS PRIME H610M-K D4 ARGB 3200MHz DDR4 Soket 1700 M.2 HDMI mATX Anakart",
@@ -542,7 +542,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/320155",
     "name": "CYBER-4060Ti / INTEL i3-13100F / ASUS DUAL GeForce RTX 4060Ti OC 8GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 30399,
+    "price": 30399.01,
     "specs": {
       "CPU": "Intel Core i3-13100F 3.4GHz 12MB Önbellek 1700 İşlemci (BX8071513100F)",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart",
@@ -587,7 +587,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/386062",
     "name": "CYBER-7700XT / INTEL i5-13400F / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 35399.01,
+    "price": 34799.01,
     "specs": {
       "CPU": "Intel Core i5-13400F 4.6GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci (BX8071513400F)",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart",
@@ -647,7 +647,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/386183",
     "name": "CYBER-DUAL7700XT / INTEL i5-13400F / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 33998.99,
+    "price": 33398.99,
     "specs": {
       "CPU": "Intel Core i5-13400F 4.6GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci (BX8071513400F)",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart",
@@ -737,7 +737,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/523411",
     "name": "EASTER-ELLIE / AMD Ryzen 5 5600 MPK / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 29499,
+    "price": 28899,
     "specs": {
       "CPU": "AMD Ryzen 5 5600 MPK 3.5GHz 32MB Önbellek 6 Çekirdek AM4 7nm İşlemci",
       "Motherboard": "Asus Prime B450M-K II AMD 4400MHz (OC) DDR4 Soket AM4 VGA DVI HDMI M.2 mATX Anakart",
@@ -977,7 +977,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/435425",
     "name": "ELITE-DUAL7700XT / AMD Ryzen 5 7600 TRAY / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 35999.02,
+    "price": 35399.04,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart\n",
@@ -1352,7 +1352,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/338678",
     "name": "GAMING-7700XT / AMD Ryzen 5 7600 TRAY / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 34599.01,
+    "price": 33999.01,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart\n",
@@ -1412,7 +1412,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/386226",
     "name": "GAMING-DUAL7700XT / AMD Ryzen 5 7500F MPK / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 35999,
+    "price": 35399,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart\n",
@@ -1877,7 +1877,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/477957",
     "name": "MANTIS-8400F / AMD Ryzen 5 8400F MPK / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 1TB M.2 SSD Sistem Tavsiyesi",
-    "price": 34998.99,
+    "price": 34398.99,
     "specs": {
       "CPU": "AMD Ryzen 5 8400F MPK 4.7GHz 16MB Önbellek 6 Çekirdek AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart",
@@ -1952,7 +1952,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/493382",
     "name": "MANTIS-DUAL7700XT / AMD Ryzen 5 7600 TRAY / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 34499.01,
+    "price": 33899.01,
     "specs": {
       "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart",
@@ -2552,7 +2552,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/386230",
     "name": "NOVA-DUAL7700XT / INTEL i5-12400F / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 29998.99,
+    "price": 29398.99,
     "specs": {
       "CPU": "Intel Core i5-12400F 2.5GHz 18MB Önbellek 12 Çekirdek 1700 10nm İşlemci",
       "Motherboard": "ASUS PRIME H610M-K D4 ARGB 3200MHz DDR4 Soket 1700 M.2 HDMI mATX Anakart",
@@ -2910,21 +2910,6 @@
     "store": "gamingGen"
   },
   {
-    "link": "https://www.gaming.gen.tr/urun/523397",
-    "name": "PC HOCASI-GG9 / AMD Ryzen 5 7600 TRAY / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi (GameRaider XXL Mouse Pad Hediyeli!)",
-    "price": 29999.01,
-    "specs": {
-      "CPU": "AMD Ryzen 5 7600 Tray 5.1GHz 6 Çekirdek 32MB Önbellek Soket AM5 İşlemci",
-      "Motherboard": "ASUS Prime B650M-R 7200MHz (OC) DDR5 Soket AM5 M.2 HDMI mATX Anakart",
-      "GPU": "ASUS DUAL Radeon RX 7700 XT OC 12GB GDDR6 192 Bit Ekran Kartı",
-      "Ram": "XPG Lancer Blade Black 16GB (1x16GB) 6000MHz CL48 DDR5 Ram (AX5U6000C4816G-SLABBK)",
-      "Case": "ENERMAX StarryFort SF21 Rainbow Temperli Cam Mesh USB 3.2 mATX Siyah Cyberbron II 600W 80+ Bronze Gaming Kasa",
-      "Storage": "ADATA 512GB Legend 710 PCIe M.2 2280 (2400 Okuma / 1600 Yazma) SSD\n"
-    },
-    "image": "https://www.gaming.gen.tr/wp-content/uploads/2024/06/enermax-starryfort-sf21-argb-temperli-cam-mesh-usb-3-2-matx-siyah-cyberbron-ii-600w-80-bronze-gaming-kasa-yyh1.jpg",
-    "store": "gamingGen"
-  },
-  {
     "link": "https://www.gaming.gen.tr/urun/472253",
     "name": "PLATINUM-WHITE4090 / AMD Ryzen 9 7950X3D TRAY / ASUS ROG STRIX GeForce RTX 4090 OC WHITE 24GB / 32GB RAM / 1TB M.2 SSD Sistem Tavsiyesi – Star Wars Outlaws Hediyeli",
     "price": 170998.99,
@@ -3092,7 +3077,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/435421",
     "name": "RAPTOR-TUF7700XT / INTEL Core i5-13400F / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 35999,
+    "price": 35398.99,
     "specs": {
       "CPU": "Intel Core i5-13400F 4.6GHz 20MB Önbellek 10 Çekirdek 1700 İşlemci (BX8071513400F)",
       "Motherboard": "ASUS Prime H610M-R-SI 5600MHz DDR5 Soket 1700 M.2 HDMI DP VGA mATX Anakart",
@@ -3497,7 +3482,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/338687",
     "name": "ULTIMA-7700XT / AMD Ryzen 5 7500F / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 34998.99,
+    "price": 34398.98,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 5.0GHz 32MB 6 Çekirdek AM5 işlemci\n",
       "Motherboard": "ASUS Prime A620M-E CSM 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI DP VGA mATX Anakart",
@@ -3602,7 +3587,7 @@
   {
     "link": "https://www.gaming.gen.tr/urun/480748",
     "name": "ULTIMA-DUAL7700XT / AMD Ryzen 5 7500F MPK / ASUS DUAL Radeon RX 7700 XT OC 12GB / 16GB RAM / 512GB M.2 SSD Sistem Tavsiyesi",
-    "price": 33499.01,
+    "price": 32899.02,
     "specs": {
       "CPU": "AMD Ryzen 5 7500F MPK 3.7GHz 32MB 6 Çekirdek AM5 işlemci",
       "Motherboard": "ASUS Prime A620M-K 6400MHz (OC) DDR5 Soket AM5 M.2 HDMI VGA mATX Anakart",
